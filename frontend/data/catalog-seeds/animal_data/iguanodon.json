@@ -1,0 +1,70 @@
+{
+  "category": "animal",
+  "latitude": 50.9,
+  "longitude": -0.5,
+  "country_code": "GB",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Iguanodon was first discovered in Sussex, England, and fossils have since been found across Europe, including Belgium and Germany. It lived in lush floodplain forests during the Early Cretaceous period.",
+  "fun_facts": [
+    "Iguanodon was one of the very first dinosaurs ever to be named and described by scientists, back in 1825!",
+    "It had a large thumb spike on each hand, which may have been used to defend itself or to open up tough plants.",
+    "Iguanodon could walk on two legs or drop down to all four to move around — it was very flexible!",
+    "Its teeth were like those of an iguana lizard, which is how it got its name: 'iguana tooth'.",
+    "Iguanodon was one of the first dinosaurs to be depicted in life-size sculptures at Crystal Palace Park in London in 1854."
+  ],
+  "start_year": -130000000,
+  "end_year": -125000000,
+  "time_precision": "mya",
+  "media": [{"media_type": "image", "label": "Iguanodon", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Iguanodon",
+      "description": "Iguanodon was one of the first dinosaurs ever discovered, found in the English countryside in the 1820s. This large plant-eater could walk on two legs or four and had a distinctive thumb spike on each hand. It roamed the forests of Europe about 125 to 130 million years ago."
+    },
+    {
+      "lang": "vi",
+      "title": "Khủng Long Iguanodon",
+      "description": "Iguanodon là một trong những loài khủng long đầu tiên từng được phát hiện, được tìm thấy ở vùng nông thôn nước Anh vào những năm 1820. Loài ăn cỏ lớn này có thể đi bằng hai hoặc bốn chân và có cái gai ngón cái đặc biệt ở mỗi bàn tay. Nó lang thang qua các khu rừng châu Âu vào khoảng 125 đến 130 triệu năm trước."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What does the name 'Iguanodon' mean?",
+      "question_type": "single",
+      "options": ["Iguana foot", "Iguana tooth", "Iguana skin", "Iguana tail"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tên 'Iguanodon' có nghĩa là gì?",
+      "question_type": "single",
+      "options": ["Chân kỳ nhông", "Răng kỳ nhông", "Da kỳ nhông", "Đuôi kỳ nhông"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What unusual feature did Iguanodon have on each hand?",
+      "question_type": "single",
+      "options": ["Long claws", "A thumb spike", "Webbed fingers", "Extra-long fingers"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Iguanodon có đặc điểm bất thường nào ở mỗi bàn tay?",
+      "question_type": "single",
+      "options": ["Móng vuốt dài", "Gai ngón cái", "Ngón tay có màng", "Ngón tay cực dài"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

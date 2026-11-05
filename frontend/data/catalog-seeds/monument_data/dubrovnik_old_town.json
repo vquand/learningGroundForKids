@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 42.6507,
+  "longitude": 18.0944,
+  "country_code": "HR",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Stari Grad (Old Town), Dubrovnik, Dubrovnik-Neretva County, Croatia",
+  "fun_facts": [
+    "You can walk all the way around Dubrovnik's Old Town on top of its ancient city walls — the walk is nearly 2 kilometers long!",
+    "Dubrovnik was used as the filming location for King's Landing in the famous TV show Game of Thrones.",
+    "The streets of Dubrovnik's Old Town are paved with smooth limestone that has been polished so shiny by millions of footsteps that it almost looks like marble."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Dubrovnik Old Town",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Dubrovnik Old Town",
+      "description": "Dubrovnik Old Town is a stunning walled city on the Adriatic coast of Croatia, known for its gleaming limestone streets, orange-roofed buildings, and massive stone walls that once kept enemies out. It is nicknamed the 'Pearl of the Adriatic' because of its incredible beauty.",
+      "history": "Dubrovnik was founded in the 7th century and grew into a powerful and wealthy republic known as Ragusa, famous for its skilled merchants and diplomats. Its remarkable medieval walls were built between the 13th and 16th centuries to protect the city from invaders."
+    },
+    {
+      "lang": "vi",
+      "title": "Phố Cổ Dubrovnik",
+      "description": "Phố cổ Dubrovnik là một thành phố có tường bao quanh tuyệt đẹp trên bờ biển Adriatic của Croatia, nổi tiếng với những con đường đá vôi sáng bóng, nhà mái cam và những bức tường đá khổng lồ. Nó được mệnh danh là 'Viên Ngọc của biển Adriatic' vì vẻ đẹp phi thường của mình.",
+      "history": "Dubrovnik được thành lập vào thế kỷ 7 và phát triển thành một cộng hòa giàu có và quyền lực tên là Ragusa, nổi tiếng với các thương nhân và nhà ngoại giao tài giỏi. Những bức tường trung cổ đáng chú ý được xây dựng từ thế kỷ 13 đến thế kỷ 16 để bảo vệ thành phố khỏi kẻ xâm lược."
+    }
+  ],
+  "start_year": 614,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Dubrovnik Old Town located?",
+      "question_type": "single",
+      "options": ["Slovenia", "Serbia", "Croatia", "Montenegro"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Phố Cổ Dubrovnik nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Slovenia", "Serbia", "Croatia", "Montenegro"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What nickname is Dubrovnik known by?",
+      "question_type": "single",
+      "options": ["Pearl of the Mediterranean", "Crown of the Balkans", "Pearl of the Adriatic", "Jewel of Croatia"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Dubrovnik được biết đến với biệt danh nào?",
+      "question_type": "single",
+      "options": ["Viên Ngọc Địa Trung Hải", "Vương miện Balkan", "Viên Ngọc biển Adriatic", "Báu vật Croatia"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

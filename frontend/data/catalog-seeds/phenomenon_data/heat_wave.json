@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": -37.8136,
+  "longitude": 144.9631,
+  "country_code": "AU",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "Melbourne, Australia once reached 48.8 degrees Celsius — that is almost hot enough to fry an egg on the footpath!",
+    "During a heat wave, the ground can get so hot that animals like kangaroos seek shade and barely move all day to stay cool.",
+    "Australia is the hottest inhabited continent on Earth, meaning more people live through extreme heat there than anywhere else!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Heat Wave",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Heat Wave",
+      "description": "A heat wave is a long stretch of unusually hot weather that can last for several days or even weeks. The air feels like a giant oven, and everything — roads, playgrounds, and even the ground — gets scorching hot.",
+      "history": "Melbourne, Australia experienced one of the world's most extreme heat waves when temperatures soared to 48.8°C in January 2009. Australia regularly records some of the hottest temperatures on Earth because of its vast desert interior."
+    },
+    {
+      "lang": "vi",
+      "title": "Sóng Nhiệt (Đợt Nóng)",
+      "description": "Sóng nhiệt là những ngày trời nóng bức bất thường, có thể kéo dài nhiều ngày hoặc cả tuần. Không khí nóng như trong lò nướng, và mọi thứ xung quanh đều rất bỏng.",
+      "history": "Melbourne, Úc từng ghi nhận nhiệt độ lên đến 48,8 độ C vào tháng 1 năm 2009 — đây là một trong những đợt nóng khốc liệt nhất thế giới. Úc thường xuyên có nhiệt độ cao nhất trên Trái Đất nhờ có vùng sa mạc rộng lớn ở trung tâm."
+    }
+  ],
+  "start_year": -3000,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is a heat wave?",
+      "question_type": "single",
+      "options": ["A giant ocean wave", "A long period of unusually hot weather", "A wave of cold air", "A storm with lightning"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Sóng nhiệt là gì?",
+      "question_type": "single",
+      "options": ["Một con sóng biển khổng lồ", "Một thời gian dài thời tiết nóng bất thường", "Một làn sóng không khí lạnh", "Một cơn bão kèm sét"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which country is the hottest inhabited continent on Earth?",
+      "question_type": "single",
+      "options": ["Africa", "Australia", "South America", "Asia"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Lục địa có người sinh sống nóng nhất trên Trái Đất là lục địa nào?",
+      "question_type": "single",
+      "options": ["Châu Phi", "Châu Úc", "Nam Mỹ", "Châu Á"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

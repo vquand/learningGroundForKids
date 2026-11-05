@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": -18.2861,
+  "longitude": 147.6992,
+  "country_code": "AU",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "The Great Barrier Reef stretches over 2,300 kilometers along the northeastern coast of Queensland, Australia, in the Coral Sea.",
+  "fun_facts": [
+    "The Great Barrier Reef is the largest living structure on Earth — it is so big that astronauts can see it from outer space!",
+    "It is made up of over 2,900 individual reefs and is home to more than 1,500 species of fish — that is more kinds of fish than you could count in a lifetime.",
+    "Coral looks like colorful rock but it is actually made of billions of tiny living animals called polyps that build their own hard shells."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Great Barrier Reef",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Great Barrier Reef",
+      "description": "The Great Barrier Reef is the most spectacular underwater world on the planet, stretching for over 2,300 kilometers along the coast of Australia. It is a living rainbow beneath the sea, packed with neon-colored fish, giant sea turtles, playful dolphins, and mysterious sharks all living together in one enormous coral city. It is so massive that it is the largest structure ever built by living creatures — including humans!",
+      "history": "The Great Barrier Reef began forming around 20,000 years ago when sea levels rose at the end of the last Ice Age, allowing coral to grow over ancient coastal hills that became submerged. Aboriginal and Torres Strait Islander peoples have known and revered the reef for over 60,000 years, weaving it into their Dreamtime stories and cultural traditions. It was formally recognized as a UNESCO World Heritage Site in 1981 and is considered one of the greatest natural treasures on Earth."
+    },
+    {
+      "lang": "vi",
+      "title": "Rạn San Hô Lớn",
+      "description": "Rạn san hô lớn là thế giới dưới nước ấn tượng nhất hành tinh, trải dài hơn 2.300 km dọc bờ biển nước Úc. Đây là một cầu vồng sống động dưới lòng biển, đầy cá có màu neon, rùa biển khổng lồ, cá heo nghịch ngợm và cá mập bí ẩn cùng nhau sống trong một thành phố san hô khổng lồ. Nó lớn đến mức là công trình lớn nhất từng được tạo ra bởi sinh vật sống — kể cả con người!",
+      "history": "Rạn san hô lớn bắt đầu hình thành khoảng 20.000 năm trước khi mực nước biển dâng lên sau Kỳ Băng Hà cuối cùng, cho phép san hô phát triển trên những ngọn đồi ven biển bị nhấm chìm xuống. Người bản địa Aboriginal và Torres Strait Islander đã biết và tôn kính rạn san hô này hơn 60.000 năm, đưa nó vào các câu chuyện Dreamtime và truyền thống văn hóa của họ. Nó được công nhận là Di sản Thế giới UNESCO năm 1981."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is the Great Barrier Reef located?",
+      "question_type": "single",
+      "options": ["Indonesia", "Philippines", "Australia", "New Zealand"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Rạn San Hô Lớn nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Indonesia", "Philippines", "Australia", "New Zealand"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How long is the Great Barrier Reef?",
+      "question_type": "single",
+      "options": ["500 kilometers", "1,000 kilometers", "2,300 kilometers", "5,000 kilometers"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Rạn San Hô Lớn dài bao nhiêu ki-lô-mét?",
+      "question_type": "single",
+      "options": ["500 km", "1.000 km", "2.300 km", "5.000 km"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -500000,
+  "time_precision": "kya"
+}

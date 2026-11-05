@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS ufo_progress;
+DROP TABLE IF EXISTS ufo_words;

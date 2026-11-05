@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": -22.9519,
+  "longitude": -43.2105,
+  "country_code": "BR",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Corcovado Mountain, Tijuca National Park, Rio de Janeiro, Brazil",
+  "fun_facts": [
+    "Christ the Redeemer stands 30 meters tall on top of a mountain — and the mountain itself is already 710 meters high, so the statue can be seen from almost anywhere in Rio de Janeiro!",
+    "Lightning strikes the statue about 6 times every year, but it is protected by lightning rods hidden inside.",
+    "About 2 million people visit Christ the Redeemer every year, making it one of the most visited monuments in the world."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Christ the Redeemer",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Christ the Redeemer",
+      "description": "Christ the Redeemer is a huge statue of Jesus Christ standing with his arms wide open on top of Corcovado Mountain overlooking the beautiful city of Rio de Janeiro in Brazil. It is one of the New Seven Wonders of the World.",
+      "history": "The statue was built between 1922 and 1931 and was designed by Brazilian engineer Heitor da Silva Costa with sculptures by French artist Paul Landowski. It has become the most famous symbol of Brazil and of Rio de Janeiro."
+    },
+    {
+      "lang": "vi",
+      "title": "Tượng Chúa Giang Tay",
+      "description": "Tượng Chúa Giang Tay là một bức tượng khổng lồ về Chúa Giêsu đang đứng với hai cánh tay mở rộng trên đỉnh núi Corcovado nhìn xuống thành phố tuyệt đẹp Rio de Janeiro ở Brazil. Đây là một trong Bảy Kỳ quan Thế giới Mới.",
+      "history": "Bức tượng được xây dựng từ năm 1922 đến 1931 và được thiết kế bởi kỹ sư người Brazil Heitor da Silva Costa với điêu khắc bởi nghệ nhân người Pháp Paul Landowski. Nó đã trở thành biểu tượng nổi tiếng nhất của Brazil và của Rio de Janeiro."
+    }
+  ],
+  "start_year": 1931,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is the Christ the Redeemer statue located?",
+      "question_type": "single",
+      "options": ["Argentina", "Brazil", "Colombia", "Chile"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tượng Chúa Giang Tay nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Argentina", "Brazil", "Colombia", "Chile"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "On top of which mountain does Christ the Redeemer stand?",
+      "question_type": "single",
+      "options": ["Sugarloaf Mountain", "Corcovado Mountain", "Serra dos Órgãos", "Pedra Bonita"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Tượng Chúa Giang Tay đứng trên đỉnh núi nào?",
+      "question_type": "single",
+      "options": ["Núi Sugarloaf", "Núi Corcovado", "Serra dos Órgãos", "Pedra Bonita"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

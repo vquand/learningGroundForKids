@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 55.7558,
+  "longitude": 37.6173,
+  "country_code": "RU",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Pyotr Ilyich Tchaikovsky",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Waltz of the Snowflakes (Nutcracker) — Pyotr Ilyich Tchaikovsky",
+      "description": "This enchanting waltz sounds like hundreds of snowflakes swirling and spinning in the air — light, magical, and full of wonder like a snowy winter night!",
+      "history": "Tchaikovsky wrote this as part of his famous Nutcracker ballet in 1892 — the ballet tells the story of a girl named Clara who goes on a magical adventure on Christmas Eve."
+    },
+    {
+      "lang": "vi",
+      "title": "Vũ Điệu Bông Tuyết (Kẹp Hạt Dẻ) — Pyotr Ilyich Tchaikovsky",
+      "description": "Bản waltz huyền bí này nghe như hàng trăm bông tuyết đang xoay và quay trong không khí — nhẹ nhàng, thần kỳ, và đầy sự kỳ diệu như một đêm đông tuyết rơi!",
+      "history": "Tchaikovsky viết bản nhạc này như một phần của vũ điệu Kẹp Hạt Dẻ nổi tiếng vào năm 1892 — vũ điệu kể câu chuyện của một cô bé tên Clara đi vào một cuộc phiêu lưu kỳ diệu vào đêm Giáng Sinh."
+    }
+  ],
+  "start_year": 1892,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed the Nutcracker ballet?", "question_type": "single", "options": ["Prokofiev", "Stravinsky", "Tchaikovsky", "Rimsky-Korsakov"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác vũ điệu ballet Kẹp Hạt Dẻ?", "question_type": "single", "options": ["Prokofiev", "Stravinsky", "Tchaikovsky", "Rimsky-Korsakov"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "The Nutcracker ballet tells the story of a girl named Clara on which holiday?", "question_type": "single", "options": ["Halloween", "New Year's Eve", "Christmas Eve", "Easter"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Vũ điệu Kẹp Hạt Dẻ kể câu chuyện về cô bé Clara vào ngày lễ nào?", "question_type": "single", "options": ["Halloween", "Đêm Giao Thừa", "Đêm Giáng Sinh", "Lễ Phục Sinh"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

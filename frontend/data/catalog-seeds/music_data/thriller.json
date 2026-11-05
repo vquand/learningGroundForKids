@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 41.5934,
+  "longitude": -87.3466,
+  "country_code": "US",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Michael Jackson",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Thriller — Michael Jackson",
+      "description": "A spooky and exciting pop song that sounds like a Halloween adventure, with creaking doors, scary laughs, and an awesome zombie dance!",
+      "history": "Michael Jackson released Thriller in 1982 and its music video — with a whole army of dancing zombies — was so spectacular it changed the way music videos were made forever!"
+    },
+    {
+      "lang": "vi",
+      "title": "Thriller — Michael Jackson",
+      "description": "Một bài nhạc pop rùng rợn và hào hứng giống như một cuộc phiêu lưu Halloween, với tiếng cửa kẽo két, tiếng cười đáng sợ và vũ điệu zombie cực kỳ ấn tượng!",
+      "history": "Michael Jackson phát hành Thriller năm 1982 và video âm nhạc của nó — với cả một đội quân zombie nhảy múa — huy hoàng đến mức thay đổi mãi mãi cách làm video âm nhạc!"
+    }
+  ],
+  "start_year": 1982,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who performed the song 'Thriller'?", "question_type": "single", "options": ["Prince", "Michael Jackson", "James Brown", "David Bowie"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai biểu diễn bài hát 'Thriller'?", "question_type": "single", "options": ["Prince", "Michael Jackson", "James Brown", "David Bowie"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "The 'Thriller' music video is famous for featuring dancing what?", "question_type": "single", "options": ["Robots", "Zombies", "Aliens", "Skeletons"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Video âm nhạc 'Thriller' nổi tiếng vì có những gì đang nhảy múa?", "question_type": "single", "options": ["Robot", "Zombie", "Người ngoài hành tinh", "Bộ xương"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

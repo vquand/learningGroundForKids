@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 40.7128,
+  "longitude": -74.006,
+  "country_code": "US",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Alex",
+      "image_url": null,
+      "description": "A famous lion from the Central Park Zoo who loves performing for crowds but must learn to survive in the wild."
+    },
+    {
+      "name": "Marty",
+      "image_url": null,
+      "description": "A curious zebra who dreams of living in the wild and convinces his friends to escape the zoo."
+    },
+    {
+      "name": "Gloria",
+      "image_url": null,
+      "description": "A confident and kind hippo who is one of the most popular animals at the Central Park Zoo."
+    },
+    {
+      "name": "Melman",
+      "image_url": null,
+      "description": "A tall and nervous giraffe who worries about everything but always sticks by his friends."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Madagascar poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Madagascar (2005)",
+      "description": "Four pampered zoo animals from New York City find themselves stranded on the wild island of Madagascar and must learn to survive together.",
+      "history": "The movie was inspired by the real island of Madagascar, which lies off the east coast of Africa and is home to thousands of unique animals found nowhere else on Earth."
+    },
+    {
+      "lang": "vi",
+      "title": "Madagascar (2005)",
+      "description": "Bốn con vật được nuông chiều trong vườn thú New York bất ngờ lạc đến hòn đảo hoang dã Madagascar và phải học cách sống sót cùng nhau.",
+      "history": "Phim được lấy cảm hứng từ hòn đảo Madagascar thật, nằm ở phía đông châu Phi, nơi có hàng ngàn loài động vật độc đáo chỉ tồn tại ở đây."
+    }
+  ],
+  "start_year": 2005,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What animal is Alex in the movie Madagascar?",
+      "question_type": "single",
+      "options": ["A tiger", "A cheetah", "A lion", "A leopard"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Alex là loài động vật gì trong phim Madagascar?",
+      "question_type": "single",
+      "options": ["Một con hổ", "Một con báo đốm", "Một con sư tử", "Một con báo"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which continent is the island of Madagascar located near?",
+      "question_type": "single",
+      "options": ["South America", "Asia", "Australia", "Africa"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hòn đảo Madagascar nằm gần châu lục nào?",
+      "question_type": "single",
+      "options": ["Nam Mỹ", "Châu Á", "Úc", "Châu Phi"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

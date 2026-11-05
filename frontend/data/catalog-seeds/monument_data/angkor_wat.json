@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 13.4125,
+  "longitude": 103.867,
+  "country_code": "KH",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Angkor Wat, Siem Reap Province, Cambodia",
+  "fun_facts": [
+    "Angkor Wat is the largest religious monument in the world — it's so big it covers an area larger than 400 football fields!",
+    "The temple was originally built as a Hindu temple but later became a Buddhist temple — it has been a place of worship for over 900 years without stopping!",
+    "Angkor Wat appears on Cambodia's national flag — it's the only building in the world to appear on a country's flag."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Angkor Wat",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Angkor Wat",
+      "description": "Angkor Wat is a breathtaking ancient temple complex in Cambodia, with tall stone towers rising above the jungle and a wide moat surrounding it like a magical island. It is the world's largest religious monument.",
+      "history": "Built in the early 12th century by the Khmer King Suryavarman II, Angkor Wat was originally dedicated to the Hindu god Vishnu. Over time it became a Buddhist temple. It was designated a UNESCO World Heritage Site in 1992."
+    },
+    {
+      "lang": "vi",
+      "title": "Đền Angkor Wat",
+      "description": "Angkor Wat là một quần thể đền cổ kỳ vĩ ở Campuchia, với những tháp đá cao chót vót vươn lên trên rừng rậm và một con hào rộng bao quanh như một hòn đảo thần bí. Đây là công trình tôn giáo lớn nhất thế giới.",
+      "history": "Được xây dựng vào đầu thế kỷ 12 bởi vua Khmer Suryavarman II, Angkor Wat ban đầu được xây để thờ thần Vishnu của Ấn Độ giáo. Theo thời gian, nó trở thành một ngôi chùa Phật giáo. Khu di tích được UNESCO công nhận năm 1992."
+    }
+  ],
+  "start_year": 1113,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Angkor Wat located?",
+      "question_type": "single",
+      "options": ["Thailand", "Vietnam", "Cambodia", "Laos"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Angkor Wat nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Thái Lan", "Việt Nam", "Campuchia", "Lào"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Angkor Wat appears on which country's national flag?",
+      "question_type": "single",
+      "options": ["Thailand", "Cambodia", "India", "Vietnam"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Angkor Wat xuất hiện trên quốc kỳ của nước nào?",
+      "question_type": "single",
+      "options": ["Thái Lan", "Campuchia", "Ấn Độ", "Việt Nam"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

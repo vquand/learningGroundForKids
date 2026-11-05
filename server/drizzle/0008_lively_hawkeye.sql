@@ -1,0 +1,1 @@
+ALTER TABLE "quiz_questions" ADD COLUMN "question_group_id" text;

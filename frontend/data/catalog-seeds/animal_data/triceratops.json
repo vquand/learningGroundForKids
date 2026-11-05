@@ -1,0 +1,70 @@
+{
+  "category": "animal",
+  "latitude": 43.0,
+  "longitude": -104.5,
+  "country_code": "US",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Triceratops fossils have been found across western North America, especially in Wyoming, Montana, and the Dakotas. It lived in open woodlands and plains near rivers during the Late Cretaceous period.",
+  "fun_facts": [
+    "Triceratops had three horns — two long ones above its eyes and one shorter one on its nose.",
+    "Its frill at the back of its head could be up to 1 metre wide — about as wide as a bicycle!",
+    "Triceratops was a plant eater, munching on tough ferns and plants with its strong beak.",
+    "It may have used its horns to fight other Triceratops and to defend itself from T-Rex.",
+    "Triceratops was one of the very last dinosaurs alive before the big extinction 66 million years ago."
+  ],
+  "start_year": -68000000,
+  "end_year": -66000000,
+  "time_precision": "mya",
+  "media": [{"media_type": "image", "label": "Triceratops", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Triceratops",
+      "description": "Triceratops was a large plant-eating dinosaur famous for its three impressive horns and the big bony frill around its head. About the size of an elephant, it used its horns to defend itself from predators like T-Rex. It lived 66 to 68 million years ago in North America."
+    },
+    {
+      "lang": "vi",
+      "title": "Khủng Long Ba Sừng",
+      "description": "Triceratops là loài khủng long ăn cỏ lớn nổi tiếng với ba chiếc sừng ấn tượng và vành xương lớn quanh đầu. Có kích thước bằng một con voi, nó dùng sừng để bảo vệ mình khỏi các kẻ săn mồi như T-Rex. Triceratops sống từ 66 đến 68 triệu năm trước ở Bắc Mỹ."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "How many horns did Triceratops have?",
+      "question_type": "single",
+      "options": ["One", "Two", "Three", "Four"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Triceratops có bao nhiêu chiếc sừng?",
+      "question_type": "single",
+      "options": ["Một", "Hai", "Ba", "Bốn"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What did Triceratops eat?",
+      "question_type": "single",
+      "options": ["Fish", "Other dinosaurs", "Plants and ferns", "Insects"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Triceratops ăn gì?",
+      "question_type": "single",
+      "options": ["Cá", "Khủng long khác", "Cây cỏ và dương xỉ", "Côn trùng"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

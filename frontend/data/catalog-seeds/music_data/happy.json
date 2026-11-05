@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 34.0522,
+  "longitude": -118.2437,
+  "country_code": "US",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Pharrell Williams",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Happy — Pharrell Williams",
+      "description": "A super bouncy and cheerful pop song from Los Angeles that makes you want to clap your hands and skip around with a big smile on your face!",
+      "history": "Pharrell Williams wrote Happy in 2013 for the movie Despicable Me 2, and it became so popular that fans from 153 different countries recorded their own happy dance videos!"
+    },
+    {
+      "lang": "vi",
+      "title": "Happy — Pharrell Williams",
+      "description": "Một bài nhạc pop vui nhộn và rực rỡ từ Los Angeles khiến bạn muốn vỗ tay và nhảy lò cò với nụ cười tươi trên khuôn mặt!",
+      "history": "Pharrell Williams viết Happy năm 2013 cho bộ phim Kẻ Trộm Mặt Trăng 2, và nó trở nên phổ biến đến mức người hâm mộ từ 153 quốc gia khác nhau đã quay video vũ điệu vui vẻ của riêng họ!"
+    }
+  ],
+  "start_year": 2013,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Which movie featured the song 'Happy' by Pharrell Williams?", "question_type": "single", "options": ["Minions", "Despicable Me 2", "Shrek", "The Croods"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Bộ phim nào có bài hát 'Happy' của Pharrell Williams?", "question_type": "single", "options": ["Minions", "Kẻ Trộm Mặt Trăng 2", "Shrek", "Gia Đình Croods"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Who sang the song 'Happy'?", "question_type": "single", "options": ["Bruno Mars", "Pharrell Williams", "will.i.am", "Usher"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Ai hát bài 'Happy'?", "question_type": "single", "options": ["Bruno Mars", "Pharrell Williams", "will.i.am", "Usher"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

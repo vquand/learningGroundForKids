@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 37.7565,
+  "longitude": -119.5966,
+  "country_code": "US",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Yosemite Falls is located in Yosemite National Park in the Sierra Nevada mountains of California, USA, dropping in three tiers down a sheer granite cliff face.",
+  "fun_facts": [
+    "Yosemite Falls is the tallest waterfall in all of North America, dropping a total of 739 metres — that is taller than two Eiffel Towers stacked on top of each other!",
+    "In late winter, a rare 'firefall' effect happens at a nearby cliff where the setting sun makes the waterfall glow bright orange like lava!",
+    "Yosemite Falls completely dries up in late summer because all the mountain snow has melted away — it just disappears!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Yosemite Falls",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Yosemite Falls",
+      "description": "Yosemite Falls is the tallest waterfall in North America, tumbling down three giant steps carved into a huge wall of grey granite rock in California. The top part alone drops 436 metres, which is taller than the Eiffel Tower! In spring, when mountain snow melts, the falls roar with incredible power and fill the valley below with thundering mist.",
+      "history": "The Ahwahneechee people lived in Yosemite Valley for thousands of years and held the falls as a sacred place. American soldiers and settlers first entered the valley in 1851, and soon people from all over the world came to marvel at its beauty. In 1864, President Abraham Lincoln signed a law protecting Yosemite, making it one of the first places in the world to receive government protection as a natural wonder."
+    },
+    {
+      "lang": "vi",
+      "title": "Thác Yosemite",
+      "description": "Thác Yosemite là thác nước cao nhất Bắc Mỹ, đổ xuống ba bậc khổng lồ được khắc trên một bức tường đá granite xám khổng lồ ở California. Phần trên cùng đổ xuống một mình 436 mét, cao hơn cả Tháp Eiffel! Vào mùa xuân, khi tuyết trên núi tan chảy, thác đổ xuất với sức mạnh kinh ngạc và lấp ngập thung lũng phía dưới bằng sương mù sấm sét.",
+      "history": "Người Ahwahneechee đã sống trong thung lũng Yosemite từ hàng nghìn năm trước và coi thác là một nơi thần thánh. Lính Mỹ và những người định cư lần đầu tiên vào thung lũng vào năm 1851, và chẳng bao lâu các du khách từ khắp nơi trên thế giới đến để ngạc nhiên trước vẻ đẹp của nó. Năm 1864, Tổng thống Abraham Lincoln ký một đạo luật bảo vệ Yosemite, biến nó trở thành một trong những nơi đầu tiên trên thế giới được chính phủ bảo vệ như kỳ quan thiên nhiên."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Yosemite Falls is the tallest waterfall in which continent?",
+      "question_type": "single",
+      "options": ["South America", "Europe", "North America", "Africa"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Thác Yosemite là thác nước cao nhất ở châu lục nào?",
+      "question_type": "single",
+      "options": ["Nam Mỹ", "Châu Âu", "Bắc Mỹ", "Châu Phi"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "In which US state is Yosemite Falls located?",
+      "question_type": "single",
+      "options": ["Oregon", "Nevada", "California", "Washington"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Thác Yosemite nằm ở tiểu bang nào của Mỹ?",
+      "question_type": "single",
+      "options": ["Oregon", "Nevada", "California", "Washington"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -11000,
+  "time_precision": "kya"
+}

@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 52.9727,
+  "longitude": -9.4263,
+  "country_code": "IE",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "The Cliffs of Moher are dramatic sea cliffs stretching 14 kilometers along the Atlantic coast of County Clare in western Ireland, rising up to 214 meters above the crashing waves.",
+  "fun_facts": [
+    "The Cliffs of Moher are so tall that if you dropped a ball from the top, it would take about 6.5 seconds to reach the crashing waves below!",
+    "Around 30,000 seabirds — including puffins, razorbills, and guillemots — nest in the cracks and ledges of the cliffs every spring.",
+    "On a very clear day you can see all the way to the Aran Islands, the Twelve Pins mountains in Galway, and even Loop Head from the top of the cliffs."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Cliffs of Moher",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Cliffs of Moher",
+      "description": "The Cliffs of Moher are Ireland's most dramatic natural wonder, where ancient shale and sandstone cliffs plunge 214 meters straight down into the wild Atlantic Ocean. Fierce ocean winds whip along the clifftop path while waves far below crash against the rock face with a thunderous roar. Tens of thousands of seabirds swirl in the updrafts, nesting in the cliff face every spring.",
+      "history": "The rock layers visible in the cliffs were formed around 320 million years ago from sediments deposited at the bottom of a shallow tropical sea. The cliffs take their English name from a ruined promontory fort called Moher, which once stood at the headland. A watchtower called O'Brien's Tower was built on the cliffs in 1835 by local landlord Cornelius O'Brien, and today over 1.5 million visitors come each year to gaze out at the thundering Atlantic."
+    },
+    {
+      "lang": "vi",
+      "title": "Vách Đá Moher",
+      "description": "Vách Đá Moher là kỳ quan thiên nhiên ấn tượng nhất của Ireland, nơi những vách đá phiến thạch và cát kết cổ xưa đổ thẳng xuống 214 mét vào đại Tây Dương dữ dội. Gió bão lớn hét dọc theo con đường trên đỉnh vách đá trong khi những con sóng bên dưới áp vào mặt đá với tiếng gầm vang. Hàng chục nghìn chim biển lượn vòng trong luồng gió thẳng, làm tổ trên mặt vách đá mỗi mùa xuân.",
+      "history": "Các lớp đá hiện ra trên vách đá được hình thành khoảng 320 triệu năm trước từ các trầm tích lắng đọng dưới đáy một biển nhiệt đới cạn. Vách đá lấy tên tiếng Anh từ một pháo lũy nhỏ gọi là Moher, từng dựng trên mũi đất. Một tháp canh gọi là Tháp O'Brien được xây dựng trên vách đá năm 1835 bởi địa chủ địa phương Cornelius O'Brien, và ngày nay hơn 1,5 triệu du khách đến mỗi năm để nhìn ra đại Tây Dương hùng vĩ."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country are the Cliffs of Moher located?",
+      "question_type": "single",
+      "options": ["Scotland", "Ireland", "England", "Wales"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Vách Đá Moher nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Scotland", "Ireland", "Anh", "Wales"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How tall are the Cliffs of Moher at their highest point?",
+      "question_type": "single",
+      "options": ["100 meters", "150 meters", "214 meters", "300 meters"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Vách Đá Moher cao bao nhiêu tại điểm cao nhất?",
+      "question_type": "single",
+      "options": ["100 mét", "150 mét", "214 mét", "300 mét"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -340000000,
+  "time_precision": "mya"
+}

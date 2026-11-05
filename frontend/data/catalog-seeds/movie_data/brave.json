@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 55.9533,
+  "longitude": -3.1883,
+  "country_code": "GB",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Merida",
+      "image_url": null,
+      "description": "A fiercely independent Scottish princess with wild red hair who is an expert archer and refuses to follow the rules set out for her."
+    },
+    {
+      "name": "Queen Elinor",
+      "image_url": null,
+      "description": "Merida's strong and graceful mother who is accidentally turned into a bear and must reconnect with her adventurous daughter."
+    },
+    {
+      "name": "King Fergus",
+      "image_url": null,
+      "description": "Merida's big, boisterous father who loves storytelling, feasting, and protecting his kingdom from danger."
+    },
+    {
+      "name": "The Wisps",
+      "image_url": null,
+      "description": "Mysterious glowing blue lights that appear in the Scottish forest and lead Merida toward her fate."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Brave poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Brave (2012)",
+      "description": "Scottish princess Merida defies an ancient tradition and accidentally turns her mother into a bear, sending the two on a wild journey to reverse the spell before it is too late.",
+      "history": "Brave is set in the Scottish Highlands and draws on Scottish folklore, castle ruins, and ancient clan traditions that still exist in Scotland today."
+    },
+    {
+      "lang": "vi",
+      "title": "Công Chúa Dũng Cảm (2012)",
+      "description": "Công chúa Scotland Merida thách thức một phong tục cổ xưa và vô tình biến mẹ thành gấu, khiến hai mẹ con phải lao vào một cuộc phiêu lưu điên rồ để hóa giải lời nguyền.",
+      "history": "Brave được đặt trong bối cảnh Cao nguyên Scotland và lấy cảm hứng từ truyện dân gian Scotland, các tòa lâu đài cổ và truyền thống thị tộc còn tồn tại đến ngày nay."
+    }
+  ],
+  "start_year": 2012,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What country is Princess Merida from in the movie Brave?",
+      "question_type": "single",
+      "options": ["Ireland", "Norway", "Scotland", "Wales"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Công chúa Merida trong phim Brave đến từ nước nào?",
+      "question_type": "single",
+      "options": ["Ireland", "Na Uy", "Scotland", "Wales"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What does Merida accidentally turn her mother into in Brave?",
+      "question_type": "single",
+      "options": ["A wolf", "A horse", "A bird", "A bear"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Merida vô tình biến mẹ thành gì trong phim Brave?",
+      "question_type": "single",
+      "options": ["Một con sói", "Một con ngựa", "Một con chim", "Một con gấu"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

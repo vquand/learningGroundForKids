@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 40.7128,
+  "longitude": -74.006,
+  "country_code": "US",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Alan Menken",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Under the Sea (The Little Mermaid) — Alan Menken",
+      "description": "A bubbly, toe-tapping Caribbean tune about the colorful, exciting life under the ocean — you will want to dance like a fish when you hear it!",
+      "history": "Composer Alan Menken and lyricist Howard Ashman created this song for The Little Mermaid in 1989, and it won an Academy Award for Best Original Song!"
+    },
+    {
+      "lang": "vi",
+      "title": "Dưới Lòng Biển Cả (Nàng Tiên Cá) — Alan Menken",
+      "description": "Đây là một bài hát sôi động mang phong cách Caribbean về cuộc sống đầy màu sắc và thú vị dưới lòng đại dương — bạn sẽ muốn nhảy múa khi nghe nó!",
+      "history": "Nhạc sĩ Alan Menken và tác giả lời bài hát Howard Ashman sáng tác bài này cho phim Nàng Tiên Cá năm 1989, và nó đã giành giải Oscar cho Bài Hát Gốc Hay Nhất!"
+    }
+  ],
+  "start_year": 1989,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "'Under the Sea' is from which Disney movie?", "question_type": "single", "options": ["Finding Nemo", "Moana", "The Little Mermaid", "Luca"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Bài 'Dưới Lòng Biển Cả' đến từ bộ phim Disney nào?", "question_type": "single", "options": ["Hành Trình Tìm Nemo", "Moana", "Nàng Tiên Cá", "Luca"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Who composed the music for 'The Little Mermaid'?", "question_type": "single", "options": ["John Williams", "Randy Newman", "Alan Menken", "Phil Collins"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Ai đã sáng tác nhạc phim 'Nàng Tiên Cá'?", "question_type": "single", "options": ["John Williams", "Randy Newman", "Alan Menken", "Phil Collins"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 48.853,
+  "longitude": 2.3499,
+  "country_code": "FR",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "6 Parvis Notre-Dame - Pl. Jean-Paul II, 75004 Paris, France",
+  "fun_facts": [
+    "Notre-Dame took nearly 200 years to build — workers who laid the first stones never lived to see the finished cathedral!",
+    "The famous gargoyles on the roof are not just decoration — they are actually water spouts designed to drain rainwater away from the walls.",
+    "After the devastating 2019 fire, over 340,000 oak trees were donated from forests all over France to help rebuild the cathedral's wooden roof."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Notre-Dame Cathedral",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Notre-Dame Cathedral",
+      "description": "A magnificent medieval Gothic cathedral on the Ile de la Cite island in the heart of Paris, France, famous for its stunning stained glass rose windows and iconic twin towers.",
+      "history": "Construction began in 1163 under Bishop Maurice de Sully and was mostly completed by 1345. The cathedral has witnessed many key moments in French history, including the coronation of Napoleon Bonaparte."
+    },
+    {
+      "lang": "vi",
+      "title": "Nhà thờ Đức Bà Paris",
+      "description": "Một nhà thờ Gothic trung cổ tuyệt đẹp trên đảo Ile de la Cite ở trung tâm Paris, Pháp, nổi tiếng với những cửa sổ kính màu sắc tuyệt đẹp và đôi tháp biểu tượng.",
+      "history": "Việc xây dựng bắt đầu vào năm 1163 dưới thời Giám mục Maurice de Sully và phần lớn được hoàn thành vào năm 1345. Nhà thờ đã chứng kiến nhiều thời điểm quan trọng trong lịch sử Pháp, bao gồm lễ đăng quang của Napoleon Bonaparte."
+    }
+  ],
+  "start_year": 1163,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which city is Notre-Dame Cathedral located?",
+      "question_type": "single",
+      "options": ["Lyon", "Marseille", "Paris", "Bordeaux"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Nhà thờ Đức Bà Notre-Dame nằm ở thành phố nào?",
+      "question_type": "single",
+      "options": ["Lyon", "Marseille", "Paris", "Bordeaux"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What architectural style is Notre-Dame Cathedral built in?",
+      "question_type": "single",
+      "options": ["Baroque", "Renaissance", "Gothic", "Romanesque"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Nhà thờ Đức Bà Notre-Dame được xây theo phong cách kiến trúc nào?",
+      "question_type": "single",
+      "options": ["Baroque", "Phục Hưng", "Gothic", "Romanesque"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

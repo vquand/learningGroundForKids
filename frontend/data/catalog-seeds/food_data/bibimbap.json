@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 37.5665,
+  "longitude": 126.978,
+  "country_code": "KR",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Cook rice and set it aside. Fry veggies like spinach, carrots, and mushrooms in a pan with a little oil. Put the rice in a bowl, arrange the veggies on top, add a fried egg, and mix everything together with a spoonful of spicy red sauce called gochujang!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Bibimbap",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Bibimbap",
+      "description": "Bibimbap is a colorful Korean rice bowl topped with lots of yummy vegetables, a fried egg, and a sweet-spicy red sauce. You mix it all together before eating — that is what makes it so fun!",
+      "history": "Bibimbap has been enjoyed in Korea for hundreds of years and was first made as a way to use up leftover rice and vegetables. Today it is one of Korea's most famous dishes, loved by people all around the world."
+    },
+    {
+      "lang": "vi",
+      "title": "Bibimbap",
+      "description": "Bibimbap là một bát cơm đầy màu sắc của Hàn Quốc, phía trên có nhiều rau xanh ngon, một quả trứng chiên và sốt ớt đỏ ngọt cay. Bạn trộn hết mọi thứ lại trước khi ăn - đó là điều làm nó rất vui!",
+      "history": "Bibimbap đã được người Hàn Quốc thưởng thức trong hàng trăm năm và ban đầu được làm từ cơm và rau củ còn dư. Ngày nay nó là một trong những món ăn nổi tiếng nhất của Hàn Quốc."
+    }
+  ],
+  "start_year": 1400,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country does Bibimbap come from?",
+      "question_type": "single",
+      "options": ["Japan", "China", "Korea", "Vietnam"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Bibimbap đến từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Nhật Bản", "Trung Quốc", "Hàn Quốc", "Việt Nam"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is the spicy red sauce mixed into Bibimbap called?",
+      "question_type": "single",
+      "options": ["Sriracha", "Gochujang", "Sambal", "Harissa"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Sốt ớt đỏ cay trộn vào Bibimbap có tên là gì?",
+      "question_type": "single",
+      "options": ["Sriracha", "Gochujang", "Sambal", "Harissa"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

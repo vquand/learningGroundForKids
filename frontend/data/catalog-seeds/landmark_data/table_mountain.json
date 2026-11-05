@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": -33.9628,
+  "longitude": 18.4098,
+  "country_code": "ZA",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Table Mountain overlooks Cape Town in South Africa, forming part of the Cape Floral Region at the southern tip of Africa.",
+  "fun_facts": [
+    "Table Mountain is over 600 million years old — it was already ancient when dinosaurs roamed the Earth!",
+    "The flat top of Table Mountain is sometimes covered by a white cloud called the 'Tablecloth' that rolls in like a fluffy blanket.",
+    "There are more kinds of plants on Table Mountain than in the entire United Kingdom!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Table Mountain",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Table Mountain",
+      "description": "Table Mountain is a giant, flat-topped mountain that stands guard over Cape Town, South Africa, like a huge stone throne. Its top is so wide and flat you could fit a whole city up there! On some days, fluffy white clouds spill over its edges like a magical tablecloth.",
+      "history": "Table Mountain is one of the oldest mountains in the world, formed over 600 million years ago from ancient sandstone. Sailors used to navigate their ships by spotting it from the ocean, making it one of the most famous landmarks in all of Africa. The mountain is home to thousands of unique plants and animals found nowhere else on Earth."
+    },
+    {
+      "lang": "vi",
+      "title": "Núi Bàn",
+      "description": "Núi Bàn là một ngọn núi khổng lồ có đỉnh bằng phẳng đứng canh thành phố Cape Town ở Nam Phi, trông như một cái ngai vàng khổng lồ bằng đá. Đỉnh núi rộng và phẳng đến mức bạn có thể xây cả một thành phố trên đó! Một số ngày, mây trắng bồng bềnh tràn ra trên cạnh núi như một tấm khăn bàn ma thuật.",
+      "history": "Núi Bàn là một trong những ngọn núi cổ nhất thế giới, được hình thành hơn 600 triệu năm trước từ đá cát cổ đại. Các thuyền trưởng ngày xưa thường nhìn vào nó để dẫn đường tàu trên biển, khiến nó trở thành một trong những điểm mốc nổi tiếng nhất châu Phi. Ngọn núi này là nhà của hàng nghìn loài thực vật và động vật độc đáo chỉ có ở đây trên Trái Đất."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Table Mountain overlooks which city in South Africa?",
+      "question_type": "single",
+      "options": ["Johannesburg", "Durban", "Pretoria", "Cape Town"],
+      "correct_answers": [3],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Núi Bàn nhìn xuống thành phố nào ở Nam Phi?",
+      "question_type": "single",
+      "options": ["Johannesburg", "Durban", "Pretoria", "Cape Town"],
+      "correct_answers": [3],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is the name of the white cloud that covers the top of Table Mountain?",
+      "question_type": "single",
+      "options": ["The Blanket", "The Tablecloth", "The Cape Cloud", "The Fog Hat"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Tên của đám mây trắng che phủ đỉnh Núi Bàn là gì?",
+      "question_type": "single",
+      "options": ["Tấm Chăn", "Khăn Trải Bàn", "Mây Cape", "Mũ Sương"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -140000000,
+  "time_precision": "mya"
+}

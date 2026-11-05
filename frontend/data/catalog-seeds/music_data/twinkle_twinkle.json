@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "country_code": "FR",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Traditional (French origin)",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Twinkle Twinkle Little Star — Traditional (French origin)",
+      "description": "One of the most beloved songs for children everywhere, this cheerful tune makes you look up at the night sky and wonder about the sparkling stars twinkling above!",
+      "history": "The melody originally came from a French song called 'Ah! vous dirai-je, maman' from the 1700s — even Mozart wrote a set of fun piano variations on this very same tune!"
+    },
+    {
+      "lang": "vi",
+      "title": "Nhấp Nháy Ngôi Sao Nhỏ — Truyền thống (nguồn gốc Pháp)",
+      "description": "Một trong những bài hát được yêu thích nhất dành cho trẻ em khắp nơi, giai điệu vui tươi này khiến bạn nhìn lên bầu trời đêm và tự hỏi về những ngôi sao lóng lánh phía trên!",
+      "history": "Giai điệu ban đầu đến từ một bài hát Pháp gọi là 'Ah! vous dirai-je, maman' từ những năm 1700 — ngay cả Mozart cũng đã viết một bộ biến tấu piano vui nhộn dựa trên chính giai điệu này!"
+    }
+  ],
+  "start_year": 1806,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "The melody of 'Twinkle Twinkle Little Star' originally came from which country?", "question_type": "single", "options": ["England", "Germany", "France", "Italy"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Giai điệu của 'Nhấp Nháy Ngôi Sao Nhỏ' ban đầu đến từ nước nào?", "question_type": "single", "options": ["Anh", "Đức", "Pháp", "Ý"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Which famous composer wrote piano variations on the 'Twinkle Twinkle' melody?", "question_type": "single", "options": ["Bach", "Mozart", "Beethoven", "Haydn"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Nhà soạn nhạc nổi tiếng nào đã viết biến tấu piano theo giai điệu 'Twinkle Twinkle'?", "question_type": "single", "options": ["Bach", "Mozart", "Beethoven", "Haydn"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

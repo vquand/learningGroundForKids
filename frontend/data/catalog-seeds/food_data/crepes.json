@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 48.202,
+  "longitude": -2.9326,
+  "country_code": "FR",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Mix flour, eggs, milk, and a little butter into a smooth thin batter. Pour a small ladleful onto a hot flat pan and swirl it around to make a super thin circle. Cook for one minute, flip, then fill with your favorite toppings like Nutella, strawberries, or lemon and sugar — fold and enjoy!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Crepes",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Crepes",
+      "description": "Crepes are thin, delicate French pancakes that can be filled with sweet things like chocolate and fruit, or savory fillings like cheese and ham. They are fun to fold and eat!",
+      "history": "Crepes come from the Brittany region in northwestern France, where they have been made for hundreds of years. Every year on February 2nd, French people celebrate La Chandeleur by making and eating lots of crepes for good luck!"
+    },
+    {
+      "lang": "vi",
+      "title": "Crepes",
+      "description": "Crepes là những chiếc bánh kếp mỏng manh của Pháp có thể cuốn nhân ngọt như sô cô la và trái cây, hoặc nhân mặn như phô mai và giăm bông. Cuốn và ăn chúng rất vui!",
+      "history": "Crepes có nguồn gốc từ vùng Brittany ở miền Tây Bắc nước Pháp, nơi chúng đã được làm từ hàng trăm năm trước. Mỗi năm vào ngày 2 tháng 2, người Pháp ăn mừng La Chandeleur bằng cách làm và ăn nhiều crepes để cầu may mắn!"
+    }
+  ],
+  "start_year": 1390,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which region of France did Crepes come from?",
+      "question_type": "single",
+      "options": ["Normandy", "Alsace", "Brittany", "Provence"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Crepes đến từ vùng nào của nước Pháp?",
+      "question_type": "single",
+      "options": ["Normandy", "Alsace", "Brittany", "Provence"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "On which date do French people celebrate making Crepes for good luck?",
+      "question_type": "single",
+      "options": ["January 1st", "February 2nd", "March 3rd", "April 4th"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Người Pháp làm Crepes để cầu may mắn vào ngày nào?",
+      "question_type": "single",
+      "options": ["Ngày 1 tháng 1", "Ngày 2 tháng 2", "Ngày 3 tháng 3", "Ngày 4 tháng 4"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

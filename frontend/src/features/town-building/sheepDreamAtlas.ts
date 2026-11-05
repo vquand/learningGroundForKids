@@ -1,0 +1,2 @@
+// Measured alpha crops and body-mass anchors; original PNG pixels are unchanged.
+export const SHEEP_DREAM_ATLAS={"file":"sheep-dream-jump-v1","width":1536,"height":1024,"maxWidth":450,"maxHeight":365,"frames":[{"crop":[88,162,387,288],"anchor":[204.63,143.84]},{"crop":[600,82,372,365],"anchor":[196.68,182.42]},{"crop":[1094,91,358,310],"anchor":[193.98,157.42]},{"crop":[53,578,450,314],"anchor":[238.33,163.09]},{"crop":[565,643,429,299],"anchor":[245.12,127.42]},{"crop":[1094,691,386,252],"anchor":[200.54,121.94]}]} as const;

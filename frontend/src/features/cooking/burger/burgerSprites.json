@@ -1,0 +1,457 @@
+{
+  "dough-round": {
+    "sheet": "buns",
+    "size": [
+      1983,
+      793
+    ],
+    "crop": [
+      15,
+      74,
+      367,
+      297
+    ]
+  },
+  "dough-heart": {
+    "sheet": "buns",
+    "size": [
+      1983,
+      793
+    ],
+    "crop": [
+      409,
+      79,
+      375,
+      293
+    ]
+  },
+  "dough-flower": {
+    "sheet": "buns",
+    "size": [
+      1983,
+      793
+    ],
+    "crop": [
+      808,
+      55,
+      365,
+      313
+    ]
+  },
+  "dough-star": {
+    "sheet": "buns",
+    "size": [
+      1983,
+      793
+    ],
+    "crop": [
+      1204,
+      46,
+      375,
+      324
+    ]
+  },
+  "dough-square": {
+    "sheet": "buns",
+    "size": [
+      1983,
+      793
+    ],
+    "crop": [
+      1616,
+      74,
+      355,
+      297
+    ]
+  },
+  "bun-round": {
+    "sheet": "buns",
+    "size": [
+      1983,
+      793
+    ],
+    "crop": [
+      15,
+      419,
+      367,
+      302
+    ]
+  },
+  "bun-heart": {
+    "sheet": "buns",
+    "size": [
+      1983,
+      793
+    ],
+    "crop": [
+      408,
+      422,
+      376,
+      300
+    ]
+  },
+  "bun-flower": {
+    "sheet": "buns",
+    "size": [
+      1983,
+      793
+    ],
+    "crop": [
+      807,
+      404,
+      366,
+      313
+    ]
+  },
+  "bun-star": {
+    "sheet": "buns",
+    "size": [
+      1983,
+      793
+    ],
+    "crop": [
+      1204,
+      398,
+      374,
+      323
+    ]
+  },
+  "bun-square": {
+    "sheet": "buns",
+    "size": [
+      1983,
+      793
+    ],
+    "crop": [
+      1615,
+      420,
+      356,
+      301
+    ]
+  },
+  "raw-patty": {
+    "sheet": "ingredients",
+    "size": [
+      1086,
+      1448
+    ],
+    "crop": [
+      20,
+      150,
+      369,
+      246
+    ]
+  },
+  "patty": {
+    "sheet": "ingredients",
+    "size": [
+      1086,
+      1448
+    ],
+    "crop": [
+      393,
+      150,
+      344,
+      246
+    ]
+  },
+  "cheese": {
+    "sheet": "ingredients",
+    "size": [
+      1086,
+      1448
+    ],
+    "crop": [
+      741,
+      156,
+      345,
+      250
+    ]
+  },
+  "lettuce": {
+    "sheet": "ingredients",
+    "size": [
+      1086,
+      1448
+    ],
+    "crop": [
+      15,
+      470,
+      367,
+      303
+    ]
+  },
+  "tomato-slice": {
+    "sheet": "ingredients",
+    "size": [
+      1086,
+      1448
+    ],
+    "crop": [
+      390,
+      497,
+      337,
+      267
+    ]
+  },
+  "pickles": {
+    "sheet": "ingredients",
+    "size": [
+      1086,
+      1448
+    ],
+    "crop": [
+      733,
+      542,
+      353,
+      202
+    ]
+  },
+  "ketchup": {
+    "sheet": "ingredients",
+    "size": [
+      1086,
+      1448
+    ],
+    "crop": [
+      20,
+      883,
+      367,
+      157
+    ]
+  },
+  "mayo": {
+    "sheet": "ingredients",
+    "size": [
+      1086,
+      1448
+    ],
+    "crop": [
+      393,
+      888,
+      349,
+      162
+    ]
+  },
+  "burger-sauce": {
+    "sheet": "ingredients",
+    "size": [
+      1086,
+      1448
+    ],
+    "crop": [
+      746,
+      893,
+      340,
+      155
+    ]
+  },
+  "tomato": {
+    "sheet": "ingredients",
+    "size": [
+      1086,
+      1448
+    ],
+    "crop": [
+      21,
+      1124,
+      333,
+      295
+    ]
+  },
+  "bottom-bun": {
+    "sheet": "ingredients",
+    "size": [
+      1086,
+      1448
+    ],
+    "crop": [
+      384,
+      1183,
+      344,
+      226
+    ]
+  },
+  "plate": {
+    "sheet": "ingredients",
+    "size": [
+      1086,
+      1448
+    ],
+    "crop": [
+      738,
+      1199,
+      348,
+      201
+    ]
+  },
+  "board": {
+    "sheet": "tools",
+    "size": [
+      1536,
+      1024
+    ],
+    "crop": [
+      25,
+      164,
+      464,
+      250
+    ]
+  },
+  "rolling-pin": {
+    "sheet": "tools",
+    "size": [
+      1536,
+      1024
+    ],
+    "crop": [
+      529,
+      224,
+      509,
+      139
+    ]
+  },
+  "toaster": {
+    "sheet": "tools",
+    "size": [
+      1536,
+      1024
+    ],
+    "crop": [
+      1101,
+      140,
+      412,
+      320
+    ]
+  },
+  "pan": {
+    "sheet": "tools",
+    "size": [
+      1536,
+      1024
+    ],
+    "crop": [
+      49,
+      564,
+      473,
+      334
+    ]
+  },
+  "knife": {
+    "sheet": "tools",
+    "size": [
+      1536,
+      1024
+    ],
+    "crop": [
+      529,
+      667,
+      515,
+      129
+    ]
+  },
+  "steam": {
+    "sheet": "tools",
+    "size": [
+      1536,
+      1024
+    ],
+    "crop": [
+      1140,
+      573,
+      325,
+      320
+    ]
+  },
+  "pick-flower": {
+    "sheet": "decorations",
+    "size": [
+      1536,
+      1024
+    ],
+    "crop": [
+      116,
+      67,
+      340,
+      414
+    ]
+  },
+  "pick-star": {
+    "sheet": "decorations",
+    "size": [
+      1536,
+      1024
+    ],
+    "crop": [
+      608,
+      71,
+      318,
+      412
+    ]
+  },
+  "pick-heart": {
+    "sheet": "decorations",
+    "size": [
+      1536,
+      1024
+    ],
+    "crop": [
+      1095,
+      96,
+      337,
+      387
+    ]
+  },
+  "flower": {
+    "sheet": "decorations",
+    "size": [
+      1536,
+      1024
+    ],
+    "crop": [
+      96,
+      571,
+      401,
+      369
+    ]
+  },
+  "flame": {
+    "sheet": "decorations",
+    "size": [
+      1536,
+      1024
+    ],
+    "crop": [
+      590,
+      550,
+      340,
+      407
+    ]
+  },
+  "cheeseburger": {
+    "sheet": "decorations",
+    "size": [
+      1536,
+      1024
+    ],
+    "crop": [
+      1047,
+      549,
+      438,
+      422
+    ]
+  },
+  "capybara": {
+    "sheet": "capybara-chef",
+    "size": [
+      1149,
+      1368
+    ],
+    "crop": [
+      85,
+      17,
+      996,
+      1328
+    ]
+  }
+}

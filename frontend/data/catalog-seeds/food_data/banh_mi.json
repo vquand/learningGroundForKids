@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 10.8231,
+  "longitude": 106.6297,
+  "country_code": "VN",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Slice a crispy baguette open and spread a little mayonnaise and pate inside. Fill it with sliced pork, pickled carrots and daikon, cucumber, and fresh cilantro. Close it up and take a big crunchy bite!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Banh Mi",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Banh Mi",
+      "description": "Banh Mi is a delicious Vietnamese sandwich made with a crispy baguette stuffed with savory meats, pickled vegetables, and fresh herbs. It is crunchy on the outside and packed with amazing flavors inside.",
+      "history": "Banh Mi was created in Vietnam after the French introduced baguette bread during the 1800s. Vietnamese cooks cleverly filled the bread with local ingredients and spices, creating one of the world's most famous street foods."
+    },
+    {
+      "lang": "vi",
+      "title": "Bánh Mì",
+      "description": "Bánh mì là một chiếc bánh sandwich Việt Nam với vỏ bánh giòn rụm, nhân đầy thịt, đồ chua, dưa leo và rau thơm. Bên ngoài giòn, bên trong đầy đủ vị ngon khiến bạn không thể ngờ được.",
+      "history": "Bánh mì ra đời ở Việt Nam sau khi người Pháp mang bánh mì baguette vào thế kỷ 19. Người Việt đã sáng tạo thêm nhân ngon với nguyên liệu địa phương, tạo nên một trong những món ăn đường phố nổi tiếng nhất thế giới."
+    }
+  ],
+  "start_year": 1955,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country invented Banh Mi?",
+      "question_type": "single",
+      "options": ["France", "Vietnam", "China", "Thailand"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Quốc gia nào đã sáng tạo ra Bánh Mì?",
+      "question_type": "single",
+      "options": ["Pháp", "Việt Nam", "Trung Quốc", "Thái Lan"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What type of bread is used to make Banh Mi?",
+      "question_type": "single",
+      "options": ["Pita bread", "Rye bread", "Baguette", "Flatbread"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Loại bánh mì nào được dùng để làm Bánh Mì?",
+      "question_type": "single",
+      "options": ["Bánh pita", "Bánh mì đen", "Bánh baguette", "Bánh phẳng"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

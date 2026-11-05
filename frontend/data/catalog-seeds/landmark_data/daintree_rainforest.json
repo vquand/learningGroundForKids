@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": -16.1672,
+  "longitude": 145.4186,
+  "country_code": "AU",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "The Daintree Rainforest is the world's oldest surviving tropical rainforest, located in Far North Queensland, Australia, near Cairns, where ancient jungle meets the Great Barrier Reef coastline.",
+  "fun_facts": [
+    "The Daintree is the oldest rainforest on Earth — it has been alive and growing for over 180 million years, long before dinosaurs went extinct!",
+    "It is the only place in the world where two UNESCO World Heritage sites — the rainforest and the Great Barrier Reef — sit right next to each other.",
+    "The cassowary, a giant bird taller than most grown-ups and with a razor-sharp claw on each foot, lives only here and in a few other tropical forests."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Daintree Rainforest",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Daintree Rainforest",
+      "description": "The Daintree Rainforest in Australia is the oldest jungle on Earth, filled with plants and animals that look like they belong in the age of dinosaurs. Giant ferns, tree kangaroos, and enormous crocodiles in the rivers make it feel like stepping back in time. At the coast, the ancient forest actually meets the bright turquoise water of the Great Barrier Reef — two wonders side by side.",
+      "history": "The Daintree has existed for at least 180 million years, making it older than the Amazon and even older than many mountain ranges. The Kuku Yalanji Aboriginal people have lived in and cared for this forest for over 50,000 years, weaving its plants, animals, and waterways into their culture and stories. The area was named after explorer Richard Daintree in the 1800s, and it became a UNESCO World Heritage site in 1988."
+    },
+    {
+      "lang": "vi",
+      "title": "Rừng Nhiệt Đới Daintree",
+      "description": "Rừng Daintree ở Australia là khu rừng già nhất Trái Đất, đầy đường những cây cỏ và động vật trông như còn từ thời khủng long. Dương xỉ khổng lồ, kanguru leo cây và cá sấu chằm to trong sông khiến bạn có cảm giác như đang quay ngược thời gian. Ở bờ biển, khu rừng cổ xưa tiếp giáp thẳng với nước xanh ngọc bích của Rạn San Hô Lớn — hai kỳ quan đặt cạnh nhau.",
+      "history": "Rừng Daintree đã tồn tại ít nhất 180 triệu năm, già hơn cả rừng Amazon và nhiều dãy núi trên thế giới. Người Aboriginal Kuku Yalanji đã sống và chăm sóc khu rừng này hơn 50.000 năm, gắn bó cây cỏ, động vật và sông suối vào văn hóa và truyền thống của họ. Khu vực này được đặt tên theo nhà thám hiểm Richard Daintree vào thế kỷ 19 và trở thành Di sản Thế giới UNESCO năm 1988."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is the Daintree Rainforest located?",
+      "question_type": "single",
+      "options": ["Brazil", "Indonesia", "Australia", "Papua New Guinea"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Rừng nhiệt đới Daintree nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Brazil", "Indonesia", "Australia", "Papua New Guinea"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How old is the Daintree Rainforest?",
+      "question_type": "single",
+      "options": ["10 million years", "55 million years", "180 million years", "500 million years"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Rừng nhiệt đới Daintree bao nhiêu tuổi?",
+      "question_type": "single",
+      "options": ["10 triệu năm", "55 triệu năm", "180 triệu năm", "500 triệu năm"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -135000000,
+  "time_precision": "mya"
+}

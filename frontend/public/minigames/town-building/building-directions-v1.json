@@ -1,0 +1,1288 @@
+{
+  "version": 1,
+  "generator": "built-in image_gen",
+  "measurementAlphaThreshold": 32,
+  "footprintNotation": "height x width = Blueprint.width x Blueprint.length (rows x columns)",
+  "registration": "Same private artwork catalog as coop/barn/haven directions; runtime direction selection is not implemented.",
+  "buildings": {
+    "house": {
+      "footprint": {
+        "front": [
+          2,
+          3
+        ],
+        "back": [
+          2,
+          3
+        ],
+        "left": [
+          3,
+          2
+        ],
+        "right": [
+          3,
+          2
+        ]
+      },
+      "views": {
+        "left": {
+          "file": "house-left-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            138,
+            227,
+            771,
+            1023
+          ],
+          "groundAnchor": [
+            513,
+            1250
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "buildings-minimal-v2.png",
+            "house-left-v1.png (original cottage-only version)",
+            "terrain-minimal-v2.png",
+            "crop-growth.png",
+            "wooden-fence.svg (rendered reference)"
+          ],
+          "prompt": "Use case: compositing / style-consistent game sprite regeneration.\nCreate ONE LEFT side cottage with a small front garden, using the actual project's supplied art references. Consistency with those exact assets is the priority.\nREFERENCES:\n1. buildings-minimal-v2.png: TOP LEFT cream/coral cottage only is the primary style and building identity. Match its flat clean warm-brown outlines, restrained pastel colors and minimal details.\n2. original house-left-v1.png: direct SIDE ELEVATION CAMERA and architecture. One wall only, NO YAW. Honey arched entrance is only a narrow edge-on strip at LEFT. Keep coral curved roof, single cream story, short cream chimney with tan cap, blue round crossbar window.\n3. terrain-minimal-v2.png: use the first-row PINK AND CREAM FIVE-ROUNDED-PETAL FLOWERS, muted sage green, and simple restrained leaves as exact garden vocabulary.\n4. crop-growth.png: use 2 or 3 SMALL individual vegetable plants like its pea or carrot plants, with natural distinct stems/leaves and a tiny unframed brown soil oval underneath. Match these actual plant shapes, not generic puffy shrubs.\n5. wooden fence reference: same flat tan wood #dfb67c, muted cocoa #6b4935 outlines, slim posts and TWO horizontal rails. Keep fence small, low and simple.\nCOMPOSITION AND FOOTPRINT: a straight rectangular installation HEIGHT 3 ROWS x WIDTH 2 COLUMNS on a square-tile map. Parallel VERTICAL side boundaries at constant width, horizontal front edge. Cottage in BACK HALF, sparse small garden in FRONT HALF. All plants/fence contained inside the same rectangle. NO trapezoid, oval, diamond, widening skirt or isometric/perspective ground. Use plain muted sage ground extending straight down toward viewer. The rectangular ground has NO dark perimeter outline, NO frame, NO raised border, NO planter box. Allow the plain ground to sit naturally on Town terrain. Flowers and crops are separate small existing-style accents separated by generous open ground, not large bushes or a dense bouquet. No giant tulips, heart-shaped flowers, enormous leaves, opaque puffy shrub masses or thick brown-bordered beds. A low double-rail fence across PART of the front edge leaves open lawn visible.\nKeep cottage geometry from reference 2 but match overall style of reference 1. Outline weight must be consistent relative to object scale: warm-brown rounded outline, modest plant strokes like references 3/4, no exaggerated black/thick sticker outlines, no lighting or gradients. Garden plants are subordinate to cottage and small, do not cover its wall/window.\nFORMAT: 1024x1536 RGBA portrait. Entire cottage and garden silhouette completely inside 120px clear transparent margins on all sides. Bottom-center garden-ground anchor. True alpha transparent outside silhouette including corners, no ambient halo/haze/glow, cast shadow, black background or checkerboard. No text, animals, characters, signboards, watermarks, other buildings. One single complete sprite only, not a sheet.",
+          "production": "Built-in image_gen, 2026-10-26; source PNG copied unchanged.",
+          "footprintComposition": "Rectangular 3-row by 2-column installation; constant-width parallel lawn sides; cottage in back half and chubby garden in front half.",
+          "editPrompt": "Use case: precise-object-edit. Edit the supplied cottage-and-garden sprite. PRESERVE the cottage identity, direct side elevation zero yaw, cream body/coral roof/chimney/round blue window/edge-on honey door, flat style, exact flower shapes, distinct carrot and pea plants on tiny soil ovals, simple tan double-rail fence. These flower/plant/fence styles now match the project's references. Do not redraw them as different species or chunky bordered planters.\nCHANGE ONLY FOOTPRINT GEOMETRY AND FRAMING:\n1. The current green lawn incorrectly widens toward the viewer, creating a trapezoid. Replace that with a plain RECTANGLE: EXACTLY VERTICAL parallel left and right sides, constant width top to bottom, horizontal lower edge, square 90-degree corners with at most tiny rounding. Left lawn edge x=170 and right lawn edge x=854, BOTH at top and bottom. NO sloping side edge anywhere. No outline/frame on lawn. No perspective, taper, isometric ground, oval or widening skirt.\n2. Reposition/scale the small plants and short fence so EVERY part stays inside this same rectangle. Keep sparse open ground. No leaf or fence post projecting out past x=170 or x=854.\n3. The whole sprite is an installation 3 rows HEIGHT by 2 columns WIDTH: cottage in the back half, garden in front half. House roof also contained within x=160 to x=864. Keep a clearly deeper-than-wide rectangular installation. Entire visible silhouette within x=150..874, y=160..1376 on a 1024x1536 canvas, so at least 120px clear margin on all edges. Uniformly scale objects as needed, no stretching.\n4. Alpha-zero background outside silhouette, transparent corners and clear margins. Remove haze/glow/halo, soft outer shadows and ambient colored mist completely; outlines end directly at transparency. Keep flat pastel fills and modest warm-brown outlines. No gradients, new props, text, people or animals. Output ONE complete LEFT sprite, same 1024x1536 RGBA.",
+          "sourceImage": "generated_images/01a17641-e331-7f40-839f-926b8505f9dc/exec-bacede16-16c6-432a-bb34-8ce74b91945f.png",
+          "alphaVerification": "RGBA 1024x1536; four corner alpha values are zero; visible-silhouette margins exceed 80px at the catalog alpha threshold of 32; original generated alpha preserved."
+        },
+        "right": {
+          "file": "house-right-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            115,
+            227,
+            771,
+            1023
+          ],
+          "groundAnchor": [
+            511,
+            1250
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "house-left-v1.png"
+          ],
+          "prompt": "Exact pixel-preserving horizontal flip of the regenerated rectangular 3-row by 2-column house-left-v1.png, using Pillow Image.Transpose.FLIP_LEFT_RIGHT. No generative redraw.",
+          "production": "Deterministic horizontal flip of left RGBA pixels using Pillow, 2026-10-26.",
+          "footprintComposition": "Rectangular 3-row by 2-column installation; constant-width parallel lawn sides; cottage in back half and chubby garden in front half.",
+          "alphaVerification": "RGBA 1024x1536; four corner alpha values are zero; visible-silhouette margins exceed 80px at the catalog alpha threshold of 32; original generated alpha preserved."
+        },
+        "back": {
+          "file": "house-back-v1.png",
+          "width": 1536,
+          "height": 1024,
+          "rect": [
+            359,
+            192,
+            818,
+            640
+          ],
+          "groundAnchor": [
+            768.0,
+            832
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "buildings-minimal-v2.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. ONLY the TOP LEFT cottage in image 1: single-storey cream body, coral salmon softly curved roof, one short cream chimney with tan cap, blue round crossbar window and honey wooden arched entrance. Do not use any of the seven other buildings. Authoritative tile footprint HEIGHT x WIDTH 2x3 front/rear; LEFT/RIGHT swaps to 3x2. Preserve world dimensions: side-wall horizontal width is 2/3 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY REAR-facing installation, entrance points screen TOP/NORTH away from camera. Direct REAR elevation, no side wall. Closed cream (or building's existing wall color) rear wall, NO main door, front awning, front emblems/signs, front displays, entrance columns, entrance pediment or front porch. Retain real roof volumes, chimney (switch lateral position on 180-degree rotation), tower/storeys and sparse blue rear windows. No front facade copied onto rear. 1536x1024 landscape canvas; ONE complete building."
+        }
+      },
+      "front": {
+        "file": "buildings-minimal-v2.png",
+        "width": 1774,
+        "height": 887,
+        "rects": [
+          [
+            41,
+            116,
+            359,
+            307
+          ]
+        ]
+      }
+    },
+    "town-hall": {
+      "footprint": {
+        "front": [
+          4,
+          4
+        ],
+        "back": [
+          4,
+          4
+        ],
+        "left": [
+          4,
+          4
+        ],
+        "right": [
+          4,
+          4
+        ]
+      },
+      "views": {
+        "left": {
+          "file": "town-hall-left-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            168,
+            252,
+            702,
+            925
+          ],
+          "groundAnchor": [
+            519.0,
+            1177
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "buildings-minimal-v2.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. ONLY BOTTOM ROW THIRD building in image 1: civic Town Hall, cream body, golden yellow roof, raised central rounded pediment, slim roof flagpole with coral flag, small side wings, honey wooden double door and small cream front columns. Preserve the separate central tall volume and two lower wings; ignore other buildings. Authoritative tile footprint HEIGHT x WIDTH 4x4 front/rear; LEFT/RIGHT swaps to 4x4. Preserve world dimensions: side-wall horizontal width is 4/4 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY LEFT-facing installation, entrance faces screen LEFT. Direct SIDE elevation of ONE side wall, main front facade completely edge-on at LEFT; front door is hidden except a thin brown edge cue. Front awning only projects slightly from LEFT edge, never across entire side wall. Side wall may have ONE modest blue crossbar window (two vertically stacked for two-storey house). Preserve roof geometry turned sideways; gable not pasted onto side. Front signs/emblems disappear edge-on. 1024x1536 portrait canvas; ONE complete building."
+        },
+        "right": {
+          "file": "town-hall-right-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            158,
+            250,
+            695,
+            927
+          ],
+          "groundAnchor": [
+            505.5,
+            1177
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "town-hall-left-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Input is the approved LEFT-facing town-hall Town building sprite. Produce ONLY its horizontally mirrored RIGHT/EAST-facing counterpart. Mirror the entire building silhouette horizontally so entrance edge/awning/porch faces RIGHT, chimney and windows mirror horizontally. Keep exact architecture, number of storeys, roof volumes, dimensions, scale, outline thickness, palette, flat shading, all vertical positions, alpha transparency and generous gutters. Authoritative footprint HEIGHT x WIDTH 4x4 front/rear, 4x4 left/right. Direct SIDE orthographic elevation of ONE side wall, no three-quarter yaw, no new front door on visible side, no redesign or extra features, no people, animals, scenery, ground, lettering, labels, shadow or watermark. Same 1024x1536 RGBA PNG canvas with genuine alpha=0 outside silhouette. Output ONE right-facing sprite only."
+        },
+        "back": {
+          "file": "town-hall-back-v1.png",
+          "width": 1536,
+          "height": 1024,
+          "rect": [
+            304,
+            109,
+            926,
+            755
+          ],
+          "groundAnchor": [
+            767.0,
+            864
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "buildings-minimal-v2.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. ONLY BOTTOM ROW THIRD building in image 1: civic Town Hall, cream body, golden yellow roof, raised central rounded pediment, slim roof flagpole with coral flag, small side wings, honey wooden double door and small cream front columns. Preserve the separate central tall volume and two lower wings; ignore other buildings. Authoritative tile footprint HEIGHT x WIDTH 4x4 front/rear; LEFT/RIGHT swaps to 4x4. Preserve world dimensions: side-wall horizontal width is 4/4 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY REAR-facing installation, entrance points screen TOP/NORTH away from camera. Direct REAR elevation, no side wall. Closed cream (or building's existing wall color) rear wall, NO main door, front awning, front emblems/signs, front displays, entrance columns, entrance pediment or front porch. Retain real roof volumes, chimney (switch lateral position on 180-degree rotation), tower/storeys and sparse blue rear windows. No front facade copied onto rear. 1536x1024 landscape canvas; ONE complete building."
+        }
+      },
+      "front": {
+        "file": "buildings-minimal-v2.png",
+        "width": 1774,
+        "height": 887,
+        "rects": [
+          [
+            897,
+            472,
+            424,
+            365
+          ]
+        ]
+      }
+    },
+    "library": {
+      "footprint": {
+        "front": [
+          3,
+          3
+        ],
+        "back": [
+          3,
+          3
+        ],
+        "left": [
+          3,
+          3
+        ],
+        "right": [
+          3,
+          3
+        ]
+      },
+      "views": {
+        "left": {
+          "file": "library-left-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            100,
+            433,
+            857,
+            694
+          ],
+          "groundAnchor": [
+            528.5,
+            1127
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "buildings-minimal-v2.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. ONLY the BOTTOM RIGHT library in image 1: single-storey cream body, muted purple roof with raised central rounded projection, cream chimney at one end, front open-book emblem, blue round crossbar windows, honey arched wooden door. Book emblem belongs only on entrance facade. Ignore other buildings. Authoritative tile footprint HEIGHT x WIDTH 3x3 front/rear; LEFT/RIGHT swaps to 3x3. Preserve world dimensions: side-wall horizontal width is 3/3 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY LEFT-facing installation, entrance faces screen LEFT. Direct SIDE elevation of ONE side wall, main front facade completely edge-on at LEFT; front door is hidden except a thin brown edge cue. Front awning only projects slightly from LEFT edge, never across entire side wall. Side wall may have ONE modest blue crossbar window (two vertically stacked for two-storey house). Preserve roof geometry turned sideways; gable not pasted onto side. Front signs/emblems disappear edge-on. 1024x1536 portrait canvas; ONE complete building."
+        },
+        "right": {
+          "file": "library-right-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            83,
+            419,
+            857,
+            690
+          ],
+          "groundAnchor": [
+            511.5,
+            1109
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "library-left-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Input is the approved LEFT-facing library Town building sprite. Produce ONLY its horizontally mirrored RIGHT/EAST-facing counterpart. Mirror the entire building silhouette horizontally so entrance edge/awning/porch faces RIGHT, chimney and windows mirror horizontally. Keep exact architecture, number of storeys, roof volumes, dimensions, scale, outline thickness, palette, flat shading, all vertical positions, alpha transparency and generous gutters. Authoritative footprint HEIGHT x WIDTH 3x3 front/rear, 3x3 left/right. Direct SIDE orthographic elevation of ONE side wall, no three-quarter yaw, no new front door on visible side, no redesign or extra features, no people, animals, scenery, ground, lettering, labels, shadow or watermark. Same 1024x1536 RGBA PNG canvas with genuine alpha=0 outside silhouette. Output ONE right-facing sprite only."
+        },
+        "back": {
+          "file": "library-back-v1.png",
+          "width": 1536,
+          "height": 1024,
+          "rect": [
+            279,
+            214,
+            978,
+            613
+          ],
+          "groundAnchor": [
+            768.0,
+            827
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "initial generated rear draft (discarded variant retained outside repository)"
+          ],
+          "prompt": "Use case: precise-object-edit. Input image is the newly generated REAR sprite for library. Correct ONLY these specific errors, keeping all other architecture, outline weight, palette, flat pastel shading, direct REAR orthographic camera, transparency and 1536x1024 canvas unchanged. Move the existing single cream chimney from screen RIGHT roof end to screen LEFT roof end. Rear is a 180-degree world rotation of front, so chimney must switch side. Remove old right chimney entirely. Preserve all other roof and wall shapes, windows, structural details and dimensions. Authoritative front/rear footprint HEIGHT x WIDTH 3x3; building remains compact and walls upright. Genuine alpha=0 outside silhouette, transparent corners and broad gutters. No front doors, front signs, entrance display, people, animals, text, scenery, shadows or background. Output ONE corrected rear-view sprite.",
+          "initialGeneration": {
+            "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. ONLY the BOTTOM RIGHT library in image 1: single-storey cream body, muted purple roof with raised central rounded projection, cream chimney at one end, front open-book emblem, blue round crossbar windows, honey arched wooden door. Book emblem belongs only on entrance facade. Ignore other buildings. Authoritative tile footprint HEIGHT x WIDTH 3x3 front/rear; LEFT/RIGHT swaps to 3x3. Preserve world dimensions: side-wall horizontal width is 3/3 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY REAR-facing installation, entrance points screen TOP/NORTH away from camera. Direct REAR elevation, no side wall. Closed cream (or building's existing wall color) rear wall, NO main door, front awning, front emblems/signs, front displays, entrance columns, entrance pediment or front porch. Retain real roof volumes, chimney (switch lateral position on 180-degree rotation), tower/storeys and sparse blue rear windows. No front facade copied onto rear. 1536x1024 landscape canvas; ONE complete building.",
+            "referenceImages": [
+              "buildings-minimal-v2.png",
+              "coop-neutral-left-v1.png",
+              "farmhouse-single-left-v2.png",
+              "animal-haven-back-v1.png"
+            ]
+          }
+        }
+      },
+      "front": {
+        "file": "buildings-minimal-v2.png",
+        "width": 1774,
+        "height": 887,
+        "rects": [
+          [
+            1345,
+            527,
+            415,
+            309
+          ]
+        ]
+      }
+    },
+    "large-house": {
+      "footprint": {
+        "front": [
+          3,
+          4
+        ],
+        "back": [
+          3,
+          4
+        ],
+        "left": [
+          4,
+          3
+        ],
+        "right": [
+          4,
+          3
+        ]
+      },
+      "views": {
+        "left": {
+          "file": "large-house-left-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            117,
+            261,
+            818,
+            943
+          ],
+          "groundAnchor": [
+            526.0,
+            1204
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "buildings-minimal-v2.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. ONLY the TOP RIGHT large house in image 1: two-storey pale blue body, slate periwinkle roof with central front gable, cream chimney, round blue crossbar windows, honey arched wooden door. Maintain exactly two storeys. Ignore other buildings. Authoritative tile footprint HEIGHT x WIDTH 3x4 front/rear; LEFT/RIGHT swaps to 4x3. Preserve world dimensions: side-wall horizontal width is 3/4 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY LEFT-facing installation, entrance faces screen LEFT. Direct SIDE elevation of ONE side wall, main front facade completely edge-on at LEFT; front door is hidden except a thin brown edge cue. Front awning only projects slightly from LEFT edge, never across entire side wall. Side wall may have ONE modest blue crossbar window (two vertically stacked for two-storey house). Preserve roof geometry turned sideways; gable not pasted onto side. Front signs/emblems disappear edge-on. 1024x1536 portrait canvas; ONE complete building."
+        },
+        "right": {
+          "file": "large-house-right-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            94,
+            260,
+            822,
+            946
+          ],
+          "groundAnchor": [
+            505.0,
+            1206
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "large-house-left-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Input is the approved LEFT-facing large-house Town building sprite. Produce ONLY its horizontally mirrored RIGHT/EAST-facing counterpart. Mirror the entire building silhouette horizontally so entrance edge/awning/porch faces RIGHT, chimney and windows mirror horizontally. Keep exact architecture, number of storeys, roof volumes, dimensions, scale, outline thickness, palette, flat shading, all vertical positions, alpha transparency and generous gutters. Authoritative footprint HEIGHT x WIDTH 3x4 front/rear, 4x3 left/right. Direct SIDE orthographic elevation of ONE side wall, no three-quarter yaw, no new front door on visible side, no redesign or extra features, no people, animals, scenery, ground, lettering, labels, shadow or watermark. Same 1024x1536 RGBA PNG canvas with genuine alpha=0 outside silhouette. Output ONE right-facing sprite only."
+        },
+        "back": {
+          "file": "large-house-back-v1.png",
+          "width": 1536,
+          "height": 1024,
+          "rect": [
+            304,
+            156,
+            928,
+            712
+          ],
+          "groundAnchor": [
+            768.0,
+            868
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "initial generated rear draft (discarded variant retained outside repository)"
+          ],
+          "prompt": "Use case: precise-object-edit. Input image is the newly generated REAR sprite for large-house. Correct ONLY these specific errors, keeping all other architecture, outline weight, palette, flat pastel shading, direct REAR orthographic camera, transparency and 1536x1024 canvas unchanged. CRITICAL this is a TWO-STOREY pale blue large house, not a single-storey cottage. Make the pale blue wall taller so TWO distinct complete window rows fit below the roof: two round blue crossbar windows in the upper storey and two in the lower storey, exactly four wall windows total, plus the existing small round blue loft window in the central roof gable. NO entrance door on rear. Preserve the periwinkle roof. Move the cream chimney with tan cap from screen RIGHT to screen LEFT: this is the 180-degree rear orientation of the original front with chimney on right. Remove old right chimney entirely. Authoritative front/rear footprint HEIGHT x WIDTH 3x4; building remains compact and walls upright. Genuine alpha=0 outside silhouette, transparent corners and broad gutters. No front doors, front signs, entrance display, people, animals, text, scenery, shadows or background. Output ONE corrected rear-view sprite.",
+          "initialGeneration": {
+            "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. ONLY the TOP RIGHT large house in image 1: two-storey pale blue body, slate periwinkle roof with central front gable, cream chimney, round blue crossbar windows, honey arched wooden door. Maintain exactly two storeys. Ignore other buildings. Authoritative tile footprint HEIGHT x WIDTH 3x4 front/rear; LEFT/RIGHT swaps to 4x3. Preserve world dimensions: side-wall horizontal width is 3/4 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY REAR-facing installation, entrance points screen TOP/NORTH away from camera. Direct REAR elevation, no side wall. Closed cream (or building's existing wall color) rear wall, NO main door, front awning, front emblems/signs, front displays, entrance columns, entrance pediment or front porch. Retain real roof volumes, chimney (switch lateral position on 180-degree rotation), tower/storeys and sparse blue rear windows. No front facade copied onto rear. 1536x1024 landscape canvas; ONE complete building.",
+            "referenceImages": [
+              "buildings-minimal-v2.png",
+              "coop-neutral-left-v1.png",
+              "farmhouse-single-left-v2.png",
+              "animal-haven-back-v1.png"
+            ]
+          }
+        }
+      },
+      "front": {
+        "file": "buildings-minimal-v2.png",
+        "width": 1774,
+        "height": 887,
+        "rects": [
+          [
+            1346,
+            68,
+            404,
+            353
+          ]
+        ]
+      }
+    },
+    "bakery": {
+      "footprint": {
+        "front": [
+          2,
+          3
+        ],
+        "back": [
+          2,
+          3
+        ],
+        "left": [
+          3,
+          2
+        ],
+        "right": [
+          3,
+          2
+        ]
+      },
+      "views": {
+        "left": {
+          "file": "civ-buildings/bakery-left-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            75,
+            322,
+            881,
+            855
+          ],
+          "groundAnchor": [
+            515.5,
+            1177
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/bakery-v1.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. Cream single-storey bakery, coral salmon roof, small front gabled dormer with round blue window, short cream chimney with tan cap, cream-and-light-tan scalloped front awning. Source has two state copies of SAME building; output ONE. Front breads are naturally occluded from side/rear. Authoritative tile footprint HEIGHT x WIDTH 2x3 front/rear; LEFT/RIGHT swaps to 3x2. Preserve world dimensions: side-wall horizontal width is 2/3 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY LEFT-facing installation, entrance faces screen LEFT. Direct SIDE elevation of ONE side wall, main front facade completely edge-on at LEFT; front door is hidden except a thin brown edge cue. Front awning only projects slightly from LEFT edge, never across entire side wall. Side wall may have ONE modest blue crossbar window (two vertically stacked for two-storey house). Preserve roof geometry turned sideways; gable not pasted onto side. Front signs/emblems disappear edge-on. 1024x1536 portrait canvas; ONE complete building."
+        },
+        "right": {
+          "file": "civ-buildings/bakery-right-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            78,
+            322,
+            875,
+            855
+          ],
+          "groundAnchor": [
+            515.5,
+            1177
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/bakery-left-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Input is the approved LEFT-facing bakery Town building sprite. Produce ONLY its horizontally mirrored RIGHT/EAST-facing counterpart. Mirror the entire building silhouette horizontally so entrance edge/awning/porch faces RIGHT, chimney and windows mirror horizontally. Keep exact architecture, number of storeys, roof volumes, dimensions, scale, outline thickness, palette, flat shading, all vertical positions, alpha transparency and generous gutters. Authoritative footprint HEIGHT x WIDTH 2x3 front/rear, 3x2 left/right. Direct SIDE orthographic elevation of ONE side wall, no three-quarter yaw, no new front door on visible side, no redesign or extra features, no people, animals, scenery, ground, lettering, labels, shadow or watermark. Same 1024x1536 RGBA PNG canvas with genuine alpha=0 outside silhouette. Output ONE right-facing sprite only."
+        },
+        "back": {
+          "file": "civ-buildings/bakery-back-v1.png",
+          "width": 1536,
+          "height": 1024,
+          "rect": [
+            210,
+            176,
+            1116,
+            630
+          ],
+          "groundAnchor": [
+            768.0,
+            806
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/bakery-v1.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. Cream single-storey bakery, coral salmon roof, small front gabled dormer with round blue window, short cream chimney with tan cap, cream-and-light-tan scalloped front awning. Source has two state copies of SAME building; output ONE. Front breads are naturally occluded from side/rear. Authoritative tile footprint HEIGHT x WIDTH 2x3 front/rear; LEFT/RIGHT swaps to 3x2. Preserve world dimensions: side-wall horizontal width is 2/3 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY REAR-facing installation, entrance points screen TOP/NORTH away from camera. Direct REAR elevation, no side wall. Closed cream (or building's existing wall color) rear wall, NO main door, front awning, front emblems/signs, front displays, entrance columns, entrance pediment or front porch. Retain real roof volumes, chimney (switch lateral position on 180-degree rotation), tower/storeys and sparse blue rear windows. No front facade copied onto rear. 1536x1024 landscape canvas; ONE complete building."
+        }
+      },
+      "front": {
+        "file": "civ-buildings/bakery-v1.png",
+        "width": 1983,
+        "height": 793,
+        "rects": [
+          [
+            26,
+            123,
+            934,
+            581
+          ],
+          [
+            1018,
+            123,
+            934,
+            581
+          ]
+        ]
+      }
+    },
+    "grocery": {
+      "footprint": {
+        "front": [
+          2,
+          3
+        ],
+        "back": [
+          2,
+          3
+        ],
+        "left": [
+          3,
+          2
+        ],
+        "right": [
+          3,
+          2
+        ]
+      },
+      "views": {
+        "left": {
+          "file": "civ-buildings/grocery-left-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            45,
+            343,
+            939,
+            777
+          ],
+          "groundAnchor": [
+            514.5,
+            1120
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/grocery-v1.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. Cream single-storey grocery, sage mint roof, small central front gabled dormer with round blue window, short cream chimney with tan cap, mint-and-cream scalloped front awning. The source has TWO front state copies of the SAME building; output ONE building. Front display jars/crates are occluded in side/rear elevations. Authoritative tile footprint HEIGHT x WIDTH 2x3 front/rear; LEFT/RIGHT swaps to 3x2. Preserve world dimensions: side-wall horizontal width is 2/3 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY LEFT-facing installation, entrance faces screen LEFT. Direct SIDE elevation of ONE side wall, main front facade completely edge-on at LEFT; front door is hidden except a thin brown edge cue. Front awning only projects slightly from LEFT edge, never across entire side wall. Side wall may have ONE modest blue crossbar window (two vertically stacked for two-storey house). Preserve roof geometry turned sideways; gable not pasted onto side. Front signs/emblems disappear edge-on. 1024x1536 portrait canvas; ONE complete building."
+        },
+        "right": {
+          "file": "civ-buildings/grocery-right-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            46,
+            343,
+            939,
+            778
+          ],
+          "groundAnchor": [
+            515.5,
+            1121
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/grocery-left-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Input is the approved LEFT-facing grocery Town building sprite. Produce ONLY its horizontally mirrored RIGHT/EAST-facing counterpart. Mirror the entire building silhouette horizontally so entrance edge/awning/porch faces RIGHT, chimney and windows mirror horizontally. Keep exact architecture, number of storeys, roof volumes, dimensions, scale, outline thickness, palette, flat shading, all vertical positions, alpha transparency and generous gutters. Authoritative footprint HEIGHT x WIDTH 2x3 front/rear, 3x2 left/right. Direct SIDE orthographic elevation of ONE side wall, no three-quarter yaw, no new front door on visible side, no redesign or extra features, no people, animals, scenery, ground, lettering, labels, shadow or watermark. Same 1024x1536 RGBA PNG canvas with genuine alpha=0 outside silhouette. Output ONE right-facing sprite only."
+        },
+        "back": {
+          "file": "civ-buildings/grocery-back-v1.png",
+          "width": 1536,
+          "height": 1024,
+          "rect": [
+            214,
+            167,
+            1108,
+            654
+          ],
+          "groundAnchor": [
+            768.0,
+            821
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/grocery-v1.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. Cream single-storey grocery, sage mint roof, small central front gabled dormer with round blue window, short cream chimney with tan cap, mint-and-cream scalloped front awning. The source has TWO front state copies of the SAME building; output ONE building. Front display jars/crates are occluded in side/rear elevations. Authoritative tile footprint HEIGHT x WIDTH 2x3 front/rear; LEFT/RIGHT swaps to 3x2. Preserve world dimensions: side-wall horizontal width is 2/3 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY REAR-facing installation, entrance points screen TOP/NORTH away from camera. Direct REAR elevation, no side wall. Closed cream (or building's existing wall color) rear wall, NO main door, front awning, front emblems/signs, front displays, entrance columns, entrance pediment or front porch. Retain real roof volumes, chimney (switch lateral position on 180-degree rotation), tower/storeys and sparse blue rear windows. No front facade copied onto rear. 1536x1024 landscape canvas; ONE complete building."
+        }
+      },
+      "front": {
+        "file": "civ-buildings/grocery-v1.png",
+        "width": 1774,
+        "height": 887,
+        "rects": [
+          [
+            45,
+            158,
+            810,
+            598
+          ],
+          [
+            932,
+            158,
+            810,
+            598
+          ]
+        ]
+      }
+    },
+    "vegetable-shop": {
+      "footprint": {
+        "front": [
+          2,
+          3
+        ],
+        "back": [
+          2,
+          3
+        ],
+        "left": [
+          3,
+          2
+        ],
+        "right": [
+          3,
+          2
+        ]
+      },
+      "views": {
+        "left": {
+          "file": "civ-buildings/vegetable-shop-left-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            88,
+            321,
+            876,
+            794
+          ],
+          "groundAnchor": [
+            526.0,
+            1115
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/vegetable-shop-v1.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. Cream single-storey vegetable shop, muted sage green roof with raised curved front center and front leaf emblem, short cream chimney with green cap, green-and-cream scalloped front awning. Source has TWO front state copies of SAME building; output ONE. Leaf emblem and vegetables belong only on entrance facade, hidden from rear and edge-on at side. Authoritative tile footprint HEIGHT x WIDTH 2x3 front/rear; LEFT/RIGHT swaps to 3x2. Preserve world dimensions: side-wall horizontal width is 2/3 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY LEFT-facing installation, entrance faces screen LEFT. Direct SIDE elevation of ONE side wall, main front facade completely edge-on at LEFT; front door is hidden except a thin brown edge cue. Front awning only projects slightly from LEFT edge, never across entire side wall. Side wall may have ONE modest blue crossbar window (two vertically stacked for two-storey house). Preserve roof geometry turned sideways; gable not pasted onto side. Front signs/emblems disappear edge-on. 1024x1536 portrait canvas; ONE complete building."
+        },
+        "right": {
+          "file": "civ-buildings/vegetable-shop-right-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            88,
+            320,
+            859,
+            796
+          ],
+          "groundAnchor": [
+            517.5,
+            1116
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/vegetable-shop-left-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Input is the approved LEFT-facing vegetable-shop Town building sprite. Produce ONLY its horizontally mirrored RIGHT/EAST-facing counterpart. Mirror the entire building silhouette horizontally so entrance edge/awning/porch faces RIGHT, chimney and windows mirror horizontally. Keep exact architecture, number of storeys, roof volumes, dimensions, scale, outline thickness, palette, flat shading, all vertical positions, alpha transparency and generous gutters. Authoritative footprint HEIGHT x WIDTH 2x3 front/rear, 3x2 left/right. Direct SIDE orthographic elevation of ONE side wall, no three-quarter yaw, no new front door on visible side, no redesign or extra features, no people, animals, scenery, ground, lettering, labels, shadow or watermark. Same 1024x1536 RGBA PNG canvas with genuine alpha=0 outside silhouette. Output ONE right-facing sprite only."
+        },
+        "back": {
+          "file": "civ-buildings/vegetable-shop-back-v1.png",
+          "width": 1536,
+          "height": 1024,
+          "rect": [
+            177,
+            140,
+            1188,
+            694
+          ],
+          "groundAnchor": [
+            771.0,
+            834
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/vegetable-shop-v1.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. Cream single-storey vegetable shop, muted sage green roof with raised curved front center and front leaf emblem, short cream chimney with green cap, green-and-cream scalloped front awning. Source has TWO front state copies of SAME building; output ONE. Leaf emblem and vegetables belong only on entrance facade, hidden from rear and edge-on at side. Authoritative tile footprint HEIGHT x WIDTH 2x3 front/rear; LEFT/RIGHT swaps to 3x2. Preserve world dimensions: side-wall horizontal width is 2/3 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY REAR-facing installation, entrance points screen TOP/NORTH away from camera. Direct REAR elevation, no side wall. Closed cream (or building's existing wall color) rear wall, NO main door, front awning, front emblems/signs, front displays, entrance columns, entrance pediment or front porch. Retain real roof volumes, chimney (switch lateral position on 180-degree rotation), tower/storeys and sparse blue rear windows. No front facade copied onto rear. 1536x1024 landscape canvas; ONE complete building."
+        }
+      },
+      "front": {
+        "file": "civ-buildings/vegetable-shop-v1.png",
+        "width": 2172,
+        "height": 724,
+        "rects": [
+          [
+            70,
+            63,
+            941,
+            618
+          ],
+          [
+            1156,
+            63,
+            941,
+            618
+          ]
+        ]
+      }
+    },
+    "meat-shop": {
+      "footprint": {
+        "front": [
+          2,
+          3
+        ],
+        "back": [
+          2,
+          3
+        ],
+        "left": [
+          3,
+          2
+        ],
+        "right": [
+          3,
+          2
+        ]
+      },
+      "views": {
+        "left": {
+          "file": "civ-buildings/meat-shop-left-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            67,
+            307,
+            892,
+            879
+          ],
+          "groundAnchor": [
+            513.0,
+            1186
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/meat-shop-v1.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. Cream single-storey butcher/meat shop, dusty rose red roof, raised rounded front gable with round blue crossbar window, short cream chimney with tan cap, rose-and-cream scalloped front awning, slim cream posts by front doorway. Source has TWO front state copies of SAME building; output ONE. Front displays are hidden side/rear. Authoritative tile footprint HEIGHT x WIDTH 2x3 front/rear; LEFT/RIGHT swaps to 3x2. Preserve world dimensions: side-wall horizontal width is 2/3 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY LEFT-facing installation, entrance faces screen LEFT. Direct SIDE elevation of ONE side wall, main front facade completely edge-on at LEFT; front door is hidden except a thin brown edge cue. Front awning only projects slightly from LEFT edge, never across entire side wall. Side wall may have ONE modest blue crossbar window (two vertically stacked for two-storey house). Preserve roof geometry turned sideways; gable not pasted onto side. Front signs/emblems disappear edge-on. 1024x1536 portrait canvas; ONE complete building."
+        },
+        "right": {
+          "file": "civ-buildings/meat-shop-right-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            69,
+            306,
+            893,
+            876
+          ],
+          "groundAnchor": [
+            515.5,
+            1182
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/meat-shop-left-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Input is the approved LEFT-facing meat-shop Town building sprite. Produce ONLY its horizontally mirrored RIGHT/EAST-facing counterpart. Mirror the entire building silhouette horizontally so entrance edge/awning/porch faces RIGHT, chimney and windows mirror horizontally. Keep exact architecture, number of storeys, roof volumes, dimensions, scale, outline thickness, palette, flat shading, all vertical positions, alpha transparency and generous gutters. Authoritative footprint HEIGHT x WIDTH 2x3 front/rear, 3x2 left/right. Direct SIDE orthographic elevation of ONE side wall, no three-quarter yaw, no new front door on visible side, no redesign or extra features, no people, animals, scenery, ground, lettering, labels, shadow or watermark. Same 1024x1536 RGBA PNG canvas with genuine alpha=0 outside silhouette. Output ONE right-facing sprite only."
+        },
+        "back": {
+          "file": "civ-buildings/meat-shop-back-v1.png",
+          "width": 1536,
+          "height": 1024,
+          "rect": [
+            205,
+            168,
+            1126,
+            680
+          ],
+          "groundAnchor": [
+            768.0,
+            848
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/meat-shop-v1.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. Cream single-storey butcher/meat shop, dusty rose red roof, raised rounded front gable with round blue crossbar window, short cream chimney with tan cap, rose-and-cream scalloped front awning, slim cream posts by front doorway. Source has TWO front state copies of SAME building; output ONE. Front displays are hidden side/rear. Authoritative tile footprint HEIGHT x WIDTH 2x3 front/rear; LEFT/RIGHT swaps to 3x2. Preserve world dimensions: side-wall horizontal width is 2/3 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY REAR-facing installation, entrance points screen TOP/NORTH away from camera. Direct REAR elevation, no side wall. Closed cream (or building's existing wall color) rear wall, NO main door, front awning, front emblems/signs, front displays, entrance columns, entrance pediment or front porch. Retain real roof volumes, chimney (switch lateral position on 180-degree rotation), tower/storeys and sparse blue rear windows. No front facade copied onto rear. 1536x1024 landscape canvas; ONE complete building."
+        }
+      },
+      "front": {
+        "file": "civ-buildings/meat-shop-v1.png",
+        "width": 2172,
+        "height": 724,
+        "rects": [
+          [
+            36,
+            53,
+            1014,
+            610
+          ],
+          [
+            1122,
+            53,
+            1014,
+            610
+          ]
+        ]
+      }
+    },
+    "tools-smith": {
+      "footprint": {
+        "front": [
+          3,
+          4
+        ],
+        "back": [
+          3,
+          4
+        ],
+        "left": [
+          4,
+          3
+        ],
+        "right": [
+          4,
+          3
+        ]
+      },
+      "views": {
+        "left": {
+          "file": "civ-buildings/tools-smith-left-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            32,
+            289,
+            966,
+            853
+          ],
+          "groundAnchor": [
+            515.0,
+            1142
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/tools-smith-v1.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. Cream stone and timber tools shop/smith workshop, slate blue roof, central front gable with small blue arched crossbar window, thick cream stone chimney with tan cap, honey timber structural supports. Exactly one coherent workshop with central tall entrance and lower work bays. Source has TWO copies of SAME building; output ONE. Front anvil/tool displays are occluded side/rear; chimney remains. Authoritative tile footprint HEIGHT x WIDTH 3x4 front/rear; LEFT/RIGHT swaps to 4x3. Preserve world dimensions: side-wall horizontal width is 3/4 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY LEFT-facing installation, entrance faces screen LEFT. Direct SIDE elevation of ONE side wall, main front facade completely edge-on at LEFT; front door is hidden except a thin brown edge cue. Front awning only projects slightly from LEFT edge, never across entire side wall. Side wall may have ONE modest blue crossbar window (two vertically stacked for two-storey house). Preserve roof geometry turned sideways; gable not pasted onto side. Front signs/emblems disappear edge-on. 1024x1536 portrait canvas; ONE complete building."
+        },
+        "right": {
+          "file": "civ-buildings/tools-smith-right-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            23,
+            289,
+            972,
+            854
+          ],
+          "groundAnchor": [
+            509.0,
+            1143
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/tools-smith-left-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Input is the approved LEFT-facing tools-smith Town building sprite. Produce ONLY its horizontally mirrored RIGHT/EAST-facing counterpart. Mirror the entire building silhouette horizontally so entrance edge/awning/porch faces RIGHT, chimney and windows mirror horizontally. Keep exact architecture, number of storeys, roof volumes, dimensions, scale, outline thickness, palette, flat shading, all vertical positions, alpha transparency and generous gutters. Authoritative footprint HEIGHT x WIDTH 3x4 front/rear, 4x3 left/right. Direct SIDE orthographic elevation of ONE side wall, no three-quarter yaw, no new front door on visible side, no redesign or extra features, no people, animals, scenery, ground, lettering, labels, shadow or watermark. Same 1024x1536 RGBA PNG canvas with genuine alpha=0 outside silhouette. Output ONE right-facing sprite only."
+        },
+        "back": {
+          "file": "civ-buildings/tools-smith-back-v1.png",
+          "width": 1536,
+          "height": 1024,
+          "rect": [
+            87,
+            125,
+            1351,
+            755
+          ],
+          "groundAnchor": [
+            762.5,
+            880
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "initial generated rear draft (discarded variant retained outside repository)"
+          ],
+          "prompt": "Use case: precise-object-edit. Input image is the newly generated REAR sprite for tools-smith. Correct ONLY these specific errors, keeping all other architecture, outline weight, palette, flat pastel shading, direct REAR orthographic camera, transparency and 1536x1024 canvas unchanged. Move the existing single cream chimney from screen RIGHT roof end to screen LEFT roof end. Rear is a 180-degree world rotation of front, so chimney must switch side. Remove old right chimney entirely. Preserve all other roof and wall shapes, windows, structural details and dimensions. Authoritative front/rear footprint HEIGHT x WIDTH 3x4; building remains compact and walls upright. Genuine alpha=0 outside silhouette, transparent corners and broad gutters. No front doors, front signs, entrance display, people, animals, text, scenery, shadows or background. Output ONE corrected rear-view sprite.",
+          "initialGeneration": {
+            "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. Cream stone and timber tools shop/smith workshop, slate blue roof, central front gable with small blue arched crossbar window, thick cream stone chimney with tan cap, honey timber structural supports. Exactly one coherent workshop with central tall entrance and lower work bays. Source has TWO copies of SAME building; output ONE. Front anvil/tool displays are occluded side/rear; chimney remains. Authoritative tile footprint HEIGHT x WIDTH 3x4 front/rear; LEFT/RIGHT swaps to 4x3. Preserve world dimensions: side-wall horizontal width is 3/4 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY REAR-facing installation, entrance points screen TOP/NORTH away from camera. Direct REAR elevation, no side wall. Closed cream (or building's existing wall color) rear wall, NO main door, front awning, front emblems/signs, front displays, entrance columns, entrance pediment or front porch. Retain real roof volumes, chimney (switch lateral position on 180-degree rotation), tower/storeys and sparse blue rear windows. No front facade copied onto rear. 1536x1024 landscape canvas; ONE complete building.",
+            "referenceImages": [
+              "civ-buildings/tools-smith-v1.png",
+              "coop-neutral-left-v1.png",
+              "farmhouse-single-left-v2.png",
+              "animal-haven-back-v1.png"
+            ]
+          }
+        }
+      },
+      "front": {
+        "file": "civ-buildings/tools-smith-v1.png",
+        "width": 2079,
+        "height": 756,
+        "rects": [
+          [
+            22,
+            82,
+            995,
+            562
+          ],
+          [
+            1062,
+            82,
+            995,
+            562
+          ]
+        ]
+      }
+    },
+    "infirmary": {
+      "footprint": {
+        "front": [
+          3,
+          3
+        ],
+        "back": [
+          3,
+          3
+        ],
+        "left": [
+          3,
+          3
+        ],
+        "right": [
+          3,
+          3
+        ]
+      },
+      "views": {
+        "left": {
+          "file": "civ-buildings/infirmary-left-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            106,
+            371,
+            851,
+            762
+          ],
+          "groundAnchor": [
+            531.5,
+            1133
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/infirmary-v1.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. Cream single-storey clinic/pharmacy, muted sage green curved roof with raised central front leaf emblem, short cream chimney with green cap, blue round crossbar windows, honey arched entrance. Leaf sign and medical supplies belong to front and are hidden on rear. Source has TWO state copies of SAME building; output ONE. Authoritative tile footprint HEIGHT x WIDTH 3x3 front/rear; LEFT/RIGHT swaps to 3x3. Preserve world dimensions: side-wall horizontal width is 3/3 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY LEFT-facing installation, entrance faces screen LEFT. Direct SIDE elevation of ONE side wall, main front facade completely edge-on at LEFT; front door is hidden except a thin brown edge cue. Front awning only projects slightly from LEFT edge, never across entire side wall. Side wall may have ONE modest blue crossbar window (two vertically stacked for two-storey house). Preserve roof geometry turned sideways; gable not pasted onto side. Front signs/emblems disappear edge-on. 1024x1536 portrait canvas; ONE complete building."
+        },
+        "right": {
+          "file": "civ-buildings/infirmary-right-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            76,
+            365,
+            847,
+            768
+          ],
+          "groundAnchor": [
+            499.5,
+            1133
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/infirmary-left-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Input is the approved LEFT-facing infirmary Town building sprite. Produce ONLY its horizontally mirrored RIGHT/EAST-facing counterpart. Mirror the entire building silhouette horizontally so entrance edge/awning/porch faces RIGHT, chimney and windows mirror horizontally. Keep exact architecture, number of storeys, roof volumes, dimensions, scale, outline thickness, palette, flat shading, all vertical positions, alpha transparency and generous gutters. Authoritative footprint HEIGHT x WIDTH 3x3 front/rear, 3x3 left/right. Direct SIDE orthographic elevation of ONE side wall, no three-quarter yaw, no new front door on visible side, no redesign or extra features, no people, animals, scenery, ground, lettering, labels, shadow or watermark. Same 1024x1536 RGBA PNG canvas with genuine alpha=0 outside silhouette. Output ONE right-facing sprite only."
+        },
+        "back": {
+          "file": "civ-buildings/infirmary-back-v1.png",
+          "width": 1536,
+          "height": 1024,
+          "rect": [
+            211,
+            149,
+            1113,
+            703
+          ],
+          "groundAnchor": [
+            767.5,
+            852
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/infirmary-v1.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. Cream single-storey clinic/pharmacy, muted sage green curved roof with raised central front leaf emblem, short cream chimney with green cap, blue round crossbar windows, honey arched entrance. Leaf sign and medical supplies belong to front and are hidden on rear. Source has TWO state copies of SAME building; output ONE. Authoritative tile footprint HEIGHT x WIDTH 3x3 front/rear; LEFT/RIGHT swaps to 3x3. Preserve world dimensions: side-wall horizontal width is 3/3 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY REAR-facing installation, entrance points screen TOP/NORTH away from camera. Direct REAR elevation, no side wall. Closed cream (or building's existing wall color) rear wall, NO main door, front awning, front emblems/signs, front displays, entrance columns, entrance pediment or front porch. Retain real roof volumes, chimney (switch lateral position on 180-degree rotation), tower/storeys and sparse blue rear windows. No front facade copied onto rear. 1536x1024 landscape canvas; ONE complete building."
+        }
+      },
+      "front": {
+        "file": "civ-buildings/infirmary-v1.png",
+        "width": 1774,
+        "height": 887,
+        "rects": [
+          [
+            30,
+            153,
+            819,
+            608
+          ],
+          [
+            917,
+            153,
+            819,
+            608
+          ]
+        ]
+      }
+    },
+    "school": {
+      "footprint": {
+        "front": [
+          3,
+          4
+        ],
+        "back": [
+          3,
+          4
+        ],
+        "left": [
+          4,
+          3
+        ],
+        "right": [
+          4,
+          3
+        ]
+      },
+      "views": {
+        "left": {
+          "file": "civ-buildings/school-left-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            70,
+            308,
+            884,
+            808
+          ],
+          "groundAnchor": [
+            512.0,
+            1116
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/school-v1.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. Pale lavender single-storey school, muted purple roof, one tall narrow central bell tower with little gable roof and golden bell. Side wings are lower than the tower. Preserve architectural volumes and central tower height, small blue crossbar windows. Bell hangs in tower; front entrance and front circular window are not repeated on side/rear. Source has TWO state copies of SAME school; output ONE. Authoritative tile footprint HEIGHT x WIDTH 3x4 front/rear; LEFT/RIGHT swaps to 4x3. Preserve world dimensions: side-wall horizontal width is 3/4 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY LEFT-facing installation, entrance faces screen LEFT. Direct SIDE elevation of ONE side wall, main front facade completely edge-on at LEFT; front door is hidden except a thin brown edge cue. Front awning only projects slightly from LEFT edge, never across entire side wall. Side wall may have ONE modest blue crossbar window (two vertically stacked for two-storey house). Preserve roof geometry turned sideways; gable not pasted onto side. Front signs/emblems disappear edge-on. 1024x1536 portrait canvas; ONE complete building."
+        },
+        "right": {
+          "file": "civ-buildings/school-right-v1.png",
+          "width": 1024,
+          "height": 1536,
+          "rect": [
+            77,
+            315,
+            883,
+            800
+          ],
+          "groundAnchor": [
+            518.5,
+            1115
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/school-left-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Input is the approved LEFT-facing school Town building sprite. Produce ONLY its horizontally mirrored RIGHT/EAST-facing counterpart. Mirror the entire building silhouette horizontally so entrance edge/awning/porch faces RIGHT, chimney and windows mirror horizontally. Keep exact architecture, number of storeys, roof volumes, dimensions, scale, outline thickness, palette, flat shading, all vertical positions, alpha transparency and generous gutters. Authoritative footprint HEIGHT x WIDTH 3x4 front/rear, 4x3 left/right. Direct SIDE orthographic elevation of ONE side wall, no three-quarter yaw, no new front door on visible side, no redesign or extra features, no people, animals, scenery, ground, lettering, labels, shadow or watermark. Same 1024x1536 RGBA PNG canvas with genuine alpha=0 outside silhouette. Output ONE right-facing sprite only."
+        },
+        "back": {
+          "file": "civ-buildings/school-back-v1.png",
+          "width": 1536,
+          "height": 1024,
+          "rect": [
+            246,
+            128,
+            1040,
+            771
+          ],
+          "groundAnchor": [
+            766.0,
+            899
+          ],
+          "alphaRange": [
+            0,
+            254
+          ],
+          "referenceImages": [
+            "civ-buildings/school-v1.png",
+            "coop-neutral-left-v1.png",
+            "farmhouse-single-left-v2.png",
+            "animal-haven-back-v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is building identity reference; image 2 (approved coop left), image 3 (approved single barn side) and image 4 (approved haven rear) are EXACT art-style and directional-camera references, not buildings to insert. Match their thick smooth rounded warm dark-brown outline, soft flat pastel palette, sparse linework, chubby architectural shapes and very restrained flat shading. Do not invent a different style, tiny textures, photorealism, isometric/three-quarter angles or ground scenery. Keep same physical structure and number of storeys as identity reference. All walls stay upright and bases horizontal. Fixed direct orthographic camera, no yaw, no view of two walls together, no bitmap rotation. Preserve physical occlusion; never add a new main door to a side or rear wall. Transparent RGBA PNG, alpha=0 outside sprite including corners, no checkerboard, black patches, halo, haze, glow, cast shadow, scenery, grass, tile, animals, people, words, labels, numbers, signs or watermarks. Full silhouette centered with at least 80px transparent gutters, never clipped. Preserve dimensions/proportions without stretching. Ground contact anchor is bottom-center of visible foundation, not canvas center. Pale lavender single-storey school, muted purple roof, one tall narrow central bell tower with little gable roof and golden bell. Side wings are lower than the tower. Preserve architectural volumes and central tower height, small blue crossbar windows. Bell hangs in tower; front entrance and front circular window are not repeated on side/rear. Source has TWO state copies of SAME school; output ONE. Authoritative tile footprint HEIGHT x WIDTH 3x4 front/rear; LEFT/RIGHT swaps to 4x3. Preserve world dimensions: side-wall horizontal width is 3/4 of frontal width at same world scale. Keep compact; no elongated shed or stretched roof. Generate ONLY REAR-facing installation, entrance points screen TOP/NORTH away from camera. Direct REAR elevation, no side wall. Closed cream (or building's existing wall color) rear wall, NO main door, front awning, front emblems/signs, front displays, entrance columns, entrance pediment or front porch. Retain real roof volumes, chimney (switch lateral position on 180-degree rotation), tower/storeys and sparse blue rear windows. No front facade copied onto rear. 1536x1024 landscape canvas; ONE complete building."
+        }
+      },
+      "front": {
+        "file": "civ-buildings/school-v1.png",
+        "width": 1774,
+        "height": 887,
+        "rects": [
+          [
+            56,
+            129,
+            774,
+            685
+          ],
+          [
+            943,
+            129,
+            774,
+            685
+          ]
+        ]
+      }
+    }
+  }
+}

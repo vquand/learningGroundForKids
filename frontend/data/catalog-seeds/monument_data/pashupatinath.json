@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 27.7105,
+  "longitude": 85.3487,
+  "country_code": "NP",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Pashupati Nath Road, Kathmandu, Nepal",
+  "fun_facts": [
+    "Pashupatinath Temple is so sacred that only Hindu people are allowed inside the main temple — visitors of other religions can watch from the other side of the Bagmati River!",
+    "The temple complex is home to hundreds of friendly monkeys that roam freely through the courtyards and often steal snacks from visitors!",
+    "Pashupatinath is dedicated to Shiva, one of the most important gods in Hinduism, and his name 'Pashupati' means 'Lord of all Animals' — making this a very special place for nature lovers too!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Pashupatinath Temple",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Pashupatinath Temple",
+      "description": "Pashupatinath Temple is one of the most sacred Hindu temples in the world, located on the banks of the Bagmati River in Kathmandu, Nepal. It is a vast complex of golden-roofed temples, shrines, and courtyards that has been a place of worship for over a thousand years.",
+      "history": "The temple dates back to at least the 5th century AD and has been rebuilt and expanded many times over the centuries. It is dedicated to Lord Shiva and is a UNESCO World Heritage Site, drawing hundreds of thousands of pilgrims from across South Asia every year."
+    },
+    {
+      "lang": "vi",
+      "title": "Đền Pashupatinath",
+      "description": "Đền Pashupatinath là một trong những ngôi đền Hindu thiêng liêng nhất thế giới, tọa lạc bên bờ sông Bagmati ở Kathmandu, Nepal. Đây là một khu phức hợp rộng lớn gồm nhiều ngôi đền mái vàng, đền thờ và sân trong được sử dụng làm nơi thờ phụng hơn một nghìn năm.",
+      "history": "Ngôi đền có nguồn gốc từ ít nhất thế kỷ thứ 5 sau Công nguyên và đã được xây dựng lại và mở rộng nhiều lần qua các thế kỷ. Nó được dâng tặng cho Chúa Shiva và là Di sản Thế giới UNESCO, thu hút hàng trăm nghìn khách hành hương từ khắp Nam Á mỗi năm."
+    }
+  ],
+  "start_year": -400,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Pashupatinath Temple located?",
+      "question_type": "single",
+      "options": ["India", "Bhutan", "Nepal", "Sri Lanka"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Đền Pashupatinath nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Ấn Độ", "Bhutan", "Nepal", "Sri Lanka"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which Hindu god is Pashupatinath Temple dedicated to?",
+      "question_type": "single",
+      "options": ["Vishnu", "Brahma", "Shiva", "Ganesha"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Đền Pashupatinath được dâng tặng cho vị thần Hindu nào?",
+      "question_type": "single",
+      "options": ["Vishnu", "Brahma", "Shiva", "Ganesha"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

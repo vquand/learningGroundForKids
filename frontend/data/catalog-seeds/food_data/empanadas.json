@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": -34.6037,
+  "longitude": -58.3816,
+  "country_code": "AR",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Ask a grown-up to make a simple dough and roll it into circles. Place a spoonful of cooked beef, onion, and spices in the middle. Fold the dough over and press the edges together to seal it. Bake or fry until golden brown and enjoy your little stuffed pocket!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Empanadas",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Empanadas",
+      "description": "Empanadas are baked or fried dough pockets stuffed with delicious fillings like seasoned meat, cheese, or vegetables. They are like little treasure chests of flavor that you can hold in one hand!",
+      "history": "Empanadas originally came from Spain and Portugal and traveled to South America with explorers hundreds of years ago. In Argentina, they became a beloved national food, with every region having its own special filling recipe."
+    },
+    {
+      "lang": "vi",
+      "title": "Bánh Nhân Empanada",
+      "description": "Empanada là những chiếc bánh bột nhân thịt, phô mai hoặc rau củ được nướng hoặc chiên vàng. Chúng giống như những chiếc hộp kho báu đầy hương vị nhỏ xinh có thể cầm vừa một bàn tay!",
+      "history": "Empanada ban đầu đến từ Tây Ban Nha và Bồ Đào Nha, rồi theo chân các nhà thám hiểm du hành tới Nam Mỹ hàng trăm năm trước. Ở Argentina, chúng trở thành món ăn quốc dân, với mỗi vùng có công thức nhân riêng đặc biệt."
+    }
+  ],
+  "start_year": 1520,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which South American country are Empanadas a national food?",
+      "question_type": "single",
+      "options": ["Brazil", "Argentina", "Chile", "Colombia"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Empanadas là món ăn quốc dân ở quốc gia Nam Mỹ nào?",
+      "question_type": "single",
+      "options": ["Brazil", "Argentina", "Chile", "Colombia"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Empanadas originally came from which two countries?",
+      "question_type": "single",
+      "options": ["Italy and France", "Spain and Portugal", "Greece and Turkey", "Mexico and Peru"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Empanada ban đầu đến từ hai quốc gia nào?",
+      "question_type": "single",
+      "options": ["Ý và Pháp", "Tây Ban Nha và Bồ Đào Nha", "Hy Lạp và Thổ Nhĩ Kỳ", "Mexico và Peru"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

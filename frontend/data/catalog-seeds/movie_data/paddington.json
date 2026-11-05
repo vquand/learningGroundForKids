@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 51.5074,
+  "longitude": -0.1278,
+  "country_code": "GB",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Paddington",
+      "image_url": null,
+      "description": "A small, polite bear from Peru who travels to London and is taken in by the kind Brown family."
+    },
+    {
+      "name": "Mary Brown",
+      "image_url": null,
+      "description": "A warm-hearted mother who welcomes Paddington into her home and treats him like one of her own children."
+    },
+    {
+      "name": "Henry Brown",
+      "image_url": null,
+      "description": "Mary's cautious husband who slowly warms up to Paddington and helps him find a home."
+    },
+    {
+      "name": "Judy Brown",
+      "image_url": null,
+      "description": "The Brown family's teenage daughter who becomes one of Paddington's best friends in London."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Paddington poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Paddington (2014)",
+      "description": "A young bear from darkest Peru travels to London hoping to find a new home, and is welcomed by the friendly Brown family who help him on his adventure.",
+      "history": "Paddington Bear was created by British author Michael Bond, who first got the idea after seeing a lonely toy bear on a shop shelf on Christmas Eve!"
+    },
+    {
+      "lang": "vi",
+      "title": "Gấu Paddington (2014)",
+      "description": "Một chú gấu nhỏ từ rừng già Peru đi đến London để tìm nhà mới, và được gia đình Brown thân thiện đón nhận giúp đỡ chú trong cuộc phiêu lưu.",
+      "history": "Gấu Paddington được tác giả người Anh Michael Bond sáng tạo, ông nghĩ ra ý tưởng này sau khi nhìn thấy một con gấu bông cô đơn trên giá hàng vào đêm Giáng Sinh!"
+    }
+  ],
+  "start_year": 2014,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Where does Paddington the bear originally come from?",
+      "question_type": "single",
+      "options": ["Brazil", "Argentina", "Peru", "Chile"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Gấu Paddington ban đầu đến từ đâu?",
+      "question_type": "single",
+      "options": ["Brazil", "Argentina", "Peru", "Chile"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which city does Paddington travel to in the movie?",
+      "question_type": "single",
+      "options": ["Paris", "New York", "London", "Berlin"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Paddington đi đến thành phố nào trong phim?",
+      "question_type": "single",
+      "options": ["Paris", "New York", "London", "Berlin"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

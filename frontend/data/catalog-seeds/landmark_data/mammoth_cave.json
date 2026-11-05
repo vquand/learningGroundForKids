@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 37.1871,
+  "longitude": -86.1005,
+  "country_code": "US",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Located beneath the rolling hills of south-central Kentucky, USA, Mammoth Cave is the world's longest known cave system, stretching beneath a UNESCO World Heritage Site.",
+  "fun_facts": [
+    "Mammoth Cave is so long that if you could drive through it on a highway, it would take over an hour just to reach the end — and explorers keep finding more tunnels!",
+    "Inside the cave live special animals called cave fish that are completely blind because they have lived in total darkness for so many generations they no longer need eyes.",
+    "People lived inside parts of Mammoth Cave over 4,000 years ago, and explorers have found ancient sandals and tools left behind by those prehistoric visitors."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Mammoth Cave",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Mammoth Cave",
+      "description": "Mammoth Cave in Kentucky is the longest cave system ever discovered on Earth, with more than 670 kilometres of mapped tunnels and passageways — and explorers are still finding more. The cave's massive rooms and corridors were carved out of limestone by water over hundreds of millions of years, creating an underground world of extraordinary size. A steady temperature of about 12 degrees Celsius is maintained year-round inside, making it feel refreshingly cool in summer and surprisingly warm in winter.",
+      "history": "Native Americans first explored Mammoth Cave more than 4,000 years ago, leaving behind their sandals, torches, and tools deep inside the tunnels. European settlers rediscovered the cave around 1797, and during the War of 1812 it was mined for saltpeter, a key ingredient in gunpowder. In 1941 the cave became a US National Park, and in 1981 it was designated a UNESCO World Heritage Site in recognition of its unmatched size and scientific importance."
+    },
+    {
+      "lang": "vi",
+      "title": "Hang Động Mammoth",
+      "description": "Hang động Mammoth ở Kentucky là hệ thống hang động dài nhất từng được khám phá trên Trái Đất, với hơn 670 km đường hầm đã được đo vẽ — và các nhà thám hiểm vẫn đang tìm thêm. Những căn phòng và hành lang khổng lồ của hang động được nước khắc vào đá vôi trong hàng trăm triệu năm, tạo ra một thế giới ngầm lòng đất có kích thước phi thường. Nhiệt độ bên trong hang luôn duy trì ở khoảng 12 độ C quanh năm, nên cảm giác mát mẻ vào mùa hè và ấm áp bất ngờ vào mùa đông.",
+      "history": "Người Mỹ bản địa đã khám phá hang Mammoth cả 4.000 năm trước, để lại dép, đuốc đôi và công cụ của họ sâu trong lòng các đường hầm. Những người định cư châu Âu tái phát hiện hang này vào khoảng năm 1797, và trong Chiến tranh 1812 hang được khai thác lấy saltpeter, một thành phần quan trọng để làm thuốc súng. Năm 1941 hang trở thành Vườn Quốc gia Mỹ, và năm 1981 được công nhận là Di sản Thế giới UNESCO vì kích thước và giá trị khoa học vô song của nó."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Mammoth Cave is the world's longest known cave system. In which country is it?",
+      "question_type": "single",
+      "options": ["Australia", "China", "USA", "Mexico"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hang Động Mammoth là hệ thống hang động dài nhất thế giới. Nó nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Úc", "Trung Quốc", "Mỹ", "Mexico"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How long is the mapped part of Mammoth Cave?",
+      "question_type": "single",
+      "options": ["50 kilometres", "200 kilometres", "670 kilometres", "2,000 kilometres"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Phần đã được đo vẽ của Hang Động Mammoth dài bao nhiêu km?",
+      "question_type": "single",
+      "options": ["50 km", "200 km", "670 km", "2.000 km"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -10000000,
+  "time_precision": "mya"
+}

@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 4.711,
+  "longitude": -74.0721,
+  "country_code": "CO",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Mirabel",
+      "image_url": null,
+      "description": "A young girl from a magical Colombian family who does not have a special gift but discovers she is more important than she knows."
+    },
+    {
+      "name": "Luisa",
+      "image_url": null,
+      "description": "Mirabel's strong older sister who can carry incredibly heavy things and always tries to help everyone around her."
+    },
+    {
+      "name": "Isabela",
+      "image_url": null,
+      "description": "Mirabel's eldest sister who can grow beautiful flowers and plants anywhere she goes."
+    },
+    {
+      "name": "Bruno",
+      "image_url": null,
+      "description": "Mirabel's mysterious uncle who can see visions of the future and has been hiding inside the walls of the family home."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Encanto poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Encanto (2021)",
+      "description": "Mirabel is the only member of the magical Madrigal family without a special power, but when the family's magic begins to fade she sets out to save it.",
+      "history": "Encanto is set in Colombia and features original songs by Lin-Manuel Miranda, inspired by Colombian music and culture."
+    },
+    {
+      "lang": "vi",
+      "title": "Encanto (2021)",
+      "description": "Mirabel là thành viên duy nhất trong gia đình Madrigal không có phép màu, nhưng khi phép màu của gia đình bắt đầu biến mất, cô bé quyết tâm cứu lấy nó.",
+      "history": "Encanto được đặt trong bối cảnh Colombia và có nhạc gốc do Lin-Manuel Miranda sáng tác, lấy cảm hứng từ âm nhạc và văn hóa Colombia."
+    }
+  ],
+  "start_year": 2021,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is special about Mirabel compared to the rest of her family in Encanto?",
+      "question_type": "single",
+      "options": ["She can fly", "She has no magical gift", "She can talk to animals", "She can turn invisible"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Điều gì đặc biệt về Mirabel so với phần còn lại của gia đình trong Encanto?",
+      "question_type": "single",
+      "options": ["Cô có thể bay", "Cô không có phép màu", "Cô có thể nói chuyện với động vật", "Cô có thể tàng hình"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which country is the movie Encanto set in?",
+      "question_type": "single",
+      "options": ["Brazil", "Peru", "Colombia", "Mexico"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Bộ phim Encanto được đặt ở nước nào?",
+      "question_type": "single",
+      "options": ["Brazil", "Peru", "Colombia", "Mexico"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

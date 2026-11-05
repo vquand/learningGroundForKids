@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 36.1069,
+  "longitude": -112.1129,
+  "country_code": "US",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "The Grand Canyon is carved by the Colorado River through the Colorado Plateau in northwestern Arizona, USA, exposing nearly two billion years of Earth's geological history.",
+  "fun_facts": [
+    "The Grand Canyon is so big that if you filled it with water it would take the entire flow of the Colorado River over 20 years to fill it up!",
+    "The rocks at the very bottom of the Grand Canyon are almost 2 billion years old — nearly half the age of the entire Earth!",
+    "The canyon is so wide in places that you can see weather on one side that is totally different from the weather on the other side!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Grand Canyon",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Grand Canyon",
+      "description": "The Grand Canyon is one of the most awe-inspiring places on Earth — a gigantic gash in the ground that stretches 446 kilometres long, up to 29 kilometres wide, and over 1.6 kilometres deep! The Colorado River carved this massive wonder over millions and millions of years, slowly cutting through layers of colourful rock like a knife through a birthday cake. The walls of the canyon show billions of years of Earth's story in stripes of red, orange, and purple rock.",
+      "history": "Native American peoples including the Havasupai, Hualapai, Navajo, and Hopi have called the Grand Canyon home for thousands of years and consider it a sacred place. Spanish explorer Garcia Lopez de Cardenas became the first European to see it in 1540. President Theodore Roosevelt visited in 1903 and declared it a place every American must protect, leading to it becoming a National Monument in 1908 and a National Park in 1919."
+    },
+    {
+      "lang": "vi",
+      "title": "Hẻm Núi Grand Canyon",
+      "description": "Hẻm núi Grand Canyon là một trong những nơi kỳ vĩ nhất trên Trái Đất — một vết nứt khổng lồ trên mặt đất kéo dài 446 km, rộng tới 29 km và sâu hơn 1,6 km! Sông Colorado đã khắc nên kỳ quan khổng lồ này qua hàng triệu triệu năm, từ từ cắt qua các lớp đá màu sắc như dao cắt qua bánh sinh nhật. Các vách của hẻm núi cho thấy câu chuyện hàng tỷ năm của Trái Đất trong các sọc đá màu đỏ, cam và tím.",
+      "history": "Các dân tộc bản địa Mỹ bao gồm Havasupai, Hualapai, Navajo và Hopi đã gọi Grand Canyon là nhà từ hàng nghìn năm trước và coi nó là nơi thiêng liêng. Nhà thám hiểm người Tây Ban Nha Garcia Lopez de Cardenas trở thành người châu Âu đầu tiên nhìn thấy nó vào năm 1540. Tổng thống Theodore Roosevelt thăm quan vào năm 1903 và tuyên bố đây là nơi mà mọi người Mỹ phải bảo vệ, dẫn đến việc nó trở thành Khu Bảo tồn Quốc gia vào năm 1908 và Vườn Quốc gia vào năm 1919."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is the Grand Canyon located in?",
+      "question_type": "single",
+      "options": ["Canada", "Mexico", "USA", "Australia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hẻm núi Grand Canyon nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Canada", "Mexico", "Mỹ", "Úc"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which river carved the Grand Canyon over millions of years?",
+      "question_type": "single",
+      "options": ["Mississippi River", "Amazon River", "Colorado River", "Nile River"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Con sông nào đã tạo ra hẻm núi Grand Canyon trong hàng triệu năm?",
+      "question_type": "single",
+      "options": ["Sông Mississippi", "Sông Amazon", "Sông Colorado", "Sông Nile"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -6000000,
+  "time_precision": "mya"
+}

@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 31.7781,
+  "longitude": 35.2354,
+  "country_code": "IL",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Temple Mount, Old City of Jerusalem, Israel",
+  "fun_facts": [
+    "The Dome of the Rock's golden roof is covered with real gold — it took 80 kilograms of pure gold to make it shine so brightly!",
+    "This shrine is over 1,300 years old, making it one of the oldest Islamic buildings still standing in the world.",
+    "The beautiful blue and white tiles covering the outside walls were added by the Ottoman Sultan Suleiman the Magnificent in the 1500s."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Dome of the Rock",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Dome of the Rock",
+      "description": "The Dome of the Rock is a beautiful golden-domed Islamic shrine in Jerusalem, decorated with stunning blue tiles and colorful mosaics, and is one of the holiest places for Muslims.",
+      "history": "Built between 688 and 691 AD by Caliph Abd al-Malik, the Dome of the Rock stands on the Temple Mount in Jerusalem, a site sacred to Muslims, Jews, and Christians alike. It is one of the oldest surviving Islamic monuments in the world."
+    },
+    {
+      "lang": "vi",
+      "title": "Mái Vòm Đá",
+      "description": "Mái Vòm Đá là một đền thờ Hồi Giáo với mái vàng rực rỡ ở Jerusalem, được trang trí bằng gạch men xanh tuyệt đẹp và khảm văn nhiều màu sắc, là một trong những nơi thiêng liêng nhất đối với người Hồi Giáo.",
+      "history": "Được xây dựng từ năm 688 đến 691 sau Công nguyên bởi Caliph Abd al-Malik, Mái Vòm Đá đứng trên Núi Đền ở Jerusalem, một địa điểm thiêng liêng với cả người Hồi Giáo, Do Thái Giáo và Thiên Chúa Giáo. Đây là một trong những công trình Hồi Giáo cổ nhất còn tồn tại."
+    }
+  ],
+  "start_year": 691,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which city is the Dome of the Rock located?",
+      "question_type": "single",
+      "options": ["Mecca", "Medina", "Cairo", "Jerusalem"],
+      "correct_answers": [3],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Mái Vòm Đá nằm ở thành phố nào?",
+      "question_type": "single",
+      "options": ["Mecca", "Medina", "Cairo", "Jerusalem"],
+      "correct_answers": [3],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is the Dome of the Rock's roof covered with?",
+      "question_type": "single",
+      "options": ["Silver", "Copper", "Gold", "Bronze"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Mái của Mái Vòm Đá được phủ bằng gì?",
+      "question_type": "single",
+      "options": ["Bạc", "Đồng đỏ", "Vàng", "Đồng thau"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

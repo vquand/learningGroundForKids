@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 35.6762,
+  "longitude": 139.6503,
+  "country_code": "JP",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Sophie",
+      "image_url": null,
+      "description": "A kind young hat-maker who is cursed by a witch to live as an old woman and finds courage she never knew she had."
+    },
+    {
+      "name": "Howl",
+      "image_url": null,
+      "description": "A vain but good-hearted wizard who lives in a magical walking castle and hides a brave soul beneath his flashy appearance."
+    },
+    {
+      "name": "Calcifer",
+      "image_url": null,
+      "description": "A lively fire demon who powers Howl's moving castle and shares a mysterious magical contract with Howl."
+    },
+    {
+      "name": "Markl",
+      "image_url": null,
+      "description": "Howl's young apprentice who looks after the castle and is delighted when Sophie joins their strange household."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Howl's Moving Castle poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Howl's Moving Castle (2004)",
+      "description": "A young woman named Sophie is cursed into an old body and takes refuge in a magical walking castle, where she helps a mysterious wizard find the courage to be kind.",
+      "history": "The film's fairy-tale European setting was inspired by the towns and landscapes of Alsace in France and the Swiss Alps, which director Miyazaki visited before making the film."
+    },
+    {
+      "lang": "vi",
+      "title": "Lâu Đài Di Động Của Howl (2004)",
+      "description": "Một cô gái tên Sophie bị phù thủy biến thành bà già và ẩn náu trong một tòa lâu đài biết đi, nơi cô giúp một phù thủy bí ẩn tìm lại dũng cảm để sống tốt.",
+      "history": "Khung cảnh cổ tích châu Âu trong phim được lấy cảm hứng từ các thị trấn và phong cảnh ở Alsace của Pháp và dãy Alps Thụy Sĩ, nơi đạo diễn Miyazaki đã đến thăm trước khi làm phim."
+    }
+  ],
+  "start_year": 2004,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is Sophie turned into by the witch's curse in Howl's Moving Castle?",
+      "question_type": "single",
+      "options": ["A cat", "An old woman", "A bird", "A tree"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Sophie bị lời nguyền của phù thủy biến thành gì trong Lâu Đài Di Động Của Howl?",
+      "question_type": "single",
+      "options": ["Một con mèo", "Một bà già", "Một con chim", "Một cái cây"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which studio made Howl's Moving Castle?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Studio Ghibli"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hãng phim nào sản xuất Lâu Đài Di Động Của Howl?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Studio Ghibli"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

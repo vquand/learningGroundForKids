@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 10.8231,
+  "longitude": 106.6297,
+  "country_code": "VN",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Trang Ti",
+      "image_url": null,
+      "description": "A very clever and brave young boy who uses his quick thinking to solve problems and go on exciting adventures."
+    },
+    {
+      "name": "Cuc Hoa",
+      "image_url": null,
+      "description": "A cheerful and kind girl who is Trang Ti's best friend and joins him on his adventures."
+    },
+    {
+      "name": "Trong Thuy",
+      "image_url": null,
+      "description": "A loyal friend who sticks by Trang Ti no matter what challenges they face together."
+    },
+    {
+      "name": "Ly Thong",
+      "image_url": null,
+      "description": "A tricky character whose sneaky plans often make things more exciting for Trang Ti and his friends."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Trang Ti Phieu Luu Ky poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Trang Ti Phieu Luu Ky (2021)",
+      "description": "A clever young boy named Trang Ti goes on thrilling adventures, using his wit and bravery to overcome every obstacle he meets.",
+      "history": "This was the first major animated feature film made in Vietnam, bringing to life the beloved Vietnamese folk hero Trang Ti for a whole new generation of children."
+    },
+    {
+      "lang": "vi",
+      "title": "Trạng Tí Phiêu Lưu Ký (2021)",
+      "description": "Một cậu bé thông minh tên Trạng Tí đi phiêu lưu, dùng sự khéo léo và dũng cảm để vượt qua mọi khó khăn gặp phải.",
+      "history": "Đây là bộ phim hoạt hình dài đầu tiên được sản xuất tại Việt Nam, mang nhân vật dân gian nổi tiếng Trạng Tí đến với thế hệ trẻ em mới."
+    }
+  ],
+  "start_year": 2021,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country was the animated film Trang Ti Phieu Luu Ky made in?",
+      "question_type": "single",
+      "options": ["Thailand", "Singapore", "Vietnam", "Malaysia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Bộ phim hoạt hình Trạng Tí Phiêu Lưu Ký được sản xuất ở nước nào?",
+      "question_type": "single",
+      "options": ["Thái Lan", "Singapore", "Việt Nam", "Malaysia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is Trang Ti known for in the movie?",
+      "question_type": "single",
+      "options": ["His magical powers", "His great singing voice", "His cleverness and bravery", "His incredible strength"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Trạng Tí được biết đến với điều gì trong phim?",
+      "question_type": "single",
+      "options": ["Phép màu của cậu", "Giọng hát tuyệt vời", "Sự khéo léo và dũng cảm", "Sức mạnh phi thường"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

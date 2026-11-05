@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 35.4676,
+  "longitude": -97.5164,
+  "country_code": "US",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "Oklahoma City has been hit by more tornadoes than almost any other city on Earth — scientists call its region 'Tornado Alley'!",
+    "A tornado can spin so fast that it moves at over 480 km/h — that is three times faster than a racing car at full speed!",
+    "Tornadoes come in many sizes — the smallest ones are as thin as a pencil, while the biggest can be over 4 km wide, wider than 40 football fields!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Tornado",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Tornado",
+      "description": "A tornado is a violent spinning column of air that reaches from a thundercloud down to the ground, shaped like a funnel and moving across the land.",
+      "history": "Oklahoma City in the United States sits in 'Tornado Alley', the most tornado-prone region on Earth — warm air from the Gulf of Mexico meets cold air from the north here, creating perfect conditions for these powerful spinning storms."
+    },
+    {
+      "lang": "vi",
+      "title": "Lốc Xoáy (Tornado)",
+      "description": "Lốc xoáy là một cột không khí quay dữ dội nối từ đám mây đen xuống mặt đất, có hình dạng cái phễu và di chuyển nhanh trên mặt đất.",
+      "history": "Oklahoma City ở Mỹ nằm trong vùng gọi là 'Hành lang Lốc xoáy', khu vực có nhiều lốc xoáy nhất Trái Đất. Không khí ấm từ vịnh Mexico gặp không khí lạnh từ phía bắc, tạo ra điều kiện lý tưởng cho các cơn lốc xoáy mạnh mẽ hình thành."
+    }
+  ],
+  "start_year": -500,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What shape does a tornado have?",
+      "question_type": "single",
+      "options": ["A round ball", "A funnel shape", "A flat disc", "A long straight line"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Lốc xoáy có hình dạng gì?",
+      "question_type": "single",
+      "options": ["Hình cầu tròn", "Hình cái phễu", "Hình đĩa phẳng", "Một đường thẳng dài"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is the region in the USA with the most tornadoes called?",
+      "question_type": "single",
+      "options": ["Storm Street", "Tornado Alley", "Funnel Zone", "Wind Valley"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Vùng ở Mỹ có nhiều lốc xoáy nhất được gọi là gì?",
+      "question_type": "single",
+      "options": ["Phố Bão", "Hành lang Lốc xoáy", "Vùng Phễu", "Thung lũng Gió"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

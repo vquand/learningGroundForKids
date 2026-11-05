@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 51.752,
+  "longitude": -1.2577,
+  "country_code": "GB",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Alice",
+      "image_url": null,
+      "description": "A curious and brave young girl who falls down a rabbit hole into the topsy-turvy world of Wonderland full of strange creatures."
+    },
+    {
+      "name": "The White Rabbit",
+      "image_url": null,
+      "description": "A flustered rabbit in a waistcoat who is always late and whose rabbit hole leads Alice down into Wonderland."
+    },
+    {
+      "name": "The Mad Hatter",
+      "image_url": null,
+      "description": "An eccentric and friendly character who hosts a never-ending tea party and speaks in delightful riddles and nonsense."
+    },
+    {
+      "name": "The Queen of Hearts",
+      "image_url": null,
+      "description": "The bossy and short-tempered ruler of Wonderland who loves to shout 'Off with their heads!' at everyone around her."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Alice in Wonderland poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Alice in Wonderland (1951)",
+      "description": "Alice tumbles down a rabbit hole and finds herself in the wonderfully strange land of Wonderland, where nothing makes sense and every creature is more peculiar than the last.",
+      "history": "Alice in Wonderland was written by Lewis Carroll, a mathematics professor at Oxford University, who first told the story to a young girl named Alice Liddell during a boat trip in 1862."
+    },
+    {
+      "lang": "vi",
+      "title": "Alice Ở Xứ Sở Thần Kỳ (1951)",
+      "description": "Alice ngã xuống một cái lỗ thỏ và tìm thấy mình đang ở xứ sở kỳ lạ Wonderland, nơi không có gì có ý nghĩa và mỗi sinh vật đều kỳ quặc hơn cái trước.",
+      "history": "Alice Ở Xứ Sở Thần Kỳ được viết bởi Lewis Carroll, một giáo sư toán học tại Đại học Oxford, người lần đầu kể câu chuyện này cho một cô bé tên Alice Liddell trong chuyến đi thuyền năm 1862."
+    }
+  ],
+  "start_year": 1951,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "How does Alice travel to Wonderland?",
+      "question_type": "single",
+      "options": ["She flies on a magic carpet", "She falls down a rabbit hole", "She walks through a magic mirror", "She sails across the sea"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Alice đến Wonderland bằng cách nào?",
+      "question_type": "single",
+      "options": ["Cô bay trên thảm thần", "Cô ngã xuống lỗ thỏ", "Cô bước qua gương thần", "Cô đi thuyền qua biển"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Who is the ruler of Wonderland in Alice in Wonderland?",
+      "question_type": "single",
+      "options": ["The Mad Hatter", "The White Rabbit", "The Queen of Hearts", "The Cheshire Cat"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Ai là người cai trị xứ Wonderland trong phim Alice Ở Xứ Sở Thần Kỳ?",
+      "question_type": "single",
+      "options": ["Gã Thợ Mũ Điên", "Con Thỏ Trắng", "Nữ Hoàng Trái Tim", "Mèo Cheshire"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

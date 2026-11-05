@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 39.0997,
+  "longitude": -94.5786,
+  "country_code": "US",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Dorothy",
+      "image_url": null,
+      "description": "A brave girl from Kansas who is swept away by a tornado to the magical land of Oz and wants to find her way home."
+    },
+    {
+      "name": "Scarecrow",
+      "image_url": null,
+      "description": "A friendly scarecrow who joins Dorothy on her journey hoping to get a brain from the great Wizard."
+    },
+    {
+      "name": "Tin Man",
+      "image_url": null,
+      "description": "A kind tin man who travels with Dorothy wishing the Wizard could give him a heart."
+    },
+    {
+      "name": "Cowardly Lion",
+      "image_url": null,
+      "description": "A lovable lion who is afraid of everything and dreams of getting courage from the wonderful Wizard of Oz."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "The Wizard of Oz poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "The Wizard of Oz (1939)",
+      "description": "Dorothy and her dog Toto are swept away by a tornado from Kansas to the magical land of Oz, where she makes new friends and searches for the Wizard who can send her home.",
+      "history": "The Wizard of Oz was one of the first movies ever shown in color, which amazed audiences who were used to watching black-and-white films!"
+    },
+    {
+      "lang": "vi",
+      "title": "Phù Thủy Xứ Oz (1939)",
+      "description": "Cô bé Dorothy và chú chó Toto bị cuốn vào một cơn lốc xoáy từ Kansas đến xứ sở Oz kỳ diệu, nơi cô kết bạn mới và tìm kiếm Phù Thủy để có thể trở về nhà.",
+      "history": "Phù Thủy Xứ Oz là một trong những bộ phim đầu tiên được chiếu màu, khiến khán giả kinh ngạc vì họ chỉ quen xem phim đen trắng!"
+    }
+  ],
+  "start_year": 1939,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "How does Dorothy travel to the land of Oz?",
+      "question_type": "single",
+      "options": ["On a magic carpet", "Through a rabbit hole", "By a tornado", "On a flying horse"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Dorothy đi đến xứ Oz bằng cách nào?",
+      "question_type": "single",
+      "options": ["Trên thảm bay", "Qua lỗ thỏ", "Bởi cơn lốc xoáy", "Trên ngựa bay"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What does the Scarecrow want to get from the Wizard of Oz?",
+      "question_type": "single",
+      "options": ["A heart", "Courage", "A brain", "A home"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Bù Nhìn muốn xin Phù Thủy Oz điều gì?",
+      "question_type": "single",
+      "options": ["Một trái tim", "Lòng dũng cảm", "Một bộ não", "Một ngôi nhà"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

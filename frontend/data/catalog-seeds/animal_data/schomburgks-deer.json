@@ -1,0 +1,69 @@
+{
+  "category": "animal",
+  "latitude": 15.0,
+  "longitude": 102.0,
+  "country_code": "TH",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Schomburgk's Deer lived in the central floodplains and marshlands of Thailand, particularly in the Chao Phraya river basin. It favoured open, grassy swamps and flooded plains.",
+  "fun_facts": [
+    "Schomburgk's Deer had beautiful, highly branched antlers that could grow very large and bushy.",
+    "It was named after Sir Robert Schomburgk, a British diplomat who described the species in the 1860s.",
+    "The fertile floodplains where it lived were converted to rice paddies, destroying its habitat.",
+    "The last wild Schomburgk's Deer was reportedly killed in 1932 during a drunken brawl in a village.",
+    "A domesticated individual supposedly survived in Laos until 1938, making it the last confirmed sighting."
+  ],
+  "end_year": 1938,
+  "time_precision": "year",
+  "media": [{"media_type": "image", "label": "Schomburgk's Deer", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Schomburgk's Deer (Extinct 1938)",
+      "description": "Schomburgk's Deer was a graceful deer with large, beautifully branched antlers that lived in the flooded marshlands of central Thailand. As the wetlands were drained to plant rice, the deer lost its home. The last wild one was killed in 1932, and the last known individual survived until 1938 in Laos."
+    },
+    {
+      "lang": "vi",
+      "title": "Hươu Schomburgk (Tuyệt chủng 1938)",
+      "description": "Hươu Schomburgk là loài hươu thanh lịch với bộ sừng lớn, nhiều nhánh đẹp sống ở các vùng đầm lầy ngập nước của miền trung Thái Lan. Khi các vùng đất ngập nước bị thoát nước để trồng lúa, hươu mất đi ngôi nhà của mình. Con hoang dã cuối cùng bị giết năm 1932, và cá thể cuối cùng được biết đến còn sống sót đến năm 1938 ở Lào."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country did Schomburgk's Deer mainly live?",
+      "question_type": "single",
+      "options": ["Vietnam", "Cambodia", "Thailand", "Myanmar"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hươu Schomburgk chủ yếu sống ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Việt Nam", "Campuchia", "Thái Lan", "Myanmar"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Why did Schomburgk's Deer lose its habitat?",
+      "question_type": "single",
+      "options": ["Forests were cut for logging", "Wetlands were drained to plant rice", "Rivers dried up due to drought", "The sea level rose and flooded its home"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Tại sao Hươu Schomburgk mất đi môi trường sống?",
+      "question_type": "single",
+      "options": ["Rừng bị chặt phá để lấy gỗ", "Đất ngập nước bị thoát nước để trồng lúa", "Sông ngòi cạn kiệt do hạn hán", "Mực nước biển dâng nhấn chìm nơi ở của nó"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

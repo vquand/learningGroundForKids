@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 37.5665,
+  "longitude": 126.978,
+  "country_code": "KR",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "PSY",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Gangnam Style — PSY",
+      "description": "A super fun and catchy pop song from South Korea with a silly horse-riding dance that people all over the world loved doing together!",
+      "history": "PSY released Gangnam Style in 2012 and it became the first YouTube video ever to reach one billion views — the whole world went crazy for that funny dance!"
+    },
+    {
+      "lang": "vi",
+      "title": "Gangnam Style — PSY",
+      "description": "Một bài nhạc pop sôi động và vui nhộn từ Hàn Quốc với vũ điệu cưỡi ngựa hài hước mà mọi người trên khắp thế giới đều thích nhảy theo!",
+      "history": "PSY phát hành Gangnam Style năm 2012 và nó trở thành video đầu tiên trên YouTube đạt một tỷ lượt xem — cả thế giới phát cuồng vì vũ điệu hài hước đó!"
+    }
+  ],
+  "start_year": 2012,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who performed 'Gangnam Style'?", "question_type": "single", "options": ["BTS", "PSY", "G-Dragon", "Rain"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã biểu diễn bài 'Gangnam Style'?", "question_type": "single", "options": ["BTS", "PSY", "G-Dragon", "Rain"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "'Gangnam Style' was the first YouTube video to reach how many views?", "question_type": "single", "options": ["One million", "One hundred million", "One billion", "Ten billion"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "'Gangnam Style' là video YouTube đầu tiên đạt bao nhiêu lượt xem?", "question_type": "single", "options": ["Một triệu", "Một trăm triệu", "Một tỷ", "Mười tỷ"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 41.9028,
+  "longitude": 12.4964,
+  "country_code": "IT",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Cook spaghetti until soft. In a bowl, mix egg yolks with lots of Pecorino cheese and black pepper. Fry crispy guanciale (pork cheek) in a pan. Toss the hot pasta with the pork, then quickly stir in the egg and cheese mix — the heat makes a creamy sauce without any cream!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Pasta Carbonara",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Pasta Carbonara",
+      "description": "Pasta Carbonara is a creamy Roman pasta dish made with eggs, cheese, and crispy pork — no cream needed! The secret is mixing everything fast so the eggs turn silky instead of scrambled.",
+      "history": "Pasta Carbonara comes from Rome, Italy, and became very popular after World War II. Some say it was inspired by American soldiers who mixed their egg and bacon rations with pasta — though Romans are proud of their own version!"
+    },
+    {
+      "lang": "vi",
+      "title": "Mì Carbonara",
+      "description": "Pasta Carbonara là món mì kem của thành phố Rome làm từ trứng, phô mai và thịt heo giòn — không cần kem! Bí quyết là trộn mọi thứ thật nhanh để trứng trở nên mịn màng thay vì bị cháy.",
+      "history": "Pasta Carbonara có nguồn gốc từ Rome, Ý, và trở nên rất phổ biến sau Thế Chiến thứ Hai. Có người nói nó được cảm hứng từ các binh sĩ Mỹ trộn trứng và bacon của họ với mì ống — dù vậy người Rome rất tự hào về phiên bản của riêng họ!"
+    }
+  ],
+  "start_year": 1950,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which Italian city is Pasta Carbonara from?",
+      "question_type": "single",
+      "options": ["Naples", "Milan", "Rome", "Venice"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Pasta Carbonara đến từ thành phố Ý nào?",
+      "question_type": "single",
+      "options": ["Naples", "Milan", "Rome", "Venice"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What makes Carbonara sauce creamy without using cream?",
+      "question_type": "single",
+      "options": ["Butter and milk", "Eggs and cheese", "Flour and water", "Yogurt and oil"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điều gì làm cho sốt Carbonara kem mà không cần dùng kem tươi?",
+      "question_type": "single",
+      "options": ["Bơ và sữa", "Trứng và phô mai", "Bột mì và nước", "Sữa chua và dầu"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

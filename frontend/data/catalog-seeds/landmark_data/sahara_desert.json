@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 22.7862,
+  "longitude": 5.5228,
+  "country_code": "DZ",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "The Sahara Desert spans across northern Africa from the Atlantic coast to the Red Sea, covering approximately 9.2 million square kilometers.",
+  "fun_facts": [
+    "The Sahara is the largest hot desert in the world — it is almost as big as the entire United States of America!",
+    "Sand dunes in the Sahara can grow taller than a 50-story skyscraper, reaching heights of over 180 meters.",
+    "Believe it or not, the Sahara was once a green, lush savanna with rivers, lakes, and hippos just 6,000 years ago!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Sahara Desert",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Sahara Desert",
+      "description": "The Sahara is the world's greatest hot desert, a vast ocean of golden sand and dramatic rocky mountains stretching across the top of Africa. During the day temperatures can soar to 50 degrees Celsius — hot enough to fry an egg on a rock — but at night the desert becomes shockingly cold and filled with brilliant stars you cannot see anywhere else. Hidden beneath this scorching landscape are massive underground lakes of ancient water called aquifers.",
+      "history": "About 5,000 to 11,000 years ago the Sahara was completely different — a green, wet landscape with lakes, rivers, elephants, and crocodiles, a period scientists call the African Humid Period or the Green Sahara. Ancient cave paintings found in places like the Tassili n'Ajjer mountains in Algeria show these animals and human settlements that thrived there. A gradual shift in Earth's orbit changed the monsoon patterns, and the grasslands slowly dried into the epic desert we see today."
+    },
+    {
+      "lang": "vi",
+      "title": "Sa Mạc Sahara",
+      "description": "Sahara là sa mạc nóng lớn nhất thế giới, một đại dương cát vàng bao la và những dãy núi đá ấn tượng trải dài khắp phần phía bắc châu Phi. Ban ngày nhiệt độ có thể tăng lên 50 độ C — đủ nóng để chiên trứng ngay trên đá — nhưng ban đêm sa mạc trở nên lạnh một cách bất ngờ và đầy những vì sao rực rỡ mà bạn không thể thấy ở bất cứ nơi nào khác. Ẩn bên dưới cảnh quan nóng bức này là những hồ ngầm khổng lồ chứa nước cổ đại.",
+      "history": "Khoảng 5.000 đến 11.000 năm trước Sahara hoàn toàn khác biệt — là một cảnh quan xanh tươi ẩm ướt với hồ, sông, voi và cá sấu, một thời kỳ mà các nhà khoa học gọi là Thời Kỳ Ẩm Ướt châu Phi hay Sahara Xanh. Những bức tranh trên hang động cổ tại những nơi như núi Tassili n'Ajjer ở Algeria cho thấy những động vật này và các khu định cư của con người từng phát triển ở đó. Sự thay đổi dần trong quỹ đạo của Trái Đất đã làm thay đổi quy luật gió mùa, và đồng cỏ dần biến thành sa mạc kỳ vĩ như ngày nay."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "The Sahara Desert is mainly located in which continent?",
+      "question_type": "single",
+      "options": ["Asia", "North America", "Africa", "Australia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Sa Mạc Sahara chủ yếu nằm ở châu lục nào?",
+      "question_type": "single",
+      "options": ["Châu Á", "Bắc Mỹ", "Châu Phi", "Châu Úc"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What was the Sahara Desert like about 10,000 years ago?",
+      "question_type": "single",
+      "options": ["It was covered in ice", "It was a green, wet landscape with rivers and lakes", "It was the same as today", "It was under the ocean"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Sa Mạc Sahara trông như thế nào khoảng 10.000 năm trước?",
+      "question_type": "single",
+      "options": ["Nó được bao phủ bởi băng", "Nó là một cảnh quan xanh tươi ẩm ướt với sông và hồ", "Nó giống như ngày nay", "Nó ở dưới đại dương"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -5000000,
+  "time_precision": "mya"
+}

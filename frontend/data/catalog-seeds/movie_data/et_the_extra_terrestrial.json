@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 34.0522,
+  "longitude": -118.2437,
+  "country_code": "US",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "E.T.",
+      "image_url": null,
+      "description": "A gentle alien from outer space who gets left behind on Earth and forms a magical friendship with a young boy."
+    },
+    {
+      "name": "Elliott",
+      "image_url": null,
+      "description": "A kind-hearted 10-year-old boy in California who discovers E.T. hiding in his shed and becomes his best friend."
+    },
+    {
+      "name": "Gertie",
+      "image_url": null,
+      "description": "Elliott's funny little sister who quickly accepts E.T. and even tries to teach him how to talk."
+    },
+    {
+      "name": "Michael",
+      "image_url": null,
+      "description": "Elliott's older brother who teases him at first but ends up helping protect E.T. from the grown-ups."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "E.T. the Extra-Terrestrial poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "E.T. the Extra-Terrestrial (1982)",
+      "description": "A lonely alien named E.T. is accidentally left behind on Earth, where he is found by a boy named Elliott who helps him try to phone home.",
+      "history": "E.T. was directed by Steven Spielberg and became one of the most beloved movies of all time — the glowing finger and bicycle-in-the-sky scenes are famous around the world!"
+    },
+    {
+      "lang": "vi",
+      "title": "E.T. Sinh Vật Ngoài Hành Tinh (1982)",
+      "description": "Một sinh vật ngoài hành tinh cô đơn tên E.T. bị bỏ lại trên Trái Đất, nơi cậu bé Elliott tìm thấy và giúp nó liên lạc để trở về nhà.",
+      "history": "E.T. do đạo diễn Steven Spielberg thực hiện và trở thành một trong những bộ phim được yêu thích nhất mọi thời đại — cảnh ngón tay phát sáng và xe đạp bay trên bầu trời nổi tiếng toàn thế giới!"
+    }
+  ],
+  "start_year": 1982,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is the name of the boy who befriends E.T. in the movie?",
+      "question_type": "single",
+      "options": ["Michael", "Charlie", "Elliott", "Kevin"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tên cậu bé kết bạn với E.T. trong phim là gì?",
+      "question_type": "single",
+      "options": ["Michael", "Charlie", "Elliott", "Kevin"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Who directed the movie E.T. the Extra-Terrestrial?",
+      "question_type": "single",
+      "options": ["George Lucas", "Tim Burton", "Steven Spielberg", "James Cameron"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Ai đã đạo diễn bộ phim E.T. Sinh Vật Ngoài Hành Tinh?",
+      "question_type": "single",
+      "options": ["George Lucas", "Tim Burton", "Steven Spielberg", "James Cameron"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

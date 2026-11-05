@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 36.8619,
+  "longitude": -111.3743,
+  "country_code": "US",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Antelope Canyon is a slot canyon on Navajo Nation land near Page, Arizona, USA, formed by centuries of water and wind erosion cutting through Navajo sandstone.",
+  "fun_facts": [
+    "Antelope Canyon is so narrow in places that you can touch both walls at the same time with your arms stretched out — but the canyon is still over 60 metres deep!",
+    "The walls glow with incredible swirling colours of orange, red, pink, and purple because light bouncing off the curved sandstone creates a natural light show.",
+    "Flash floods can still rush through Antelope Canyon with no warning, which is why visitors must always go with a guide who knows when it is safe."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Antelope Canyon",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Antelope Canyon",
+      "description": "Antelope Canyon is a magical hidden world carved into smooth, wave-shaped sandstone rock in Arizona, where narrow passages glow with swirling waves of orange, red, and golden light. Water slowly carved these twisting corridors over hundreds of thousands of years, polishing the walls as smooth as silk. Shafts of sunlight sometimes beam down from a narrow opening above, making the whole canyon look like it is glowing from the inside.",
+      "history": "The Navajo people have known about Antelope Canyon for centuries and call it 'Tsé bighánílíní,' meaning 'the place where water runs through rocks,' or 'Hasdeztwazi,' meaning 'spiral rock arches.' A young Navajo girl is said to have rediscovered the lower canyon in 1931 while herding sheep. Today it is entirely owned and managed by the Navajo Nation, and is one of the most photographed places in the American Southwest."
+    },
+    {
+      "lang": "vi",
+      "title": "Hẻm Núi Antelope",
+      "description": "Hẻm Núi Antelope là một thế giới ẩn giấu kỳ diệu được khắc trên đá cát phẳng như sóng biển ở Arizona, nơi các lối đi hẹp phát sáng với những sóng cuộn màu cam, đỏ và vàng. Nước từ từ khắc nên những hành lang xoắn ốc này qua hàng trăm nghìn năm, đánh bóng các bức tường nhẵn như lụa. Các tia nắng mặt trời đôi khi chiếu xuống từ một khe hẹp bên trên, khiến cả hẻm núi trông như đang phát sáng từ bên trong.",
+      "history": "Người Navajo đã biết về Hẻm Núi Antelope từ hàng thế kỷ trước và gọi nó là 'Tsé bighánílíní', có nghĩa là 'nơi nước chảy qua đá', hoặc 'Hasdeztwazi', có nghĩa là 'vòng cuộn đá xoắn ốc'. Một cô gái Navajo trẻ được cho là đã khám phá lại hẻm núi phía dưới vào năm 1931 khi chăn gia súc. Ngày nay nó hoàn toàn thuộc sở hữu và quản lý bởi Quốc gia Navajo, và là một trong những nơi được chụp ảnh nhiều nhất ở miền Tây Nam nước Mỹ."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which US state is Antelope Canyon located?",
+      "question_type": "single",
+      "options": ["Utah", "Nevada", "Arizona", "Colorado"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hẻm Núi Antelope nằm ở tiểu bang nào của Mỹ?",
+      "question_type": "single",
+      "options": ["Utah", "Nevada", "Arizona", "Colorado"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Who owns and manages Antelope Canyon today?",
+      "question_type": "single",
+      "options": ["The US government", "The Navajo Nation", "A private company", "UNESCO"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Ai sở hữu và quản lý Hẻm Núi Antelope ngày nay?",
+      "question_type": "single",
+      "options": ["Chính phủ Mỹ", "Quốc gia Navajo", "Một công ty tư nhân", "UNESCO"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -5000000,
+  "time_precision": "mya"
+}

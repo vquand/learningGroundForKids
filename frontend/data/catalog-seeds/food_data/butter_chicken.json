@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 28.6139,
+  "longitude": 77.209,
+  "country_code": "IN",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Cook small pieces of chicken in a pan until golden. In another pot, melt butter and add tomato puree, cream, and spices like cumin and garam masala. Stir it into a smooth, creamy orange sauce, then add the chicken and simmer for 10 minutes. Serve warm with fluffy naan bread!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Butter Chicken",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Butter Chicken",
+      "description": "Butter Chicken is a creamy, mildly spiced Indian dish with soft chicken pieces swimming in a rich tomato and butter sauce. It is one of the most popular Indian dishes in the world and is perfect with warm naan bread or rice!",
+      "history": "Butter Chicken was invented in New Delhi, India, in the 1950s by a chef who wanted to use leftover chicken by simmering it in a creamy tomato sauce. It quickly became loved by everyone and spread to restaurants all over the world."
+    },
+    {
+      "lang": "vi",
+      "title": "Gà Sốt Bơ (Butter Chicken)",
+      "description": "Butter Chicken là món gà Ấn Độ sốt kem, gia vị nhẹ với những miếng gà mềm trong sốt cà chua béo ngậy. Đây là một trong những món Ấn Độ được yêu thích nhất trên thế giới, ăn rất ngon với bánh mì naan hoặc cơm trắng!",
+      "history": "Butter Chicken được sáng chế ở New Delhi, Ấn Độ vào những năm 1950 bởi một đầu bếp muốn tận dụng gà còn thừa bằng cách hầm trong sốt cà chua kem. Nó nhanh chóng được mọi người yêu thích và lan rộng ra nhà hàng khắp thế giới."
+    }
+  ],
+  "start_year": 1950,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which city was Butter Chicken invented?",
+      "question_type": "single",
+      "options": ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Butter Chicken được sáng chế ở thành phố nào?",
+      "question_type": "single",
+      "options": ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is the base of Butter Chicken sauce?",
+      "question_type": "single",
+      "options": ["Coconut milk", "Tomato and butter", "Yogurt", "Peanut paste"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Sốt của Butter Chicken được làm từ gì?",
+      "question_type": "single",
+      "options": ["Nước cốt dừa", "Cà chua và bơ", "Sữa chua", "Bột đậu phộng"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

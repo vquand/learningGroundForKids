@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 60.3913,
+  "longitude": 5.3221,
+  "country_code": "NO",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Edvard Grieg",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "In the Hall of the Mountain King — Edvard Grieg",
+      "description": "This exciting piece starts out sneaky and quiet, then gets faster and LOUDER like a thrilling chase through a troll king's underground cave!",
+      "history": "Edvard Grieg from Norway wrote this in 1875 for a play about a boy named Peer Gynt who sneaks into the mountain where a magical troll king lives."
+    },
+    {
+      "lang": "vi",
+      "title": "Trong Cung Điện Vua Núi — Edvard Grieg",
+      "description": "Bản nhạc hấp dẫn này bắt đầu khẽ khàng và nhẹ nhàng, sau đó ngày càng nhanh hơn và TO HƠN như một cuộc truy đuổi hồi hộp qua hang động của một vua quái vật dưới lòng đất!",
+      "history": "Edvard Grieg người Na Uy viết bản nhạc này năm 1875 cho một vở kịch về một cậu bé tên Peer Gynt lén lên vào núi nơi một vị vua quái vật huyền bí sinh sống."
+    }
+  ],
+  "start_year": 1876,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed 'In the Hall of the Mountain King'?", "question_type": "single", "options": ["Sibelius", "Grieg", "Nielsen", "Svendsen"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác 'Trong Cung Điện Vua Núi'?", "question_type": "single", "options": ["Sibelius", "Grieg", "Nielsen", "Svendsen"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "'In the Hall of the Mountain King' was written for a play about which character?", "question_type": "single", "options": ["Peter Pan", "Peer Gynt", "Hans Christian", "Jack Frost"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "'Trong Cung Điện Vua Núi' được viết cho vở kịch về nhân vật nào?", "question_type": "single", "options": ["Peter Pan", "Peer Gynt", "Hans Christian", "Jack Frost"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 13.7563,
+  "longitude": 100.5018,
+  "country_code": "TH",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Boil water or chicken broth and add lemongrass, kaffir lime leaves, and slices of galangal root. Drop in big juicy shrimp and mushrooms and cook until the shrimp turn pink. Add a splash of fish sauce and lime juice, then serve hot with rice!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Tom Yum Goong",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Tom Yum Goong",
+      "description": "Tom Yum Goong is a hot and sour Thai soup bursting with the aromas of lemongrass, lime leaves, and galangal, loaded with plump juicy shrimp and mushrooms. It is spicy, tangy, and absolutely delicious!",
+      "history": "Tom Yum Goong has been made in Thailand for hundreds of years using fresh herbs and ingredients that grow in the Thai countryside. It is considered one of Thailand's national dishes and a symbol of Thai cooking's bold, beautiful flavors."
+    },
+    {
+      "lang": "vi",
+      "title": "Tom Yum Goong",
+      "description": "Tom Yum Goong là món súp cay chua của Thái Lan tràn đầy hương thơm của sả, lá chanh kaffir và riềng, với nhiều tôm bóng mõng và nấm. Món súp này cay, chua và cực kỳ hấp dẫn!",
+      "history": "Tom Yum Goong đã được nấu ở Thái Lan hàng trăm năm sử dụng các loại thảo mộc và nguyên liệu tươi trong từ vùng quê Thái. Đây được coi là một trong những món ăn quốc gia của Thái Lan và là biểu tượng cho những hương vị đậm đà tuyệt đẹp của ẩm thực Thái."
+    }
+  ],
+  "start_year": 1800,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Tom Yum Goong from?",
+      "question_type": "single",
+      "options": ["Vietnam", "Laos", "Thailand", "Cambodia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tom Yum Goong đến từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Việt Nam", "Lào", "Thái Lan", "Campuchia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What are the two main flavor notes of Tom Yum soup?",
+      "question_type": "single",
+      "options": ["Sweet and salty", "Hot and sour", "Bitter and sweet", "Savory and mild"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hai hương vị chính của súp Tom Yum là gì?",
+      "question_type": "single",
+      "options": ["Ngọt và mặn", "Cay và chua", "Đắng và ngọt", "Đậm đà và nhẹ"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

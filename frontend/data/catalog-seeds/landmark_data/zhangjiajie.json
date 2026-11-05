@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 29.3248,
+  "longitude": 110.4346,
+  "country_code": "CN",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Zhangjiajie National Forest Park is a dramatic landscape of soaring sandstone pillar mountains in Hunan Province, China, that inspired the floating mountains in the film Avatar.",
+  "fun_facts": [
+    "The sandstone pillars of Zhangjiajie can be over 300 meters tall — that is taller than the Eiffel Tower — and they look like they are floating in the clouds!",
+    "One of the glass-bottomed sky bridges here is the longest and highest in the world — it hangs 430 meters above the valley floor.",
+    "The filmmakers of Avatar were so amazed by Zhangjiajie that they named one of the floating mountain peaks after the movie — it is officially called Hallelujah Mountain."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Zhangjiajie",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Zhangjiajie",
+      "description": "Zhangjiajie is a magical forest park in China where thousands of giant sandstone pillars shoot straight up into the sky, often disappearing into swirling mist and clouds. Walking among them feels like being inside a fantasy world — many pillars are so thin and tall you wonder how they stand up at all. It inspired the breathtaking floating mountains in the movie Avatar.",
+      "history": "The towering pillars were formed over 380 million years as ancient seas deposited layers of quartz sandstone, which were then uplifted and carved by water and wind into their striking shapes. The area has been a sacred landscape in Chinese culture for centuries, celebrated in classical ink paintings. Zhangjiajie National Forest Park was established in 1982 as China's first national forest park, and the broader Wulingyuan area became a UNESCO World Heritage site in 1992."
+    },
+    {
+      "lang": "vi",
+      "title": "Trương Gia Giới",
+      "description": "Trương Gia Giới là một công viên rừng kỳ diệu ở Trung Quốc, nơi hàng nghìn trụ đá cát kết khổng lồ mọc thẳng lên bầu trời, thường biến mất trong mây mù xoáy. Đi giữa chúng có cảm giác như đang ở trong thế giới thần kỳ — nhiều trụ quá mỏng và cao đến mức ta không hiểu sao chúng còn đứng vững. Cảnh vật này đã truyền cảm hứng cho những núi bay huyền ảo trong phim Avatar.",
+      "history": "Những trụ đá cao ngất được hình thành qua hơn 380 triệu năm khi biển cổ xưa bồi lấp các tầng đá cát thạch anh, sau đó bị nâng lên và bị nước gió bào mòn thành những hình dạng độc đáo. Vùng đất này đã là phong cảnh linh thiêng trong văn hóa Trung Hoa hàng thế kỷ, được ca tụng trong tranh thủy mạc cổ điển. Công viên Rừng Quốc gia Trương Gia Giới được thành lập năm 1982 và khu Vũ Lăng Nguyên rộng lớn hơn trở thành Di sản Thế giới UNESCO năm 1992."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Zhangjiajie is located in which country?",
+      "question_type": "single",
+      "options": ["Vietnam", "Japan", "China", "South Korea"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Trương Gia Giới nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Việt Nam", "Nhật Bản", "Trung Quốc", "Hàn Quốc"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which famous movie were the floating mountains in Zhangjiajie an inspiration for?",
+      "question_type": "single",
+      "options": ["The Lord of the Rings", "Avatar", "Jurassic Park", "The Lion King"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Những núi bay ở Trương Gia Giới đã truyền cảm hứng cho bộ phim nổi tiếng nào?",
+      "question_type": "single",
+      "options": ["Chúa tể những chiếc nhẫn", "Avatar", "Công viên kỷ Jura", "Vua sư tử"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -300000000,
+  "time_precision": "mya"
+}

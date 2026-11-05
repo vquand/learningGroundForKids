@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 34.0522,
+  "longitude": -118.2437,
+  "country_code": "US",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Carl Fredricksen",
+      "image_url": null,
+      "description": "A grumpy but kind-hearted old man who ties thousands of balloons to his house to fly to South America."
+    },
+    {
+      "name": "Russell",
+      "image_url": null,
+      "description": "An enthusiastic young wilderness scout who accidentally ends up on Carl's flying house adventure."
+    },
+    {
+      "name": "Dug",
+      "image_url": null,
+      "description": "A lovable golden retriever dog who wears a special collar that lets him talk to people."
+    },
+    {
+      "name": "Kevin",
+      "image_url": null,
+      "description": "A tall, colorful exotic bird that Russell befriends during their adventure in the jungle."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Up poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Up (2009)",
+      "description": "A retired balloon seller ties thousands of balloons to his house and flies to South America, but a young scout accidentally comes along for the ride.",
+      "history": "Up was the first animated film and the second film ever to open the Cannes Film Festival, one of the most famous movie festivals in the world!"
+    },
+    {
+      "lang": "vi",
+      "title": "Bay Lên (2009)",
+      "description": "Một ông già bán bóng bay buộc hàng ngàn quả bóng lên nhà mình và bay đến Nam Mỹ, nhưng một cháu trai hướng đạo vô tình lại cùng đi theo.",
+      "history": "Up là phim hoạt hình đầu tiên và là phim thứ hai từng mở màn Liên hoan phim Cannes, một trong những liên hoan phim nổi tiếng nhất thế giới!"
+    }
+  ],
+  "start_year": 2009,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "How does Carl make his house fly in the movie Up?",
+      "question_type": "single",
+      "options": ["With a rocket engine", "With thousands of balloons", "With a magic spell", "With a giant propeller"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Carl làm nhà mình bay như thế nào trong phim Bay Lên?",
+      "question_type": "single",
+      "options": ["Với động cơ tên lửa", "Với hàng ngàn quả bóng bay", "Với phép thuật", "Với một cánh quạt khổng lồ"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which studio made the movie Up?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Blue Sky"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hãng phim nào sản xuất bộ phim Bay Lên?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Blue Sky"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

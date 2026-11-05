@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 59.3293,
+  "longitude": 18.0686,
+  "country_code": "SE",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "ABBA",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Dancing Queen — ABBA",
+      "description": "A bright and sparkling disco pop song from Sweden that makes you feel like royalty on the dance floor — everyone wants to be the Dancing Queen!",
+      "history": "ABBA from Stockholm released this song in 1976 and it became a worldwide hit — even a Swedish king and queen danced to it at a royal party the night before it came out!"
+    },
+    {
+      "lang": "vi",
+      "title": "Nữ Hoàng Nhảy Múa — ABBA",
+      "description": "Một bài hát disco sáng lóng lánh từ Thụy Điển, nghe là bạn cảm thấy mình như một người hoàng gia trên sân nhảy — ai cũng muốn là Nữ Hoàng Nhảy Múa!",
+      "history": "Nhóm ABBA từ Stockholm phát hành bài hát này năm 1976 và nó trở thành hit toàn cầu — ngay cả vua và hoàng hậu Thụy Điển cũng đã nhảy theo bài hát này!"
+    }
+  ],
+  "start_year": 1976,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Which pop group performed 'Dancing Queen'?", "question_type": "single", "options": ["ABBA", "Bee Gees", "Erasure", "Pet Shop Boys"], "correct_answers": [0], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Nhóm nhạc nào biểu diễn bài 'Dancing Queen'?", "question_type": "single", "options": ["ABBA", "Bee Gees", "Erasure", "Pet Shop Boys"], "correct_answers": [0], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Which country is ABBA from?", "question_type": "single", "options": ["Norway", "Denmark", "Finland", "Sweden"], "correct_answers": [3], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "ABBA đến từ quốc gia nào?", "question_type": "single", "options": ["Na Uy", "Đan Mạch", "Phần Lan", "Thụy Điển"], "correct_answers": [3], "sort_order": 1}
+  ]
+}

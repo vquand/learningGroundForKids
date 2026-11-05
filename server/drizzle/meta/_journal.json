@@ -1,0 +1,286 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789870274195,
+      "tag": "0000_marvelous_mandrill",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1789870302559,
+      "tag": "0001_awesome_toad",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1789896458999,
+      "tag": "0002_cute_spencer_smythe",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1789912123958,
+      "tag": "0003_flashcard_study",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1789949459829,
+      "tag": "0004_social_friend_requests",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1789973025994,
+      "tag": "0005_awesome_moonstone",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1790002602190,
+      "tag": "0006_breezy_spirit",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1790053695503,
+      "tag": "0007_chilly_hardball",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1790130419996,
+      "tag": "0008_lively_hawkeye",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1790417315532,
+      "tag": "0009_naive_guardian",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1790599534285,
+      "tag": "0010_flaky_dracula",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1790730000000,
+      "tag": "0011_catalog_content_hash",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1791205986500,
+      "tag": "0012_shoo_shoo_ufo",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1791257854712,
+      "tag": "0013_math_quiz_wall",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1791298462896,
+      "tag": "0014_ufo_vietnamese",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1791370000000,
+      "tag": "0015_passkeys",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1791607472320,
+      "tag": "0016_infinidrill_achievements",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1791730227345,
+      "tag": "0017_town_building",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1791788381777,
+      "tag": "0018_bouncy_wild_pack",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1791791947166,
+      "tag": "0019_opposite_lockheed",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1791792447739,
+      "tag": "0020_clumsy_obadiah_stane",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1791814759157,
+      "tag": "0021_google_family_auth",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1792109083154,
+      "tag": "0022_cabbage_roll_sessions",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1792201847639,
+      "tag": "0023_family_onboarding",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1792225577588,
+      "tag": "0024_child_adventures",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1792338725622,
+      "tag": "0025_explore_snapshots",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1792412946341,
+      "tag": "0026_fishing_friends",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "7",
+      "when": 1792519346341,
+      "tag": "0027_road_racing",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "7",
+      "when": 1792741755195,
+      "tag": "0028_town_friend_baskets",
+      "breakpoints": true
+    },
+    {
+      "idx": 29,
+      "version": "7",
+      "when": 1792742943744,
+      "tag": "0029_town_river_sharing",
+      "breakpoints": true
+    },
+    {
+      "idx": 30,
+      "version": "7",
+      "when": 1792742944744,
+      "tag": "0030_daily_quiz",
+      "breakpoints": true
+    },
+    {
+      "idx": 31,
+      "version": "7",
+      "when": 1792829344744,
+      "tag": "0031_retire_placeholder_quizzes",
+      "breakpoints": true
+    },
+    {
+      "idx": 32,
+      "version": "7",
+      "when": 1792915744744,
+      "tag": "0032_river_eggs_catch_index",
+      "breakpoints": true
+    },
+    {
+      "idx": 33,
+      "version": "7",
+      "when": 1793260647838,
+      "tag": "0033_kid_calendar",
+      "breakpoints": true
+    },
+    {
+      "idx": 34,
+      "version": "7",
+      "when": 1793332800000,
+      "tag": "0034_calendar_custom_items",
+      "breakpoints": true
+    },
+    {
+      "idx": 35,
+      "version": "7",
+      "when": 1793494800000,
+      "tag": "0035_calendar_extra_study",
+      "breakpoints": true
+    },
+    {
+      "idx": 36,
+      "version": "7",
+      "when": 1793523568207,
+      "tag": "0036_calendar_people",
+      "breakpoints": true
+    },
+    {
+      "idx": 37,
+      "version": "7",
+      "when": 1793726409591,
+      "tag": "0037_profile_tour",
+      "breakpoints": true
+    },
+    {
+      "idx": 38,
+      "version": "7",
+      "when": 1793750400000,
+      "tag": "0038_legal_consent",
+      "breakpoints": true
+    },
+    {
+      "idx": 39,
+      "version": "7",
+      "when": 1793799145748,
+      "tag": "0039_kid_schedule",
+      "breakpoints": true
+    }
+  ]
+}

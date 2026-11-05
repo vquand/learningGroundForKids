@@ -1,0 +1,15 @@
+.family-onboarding { box-sizing:border-box; width:100%; max-width:960px; margin:0 auto 24px; padding:20px; border:1px solid #d6c7ad; border-radius:20px; background:#fffaf0; color:#574435; font-family:'Nunito',system-ui,sans-serif; }
+.family-onboarding-heading { display:flex; justify-content:space-between; align-items:flex-start; gap:16px; }
+.family-onboarding h2 { margin:0; font-size:22px; font-weight:900; line-height:1.25; }.family-onboarding p { margin:6px 0 0; font-size:14px; line-height:1.4; }
+.family-onboarding button,.family-onboarding a { display:inline-flex; align-items:center; min-height:44px; font-size:14px; font-weight:800; border-radius:10px; }
+.family-onboarding button { flex-shrink:0; padding:6px 14px; background:transparent; border:1px solid #bda98c; color:inherit; cursor:pointer; }.family-onboarding button:disabled { opacity:.5; }
+.family-onboarding a,.family-onboarding .family-onboarding-action { color:#3e6146; text-decoration:underline; gap:8px; }
+.family-onboarding :is(a,button):focus-visible { outline:3px solid #4f7357; outline-offset:3px; }
+.family-onboarding-count { font-weight:900; color:#4f7357; }
+.family-onboarding ol { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; list-style:none; padding:0; margin:16px 0 0; }
+.family-onboarding li { min-width:0; display:flex; align-items:flex-start; gap:8px; }.family-onboarding-check { flex-shrink:0; width:24px; height:24px; border-radius:50%; display:grid; place-items:center; border:1px solid #bda98c; font-weight:900; }
+.family-onboarding [data-complete=true] .family-onboarding-check { background:#4f7357; border-color:#4f7357; color:white; }.family-onboarding h3 { font-size:16px; font-weight:900; margin:0; line-height:1.4; }
+.family-onboarding .family-onboarding-finish { margin-top:12px; background:#4f7357; border-color:#3e6146; color:white; }
+@media (max-width:600px) { .family-onboarding { padding:14px; border-radius:16px; margin-bottom:16px; }.family-onboarding h2 { font-size:18px; }.family-onboarding-heading { gap:8px; }.family-onboarding ol { grid-template-columns:minmax(0,1fr); gap:12px; }.family-onboarding-heading button { padding-inline:10px; } }
+
+.family-onboarding .family-onboarding-action { padding:0; border:0; }

@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 35.6762,
+  "longitude": 139.6503,
+  "country_code": "JP",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Cook sticky Japanese rice and mix it with a little rice vinegar while it is warm. Shape small mounds of rice with your hands and press a slice of fresh fish on top. Dip gently in soy sauce and enjoy in one bite!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Sushi",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Sushi",
+      "description": "Sushi is a famous Japanese food made of vinegared rice topped with fresh fish, seafood, or vegetables. It comes in many shapes and sizes, from little rice mounds to colorful rolls wrapped in seaweed.",
+      "history": "Sushi began over a thousand years ago in Japan as a way to preserve fish by packing it in fermented rice. Over many centuries, Japanese cooks turned it into the beautiful and delicious dish loved all around the world today."
+    },
+    {
+      "lang": "vi",
+      "title": "Sushi",
+      "description": "Sushi là món ăn nổi tiếng của Nhật Bản gồm cơm trộn giấm phối hợp với cá tươi, hải sản hoặc rau củ. Món ăn này có nhiều hình dạng khác nhau, từ nắm cơm nhỏ đến cuộn tròn trong rong biển sắc sắc.",
+      "history": "Sushi bắt đầu cả hàng nghìn năm trước ở Nhật Bản như một cách bảo quản cá bằng cơm lên men. Qua nhiều thế kỷ, các đầu bếp Nhật đã biến nó thành món ăn tinh xảo và ngon miệng được yêu thích trên toàn thế giới."
+    }
+  ],
+  "start_year": 700,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Sushi from?",
+      "question_type": "single",
+      "options": ["China", "Korea", "Japan", "Vietnam"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Sushi đến từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Trung Quốc", "Hàn Quốc", "Nhật Bản", "Việt Nam"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What was the original purpose of Sushi?",
+      "question_type": "single",
+      "options": ["To make a fancy dish", "To preserve fish", "To use leftover rice", "To impress the emperor"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Mục đích ban đầu của Sushi là gì?",
+      "question_type": "single",
+      "options": ["Để làm món ăn sang trọng", "Để bảo quản cá", "Để dùng cơm thừa", "Để gây ấn tượng với hoàng đế"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

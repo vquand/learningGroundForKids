@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "country_code": "FR",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Slice lots of onions and cook them slowly in butter until they turn golden and sweet. Pour in some broth and ladle it into a bowl, then top with a slice of bread and melted cheese. Bake until the cheese is bubbly and golden — so yummy!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "French Onion Soup",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "French Onion Soup",
+      "description": "French Onion Soup is a warm, cozy soup made from slow-cooked onions in a rich broth, topped with toasted bread and gooey melted cheese.",
+      "history": "This soup has been eaten in France for hundreds of years and was once considered simple peasant food — but today it is loved all over the world!"
+    },
+    {
+      "lang": "vi",
+      "title": "Súp Hành Tây Pháp",
+      "description": "Súp hành tây Pháp là một món súp ấm áp làm từ hành tây nấu chậm trong nước dùng, trên mặt có bánh mì nướng và phô mai chảy tan.",
+      "history": "Món súp này đã được ăn ở Pháp hàng trăm năm và xưa kia được coi là món ăn của người nghèo, nhưng ngày nay nó được yêu thích khắp thế giới!"
+    }
+  ],
+  "start_year": 1750,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is French Onion Soup from?",
+      "question_type": "single",
+      "options": ["Belgium", "Switzerland", "France", "Italy"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Súp Hành Tây Pháp đến từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Bỉ", "Thụy Sĩ", "Pháp", "Ý"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What topping is placed on French Onion Soup before baking?",
+      "question_type": "single",
+      "options": ["Croutons only", "Bread and melted cheese", "Cream and herbs", "Bacon bits"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Súp Hành Tây Pháp được phủ gì lên trên trước khi nướng?",
+      "question_type": "single",
+      "options": ["Chỉ bánh mì vụn", "Bánh mì và phô mai tan chảy", "Kem và rau thơm", "Thịt xông khói"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

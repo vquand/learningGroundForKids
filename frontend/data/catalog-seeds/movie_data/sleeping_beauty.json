@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "country_code": "FR",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Aurora",
+      "image_url": null,
+      "description": "A beautiful princess also known as Briar Rose who is cursed to sleep forever until she is awakened by true love's kiss."
+    },
+    {
+      "name": "Prince Phillip",
+      "image_url": null,
+      "description": "A brave and dashing prince who fights through thorns and a fearsome dragon to rescue Aurora and break the spell."
+    },
+    {
+      "name": "Maleficent",
+      "image_url": null,
+      "description": "A powerful and wicked fairy who places a terrible curse on Princess Aurora when she is not invited to the royal christening."
+    },
+    {
+      "name": "Flora, Fauna, and Merryweather",
+      "image_url": null,
+      "description": "Three good fairies who are Aurora's loving guardians and use their magic to protect her from Maleficent's curse."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Sleeping Beauty poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Sleeping Beauty (1959)",
+      "description": "Princess Aurora is placed under a sleeping curse by the evil fairy Maleficent, and only the kiss of a brave prince can wake her and break the spell.",
+      "history": "Sleeping Beauty is based on a French fairy tale written by Charles Perrault in 1697 in Paris, making it one of the oldest stories ever turned into a Disney film!"
+    },
+    {
+      "lang": "vi",
+      "title": "Người Đẹp Ngủ Trong Rừng (1959)",
+      "description": "Công chúa Aurora bị tiên ác Maleficent đặt vào giấc ngủ mà không thể tỉnh giấc, và chỉ nụ hôn của một hoàng tử dũng cảm mới có thể phá vỡ lời nguyền.",
+      "history": "Người Đẹp Ngủ Trong Rừng dựa trên câu chuyện cổ tích Pháp của Charles Perrault viết năm 1697 tại Paris, khiến nó là một trong những truyện cổ xưa nhất được chuyển thành phim Disney!"
+    }
+  ],
+  "start_year": 1959,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is the name of the evil fairy in Sleeping Beauty?",
+      "question_type": "single",
+      "options": ["Ursula", "Maleficent", "Gothel", "The Evil Queen"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tên của tiên ác trong phim Người Đẹp Ngủ Trong Rừng là gì?",
+      "question_type": "single",
+      "options": ["Ursula", "Maleficent", "Gothel", "Ác Hậu"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What breaks the sleeping spell on Princess Aurora?",
+      "question_type": "single",
+      "options": ["A magic potion", "True love's kiss", "A fairy's wand", "The morning sun"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điều gì phá vỡ lời nguyền ngủ của Công chúa Aurora?",
+      "question_type": "single",
+      "options": ["Một bình thuốc thần", "Nụ hôn của tình yêu chân thật", "Chiếc đũa thần của tiên", "Ánh nắng buổi sáng"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

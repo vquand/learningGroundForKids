@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 46.2044,
+  "longitude": 6.1432,
+  "country_code": "CH",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Melt two kinds of Swiss cheese in a pot with a little white grape juice until it is smooth and bubbly. Keep it warm on the table over a small flame. Stab cubes of crusty bread with a long fork and swirl them around in the melted cheese — do not drop your bread or you have to do a silly dare!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Cheese Fondue",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Cheese Fondue",
+      "description": "Cheese fondue is a warm, melted Swiss cheese dip kept bubbling in a pot, where everyone dips cubes of bread on long forks for a fun shared meal.",
+      "history": "Cheese fondue was invented by Swiss mountain people who needed a warm, filling meal during cold winters using the cheese and bread they had stored up."
+    },
+    {
+      "lang": "vi",
+      "title": "Lẩu Phô Mai Cheese Fondue",
+      "description": "Cheese fondue là một nồi phô mai Thụy Sĩ tan chảy giữ ấm sôi bong bóng, nơi mọi người cùng nhau chấm những miếng bánh mì trên nĩa dài để có một bữa ăn vui vẻ.",
+      "history": "Cheese fondue được phát minh bởi những người sống ở vùng núi Thụy Sĩ, họ cần một bữa ăn ấm áp và no lòng trong mùa đông lạnh giá bằng những gì họ đã dự trữ."
+    }
+  ],
+  "start_year": 1700,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country invented Cheese Fondue?",
+      "question_type": "single",
+      "options": ["France", "Germany", "Switzerland", "Austria"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Quốc gia nào phát minh ra Cheese Fondue?",
+      "question_type": "single",
+      "options": ["Pháp", "Đức", "Thụy Sĩ", "Áo"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What do you dip into the melted cheese in Fondue?",
+      "question_type": "single",
+      "options": ["Vegetables", "Bread cubes", "Meatballs", "Fruit slices"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Bạn chấm gì vào phô mai nóng chảy trong Fondue?",
+      "question_type": "single",
+      "options": ["Rau củ", "Miếng bánh mì", "Viên thịt", "Lát trái cây"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

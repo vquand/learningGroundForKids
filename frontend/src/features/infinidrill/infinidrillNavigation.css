@@ -1,0 +1,23 @@
+/* Navigation and materials have separate, predictable rows. */
+.infinidrill-topbar.kid-nav { gap: 12px; }
+.infinidrill-pause-button.kid-nav-action { background: #ffe3a0; border-color: #bd8c40; color: #62451f; }
+.infinidrill-pause-button svg { width: 24px; height: 24px; flex: none; fill: currentColor; }
+.infinidrill-materialbar { display: flex; align-items: center; gap: 12px; height: 64px; padding: 8px max(16px, env(safe-area-inset-right)) 8px max(16px, env(safe-area-inset-left)); border-bottom: 1px solid #d7e5f4; background: #fffdf8; }
+.infinidrill-materialbar .infinidrill-inventory-button { margin-left: auto; }
+.infinidrill-materialbar .infinidrill-resource { min-width: 0; font-variant-numeric: tabular-nums; }
+.infinidrill-game .infinidrill-main { height: calc(100dvh - 128px - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)); }
+.infinidrill-world-panel { position: relative; display: grid; min-width: 0; min-height: 0; }
+.infinidrill-world-hud { position: absolute; z-index: 10; bottom: 12px; left: 12px; right: 12px; display: flex; align-items: center; gap: 8px; padding: 6px 8px; border: 1px solid #d9c4ac; border-radius: 14px; background: #fffaf0f5; }
+.infinidrill-world-hud .infinidrill-depth { flex: 1; min-width: 0; border: 0; padding: 0; }
+.infinidrill-world-hud .town-reward-bar { min-width: 0; margin: 0; flex-direction: column; gap: 0; font-size: 12px; }
+.infinidrill-world-hud [data-town-storage] { display: flex; min-height: 44px; align-items: center; max-width: 100px; }
+@media (max-width: 600px) {
+  .infinidrill-topbar.kid-nav { gap: 6px; padding-inline: 8px 68px; }
+  .infinidrill-topbar.kid-nav .kid-back { width: 48px; padding: 0; margin: 0; }
+  .infinidrill-topbar .kid-back span { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .infinidrill-topbar .infinidrill-pause-button.kid-nav-action { flex: 1; min-width: 0; padding-inline: 6px; font-size: 14px; gap: 5px; white-space: normal; }
+  .infinidrill-materialbar { gap: 8px; padding-inline: 8px; }
+  .infinidrill-materialbar .infinidrill-resource { gap: 4px; padding: 6px 8px; }
+  .infinidrill-materialbar .infinidrill-resource small { display: none; }
+  .infinidrill-materialbar .infinidrill-inventory-button.kid-nav-action { padding-inline: 10px; font-size: 14px; }
+}

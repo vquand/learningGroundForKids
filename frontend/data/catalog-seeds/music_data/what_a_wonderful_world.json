@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 29.9511,
+  "longitude": -90.0715,
+  "country_code": "US",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Louis Armstrong",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "What a Wonderful World — Louis Armstrong",
+      "description": "A warm, gentle song about all the beautiful things in our world — green trees, colorful skies, and friendly people — sung in Louis Armstrong's famous deep, raspy voice.",
+      "history": "Louis Armstrong from New Orleans recorded this song in 1967, and even though it was not a big hit at first, it slowly became one of the most beloved songs of all time!"
+    },
+    {
+      "lang": "vi",
+      "title": "Thế Giới Tuyệt Vời Làm Sao — Louis Armstrong",
+      "description": "Một bài hát ấm áp về những điều đẹp đẽ trên thế giới — cây xanh, bầu trời nhiều màu sắc và những người bạn thân thiện — được hát bằng giọng trầm ấm nổi tiếng của Louis Armstrong.",
+      "history": "Louis Armstrong từ New Orleans thu âm bài hát này vào năm 1967, và dù lúc đầu không phải là hit lớn, nó dần dần trở thành một trong những bài hát được yêu thích nhất mọi thời đại!"
+    }
+  ],
+  "start_year": 1967,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who sang 'What a Wonderful World'?", "question_type": "single", "options": ["Nat King Cole", "Frank Sinatra", "Louis Armstrong", "Ella Fitzgerald"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai hát bài 'Thế Giới Tuyệt Vời Làm Sao'?", "question_type": "single", "options": ["Nat King Cole", "Frank Sinatra", "Louis Armstrong", "Ella Fitzgerald"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Louis Armstrong was from which American city?", "question_type": "single", "options": ["Chicago", "New York", "New Orleans", "Memphis"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Louis Armstrong đến từ thành phố nào của Mỹ?", "question_type": "single", "options": ["Chicago", "New York", "New Orleans", "Memphis"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

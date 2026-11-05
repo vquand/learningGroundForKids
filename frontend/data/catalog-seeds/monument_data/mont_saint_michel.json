@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 48.6361,
+  "longitude": -1.5115,
+  "country_code": "FR",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Mont Saint-Michel, Normandy, France",
+  "fun_facts": [
+    "Mont Saint-Michel sits on a tiny island that gets surrounded by the sea during high tide — it almost looks like a floating castle!",
+    "The tides here can rise and fall as fast as a galloping horse, making the water rush in at incredible speed.",
+    "Over 3 million visitors come to see this island every year, which means more than 8,000 people visit every single day!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Mont Saint-Michel",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Mont Saint-Michel",
+      "description": "Mont Saint-Michel is a magical island topped with a medieval abbey that rises straight out of the sea in Normandy, France. It looks like something from a fairy tale, with its tall spire pointing up to the sky.",
+      "history": "Monks began building the abbey on this rocky island over 1,000 years ago in 966 AD. Over the centuries it grew into a grand fortress and monastery that welcomed pilgrims from all over Europe."
+    },
+    {
+      "lang": "vi",
+      "title": "Mont Saint-Michel",
+      "description": "Mont Saint-Michel là một hòn đảo kỳ diệu trên có một tu viện cổ kính ở vùng Normandy, nước Pháp. Nó trông giống như một tòa lâu đài trong truyện cổ tích với tháp cao vươn lên bầu trời.",
+      "history": "Các tu sĩ bắt đầu xây dựng tu viện trên hòn đảo đá này cả nghìn năm trước vào năm 966. Qua nhiều thế kỷ, nó trở thành một pháo đài và tu viện lớn đón tiếp nhiều khách hành hương từ khắp châu Âu."
+    }
+  ],
+  "start_year": 709,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Mont Saint-Michel located?",
+      "question_type": "single",
+      "options": ["England", "Belgium", "France", "Netherlands"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Mont Saint-Michel nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Anh", "Bỉ", "Pháp", "Hà Lan"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What type of structure sits on top of Mont Saint-Michel?",
+      "question_type": "single",
+      "options": ["A castle", "A medieval abbey", "A lighthouse", "A palace"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Loại công trình nào nằm trên đỉnh Mont Saint-Michel?",
+      "question_type": "single",
+      "options": ["Một lâu đài", "Một tu viện cổ kính", "Một ngọn hải đăng", "Một cung điện"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

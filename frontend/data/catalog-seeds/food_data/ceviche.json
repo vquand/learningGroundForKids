@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": -12.0464,
+  "longitude": -77.0428,
+  "country_code": "PE",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Ask a grown-up to cut fresh fish into small cubes and squeeze lots of lime juice over it. Let it sit for a little while so the lime 'cooks' the fish. Add diced onion, chili, and cilantro, then serve it with corn and sweet potato on the side!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Ceviche",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Ceviche",
+      "description": "Ceviche is a refreshing dish of fresh raw fish marinated in tangy lime juice, mixed with onions, chili, and herbs. The lime juice is so powerful it actually 'cooks' the fish without any heat — it is like magic food science!",
+      "history": "Ceviche has been eaten along the Pacific coast of South America for thousands of years, long before the Inca Empire. Peru is considered the true home of ceviche, and Peruvian people are very proud of this bright, zesty dish."
+    },
+    {
+      "lang": "vi",
+      "title": "Cá Ướp Chanh Ceviche",
+      "description": "Ceviche là món cá tươi sống ướp trong nước chanh chua, trộn cùng hành, ớt và rau thơm. Nước chanh mạnh đến mức nó tự nhiên 'chín' cá mà không cần lửa — giống như khoa học kỳ diệu của món ăn!",
+      "history": "Ceviche đã được ăn dọc theo bờ biển Thái Bình Dương của Nam Mỹ từ hàng nghìn năm trước, trước cả đế chế Inca. Peru được coi là quê hương thật sự của ceviche, và người Peru rất tự hào về món ăn tươi mát này."
+    }
+  ],
+  "start_year": -2000,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is considered the true home of Ceviche?",
+      "question_type": "single",
+      "options": ["Mexico", "Chile", "Peru", "Ecuador"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Quốc gia nào được coi là quê hương thật sự của Ceviche?",
+      "question_type": "single",
+      "options": ["Mexico", "Chile", "Peru", "Ecuador"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What juice is used to 'cook' the fish in Ceviche?",
+      "question_type": "single",
+      "options": ["Orange juice", "Lemon juice", "Lime juice", "Vinegar"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Nước trái cây nào được dùng để 'nấu chín' cá trong Ceviche?",
+      "question_type": "single",
+      "options": ["Nước cam", "Nước chanh vàng", "Nước chanh xanh", "Dấm"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

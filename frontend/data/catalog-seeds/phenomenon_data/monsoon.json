@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 19.076,
+  "longitude": 72.8777,
+  "country_code": "IN",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "The Indian monsoon brings enough rain in just 4 months to fill millions of lakes — farmers wait all year for this rain to grow their food!",
+    "Mumbai, India can receive over 2,000 mm of rain during monsoon season — that is like stacking 2,000 rulers on top of each other!",
+    "The word 'monsoon' comes from an Arabic word meaning 'season' — sailors used these predictable winds to navigate the Indian Ocean thousands of years ago."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Monsoon",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Monsoon",
+      "description": "A monsoon is a seasonal shift in winds that brings months of heavy rainfall to large parts of Asia and Africa, filling rivers and helping crops grow.",
+      "history": "The Indian monsoon arrives in Mumbai every year around June, bringing life-giving rains to over a billion people — without the monsoon, much of India's food could not grow."
+    },
+    {
+      "lang": "vi",
+      "title": "Mùa Mưa (Monsoon)",
+      "description": "Mùa mưa là sự thay đổi theo mùa của gió, mang theo nhiều tháng mưa lớn cho các vùng rộng lớn ở châu Á và châu Phi, giúp sông suối đầy nước và mùa màng tốt tươi.",
+      "history": "Mùa mưa Ấn Độ đến Mumbai mỗi năm vào khoảng tháng 6, mang mưa quan trọng cho hơn một tỷ người. Nếu không có mùa mưa, phần lớn lương thực của Ấn Độ sẽ không thể phát triển được."
+    }
+  ],
+  "start_year": -500,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is a monsoon?",
+      "question_type": "single",
+      "options": ["A type of tropical fish", "A seasonal shift in winds bringing heavy rainfall", "A type of earthquake", "A very cold season"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Mùa mưa (monsoon) là gì?",
+      "question_type": "single",
+      "options": ["Một loại cá nhiệt đới", "Sự thay đổi gió theo mùa mang theo mưa lớn", "Một loại động đất", "Một mùa rất lạnh"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What language does the word 'monsoon' come from?",
+      "question_type": "single",
+      "options": ["French", "Arabic", "Chinese", "Spanish"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Từ 'monsoon' xuất phát từ ngôn ngữ nào?",
+      "question_type": "single",
+      "options": ["Tiếng Pháp", "Tiếng Ả Rập", "Tiếng Trung", "Tiếng Tây Ban Nha"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

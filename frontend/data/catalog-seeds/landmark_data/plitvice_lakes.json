@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 44.8804,
+  "longitude": 15.6168,
+  "country_code": "HR",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Plitvice Lakes National Park is a series of sixteen terraced turquoise lakes connected by waterfalls in the Lika region of central Croatia, and one of Europe's oldest national parks.",
+  "fun_facts": [
+    "The lakes get their incredible blue and green colors because of tiny minerals and organisms in the water that change color depending on the sunlight and season.",
+    "The travertine barriers that create the lake terraces are actually alive — they are built by special bacteria and algae that trap minerals and slowly grow like living dams.",
+    "There are 16 lakes and over 90 waterfalls in the park, and new waterfalls keep forming as the living travertine grows!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Plitvice Lakes",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Plitvice Lakes",
+      "description": "Plitvice Lakes in Croatia is like a staircase made of water, where sixteen shimmering turquoise lakes tumble into each other through dozens of gorgeous waterfalls. The water changes from jade green to deep blue depending on the light, making every turn of the wooden boardwalks look like a painting. Bears, wolves, and rare birds live quietly in the forests surrounding the lakes.",
+      "history": "The lakes formed over thousands of years as mineral-rich water deposited a material called travertine, building up natural dams that created each successive lake terrace. Croatian authorities established Plitvice as a national park in 1949, making it one of the oldest in Europe. UNESCO added it to the World Heritage list in 1979, recognizing both its extraordinary beauty and its outstanding limestone karst geology."
+    },
+    {
+      "lang": "vi",
+      "title": "Các Hồ Plitvice",
+      "description": "Hồ Plitvice ở Croatia giống như một cái cầu thang làm bằng nước, nơi 16 hồ xanh ngọc lung linh đổ xuất vào nhau qua hàng chục thác nước tuyệt đẹp. Nước đổi màu từ xanh ngọc bích sang xanh lam thẫm tùy theo ánh sáng, khiến mỗi khúc quanh trên cầu gỗ đi bộ đều đẹp như tranh. Gấu, sói và những loài chim quý hiếm sống yên tĩnh trong những khu rừng bao quanh các hồ.",
+      "history": "Các hồ được hình thành qua hàng nghìn năm khi nước giàu khoáng chất lắng đọng một chất liệu gọi là travertine, tạo ra các con đập tự nhiên hình thành mỗi bậc hồ. Chính quyền Croatia thành lập Plitvice thành công viên quốc gia năm 1949, biến nó trở thành một trong những công viên quốc gia lâu đời nhất châu Âu. UNESCO đưa nó vào Danh sách Di sản Thế giới năm 1979, công nhận cả vẻ đẹp ngoại lệ lẫn địa chất đá vôi karst xuất sắc của nó."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Plitvice Lakes is located in which country?",
+      "question_type": "single",
+      "options": ["Slovenia", "Bosnia", "Croatia", "Serbia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Các Hồ Plitvice nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Slovenia", "Bosnia", "Croatia", "Serbia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How many lakes are there in Plitvice Lakes National Park?",
+      "question_type": "single",
+      "options": ["6", "10", "16", "25"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Có bao nhiêu hồ trong Công viên Quốc gia Plitvice Lakes?",
+      "question_type": "single",
+      "options": ["6", "10", "16", "25"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -40000,
+  "time_precision": "kya"
+}

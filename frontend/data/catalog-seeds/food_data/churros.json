@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 40.4168,
+  "longitude": -3.7038,
+  "country_code": "ES",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Mix flour, water, and a pinch of salt into a thick dough, then squeeze it through a star-shaped tip into hot oil to make long ridged sticks. Fry them until golden and crispy, then roll them in cinnamon sugar. Dip in warm chocolate sauce for an extra special treat!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Churros",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Churros",
+      "description": "Churros are crispy fried dough sticks rolled in cinnamon sugar, and they are extra delicious when dipped in thick hot chocolate.",
+      "history": "Churros are said to have been brought to Spain by explorers or invented by Spanish shepherds who cooked simple dough over campfires high in the mountains."
+    },
+    {
+      "lang": "vi",
+      "title": "Bánh Churros",
+      "description": "Churros là những thanh bột chiên giòn phủ đường quế, và chúng ngon tuyệt vời khi chấm vào sô cô la nóng đặc.",
+      "history": "Người ta nói churros được mang đến Tây Ban Nha bởi những nhà thám hiểm, hoặc được phát minh bởi những người chăn cừu nấu bột đơn giản trên lửa trại giữa núi cao."
+    }
+  ],
+  "start_year": 1500,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Churros most famous from?",
+      "question_type": "single",
+      "options": ["Italy", "Portugal", "Spain", "France"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Churros nổi tiếng nhất từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Ý", "Bồ Đào Nha", "Tây Ban Nha", "Pháp"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What sweet coating are Churros rolled in?",
+      "question_type": "single",
+      "options": ["Powdered sugar", "Cinnamon sugar", "Honey", "Chocolate powder"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Churros được lăn trong lớp ngọt gì?",
+      "question_type": "single",
+      "options": ["Đường bột", "Đường quế", "Mật ong", "Bột cacao"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

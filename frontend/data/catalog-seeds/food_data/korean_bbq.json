@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 37.5665,
+  "longitude": 126.978,
+  "country_code": "KR",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Mix soy sauce, sugar, garlic, sesame oil, and a little pear juice together to make the marinade. Dip short beef ribs into the marinade and let them soak for a few hours. Then grill the ribs on a hot grill until they are brown and sizzling, and eat them with rice and kimchi!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Korean BBQ (Galbi)",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Korean BBQ (Galbi)",
+      "description": "Korean BBQ, or Galbi, is juicy grilled beef ribs soaked in a sweet and savory sauce made from soy sauce, garlic, and pear. In Korea, families often grill the meat right at the table together, which makes it a very special meal!",
+      "history": "Galbi has been a beloved dish in Korea for a very long time, traditionally cooked over charcoal at special celebrations and family gatherings. The word 'galbi' simply means 'ribs' in Korean."
+    },
+    {
+      "lang": "vi",
+      "title": "Nướng BBQ Hàn Quốc (Galbi)",
+      "description": "Galbi là sườn bò nướng mềm ngon của Hàn Quốc, được ướp trong sốt ngọt mặn làm từ nước tương, tỏi và lê. Ở Hàn Quốc, cả gia đình thường nướng thịt ngay trên bàn ăn cùng nhau, tạo nên bữa ăn rất đặc biệt!",
+      "history": "Galbi đã là món ăn yêu thích ở Hàn Quốc từ rất lâu, truyền thống được nướng trên than hoa trong các dịp lễ và tiệc gia đình. Từ 'galbi' có nghĩa là 'sườn' trong tiếng Hàn."
+    }
+  ],
+  "start_year": 1950,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What does the word 'Galbi' mean in Korean?",
+      "question_type": "single",
+      "options": ["Beef", "Fire", "Ribs", "Grill"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Từ 'Galbi' có nghĩa là gì trong tiếng Hàn?",
+      "question_type": "single",
+      "options": ["Thịt bò", "Lửa", "Sườn", "Vỉ nướng"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What unique fruit juice is in Korean BBQ marinade?",
+      "question_type": "single",
+      "options": ["Apple juice", "Pear juice", "Mango juice", "Pineapple juice"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Loại nước trái cây đặc biệt nào có trong nước ướp BBQ Hàn Quốc?",
+      "question_type": "single",
+      "options": ["Nước táo", "Nước lê", "Nước xoài", "Nước dứa"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

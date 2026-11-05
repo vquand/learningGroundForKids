@@ -1,0 +1,78 @@
+import assert from 'node:assert/strict';
+import test from 'node:test';
+import { randomUUID } from 'node:crypto';
+import { fileURLToPath } from 'node:url';
+import { Pool } from 'pg';
+import { drizzle } from 'drizzle-orm/node-postgres';
+import { migrate } from 'drizzle-orm/node-postgres/migrator';
+import { assertSafeTestDatabaseUrl } from '../../src/db/test-database.js';
+import { createMinikuCatalog, type PuzzleDefinition } from '../../src/miniku/catalog.js';
+import { createMinikuRepository } from '../../src/miniku/repository.js';
+import { generateBoard, validatePuzzle } from '../../src/miniku/game.js';
+const configured = process.env.TEST_DATABASE_URL;
+test('Miniku bank enforces duplicate edits, disabled selection, family hints and stable active boards', { skip: configured ? false : 'TEST_DATABASE_URL is not configured' }, async () => {
+  const pool = new Pool({ connectionString: assertSafeTestDatabaseUrl(configured!) });
+  const family = randomUUID(), other = randomUUID(), profile = randomUUID();
+  let original: PuzzleDefinition[] = [];
+  const createdIds: string[] = [];
+  try {
+    await migrate(drizzle(pool), { migrationsFolder: fileURLToPath(new URL('../../drizzle', import.meta.url)) });
+    await pool.query('INSERT INTO families(id,email,display_name,password_hash) VALUES ($1,$2,$3,$4),($5,$6,$3,$4)', [family,`${family}@test.local`,'Test','unused',other,`${other}@test.local`]);
+    await pool.query('INSERT INTO profiles(id,family_id,name,public_id,emoji,color) VALUES ($1,$2,$3,$1,$4,$5)', [profile,family,'Test','🌟','blue']);
+    const catalog = createMinikuCatalog(pool), game = createMinikuRepository(pool);
+    original = await catalog.list();
+    assert.deepEqual(await catalog.list(family), []);
+    assert.equal(await catalog.hints(family), true);
+    await catalog.setHints(family, false);
+    assert.equal(await catalog.hints(family), false);
+    await catalog.setHints(family, true);
+    let random = 101;
+    const pick = (max:number) => { random=(Math.imul(random,1664525)+1013904223)>>>0; return random % max; };
+    const firstBoard = generateBoard(3,pick);
+    let secondBoard=generateBoard(3,pick);
+    while(JSON.stringify(secondBoard.givens)===JSON.stringify(firstBoard.givens)) secondBoard=generateBoard(3,pick);
+    const first=await catalog.create({size:3,givens:firstBoard.givens,enabled:true},family);
+    const second=await catalog.create({size:3,givens:secondBoard.givens,enabled:true},family);
+    createdIds.push(first.id,second.id);
+    const shared = await catalog.create({size:3,givens:firstBoard.givens,enabled:true});
+    createdIds.push(shared.id);
+    assert.ok(!(await catalog.list(family)).some(p => p.id === shared.id));
+    assert.ok((await catalog.list()).some(p => p.id === shared.id));
+    const privateOther=await catalog.create({size:3,givens:secondBoard.givens,enabled:true},other);
+    createdIds.push(privateOther.id);
+    assert.ok(!(await catalog.list(family)).some(p=>p.id===privateOther.id));
+    assert.ok(!(await catalog.list()).some(p=>p.id===first.id));
+    await assert.rejects(()=>catalog.update(first.id,{givens:first.givens,enabled:false,revision:first.revision},other),/Puzzle not found/);
+    await assert.rejects(()=>catalog.update(first.id,{givens:first.givens,enabled:false,revision:first.revision}),/Puzzle not found/);
+    await assert.rejects(() => catalog.create({size:3,givens:first.givens,enabled:true},family),/already has this clue layout/);
+    await assert.rejects(() => catalog.update(first.id, { givens:second.givens, enabled:true, revision:first.revision },family), /already has this clue layout/);
+    const disabled = await catalog.update(first.id, { givens:first.givens, enabled:false, revision:first.revision },family);
+    await assert.rejects(() => catalog.update(first.id, { givens:first.givens, enabled:true, revision:first.revision },family), /Another tab/);
+    await assert.rejects(() => catalog.update(second.id, { givens:first.givens, enabled:true, revision:second.revision },family), /already has this clue layout/);
+    assert.equal(disabled.enabled,false);
+    assert.equal(await catalog.hints(family),true);
+    await catalog.setHints(family,false);
+    assert.equal(await catalog.hints(family),false);
+    assert.equal(await catalog.hints(other),true);
+    await pool.query('UPDATE miniku_puzzles SET enabled=false WHERE size=3');
+    const fallback = await game.mutate(profile,0,{type:'start',size:3});
+    assert.equal(fallback.board?.size,3);
+    await pool.query('UPDATE miniku_puzzles SET enabled=true WHERE id=$1',[second.id]);
+    const playing = await game.mutate(profile,fallback.revision,{type:'new-puzzle',size:3});
+    assert.deepEqual(playing.board?.givens,second.givens);
+    await pool.query('UPDATE miniku_puzzles SET enabled=false WHERE id=$1',[second.id]);
+    assert.deepEqual((await game.get(profile)).board,playing.board);
+    let revision = playing.revision;
+    const solution = validatePuzzle(3,second.givens).solution;
+    for (let index=0;index<9;index++) if (!second.givens[index]) {
+      const next = await game.mutate(profile,revision,{type:'set-cell',index,value:solution[index]!});
+      revision=next.revision;
+    }
+    assert.equal((await game.get(profile)).completed,1);
+  } finally {
+    await pool.query('DELETE FROM miniku_puzzles WHERE id=ANY($1::text[])',[createdIds]);
+    for (const puzzle of original) await pool.query('UPDATE miniku_puzzles SET givens=$2,enabled=$3,revision=$4 WHERE id=$1',[puzzle.id,JSON.stringify(puzzle.givens),puzzle.enabled,puzzle.revision]);
+    await pool.query('DELETE FROM families WHERE id=ANY($1::text[])',[[family,other]]);
+    await pool.end();
+  }
+});

@@ -1,0 +1,1482 @@
+{
+ "animal-back": {
+  "baseWidth": 1254,
+  "baseHeight": 1254,
+  "pxPerTile": 314,
+  "tiers": {
+   "s": 224,
+   "m": 447,
+   "l": 719
+  }
+ },
+ "animal-front": {
+  "baseWidth": 1254,
+  "baseHeight": 1254,
+  "pxPerTile": 314,
+  "tiers": {
+   "s": 224,
+   "m": 447,
+   "l": 719
+  }
+ },
+ "animal-haven": {
+  "baseWidth": 1402,
+  "baseHeight": 1122,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 153,
+   "m": 307,
+   "l": 493
+  }
+ },
+ "animal-haven-back-hollow-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "animal-haven-back-interior-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "animal-haven-back-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "animal-haven-back-windowed-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "animal-haven-hollow-v1": {
+  "baseWidth": 1402,
+  "baseHeight": 1122,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 153,
+   "m": 307,
+   "l": 493
+  }
+ },
+ "animal-haven-interior-v1": {
+  "baseWidth": 1402,
+  "baseHeight": 1122,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 153,
+   "m": 307,
+   "l": 493
+  }
+ },
+ "animal-haven-left-hollow-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "animal-haven-left-interior-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "animal-haven-left-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "animal-haven-left-windowed-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "animal-haven-right-hollow-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "animal-haven-right-interior-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "animal-haven-right-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "animal-haven-right-windowed-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "animal-neighbors": {
+  "baseWidth": 1254,
+  "baseHeight": 1254,
+  "pxPerTile": 314,
+  "tiers": {
+   "s": 224,
+   "m": 447,
+   "l": 719
+  }
+ },
+ "animal-signpost-v1": {
+  "baseWidth": 1284,
+  "baseHeight": 1225,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 140,
+   "m": 281,
+   "l": 451
+  }
+ },
+ "animals-sleep": {
+  "baseWidth": 1774,
+  "baseHeight": 887,
+  "pxPerTile": 444,
+  "tiers": {
+   "s": 224,
+   "m": 447,
+   "l": 719
+  }
+ },
+ "baby-chick-v1": {
+  "baseWidth": 2048,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "baby-duckling-v1": {
+  "baseWidth": 2048,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "baby-gosling-v1": {
+  "baseWidth": 2048,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "baby-lamb-v1": {
+  "baseWidth": 2048,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "buildings-minimal-v2": {
+  "baseWidth": 1774,
+  "baseHeight": 887,
+  "pxPerTile": 120,
+  "tiers": {
+   "s": 828,
+   "m": 1656,
+   "l": 1774
+  }
+ },
+ "capybara-walk": {
+  "baseWidth": 1774,
+  "baseHeight": 887,
+  "pxPerTile": 444,
+  "tiers": {
+   "s": 224,
+   "m": 447,
+   "l": 719
+  }
+ },
+ "cattle-dog": {
+  "baseWidth": 1448,
+  "baseHeight": 1086,
+  "pxPerTile": 362,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "civ-buildings/bakery-back-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "civ-buildings/bakery-left-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "civ-buildings/bakery-right-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "civ-buildings/bakery-v1": {
+  "baseWidth": 1983,
+  "baseHeight": 793,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 217,
+   "m": 434,
+   "l": 697
+  }
+ },
+ "civ-buildings/grocery-back-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "civ-buildings/grocery-left-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "civ-buildings/grocery-right-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "civ-buildings/grocery-v1": {
+  "baseWidth": 1774,
+  "baseHeight": 887,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 194,
+   "m": 388,
+   "l": 624
+  }
+ },
+ "civ-buildings/infirmary-back-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "civ-buildings/infirmary-left-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "civ-buildings/infirmary-right-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "civ-buildings/infirmary-v1": {
+  "baseWidth": 1774,
+  "baseHeight": 887,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 194,
+   "m": 388,
+   "l": 624
+  }
+ },
+ "civ-buildings/meat-shop-back-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "civ-buildings/meat-shop-left-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "civ-buildings/meat-shop-right-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "civ-buildings/meat-shop-v1": {
+  "baseWidth": 2172,
+  "baseHeight": 724,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 238,
+   "m": 475,
+   "l": 764
+  }
+ },
+ "civ-buildings/school-back-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "civ-buildings/school-left-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "civ-buildings/school-right-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "civ-buildings/school-v1": {
+  "baseWidth": 1774,
+  "baseHeight": 887,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 194,
+   "m": 388,
+   "l": 624
+  }
+ },
+ "civ-buildings/tools-smith-back-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "civ-buildings/tools-smith-left-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "civ-buildings/tools-smith-right-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "civ-buildings/tools-smith-v1": {
+  "baseWidth": 2079,
+  "baseHeight": 756,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 227,
+   "m": 455,
+   "l": 731
+  }
+ },
+ "civ-buildings/vegetable-shop-back-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "civ-buildings/vegetable-shop-left-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "civ-buildings/vegetable-shop-right-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "civ-buildings/vegetable-shop-v1": {
+  "baseWidth": 2172,
+  "baseHeight": 724,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 238,
+   "m": 475,
+   "l": 764
+  }
+ },
+ "civ-interior-specialized-v3": {
+  "baseWidth": 1402,
+  "baseHeight": 1122,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 307,
+   "m": 613,
+   "l": 986
+  }
+ },
+ "civ-interior-tiles-v2": {
+  "baseWidth": 1254,
+  "baseHeight": 1254,
+  "pxPerTile": 314,
+  "tiers": {
+   "s": 224,
+   "m": 447,
+   "l": 719
+  }
+ },
+ "civ-people/baker-idle-v1": {
+  "baseWidth": 2172,
+  "baseHeight": 724,
+  "pxPerTile": 517,
+  "tiers": {
+   "s": 235,
+   "m": 471,
+   "l": 756
+  }
+ },
+ "civ-people/baker-v1": {
+  "baseWidth": 887,
+  "baseHeight": 1774,
+  "pxPerTile": 211,
+  "tiers": {
+   "s": 235,
+   "m": 471,
+   "l": 757
+  }
+ },
+ "civ-people/baker-work-v1": {
+  "baseWidth": 2172,
+  "baseHeight": 724,
+  "pxPerTile": 517,
+  "tiers": {
+   "s": 235,
+   "m": 471,
+   "l": 756
+  }
+ },
+ "civ-people/bakery-helper-v1": {
+  "baseWidth": 887,
+  "baseHeight": 1774,
+  "pxPerTile": 211,
+  "tiers": {
+   "s": 235,
+   "m": 471,
+   "l": 757
+  }
+ },
+ "civ-people/butcher-v1": {
+  "baseWidth": 887,
+  "baseHeight": 1774,
+  "pxPerTile": 211,
+  "tiers": {
+   "s": 235,
+   "m": 471,
+   "l": 757
+  }
+ },
+ "civ-people/doctor-v1": {
+  "baseWidth": 887,
+  "baseHeight": 1774,
+  "pxPerTile": 211,
+  "tiers": {
+   "s": 235,
+   "m": 471,
+   "l": 757
+  }
+ },
+ "civ-people/greengrocer-v1": {
+  "baseWidth": 887,
+  "baseHeight": 1774,
+  "pxPerTile": 211,
+  "tiers": {
+   "s": 235,
+   "m": 471,
+   "l": 757
+  }
+ },
+ "civ-people/grocer-v1": {
+  "baseWidth": 887,
+  "baseHeight": 1774,
+  "pxPerTile": 211,
+  "tiers": {
+   "s": 235,
+   "m": 471,
+   "l": 757
+  }
+ },
+ "civ-people/pharmacy-assistant-v1": {
+  "baseWidth": 887,
+  "baseHeight": 1774,
+  "pxPerTile": 211,
+  "tiers": {
+   "s": 235,
+   "m": 471,
+   "l": 757
+  }
+ },
+ "civ-people/smith-v1": {
+  "baseWidth": 887,
+  "baseHeight": 1774,
+  "pxPerTile": 211,
+  "tiers": {
+   "s": 235,
+   "m": 471,
+   "l": 757
+  }
+ },
+ "civ-people/teacher-v1": {
+  "baseWidth": 887,
+  "baseHeight": 1774,
+  "pxPerTile": 211,
+  "tiers": {
+   "s": 235,
+   "m": 471,
+   "l": 757
+  }
+ },
+ "civ-people/tool-shopkeeper-v1": {
+  "baseWidth": 887,
+  "baseHeight": 1774,
+  "pxPerTile": 211,
+  "tiers": {
+   "s": 235,
+   "m": 471,
+   "l": 757
+  }
+ },
+ "civ-vehicles-v1": {
+  "baseWidth": 1774,
+  "baseHeight": 887,
+  "pxPerTile": 444,
+  "tiers": {
+   "s": 224,
+   "m": 447,
+   "l": 719
+  }
+ },
+ "cloud-shades": {
+  "baseWidth": 1774,
+  "baseHeight": 887,
+  "pxPerTile": 887,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "coop-neutral": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 280,
+  "tiers": {
+   "s": 307,
+   "m": 614,
+   "l": 987
+  }
+ },
+ "coop-neutral-left-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "coop-neutral-right-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "coop-neutral-top-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "crop-growth": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "duck-swim-v1": {
+  "baseWidth": 2048,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "duckling-swim-v1": {
+  "baseWidth": 2048,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "farm-gate-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 256,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "farmhouse-back-v4": {
+  "baseWidth": 1659,
+  "baseHeight": 948,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 181,
+   "m": 363,
+   "l": 583
+  }
+ },
+ "farmhouse-back-v4-empty": {
+  "baseWidth": 1659,
+  "baseHeight": 948,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 181,
+   "m": 363,
+   "l": 583
+  }
+ },
+ "farmhouse-back-v4-empty-hollow": {
+  "baseWidth": 1659,
+  "baseHeight": 948,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 181,
+   "m": 363,
+   "l": 583
+  }
+ },
+ "farmhouse-back-v4-empty-interior": {
+  "baseWidth": 1659,
+  "baseHeight": 948,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 181,
+   "m": 363,
+   "l": 583
+  }
+ },
+ "farmhouse-left-v5": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "farmhouse-left-v5-empty": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "farmhouse-left-v5-empty-hollow": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "farmhouse-left-v5-empty-interior": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "farmhouse-right-v5": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "farmhouse-right-v5-empty": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "farmhouse-right-v5-empty-hollow": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "farmhouse-right-v5-empty-interior": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "farmhouse-wide-v2": {
+  "baseWidth": 1659,
+  "baseHeight": 948,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 181,
+   "m": 363,
+   "l": 583
+  }
+ },
+ "farmhouse-wide-v2-open": {
+  "baseWidth": 1659,
+  "baseHeight": 948,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 181,
+   "m": 363,
+   "l": 583
+  }
+ },
+ "farmhouse-wide-v2-open-hollow": {
+  "baseWidth": 1659,
+  "baseHeight": 948,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 181,
+   "m": 363,
+   "l": 583
+  }
+ },
+ "farmhouse-wide-v2-open-interior": {
+  "baseWidth": 1659,
+  "baseHeight": 948,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 181,
+   "m": 363,
+   "l": 583
+  }
+ },
+ "flower-bush-v1": {
+  "baseWidth": 2172,
+  "baseHeight": 724,
+  "pxPerTile": 724,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "forest-strips": {
+  "baseWidth": 2172,
+  "baseHeight": 724,
+  "pxPerTile": 724,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "goose-swim-v1": {
+  "baseWidth": 2048,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "gosling-swim-v1": {
+  "baseWidth": 2048,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "grass-tufts-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1024,
+  "pxPerTile": 277,
+  "tiers": {
+   "s": 207,
+   "m": 414,
+   "l": 665
+  }
+ },
+ "halloween-guests": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 336,
+   "m": 672,
+   "l": 1080
+  }
+ },
+ "house-back-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "house-left-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "house-right-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "large-house-back-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "large-house-left-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "large-house-right-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "leaf-piles-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 512,
+  "pxPerTile": 448,
+  "tiers": {
+   "s": 192,
+   "m": 384,
+   "l": 617
+  }
+ },
+ "library-back-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "library-left-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "library-right-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "mountain-strips": {
+  "baseWidth": 1983,
+  "baseHeight": 793,
+  "pxPerTile": 793,
+  "tiers": {
+   "s": 140,
+   "m": 280,
+   "l": 450
+  }
+ },
+ "mushroom-v1": {
+  "baseWidth": 1774,
+  "baseHeight": 887,
+  "pxPerTile": 444,
+  "tiers": {
+   "s": 224,
+   "m": 447,
+   "l": 719
+  }
+ },
+ "pets-birds-pig": {
+  "baseWidth": 1915,
+  "baseHeight": 821,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 419,
+   "m": 838,
+   "l": 1346
+  }
+ },
+ "pets-birds-pig-directions": {
+  "baseWidth": 1312,
+  "baseHeight": 1199,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 287,
+   "m": 574,
+   "l": 923
+  }
+ },
+ "pets-cats": {
+  "baseWidth": 1374,
+  "baseHeight": 1145,
+  "pxPerTile": 280,
+  "tiers": {
+   "s": 275,
+   "m": 550,
+   "l": 883
+  }
+ },
+ "pets-cats-directions": {
+  "baseWidth": 1122,
+  "baseHeight": 1402,
+  "pxPerTile": 280,
+  "tiers": {
+   "s": 224,
+   "m": 449,
+   "l": 721
+  }
+ },
+ "pets-cats-walk": {
+  "baseWidth": 2008,
+  "baseHeight": 1025,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 439,
+   "m": 879,
+   "l": 1412
+  }
+ },
+ "pets-dogs": {
+  "baseWidth": 1374,
+  "baseHeight": 1145,
+  "pxPerTile": 280,
+  "tiers": {
+   "s": 275,
+   "m": 550,
+   "l": 883
+  }
+ },
+ "pets-dogs-directions": {
+  "baseWidth": 1122,
+  "baseHeight": 1402,
+  "pxPerTile": 280,
+  "tiers": {
+   "s": 224,
+   "m": 449,
+   "l": 721
+  }
+ },
+ "pets-dogs-walk": {
+  "baseWidth": 1944,
+  "baseHeight": 1242,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 425,
+   "m": 851,
+   "l": 1367
+  }
+ },
+ "prosperity-growth-v1": {
+  "baseWidth": 2172,
+  "baseHeight": 724,
+  "pxPerTile": 724,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "sheep-dream-jump-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "sheep-fleece-full-v1": {
+  "baseWidth": 2048,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "sheep-fleece-medium-v1": {
+  "baseWidth": 2048,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "sheep-sheared-v2": {
+  "baseWidth": 2048,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "shoreline-v1": {
+  "baseWidth": 2172,
+  "baseHeight": 724,
+  "pxPerTile": 724,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "terrain-minimal-v2": {
+  "baseWidth": 1774,
+  "baseHeight": 887,
+  "pxPerTile": 222,
+  "tiers": {
+   "s": 447,
+   "m": 895,
+   "l": 1438
+  }
+ },
+ "town-hall-back-v1": {
+  "baseWidth": 1536,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 168,
+   "m": 336,
+   "l": 540
+  }
+ },
+ "town-hall-left-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "town-hall-right-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1536,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "town-storage-back-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "town-storage-left-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "town-storage-right-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "town-storage-v1": {
+  "baseWidth": 1024,
+  "baseHeight": 1024,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 112,
+   "m": 224,
+   "l": 360
+  }
+ },
+ "trees-minimal-v2": {
+  "baseWidth": 1086,
+  "baseHeight": 1448,
+  "pxPerTile": 512,
+  "tiers": {
+   "s": 119,
+   "m": 238,
+   "l": 382
+  }
+ },
+ "wildlife": {
+  "baseWidth": 1774,
+  "baseHeight": 887,
+  "pxPerTile": 444,
+  "tiers": {
+   "s": 224,
+   "m": 447,
+   "l": 719
+  }
+ },
+ "withered-plant-v1": {
+  "baseWidth": 1086,
+  "baseHeight": 1448,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 238,
+   "m": 475,
+   "l": 764
+  }
+ },
+ "xmas/snow-angel": {
+  "baseWidth": 1024,
+  "baseHeight": 256,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "xmas/snow-bear": {
+  "baseWidth": 1024,
+  "baseHeight": 256,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "xmas/snow-duckling": {
+  "baseWidth": 1024,
+  "baseHeight": 256,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "xmas/snow-fox": {
+  "baseWidth": 1024,
+  "baseHeight": 256,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "xmas/snow-lamb": {
+  "baseWidth": 1024,
+  "baseHeight": 256,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "xmas/snow-owl": {
+  "baseWidth": 1024,
+  "baseHeight": 256,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "xmas/snow-penguin": {
+  "baseWidth": 1024,
+  "baseHeight": 256,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "xmas/snow-rabbit": {
+  "baseWidth": 1024,
+  "baseHeight": 256,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "xmas/snow-snowman": {
+  "baseWidth": 1024,
+  "baseHeight": 256,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 224,
+   "m": 448,
+   "l": 720
+  }
+ },
+ "xmas/snow-tree": {
+  "baseWidth": 256,
+  "baseHeight": 256,
+  "pxPerTile": 256,
+  "tiers": {
+   "s": 56,
+   "m": 112,
+   "l": 180
+  }
+ }
+}

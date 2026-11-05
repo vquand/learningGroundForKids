@@ -1,0 +1,70 @@
+{
+  "category": "animal",
+  "latitude": 39.0,
+  "longitude": -108.0,
+  "country_code": "US",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Stegosaurus fossils have been found in the Morrison Formation of Colorado, Utah, and Wyoming in the USA. It lived in semi-arid environments with seasonal rains and patches of forest during the Late Jurassic period.",
+  "fun_facts": [
+    "Stegosaurus had two rows of large bony plates running along its back — scientists are still not sure exactly what they were for!",
+    "Its brain was about the size of a walnut — one of the smallest brains compared to its body size of any dinosaur.",
+    "The spikes on its tail, called a 'thagomizer', were used to defend itself from predators.",
+    "Stegosaurus was about as long as a bus — around 9 metres from nose to tail.",
+    "Despite its tiny brain, Stegosaurus survived for millions of years — proving you don't need to be clever to be successful!"
+  ],
+  "start_year": -155000000,
+  "end_year": -150000000,
+  "time_precision": "mya",
+  "media": [{"media_type": "image", "label": "Stegosaurus", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Stegosaurus",
+      "description": "Stegosaurus was a plant-eating dinosaur famous for the two rows of large bony plates on its back and the sharp spikes at the end of its tail. It was about as long as a school bus and lived in North America about 150 million years ago during the Jurassic period."
+    },
+    {
+      "lang": "vi",
+      "title": "Khủng Long Stegosaurus",
+      "description": "Stegosaurus là loài khủng long ăn cỏ nổi tiếng với hai hàng tấm xương lớn trên lưng và những cái gai nhọn ở cuối đuôi. Nó dài bằng một chiếc xe buýt trường học và sống ở Bắc Mỹ vào khoảng 150 triệu năm trước trong kỷ Jura."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What was special about the back of Stegosaurus?",
+      "question_type": "single",
+      "options": ["A long sail fin", "Two rows of large bony plates", "A hard shell like a tortoise", "Thick scaly armour"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Điều gì đặc biệt trên lưng của Stegosaurus?",
+      "question_type": "single",
+      "options": ["Một cái vây buồm dài", "Hai hàng tấm xương lớn", "Mai cứng như rùa", "Giáp vảy dày"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "About how long was Stegosaurus from nose to tail?",
+      "question_type": "single",
+      "options": ["3 metres", "5 metres", "9 metres", "15 metres"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Stegosaurus dài khoảng bao nhiêu từ mũi đến đuôi?",
+      "question_type": "single",
+      "options": ["3 mét", "5 mét", "9 mét", "15 mét"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

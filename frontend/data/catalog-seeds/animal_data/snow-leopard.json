@@ -1,0 +1,67 @@
+{
+  "category": "animal",
+  "latitude": 28.0,
+  "longitude": 84.0,
+  "country_code": "NP",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Snow Leopards live in the high mountain ranges of Central and South Asia — especially the Himalayas, Karakoram, Hindu Kush, and Tian Shan mountains. They roam between 3,000 and 5,500 metres altitude, among rocky slopes, cliffs, and alpine meadows.",
+  "fun_facts": [
+    "Snow Leopards have enormously long, fluffy tails — almost as long as their whole body — which they wrap around themselves like a blanket to keep warm in the cold mountains!",
+    "Their wide, furry feet act like natural snowshoes, stopping them from sinking into deep snow.",
+    "Snow Leopards are the only big cats that cannot roar — instead, they make a mysterious, haunting wail called a 'prusten' or chuff.",
+    "They are so elusive and well-camouflaged that they are sometimes called 'ghosts of the mountains'.",
+    "A Snow Leopard can leap up to 14 metres horizontally — about six times its own body length!"
+  ],
+  "media": [{"media_type": "image", "label": "Snow Leopard", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Snow Leopard",
+      "description": "The Snow Leopard is one of the world's most mysterious and beautiful big cats, living high in the mountains of Asia. Known as the 'ghost of the mountains' because it is so rarely seen, this spectacular spotted cat has a huge fluffy tail it wraps around itself like a scarf to stay warm in the freezing cold."
+    },
+    {
+      "lang": "vi",
+      "title": "Báo Tuyết",
+      "description": "Báo Tuyết là một trong những loài mèo lớn bí ẩn và đẹp nhất thế giới, sống cao trong các dãy núi châu Á. Được biết đến là 'bóng ma của núi' vì hiếm khi được nhìn thấy, loài mèo có đốm ngoạn mục này có chiếc đuôi bông khổng lồ mà nó quấn quanh mình như chiếc khăn quàng để giữ ấm trong giá lạnh cóng."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What nickname is given to the Snow Leopard because it is so rarely seen?",
+      "question_type": "single",
+      "options": ["Spirit of the snow", "Ghost of the mountains", "Shadow cat", "Mountain phantom"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Báo Tuyết được gọi bằng biệt danh gì vì hiếm khi được nhìn thấy?",
+      "question_type": "single",
+      "options": ["Linh hồn của tuyết", "Bóng ma của núi", "Mèo bóng tối", "Bóng ma núi cao"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Unlike other big cats, what can the Snow Leopard NOT do?",
+      "question_type": "single",
+      "options": ["Climb trees", "Swim", "Roar", "Jump long distances"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Khác với các loài mèo lớn khác, Báo Tuyết KHÔNG thể làm gì?",
+      "question_type": "single",
+      "options": ["Leo cây", "Bơi lội", "Gầm rú", "Nhảy xa"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

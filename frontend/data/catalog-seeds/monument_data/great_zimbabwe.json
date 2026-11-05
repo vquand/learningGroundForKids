@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": -20.2667,
+  "longitude": 30.9333,
+  "country_code": "ZW",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Masvingo Province, Zimbabwe",
+  "fun_facts": [
+    "The massive stone walls were built without any mortar or cement — the stones were stacked so perfectly they have stayed standing for hundreds of years!",
+    "At its peak, Great Zimbabwe was home to about 18,000 people, making it one of Africa's biggest ancient cities.",
+    "The country of Zimbabwe got its name from this very monument — 'Zimbabwe' means 'great stone house' in the Shona language."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Great Zimbabwe",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Great Zimbabwe",
+      "description": "An ancient stone city in southern Africa built between the 11th and 15th centuries, featuring massive walls made of granite blocks fitted together without mortar.",
+      "history": "Great Zimbabwe was the capital of the Kingdom of Zimbabwe, a powerful trading empire that connected Africa to trade routes reaching as far as China and Persia."
+    },
+    {
+      "lang": "vi",
+      "title": "Thành phố đá Great Zimbabwe",
+      "description": "Một thành phố đá cổ ở miền nam châu Phi, được xây dựng từ thế kỷ 11 đến thế kỷ 15, nổi bật với những bức tường khổng lồ làm từ các khối granite ghép lại mà không dùng vữa.",
+      "history": "Great Zimbabwe là kinh đô của Vương quốc Zimbabwe, một đế chế thương mại mạnh mẽ kết nối châu Phi với các tuyến đường thương mại trải dài đến tận Trung Quốc và Ba Tư."
+    }
+  ],
+  "start_year": 1100,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Great Zimbabwe located?",
+      "question_type": "single",
+      "options": ["South Africa", "Zambia", "Zimbabwe", "Mozambique"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Great Zimbabwe nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Nam Phi", "Zambia", "Zimbabwe", "Mozambique"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What does the word 'Zimbabwe' mean in the Shona language?",
+      "question_type": "single",
+      "options": ["Great kingdom", "Great stone house", "Ancient city", "Royal palace"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Từ 'Zimbabwe' có nghĩa là gì trong tiếng Shona?",
+      "question_type": "single",
+      "options": ["Vương quốc vĩ đại", "Ngôi nhà đá vĩ đại", "Thành phố cổ đại", "Cung điện hoàng gia"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+import { createRoot } from 'react-dom/client';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { MemoryRouter, Routes, Route } from 'react-router-dom';
+import { FishingPage } from '../../src/features/fishing/FishingPage';
+import { LanguageSwitcher } from '../../src/components/LanguageSwitcher/LanguageSwitcher';
+import { useFamilyStore } from '../../src/stores/familyStore';
+import { useProfileStore } from '../../src/stores/profileStore';
+import '../../src/app.css';
+useFamilyStore.setState({ familyId: 'family-a', sessionGeneration: 1, isInitializing: false });
+useProfileStore.setState({ activeProfileId: 'profile-a' });
+createRoot(document.getElementById('root')!).render(<QueryClientProvider client={new QueryClient({ defaultOptions: { queries: { retry: false } } })}><MemoryRouter initialEntries={['/fishing']}><LanguageSwitcher/><Routes><Route path="/fishing" element={<FishingPage/>}/><Route path="/playground" element={<main><h1>Playground</h1></main>}/></Routes></MemoryRouter></QueryClientProvider>);

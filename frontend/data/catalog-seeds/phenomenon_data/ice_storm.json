@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 45.4215,
+  "longitude": -75.6972,
+  "country_code": "CA",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "During an ice storm, every tree branch, leaf, and power line gets coated in a sparkling layer of clear ice, making the whole world look like it is made of glass!",
+    "A single ice-covered tree can become so heavy from the ice that its branches snap off with a loud crack like a gunshot.",
+    "In a big ice storm, the ice coating can be as thick as five centimetres — imagine wearing a heavy glass glove on every single twig!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Ice Storm",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Ice Storm",
+      "description": "An ice storm happens when freezing rain falls and instantly coats every surface in a thick, glass-like layer of ice, turning the world into a sparkling but slippery wonderland.",
+      "history": "Ottawa, Canada experiences powerful ice storms that coat entire forests and cities in crystal-clear ice, creating breathtaking scenes but also snapping tree branches and knocking out power lines."
+    },
+    {
+      "lang": "vi",
+      "title": "Bão Băng",
+      "description": "Bão băng xảy ra khi mưa giá lạnh rơi xuống và đông cứng ngay tức khắc trên mọi bề mặt, phủ một lớp băng trong suốt giống như kính lên khắp nơi.",
+      "history": "Ottawa ở Canada hay xảy ra những cơn bão băng mạnh phủ toàn bộ rừng và thành phố trong lớp băng trong suốt, tạo ra cảnh đẹp ngoạn mục nhưng cũng làm gãy cành cây và cắt điện."
+    }
+  ],
+  "start_year": 1800,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What happens during an ice storm?",
+      "question_type": "single",
+      "options": ["Only snow falls from the sky", "Freezing rain coats every surface in ice", "Strong winds blow ice from the mountains", "The ocean freezes over"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Điều gì xảy ra trong bão băng?",
+      "question_type": "single",
+      "options": ["Chỉ có tuyết rơi từ trời", "Mưa đóng băng phủ lớp băng lên mọi bề mặt", "Gió mạnh thổi băng từ núi xuống", "Đại dương đóng băng"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which country is mentioned as experiencing powerful ice storms?",
+      "question_type": "single",
+      "options": ["Brazil", "Canada", "India", "Japan"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Quốc gia nào được nhắc đến là hay xảy ra bão băng mạnh?",
+      "question_type": "single",
+      "options": ["Brazil", "Canada", "Ấn Độ", "Nhật Bản"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

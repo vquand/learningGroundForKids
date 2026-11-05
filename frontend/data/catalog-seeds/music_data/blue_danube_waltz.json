@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 48.2082,
+  "longitude": 16.3738,
+  "country_code": "AT",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Johann Strauss II",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "The Blue Danube Waltz — Johann Strauss II",
+      "description": "This famous waltz swirls and flows like a sparkling river, making you want to spin and dance around the room!",
+      "history": "Johann Strauss II wrote this piece in 1866 and it became so popular that people call him the 'King of the Waltz' — he wrote over 400 waltzes in his lifetime!"
+    },
+    {
+      "lang": "vi",
+      "title": "Waltz Sông Danube Xanh — Johann Strauss II",
+      "description": "Bài nhạc waltz nổi tiếng này cuộn tròn như dòng sông lóng lánh, khiến bạn muốn xoay và nhảy múa khắp phòng!",
+      "history": "Johann Strauss II viết bài nhạc này năm 1866 và nó trở nên nổi tiếng đến mức người ta gọi ông là 'Vua của Waltz' — ông đã viết hơn 400 bản waltz trong cuộc đời mình!"
+    }
+  ],
+  "start_year": 1867,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed 'The Blue Danube Waltz'?", "question_type": "single", "options": ["Beethoven", "Mozart", "Johann Strauss II", "Bach"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác bài 'Waltz Sông Danube Xanh'?", "question_type": "single", "options": ["Beethoven", "Mozart", "Johann Strauss II", "Bach"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "What type of dance music is 'The Blue Danube'?", "question_type": "single", "options": ["Tango", "Waltz", "Polka", "Foxtrot"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "'Sông Danube Xanh' là thể loại nhạc khiêu vũ gì?", "question_type": "single", "options": ["Tango", "Waltz", "Polka", "Foxtrot"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

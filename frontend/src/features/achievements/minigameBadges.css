@@ -1,0 +1,25 @@
+.minigame-badges-dialog {
+  box-sizing: border-box; width: min(720px, calc(100vw - 32px)); max-width: none;
+  max-height: calc(100dvh - 32px); margin: auto; padding: 24px;
+  border: 2px solid var(--kid-control-line); border-radius: 20px;
+  background: var(--kid-control-paper); color: var(--kid-control-ink);
+  font-family: 'Nunito', system-ui, sans-serif;
+}
+.minigame-badges-dialog::backdrop { background: #30271db3; }
+.minigame-badges-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.minigame-badges-heading h2 { margin: 0; font-size: 28px; font-weight: 900; }
+.minigame-badges-heading p, .minigame-badges-summary, .minigame-badges-note { margin: 4px 0; font-size: 16px; }
+.minigame-badges-dialog .badge-collection-grid { margin-top: 12px; }
+.minigame-badges-pagination { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 16px; }
+.minigame-badges-pagination span { font-weight: 800; }
+@media (max-width: 700px) {
+  .minigame-badges-dialog { padding: 16px; }
+  .minigame-badges-dialog .badge-collection-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .minigame-badges-dialog .badge-collection-card { width: 100%; padding: 8px; }
+}
+@media (max-height: 650px) {
+  .minigame-badges-dialog { padding: 12px; }
+  .minigame-badges-dialog .badge-collection-card { height: 300px; gap: 4px; padding: 8px; }
+  .minigame-badges-dialog .badge-collection-art { height: 64px; flex-basis: 64px; }
+  .minigame-badges-dialog .badge-collection-art > * { max-height: 64px; max-width: 64px; }
+}

@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 11.3733,
+  "longitude": 142.5917,
+  "country_code": "US",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Lying in the western Pacific Ocean east of the Mariana Islands, the Mariana Trench is the deepest oceanic trench on Earth and falls under US jurisdiction as part of a national monument.",
+  "fun_facts": [
+    "The Mariana Trench is so deep that if you dropped Mount Everest inside it, the mountain's peak would still be over 2 kilometres underwater!",
+    "At the very bottom, the water pressure is so enormous it is like having 50 jumbo jets stacked on top of your finger at once.",
+    "Even at the deepest spot on Earth, scientists have found tiny living creatures — proving that life can survive almost anywhere!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Mariana Trench",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Mariana Trench",
+      "description": "The Mariana Trench is the deepest place on Earth, plunging nearly 11 kilometres beneath the surface of the Pacific Ocean — deeper than any mountain is tall. Its deepest point, called Challenger Deep, is so remote and dark that it was not reached by humans until 1960, and fewer people have visited it than have walked on the Moon. Strange glowing creatures, ghostly fish, and alien-like organisms call this crushing darkness home.",
+      "history": "The trench was first measured by the British naval vessel HMS Challenger in 1875 during one of the world's first scientific ocean expeditions. Its deepest point, Challenger Deep, was first reached by humans on January 23, 1960, when Swiss engineer Jacques Piccard and US Navy Lieutenant Don Walsh descended in a specially built submarine called the Trieste. The area was designated a US National Monument in 2009 to protect its extraordinary and largely unexplored ecosystems."
+    },
+    {
+      "lang": "vi",
+      "title": "Rãnh Mariana",
+      "description": "Rãnh Mariana là nơi sâu nhất trên Trái Đất, lún sâu gần 11 km dưới bề mặt Thái Bình Dương — sâu hơn bất kỳ ngọn núi nào cao. Điểm sâu nhất của nó, gọi là Challenger Deep, quá xa xôi và tối tăm đến nỗi con người chỉ chạm đến được vào năm 1960, và số người đến đó thăm viếng còn ít hơn số người đã đi bộ trên Mặt Trăng. Những sinh vật phát sáng kỳ lạ, cá ánh ma và những loài sinh vật như ngoài hành tinh sống trong bóng tối nghiệt ngã đó.",
+      "history": "Rãnh này được đo lần đầu bởi tàu hải quân Anh HMS Challenger vào năm 1875 trong một trong những chuyến thám hiểm khoa học biển đầu tiên của thế giới. Điểm sâu nhất của nó, Challenger Deep, lần đầu tiên được con người tiếp cận vào ngày 23 tháng 1 năm 1960, khi kỹ sư người Thụy Sĩ Jacques Piccard và Trung úy Hải quân Mỹ Don Walsh làm xuất hành trong một tàu ngầm xây dựng đặc biệt tên là Trieste. Khu vực này được chỉ định là Khu Bảo tồn Quốc gia Mỹ vào năm 2009 để bảo vệ hệ sinh thái phi thường và phần lớn chưa được khám phá của nó."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "The Mariana Trench is the deepest point on Earth. In which ocean is it located?",
+      "question_type": "single",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      "correct_answers": [3],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Rãnh Mariana là điểm sâu nhất trên Trái Đất. Nó nằm ở đại dương nào?",
+      "question_type": "single",
+      "options": ["Đại Tây Dương", "Ấn Độ Dương", "Bắc Băng Dương", "Thái Bình Dương"],
+      "correct_answers": [3],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How deep is the Mariana Trench's deepest point?",
+      "question_type": "single",
+      "options": ["About 3 km", "About 6 km", "About 11 km", "About 20 km"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điểm sâu nhất của Rãnh Mariana sâu bao nhiêu?",
+      "question_type": "single",
+      "options": ["Khoảng 3 km", "Khoảng 6 km", "Khoảng 11 km", "Khoảng 20 km"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -180000000,
+  "time_precision": "mya"
+}

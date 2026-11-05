@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 22.3372,
+  "longitude": 31.6258,
+  "country_code": "EG",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Abu Simbel, Aswan Governorate, Egypt",
+  "fun_facts": [
+    "The four giant statues at Abu Simbel are each 20 meters tall — that is as tall as a six-story building!",
+    "In an incredible engineering feat, the entire temple was cut into over 1,000 pieces and moved to higher ground in the 1960s to save it from flooding — like a giant puzzle!",
+    "Twice a year, on February 22 and October 22, sunlight reaches deep into the temple and lights up the statues of the gods inside — the ancient Egyptians planned this perfectly!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Abu Simbel Temples",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Abu Simbel Temples",
+      "description": "The Abu Simbel Temples are two giant rock-cut temples in southern Egypt, decorated with enormous statues of Pharaoh Ramesses II, built over 3,000 years ago.",
+      "history": "Pharaoh Ramesses II ordered the temples carved from solid rock around 1264 BC to celebrate his victory at the Battle of Kadesh and honor the gods. In the 1960s, they were relocated piece by piece to prevent them from being submerged by the waters of Lake Nasser."
+    },
+    {
+      "lang": "vi",
+      "title": "Đền Abu Simbel",
+      "description": "Đền Abu Simbel là hai ngôi đền khắc vào đá khổng lồ ở miền nam Ai Cập, được trang trí bằng những tượng khổng lồ của Pharaoh Ramesses II, được xây dựng hơn 3.000 năm trước.",
+      "history": "Pharaoh Ramesses II đã ra lệnh khắc hai ngôi đền từ đá nguyên khối vào khoảng năm 1264 trước Công nguyên để kỷ niệm chiến thắng tại Trận Kadesh và tôn kính các vị thần. Vào những năm 1960, chúng được di chuyển từng mảnh để tránh bị nhấn chìm bởi nước Hồ Nasser."
+    }
+  ],
+  "start_year": -1264,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country are the Abu Simbel Temples located?",
+      "question_type": "single",
+      "options": ["Sudan", "Egypt", "Libya", "Ethiopia"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Đền Abu Simbel nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Sudan", "Ai Cập", "Libya", "Ethiopia"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which pharaoh ordered the Abu Simbel Temples to be built?",
+      "question_type": "single",
+      "options": ["Tutankhamun", "Cleopatra", "Ramesses II", "Nefertiti"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Pharaoh nào đã ra lệnh xây dựng đền Abu Simbel?",
+      "question_type": "single",
+      "options": ["Tutankhamun", "Cleopatra", "Ramesses II", "Nefertiti"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

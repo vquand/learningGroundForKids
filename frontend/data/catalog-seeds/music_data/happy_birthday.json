@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 38.2527,
+  "longitude": -85.7585,
+  "country_code": "US",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Mildred & Patty Hill",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Happy Birthday to You — Mildred & Patty Hill",
+      "description": "The most sung song in the entire world! This joyful tune is played at birthday parties everywhere — every time you hear it, there is cake, candles, and big smiles!",
+      "history": "Two sisters, Mildred and Patty Hill from Louisville, Kentucky, wrote the melody in 1893 as a classroom song called 'Good Morning to All' — it became the world's most famous birthday song!"
+    },
+    {
+      "lang": "vi",
+      "title": "Chúc Mừng Sinh Nhật — Mildred và Patty Hill",
+      "description": "Bài hát được hát nhiều nhất trên toàn thế giới! Giai điệu vui tươi này được chơi tại các bữa tiệc sinh nhật khắp nơi — mỗi khi bạn nghe nó, là có bánh kem, nến, và những nụ cười tươi!",
+      "history": "Hai chị em Mildred và Patty Hill từ Louisville, Kentucky, viết giai điệu này vào năm 1893 như một bài hát lớp học gọi là 'Good Morning to All' — nó trở thành bài hát sinh nhật nổi tiếng nhất thế giới!"
+    }
+  ],
+  "start_year": 1893,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who wrote the melody for 'Happy Birthday to You'?", "question_type": "single", "options": ["Mildred and Patty Hill", "Mozart", "John Lennon", "Beethoven"], "correct_answers": [0], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã viết giai điệu bài 'Chúc Mừng Sinh Nhật'?", "question_type": "single", "options": ["Mildred và Patty Hill", "Mozart", "John Lennon", "Beethoven"], "correct_answers": [0], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "'Happy Birthday to You' is the most sung song in the world — on what occasion is it usually sung?", "question_type": "single", "options": ["Weddings", "Birthdays", "New Year", "Graduations"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "'Chúc Mừng Sinh Nhật' là bài hát được hát nhiều nhất thế giới — thường được hát vào dịp nào?", "question_type": "single", "options": ["Đám cưới", "Sinh nhật", "Năm Mới", "Lễ tốt nghiệp"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

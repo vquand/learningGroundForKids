@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": -25.3444,
+  "longitude": 131.0369,
+  "country_code": "AU",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Uluru is a massive sandstone monolith rising from the flat red plains of the Northern Territory in the heart of central Australia.",
+  "fun_facts": [
+    "Uluru is like a giant iceberg — what you see above ground is only the tip, and most of the rock continues deep underground for several kilometers!",
+    "The rock changes color throughout the day, glowing deep orange, fiery red, and bright purple as the sun moves — like a giant mood stone!",
+    "Uluru stands 348 meters tall and is 9.4 kilometers around its base — it would take you about two hours to walk all the way around it!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Uluru",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Uluru",
+      "description": "Uluru is one of the most sacred and spectacular natural wonders in Australia — a colossal red sandstone monolith that rises dramatically from the flat desert floor in the very heart of the country. At sunrise and sunset the rock puts on a breathtaking light show, shifting from orange to deep crimson to purple as the light changes. The Anangu Aboriginal people have lived alongside and cared for Uluru for over 60,000 years, making it one of the oldest continuously sacred sites on Earth.",
+      "history": "Uluru formed around 550 million years ago when vast amounts of sand and sediment were deposited in an ancient sea basin, compressed into rock, and then pushed upward by enormous geological forces that tilted the rock almost vertical. Over hundreds of millions of years, the softer rock around it eroded away, leaving this immense monolith standing alone on the plain. The Anangu people, the traditional custodians, call it Uluru and their Tjukurpa — creation stories — describe every crack, cave, and waterhole on the rock as a sacred feature. In 2019 climbing Uluru was permanently closed out of respect for Anangu spiritual beliefs."
+    },
+    {
+      "lang": "vi",
+      "title": "Uluru",
+      "description": "Uluru là một trong những kỳ quan thiên nhiên thần thánh và ấn tượng nhất nước Úc — một khối đá cát đỏ khổng lồ nổi lên ấn tượng từ nền sa mạc phẳng ở chính trung tâm đất nước. Lúc bình minh và hoàng hôn, khối đá tạo ra một biểu diễn ánh sáng ngỡ ngàng, chuyển từ màu cam sang đỏ thẫm rồi sang tía, khi ánh sáng thay đổi. Người Aboriginal Anangu đã sống cạnh và giữ gìn Uluru hơn 60.000 năm, khiến đây là một trong những thánh địa cổ xưa nhất còn được tôn thờ liên tục trên Trái Đất.",
+      "history": "Uluru hình thành khoảng 550 triệu năm trước khi một lượng cát và trầm tích khổng lồ được lắng đọng trong một lòng biển cổ đại, nén lại thành đá, rồi bị đẩy lên bởi những lực lượng địa chất khổng lồ nghiêng khối đá gần như thẳng đứng. Qua hàng trăm triệu năm, đá mềm xung quanh nó phong hóa mất đi, để lại khối đá đơn độc khổng lồ này đứng một mình trên đồng bằng. Người Anangu, những người giám hộ truyền thống, gọi nó là Uluru và những câu chuyện sáng thế Tjukurpa của họ mô tả từng vết nứt, hang động và hố nước trên khối đá là một nhân vật thần thánh. Năm 2019 leo lên Uluru bị đóng cửa vĩnh viễn để tôn trọng tín ngưỡng tâm linh Anangu."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Uluru is located in which country?",
+      "question_type": "single",
+      "options": ["New Zealand", "South Africa", "Australia", "Brazil"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Uluru nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["New Zealand", "Nam Phi", "Australia", "Brazil"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What type of rock is Uluru made of?",
+      "question_type": "single",
+      "options": ["Granite", "Limestone", "Sandstone", "Basalt"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Uluru được làm từ loại đá nào?",
+      "question_type": "single",
+      "options": ["Đá granit", "Đá vôi", "Đá cát", "Đá bazan"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -500000000,
+  "time_precision": "mya"
+}

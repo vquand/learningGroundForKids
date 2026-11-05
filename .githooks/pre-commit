@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Refuse to commit generated evidence/artifacts. Installed by scripts/install-git-hooks.sh.
+root="$(git rev-parse --show-toplevel)"
+if ! files="$(git diff --cached --name-only --diff-filter=ACR)"; then
+  echo "pre-commit: could not list staged files; refusing." >&2
+  exit 1
+fi
+printf '%s\n' "$files" | "$root/scripts/check-generated-artifacts.sh"

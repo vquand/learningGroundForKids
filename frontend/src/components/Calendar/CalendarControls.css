@@ -1,0 +1,105 @@
+/* One skin for all Calendar controls. Feature styles own placement only. */
+.calendar-icon-button {
+  --calendar-control-border: #c7d7c8;
+  --calendar-control-background: #f4f9f1;
+  --calendar-control-foreground: #17324d;
+  box-sizing: border-box;
+  min-width: 44px;
+  min-height: 44px;
+  color: var(--calendar-control-foreground);
+  font: 900 16px/1 Nunito, system-ui, sans-serif;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.calendar-icon-button {
+  position: relative;
+  isolation: isolate;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+}
+.calendar-icon-button::before, .calendar-button-group::before {
+  content: '';
+  position: absolute;
+  inset: 4px 0;
+  z-index: -1;
+  border: 1px solid var(--calendar-control-border, #c7d7c8);
+  border-radius: 8px;
+  background: var(--calendar-control-background, #f4f9f1);
+  pointer-events: none;
+}
+.calendar-icon-button::before { inset-inline: 6px; }
+.calendar-icon-button--remove { --calendar-control-foreground: #9c4a42; }
+.calendar-icon-button--close { width: 48px; height: 48px; flex-basis: 48px; font-size: 22px; }
+.calendar-icon-button:disabled { opacity: .32; cursor: default; }
+.calendar-icon-button:focus-visible { outline: 3px solid #397367; outline-offset: -3px; }
+
+.calendar-field { display: grid; min-width: 0; gap: 4px; font-size: 13px; font-weight: 900; }
+.calendar-field input:not([type="radio"]), .calendar-field select, .calendar-input { min-width: 0; width: 100%; min-height: 44px; padding: 0 10px; border: 2px solid #c7d7c8; border-radius: 10px; background: #fff; color: #17324d; font: 700 16px/1.2 Nunito, system-ui, sans-serif; }
+.calendar-field small { color: #587187; font-size: 12px; font-weight: 700; }
+
+.calendar-field label, .calendar-field legend { color: #397367; font-size: 13px; font-weight: 900; }
+.calendar-field input:focus-visible, .calendar-field select:focus-visible, .calendar-input:focus-visible { outline: 3px solid #397367; outline-offset: 2px; }
+.calendar-field input[aria-invalid="true"] { border-color: #c96b5b; background: #fff7f3; }
+.calendar-field input:disabled { opacity: .6; }
+
+.calendar-library-button { min-height: 44px; margin: 2px 0 6px; padding: 0 10px; border: 1px dashed #397367; border-radius: 12px; background: #f1f8f3; color: #17324d; font: 900 14px/1.2 Nunito, system-ui, sans-serif; cursor: pointer; touch-action: manipulation; }
+.calendar-library-button:focus-visible { outline: 3px solid #397367; outline-offset: 2px; }
+.calendar-library-button:disabled { opacity: .5; cursor: default; }
+
+/* Identical group/button classes for language choices and order actions. */
+.calendar-button-group {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex: none;
+  width: max-content;
+  height: 44px;
+  min-height: 44px;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+}
+.calendar-group-button {
+  position: relative;
+  isolation: isolate;
+  box-sizing: border-box;
+  flex: 0 0 44px;
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+  min-height: 44px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: #17324d;
+  font: 900 14px/1 Nunito, system-ui, sans-serif;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.calendar-group-button::before {
+  content: '';
+  position: absolute;
+  inset: 4px 0;
+  z-index: -1;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  pointer-events: none;
+}
+.calendar-group-button:hover:not(:disabled)::before { background: #e4f1e8; }
+.calendar-group-button:is([aria-pressed="true"], :active:not(:disabled)) { color: #fffdf7; }
+.calendar-group-button:is([aria-pressed="true"], :active:not(:disabled))::before { border-color: #315f52; background: #397367; }
+.calendar-group-button:not(:last-child)::after { content: ''; position: absolute; top: 10px; bottom: 10px; right: 0; border-right: 1px solid var(--calendar-control-border, #c7d7c8); pointer-events: none; }
+.calendar-group-button:focus-visible { outline: 3px solid #397367; outline-offset: -3px; }
+.calendar-group-button:disabled { opacity: .32; cursor: default; }
+
+.calendar-choice-chip.calendar-palette-choice { min-height: 44px; max-width: 100%; flex-direction: row; padding: 6px 12px; border-radius: 999px; }

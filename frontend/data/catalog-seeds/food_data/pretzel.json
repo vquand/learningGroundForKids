@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 48.1351,
+  "longitude": 11.582,
+  "country_code": "DE",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Make a simple bread dough, then roll it into a long rope and twist it into a pretzel knot shape. Dip it quickly in a baking soda bath so the outside gets chewy, then sprinkle with big salt flakes and bake until deep golden brown. Enjoy warm with mustard or butter!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Pretzel",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Pretzel",
+      "description": "A pretzel is a chewy baked bread snack twisted into a fun knot shape and topped with crunchy salt crystals.",
+      "history": "Pretzels are said to have been invented by monks in Europe over a thousand years ago, and the twisted shape was meant to look like arms folded in prayer."
+    },
+    {
+      "lang": "vi",
+      "title": "Bánh Pretzel",
+      "description": "Pretzel là một chiếc bánh mì nướng dẻo dai xoắn thành hình nút thắt thú vị và phủ lên những hạt muối giòn.",
+      "history": "Người ta nói pretzel được phát minh bởi các tu sĩ ở châu Âu cả nghìn năm trước, và hình xoắn được tạo ra để trông giống như hai cánh tay đang khoanh lại cầu nguyện."
+    }
+  ],
+  "start_year": 610,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is the Pretzel most famous from?",
+      "question_type": "single",
+      "options": ["Austria", "Germany", "Switzerland", "Poland"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Bánh Pretzel nổi tiếng nhất từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Áo", "Đức", "Thụy Sĩ", "Ba Lan"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Who is said to have invented the Pretzel?",
+      "question_type": "single",
+      "options": ["Sailors", "Monks", "Farmers", "Bakers"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Ai được cho là đã phát minh ra bánh Pretzel?",
+      "question_type": "single",
+      "options": ["Thủy thủ", "Tu sĩ", "Nông dân", "Thợ làm bánh"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 39.4699,
+  "longitude": -0.3763,
+  "country_code": "ES",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Cook rice in a big flat pan with saffron, tomatoes, and olive oil until the rice soaks up all the color and flavor. Add chicken, shrimp, or vegetables on top and let everything cook together. When the bottom gets a little crispy, it is ready to share with the whole family!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Paella",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Paella",
+      "description": "Paella is a colorful Spanish rice dish cooked in a wide pan with saffron, vegetables, and often chicken, seafood, or both.",
+      "history": "Paella was first made by farmers and workers near Valencia, Spain, who cooked rice with whatever they had — vegetables, rabbit, or snails — over an open fire."
+    },
+    {
+      "lang": "vi",
+      "title": "Cơm Chảo Paella",
+      "description": "Paella là món cơm đầy màu sắc của Tây Ban Nha, được nấu trong chảo rộng với nhụy hoa nghệ tây, rau củ, và thường có thêm gà, hải sản hoặc cả hai.",
+      "history": "Paella lần đầu được làm bởi nông dân ở gần Valencia, Tây Ban Nha, họ nấu cơm với bất cứ thứ gì có sẵn như rau củ, thỏ rừng hoặc ốc trên lửa trại."
+    }
+  ],
+  "start_year": 1700,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which Spanish city is Paella originally from?",
+      "question_type": "single",
+      "options": ["Madrid", "Barcelona", "Valencia", "Seville"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Paella có nguồn gốc từ thành phố Tây Ban Nha nào?",
+      "question_type": "single",
+      "options": ["Madrid", "Barcelona", "Valencia", "Seville"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which expensive yellow spice gives Paella its color?",
+      "question_type": "single",
+      "options": ["Turmeric", "Saffron", "Curry powder", "Paprika"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Gia vị vàng đắt tiền nào tạo màu cho Paella?",
+      "question_type": "single",
+      "options": ["Nghệ", "Nhụy hoa nghệ tây", "Bột cà ri", "Paprika"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

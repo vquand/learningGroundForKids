@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 35.6762,
+  "longitude": 139.6503,
+  "country_code": "JP",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Totoro",
+      "image_url": null,
+      "description": "A giant, fluffy forest spirit who can only be seen by children and loves to sleep and play in the rain."
+    },
+    {
+      "name": "Satsuki",
+      "image_url": null,
+      "description": "A responsible older sister who takes care of her family and discovers the magical world of forest spirits."
+    },
+    {
+      "name": "Mei",
+      "image_url": null,
+      "description": "Satsuki's cheerful little sister who is the first to find and befriend the wonderful Totoro."
+    },
+    {
+      "name": "Catbus",
+      "image_url": null,
+      "description": "A giant cat-shaped bus with glowing eyes that runs incredibly fast through the forest and countryside."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "My Neighbor Totoro poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "My Neighbor Totoro (1988)",
+      "description": "Two young sisters move to the countryside and discover a magical world of friendly forest spirits, including the lovable giant creature Totoro.",
+      "history": "Director Hayao Miyazaki set the story in rural Japan during the 1950s, inspired by the beautiful countryside and forests of the Tokorozawa area near Tokyo."
+    },
+    {
+      "lang": "vi",
+      "title": "Hàng Xóm Của Tôi Là Totoro (1988)",
+      "description": "Hai chị em gái chuyển về sống ở nông thôn và khám phá thế giới thần kỳ của các tinh linh rừng, trong đó có sinh vật khổng lồ đáng yêu Totoro.",
+      "history": "Đạo diễn Hayao Miyazaki đặt câu chuyện ở vùng quê Nhật Bản vào những năm 1950, được lấy cảm hứng từ phong cảnh đẹp của vùng Tokorozawa gần Tokyo."
+    }
+  ],
+  "start_year": 1988,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What kind of creature is Totoro in My Neighbor Totoro?",
+      "question_type": "single",
+      "options": ["A water spirit", "A mountain spirit", "A forest spirit", "A sky spirit"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Totoro là loại sinh vật gì trong phim Hàng Xóm Của Tôi Là Totoro?",
+      "question_type": "single",
+      "options": ["Tinh linh nước", "Tinh linh núi", "Tinh linh rừng", "Tinh linh bầu trời"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which studio made My Neighbor Totoro?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Studio Ghibli"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hãng phim nào sản xuất Hàng Xóm Của Tôi Là Totoro?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Studio Ghibli"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

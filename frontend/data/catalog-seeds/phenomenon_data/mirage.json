@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 31.0462,
+  "longitude": -4.0,
+  "country_code": "MA",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "A mirage is not an illusion — it is real light that has been bent by hot air! Your eyes are not playing tricks; physics is!",
+    "In the Sahara Desert, travellers have seen what looked like sparkling lakes of water — only to find nothing but hot sand when they got closer.",
+    "You can create a tiny mirage at home by looking along the surface of a very hot road on a sunny day — the shimmering you see is the same effect!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Mirage",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Mirage",
+      "description": "A mirage is a trick of light that makes you see something that is not really there — like a lake of water shimmering in a hot desert. It happens because very hot air near the ground bends light rays, making the blue sky look like a pool of water on the horizon.",
+      "history": "The Sahara Desert in North Africa is one of the most famous places for mirages. For centuries, travellers crossing the desert would see what appeared to be glistening lakes in the distance, only to discover they were seeing bent reflections of the sky."
+    },
+    {
+      "lang": "vi",
+      "title": "Ảo Ảnh (Giả Ảnh)",
+      "description": "Ảo ảnh là trò lừa của ánh sáng khiến bạn nhìn thấy thứ gì đó không có thật — như một hồ nước lấp lánh trong sa mạc nóng. Nó xảy ra vì không khí rất nóng gần mặt đất làm cong các tia sáng, khiến bầu trời xanh trông giống như vũng nước ở chân trời.",
+      "history": "Sa mạc Sahara ở Bắc Phi là một trong những nơi nổi tiếng nhất về ảo ảnh. Trong hàng thế kỷ, những người du hành vượt sa mạc sẽ nhìn thấy những gì trông như những hồ nước lung linh ở phía xa, chỉ để phát hiện ra rằng họ đang nhìn thấy những phản chiếu bị uốn cong của bầu trời."
+    }
+  ],
+  "start_year": 700,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What causes a mirage in the desert?",
+      "question_type": "single",
+      "options": ["Magic water underground", "Very hot air near the ground bending light rays", "Wind blowing sand into patterns", "Clouds reflecting on sand"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Điều gì tạo ra ảo ảnh trong sa mạc?",
+      "question_type": "single",
+      "options": ["Nước kỳ diệu dưới lòng đất", "Không khí rất nóng gần mặt đất làm cong tia sáng", "Gió thổi cát thành hình dạng", "Mây phản chiếu trên cát"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What do desert travellers sometimes mistake a mirage for?",
+      "question_type": "single",
+      "options": ["A mountain", "A lake of water", "A forest", "A city"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Những người du hành sa mạc đôi khi nhầm ảo ảnh với thứ gì?",
+      "question_type": "single",
+      "options": ["Một ngọn núi", "Một hồ nước", "Một khu rừng", "Một thành phố"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

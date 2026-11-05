@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 51.5074,
+  "longitude": -0.1278,
+  "country_code": "GB",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Coat a big piece of white fish in a bubbly batter made from flour and fizzy water. Fry it in hot oil until the batter is super crispy and golden. Cut thick potato chips and fry those too until fluffy inside and crunchy outside. Serve everything wrapped in paper with lots of vinegar and ketchup!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Fish and Chips",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Fish and Chips",
+      "description": "Fish and chips is Britain's most famous takeaway meal — crispy battered fried fish served alongside thick, golden fried potato chips.",
+      "history": "Fish and chips became popular in England in the 1860s and was often sold wrapped in old newspaper at the seaside, making it a classic British treat."
+    },
+    {
+      "lang": "vi",
+      "title": "Cá Chiên Khoai Tây",
+      "description": "Cá chiên khoai tây là món ăn mang về nổi tiếng nhất của nước Anh, gồm cá chiên giòn trong lớp bột và những miếng khoai tây chiên dày, vàng óng.",
+      "history": "Món cá chiên khoai tây trở nên phổ biến ở Anh vào những năm 1860 và thường được bán gói trong giấy báo cũ ở ven biển, trở thành một món ngon đặc trưng của nước Anh."
+    }
+  ],
+  "start_year": 1863,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Fish and Chips most famous from?",
+      "question_type": "single",
+      "options": ["Australia", "Ireland", "Britain", "Canada"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Cá Chiên Khoai Tây nổi tiếng nhất từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Úc", "Ireland", "Anh", "Canada"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "In the 1860s, Fish and Chips was traditionally wrapped in what?",
+      "question_type": "single",
+      "options": ["Banana leaves", "Old newspaper", "Foil", "Paper bags"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Vào những năm 1860, Cá Chiên Khoai Tây thường được gói trong gì?",
+      "question_type": "single",
+      "options": ["Lá chuối", "Giấy báo cũ", "Giấy bạc", "Túi giấy"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

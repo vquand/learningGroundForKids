@@ -1,0 +1,96 @@
+name: plg-dev
+
+x-api: &api
+  build:
+    context: .
+    target: server-dev
+  environment:
+    NODE_ENV: development
+    SERVER_HOST: 0.0.0.0
+    PORT: 10000
+    DATABASE_URL: postgresql://plg_dev:plg_dev_local_only@postgres:5432/plg_dev
+    DATABASE_URL_UNPOOLED: postgresql://plg_dev:plg_dev_local_only@postgres:5432/plg_dev
+    TEST_DATABASE_URL: postgresql://plg_dev:plg_dev_local_only@postgres:5432/plg_test
+    ALLOWED_ORIGINS: http://localhost:${PLG_DEV_FRONTEND_PORT:-5173},http://127.0.0.1:${PLG_DEV_FRONTEND_PORT:-5173}
+    ALLOWED_FORWARDED_HOSTS: localhost,127.0.0.1
+    TRUST_PROXY_HEADERS: "false"
+    ALLOW_REGISTRATION: "${PLG_DEV_ALLOW_REGISTRATION:-true}"
+    WEB_AUTHN_RP_ID: localhost
+    WEB_AUTHN_ORIGIN: http://localhost:${PLG_DEV_FRONTEND_PORT:-5173}
+  volumes:
+    - ./server/src:/app/server/src:ro
+    - ./server/scripts:/app/server/scripts:ro
+    - ./server/drizzle:/app/server/drizzle:ro
+    - ./server/drizzle.config.ts:/app/server/drizzle.config.ts:ro
+    - ./frontend/data:/app/frontend/data:ro
+    - ./docker/dev/local-db-guard.mjs:/app/docker/dev/local-db-guard.mjs:ro
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: plg_dev
+      POSTGRES_PASSWORD: plg_dev_local_only
+      POSTGRES_DB: plg_dev
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./docker/dev/init-test-db.sql:/docker-entrypoint-initdb.d/01-test-db.sql:ro
+    healthcheck:
+      test: [CMD, pg_isready, -U, plg_dev, -d, plg_dev]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+
+  init:
+    <<: *api
+    command:
+      - sh
+      - -ec
+      - |
+        node --import /app/docker/dev/local-db-guard.mjs ./node_modules/drizzle-kit/bin.cjs migrate --config drizzle.config.ts
+        node --import /app/docker/dev/local-db-guard.mjs --import tsx scripts/db-seed-catalog.mjs
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  api:
+    <<: *api
+    ports:
+      - "127.0.0.1:${PLG_DEV_API_PORT:-10000}:10000"
+    depends_on:
+      init:
+        condition: service_completed_successfully
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:10000/api/v1/health/ready').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  frontend:
+    build:
+      context: .
+      target: frontend-dev
+    environment:
+      LOCAL_API_ORIGIN: http://api:10000
+      # Local dev mode (Town "Dev info" ID labels). Set VITE_DEV_MODE=true in the git-ignored root .env.
+      VITE_DEV_MODE: ${VITE_DEV_MODE:-false}
+    volumes:
+      - ./frontend/src:/app/frontend/src:ro
+      - ./frontend/public:/app/frontend/public:ro
+      - ./frontend/data:/app/frontend/data:ro
+      - ./frontend/index.html:/app/frontend/index.html:ro
+      - ./frontend/vite.config.ts:/app/frontend/vite.config.ts:ro
+      - ./server/src:/app/server/src:ro
+    ports:
+      - "127.0.0.1:${PLG_DEV_FRONTEND_PORT:-5173}:5173"
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, node, -e, "Promise.all(['/', '/src/pages/ActivityHubPage.tsx'].map(p => fetch('http://127.0.0.1:5173' + p))).then(rs => process.exit(rs.every(r => r.ok) ? 0 : 1)).catch(() => process.exit(1))"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  pgdata:

@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": -43.4674,
+  "longitude": 170.1862,
+  "country_code": "NZ",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Located in Westland Tai Poutini National Park on the West Coast of New Zealand's South Island, Fox Glacier is one of the world's most accessible temperate glaciers.",
+  "fun_facts": [
+    "Fox Glacier moves so fast for a glacier that it travels up to 4 metres every single day — that is faster than almost any other glacier on Earth!",
+    "The glacier is so close to the ocean and the rainforest that you can walk from a tropical beach to the edge of a river of ice in less than an hour.",
+    "The ice in Fox Glacier is hundreds of years old — the frozen water you are looking at fell as snow high up in the mountains long before your great-great-grandparents were born."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Fox Glacier",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Fox Glacier",
+      "description": "Fox Glacier on New Zealand's South Island is one of the most remarkable rivers of ice on the planet, tumbling steeply down from the Southern Alps all the way to a rainforest valley just 300 metres above sea level. This extraordinary combination of towering ice and lush green jungle exists in very few places on Earth. The glacier's dramatic blue ice walls, deep crevasses, and constant movement make every visit feel like exploring a living, changing landscape.",
+      "history": "The Maori people named the glacier Te Moeka o Tuawe, meaning 'the bed of Tuawe,' connecting it to an ancient legend of a young man whose grief over his lost love turned to ice in the mountains. European explorer William Fox visited and mapped the glacier in 1872, and it was subsequently named in his honour by geologist Julius von Haast. Westland Tai Poutini National Park, which protects the glacier and its surroundings, was established in 1960 and is now part of a dual World Heritage Site shared with neighbouring Fiordland."
+    },
+    {
+      "lang": "vi",
+      "title": "Sông Băng Fox",
+      "description": "Sông băng Fox ở Nam Đảo New Zealand là một trong những dòng sông băng đáng kinh ngạc nhất hành tinh, đổ dốc thẳng xuống từ dãy Alps phía Nam tận đến một thung lũng rừng mưa chỉ 300 mét trên mực nước biển. Sự kết hợp phi thường giữa băng cao chót vót và rừng nhiệt đới xanh um tồn tại ở rất ít nơi trên Trái Đất. Những vách băng xanh ấn tượng, những khe nứt sâu và sự di chuyển liên tục của sông băng khiến mỗi chuyến thăm viếng đều cảm giác như đang khám phá một cảnh quan sống động, liên tục thay đổi.",
+      "history": "Người Maori đặt tên sông băng là Te Moeka o Tuawe, có nghĩa là 'giường của Tuawe', gắn kết nó với truyền thuyết cổ xưa về một chàng trai trẻ mà nỗi đau mất người tình của mình đã hóa thành băng trên núi. Nhà thám hiểm châu Âu William Fox đã đến thăm và vẽ bản đồ sông băng vào năm 1872, và sau đó nó được đặt tên theo ông để tưởng niệm bởi nhà địa chất Julius von Haast. Vườn Quốc gia Westland Tai Poutini, bảo vệ sông băng và vùng xung quanh, được thành lập vào năm 1960 và hiện là một phần của Di sản Thế giới kép chung với Fiordland kế bên."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Fox Glacier located?",
+      "question_type": "single",
+      "options": ["Canada", "Iceland", "New Zealand", "Norway"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Sông Băng Fox nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Canada", "Iceland", "New Zealand", "Na Uy"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is unusual about Fox Glacier compared to most glaciers?",
+      "question_type": "single",
+      "options": ["It is in the tropics near a rainforest", "It is underground", "It is made of blue snow", "It never moves"],
+      "correct_answers": [0],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điều gì đặc biệt của Sông Băng Fox so với hầu hết các sông băng?",
+      "question_type": "single",
+      "options": ["Nó nằm ở vùng nhiệt đới gần rừng mưa", "Nó ở dưới lòng đất", "Nó được làm từ tuyết xanh", "Nó không bao giờ di chuyển"],
+      "correct_answers": [0],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -15000,
+  "time_precision": "kya"
+}

@@ -1,0 +1,32 @@
+.badge-collection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+.badge-collection-card {
+  box-sizing: border-box;
+  width: 200px;
+  height: 380px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #dce3d9;
+  border-radius: 16px;
+  background: #f7f8f2;
+  color: #334642;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.badge-collection-card.is-earned { background: #eef5df; border-color: #b6cfa0; }
+.badge-collection-art { width: 96px; height: 96px; flex: 0 0 96px; display: flex; align-items: center; justify-content: center; }
+.badge-collection-art > * { max-width: 96px; max-height: 96px; }
+.badge-collection-card.is-locked .badge-collection-art { filter: grayscale(1); opacity: .6; }
+.badge-collection-card h3 { margin: 0; font-size: 15px; font-weight: 800; line-height: 1.4; }
+.badge-collection-card p { margin: 0; font-size: 12px; line-height: 1.5; }
+.badge-collection-difficulty { text-transform: capitalize; color: #657971; }
+.badge-collection-description { color: #657971; }
+.badge-collection-card .badge-collection-status { margin-top: auto; font-weight: 700; }

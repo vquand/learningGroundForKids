@@ -1,0 +1,16 @@
+.minigame-badges-button {
+  position: fixed; top: max(8px, env(safe-area-inset-top));
+  right: calc(max(12px, env(safe-area-inset-right)) + 56px); z-index: 1100;
+  display: grid; place-items: center; box-sizing: border-box;
+  width: 48px; height: 48px; padding: 2px;
+  border: 2px solid #d9c4ac; border-radius: 16px;
+  background: #fffaf0; cursor: pointer; touch-action: manipulation;
+}
+.minigame-badges-button img { display: block; width: 40px; height: 40px; object-fit: contain; }
+.minigame-badges-button:hover:not(:disabled) { background: #f0e7d6; border-color: #ad8e6d; }
+.minigame-badges-button:focus-visible { outline: 3px solid #4f7357; outline-offset: 2px; }
+.minigame-badges-button:disabled { opacity: .5; cursor: default; }
+/* Reserve both 48px controls and their gap, including pages with custom headers. */
+body:has(> .minigame-badges-button) .kid-nav.kid-nav {
+  padding-right: max(132px, calc(env(safe-area-inset-right) + 120px));
+}

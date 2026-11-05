@@ -1,0 +1,18 @@
+.town-weather-status{display:inline-flex;align-items:center;justify-content:flex-end;gap:6px;flex:none;white-space:nowrap;color:#574435}
+.town-weather-status strong{text-transform:capitalize}
+.town-weather-clock{white-space:nowrap}
+.town-page .town-weather-button{display:grid;place-items:center;flex:none;width:48px;height:48px;min-height:48px;padding:4px;border:0;background:transparent}
+.town-weather-button:hover{background:#e4edcf}
+.town-weather-art{position:relative;display:block;width:40px;height:40px;flex:none}
+.town-weather-art img{display:block;width:100%;height:100%;object-fit:contain}
+.town-weather-art svg{position:absolute;width:28px;height:28px;bottom:-2px;right:-2px}
+.town-weather-art b{position:absolute;right:0;bottom:-2px;border-radius:50%;background:#fffaf0;color:#574435;font-size:18px;line-height:22px;width:22px;text-align:center}
+.town-weather-dialog{width:min(440px,calc(100vw - 32px))}
+.town-weather-summary{display:flex;align-items:center;gap:12px;font-size:24px;line-height:1.2}
+.town-weather-summary .town-weather-art{width:72px;height:72px}
+.town-weather-temperature{font-size:20px;line-height:1.4;margin:12px 0 18px}
+.town-map-screen .town-weather-dialog .town-weather-note{height:auto;min-height:0;white-space:normal;overflow:visible;font-size:14px;line-height:1.6;margin:0}
+.town-weather-note a{text-decoration:underline}
+.town-weather-dialog .town-weather-note a{display:inline-block;min-height:44px;line-height:44px}
+@media(max-width:1100px){.town-weather-status{gap:3px}.town-weather-section .town-weather-clock{display:flex;flex-direction:column;font-size:10px;line-height:1.3}.town-weather-clock>span{display:none}}
+@media(orientation:portrait){.town-weather-section .town-weather-clock{display:none}}

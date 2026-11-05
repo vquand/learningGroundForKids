@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 53.3498,
+  "longitude": -6.2603,
+  "country_code": "IE",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Ben",
+      "image_url": null,
+      "description": "A ten-year-old boy who loves stories about the sea and slowly discovers the magical secret about his little sister."
+    },
+    {
+      "name": "Saoirse",
+      "image_url": null,
+      "description": "Ben's quiet little sister who cannot speak but carries a magical white coat that reveals her true nature as a selkie — a seal who can become human."
+    },
+    {
+      "name": "Bronach",
+      "image_url": null,
+      "description": "Ben and Saoirse's mother, a beautiful selkie who disappeared into the sea the night Saoirse was born."
+    },
+    {
+      "name": "Mac Lir",
+      "image_url": null,
+      "description": "A giant sea god who has been turned to stone by sadness, waiting for the song of a selkie to free him."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Song of the Sea poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Song of the Sea (2014)",
+      "description": "A boy named Ben and his mute sister Saoirse embark on a magical journey across Ireland, discovering that Saoirse is a selkie — a mythical seal girl — who must sing to save the spirit world.",
+      "history": "The film draws on ancient Irish mythology about selkies, creatures who are seals in the ocean but can shed their skin to become human on land."
+    },
+    {
+      "lang": "vi",
+      "title": "Bài Ca Biển Cả (2014)",
+      "description": "Một cậu bé tên Ben và cô em gái câm lặng Saoirse đi trên một hành trình kỳ diệu xuyên qua Ireland, phát hiện ra Saoirse là một selkie — cô gái hải cẩu thần thoại — phải hát để cứu thế giới tinh linh.",
+      "history": "Phim được xây dựng dựa trên thần thoại cổ xưa của Ireland về các selkie, những sinh vật là hải cẩu trên biển nhưng có thể lột da để trở thành người trên cạn."
+    }
+  ],
+  "start_year": 2014,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country's mythology inspired Song of the Sea?",
+      "question_type": "single",
+      "options": ["Scottish", "Welsh", "Irish", "Norse"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Thần thoại của nước nào đã truyền cảm hứng cho Bài Ca Biển Cả?",
+      "question_type": "single",
+      "options": ["Scotland", "Wales", "Ireland", "Bắc Âu"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is Saoirse's secret in Song of the Sea?",
+      "question_type": "single",
+      "options": ["She can fly", "She is a selkie — a seal who can become human", "She is a mermaid", "She can talk to fish"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Bí mật của Saoirse trong Bài Ca Biển Cả là gì?",
+      "question_type": "single",
+      "options": ["Cô có thể bay", "Cô là selkie — hải cẩu có thể hóa thành người", "Cô là nàng tiên cá", "Cô có thể nói chuyện với cá"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

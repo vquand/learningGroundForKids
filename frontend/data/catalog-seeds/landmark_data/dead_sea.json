@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 31.559,
+  "longitude": 35.4732,
+  "country_code": "JO",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Bordering Jordan and Israel in the Middle East, the Dead Sea is a hypersaline lake that sits at the lowest point on Earth's land surface.",
+  "fun_facts": [
+    "The Dead Sea is so salty that you cannot sink in it even if you try — you just float on top like a cork because the salt makes the water much heavier than your body!",
+    "It is called the Dead Sea because the water is almost ten times saltier than the ocean, so no fish or plants can survive in it.",
+    "The Dead Sea is the lowest place on the surface of dry land on Earth — you are standing about 430 metres below sea level, which means even the ocean is higher up than where you are standing."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Dead Sea",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Dead Sea",
+      "description": "The Dead Sea on the border of Jordan and Israel is one of Earth's most extraordinary bodies of water, lying about 430 metres below sea level — the lowest point on the surface of dry land anywhere on the planet. Its water is nearly ten times saltier than the ocean, meaning nothing can sink in it — people simply float on the surface with no effort at all. The surrounding landscape of desert cliffs, white salt shores, and shimmering haze creates a landscape that feels truly unlike anywhere else on Earth.",
+      "history": "The Dead Sea has been known and visited by humans for thousands of years, with ancient Egyptians using its mineral-rich mud and salt in the mummification process. The famous Dead Sea Scrolls, among the oldest known manuscripts of the Hebrew Bible, were discovered in nearby caves between 1947 and 1956. Today the Dead Sea faces a serious environmental challenge — its water level has been dropping by about one metre per year due to reduced water flow from the Jordan River, making conservation efforts increasingly urgent."
+    },
+    {
+      "lang": "vi",
+      "title": "Biển Chết",
+      "description": "Biển Chết trên biên giới Jordan và Israel là một trong những vùng nước phi thường nhất của Trái Đất, nằm khoảng 430 mét dưới mực nước biển — điểm thấp nhất trên bề mặt đất khô ở bất cứ đâu trên hành tinh. Nước của nó mặn gần gấp mười lần so với đại dương, có nghĩa là không có gì có thể chìm trong đó — mọi người chỉ đơn giản nổi trên bề mặt mà không cần cố gắng gì cả. Cảnh quan xung quanh với vách đá sa mạc, bờ muối trắng muốt và làn sóng nhiệt lãnh lảnh tạo ra một khung cảnh thật sự khác biệt với mọi nơi khác trên Trái Đất.",
+      "history": "Biển Chết đã được con người biết đến và lui tới hàng nghìn năm, với người Ai Cập cổ xưa sử dụng bùn và muối giàu khoáng chất của nó trong quá trình ướp xác. Những Cuộn Sách Biển Chết nổi tiếng, được coi là những bản thư pháp cổ nhất của Kinh Thánh Hebrew, được phát hiện trong các hang động gần đó giữa những năm 1947 và 1956. Ngày nay Biển Chết đang đối mặt với một thách thức môi trường nghiêm trọng — mực nước của nó đang giảm khoảng một mét mỗi năm do lượng nước từ Sông Jordan giảm đi, khiến những nỗ lực bảo tồn ngày càng trở nên cấp bách."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Why can people float easily in the Dead Sea?",
+      "question_type": "single",
+      "options": ["The water is very warm", "The water is very salty", "The water is very deep", "The water moves very fast"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tại sao người ta có thể nổi dễ dàng trong Biển Chết?",
+      "question_type": "single",
+      "options": ["Nước rất ấm", "Nước rất mặn", "Nước rất sâu", "Nước chảy rất nhanh"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "The Dead Sea borders which two countries?",
+      "question_type": "single",
+      "options": ["Egypt and Saudi Arabia", "Syria and Lebanon", "Jordan and Israel", "Iraq and Kuwait"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Biển Chết tiếp giáp với hai nước nào?",
+      "question_type": "single",
+      "options": ["Ai Cập và Ả Rập Saudi", "Syria và Lebanon", "Jordan và Israel", "Iraq và Kuwait"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -3000000,
+  "time_precision": "mya"
+}

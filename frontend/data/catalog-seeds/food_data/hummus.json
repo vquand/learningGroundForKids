@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 31.7683,
+  "longitude": 35.2137,
+  "country_code": "IL",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Drain a can of chickpeas and put them in a blender. Add two big spoons of tahini paste, a squeeze of lemon juice, a small garlic clove, and a pinch of salt. Blend until very smooth. Scoop into a bowl, drizzle olive oil on top, and serve with warm pita bread for dipping!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Hummus",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Hummus",
+      "description": "Hummus is a smooth, creamy dip made from mashed chickpeas, tahini paste, lemon juice, and garlic. It is a favourite food across the Middle East and is perfect for scooping up with warm, fluffy pita bread!",
+      "history": "Hummus has been eaten in the Middle East for thousands of years, with recipes for chickpea dishes found in ancient Arabic cookbooks. Today it is enjoyed all around the world as a healthy and delicious snack."
+    },
+    {
+      "lang": "vi",
+      "title": "Hummus",
+      "description": "Hummus là một loại sốt xay mịn, béo ngậy làm từ đậu chickpea nghiền, bơ vừng tahini, nước chanh và tỏi. Đây là món ăn yêu thích khắp Trung Đông và rất ngon khi cuốc với bánh mì pita mềm ấm!",
+      "history": "Hummus đã được người Trung Đông ăn từ hàng nghìn năm trước, với công thức món đậu chickpea tìm thấy trong các sách nấu ăn cổ xưa của người Ả Rập. Ngày nay nó được thưởng thức khắp thế giới như một món ăn nhẹ lành mạnh và ngon miệng."
+    }
+  ],
+  "start_year": 1300,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is the main ingredient in Hummus?",
+      "question_type": "single",
+      "options": ["Lentils", "Chickpeas", "Broad beans", "Peanuts"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Nguyên liệu chính của Hummus là gì?",
+      "question_type": "single",
+      "options": ["Đậu lăng", "Đậu chickpea", "Đậu fava", "Đậu phộng"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is Hummus traditionally served with?",
+      "question_type": "single",
+      "options": ["Corn chips", "Crackers", "Pita bread", "Rice cakes"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hummus truyền thống thường ăn kèm với gì?",
+      "question_type": "single",
+      "options": ["Chip ngô", "Bánh quy giòn", "Bánh mì pita", "Bánh gạo"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

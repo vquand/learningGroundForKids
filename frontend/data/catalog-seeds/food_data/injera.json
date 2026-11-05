@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 9.025,
+  "longitude": 38.7469,
+  "country_code": "ET",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Ask a grown-up to mix teff flour with water and let it ferment for a few days until it smells a little sour. Pour the batter onto a hot flat pan and cover it to let it cook — it will get lots of tiny bubbles on top. Use it as an edible plate to scoop up stews and vegetables!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Injera",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Injera",
+      "description": "Injera is a large, spongy flatbread from Ethiopia made from a special grain called teff. It is used as both a plate and an eating utensil — you tear off pieces and use them to scoop up delicious stews and vegetables!",
+      "history": "Injera has been the heart of Ethiopian meals for thousands of years. Teff, the tiny grain used to make it, has grown in the Ethiopian highlands since ancient times. In Ethiopia, sharing a large injera with family is a beautiful tradition of togetherness."
+    },
+    {
+      "lang": "vi",
+      "title": "Bánh Mỳ Xốp Injera",
+      "description": "Injera là một chiếc bánh mì dẹt xốp lớn từ Ethiopia, làm từ một loại hạt đặc biệt gọi là teff. Nó vừa là đĩa ăn vừa là dụng cụ ăn — bạn xé từng miếng và dùng chúng để xúc các món hầm và rau củ!",
+      "history": "Injera đã là trái tim của bữa ăn Ethiopia từ hàng nghìn năm nay. Loại hạt nhỏ teff để làm bánh này đã mọc ở cao nguyên Ethiopia từ thời cổ đại. Ở Ethiopia, chia sẻ một chiếc injera lớn với gia đình là một truyền thống gắn kết đẹp đẽ."
+    }
+  ],
+  "start_year": -1000,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Injera originally from?",
+      "question_type": "single",
+      "options": ["Kenya", "Nigeria", "Ethiopia", "Ghana"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Injera có nguồn gốc từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Kenya", "Nigeria", "Ethiopia", "Ghana"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What grain is used to make Injera?",
+      "question_type": "single",
+      "options": ["Wheat", "Rice", "Teff", "Millet"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Loại hạt nào được dùng để làm Injera?",
+      "question_type": "single",
+      "options": ["Lúa mì", "Gạo", "Teff", "Kê"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

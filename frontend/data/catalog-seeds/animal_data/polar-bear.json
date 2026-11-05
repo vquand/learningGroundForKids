@@ -1,0 +1,67 @@
+{
+  "category": "animal",
+  "latitude": 78.0,
+  "longitude": 16.0,
+  "country_code": "NO",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Polar Bears live in the Arctic, circling the North Pole across Canada, Russia, Norway (Svalbard), Greenland, and Alaska. They spend most of their time on sea ice, which they use as a platform to hunt seals in the cold Arctic Ocean.",
+  "fun_facts": [
+    "Polar Bear fur is not actually white — each individual hair is transparent and hollow! It looks white because it reflects and scatters light.",
+    "Their skin underneath is black, which helps absorb the sun's heat to keep them warm.",
+    "Polar Bears are excellent swimmers and can swim continuously for over 100 kilometres at a time!",
+    "A Polar Bear's paws are enormous — up to 30 centimetres wide — acting like paddles in water and snowshoes on ice.",
+    "Polar Bears are threatened by climate change because melting sea ice reduces the time they can spend hunting seals."
+  ],
+  "media": [{"media_type": "image", "label": "Polar Bear", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Polar Bear",
+      "description": "The Polar Bear is the world's largest land carnivore, perfectly adapted to life on the Arctic ice. With a thick layer of fat and special hollow fur, it stays warm in temperatures as low as -50°C. These magnificent white bears are powerful swimmers and hunt seals on the sea ice. Climate change is putting their icy home at risk."
+    },
+    {
+      "lang": "vi",
+      "title": "Gấu Bắc Cực",
+      "description": "Gấu Bắc Cực là loài động vật ăn thịt sống trên cạn lớn nhất thế giới, được thích nghi hoàn hảo với cuộc sống trên băng Bắc Cực. Với lớp mỡ dày và bộ lông rỗng đặc biệt, nó giữ ấm trong nhiệt độ thấp tới -50°C. Những chú gấu trắng hùng vĩ này bơi rất giỏi và săn hải cẩu trên băng biển. Biến đổi khí hậu đang đặt ngôi nhà băng giá của chúng vào nguy hiểm."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What colour is Polar Bear skin under its fur?",
+      "question_type": "single",
+      "options": ["White", "Pink", "Black", "Grey"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Da của Gấu Bắc Cực dưới bộ lông có màu gì?",
+      "question_type": "single",
+      "options": ["Trắng", "Hồng", "Đen", "Xám"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is the main prey that Polar Bears hunt?",
+      "question_type": "single",
+      "options": ["Fish", "Penguins", "Seals", "Walruses"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Con mồi chính mà Gấu Bắc Cực săn là gì?",
+      "question_type": "single",
+      "options": ["Cá", "Chim cánh cụt", "Hải cẩu", "Hải mã"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

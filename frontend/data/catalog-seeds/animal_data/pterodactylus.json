@@ -1,0 +1,70 @@
+{
+  "category": "animal",
+  "latitude": 49.0,
+  "longitude": 11.0,
+  "country_code": "DE",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "The best Pterodactylus fossils come from the Solnhofen limestone quarries in Bavaria, Germany. It lived along tropical coastlines and lagoons during the Late Jurassic period, around 150 million years ago.",
+  "fun_facts": [
+    "Pterodactylus was a flying reptile — not actually a dinosaur, but a close cousin called a pterosaur.",
+    "Its wings were made of a thin, leathery membrane stretched between its very long fourth finger and its body.",
+    "It had a long pointed beak with small sharp teeth, perfect for catching fish.",
+    "Pterodactylus was about the size of a seagull — much smaller than people often imagine.",
+    "The word 'pterodactyl' means 'winged finger' in Greek."
+  ],
+  "start_year": -150000000,
+  "end_year": -148000000,
+  "time_precision": "mya",
+  "media": [{"media_type": "image", "label": "Pterodactylus", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Pterodactylus",
+      "description": "Pterodactylus was a flying reptile that soared over ancient seas and coastlines about 150 million years ago. Although people often call all flying dinosaur relatives 'pterodactyls', this is the real original one! It was about the size of a seagull and caught fish with its pointed beak."
+    },
+    {
+      "lang": "vi",
+      "title": "Thằn Lằn Bay Pterodactylus",
+      "description": "Pterodactylus là loài bò sát biết bay lướt trên các vùng biển và bờ biển cổ đại vào khoảng 150 triệu năm trước. Mặc dù mọi người thường gọi tất cả các loài họ hàng bay của khủng long là 'pterodactyl', nhưng đây mới là loài gốc thực sự! Nó có kích thước bằng một con mòng biển và bắt cá bằng mỏ nhọn."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What does the word 'pterodactyl' mean in Greek?",
+      "question_type": "single",
+      "options": ["Flying lizard", "Winged finger", "Sea dragon", "Sky hunter"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Từ 'pterodactyl' có nghĩa là gì trong tiếng Hy Lạp?",
+      "question_type": "single",
+      "options": ["Thằn lằn bay", "Ngón tay có cánh", "Rồng biển", "Kẻ săn mồi trên trời"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Was Pterodactylus actually a dinosaur?",
+      "question_type": "single",
+      "options": ["Yes, it was a dinosaur", "No, it was a pterosaur — a flying reptile cousin", "No, it was a prehistoric bird", "No, it was an ancient bat"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Pterodactylus có thực sự là khủng long không?",
+      "question_type": "single",
+      "options": ["Có, nó là khủng long", "Không, nó là pterosaur — họ hàng bò sát biết bay", "Không, nó là chim tiền sử", "Không, nó là dơi cổ đại"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

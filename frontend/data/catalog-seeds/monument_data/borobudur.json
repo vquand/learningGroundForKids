@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": -7.6079,
+  "longitude": 110.2038,
+  "country_code": "ID",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Borobudur, Magelang Regency, Central Java, Indonesia",
+  "fun_facts": [
+    "Borobudur is the largest Buddhist temple in the entire world — bigger than any other!",
+    "It has 2,672 carved stone panels that tell stories, which would stretch for 5 kilometers if laid end to end.",
+    "The temple was hidden under volcanic ash and jungle for hundreds of years before it was rediscovered in 1814."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Borobudur",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Borobudur",
+      "description": "Borobudur is the world's largest Buddhist temple, located on the island of Java in Indonesia, decorated with thousands of beautiful stone carvings.",
+      "history": "Built around 800 AD during the Sailendra dynasty, Borobudur was abandoned for centuries and buried under volcanic ash until it was rediscovered in the 19th century. It is now a UNESCO World Heritage Site."
+    },
+    {
+      "lang": "vi",
+      "title": "Borobudur",
+      "description": "Borobudur là ngôi chùa Phật Giáo lớn nhất thế giới, tọa lạc trên đảo Java ở Indonesia, được trang trí bằng hàng nghìn phiêu khắc đá đẹp mắt.",
+      "history": "Được xây dựng vào khoảng năm 800 sau Công nguyên dưới triều đại Sailendra, Borobudur đã bị bỏ hoang và vùi lấp dưới tro núi lửa trong nhiều thế kỷ trước khi được khám phá lại vào thế kỷ 19. Đây là Di sản Thế giới UNESCO."
+    }
+  ],
+  "start_year": 825,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Borobudur located?",
+      "question_type": "single",
+      "options": ["Malaysia", "Thailand", "Indonesia", "India"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Borobudur nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Malaysia", "Thái Lan", "Indonesia", "Ấn Độ"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What type of temple is Borobudur?",
+      "question_type": "single",
+      "options": ["Hindu", "Islamic", "Buddhist", "Christian"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Borobudur là ngôi đền thuộc tôn giáo nào?",
+      "question_type": "single",
+      "options": ["Ấn Độ giáo", "Hồi giáo", "Phật giáo", "Thiên Chúa giáo"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

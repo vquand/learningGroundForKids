@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 40.8518,
+  "longitude": 14.2681,
+  "country_code": "IT",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Stretch out soft pizza dough into a big circle. Spread tomato sauce on top, then add mozzarella cheese and your favorite toppings. Bake in a very hot oven until the crust is puffy and the cheese is melted and bubbly!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Pizza",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Pizza",
+      "description": "Pizza is a round flatbread topped with tomato sauce, melted cheese, and all kinds of yummy toppings. It is one of the most loved foods in the whole world!",
+      "history": "Pizza was invented in Naples, Italy, and the classic Margherita pizza was made in 1889 to honor the Italian queen. Today billions of pizzas are eaten every year in countries all around the globe."
+    },
+    {
+      "lang": "vi",
+      "title": "Pizza",
+      "description": "Pizza là một loại bánh mì dẹp hình tròn phủ sốt cà chua, phô mai chảy và nhiều nguyên liệu ngon khác. Đây là một trong những món ăn được yêu thích nhất trên toàn thế giới!",
+      "history": "Pizza được sáng tạo ra ở thành phố Naples, Ý, và chiếc pizza Margherita kinh điển được làm vào năm 1889 để vinh danh nữ hoàng Ý. Ngày nay hàng tỉ chiếc pizza được ăn mỗi năm ở khắp nơi trên thế giới."
+    }
+  ],
+  "start_year": 1700,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which Italian city invented Pizza?",
+      "question_type": "single",
+      "options": ["Rome", "Florence", "Naples", "Turin"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Thành phố Ý nào đã phát minh ra Pizza?",
+      "question_type": "single",
+      "options": ["Rome", "Florence", "Naples", "Turin"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "The classic Margherita pizza was made in 1889 to honor whom?",
+      "question_type": "single",
+      "options": ["An Italian general", "The Italian queen", "A famous chef", "A local farmer"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Pizza Margherita kinh điển được làm năm 1889 để vinh danh ai?",
+      "question_type": "single",
+      "options": ["Một vị tướng Ý", "Nữ hoàng Ý", "Một đầu bếp nổi tiếng", "Một nông dân địa phương"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

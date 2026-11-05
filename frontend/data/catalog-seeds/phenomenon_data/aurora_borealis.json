@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 69.6496,
+  "longitude": 18.956,
+  "country_code": "NO",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "The Northern Lights can appear in green, purple, pink, and even red — like a giant neon painting across the whole night sky!",
+    "The lights are caused by tiny invisible particles from the Sun crashing into Earth's atmosphere — the sky is putting on a light show using solar energy!",
+    "Ancient Norse people believed the Northern Lights were the reflections from the shields of warrior women riding across the sky!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Aurora Borealis (Northern Lights)",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Aurora Borealis (Northern Lights)",
+      "description": "The Aurora Borealis is a breathtaking display of colourful lights — green, pink, and purple — that dance across the night sky near the North Pole. It looks like a magical glowing curtain swirling above the stars.",
+      "history": "Tromsø, Norway sits inside the Arctic Circle and is one of the best places on Earth to witness the Northern Lights. The phenomenon occurs when charged particles from the Sun interact with Earth's magnetic field, creating one of nature's greatest light shows."
+    },
+    {
+      "lang": "vi",
+      "title": "Cực Quang Bắc (Ánh Sáng Phương Bắc)",
+      "description": "Cực quang Bắc là màn trình diễn mãn nhãn với những tia sáng màu sắc — xanh lá, hồng và tím — nhảy múa trên bầu trời đêm gần Bắc Cực. Nó trông giống như một tấm màn phát sáng kỳ diệu xoắn tròn trên các vì sao.",
+      "history": "Tromsø, Na Uy nằm bên trong Vòng Bắc Cực và là một trong những nơi tốt nhất trên Trái Đất để xem Ánh Sáng Phương Bắc. Hiện tượng này xảy ra khi các hạt mang điện từ Mặt Trời tương tác với từ trường của Trái Đất, tạo ra một trong những màn trình diễn ánh sáng vĩ đại nhất của thiên nhiên."
+    }
+  ],
+  "start_year": -350,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What colours can the Northern Lights appear in?",
+      "question_type": "single",
+      "options": ["Only white", "Only yellow", "Green, pink, and purple", "Only orange"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Cực quang Bắc có thể xuất hiện với màu sắc nào?",
+      "question_type": "single",
+      "options": ["Chỉ màu trắng", "Chỉ màu vàng", "Xanh lá, hồng và tím", "Chỉ màu cam"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which country is one of the best places to see the Northern Lights?",
+      "question_type": "single",
+      "options": ["Brazil", "Egypt", "Norway", "Australia"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Quốc gia nào là một trong những nơi tốt nhất để xem Cực quang Bắc?",
+      "question_type": "single",
+      "options": ["Brazil", "Ai Cập", "Na Uy", "Úc"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

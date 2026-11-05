@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": -3.119,
+  "longitude": -60.0217,
+  "country_code": "BR",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "The Amazon Rainforest is the world's largest tropical rainforest, spanning nine countries in South America and centered on the Amazon River basin near Manaus, Brazil.",
+  "fun_facts": [
+    "The Amazon is so huge that it makes its own rain — trees release so much water vapor that clouds form right above the forest!",
+    "One in ten of all animal species on Earth lives in the Amazon — that is more than 3 million different kinds of plants and animals.",
+    "The Amazon River pours so much fresh water into the ocean that you can scoop up drinkable water 160 kilometers out to sea."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Amazon Rainforest",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Amazon Rainforest",
+      "description": "The Amazon Rainforest is the biggest jungle on Earth, covering an area almost as large as the entire United States. It is bursting with life — jaguars, pink dolphins, poison dart frogs, and millions of insects all call it home. The trees are so tall and thick that sunlight barely reaches the ground, creating a shadowy green world beneath the canopy.",
+      "history": "The Amazon has been teeming with life for tens of millions of years, shaped by the Amazon River — the largest river by water flow on Earth. Indigenous peoples have lived in harmony with the forest for at least 11,000 years, developing deep knowledge of its plants and animals. European explorers first navigated the river in the 1540s, and today scientists are still discovering new species hidden within its vast green depths."
+    },
+    {
+      "lang": "vi",
+      "title": "Rừng Nhiệt Đới Amazon",
+      "description": "Rừng Amazon là khu rừng nhiệt đới lớn nhất Trái Đất, rộng lớn gần bằng cả nước Mỹ. Nơi đây tràn ngập sự sống — báo, cá heo hồng, ếch độc và hàng triệu côn trùng đều sống ở đây. Các cây quá cao và dày đến nỗi ánh nắng không chiếu xuống được đất, tạo nên một thế giới xanh bóng tối dưới tán lá.",
+      "history": "Amazon đã sống động với muôn loài trong hàng chục triệu năm, được hình thành bởi sông Amazon — con sông có lượng nước lớn nhất Trái Đất. Người bản địa đã sống hòa hợp với rừng ít nhất 11.000 năm, tích lũy hiểu biết sâu sắc về cây cỏ và động vật nơi đây. Các nhà thám hiểm châu Âu lần đầu đi thuyền trên sông này vào thập niên 1540, và đến nay các nhà khoa học vẫn còn tìm thấy những loài mới ẩn náu trong lòng rừng xanh bao la."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which continent is the Amazon Rainforest mainly located?",
+      "question_type": "single",
+      "options": ["Africa", "Asia", "South America", "Australia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Rừng nhiệt đới Amazon chủ yếu nằm ở châu lục nào?",
+      "question_type": "single",
+      "options": ["Châu Phi", "Châu Á", "Nam Mỹ", "Úc"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which animal is famous for living in the Amazon River?",
+      "question_type": "single",
+      "options": ["Polar bear", "Pink dolphin", "Penguin", "Giant panda"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Loài động vật nào nổi tiếng sống trong sông Amazon?",
+      "question_type": "single",
+      "options": ["Gấu Bắc Cực", "Cá heo hồng", "Chim cánh cụt", "Gấu trúc"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -55000000,
+  "time_precision": "mya"
+}

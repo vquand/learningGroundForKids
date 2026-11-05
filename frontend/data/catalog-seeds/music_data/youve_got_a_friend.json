@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 34.0522,
+  "longitude": -118.2437,
+  "country_code": "US",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Randy Newman",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "You've Got a Friend in Me (Toy Story) — Randy Newman",
+      "description": "A warm and cozy song about the special friendship between a child and their favorite toy — it makes you want to hug your best friend right away!",
+      "history": "Randy Newman wrote and sang this song for Toy Story in 1995, and it became the beloved theme of the entire Toy Story franchise, reminding everyone how important true friendship is."
+    },
+    {
+      "lang": "vi",
+      "title": "Bạn Có Một Người Bạn Ở Đây (Toy Story) — Randy Newman",
+      "description": "Một bài hát ấm áp về tình bạn đặc biệt giữa một đứa trẻ và món đồ chơi yêu thích của chúng — nó khiến bạn muốn ôm chặt người bạn tốt nhất của mình!",
+      "history": "Randy Newman sáng tác và hát bài hát này cho phim Toy Story năm 1995, và nó trở thành chủ đề thân thương của cả loạt phim Toy Story, nhắc nhở mọi người về sự quan trọng của tình bạn thật sự."
+    }
+  ],
+  "start_year": 1995,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "'You've Got a Friend in Me' is from which Pixar movie?", "question_type": "single", "options": ["Monsters Inc.", "Toy Story", "A Bug's Life", "Cars"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "'Bạn Có Một Người Bạn Ở Đây' đến từ bộ phim Pixar nào?", "question_type": "single", "options": ["Monsters Inc.", "Toy Story", "A Bug's Life", "Cars"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Who wrote and sang 'You've Got a Friend in Me'?", "question_type": "single", "options": ["Alan Menken", "Howard Ashman", "Randy Newman", "Phil Collins"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Ai đã sáng tác và hát bài 'Bạn Có Một Người Bạn Ở Đây'?", "question_type": "single", "options": ["Alan Menken", "Howard Ashman", "Randy Newman", "Phil Collins"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

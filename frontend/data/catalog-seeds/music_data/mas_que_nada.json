@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": -22.9068,
+  "longitude": -43.1729,
+  "country_code": "BR",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Jorge Ben Jor",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Mas Que Nada — Jorge Ben Jor",
+      "description": "A lively Brazilian samba-pop song with a groovy bass line and exciting rhythms from Rio de Janeiro — 'mas que nada' means 'oh come on!' and the music is impossible to ignore!",
+      "history": "Jorge Ben Jor from Rio de Janeiro wrote this song when he was just 20 years old in 1963, and it later became world-famous when the group Sergio Mendes & Brasil '66 recorded their version!"
+    },
+    {
+      "lang": "vi",
+      "title": "Mas Que Nada — Jorge Ben Jor",
+      "description": "Một bài hát samba-pop Brazil sôi động với giai điệu cuốn hút từ Rio de Janeiro — 'mas que nada' có nghĩa là 'ôi thôi nào!' và âm nhạc này khiến bạn không thể đứng yên!",
+      "history": "Jorge Ben Jor từ Rio de Janeiro viết bài hát này khi ông chỉ mới 20 tuổi vào năm 1963, và nó sau đó trở nên nổi tiếng toàn thế giới qua phiên bản của nhóm Sergio Mendes & Brasil '66!"
+    }
+  ],
+  "start_year": 1963,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "'Mas Que Nada' is a samba song from which country?", "question_type": "single", "options": ["Argentina", "Colombia", "Brazil", "Chile"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "'Mas Que Nada' là bài nhạc samba đến từ nước nào?", "question_type": "single", "options": ["Argentina", "Colombia", "Brazil", "Chile"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Who originally wrote and recorded 'Mas Que Nada'?", "question_type": "single", "options": ["Sergio Mendes", "Astrud Gilberto", "Jorge Ben Jor", "Caetano Veloso"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Ai đã viết và thu âm bài 'Mas Que Nada' đầu tiên?", "question_type": "single", "options": ["Sergio Mendes", "Astrud Gilberto", "Jorge Ben Jor", "Caetano Veloso"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

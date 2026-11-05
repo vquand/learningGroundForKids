@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": -15.8402,
+  "longitude": -69.3338,
+  "country_code": "PE",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Lake Titicaca straddles the border between Peru and Bolivia high in the Andes Mountains at an elevation of 3,812 meters above sea level.",
+  "fun_facts": [
+    "Lake Titicaca is the highest navigable lake in the world — it sits so high up that the air around it is thin, like being closer to space!",
+    "People called the Uros have lived on floating islands made entirely from woven reeds for hundreds of years — the islands even float!",
+    "The lake is so enormous it covers an area bigger than the entire country of Puerto Rico."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Lake Titicaca",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Lake Titicaca",
+      "description": "Lake Titicaca is the highest large lake in the world, floating in the sky between Peru and Bolivia high up in the Andes Mountains. It is so vast that on a clear day you cannot see the other shore, and its sparkling blue waters are home to rare pink flamingos and giant water frogs found nowhere else on Earth. The most amazing thing is that people actually live on islands they built themselves entirely out of floating reeds!",
+      "history": "The ancient Inca civilization believed that the sun god Inti created the first Inca man and woman from the waters of Lake Titicaca, making it the sacred birthplace of their entire civilization. The Uros people have lived on their handmade floating reed islands for over 500 years, building new layers of totora reeds on top as the bottom layers rot away. Today the lake remains deeply sacred to the indigenous Quechua and Aymara peoples of the Andes."
+    },
+    {
+      "lang": "vi",
+      "title": "Hồ Titicaca",
+      "description": "Hồ Titicaca là hồ lớn ở cao nhất thế giới, tọa lạc trên bầu trời giữa Peru và Bolivia trên dãy núi Andes. Hồ rộng lớn đến mức vào ngày quang trời bạn không thể nhìn thấy bờ bên kia, và mặt nước xanh lấp lánh là nhà của loài hồng hạc và ếch nước khổng lồ chỉ sống ở đây. Điều kỳ diệu nhất là người ta thực sự sống trên những hòn đảo họ tự xây dựng bằng cây sậy nổi!",
+      "history": "Người Inca cổ đại tin rằng thần mặt trời Inti đã tạo ra người đàn ông và đàn bà Inca đầu tiên từ dòng nước Hồ Titicaca, khiến đây trở thành thánh địa khai sinh của toàn bộ văn minh họ. Người Uros đã sống trên những hòn đảo sậy nổi tự làm trong hơn 500 năm, xây thêm những lớp cây totora mới khi lớp phía dưới mục rữa. Ngày nay hồ vẫn là thánh địa của người Quechua và Aymara bản địa."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Lake Titicaca is located on the border between which two countries?",
+      "question_type": "single",
+      "options": ["Chile and Argentina", "Peru and Bolivia", "Ecuador and Colombia", "Brazil and Paraguay"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hồ Titicaca nằm trên biên giới giữa hai nước nào?",
+      "question_type": "single",
+      "options": ["Chile và Argentina", "Peru và Bolivia", "Ecuador và Colombia", "Brazil và Paraguay"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is special about the islands of the Uros people on Lake Titicaca?",
+      "question_type": "single",
+      "options": ["They are made of stone", "They are made of floating reeds", "They are made of ice", "They are built on the lake floor"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điều gì đặc biệt về những hòn đảo của người Uros trên Hồ Titicaca?",
+      "question_type": "single",
+      "options": ["Chúng được làm bằng đá", "Chúng được làm từ cây sậy nổi", "Chúng được làm bằng băng", "Chúng được xây dựng trên đáy hồ"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -3000000,
+  "time_precision": "mya"
+}

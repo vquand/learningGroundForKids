@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 30.3285,
+  "longitude": 35.4444,
+  "country_code": "JO",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Petra Archaeological Park, Ma'an Governorate, Jordan",
+  "fun_facts": [
+    "Petra is called the 'Rose City' because its buildings are carved directly into pink and red sandstone cliffs!",
+    "The ancient city was hidden from the outside world for over 500 years — only local Bedouin people knew it existed.",
+    "Petra was home to over 20,000 people at its peak and had an amazing system of pipes to bring water into the desert city."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Petra",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Petra",
+      "description": "Petra is an ancient city in Jordan where magnificent temples and tombs were carved directly into rose-colored rock cliffs thousands of years ago.",
+      "history": "Petra was built by the Nabataean people over 2,000 years ago and served as their capital city and a major trading hub. It was later forgotten by much of the world until a Swiss explorer rediscovered it in 1812."
+    },
+    {
+      "lang": "vi",
+      "title": "Petra",
+      "description": "Petra là một thành phố cổ đại ở Jordan, nơi các đền đài và lăng mộ tuyệt đẹp được khắc thẳng vào vách đá màu hồng hàng nghìn năm trước.",
+      "history": "Petra được người Nabataean xây dựng hơn 2.000 năm trước và là thủ đô cùng là trung tâm thương mại lớn của họ. Về sau nó bị thế giới quên lãng cho đến khi một nhà thám hiểm người Thụy Sĩ khám phá lại vào năm 1812."
+    }
+  ],
+  "start_year": -300,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Petra located?",
+      "question_type": "single",
+      "options": ["Israel", "Jordan", "Saudi Arabia", "Egypt"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Petra nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Israel", "Jordan", "Ả Rập Xê Út", "Ai Cập"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Why is Petra called the 'Rose City'?",
+      "question_type": "single",
+      "options": ["It is surrounded by rose gardens", "It is built from rose-colored rock", "It was founded on Valentine's Day", "Its streets are painted pink"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Tại sao Petra được gọi là 'Thành phố Hoa Hồng'?",
+      "question_type": "single",
+      "options": ["Nó được bao quanh bởi vườn hoa hồng", "Nó được xây từ đá màu hồng", "Nó được thành lập vào ngày Valentine", "Các con đường được sơn màu hồng"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

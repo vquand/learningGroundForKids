@@ -1,0 +1,70 @@
+{
+  "category": "animal",
+  "latitude": 44.0,
+  "longitude": 104.0,
+  "country_code": "MN",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Velociraptor fossils were discovered in the Gobi Desert of Mongolia and China. It lived in dry, sandy desert environments with sparse vegetation during the Late Cretaceous period.",
+  "fun_facts": [
+    "Despite what movies show, real Velociraptors were only about the size of a turkey — not as big as a human!",
+    "Velociraptor had feathers, just like modern birds. It is closely related to today's birds.",
+    "It had a large curved claw on each foot that it used like a hook to catch prey.",
+    "Velociraptor was very smart for a dinosaur and may have hunted in groups.",
+    "Its name means 'swift thief' in Latin — and it really was very fast!"
+  ],
+  "start_year": -75000000,
+  "end_year": -71000000,
+  "time_precision": "mya",
+  "media": [{"media_type": "image", "label": "Velociraptor", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Velociraptor",
+      "description": "Velociraptor was a fast and clever small dinosaur that lived in the deserts of Mongolia about 75 million years ago. It had feathers like a bird and a sharp curved claw on each foot. Despite how they appear in movies, real Velociraptors were only about the size of a big turkey!"
+    },
+    {
+      "lang": "vi",
+      "title": "Khủng Long Velociraptor",
+      "description": "Velociraptor là loài khủng long nhỏ nhanh nhẹn và thông minh sống ở sa mạc Mông Cổ vào khoảng 75 triệu năm trước. Nó có lông vũ giống như chim và móng vuốt cong sắc bén ở mỗi chân. Mặc dù xuất hiện như vậy trong phim, Velociraptor thật sự chỉ to bằng một con gà tây lớn!"
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What does the name 'Velociraptor' mean?",
+      "question_type": "single",
+      "options": ["Fierce hunter", "Swift thief", "Fast runner", "Sharp claw"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tên 'Velociraptor' có nghĩa là gì?",
+      "question_type": "single",
+      "options": ["Kẻ săn mồi hung dữ", "Tên trộm nhanh nhẹn", "Kẻ chạy nhanh", "Móng vuốt sắc bén"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Where were Velociraptor fossils mainly found?",
+      "question_type": "single",
+      "options": ["Amazon rainforest", "Gobi Desert in Mongolia", "Sahara Desert in Africa", "Rocky Mountains in the USA"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hóa thạch Velociraptor chủ yếu được tìm thấy ở đâu?",
+      "question_type": "single",
+      "options": ["Rừng nhiệt đới Amazon", "Sa mạc Gobi ở Mông Cổ", "Sa mạc Sahara ở châu Phi", "Dãy núi Rocky ở Mỹ"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

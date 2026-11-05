@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 43.8426,
+  "longitude": 10.5077,
+  "country_code": "IT",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Giacomo Puccini",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Nessun Dorma — Giacomo Puccini",
+      "description": "A powerful and soaring opera aria from Italy where a brave prince sings about winning a princess's heart — the final high note gives everyone goosebumps!",
+      "history": "Composer Giacomo Puccini wrote this breathtaking aria for his opera Turandot in the 1920s, and it became world-famous when tenor Luciano Pavarotti performed it at the 1990 FIFA World Cup!"
+    },
+    {
+      "lang": "vi",
+      "title": "Nessun Dorma — Giacomo Puccini",
+      "description": "Một aria opera mạnh mẽ và bay bổng từ Ý nơi một hoàng tử dũng cảm hát về việc chinh phục trái tim công chúa — nốt cao cuối cùng khiến mọi người nổi da gà!",
+      "history": "Nhạc sĩ Giacomo Puccini đã viết aria tuyệt vời này cho opera Turandot vào những năm 1920, và nó trở nên nổi tiếng thế giới khi tenor Luciano Pavarotti biểu diễn tại World Cup FIFA 1990!"
+    }
+  ],
+  "start_year": 1926,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed the opera aria 'Nessun Dorma'?", "question_type": "single", "options": ["Verdi", "Rossini", "Puccini", "Donizetti"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác aria opera 'Nessun Dorma'?", "question_type": "single", "options": ["Verdi", "Rossini", "Puccini", "Donizetti"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Which famous tenor performed 'Nessun Dorma' at the 1990 FIFA World Cup?", "question_type": "single", "options": ["Placido Domingo", "Jose Carreras", "Luciano Pavarotti", "Andrea Bocelli"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Tenor nổi tiếng nào đã biểu diễn 'Nessun Dorma' tại World Cup FIFA 1990?", "question_type": "single", "options": ["Placido Domingo", "Jose Carreras", "Luciano Pavarotti", "Andrea Bocelli"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

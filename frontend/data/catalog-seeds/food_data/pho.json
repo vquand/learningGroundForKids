@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 21.0285,
+  "longitude": 105.8542,
+  "country_code": "VN",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Boil beef bones in water for a long time to make a rich broth. Add rice noodles, thin slices of beef, and top with bean sprouts and fresh herbs. Squeeze in a little lime juice and enjoy your warm bowl!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Pho",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Pho",
+      "description": "Pho is a warm and delicious Vietnamese noodle soup made with silky rice noodles, tender beef or chicken, and a fragrant broth full of spices. It is topped with fresh herbs and a squeeze of lime.",
+      "history": "Pho was born in northern Vietnam around the early 1900s and quickly became the most beloved dish in the country. People say the recipe was inspired by both Vietnamese cooking traditions and flavors brought by French traders long ago."
+    },
+    {
+      "lang": "vi",
+      "title": "Phở",
+      "description": "Phở là một món súp bún gạo thơm ngon với nước dùng đậm đà, bún tươi mềm và thịt bò hoặc gà. Món ăn này thường được ăn kèm với rau thơm và chanh tươi rất ngon.",
+      "history": "Phở bắt nguồn từ miền Bắc Việt Nam vào đầu thế kỷ 20 và nhanh chóng trở thành món ăn quốc dân được yêu thích nhất. Nhiều người cho rằng công thức nấu phở chịu ảnh hưởng từ cả ẩm thực truyền thống Việt Nam lẫn hương vị của người Pháp thời xưa."
+    }
+  ],
+  "start_year": 1900,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Pho originally from?",
+      "question_type": "single",
+      "options": ["Vietnam", "China", "Thailand", "Japan"],
+      "correct_answers": [0],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Phở có nguồn gốc từ nước nào?",
+      "question_type": "single",
+      "options": ["Việt Nam", "Trung Quốc", "Thái Lan", "Nhật Bản"],
+      "correct_answers": [0],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What type of noodle is used in Pho?",
+      "question_type": "single",
+      "options": ["Wheat noodles", "Rice noodles", "Egg noodles", "Glass noodles"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Phở sử dụng loại bún nào?",
+      "question_type": "single",
+      "options": ["Bún mì", "Bún gạo", "Bún trứng", "Miến"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

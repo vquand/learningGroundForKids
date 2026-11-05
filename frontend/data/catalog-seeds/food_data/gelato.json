@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 43.7696,
+  "longitude": 11.2558,
+  "country_code": "IT",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Mix fresh milk, sugar, and your favorite flavor — like pistachio, strawberry, or chocolate. Churn the mixture slowly in an ice cream machine while it freezes. Scoop into a cone and enjoy a smooth, dense, creamy treat!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Gelato",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Gelato",
+      "description": "Gelato is Italy's famous frozen dessert — smoother, creamier, and denser than regular ice cream. It comes in so many amazing flavors like pistachio, hazelnut, and lemon!",
+      "history": "Gelato was created in Florence, Italy during the Renaissance, and some say the famous artist Michelangelo loved it. Italian gelato makers, called gelatieri, are proud of using fresh, natural ingredients."
+    },
+    {
+      "lang": "vi",
+      "title": "Gelato",
+      "description": "Gelato là món tráng miệng đông lạnh nổi tiếng của Ý — mịn hơn, béo hơn và đặc hơn kem thường. Nó có rất nhiều vị tuyệt vời như đậu de, hạt phỉ và chanh!",
+      "history": "Gelato được tạo ra ở Florence, Ý vào thời kỳ Phục Hưng, và có người nói nghệ sĩ nổi tiếng Michelangelo rất thích ăn nó. Những người làm gelato của Ý, gọi là gelatieri, rất tự hào vì sử dụng nguyên liệu tươi và tự nhiên."
+    }
+  ],
+  "start_year": 1530,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which Italian city was Gelato created?",
+      "question_type": "single",
+      "options": ["Rome", "Venice", "Florence", "Milan"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Gelato được tạo ra ở thành phố nào của Ý?",
+      "question_type": "single",
+      "options": ["Rome", "Venice", "Florence", "Milan"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How is Gelato different from regular ice cream?",
+      "question_type": "single",
+      "options": ["It is harder and less creamy", "It is smoother and denser", "It is made with eggs only", "It has no sugar"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Gelato khác kem thường như thế nào?",
+      "question_type": "single",
+      "options": ["Cứng hơn và ít béo hơn", "Mịn hơn và đặc hơn", "Chỉ làm bằng trứng", "Không có đường"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

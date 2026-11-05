@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 22.3036,
+  "longitude": 103.7758,
+  "country_code": "VN",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Fansipan is the highest peak in the Hoang Lien Son mountain range, located near the town of Sa Pa in Lao Cai Province, northwestern Vietnam, and is often called the Roof of Indochina.",
+  "fun_facts": [
+    "Fansipan stands 3,143 meters tall — that is like stacking more than 600 giraffes on top of each other!",
+    "The top of Fansipan is sometimes covered in snow during winter, which is very rare in tropical Vietnam.",
+    "You can now ride a cable car to the summit in just 20 minutes — the fastest way to reach a rooftop in all of Indochina!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Fansipan",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Fansipan",
+      "description": "Fansipan is the tallest mountain in Vietnam and all of Indochina, soaring 3,143 meters above the ground. From the misty rice terraces of Sa Pa below, the peak disappears into the clouds most days of the year. Brave climbers and lucky cable car riders are rewarded with views stretching across a sea of mountains.",
+      "history": "Fansipan was first climbed by a team of French explorers in 1905 during the colonial era. The mountain is sacred to the local Hmong and Dao ethnic minority communities who have lived in its shadow for generations. Today a large Buddhist stupa and a giant golden Buddha statue stand at the summit, making it both a natural and spiritual landmark."
+    },
+    {
+      "lang": "vi",
+      "title": "Đỉnh Fansipan",
+      "description": "Fansipan là ngọn núi cao nhất Việt Nam và cả vùng Đông Dương, vươn cao 3.143 mét trên mặt đất. Nhìn từ những ruộng bậc thang mù sương của Sa Pa phía dưới, đỉnh núi biến mất vào mây mây trong phần lớn các ngày trong năm. Những người leo núi dũng cảm và người đi cáp treo may mắn sẽ được ngắm cảnh đẹp trải dài đến tận chân trời.",
+      "history": "Fansipan được một nhóm nhà thám hiểm người Pháp chinh phục lần đầu tiên vào năm 1905 trong thời kỳ thuộc địa. Ngọn núi này rất linh thiêng đối với các cộng đồng dân tộc thiểu số Hmông và Dao đã sống dưới bóng núi này qua nhiều thế hệ. Ngày nay, một tháp Phật giáo lớn và một tượng Phật vàng khổng lồ đứng trên đỉnh, biến nơi đây trở thành cả một danh lam thiên nhiên lẫn một điểm linh thiêng."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Fansipan is the highest mountain in which country?",
+      "question_type": "single",
+      "options": ["China", "Laos", "Vietnam", "Cambodia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Fansipan là ngọn núi cao nhất ở nước nào?",
+      "question_type": "single",
+      "options": ["Trung Quốc", "Lào", "Việt Nam", "Campuchia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How tall is Fansipan?",
+      "question_type": "single",
+      "options": ["2,143 meters", "3,143 meters", "4,143 meters", "5,143 meters"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Đỉnh Fansipan cao bao nhiêu mét?",
+      "question_type": "single",
+      "options": ["2.143 mét", "3.143 mét", "4.143 mét", "5.143 mét"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -50000000,
+  "time_precision": "mya"
+}

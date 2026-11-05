@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "country_code": "FR",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Claude Debussy",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Clair de Lune — Claude Debussy",
+      "description": "This dreamy piano piece sounds like silver moonlight dancing on a quiet pond — soft and magical, like a lullaby from the stars.",
+      "history": "Claude Debussy wrote this piece around 1890 and named it after a poem about moonlight — the title means 'moonlight' in French!"
+    },
+    {
+      "lang": "vi",
+      "title": "Ánh Trăng (Clair de Lune) — Claude Debussy",
+      "description": "Bản nhạc piano mơ mộng này nghe như ánh trăng bạc nhảy múa trên mặt hồ yên tĩnh — nhẹ nhàng và huyền bí, giống như một bài hát ru từ các vì sao.",
+      "history": "Claude Debussy viết bản nhạc này vào khoảng năm 1890 và đặt tên theo một bài thơ về ánh trăng — tên bài có nghĩa là 'ánh trăng' trong tiếng Pháp!"
+    }
+  ],
+  "start_year": 1905,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed 'Clair de Lune'?", "question_type": "single", "options": ["Chopin", "Ravel", "Claude Debussy", "Satie"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác bài 'Clair de Lune' (Ánh Trăng)?", "question_type": "single", "options": ["Chopin", "Ravel", "Claude Debussy", "Satie"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "What does 'Clair de Lune' mean in English?", "question_type": "single", "options": ["Clear sky", "Moonlight", "Morning dew", "Starlight"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "'Clair de Lune' có nghĩa là gì trong tiếng Việt?", "question_type": "single", "options": ["Bầu trời trong xanh", "Ánh trăng", "Sương mai", "Ánh sao"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

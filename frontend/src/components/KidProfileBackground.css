@@ -1,0 +1,47 @@
+.kid-profile-page {
+  position: relative; isolation: isolate; min-height: 100dvh;
+  overflow-x: clip; background: #fdfdfb;
+}
+
+.kid-profile-background {
+  --kid-face-size: clamp(360px, 46vw, 760px);
+  position: fixed; inset: 0; z-index: -1; overflow: hidden;
+  pointer-events: none; user-select: none;
+}
+
+.kid-profile-background__wash {
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse at 10% 90%, rgba(var(--kid-tint), 0.14), transparent 62%),
+    radial-gradient(ellipse at 90% 85%, rgba(var(--kid-tint), 0.07), transparent 55%),
+    linear-gradient(180deg, #fffefa 0%, rgba(var(--kid-tint), 0.025) 65%, rgba(var(--kid-tint), 0.08) 100%);
+}
+
+.kid-profile-background__scene {
+  position: absolute; bottom: 0;
+  right: calc(var(--kid-face-size) * -0.54);
+  /* Match the 384px/4px theme to the 512px/12px portrait outline weight. */
+  width: calc(var(--kid-face-size) * 2.25);
+  aspect-ratio: 3 / 2;
+  background-image: url("/illustrations/kid-profile/themes-flat-v2.png");
+  background-size: 400% 400%; background-repeat: no-repeat;
+  transform: scaleX(-1);
+  opacity: 0.5;
+  /* Hide the previous atlas row's overshoot in this cell's empty sky. */
+  mask-image: linear-gradient(to bottom, transparent 0%, transparent 18%, #000 28%, #000 100%);
+}
+
+.kid-profile-background__face {
+  position: absolute;
+  width: var(--kid-face-size); height: var(--kid-face-size);
+  /* The rotated chin meets the bottom-left edge instead of floating above it. */
+  left: calc(var(--kid-face-size) * -0.22);
+  bottom: calc(var(--kid-face-size) * -0.22);
+  transform: rotate(45deg);
+  transform-origin: center;
+  opacity: 0.7;
+}
+
+@media (max-width: 640px) {
+  .kid-profile-background { --kid-face-size: clamp(270px, 75vw, 360px); }
+}

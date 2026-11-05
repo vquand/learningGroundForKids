@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 41.8781,
+  "longitude": -87.6298,
+  "country_code": "US",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Kevin McCallister",
+      "image_url": null,
+      "description": "A clever 8-year-old boy from Chicago who is accidentally left home alone and must defend his house from two bumbling burglars."
+    },
+    {
+      "name": "Harry",
+      "image_url": null,
+      "description": "One of the two silly burglars who tries to rob Kevin's house but keeps getting outsmarted by the little boy."
+    },
+    {
+      "name": "Marv",
+      "image_url": null,
+      "description": "Harry's clumsy partner in crime who falls for every single one of Kevin's hilarious traps."
+    },
+    {
+      "name": "Old Man Marley",
+      "image_url": null,
+      "description": "Kevin's mysterious neighbor who turns out to be a gentle and kind man who helps Kevin when he needs it most."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Home Alone poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Home Alone (1990)",
+      "description": "Eight-year-old Kevin is accidentally left behind when his family flies to Paris for Christmas, and he must use all his creativity to protect his home from two bumbling burglars.",
+      "history": "Home Alone was filmed in a real house in a suburb of Chicago, Illinois, and the house became so famous that fans travel from all over the world to take photos in front of it!"
+    },
+    {
+      "lang": "vi",
+      "title": "Một Mình Ở Nhà (1990)",
+      "description": "Cậu bé Kevin 8 tuổi vô tình bị bỏ lại khi gia đình bay sang Paris nghỉ lễ Giáng Sinh, và cậu phải dùng trí thông minh để bảo vệ nhà khỏi hai tên trộm ngớ ngẩn.",
+      "history": "Bộ phim được quay tại một ngôi nhà thật ở ngoại ô Chicago, và ngôi nhà trở nên nổi tiếng đến mức người hâm mộ từ khắp nơi trên thế giới đến chụp ảnh trước cửa!"
+    }
+  ],
+  "start_year": 1990,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What city does Kevin's family travel to in Home Alone, leaving him behind?",
+      "question_type": "single",
+      "options": ["London", "Rome", "Paris", "Madrid"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Gia đình Kevin đi du lịch đến thành phố nào trong phim Một Mình Ở Nhà, bỏ lại cậu bé?",
+      "question_type": "single",
+      "options": ["London", "Rome", "Paris", "Madrid"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How old is Kevin in the movie Home Alone?",
+      "question_type": "single",
+      "options": ["Six", "Seven", "Eight", "Ten"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Kevin bao nhiêu tuổi trong phim Một Mình Ở Nhà?",
+      "question_type": "single",
+      "options": ["Sáu tuổi", "Bảy tuổi", "Tám tuổi", "Mười tuổi"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

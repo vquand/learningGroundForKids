@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 43.8791,
+  "longitude": -103.4591,
+  "country_code": "US",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Black Hills, Keystone, South Dakota, USA",
+  "fun_facts": [
+    "Each face carved into Mount Rushmore is about 18 meters tall — that is as high as a six-story building just for one head!",
+    "Workers used dynamite to blast away almost half a million tons of rock to shape the four presidents' faces.",
+    "There is a secret room hidden behind Abraham Lincoln's head called the Hall of Records, though it was never fully finished and is not open to visitors."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Mount Rushmore",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Mount Rushmore",
+      "description": "Mount Rushmore is a massive sculpture carved directly into the side of a granite mountain in South Dakota, showing the faces of four famous American presidents: George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln.",
+      "history": "Sculptor Gutzon Borglum and nearly 400 workers carved the monument between 1927 and 1941. It was created to celebrate the first 150 years of American history and attract visitors to the Black Hills region."
+    },
+    {
+      "lang": "vi",
+      "title": "Núi Rushmore",
+      "description": "Núi Rushmore là một bức điêu khắc khổng lồ được khắc trực tiếp vào sườn núi granite ở Nam Dakota, thể hiện khuôn mặt của bốn vị tổng thống Mỹ nổi tiếng: George Washington, Thomas Jefferson, Theodore Roosevelt và Abraham Lincoln.",
+      "history": "Nhà điêu khắc Gutzon Borglum và gần 400 công nhân đã khắc công trình này từ năm 1927 đến 1941. Nó được tạo ra để kỷ niệm 150 năm đầu tiên của lịch sử nước Mỹ và thu hút du khách đến vùng Black Hills."
+    }
+  ],
+  "start_year": 1941,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Mount Rushmore located?",
+      "question_type": "single",
+      "options": ["Canada", "United States", "Mexico", "Australia"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Núi Rushmore nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Canada", "Hoa Kỳ", "Mexico", "Australia"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How many US presidents' faces are carved on Mount Rushmore?",
+      "question_type": "single",
+      "options": ["2", "3", "4", "5"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Có bao nhiêu khuôn mặt tổng thống Mỹ được khắc trên Núi Rushmore?",
+      "question_type": "single",
+      "options": ["2", "3", "4", "5"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

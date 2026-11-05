@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 43.8426,
+  "longitude": 10.5077,
+  "country_code": "IT",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Francesco Sartori / Andrea Bocelli",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Con Te Partirò — Francesco Sartori / Andrea Bocelli",
+      "description": "A sweeping and emotional Italian song whose title means 'I Will Go With You' — Andrea Bocelli's rich voice makes it feel like a grand journey across the sea!",
+      "history": "Francesco Sartori composed this song and Andrea Bocelli first performed it in 1995 — amazingly, Bocelli has been blind since the age of 12 but his voice is known around the entire world!"
+    },
+    {
+      "lang": "vi",
+      "title": "Con Te Partirò — Francesco Sartori / Andrea Bocelli",
+      "description": "Một bài hát Ý cuồn cuộn và đầy cảm xúc có tên nghĩa là 'Tôi Sẽ Đi Cùng Bạn' — giọng hát trầm ấm của Andrea Bocelli khiến bạn cảm giác như đang trong một cuộc hành trình vĩ đại vượt biển!",
+      "history": "Francesco Sartori sáng tác bài hát này và Andrea Bocelli biểu diễn lần đầu năm 1995 — điều kỳ diệu là Bocelli bị mù từ năm 12 tuổi nhưng giọng hát của ông được cả thế giới biết đến!"
+    }
+  ],
+  "start_year": 1995,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Which famous tenor performed 'Con Te Partirò'?", "question_type": "single", "options": ["Pavarotti", "Bocelli", "Domingo", "Carreras"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ca sĩ tenor nổi tiếng nào đã biểu diễn bài 'Con Te Partirò'?", "question_type": "single", "options": ["Pavarotti", "Bocelli", "Domingo", "Carreras"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Which country is the song 'Con Te Partirò' from?", "question_type": "single", "options": ["Spain", "France", "Italy", "Portugal"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Bài hát 'Con Te Partirò' đến từ quốc gia nào?", "question_type": "single", "options": ["Tây Ban Nha", "Pháp", "Ý", "Bồ Đào Nha"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

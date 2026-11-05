@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 53.5753,
+  "longitude": 10.0153,
+  "country_code": "DE",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Johannes Brahms",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Lullaby (Wiegenlied) — Johannes Brahms",
+      "description": "This is one of the gentlest and most soothing songs ever written — its soft, rocking melody feels like being cradled in warm arms while drifting off to sleep.",
+      "history": "Johannes Brahms wrote this cozy lullaby in 1868 as a gift for a friend who had just had a baby boy — it has been sung to children all over the world ever since!"
+    },
+    {
+      "lang": "vi",
+      "title": "Bài Hát Ru (Wiegenlied) — Johannes Brahms",
+      "description": "Đây là một trong những bài hát nhẹ nhàng và dịu dàng nhất từng được viết ra — giai điệu lắc lư của nó giống như được ôm trong vòng tay ấm áp khi chìm dần vào giấc ngủ.",
+      "history": "Johannes Brahms viết bài hát ru ấm áp này vào năm 1868 như một món quà cho người bạn vừa có một em bé trai — từ đó đến nay nó đã được hát cho trẻ em khắp thế giới!"
+    }
+  ],
+  "start_year": 1868,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed Brahms' Lullaby?", "question_type": "single", "options": ["Mozart", "Beethoven", "Johannes Brahms", "Schubert"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác bài Hát Ru của Brahms?", "question_type": "single", "options": ["Mozart", "Beethoven", "Johannes Brahms", "Schubert"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "What is a lullaby used for?", "question_type": "single", "options": ["Dancing", "Helping babies sleep", "Playing sports", "Celebrating birthdays"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Bài hát ru được dùng để làm gì?", "question_type": "single", "options": ["Khiêu vũ", "Giúp em bé ngủ", "Chơi thể thao", "Mừng sinh nhật"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

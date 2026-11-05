@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 55.7525,
+  "longitude": 37.6231,
+  "country_code": "RU",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Red Square, Moscow, Russia",
+  "fun_facts": [
+    "Saint Basil's Cathedral has 9 colorful domes, and each dome is a different shape and color — no two look the same!",
+    "The cathedral was built over 500 years ago by order of Tsar Ivan the Terrible to celebrate a great victory in battle.",
+    "Legend says that Ivan the Terrible had the architect blinded after finishing the cathedral so he could never build anything more beautiful — though historians think this story is probably not true!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Saint Basil's Cathedral",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Saint Basil's Cathedral",
+      "description": "Saint Basil's Cathedral is a famous Russian church with nine colorful, onion-shaped domes sitting right on Red Square in the heart of Moscow. It looks like something out of a fairy tale!",
+      "history": "It was built between 1555 and 1561 by order of Tsar Ivan the Terrible to celebrate the Russian capture of the city of Kazan. Today it is one of the most recognized buildings in the world."
+    },
+    {
+      "lang": "vi",
+      "title": "Nhà thờ Saint Basil",
+      "description": "Nhà thờ Saint Basil là một nhà thờ Nga nổi tiếng với chín mái vòm màu sắc hình hành tây nằm trên Quảng trường Đỏ ở trung tâm thành phố Moscow. Nó trông giống như một tòa lâu đài trong truyện cổ tích!",
+      "history": "Nó được xây dựng từ năm 1555 đến 1561 theo lệnh của Sa hoàng Ivan Hung Đế để kỷ niệm chiến thắng của người Nga trước thành phố Kazan. Ngày nay nó là một trong những tòa nhà được nhận biết nhiều nhất trên thế giới."
+    }
+  ],
+  "start_year": 1561,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which city is Saint Basil's Cathedral located?",
+      "question_type": "single",
+      "options": ["Saint Petersburg", "Moscow", "Kazan", "Sochi"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Nhà thờ Saint Basil nằm ở thành phố nào?",
+      "question_type": "single",
+      "options": ["Saint Petersburg", "Moskva", "Kazan", "Sochi"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How many colorful domes does Saint Basil's Cathedral have?",
+      "question_type": "single",
+      "options": ["5", "7", "9", "12"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Nhà thờ Saint Basil có bao nhiêu mái vòm màu sắc?",
+      "question_type": "single",
+      "options": ["5", "7", "9", "12"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

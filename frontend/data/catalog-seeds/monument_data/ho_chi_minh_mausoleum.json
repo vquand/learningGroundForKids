@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 21.0366,
+  "longitude": 105.8344,
+  "country_code": "VN",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Ba Dinh Square, Hanoi, Vietnam",
+  "fun_facts": [
+    "The mausoleum is kept at a very cool temperature all year round to preserve Uncle Ho's body — even in the hottest Vietnamese summers!",
+    "Uncle Ho actually asked to be cremated, but the Vietnamese people loved him so much they built this grand resting place for him instead.",
+    "Every year, the mausoleum closes for a few months so scientists can travel from Russia to help take care of Uncle Ho's body."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Ho Chi Minh Mausoleum",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Ho Chi Minh Mausoleum",
+      "description": "The Ho Chi Minh Mausoleum is a grand building in the heart of Hanoi where Vietnam's most beloved leader, President Ho Chi Minh, rests. Visitors come from all over the world to pay their respects to 'Uncle Ho'.",
+      "history": "Built between 1973 and 1975, the mausoleum was completed just after Vietnam's reunification. It was inspired by Lenin's Mausoleum in Moscow and stands at the centre of Ba Dinh Square, where Ho Chi Minh declared Vietnam's independence in 1945."
+    },
+    {
+      "lang": "vi",
+      "title": "Lăng Chủ tịch Hồ Chí Minh",
+      "description": "Lăng Bác Hồ là một công trình uy nghi ở trung tâm Hà Nội, nơi Chủ tịch Hồ Chí Minh kính yêu của Việt Nam đang yên nghỉ. Du khách từ khắp nơi trên thế giới đến đây để bày tỏ lòng biết ơn với Bác Hồ.",
+      "history": "Lăng được xây dựng từ năm 1973 đến 1975, hoàn thành sau khi Việt Nam thống nhất. Lăng được xây dựng tại Quảng trường Ba Đình, nơi Bác Hồ đọc Tuyên ngôn Độc lập năm 1945."
+    }
+  ],
+  "start_year": 1975,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which city is the Ho Chi Minh Mausoleum located?",
+      "question_type": "single",
+      "options": ["Ho Chi Minh City", "Hue", "Da Nang", "Hanoi"],
+      "correct_answers": [3],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Lăng Chủ tịch Hồ Chí Minh nằm ở thành phố nào?",
+      "question_type": "single",
+      "options": ["Thành phố Hồ Chí Minh", "Huế", "Đà Nẵng", "Hà Nội"],
+      "correct_answers": [3],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "On which famous square does the Ho Chi Minh Mausoleum stand?",
+      "question_type": "single",
+      "options": ["Hoan Kiem Square", "Ba Dinh Square", "Dong Kinh Square", "Ho Tay Square"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Lăng Chủ tịch Hồ Chí Minh đứng trên quảng trường nổi tiếng nào?",
+      "question_type": "single",
+      "options": ["Quảng trường Hoàn Kiếm", "Quảng trường Ba Đình", "Quảng trường Đông Kinh", "Quảng trường Hồ Tây"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

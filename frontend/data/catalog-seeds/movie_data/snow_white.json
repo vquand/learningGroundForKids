@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 48.1351,
+  "longitude": 11.582,
+  "country_code": "DE",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Snow White",
+      "image_url": null,
+      "description": "A gentle and cheerful princess with skin as white as snow who befriends seven dwarfs after fleeing her jealous stepmother."
+    },
+    {
+      "name": "The Evil Queen",
+      "image_url": null,
+      "description": "Snow White's vain and jealous stepmother who will stop at nothing to be declared the most beautiful in the land."
+    },
+    {
+      "name": "The Seven Dwarfs",
+      "image_url": null,
+      "description": "Seven lovable little miners — Doc, Grumpy, Happy, Sleepy, Bashful, Sneezy, and Dopey — who welcome Snow White into their cottage."
+    },
+    {
+      "name": "The Prince",
+      "image_url": null,
+      "description": "A kind and brave prince whose love for Snow White is powerful enough to break the Evil Queen's sleeping spell."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Snow White and the Seven Dwarfs poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Snow White and the Seven Dwarfs (1937)",
+      "description": "Princess Snow White flees into the forest to escape her wicked stepmother and finds a cosy home with seven friendly dwarfs, but danger soon follows her there.",
+      "history": "Snow White was Disney's very first feature film and is based on a fairy tale collected by the Brothers Grimm in Germany — it is also the first ever full-length animated movie in history."
+    },
+    {
+      "lang": "vi",
+      "title": "Bạch Tuyết Và Bảy Chú Lùn (1937)",
+      "description": "Công chúa Bạch Tuyết chạy vào rừng để trốn khỏi mẹ kế độc ác và tìm thấy một ngôi nhà ấm cúng cùng bảy chú lùn thân thiện, nhưng nguy hiểm sớm theo chân cô đến.",
+      "history": "Bạch Tuyết là bộ phim dài đầu tiên của Disney và được dựa trên một truyện cổ tích do anh em nhà Grimm sưu tầm ở Đức — đây cũng là bộ phim hoạt hình dài đầu tiên trong lịch sử thế giới."
+    }
+  ],
+  "start_year": 1937,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "How many dwarfs does Snow White live with?",
+      "question_type": "single",
+      "options": ["Five", "Six", "Seven", "Eight"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Bạch Tuyết sống cùng bao nhiêu chú lùn?",
+      "question_type": "single",
+      "options": ["Năm", "Sáu", "Bảy", "Tám"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Snow White is based on a fairy tale from which country?",
+      "question_type": "single",
+      "options": ["France", "England", "Germany", "Denmark"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Bạch Tuyết dựa trên một truyện cổ tích từ nước nào?",
+      "question_type": "single",
+      "options": ["Pháp", "Anh", "Đức", "Đan Mạch"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

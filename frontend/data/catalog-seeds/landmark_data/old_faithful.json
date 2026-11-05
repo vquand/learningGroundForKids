@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 44.4605,
+  "longitude": -110.8281,
+  "country_code": "US",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Old Faithful is the world's most famous geyser, located in Yellowstone National Park, Wyoming, USA, sitting atop the Yellowstone supervolcano caldera.",
+  "fun_facts": [
+    "Old Faithful shoots boiling hot water up to 56 meters in the air — taller than a 15-story building — every 60 to 110 minutes, almost like clockwork!",
+    "The water inside Old Faithful is heated by a giant pool of magma just a few kilometers underground — Yellowstone is actually a supervolcano!",
+    "Over 4 million people visit Old Faithful every year, and people have been watching it erupt since at least 1870 when the first scientific expedition arrived."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Old Faithful Geyser",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Old Faithful",
+      "description": "Old Faithful is the most famous geyser on Earth, shooting a massive column of boiling water and steam high into the sky at Yellowstone National Park. It erupts so regularly that park rangers can predict the next blast to within about 10 minutes — that is how it earned the name 'Old Faithful.' Standing nearby when it erupts, you feel a wave of heat and hear a deep roar as thousands of liters of scalding water blast into the air.",
+      "history": "Old Faithful has been erupting for hundreds of years, powered by a vast reservoir of magma lurking just beneath Yellowstone, which sits on one of the largest supervolcanoes on Earth. Native American tribes knew of the geysers long before European explorers arrived. The Washburn-Langford-Doane Expedition named it 'Old Faithful' in 1870, and in 1872 Yellowstone became the world's first national park, partly to protect these incredible thermal wonders."
+    },
+    {
+      "lang": "vi",
+      "title": "Old Faithful",
+      "description": "Old Faithful là mạch nước phun nổi tiếng nhất Trái Đất, phun một cột nước sôi và hơi nước khổng lồ lên cao trong bầu trời tại Công viên Quốc gia Yellowstone. Nó phun đều đặn đến mức các kiểm lâm viên có thể dự đoán lần phun tiếp theo chính xác đến trong vòng 10 phút — đó là lý do nó có tên là 'Old Faithful' (Cổ Thụ Trung Thành). Đứng gần nó khi nó phun, bạn sẽ cảm thấy một làn sóng nhiệt và nghe tiếng gầm lớn khi hàng nghìn lít nước bỏng phun vọt lên trời.",
+      "history": "Old Faithful đã phun trong hàng trăm năm, được tiếp nhận bởi một hồ magma lớn nằm ngay bên dưới Yellowstone — một trong những siêu núi lửa lớn nhất Trái Đất. Các bộ lạc bản địa đã biết đến những mạch nước phun này từ lâu trước khi người châu Âu đến. Đoàn thám hiểm Washburn-Langford-Doane đặt tên nó là 'Old Faithful' vào năm 1870, và năm 1872 Yellowstone trở thành vườn quốc gia đầu tiên trên thế giới, một phần để bảo vệ những kỳ quan nhiệt địa tuyệt vời này."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Old Faithful is located in which US national park?",
+      "question_type": "single",
+      "options": ["Yosemite", "Grand Canyon", "Yellowstone", "Zion"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Old Faithful nằm trong vườn quốc gia nào của Mỹ?",
+      "question_type": "single",
+      "options": ["Yosemite", "Grand Canyon", "Yellowstone", "Zion"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How often does Old Faithful erupt?",
+      "question_type": "single",
+      "options": ["Once a day", "Once a week", "Every 60 to 110 minutes", "Every 5 minutes"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Old Faithful phun bao lâu một lần?",
+      "question_type": "single",
+      "options": ["Mỗi ngày một lần", "Mỗi tuần một lần", "Cứ 60 đến 110 phút", "Cứ 5 phút"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -2000000,
+  "time_precision": "mya"
+}

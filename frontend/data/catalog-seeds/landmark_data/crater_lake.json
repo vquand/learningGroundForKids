@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 42.8684,
+  "longitude": -122.1685,
+  "country_code": "US",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Crater Lake sits in the Cascade Mountains of southern Oregon, USA, filling the caldera of an ancient collapsed volcano called Mount Mazama.",
+  "fun_facts": [
+    "Crater Lake is the deepest lake in the entire United States — at 592 meters deep, you could stack almost two Empire State Buildings inside it!",
+    "The water is so pure and clear that you can see objects nearly 40 meters below the surface, making it one of the clearest lakes on Earth.",
+    "The lake has no rivers flowing in or out — it is filled entirely by rain and snow melting into the crater."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Crater Lake",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Crater Lake",
+      "description": "Crater Lake is a breathtakingly deep blue lake sitting inside the top of an ancient volcano in Oregon, USA. The water is so incredibly clear and pure that it glows a brilliant sapphire blue unlike any other lake in the world. A small volcanic island called Wizard Island pokes out of the water right in the middle, making it look like something from a fairy tale.",
+      "history": "About 7,700 years ago, a massive volcano called Mount Mazama erupted so violently that its entire top collapsed inward, forming a giant bowl called a caldera. Over hundreds of years, rain and snowmelt filled the caldera to create the lake we see today. The Klamath Native American people witnessed the eruption and passed down stories of the event through generations long before European explorers ever arrived."
+    },
+    {
+      "lang": "vi",
+      "title": "Hồ Crater",
+      "description": "Hồ Crater là một hồ nước xanh thẳm ấn tượng nằm bên trong miệng núi lửa cổ ở Oregon, Hoa Kỳ. Nước hồ trong suốt đến mức phát sáng một màu xanh sapphire tuyệt đẹp, khác biệt với bất kỳ hồ nào trên thế giới. Một hòn đảo núi lửa nhỏ tên Wizard Island lộ ra giữa mặt hồ, trông giống như cảnh trong truyện cổ tích.",
+      "history": "Khoảng 7.700 năm trước, một núi lửa khổng lồ tên Mount Mazama phun trào dữ dội đến mức toàn bộ đỉnh núi sụp xuống, tạo thành một chiếc bát khổng lồ gọi là caldera. Qua hàng trăm năm, mưa và tuyết tan chảy đã làm đầy chiếc bát đó tạo nên hồ ngày nay. Người bản địa Klamath đã chứng kiến vụ phun trào và truyền lại câu chuyện qua nhiều thế hệ trước khi người châu Âu đặt chân đến."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "How was Crater Lake formed?",
+      "question_type": "single",
+      "options": ["A giant meteor hit the ground", "A volcano collapsed and filled with water", "Glaciers melted and left a hole", "An earthquake created a valley"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hồ Crater được hình thành như thế nào?",
+      "question_type": "single",
+      "options": ["Một thiên thạch khổng lồ va vào mặt đất", "Một núi lửa sụp xuống và được lấp đầy nước", "Sông băng tan chảy để lại hố", "Động đất tạo ra thung lũng"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "In which US state is Crater Lake located?",
+      "question_type": "single",
+      "options": ["California", "Washington", "Oregon", "Idaho"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hồ Crater nằm ở tiểu bang nào của Mỹ?",
+      "question_type": "single",
+      "options": ["California", "Washington", "Oregon", "Idaho"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -7700,
+  "time_precision": "kya"
+}

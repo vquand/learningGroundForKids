@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 16.7984,
+  "longitude": 96.1497,
+  "country_code": "MM",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Shwedagon Pagoda, Singuttara Hill, Yangon, Myanmar",
+  "fun_facts": [
+    "The top of the Shwedagon Pagoda is decorated with 4,531 diamonds and 2,317 rubies — it sparkles like a giant jewel in the sunlight!",
+    "The main stupa is covered in 60 tonnes of real gold — that's heavier than eight full-grown elephants!",
+    "According to legend, the pagoda is 2,600 years old, which would make it one of the oldest Buddhist temples in the entire world."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Shwedagon Pagoda",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Shwedagon Pagoda",
+      "description": "The Shwedagon Pagoda is a magnificent golden Buddhist stupa that towers 98 metres high over the city of Yangon in Myanmar. It glitters with real gold and precious gems and is the most sacred Buddhist site in Myanmar.",
+      "history": "Legend says the pagoda was built over 2,600 years ago to enshrine strands of the Buddha's hair. The current structure has been rebuilt and expanded many times by devoted kings and queens over the centuries, with major renovations in the 15th century under Queen Shinsawbu."
+    },
+    {
+      "lang": "vi",
+      "title": "Chùa Shwedagon",
+      "description": "Chùa Shwedagon là một ngôi chùa Phật giáo bằng vàng huy hoàng cao 98 mét sừng sững trên thành phố Yangon ở Myanmar. Nó lấp lánh với vàng thật và đá quý và là thánh địa Phật giáo thiêng liêng nhất Myanmar.",
+      "history": "Truyền thuyết kể rằng ngôi chùa được xây dựng cách đây hơn 2.600 năm để cúng dường tóc của Đức Phật. Công trình hiện tại đã được xây dựng lại và mở rộng nhiều lần bởi các vị vua và hoàng hậu suốt nhiều thế kỷ, với lần tu bổ lớn dưới thời Nữ hoàng Shinsawbu vào thế kỷ 15."
+    }
+  ],
+  "start_year": -500,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is the Shwedagon Pagoda located?",
+      "question_type": "single",
+      "options": ["Thailand", "Myanmar", "Cambodia", "Laos"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Chùa Shwedagon nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Thái Lan", "Myanmar", "Campuchia", "Lào"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What precious material covers the main stupa of Shwedagon Pagoda?",
+      "question_type": "single",
+      "options": ["Silver", "Platinum", "Gold", "Bronze"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Vật liệu quý giá nào bao phủ tháp chính của chùa Shwedagon?",
+      "question_type": "single",
+      "options": ["Bạc", "Bạch kim", "Vàng", "Đồng thau"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

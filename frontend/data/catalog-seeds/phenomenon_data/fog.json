@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 51.5074,
+  "longitude": -0.1278,
+  "country_code": "GB",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "London's old fog was so thick and yellow that people called it 'pea-souper' fog — because it looked exactly like pea soup swirling through the streets!",
+    "Fog is really just a cloud that has come down to touch the ground — so when you walk through fog, you are actually walking inside a cloud!",
+    "The famous detective Sherlock Holmes stories were inspired by London's mysterious foggy streets — the fog made the city feel full of secrets!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Fog",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Fog",
+      "description": "Fog is a thick cloud of tiny water droplets that forms close to the ground, making it hard to see very far ahead. It is like walking inside a fluffy white blanket — everything around you turns soft and mysterious.",
+      "history": "London, England was once famous for its incredibly thick yellow fog, caused by coal smoke mixing with natural river mist from the River Thames. This legendary 'pea-souper' fog inspired many famous stories and became a symbol of the city in the 1800s."
+    },
+    {
+      "lang": "vi",
+      "title": "Sương Mù",
+      "description": "Sương mù là đám mây dày đặc gồm những giọt nước li ti hình thành gần mặt đất, khiến bạn khó nhìn xa phía trước. Giống như đang đi bộ bên trong một tấm chăn bông mềm trắng — mọi thứ xung quanh trở nên mờ ảo và bí ẩn.",
+      "history": "London, Anh, từng nổi tiếng với lớp sương mù vàng dày đặc, gây ra bởi khói than trộn lẫn với sương từ sông Thames. Lớp 'sương mù xúp đậu Hà Lan' huyền thoại này đã truyền cảm hứng cho nhiều câu chuyện nổi tiếng và trở thành biểu tượng của thành phố vào thế kỷ 19."
+    }
+  ],
+  "start_year": -3000,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is fog made of?",
+      "question_type": "single",
+      "options": ["Dust and smoke", "Tiny water droplets floating near the ground", "Snowflakes", "Hot steam"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Sương mù được tạo ra từ gì?",
+      "question_type": "single",
+      "options": ["Bụi và khói", "Những giọt nước li ti lơ lửng gần mặt đất", "Bông tuyết", "Hơi nước nóng"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "When you walk through fog, what are you really walking through?",
+      "question_type": "single",
+      "options": ["Smoke", "A cloud that has come down to the ground", "Hot air", "Dust"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Khi bạn đi bộ qua sương mù, thực ra bạn đang đi qua gì?",
+      "question_type": "single",
+      "options": ["Khói", "Một đám mây đã xuống mặt đất", "Không khí nóng", "Bụi"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

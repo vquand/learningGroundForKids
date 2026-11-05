@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 30.5728,
+  "longitude": 104.0668,
+  "country_code": "CN",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Po",
+      "image_url": null,
+      "description": "A big, clumsy but lovable panda who is a huge fan of kung fu and dreams of becoming a great warrior."
+    },
+    {
+      "name": "Shifu",
+      "image_url": null,
+      "description": "A small but strict red panda kung fu master who must train Po to become the legendary Dragon Warrior."
+    },
+    {
+      "name": "Tigress",
+      "image_url": null,
+      "description": "The strongest and most disciplined member of the Furious Five who trains very hard every single day."
+    },
+    {
+      "name": "Tai Lung",
+      "image_url": null,
+      "description": "A powerful and fierce snow leopard who escapes from prison seeking the Dragon Scroll he was denied."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Kung Fu Panda poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Kung Fu Panda (2008)",
+      "description": "A clumsy panda named Po who loves kung fu is accidentally chosen to become the legendary Dragon Warrior and must train to defeat a dangerous villain.",
+      "history": "Kung Fu Panda is set in ancient China and features real Chinese landmarks and art styles — the filmmakers visited China to make sure everything looked authentic!"
+    },
+    {
+      "lang": "vi",
+      "title": "Gấu Trúc Kung Fu (2008)",
+      "description": "Một chú gấu trúc vụng về tên Po yêu thích kung fu tình cờ được chọn làm Chiến Binh Rồng huyền thoại và phải tập luyện để đánh bại một kẻ thù nguy hiểm.",
+      "history": "Kung Fu Panda được đặt ở Trung Quốc cổ đại và có các địa danh và phong cách nghệ thuật Trung Hoa thật sự — đoàn làm phim đã đến Trung Quốc để đảm bảo mọi thứ trông thật!"
+    }
+  ],
+  "start_year": 2008,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What animal is Po in the movie Kung Fu Panda?",
+      "question_type": "single",
+      "options": ["A bear", "A giant panda", "A red panda", "A raccoon"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Po là loài động vật gì trong phim Gấu Trúc Kung Fu?",
+      "question_type": "single",
+      "options": ["Một con gấu", "Một con gấu trúc khổng lồ", "Một con gấu trúc đỏ", "Một con gấu mèo"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which country is the movie Kung Fu Panda set in?",
+      "question_type": "single",
+      "options": ["Japan", "Korea", "China", "Vietnam"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Bộ phim Gấu Trúc Kung Fu được đặt ở nước nào?",
+      "question_type": "single",
+      "options": ["Nhật Bản", "Hàn Quốc", "Trung Quốc", "Việt Nam"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

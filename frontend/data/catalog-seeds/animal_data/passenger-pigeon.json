@@ -1,0 +1,69 @@
+{
+  "category": "animal",
+  "latitude": 40.0,
+  "longitude": -83.0,
+  "country_code": "US",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Passenger Pigeons once lived in the forests of eastern North America, from southern Canada down to the Gulf of Mexico. They nested in huge colonies in deciduous forests, especially around Ohio, Michigan, and Wisconsin.",
+  "fun_facts": [
+    "Passenger Pigeons were once the most numerous bird in North America — possibly the most numerous bird on Earth, with flocks of over 3 billion birds!",
+    "A single flock could be so large it would take several days to fly past and block out the sun.",
+    "The very last Passenger Pigeon, a female named Martha, died at Cincinnati Zoo on 1 September 1914.",
+    "People hunted them in enormous numbers for cheap food and sport, which is what caused their extinction.",
+    "The extinction of the Passenger Pigeon helped spark the first major wildlife protection laws in the USA."
+  ],
+  "end_year": 1914,
+  "time_precision": "year",
+  "media": [{"media_type": "image", "label": "Passenger Pigeon", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Passenger Pigeon (Extinct 1914)",
+      "description": "The Passenger Pigeon was once the most common bird in North America, flying in flocks so huge they darkened the sky. Sadly, over-hunting wiped them out completely. The very last one, named Martha, died alone in a zoo in 1914. Their disappearance was a wake-up call for wildlife protection."
+    },
+    {
+      "lang": "vi",
+      "title": "Bồ Câu Viễn Du (Tuyệt chủng 1914)",
+      "description": "Bồ Câu Viễn Du từng là loài chim phổ biến nhất ở Bắc Mỹ, bay thành đàn khổng lồ che khuất bầu trời. Đáng buồn thay, việc săn bắn quá mức đã xóa sổ chúng hoàn toàn. Con chim cuối cùng, tên là Martha, chết một mình trong sở thú năm 1914. Sự biến mất của chúng là lời cảnh tỉnh cho việc bảo vệ động vật hoang dã."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What was the name of the very last Passenger Pigeon?",
+      "question_type": "single",
+      "options": ["Lucy", "Martha", "George", "Bella"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Con Bồ Câu Viễn Du cuối cùng tên là gì?",
+      "question_type": "single",
+      "options": ["Lucy", "Martha", "George", "Bella"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What was the main reason Passenger Pigeons went extinct?",
+      "question_type": "single",
+      "options": ["Disease", "A volcano eruption", "Over-hunting by people", "Climate change"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Nguyên nhân chính khiến Bồ Câu Viễn Du tuyệt chủng là gì?",
+      "question_type": "single",
+      "options": ["Dịch bệnh", "Núi lửa phun trào", "Con người săn bắn quá mức", "Biến đổi khí hậu"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 50.7374,
+  "longitude": 7.0982,
+  "country_code": "DE",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Ludwig van Beethoven",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Für Elise — Ludwig van Beethoven",
+      "description": "This gentle piano piece has one of the most famous melodies in the world — a sweet, repeating tune that sounds like a music box playing a tender song.",
+      "history": "Beethoven wrote this around 1810 as a gift for someone named Elise, but no one knows for sure who she was — it is one of music's greatest mysteries!"
+    },
+    {
+      "lang": "vi",
+      "title": "Für Elise — Ludwig van Beethoven",
+      "description": "Bản nhạc piano nhẹ nhàng này có một trong những giai điệu nổi tiếng nhất thế giới — một giai điệu ngọt ngào, lặp đi lặp lại nghe như một hộp nhạc đang chạy lên một bài hát dịu dàng.",
+      "history": "Beethoven viết bản nhạc này vào khoảng năm 1810 như một món quà cho một người tên Elise, nhưng không ai biết chính xác bà ấy là ai — đây là một trong những bí ẩn lớn nhất của âm nhạc!"
+    }
+  ],
+  "start_year": 1810,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed 'Für Elise'?", "question_type": "single", "options": ["Mozart", "Bach", "Beethoven", "Chopin"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác bài 'Für Elise'?", "question_type": "single", "options": ["Mozart", "Bach", "Beethoven", "Chopin"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "What instrument is 'Für Elise' mainly played on?", "question_type": "single", "options": ["Violin", "Guitar", "Piano", "Flute"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Bài 'Für Elise' chủ yếu được chơi bằng nhạc cụ nào?", "question_type": "single", "options": ["Vĩ cầm", "Đàn ghi-ta", "Đàn piano", "Sáo"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

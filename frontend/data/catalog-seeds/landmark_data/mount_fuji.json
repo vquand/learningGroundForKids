@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 35.3606,
+  "longitude": 138.7274,
+  "country_code": "JP",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Mount Fuji is Japan's tallest and most iconic stratovolcano, rising symmetrically above the Fuji Five Lakes region near Fujiyoshida in Yamanashi Prefecture on Honshu Island.",
+  "fun_facts": [
+    "Mount Fuji is 3,776 meters tall and perfectly cone-shaped — it looks so beautiful that Japanese artists have painted it more than 30,000 times!",
+    "About 200,000 people climb to the top of Mount Fuji every summer — that is like the whole crowd at 3 sold-out soccer stadiums!",
+    "Fuji is actually a volcano, and its last eruption in 1707 covered Tokyo — which was 100 kilometers away — in a thick layer of ash."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Mount Fuji",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Mount Fuji",
+      "description": "Mount Fuji is Japan's most beloved mountain and its highest peak at 3,776 meters, with a perfectly symmetrical cone shape that has inspired countless paintings and poems. Its snow-dusted summit is visible from Tokyo on a clear day, floating above the clouds like a dream. Fuji is actually an active volcano that last erupted over 300 years ago.",
+      "history": "Mount Fuji has been a sacred site in Japanese religion for more than a thousand years, with Shinto shrines built on its slopes and at its summit. For centuries, women were not allowed to climb it — a rule that was finally changed in the Meiji era in the 1860s. In 2013, Mount Fuji was added to the UNESCO World Heritage List as a cultural site of Japan."
+    },
+    {
+      "lang": "vi",
+      "title": "Núi Fuji",
+      "description": "Núi Fuji là ngọn núi được yêu mến nhất của Nhật Bản và là đỉnh cao nhất ở 3.776 mét, với hình dạng hình nón đối xứng hoàn hảo đã truyền cảm hứng cho vô số bức tranh và bài thơ. Đỉnh núi phủ tuyết có thể nhìn thấy từ Tokyo vào ngày trong xanh, lơ lửng phía trên những đám mây như một giấc mơ. Fuji thực ra là một núi lửa hoạt động, lần cuối phun trào là hơn 300 năm trước.",
+      "history": "Núi Fuji đã là một điểm thiêng trong tôn giáo Nhật Bản hơn một nghìn năm, với các đền thờ Shinto được xây trên sườn núi và trên đỉnh. Trong nhiều thế kỷ, phụ nữ không được phép leo núi — một quy định cuối cùng đã bị thay đổi vào thời Minh Trị vào những năm 1860. Năm 2013, Núi Fuji được UNESCO công nhận là Di sản Thế giới với tư cách là một di sản văn hóa của Nhật Bản."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Mount Fuji located?",
+      "question_type": "single",
+      "options": ["China", "South Korea", "Japan", "Taiwan"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Núi Fuji nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Trung Quốc", "Hàn Quốc", "Nhật Bản", "Đài Loan"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What type of mountain is Mount Fuji?",
+      "question_type": "single",
+      "options": ["An extinct volcano", "A glacier", "An active volcano", "A coral atoll"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Núi Fuji là loại núi gì?",
+      "question_type": "single",
+      "options": ["Núi lửa đã tắt", "Sông băng", "Núi lửa hoạt động", "Vành đai san hô"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -100000,
+  "time_precision": "kya"
+}

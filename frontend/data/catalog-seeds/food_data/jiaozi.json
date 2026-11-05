@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 31.2304,
+  "longitude": 121.4737,
+  "country_code": "CN",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Mix minced pork and cabbage with a pinch of ginger and soy sauce for the filling. Spoon a little filling onto round dough wrappers and fold them in half, pinching the edges to make a pretty pleat shape. Boil or pan-fry until cooked and dip in vinegar sauce!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Jiaozi",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Jiaozi (Dumplings)",
+      "description": "Jiaozi are delicious Chinese dumplings made from thin dough filled with a tasty mixture of minced pork, vegetables, and ginger. They can be boiled, steamed, or pan-fried until golden and crispy on the bottom.",
+      "history": "Jiaozi have been eaten in China for over 1,800 years and are especially popular during Chinese New Year, when families gather together to fold and cook them. Legend says eating Jiaozi brings good luck and wealth for the new year!"
+    },
+    {
+      "lang": "vi",
+      "title": "Jiaozi (Bánh Bao Chiên)",
+      "description": "Jiaozi là món bánh bao Trung Quốc làm từ vỏ bánh mỏng nhân đầy thịt heo xay, rau và gừng thơm ngon. Chúng có thể được luộc, hấp hoặc chiên cho đến khi vàng giòn ở phần đáy.",
+      "history": "Jiaozi đã được ăn ở Trung Quốc hơn 1.800 năm và đặc biệt phổ biến vào dịp Tết Nguyên Đán, khi cả gia đình tụ họp để gói và nấu bánh cùng nhau. Tương truyền rằng ăn Jiaozi sẽ mang lại may mắn và tài lộc cho năm mới!"
+    }
+  ],
+  "start_year": -200,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "During which Chinese holiday are Jiaozi especially popular?",
+      "question_type": "single",
+      "options": ["Mid-Autumn Festival", "Dragon Boat Festival", "Chinese New Year", "Lantern Festival"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Jiaozi đặc biệt phổ biến vào dịp lễ Trung Quốc nào?",
+      "question_type": "single",
+      "options": ["Tết Trung Thu", "Tết Đoan Ngọ", "Tết Nguyên Đán", "Tết Nguyên Tiêu"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How long have Jiaozi been eaten in China?",
+      "question_type": "single",
+      "options": ["Over 500 years", "Over 1,000 years", "Over 1,800 years", "Over 3,000 years"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Jiaozi đã được ăn ở Trung Quốc bao lâu?",
+      "question_type": "single",
+      "options": ["Hơn 500 năm", "Hơn 1.000 năm", "Hơn 1.800 năm", "Hơn 3.000 năm"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

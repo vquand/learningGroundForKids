@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": -27.1127,
+  "longitude": -109.3497,
+  "country_code": "CL",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Easter Island (Rapa Nui), Valparaiso Region, Chile",
+  "fun_facts": [
+    "Easter Island is one of the most remote places on Earth — the nearest inhabited island is over 2,000 kilometers away, which means it would take you about 5 hours just to fly there from the closest neighbor!",
+    "The giant stone heads, called moai, actually have full bodies buried under the ground — scientists were surprised to discover this by digging around them!",
+    "The Rapa Nui people carved and moved these enormous statues using only stone tools and human power, with no wheels or cranes — the heaviest one weighs about 86 tons!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Easter Island Moai",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Easter Island Moai",
+      "description": "The Moai are nearly 1,000 giant stone statues scattered across Easter Island in the Pacific Ocean. Carved by the ancient Rapa Nui people, these mysterious figures with large heads and elongated faces have puzzled explorers and scientists for centuries.",
+      "history": "The Rapa Nui people carved the moai between roughly 1250 and 1500 AD to honor their ancestors and chiefs. Moving these massive stones across the island without modern tools remains one of history's great mysteries."
+    },
+    {
+      "lang": "vi",
+      "title": "Tượng Moai Đảo Phục Sinh",
+      "description": "Các tượng Moai là gần 1.000 bức tượng đá khổng lồ rải rác trên khắp Đảo Phục Sinh ở Thái Bình Dương. Được khắc bởi người Rapa Nui cổ đại, những nhân vật bí ẩn này với cái đầu lớn và khuôn mặt thon dài đã làm bối rối nhiều nhà thám hiểm và khoa học trong nhiều thế kỷ.",
+      "history": "Người Rapa Nui đã khắc các tượng moai vào khoảng từ năm 1250 đến 1500 sau Công nguyên để tôn vinh tổ tiên và thủ lĩnh của họ. Việc di chuyển những khối đá khổng lồ này qua khắp hòn đảo mà không có công cụ hiện đại vẫn là một trong những bí ẩn vĩ đại của lịch sử."
+    }
+  ],
+  "start_year": 1250,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Easter Island belongs to which country?",
+      "question_type": "single",
+      "options": ["Peru", "Chile", "Polynesia", "New Zealand"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Đảo Phục Sinh thuộc quốc gia nào?",
+      "question_type": "single",
+      "options": ["Peru", "Chile", "Polynesia", "New Zealand"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What are the giant stone statues on Easter Island called?",
+      "question_type": "single",
+      "options": ["Tiki", "Moai", "Menhir", "Totem"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Những bức tượng đá khổng lồ trên Đảo Phục Sinh được gọi là gì?",
+      "question_type": "single",
+      "options": ["Tiki", "Moai", "Menhir", "Totem"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

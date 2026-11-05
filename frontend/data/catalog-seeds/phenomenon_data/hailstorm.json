@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": -34.6037,
+  "longitude": -58.3816,
+  "country_code": "AR",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "Argentina gets some of the biggest hailstones on Earth — some are as large as an orange and can weigh as much as a small apple!",
+    "Hailstones are not just balls of ice — they form like onions, with many layers of ice built up one by one inside a thundercloud!",
+    "The heaviest hailstone ever recorded weighed nearly 1 kg — about as heavy as a big bottle of water falling from the sky!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Hailstorm",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Hailstorm",
+      "description": "A hailstorm is when frozen balls of ice called hailstones fall from thunderclouds, bouncing off rooftops and covering the ground in a layer of white ice.",
+      "history": "Argentina, near Buenos Aires, is one of the world's hailstorm hotspots — warm, moist air from the Atlantic Ocean meets cold air from the Andes mountains to create spectacular storms that produce enormous hailstones."
+    },
+    {
+      "lang": "vi",
+      "title": "Mưa Đá (Hailstorm)",
+      "description": "Mưa đá là hiện tượng những viên đá băng gọi là hạt mưa đá rơi xuống từ đám mây bão, nảy vang trên mái nhà và phủ một lớp trắng lên mặt đất.",
+      "history": "Argentina, gần thành phố Buenos Aires, là một trong những nơi có mưa đá mạnh nhất thế giới. Không khí ẩm từ Đại Tây Dương gặp không khí lạnh từ dãy núi Andes tạo ra những trận bão dữ dội với những viên đá băng khổng lồ."
+    }
+  ],
+  "start_year": -500,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What are hailstones made of?",
+      "question_type": "single",
+      "options": ["Sand and dirt", "Frozen balls of ice", "Snowflakes pressed together", "Small rocks"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hạt mưa đá được tạo ra từ gì?",
+      "question_type": "single",
+      "options": ["Cát và đất", "Những viên băng đông cứng", "Bông tuyết ép lại", "Đá nhỏ"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How do hailstones grow inside a thundercloud?",
+      "question_type": "single",
+      "options": ["They start as raindrops that freeze suddenly", "They build up layers of ice like an onion", "They are blown in from cold mountains", "They form from snowflakes merging together"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hạt mưa đá lớn lên bên trong đám mây bão như thế nào?",
+      "question_type": "single",
+      "options": ["Chúng bắt đầu từ giọt mưa đóng băng đột ngột", "Chúng tích lũy các lớp băng như củ hành", "Chúng bị thổi đến từ những ngọn núi lạnh", "Chúng hình thành từ các bông tuyết hợp lại"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

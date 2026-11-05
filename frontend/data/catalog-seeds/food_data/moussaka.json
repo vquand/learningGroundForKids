@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 37.9838,
+  "longitude": 23.7275,
+  "country_code": "GR",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Layer sliced eggplant and seasoned ground meat in a baking dish. Pour a creamy white sauce on top. Bake in the oven until the top turns golden and bubbly!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Moussaka",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Moussaka",
+      "description": "Moussaka is a warm, layered dish made with eggplant, spiced meat, and a creamy sauce baked on top. It is like a Greek-style lasagna!",
+      "history": "Moussaka has been enjoyed in Greece for hundreds of years and is one of the country's most famous dishes. Families often make it together for big celebrations and Sunday meals."
+    },
+    {
+      "lang": "vi",
+      "title": "Moussaka",
+      "description": "Moussaka là món ăn nóng có nhiều lớp làm từ cà tím, thịt băm gia vị và sốt kem bện phía trên. Nó giống như một loại lasagna kiểu Hy Lạp!",
+      "history": "Moussaka đã được người Hy Lạp yêu thích từ hàng trăm năm trước và là một trong những món ăn nổi tiếng nhất của đất nước này. Các gia đình thường cùng nhau nấu món này vào những dịp đặc biệt."
+    }
+  ],
+  "start_year": 1300,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Moussaka most famous from?",
+      "question_type": "single",
+      "options": ["Turkey", "Italy", "Greece", "Lebanon"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Moussaka nổi tiếng nhất từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Thổ Nhĩ Kỳ", "Ý", "Hy Lạp", "Lebanon"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which vegetable is a key ingredient in Moussaka?",
+      "question_type": "single",
+      "options": ["Zucchini", "Eggplant", "Potato", "Peppers"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Loại rau củ nào là nguyên liệu chính trong Moussaka?",
+      "question_type": "single",
+      "options": ["Bí xanh", "Cà tím", "Khoai tây", "Ớt chuông"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

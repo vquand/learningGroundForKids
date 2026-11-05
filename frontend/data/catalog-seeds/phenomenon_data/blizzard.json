@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 45.5017,
+  "longitude": -73.5673,
+  "country_code": "CA",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "A blizzard can drop so much snow that cars and even entire houses get buried — only the chimneys stick out!",
+    "During a big blizzard in Canada, winds can blow snow so hard that you cannot see your hand in front of your face.",
+    "After a blizzard, people sometimes ski or snowshoe right out of their second-floor windows because the snow is that deep!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Blizzard",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Blizzard",
+      "description": "A blizzard is a very powerful snowstorm with howling winds and heavy snow that can make the world turn completely white.",
+      "history": "Canada experiences some of the world's most intense blizzards, sometimes burying the city of Montreal under metres of snow and shutting everything down for days."
+    },
+    {
+      "lang": "vi",
+      "title": "Bão Tuyết",
+      "description": "Bão tuyết là một cơn bão rất mạnh với gió gào thét và tuyết rơi dày đặc, có thể khiến mọi thứ biến thành màu trắng hoàn toàn.",
+      "history": "Canada là nơi xảy ra những cơn bão tuyết dữ dội nhất thế giới, đôi khi vùi lấp cả thành phố Montreal dưới nhiều mét tuyết và đình chỉ mọi hoạt động trong nhiều ngày."
+    }
+  ],
+  "start_year": 1800,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What makes a blizzard different from regular snow?",
+      "question_type": "single",
+      "options": ["It is warm", "It has howling winds and very heavy snow", "It only happens at night", "It makes colourful lights"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Điều gì làm cho bão tuyết khác với tuyết bình thường?",
+      "question_type": "single",
+      "options": ["Nó ấm áp", "Nó có gió gào thét và tuyết rất dày", "Nó chỉ xảy ra vào ban đêm", "Nó tạo ra ánh sáng màu sắc"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which country is famous for intense blizzards?",
+      "question_type": "single",
+      "options": ["Brazil", "Canada", "Egypt", "Vietnam"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Quốc gia nào nổi tiếng với những cơn bão tuyết dữ dội?",
+      "question_type": "single",
+      "options": ["Brazil", "Canada", "Ai Cập", "Việt Nam"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": -13.1631,
+  "longitude": -72.545,
+  "country_code": "PE",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Cusco Region, Urubamba Province, Peru",
+  "fun_facts": [
+    "Machu Picchu sits so high up in the Andes Mountains — 2,430 meters above sea level — that it is often called the 'Lost City in the Clouds'!",
+    "The Inca people built Machu Picchu without using any wheels, iron tools, or mortar — the stones fit together so perfectly that not even a piece of paper can slide between them.",
+    "Machu Picchu was hidden from the outside world for hundreds of years until an American explorer named Hiram Bingham rediscovered it in 1911."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Machu Picchu",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Machu Picchu",
+      "description": "Machu Picchu is an ancient Inca city perched high in the Andes Mountains of Peru, surrounded by misty green peaks and deep valleys. It is one of the most amazing archaeological sites in the world.",
+      "history": "Built by the Inca emperor Pachacuti around 1450 AD, Machu Picchu was a royal retreat and sacred religious site. It was abandoned about 100 years later and remained unknown to the outside world until 1911."
+    },
+    {
+      "lang": "vi",
+      "title": "Machu Picchu",
+      "description": "Machu Picchu là một thành phố Inca cổ đại nằm trên cao ở dãy núi Andes của Peru, bao quanh bởi những đỉnh núi xanh mờ sương và những thung lũng sâu. Đây là một trong những di chỉ khảo cổ học tuyệt vời nhất thế giới.",
+      "history": "Được xây dựng bởi hoàng đế Inca Pachacuti vào khoảng năm 1450 sau Công nguyên, Machu Picchu là nơi nghỉ dưỡng hoàng gia và thánh địa tôn giáo. Nó bị bỏ hoang khoảng 100 năm sau và vẫn còn ẩn đây với thế giới bên ngoài cho đến năm 1911."
+    }
+  ],
+  "start_year": 1450,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Machu Picchu located?",
+      "question_type": "single",
+      "options": ["Bolivia", "Ecuador", "Peru", "Chile"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Machu Picchu nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Bolivia", "Ecuador", "Peru", "Chile"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which ancient civilization built Machu Picchu?",
+      "question_type": "single",
+      "options": ["Aztec", "Maya", "Inca", "Olmec"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Nền văn minh cổ đại nào đã xây dựng Machu Picchu?",
+      "question_type": "single",
+      "options": ["Aztec", "Maya", "Inca", "Olmec"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

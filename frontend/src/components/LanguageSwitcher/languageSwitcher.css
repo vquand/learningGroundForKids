@@ -1,0 +1,14 @@
+/* A shared navigation slot, including routes with their own game header. */
+.ui-language { position: fixed; top: max(8px, env(safe-area-inset-top)); right: max(12px, env(safe-area-inset-right)); z-index: 1100; }
+.ui-language button { cursor: pointer; touch-action: manipulation; border: 1px solid #d8dfd0; border-radius: 16px; background: #fffdf5; color: #354b45; }
+.ui-language button:focus-visible { outline: 3px solid #397367; outline-offset: 2px; }
+.ui-language__trigger { display: grid; place-items: center; width: 48px; height: 48px; padding: 2px; }
+.ui-language__ball { width: 40px; height: 40px; flex: none; display: block; background: url('/minigames/math-quiz-wall/country-balls-v2.png') no-repeat; background-size: 200% 100%; }
+.ui-language__ball.en { background-position: left; }
+.ui-language__ball.vi { background-position: right; }
+.ui-language__popup { position: absolute; right: 0; top: 56px; display: flex; gap: 8px; padding: 12px; background: #fffdf5; border: 1px solid #d8dfd0; border-radius: 20px; box-shadow: 0 8px 24px #354b4526; }
+.ui-language__popup button { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 8px; min-width: 88px; min-height: 80px; font-size: 14px; }
+.ui-language__popup button[aria-pressed=true] { background: #e6f0da; border-color: #7ea16e; }
+/* Reserve the same right hand slot in every existing navigation bar. */
+:is(.ufo-nav, .math-nav, .miniku-nav, .town-header, .drill-header, .infinidrill-header, .cooking-nav, .burger-nav, .food-nav) { padding-right: 64px; box-sizing: border-box; min-height: 48px; }
+:is(.miniku-topbar, .math-topbar, .infinidrill-topbar, .cooking-header, .burger-header, .food-drink-header) { padding-right: 64px; box-sizing: border-box; }

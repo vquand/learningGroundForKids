@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 37.9715,
+  "longitude": 23.7257,
+  "country_code": "GR",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Acropolis Hill, Athens 105 58, Greece",
+  "fun_facts": [
+    "The Parthenon's columns are not perfectly straight — they lean inward very slightly so that from far away they look perfectly straight to our eyes!",
+    "A giant gold and ivory statue of the goddess Athena once stood inside the Parthenon, so tall her helmet nearly touched the ceiling.",
+    "The Acropolis sits on a flat-topped hill 156 meters above the city, and on a clear day you can see the sea from the top!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Acropolis of Athens",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Acropolis of Athens",
+      "description": "An ancient citadel perched on a rocky hilltop above Athens, Greece, containing the remains of several historically important buildings, most famously the Parthenon temple.",
+      "history": "Most of the buildings on the Acropolis were constructed in the 5th century BC during the Golden Age of Athens under the leadership of the statesman Pericles."
+    },
+    {
+      "lang": "vi",
+      "title": "Thành cổ Acropolis ở Athens",
+      "description": "Một thành trì cổ đại tọa lạc trên đỉnh núi đá cao ở Athens, Hy Lạp, chứa các phế tích của nhiều công trình quan trọng về lịch sử, nổi tiếng nhất là đền Parthenon.",
+      "history": "Phần lớn các công trình trên Acropolis được xây dựng vào thế kỷ 5 trước Công nguyên trong Thời kỳ Hoàng kim của Athens dưới sự lãnh đạo của chính khách Pericles."
+    }
+  ],
+  "start_year": -447,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is the Acropolis of Athens located?",
+      "question_type": "single",
+      "options": ["Italy", "Turkey", "Greece", "Egypt"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Thành cổ Acropolis nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Ý", "Thổ Nhĩ Kỳ", "Hy Lạp", "Ai Cập"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is the most famous temple on the Acropolis called?",
+      "question_type": "single",
+      "options": ["Pantheon", "Colosseum", "Parthenon", "Olympeion"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Ngôi đền nổi tiếng nhất trên Acropolis được gọi là gì?",
+      "question_type": "single",
+      "options": ["Pantheon", "Colosseum", "Parthenon", "Olympeion"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

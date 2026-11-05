@@ -1,0 +1,41 @@
+.friend-dialog-overlay { position: fixed; inset: 0; z-index: 50; display: flex; align-items: center; justify-content: center; padding: max(12px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) max(12px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left)); background: #0008; }
+.friend-dialog { width: min(760px, 100%); max-height: calc(100dvh - 24px); display: flex; flex-direction: column; gap: 12px; padding: 18px; box-sizing: border-box; overflow: hidden; border-radius: 24px; background: white; color: #253549; box-shadow: 0 20px 60px #0003; }
+.friend-dialog-header, .friend-dialog-footer { flex-shrink: 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.friend-dialog-header h2 { margin: 0; font-size: 22px; font-weight: 800; }
+.friend-dialog button, .friend-dialog input, .friend-dialog select { font: inherit; min-height: 44px; border: 1px solid #d9e3ea; border-radius: 12px; padding: 8px 12px; }
+.friend-dialog button { cursor: pointer; font-weight: 700; background: #f3f6f8; }
+.friend-dialog button:disabled { opacity: .5; cursor: default; }
+.friend-dialog button:focus-visible, .friend-dialog input:focus-visible, .friend-dialog select:focus-visible { outline: 3px solid #7d60ce; outline-offset: 2px; }
+.friend-dialog-header button { width: 44px; padding: 0; font-size: 24px; }
+.friend-dialog-body { min-height: 0; overflow-y: auto; overscroll-behavior: contain; display: grid; grid-template-columns: 1fr 1.1fr; gap: 16px; }
+.friend-dialog-scopes, .friend-dialog-details { min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+.friend-dialog-section { padding: 12px; border-radius: 16px; background: #f1f7fb; }
+.friend-dialog-section h3 { margin: 0 0 8px; font-size: 14px; font-weight: 750; }
+.friend-scope-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.friend-scope-choices button[aria-pressed=true] { background: white; border: 2px solid #4696be; }
+.friend-profile-select { display: block; margin-top: 8px; }
+.friend-profile-select select { width: 100%; background: white; }
+.friend-dialog-note { margin: 0; font-size: 12px; color: #64748b; }
+.friend-quiz { background: #f0f8ef; }
+.friend-quiz-header, .friend-quiz-check { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.friend-quiz-header h3 { margin: 0; }
+.friend-quiz-header button { font-size: 12px; }
+.friend-quiz-questions { display: grid; gap: 6px; margin: 8px 0; }
+.friend-quiz-questions label { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-weight: 700; }
+.friend-quiz-questions input { width: 80px; min-width: 0; background: white; text-align: center; }
+.friend-quiz-check button { background: #288369; color: white; }
+.friend-quiz-check span { color: #287851; font-size: 13px; }
+.friend-code-label { display: grid; gap: 4px; font-size: 14px; font-weight: 700; }
+.friend-code-label input { width: 100%; text-transform: uppercase; background: #faf8ff; letter-spacing: .12em; }
+.friend-dialog-error { margin: 0; font-size: 13px; color: #a83145; }
+.friend-dialog-footer { justify-content: flex-end; border-top: 1px solid #e4eaf0; padding-top: 10px; }
+.friend-dialog-footer button:last-child { background: #7751b9; color: white; }
+@media (max-width: 540px) {
+  .friend-dialog { padding: 14px; }
+  .friend-dialog-body { grid-template-columns: 1fr; gap: 10px; }
+  .friend-dialog-scopes { gap: 8px; }
+  .friend-dialog-footer button { flex: 1; }
+}
+/* Leave room for input borders/focus rings inside the scrollable content. */
+.friend-dialog-body { padding: 8px; }
+@media (min-width: 541px) { .friend-dialog { padding: 24px; } }

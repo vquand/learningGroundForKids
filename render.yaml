@@ -1,0 +1,47 @@
+services:
+  - type: web
+    name: personal-learning-ground-api
+    runtime: node
+    rootDir: .
+    plan: free
+    buildCommand: npm ci --prefix server && npm run build --prefix server
+    startCommand: npm start --prefix server
+    healthCheckPath: /api/v1/health/ready
+    autoDeployTrigger: checksPass
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false
+      - key: DATABASE_URL_UNPOOLED
+        sync: false
+      - key: ROOT_FALLBACK_PASSWORD
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: ALLOWED_FORWARDED_HOSTS
+        sync: false
+      - key: TRUST_PROXY_HEADERS
+        value: "true"
+      - key: SESSION_COOKIE_NAME
+        value: plg_session
+      - key: SESSION_MAX_AGE_SECONDS
+        value: "604800"
+      - key: AUTH_RATE_LIMIT_MAX_KEYS
+        value: "10000"
+      - key: MAX_MEDIA_BYTES
+        value: "26214400"
+      - key: ALLOW_REGISTRATION
+        value: "false"
+      - key: S3_ENDPOINT
+        sync: false
+      - key: S3_REGION
+        sync: false
+      - key: S3_BUCKET
+        sync: false
+      - key: S3_ACCESS_KEY_ID
+        sync: false
+      - key: S3_SECRET_ACCESS_KEY
+        sync: false
+      - key: S3_FORCE_PATH_STYLE
+        value: "true"

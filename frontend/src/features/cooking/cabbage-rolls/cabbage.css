@@ -1,0 +1,257 @@
+.cr-page { --kid-page-inset:16px; height:100dvh; box-sizing:border-box; padding:0 16px 16px; display:flex; flex-direction:column; gap:12px; background:#f5efdf; color:#574435; font-family:'Nunito',sans-serif; }
+.cr-page * { box-sizing:border-box; }
+.cr-header { display:flex; }
+.cr-header h1 { flex:1; min-width:0; margin:0; font-size:clamp(18px,2vw,26px); line-height:1.15; }
+.cr-header .town-reward-bar { flex:0 0 auto; white-space:nowrap; }
+.cr-sync-error { flex:0 0 auto; display:flex; align-items:center; justify-content:center; gap:10px; min-height:44px; padding:6px 12px; border:2px solid #c98670; border-radius:14px; background:#fff4ed; font-weight:800; }
+.cr-sync-error button { min-height:44px; padding:6px 14px; border:2px solid #9f6b57; border-radius:12px; background:#fffaf0; color:inherit; font:inherit; }
+.cr-progress ol { margin:0; padding:0; list-style:none; display:flex; gap:8px; }
+.cr-progress li { flex:1; display:flex; align-items:center; justify-content:center; gap:8px; padding:9px 4px; border-radius:14px; background:#e8e4d4; font-size:17px; font-weight:800; }
+.cr-progress b { width:26px; height:26px; display:grid; place-items:center; border-radius:50%; background:#fffaf0; }
+.cr-progress [aria-current=step] { background:#cdddbb; outline:2px solid #749263; }
+.cr-workspace { flex:1; min-height:0; display:grid; grid-template-columns:minmax(0,1.35fr) minmax(340px,1fr); gap:16px; }
+.cr-scene,.cr-controls { min-width:0; min-height:0; border:2px solid #d9c4ac; border-radius:26px; padding:20px; background:#fffaf0; }
+.cr-scene { display:flex; flex-direction:column; align-items:center; background:radial-gradient(ellipse at 50% 40%,#fffdf6,#ebe6cd); overflow:hidden; }
+.cr-scene-note { font-size:15px; font-weight:800; color:#7d765e; }
+.cr-scene-art { flex:1; width:100%; min-height:0; display:grid; place-items:center; position:relative; }
+.cr-scene-caption { flex-shrink:0; text-align:center; margin:8px 0 0; font-size:16px; }
+.cr-sprite { display:block; background-repeat:no-repeat; aspect-ratio:1; width:100%; pointer-events:none; }
+.cr-sprite--preparation { aspect-ratio:1295 / 1214; }
+.cr-sprite--folding { aspect-ratio:1; }
+.cr-meal,.cr-main-art { width:min(100%,460px); max-height:100%; aspect-ratio:1; height:auto; }
+.cr-controls { display:flex; flex-direction:column; padding:24px; }
+.cr-controls h2 { margin:0 0 12px; font-size:clamp(25px,3dvh,32px); line-height:1.2; }
+.cr-controls h3 { font-size:24px; margin:8px 0; }
+.cr-hint { font-size:18px; line-height:1.45; margin:0 0 20px; }
+.cr-actions { display:flex; flex-direction:column; gap:14px; flex:1; justify-content:center; min-height:0; }
+.cr-actions p { margin:0; font-size:17px; line-height:1.4; }
+.cr-feedback { min-height:44px; font-size:16px; font-weight:800; color:#97543e; margin:12px 0 0; }
+.cr-page button { cursor:pointer; touch-action:manipulation; }
+.cr-page button:disabled { cursor:default; opacity:.45; }
+.cr-page button:focus-visible { outline:3px solid #3e6146; outline-offset:3px; }
+.cr-choices { display:flex; flex-wrap:wrap; gap:8px; }
+.cr-choices > button { flex:1; padding-inline:10px; }
+.cr-page button[aria-pressed=true] { background:#d4e3c5; border-color:#4f7357; }
+.cr-recipe-list { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; text-align:center; font-weight:800; }
+.cr-recipe-list .cr-sprite { height:65px; width:auto; }
+.cr-chopping { position:relative; width:100%; height:100%; max-height:420px; }
+.cr-board { position:absolute; width:90%; left:5%; bottom:8%; }
+.cr-chop-food { position:absolute; width:45%; left:26%; bottom:20%; }
+.cr-knife { position:absolute; width:40%; top:4%; transform:rotate(-15deg); }
+.cr-knife--chop { animation:cr-chop .35s ease-out; }
+@keyframes cr-chop { 50% { transform:translateY(65px) rotate(-25deg); } }
+.cr-bowl-drop,.cr-wheel { position:relative; width:min(85%,380px); aspect-ratio:1; max-height:100%; }
+.cr-bowl { position:absolute; width:90%; left:5%; top:18%; }
+.cr-added { position:absolute; width:27%; top:39%; left:28%; }
+.cr-added--1 { left:48%; }.cr-added--2 { left:37%; top:30%; }.cr-added--3 { left:39%; top:49%; }
+.cr-season-spark { position:absolute; top:25%; left:36%; color:#a56d32; font-size:36px; }
+.cr-ingredients { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.cr-ingredient { border:2px solid #d9c4ac; border-radius:16px; background:#f8f0e0; min-height:110px; display:flex; flex-direction:column; align-items:center; font:800 18px 'Nunito',sans-serif; color:inherit; padding:8px; touch-action:none !important; }
+.cr-ingredient .cr-sprite { width:85px; translate:var(--drag-x,0px) var(--drag-y,0px); position:relative; z-index:5; }
+.cr-ingredient-added { display:grid; place-items:center; min-height:110px; background:#e3ebd5; border-radius:16px; font-size:18px; }
+.cr-seasonings { display:flex; flex-wrap:wrap; gap:10px; }
+.cr-wheel { border:15px solid #ccb28a; border-radius:50%; box-shadow:inset 0 0 0 3px #9b7c58,0 0 0 3px #9b7c58; touch-action:none; }
+.cr-wheel .cr-bowl { top:20%; }
+.cr-wheel-handle { position:absolute; width:52px; height:52px; border:3px solid #725336; background:#f0ce93; border-radius:50%; transform:translate(-50%,-50%); touch-action:none !important; box-shadow:0 4px 0 #b29970; }
+.cr-spoon-orbit { position:absolute; inset:20%; pointer-events:none; }
+.cr-spoon-orbit .cr-sprite { width:80%; position:absolute; top:-12%; left:24%; transform:rotate(-35deg); }
+.cr-blending { position:absolute; inset:33% 25% 28%; border:10px dotted #d39d6b; border-radius:50%; pointer-events:none; }
+.cr-page progress { width:100%; height:22px; accent-color:#64834f; }
+.cr-pot-scene { position:relative; width:100%; height:100%; max-height:450px; }
+.cr-pot { position:absolute; width:82%; bottom:5%; left:9%; }
+.cr-lid { position:absolute; width:70%; left:15%; bottom:32%; opacity:.94; }
+.cr-fridge { position:absolute; left:0; top:0; width:26%; }
+.cr-pot-roll { position:absolute; width:25%; bottom:33%; }
+.cr-pot-scene--active .cr-lid { animation:cr-simmer 1.5s ease-in-out infinite; }
+@keyframes cr-simmer { 50% { transform:translateY(-5px) rotate(1deg); } }
+.cr-steam { position:absolute; width:60%; height:55%; left:20%; top:1%; pointer-events:none; }
+.cr-steam i { position:absolute; bottom:0; left:15%; width:13%; height:65%; border-left:10px solid #fffdf0; border-radius:50%; filter:blur(3px); opacity:0; animation:cr-steam 2.6s infinite; }
+.cr-steam i:nth-child(2) { left:45%; animation-delay:.8s; }.cr-steam i:nth-child(3) { left:75%; animation-delay:1.5s; }
+@keyframes cr-steam { 30% { opacity:.8; } 100% { transform:translateY(-45px); opacity:0; } }
+.cr-bubbles { position:absolute; bottom:31%; left:26%; width:48%; height:15%; }
+.cr-bubbles i { position:absolute; width:12px; height:12px; border:2px solid #efb285; border-radius:50%; animation:cr-bubble 1s infinite; }
+.cr-bubbles i:nth-child(2) { left:45%; animation-delay:.35s; }.cr-bubbles i:nth-child(3) { left:80%; animation-delay:.7s; }
+@keyframes cr-bubble { to { transform:translateY(-14px) scale(1.5); opacity:0; } }
+.cr-fold-canvas { position:relative; height:min(100%,440px); aspect-ratio:1; max-width:100%; touch-action:none; }
+.cr-leaf { width:100%; height:100%; }
+.cr-fold-handle { position:absolute; width:68px; height:68px; border:2px dashed #5f7649; background:#fff8dcdb; color:#4d6337; border-radius:50%; display:flex; flex-direction:column; align-items:center; justify-content:center; touch-action:none !important; z-index:2; }
+.cr-fold-handle span { font-size:27px; line-height:1; }.cr-fold-handle small { font-size:12px; font-weight:800; }
+.cr-fold-handle--bottom { left:calc(50% - 34px); bottom:3%; }.cr-fold-handle--left { left:2%; top:47%; }.cr-fold-handle--right { right:2%; top:47%; }.cr-fold-handle--close { left:calc(50% - 34px); top:4%; }
+.cr-tray { display:flex; gap:8px; padding:10px; background:#e2d2b4; border:2px solid #c6af89; border-radius:18px; }
+.cr-tray > div { flex:1; aspect-ratio:1.5; display:grid; place-items:center; border:2px dashed #b7a283; border-radius:12px; min-width:0; }
+.cr-tray .cr-sprite { height:65px; width:65px; }.cr-tray span:not(.cr-sprite) { font-size:20px; opacity:.6; }
+.cr-portion-target { display:flex; align-items:center; gap:10px; font-size:17px; font-weight:800; }.cr-portion-target .cr-sprite { width:72px; flex-shrink:0; }
+.cr-keyboard-note { color:#7b735f; font-size:15px !important; }
+.cr-timing { width:100%; flex-shrink:0; padding:20px 0 0; }
+.cr-timing-track { position:relative; display:flex; height:32px; border:3px solid #66513b; border-radius:10px; }
+.cr-zone--raw { width:50%; background:#d7cca9; border-radius:6px 0 0 6px; }.cr-zone--okay { width:10%; background:#edc66f; }.cr-zone--perfect { width:20%; background:#7eac68; }.cr-zone--burnt { width:10%; background:#9c7162; border-radius:0 6px 6px 0; }
+.cr-pointer { position:absolute; top:-12px; width:7px; height:50px; background:#fffdf5; border:2px solid #4f4739; border-radius:4px; transform:translateX(-50%); box-shadow:0 1px 4px #0004; }
+.cr-outcome--perfect { color:#4f7357; }.cr-outcome--burnt { color:#966453; }
+.cr-pause-scrim { position:fixed; inset:0; z-index:50; background:#57443566; display:grid; place-items:center; }
+.cr-pause { background:#fffaf0; border:3px solid #d9c4ac; border-radius:26px; padding:32px; width:min(90vw,440px); display:flex; flex-direction:column; gap:16px; text-align:center; }
+.cr-pause h2,.cr-pause p { margin:0; }
+.cooking-meal-card__art > .cr-sprite--meals { width:auto; height:100%; max-height:100%; aspect-ratio:1; }
+@media (max-height:720px) { .cr-page { gap:8px; padding-bottom:10px; }.cr-controls,.cr-scene { padding:16px; }.cr-hint { margin-bottom:10px; font-size:17px; }.cr-actions { gap:10px; }.cr-feedback { margin-top:6px; min-height:38px; }.cr-controls h2 { font-size:25px; }.cr-ingredient,.cr-ingredient-added { min-height:95px; }.cr-ingredient .cr-sprite { width:65px; } }
+@media (max-width:850px) { .cr-header h1 { font-size:17px; }.cr-header .kid-nav-action { padding:0 8px; font-size:14px; }.cr-workspace { grid-template-columns:minmax(0,1fr) minmax(280px,1fr); gap:8px; }.cr-controls,.cr-scene { padding:12px; }.cr-progress li { font-size:13px; gap:4px; }.cr-hint { font-size:16px; }.cr-choices > button { font-size:14px; }.cr-header .kid-back { font-size:14px; padding:0 8px; } }
+@media (prefers-reduced-motion:reduce) { .cr-page *, .cr-page *::before,.cr-page *::after { animation:none !important; transition:none !important; }.cr-steam i { opacity:.5; } }
+/* Fit the actual artwork to both available dimensions, including short screens. */
+.cr-scene-art { container-type:size; }
+.cr-pot-scene,.cr-chopping { width:min(100cqw,100cqh); height:min(100cqw,100cqh); }
+.cr-chopping { width:min(100cqw,100cqh,420px); height:min(100cqw,100cqh,420px); max-height:none; }
+.cr-fold-canvas { width:min(100cqw,100cqh,440px); height:min(100cqw,100cqh,440px); }
+.cr-meal,.cr-main-art { width:min(100cqw,100cqh,460px); }
+.cr-bowl-drop,.cr-wheel { width:min(85cqw,85cqh,380px); }
+.cr-chopping .cr-board { bottom:6%; }
+.cr-chopping .cr-chop-food { bottom:20%; }
+.cr-chopping .cr-knife { top:10%; }
+.cr-pot-scene .cr-lid { bottom:36%; }
+.cr-steamer-leaf { position:absolute; width:30%; bottom:30%; aspect-ratio:1; }
+.cr-steamer-leaf .cr-sprite { position:absolute; inset:0; }
+.cr-lid--ready { translate:0 -60%; opacity:.4; }
+.cr-ladle { position:absolute; width:42%; right:8%; top:0; animation:cr-ladle 1s ease-in-out; }
+@keyframes cr-ladle { 0% { rotate:-25deg; translate:0 -20%; opacity:0; } 30% { opacity:1; } 80% { rotate:15deg; } 100% { opacity:0; } }
+.cr-portion-spoon { position:relative; width:84px; height:78px; flex-shrink:0; }
+.cr-portion-spoon > .cr-sprite { width:84px; }
+.cr-portion-spoon > .cr-spoon-filling { position:absolute; width:40px; bottom:5px; left:10px; rotate:30deg; }
+.cr-small-filling { position:absolute; width:24%; left:38%; bottom:23%; }
+.cr-leaf--folded { animation:cr-fold .3s ease-out; }
+@keyframes cr-fold { from { transform:scale(.96,1.02); } to { transform:scale(1); } }
+.cr-pot-scene .cr-ladle { width:36%; right:14%; top:15%; }
+/* Each sprite is a clipped view of its measured source rectangle. */
+.cr-sprite { overflow:hidden; flex-shrink:0; }
+.cr-chopping .cr-board { width:94%; height:auto; left:3%; top:18%; bottom:auto; }
+.cr-chopping .cr-chop-food { width:35%; height:31%; left:32.5%; top:33.9%; bottom:auto; }
+.cr-chopping .cr-knife { width:26%; height:48%; left:50%; top:15%; transform:rotate(25deg); transform-origin:50% 75%; }
+@keyframes cr-chop { 50% { transform:translateY(22px) rotate(17deg); } }
+.cr-onion-peel { position:absolute; width:27%; height:25%; left:43%; bottom:30%; animation:cr-peel .65s ease-in forwards; }
+@keyframes cr-peel { to { translate:90px 15px; rotate:35deg; opacity:0; } }
+.cr-chop-timing { width:90%; flex-shrink:0; padding-top:14px; }
+.cr-chop-track { height:44px; position:relative; border:3px solid #66513b; border-radius:12px; background:#edd3a5; }
+.cr-chop-band { position:absolute; top:0; height:100%; display:grid; place-items:center; }
+.cr-chop-band--target { background:#a4cb85; color:#35503b; }
+.cr-chop-band--hit { background:#54754c; color:#fff8ea; }
+.cr-chop-band b { font-size:24px; }
+.cr-chop-track .cr-pointer { top:-10px; height:58px; }
+.cr-chop-timing p { text-align:center; font-size:16px; font-weight:800; margin:12px 0 0; }
+.cr-knife-safety { margin:6px 0 0; padding:7px 14px; border:2px solid #d6ae78; border-radius:12px; background:#fff0cf; color:#694c35; font-size:14px; font-weight:900; line-height:1.2; text-align:center; }
+.cr-ingredient { position:relative; }
+.cr-ingredient .cr-sprite { overflow:hidden; }
+.cr-ingredient:active { background:#e4edd8; }
+.cr-recipe-list .cr-sprite { width:100%; height:65px; }
+.cr-recipe-list > div { min-width:0; }
+/* Actions stay beside the timing cue; the knife itself is the chop control. */
+fieldset.cr-actions { border:0; margin:0; padding:0; min-width:0; }
+.cr-chop-row { display:flex; align-items:center; gap:12px; }
+.cr-chop-track { flex:1; min-width:0; }
+/* The target sits over the illustrated wooden handle, away from the blade. */
+.cr-knife-tool { position:absolute; width:62%; aspect-ratio:304 / 187; left:30%; top:7%; transform:rotate(25deg); }
+.cr-chopping .cr-knife { width:100%; height:100%; left:0; top:0; transform:none; }
+.cr-knife-handle { position:absolute; left:55%; top:0; width:45%; height:65%; min-width:44px; min-height:44px; border:3px dashed #55754c; border-radius:24px; background:transparent; }
+.cr-knife-handle span { position:absolute; right:10%; bottom:-25%; color:#35503b; font-size:32px; line-height:1; transform:rotate(-25deg); }
+.cr-page .cr-knife-handle:disabled { opacity:.55; }
+.cr-knife-handle:enabled:active { background:#ffedaf55; }
+@keyframes cr-chop { 50% { transform:translateY(22px) rotate(-8deg); } }
+/* Shared vessel projection: contents sit inside the opening and behind the front. */
+.cr-vessel-stage { position:relative; width:min(94cqw,94cqh,440px); height:min(94cqw,94cqh,440px); aspect-ratio:1; }
+.cr-vessel-bowl { position:absolute; left:5%; top:30%; width:90%; height:auto; }
+.cr-bowl-front { clip-path:polygon(0 40%,100% 40%,100% 100%,0 100%); }
+.cr-bowl-interior { position:absolute; inset:0; clip-path:ellipse(39% 11% at 50% 43%); }
+.cr-filling-pile { position:absolute; width:27%; height:18%; }
+.cr-falling-ingredient { position:absolute; width:25%; height:18%; }
+.cr-season-pour,.cr-season-particles { position:absolute; inset:0; pointer-events:none; }
+.cr-season-tool { position:absolute; width:24%; height:29%; left:45%; top:5%; transform-origin:30% 80%; }
+.cr-season-particles { clip-path:polygon(0 0,100% 0,100% 49%,0 49%); }
+.cr-season-particles i { position:absolute; width:5px; height:5px; border-radius:50%; border:1px solid #9b7c58; }
+.cr-season-particles--soy i { width:4px; height:20px; border:0; }
+.cr-wheel { border:0; box-shadow:none; border-radius:0; touch-action:none; }
+.cr-stir-guide { position:absolute; left:23%; top:34%; width:54%; height:18%; border:2px dashed #a17b4d; border-radius:50%; opacity:.7; }
+.cr-stir-spoon { position:absolute; width:24%; height:36%; transform:translate(-50%,-86%) rotate(-35deg); transform-origin:50% 86%; }
+.cr-stir-control { position:absolute; left:12%; top:25%; width:76%; height:34%; background:transparent; border:0; border-radius:50%; touch-action:none !important; }
+.cr-rest-bowl { position:absolute; inset:0; transform-origin:50% 50%; }
+.cr-plastic-wrap { position:absolute; left:10%; width:80%; height:23%; border:2px solid rgba(112,148,146,.72); border-radius:50%; background:linear-gradient(160deg,transparent 10%,rgba(255,255,255,.78) 15%,rgba(255,255,255,.12) 23%,transparent 31%,transparent 52%,rgba(255,255,255,.6) 59%,rgba(255,255,255,.08) 66%,transparent 73%),rgba(199,232,228,.28); box-shadow:inset 0 3px 0 rgba(255,255,255,.78),inset 0 -2px 0 rgba(106,143,141,.22),0 2px 0 rgba(88,65,47,.12); overflow:hidden; transform-origin:50% 50%; }
+.cr-plastic-wrap::before,.cr-plastic-wrap::after,.cr-plastic-wrap i { content:""; position:absolute; height:3px; border-radius:50%; background:rgba(108,151,148,.5); transform-origin:left center; }
+.cr-plastic-wrap::before { left:15%; top:32%; width:31%; rotate:9deg; }
+.cr-plastic-wrap::after { right:10%; top:57%; width:29%; rotate:-8deg; }
+.cr-plastic-wrap i:nth-child(1) { left:34%; top:18%; width:39%; rotate:-5deg; }
+.cr-plastic-wrap i:nth-child(2) { left:10%; top:69%; width:36%; rotate:-7deg; }
+.cr-plastic-wrap i:nth-child(3) { left:56%; top:76%; width:24%; rotate:7deg; }
+.cr-rest-fridge { position:absolute; left:16%; top:5%; width:80%; height:85%; }
+.cr-retrieve-bowl { z-index:1; }
+.cr-layered-pot { position:absolute; inset:0; }
+.cr-pot-body { position:absolute; left:5%; top:38%; width:90%; height:auto; }
+.cr-pot-front { clip-path:polygon(0 53%,100% 53%,100% 100%,0 100%); }
+.cr-pot-interior { position:absolute; inset:0; clip-path:ellipse(34% 12% at 50% 51%); }
+.cr-inside-roll { position:absolute; top:46%; width:19%; height:18%; }
+.cr-whole-cabbage { position:absolute; left:28%; width:44%; height:42%; }
+.cr-matched-lid { position:absolute; left:16%; width:68%; height:auto; }
+.cr-layered-pot--active .cr-matched-lid { animation:cr-simmer 1.5s ease-in-out infinite; }
+.cr-layered-pot .cr-steam { top:2%; height:43%; }
+.cr-tomato-surface { position:absolute; left:17%; top:41%; width:66%; height:23%; border-radius:50%; background:#c86341; box-shadow:inset 0 4px 0 #a7482e; }
+.cr-placing-tongs { position:absolute; width:25%; height:36%; }
+.cr-pouring-ladle { position:absolute; width:23%; height:38%; left:54%; top:5%; transform-origin:50% 80%; }
+.cr-sauce-stream { position:absolute; left:60%; top:34%; width:4%; height:17%; border-radius:50%; background:#b54c2e; }
+.cr-serving-pot { position:absolute; left:0; top:4%; width:58%; height:58%; }
+.cr-serving-plate { position:absolute; left:40%; top:63%; width:60%; height:30%; }
+.cr-plated-roll { position:absolute; top:68%; width:17%; height:15%; }
+.cr-transfer-tongs { position:absolute; width:20%; height:30%; }
+.cr-serving-ladle { position:absolute; width:20%; height:32%; transform-origin:50% 80%; }
+.cr-serving-sauce { position:absolute; left:69%; top:54%; width:2%; border-radius:50%; background:#b54c2e; }
+.cr-finished-serving { position:absolute; left:40%; top:59%; width:60%; height:36%; display:grid; place-items:center; }
+.cr-finished-serving .cr-meal { width:100%; height:100%; }
+/* The leaf is one direct manipulation surface; guide marks belong to the board. */
+.cr-fold-board { position:absolute; width:100%; height:auto; left:0; top:16.667%; }
+.cr-board-guides { position:absolute; inset:0; width:100%; height:100%; color:#805126; opacity:.75; pointer-events:none; }
+.cr-leaf-touch { position:absolute; left:17%; top:17%; width:66%; height:66%; border:0; background:transparent; padding:0; touch-action:none !important; }
+.cr-page .cr-leaf-touch:disabled { opacity:1; cursor:default; }
+.cr-leaf-touch .cr-leaf { width:100%; height:100%; }
+.cr-small-filling { width:18%; left:41%; bottom:34%; }
+@media (prefers-reduced-motion:reduce) { .cr-season-tool { rotate:0deg !important; }.cr-stir-spoon { transform:translate(-50%,-86%) rotate(-35deg); } }
+
+.cr-mixed-filling { position:absolute; width:76%; height:27%; left:12%; top:30%; }
+
+.cr-page[data-paused=true] * { animation-play-state:paused !important; }
+
+/* Phone layouts keep the current action and its artwork in the same viewport. */
+@media (max-width:600px) and (orientation:portrait) {
+  .cr-page { --kid-page-inset:8px; padding:0 8px max(8px,env(safe-area-inset-bottom)); gap:6px; }
+  .cr-header.kid-nav { display:grid; grid-template-columns:minmax(0,1fr) auto; grid-auto-rows:44px; height:auto; min-height:104px; gap:4px 8px; padding-block:6px; }
+  .cr-header .kid-back { grid-column:1 / -1; justify-self:start; }
+  .cr-header h1 { display:none; }
+  .cr-header .kid-nav-action { height:44px; min-height:44px; font-size:14px; padding-inline:8px; }
+  .cr-header .town-reward-bar { grid-column:1 / -1; grid-row:3; font-size:11px; }
+  .cr-header:has(.town-reward-bar) { grid-template-rows:44px 44px 20px; }
+  .cr-progress ol { gap:4px; }.cr-progress li { padding:4px 2px; gap:4px; font-size:12px; border-radius:8px; }
+  .cr-progress li span { display:none; }.cr-progress [aria-current=step] { flex:3; }.cr-progress [aria-current=step] span { display:inline; }
+  .cr-progress b { width:22px; height:22px; flex-shrink:0; }
+  .cr-workspace { grid-template-columns:minmax(0,1fr); grid-template-rows:minmax(100px,1fr) auto; gap:6px; }
+  .cr-scene,.cr-controls { border-radius:16px; padding:8px 10px; }
+  .cr-scene-note { display:none; }.cr-controls h2 { font-size:20px; margin-bottom:4px; }.cr-controls h3 { font-size:18px; margin:2px 0; }
+  .cr-hint { font-size:14px; line-height:1.25; margin-bottom:6px; }
+  .cr-actions { gap:6px; }.cr-actions p { font-size:14px; line-height:1.2; }
+  .cr-page .cooking-primary-button,.cr-page .kid-nav-action,.cr-page .kid-back { min-height:44px; font-size:14px; padding:6px 10px; }
+  .cr-feedback { font-size:13px; line-height:1.2; margin-top:4px; min-height:0; }
+  .cr-feedback:empty { display:none; }
+  .cr-recipe-list { gap:4px; font-size:12px; }.cr-recipe-list .cr-sprite { height:36px; }
+  .cr-knife-safety { margin:0; padding:4px 6px; font-size:11px; }
+  .cr-chop-timing { width:96%; padding-top:6px; }.cr-chop-track { height:30px; }.cr-chop-track .cr-pointer { height:42px; top:-8px; }
+  .cr-chop-timing p { font-size:12px; line-height:1.2; margin:7px 0 0; }.cr-chop-band b { font-size:18px; }
+  .cr-knife-tool { width:64%; left:24%; top:13%; }.cr-knife-handle span { font-size:24px; }
+  .cr-ingredients { gap:6px; }.cr-ingredient,.cr-ingredient-added { min-height:60px; font-size:14px; padding:4px; }.cr-ingredient .cr-sprite { width:40px; }
+  .cr-tray { padding:4px; gap:4px; }.cr-tray .cr-sprite { width:34px; height:34px; }
+  .cr-portion-target { font-size:14px; }.cr-portion-target .cr-sprite { width:44px; }.cr-keyboard-note { font-size:12px !important; }
+  .cr-seasonings { gap:6px; }.cr-choices > button { font-size:13px; }
+  .cr-pause { padding:18px; gap:10px; max-height:calc(100dvh - 24px); overflow-y:auto; }
+}
+@media (max-width:950px) and (max-height:500px) and (orientation:landscape) {
+  .cr-page { gap:4px; padding-bottom:6px; }
+  .cr-header h1 { display:none; }.cr-header .kid-nav-action,.cr-header .kid-back { font-size:13px; }
+  .cr-progress li { padding:3px; font-size:11px; }.cr-progress b { width:20px; height:20px; }
+  .cr-controls,.cr-scene { padding:8px; border-radius:14px; }.cr-controls h2 { font-size:18px; margin-bottom:4px; }.cr-controls h3 { font-size:16px; margin:2px 0; }
+  .cr-hint,.cr-actions p { font-size:13px; line-height:1.2; }.cr-hint { margin-bottom:4px; }.cr-actions { gap:4px; }.cr-feedback { min-height:0; font-size:12px; line-height:1.2; margin-top:4px; }
+  .cr-scene-note { display:none; }.cr-knife-safety { font-size:10px; padding:3px; margin:0; }.cr-chop-timing { padding-top:6px; }.cr-chop-timing p { font-size:11px; margin-top:7px; }
+  .cr-chop-track { height:28px; }.cr-chop-track .cr-pointer { top:-6px; height:36px; }
+  .cr-recipe-list .cr-sprite { height:32px; }.cr-recipe-list { font-size:12px; }
+  .cr-page .cooking-primary-button,.cr-page .kid-nav-action { min-height:44px; font-size:13px; padding:4px 8px; }
+  .cr-ingredient,.cr-ingredient-added { min-height:58px; font-size:13px; padding:3px; }.cr-ingredient .cr-sprite { width:32px; }
+  .cr-tray .cr-sprite { width:32px; height:32px; }.cr-portion-target .cr-sprite { width:36px; }.cr-portion-target { font-size:13px; }
+}

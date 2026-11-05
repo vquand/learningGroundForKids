@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 64.4167,
+  "longitude": -16.8,
+  "country_code": "IS",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Spanning much of southeast Iceland, Vatnajokull is the largest ice cap in Europe and covers several active volcanoes beneath its immense frozen surface.",
+  "fun_facts": [
+    "Vatnajokull is so enormous that it covers about 8 percent of the entire country of Iceland — imagine a blanket of ice as big as an entire country!",
+    "Underneath the glacier there are active volcanoes — sometimes they erupt and melt the ice from below, causing massive floods of water and ice to burst out suddenly.",
+    "The ice at the bottom of Vatnajokull is over 1,000 years old, which means it fell as snow when Vikings were still sailing the seas."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Vatnajokull Glacier",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Vatnajokull Glacier",
+      "description": "Vatnajokull is the largest ice cap in all of Europe, blanketing roughly 8 percent of Iceland under a sheet of ice that reaches up to 950 metres thick in places. Beneath its frozen surface lie several active volcanoes, creating an incredible geological drama where fire and ice exist side by side. The glacier's outlet tongues stretch down into stunning blue lagoons and black volcanic landscapes, making it one of the most otherworldly places on Earth.",
+      "history": "Iceland's volcanic landscape has been shaping and reshaping Vatnajokull for thousands of years, with eruptions periodically melting huge volumes of ice and releasing catastrophic glacial floods known locally as jokulhlaups. One of Iceland's most dramatic volcanic events in modern history occurred when the Grimsvotn volcano erupted beneath the ice in 1996, releasing a flood that swept away bridges and roads across southern Iceland within hours. Vatnajokull National Park was established in 2008, combining several older protected areas to form Iceland's largest national park, covering nearly 14 percent of the country."
+    },
+    {
+      "lang": "vi",
+      "title": "Sông Băng Vatnajokull",
+      "description": "Vatnajokull là mũi băng lớn nhất ở toàn bộ châu Âu, phủ lên khoảng 8 phần trăm Iceland dưới một tầng băng dày đến 950 mét ở nhiều nơi. Bên dưới bề mặt đông giá có nhiều núi lửa đang hoạt động, tạo ra một màn kịch tính thần kỳ về mặt địa chất nơi lửa và băng tồn tại cạnh nhau. Những nhánh sông băng trải dài xuống những đầm phá xanh tuyệt đẹp và cảnh quan núi lửa đen bóng, biến nơi này thành một trong những địa điểm khác lạ nhất trên Trái Đất.",
+      "history": "Cảnh quan núi lửa của Iceland đã hình thành và biến đổi Vatnajokull trong hàng nghìn năm, với các vụ phun trào liên tục làm tan chảy những khối lượng băng khổng lồ và giải phóng những trận lũ băng thảm họa được người dân địa phương gọi là jokulhlaups. Một trong những sự kiện núi lửa ấn tượng nhất của Iceland trong lịch sử hiện đại xảy ra khi núi lửa Grimsvotn phun trào bên dưới lớp băng vào năm 1996, giải phóng một cơn lũ cuốn trôi các cầu cầu đường ở miền nam Iceland chỉ trong vài giờ. Vườn Quốc gia Vatnajokull được thành lập vào năm 2008, kết hợp nhiều khu bảo tồn cũ để hình thành vườn quốc gia lớn nhất Iceland, trải rộng trên gần 14 phần trăm diện tích cả nước."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Vatnajokull is the largest ice cap in which continent?",
+      "question_type": "single",
+      "options": ["North America", "Asia", "Europe", "Antarctica"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Vatnajokull là mũi băng lớn nhất ở châu lục nào?",
+      "question_type": "single",
+      "options": ["Bắc Mỹ", "Châu Á", "Châu Âu", "Nam Cực"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is hidden under Vatnajokull glacier?",
+      "question_type": "single",
+      "options": ["Ancient Viking ruins", "Active volcanoes", "Underground rivers", "Gold mines"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điều gì ẩn bên dưới sông băng Vatnajokull?",
+      "question_type": "single",
+      "options": ["Tàn tích Viking cổ đại", "Núi lửa hoạt động", "Sông ngầm", "Mỏ vàng"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -10000,
+  "time_precision": "kya"
+}

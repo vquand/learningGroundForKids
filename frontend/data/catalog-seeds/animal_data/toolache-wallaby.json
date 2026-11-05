@@ -1,0 +1,69 @@
+{
+  "category": "animal",
+  "latitude": -36.0,
+  "longitude": 140.0,
+  "country_code": "AU",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "The Toolache Wallaby lived in the grassy plains and wetlands of south-eastern South Australia and south-western Victoria. It preferred open grassy areas near swamps and water sources.",
+  "fun_facts": [
+    "The Toolache Wallaby was considered the most beautiful and graceful wallaby in Australia.",
+    "It was an incredibly fast runner — said to be the fastest of all wallabies, able to outrun horses!",
+    "Hunters prized it for sport because of its speed and agility, which led to its rapid decline.",
+    "In 1924, an attempted rescue mission to capture and protect the last few Toolache Wallabies ended tragically when the capture efforts were too stressful for the animals.",
+    "The last confirmed Toolache Wallaby died in captivity at Robe, South Australia, in 1939."
+  ],
+  "end_year": 1939,
+  "time_precision": "year",
+  "media": [{"media_type": "image", "label": "Toolache Wallaby", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Toolache Wallaby (Extinct 1939)",
+      "description": "The Toolache Wallaby was said to be the most beautiful and fastest wallaby in Australia — so fast it could outrun a horse! Tragically, hunters prized it for sport, and it was wiped out by the 1930s. A rescue attempt in 1924 failed when the last wild ones were too stressed by capture. The last one died in 1939."
+    },
+    {
+      "lang": "vi",
+      "title": "Wallaby Toolache (Tuyệt chủng 1939)",
+      "description": "Wallaby Toolache được cho là loài wallaby đẹp nhất và nhanh nhẹn nhất ở Úc — nhanh đến mức có thể vượt qua ngựa! Thật đau lòng, các thợ săn coi nó là con mồi thể thao, và nó bị xóa sổ vào những năm 1930. Nỗ lực giải cứu năm 1924 thất bại khi những con cuối cùng trong tự nhiên bị căng thẳng quá mức khi bị bắt. Con cuối cùng chết năm 1939."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country did the Toolache Wallaby live?",
+      "question_type": "single",
+      "options": ["New Zealand", "South Africa", "Australia", "Brazil"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Wallaby Toolache sống ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["New Zealand", "Nam Phi", "Úc", "Brazil"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "The Toolache Wallaby was famous for being the fastest wallaby. What could it outrun?",
+      "question_type": "single",
+      "options": ["A bicycle", "A horse", "A car", "A cheetah"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Wallaby Toolache nổi tiếng là loài wallaby nhanh nhất. Nó có thể chạy nhanh hơn con gì?",
+      "question_type": "single",
+      "options": ["Xe đạp", "Ngựa", "Ô tô", "Báo gêpa"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": -50.495,
+  "longitude": -73.0312,
+  "country_code": "AR",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Situated in Los Glaciares National Park near El Calafate in Patagonia, southern Argentina, Perito Moreno is one of the world's most dynamic and accessible glaciers.",
+  "fun_facts": [
+    "Perito Moreno Glacier is so big it is the size of the entire city of Buenos Aires — and it moves forward about two metres every single day!",
+    "Huge chunks of ice the size of apartment buildings crash into the lake below with a thunderous roar — you can hear these explosions from kilometres away.",
+    "Unlike most of the world's glaciers, Perito Moreno is not shrinking — it is one of the very few glaciers on Earth that is actually staying the same size or even growing."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Perito Moreno Glacier",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Perito Moreno Glacier",
+      "description": "Perito Moreno Glacier in Argentine Patagonia is one of the most awe-inspiring sheets of ice on Earth, stretching nearly 30 kilometres long and rising up to 74 metres above Lake Argentino like a glowing blue wall. The glacier is constantly moving, and visitors can watch enormous towers of ice crack and explode into the water below in a process called calving. Its brilliant white and blue surface extends all the way to the horizon, making you feel as though you are standing at the edge of a frozen world.",
+      "history": "The glacier is named after Francisco Moreno, a pioneering Argentine explorer and naturalist who studied Patagonia extensively in the 1870s and helped establish Los Glaciares National Park. Formed from thousands of years of accumulated snowfall compressed into dense ice high in the Andes mountains, Perito Moreno is part of the Southern Patagonian Ice Field, the world's third largest reserve of fresh water. The national park surrounding it was declared a UNESCO World Heritage Site in 1981 for its outstanding natural beauty and scientific significance."
+    },
+    {
+      "lang": "vi",
+      "title": "Sông Băng Perito Moreno",
+      "description": "Sông băng Perito Moreno ở Patagonia, Argentina, là một trong những tầng băng ấn tượng nhất trên Trái Đất, kéo dài gần 30 km và nổi cao đến 74 mét trên Hồ Argentino như một bức tường xanh ngời sáng. Sông băng liên tục di chuyển, và du khách có thể xem những tháp băng khổng lồ nứt ra và nổ rơn xuống nước phía dưới trong một quá trình gọi là vỡ băng. Bề mặt trắng muốt và xanh long lanh của nó kéo dài tận đến chân trời, khiến bạn cảm giác như đang đứng ở rìa một thế giới băng giá.",
+      "history": "Sông băng được đặt tên theo Francisco Moreno, một nhà thám hiểm và tự nhiên học tiên phong của Argentina, người đã nghiên cứu Patagonia sâu rộng vào những năm 1870 và góp phần thành lập Vườn Quốc gia Los Glaciares. Được hình thành từ tuyết tích lũy qua hàng nghìn năm nén chặt thành băng dày đặc trên cao ở dãy Andes, Perito Moreno là một phần của Đồng băng Patagonia Nam, kho dự trữ nước ngọt lớn thứ ba thế giới. Vườn quốc gia bao quanh nó được công nhận là Di sản Thế giới UNESCO vào năm 1981 vì vẻ đẹp thiên nhiên xuất sắc và ý nghĩa khoa học của nó."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "The Perito Moreno Glacier is in which country?",
+      "question_type": "single",
+      "options": ["Chile", "Bolivia", "Argentina", "Peru"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Sông Băng Perito Moreno nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Chile", "Bolivia", "Argentina", "Peru"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is special about Perito Moreno compared to most glaciers in the world?",
+      "question_type": "single",
+      "options": ["It is the biggest glacier on Earth", "It is not shrinking like most glaciers", "It is the oldest glacier on Earth", "It is located in the tropics"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điều gì đặc biệt về Sông Băng Perito Moreno so với hầu hết các sông băng trên thế giới?",
+      "question_type": "single",
+      "options": ["Nó là sông băng lớn nhất trên Trái Đất", "Nó không co lại như hầu hết các sông băng", "Nó là sông băng cổ nhất trên Trái Đất", "Nó nằm ở vùng nhiệt đới"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -350000,
+  "time_precision": "kya"
+}

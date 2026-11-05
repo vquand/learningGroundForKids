@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 48.8049,
+  "longitude": 2.1204,
+  "country_code": "FR",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Cinderella",
+      "image_url": null,
+      "description": "A kind and patient young woman who lives with her cruel stepmother and stepsisters but never loses her gentle spirit and hope."
+    },
+    {
+      "name": "Fairy Godmother",
+      "image_url": null,
+      "description": "A cheerful and magical fairy who transforms Cinderella's rags into a beautiful gown so she can attend the royal ball."
+    },
+    {
+      "name": "Prince Charming",
+      "image_url": null,
+      "description": "The kind prince who falls in love with Cinderella at the royal ball and searches the entire kingdom to find her again."
+    },
+    {
+      "name": "Jaq and Gus",
+      "image_url": null,
+      "description": "Two adorable and loyal mice who are Cinderella's best friends and always help her out of trouble."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Cinderella poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Cinderella (1950)",
+      "description": "Kind-hearted Cinderella dreams of attending the royal ball, and with a little magic from her fairy godmother, she gets her chance — but must return home before midnight.",
+      "history": "Cinderella is based on a fairy tale written by French author Charles Perrault in 1697, which introduced the famous glass slipper and the magical pumpkin carriage."
+    },
+    {
+      "lang": "vi",
+      "title": "Cô Bé Lọ Lem (1950)",
+      "description": "Cô gái tốt bụng Cinderella mơ được dự dạ hội hoàng gia, và với một chút phép màu từ bà tiên đỡ đầu, cô ấy có được cơ hội đó — nhưng phải trở về trước nửa đêm.",
+      "history": "Cinderella dựa trên một truyện cổ tích do tác giả người Pháp Charles Perrault viết năm 1697, truyện này đã giới thiệu chiếc dép thủy tinh nổi tiếng và chiếc xe bí ngô biết hóa phép."
+    }
+  ],
+  "start_year": 1950,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What magical item does Cinderella leave behind at the ball?",
+      "question_type": "single",
+      "options": ["A golden crown", "A glass slipper", "A magic wand", "A silver bracelet"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Cinderella để lại vật thần kỳ nào ở dạ hội?",
+      "question_type": "single",
+      "options": ["Một chiếc vương miện vàng", "Một chiếc dép thủy tinh", "Một cây đũa thần", "Một chiếc vòng bạc"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What does the fairy godmother transform into Cinderella's carriage?",
+      "question_type": "single",
+      "options": ["A watermelon", "An apple", "A pumpkin", "A turnip"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Bà tiên đỡ đầu biến thứ gì thành xe ngựa cho Cinderella?",
+      "question_type": "single",
+      "options": ["Một quả dưa hấu", "Một quả táo", "Một quả bí ngô", "Một củ cải"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

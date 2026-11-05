@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": -16.9203,
+  "longitude": 145.771,
+  "country_code": "AU",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Nemo",
+      "image_url": null,
+      "description": "A brave little clownfish who gets separated from his dad and ends up in a fish tank in Sydney."
+    },
+    {
+      "name": "Marlin",
+      "image_url": null,
+      "description": "Nemo's overprotective dad who crosses the entire ocean to find and rescue his son."
+    },
+    {
+      "name": "Dory",
+      "image_url": null,
+      "description": "A cheerful blue tang fish who helps Marlin on his journey but forgets things very easily."
+    },
+    {
+      "name": "Gill",
+      "image_url": null,
+      "description": "A wise moorish idol fish who lives in the dentist's tank and helps plan Nemo's escape."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Finding Nemo poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Finding Nemo (2003)",
+      "description": "A clownfish dad named Marlin travels across the Great Barrier Reef and beyond to rescue his son Nemo, who was taken to a dentist's fish tank in Sydney.",
+      "history": "The movie's colorful coral reef scenes were inspired by the real Great Barrier Reef in Australia, the largest coral reef system in the world!"
+    },
+    {
+      "lang": "vi",
+      "title": "Tìm Nemo (2003)",
+      "description": "Một chú cá bố tên Marlin vượt qua rạn san hô lớn và cả đại dương để cứu con trai Nemo, đã bị đưa vào một bình cá trong phòng khám nha khoa ở Sydney.",
+      "history": "Các cảnh rạn san hô đầy màu sắc của phim được lấy cảm hứng từ Rạn San Hô Lớn thật sự ở Úc, hệ thống rạn san hô lớn nhất thế giới!"
+    }
+  ],
+  "start_year": 2003,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What type of fish is Nemo in the movie Finding Nemo?",
+      "question_type": "single",
+      "options": ["A goldfish", "A clownfish", "A swordfish", "A blowfish"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Nemo là loại cá gì trong phim Tìm Nemo?",
+      "question_type": "single",
+      "options": ["Cá vàng", "Cá hề", "Cá kiếm", "Cá nóc"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "In which city does Nemo end up in a fish tank in Finding Nemo?",
+      "question_type": "single",
+      "options": ["Melbourne", "Brisbane", "Perth", "Sydney"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Nemo kết thúc trong bình cá ở thành phố nào trong phim Tìm Nemo?",
+      "question_type": "single",
+      "options": ["Melbourne", "Brisbane", "Perth", "Sydney"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+@keyframes badge-bounce-in {
+  0% { transform: scale(0); opacity: 0; }
+  50% { transform: scale(1.2); }
+  70% { transform: scale(0.9); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes badge-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(251, 191, 36, 0.4); }
+  50% { box-shadow: 0 0 40px rgba(251, 191, 36, 0.8); }
+}
+
+@keyframes badge-fade-out {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.badge-celebrate-enter {
+  animation: badge-bounce-in 0.6s ease-out forwards;
+}
+
+.badge-celebrate-glow {
+  animation: badge-glow 1.5s ease-in-out 0.6s infinite;
+}
+
+.badge-celebrate-exit {
+  animation: badge-fade-out 0.3s ease-in forwards;
+}

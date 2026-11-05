@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 51.5074,
+  "longitude": -0.1278,
+  "country_code": "GB",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "John Williams",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Hedwig's Theme (Harry Potter) — John Williams",
+      "description": "This sparkling, magical tune sounds like twinkling stars and casting spells — it perfectly captures the wonder and mystery of the wizarding world!",
+      "history": "John Williams composed Hedwig's Theme for the first Harry Potter film in 2001, and it is named after Harry's beloved snowy owl, Hedwig."
+    },
+    {
+      "lang": "vi",
+      "title": "Chủ Đề Hedwig (Harry Potter) — John Williams",
+      "description": "Giai điệu lung linh và kỳ ảo này nghe như những ngôi sao đang nhảy múa và phép thuật đang được tung ra, hoàn hảo cho thế giới phép thuật!",
+      "history": "John Williams sáng tác Chủ Đề Hedwig cho bộ phim Harry Potter đầu tiên vào năm 2001, và nó được đặt tên theo chú cú tuyết đáng yêu của Harry, tên là Hedwig."
+    }
+  ],
+  "start_year": 2001,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed 'Hedwig's Theme' for Harry Potter?", "question_type": "single", "options": ["Hans Zimmer", "John Williams", "Howard Shore", "Danny Elfman"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác 'Chủ Đề Hedwig' cho Harry Potter?", "question_type": "single", "options": ["Hans Zimmer", "John Williams", "Howard Shore", "Danny Elfman"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "In Harry Potter, Hedwig is what type of animal?", "question_type": "single", "options": ["A cat", "A toad", "An owl", "A rat"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Trong Harry Potter, Hedwig là loài vật gì?", "question_type": "single", "options": ["Mèo", "Cóc", "Cú", "Chuột"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "category": "animal",
+  "latitude": 40.4,
+  "longitude": -109.0,
+  "country_code": "US",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Diplodocus fossils were found at Dinosaur National Monument on the Utah-Colorado border, USA. It lived in semi-arid plains and open woodlands near rivers during the Late Jurassic period.",
+  "fun_facts": [
+    "Diplodocus was one of the longest dinosaurs ever discovered — up to 27 metres from nose to tail tip!",
+    "Its incredibly long tail may have been cracked like a whip to make a loud booming sound to communicate or scare enemies.",
+    "Despite being so long, Diplodocus had a surprisingly small head and a tiny brain.",
+    "It ate plants by sweeping its long neck side to side like a lawn mower to strip leaves efficiently.",
+    "Diplodocus walked on four pillar-like legs, each one as thick as a tree trunk."
+  ],
+  "start_year": -155000000,
+  "end_year": -145000000,
+  "time_precision": "mya",
+  "media": [{"media_type": "image", "label": "Diplodocus", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Diplodocus",
+      "description": "Diplodocus was a gigantic long-necked dinosaur — one of the longest animals to ever exist! At up to 27 metres long, it stretched from one end of a basketball court to the other. This gentle plant-eater walked across North America about 150 million years ago during the Jurassic period."
+    },
+    {
+      "lang": "vi",
+      "title": "Khủng Long Diplodocus",
+      "description": "Diplodocus là loài khủng long cổ dài khổng lồ — một trong những động vật dài nhất từng tồn tại! Dài tới 27 mét, nó trải dài từ đầu này đến đầu kia của một sân bóng rổ. Loài ăn cỏ hiền lành này đi bộ khắp Bắc Mỹ vào khoảng 150 triệu năm trước trong kỷ Jura."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "How long could Diplodocus grow from nose to tail?",
+      "question_type": "single",
+      "options": ["Up to 10 metres", "Up to 15 metres", "Up to 27 metres", "Up to 40 metres"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Diplodocus có thể dài bao nhiêu từ mũi đến đuôi?",
+      "question_type": "single",
+      "options": ["Tới 10 mét", "Tới 15 mét", "Tới 27 mét", "Tới 40 mét"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What might Diplodocus have used its long tail for?",
+      "question_type": "single",
+      "options": ["Swimming", "Cracking like a whip to make sounds", "Carrying babies", "Digging for food"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Diplodocus có thể đã dùng cái đuôi dài của mình để làm gì?",
+      "question_type": "single",
+      "options": ["Bơi lội", "Quật như roi để tạo âm thanh", "Mang theo con non", "Đào bới thức ăn"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

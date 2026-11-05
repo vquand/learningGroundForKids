@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 15.7767,
+  "longitude": 108.1237,
+  "country_code": "VN",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "My Son Sanctuary, Duy Xuyen District, Quang Nam, Vietnam",
+  "fun_facts": [
+    "My Son has over 70 ancient towers and temples, and the oldest ones were built more than 1,500 years ago — long before your grandparents' grandparents were born!",
+    "The temples were built by the ancient Cham people, who used a special technique to lay bricks without any mortar — scientists still aren't sure exactly how they did it!",
+    "My Son was hidden deep in a jungle valley and was only rediscovered by the outside world in 1885."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "My Son Sanctuary",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "My Son Sanctuary",
+      "description": "My Son Sanctuary is a collection of ancient Hindu temples tucked away in a jungle valley in central Vietnam. These remarkable brick towers were built by the Cham civilisation and are over a thousand years old.",
+      "history": "The Cham people built temples at My Son between the 4th and 14th centuries to honour their Hindu gods. The site was designated a UNESCO World Heritage Site in 1999 and is considered one of the most important archaeological sites in Southeast Asia."
+    },
+    {
+      "lang": "vi",
+      "title": "Thánh địa Mỹ Sơn",
+      "description": "Thánh địa Mỹ Sơn là một quần thể đền tháp Hindu cổ nằm giữa thung lũng rừng ở miền Trung Việt Nam. Những tháp gạch kỳ diệu này do người Chăm xây dựng và có tuổi đời hơn một nghìn năm.",
+      "history": "Người Chăm xây dựng đền tháp tại Mỹ Sơn từ thế kỷ thứ 4 đến thế kỷ 14 để thờ các vị thần Hindu. Khu di tích được UNESCO công nhận là Di sản Thế giới năm 1999 và là một trong những địa chỉ khảo cổ quan trọng nhất Đông Nam Á."
+    }
+  ],
+  "start_year": 350,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is My Son Sanctuary located?",
+      "question_type": "single",
+      "options": ["Cambodia", "Thailand", "Vietnam", "Laos"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Thánh địa Mỹ Sơn nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Campuchia", "Thái Lan", "Việt Nam", "Lào"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which ancient people built the temples at My Son?",
+      "question_type": "single",
+      "options": ["Khmer", "Viet", "Cham", "Mon"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Người cổ đại nào đã xây dựng đền tháp tại Mỹ Sơn?",
+      "question_type": "single",
+      "options": ["Khmer", "Việt", "Chăm", "Mon"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

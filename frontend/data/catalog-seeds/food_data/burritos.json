@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 32.5149,
+  "longitude": -117.0382,
+  "country_code": "MX",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Warm a large flour tortilla in a pan. Fill it with cooked rice, beans, cheese, and your favorite toppings like salsa and sour cream. Fold the sides in and roll it up tightly — now you have a burrito!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Burritos",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Burritos",
+      "description": "A burrito is a big soft flour tortilla wrapped around yummy fillings like rice, beans, meat, and cheese. It is like a delicious edible package you can hold in your hands!",
+      "history": "Burritos come from northern Mexico and became especially popular in the border city of Tijuana. The word 'burrito' means 'little donkey' in Spanish — some say it was named after the bundles that donkeys used to carry!"
+    },
+    {
+      "lang": "vi",
+      "title": "Bánh Burrito",
+      "description": "Burrito là một chiếc bánh mì mềm cuốn tròn chứa cơm, đậu, thịt và phô mai. Nó giống như một gói quà ngon lành mà bạn có thể cầm trên tay!",
+      "history": "Burrito xuất phát từ miền bắc Mexico và rất nổi tiếng ở thành phố biên giới Tijuana. Từ 'burrito' trong tiếng Tây Ban Nha có nghĩa là 'con lừa nhỏ' — người ta nói tên này đặt theo những gói hàng mà lừa thường mang."
+    }
+  ],
+  "start_year": 1840,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What does the word 'burrito' mean in Spanish?",
+      "question_type": "single",
+      "options": ["Little bread", "Little donkey", "Small roll", "Big wrap"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Từ 'burrito' có nghĩa là gì trong tiếng Tây Ban Nha?",
+      "question_type": "single",
+      "options": ["Chiếc bánh nhỏ", "Con lừa nhỏ", "Cuộn nhỏ", "Gói lớn"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which country do Burritos originally come from?",
+      "question_type": "single",
+      "options": ["United States", "Spain", "Mexico", "Colombia"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Bánh Burrito có nguồn gốc từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Hoa Kỳ", "Tây Ban Nha", "Mexico", "Colombia"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

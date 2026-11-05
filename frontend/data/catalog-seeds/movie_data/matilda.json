@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 51.4816,
+  "longitude": -3.1791,
+  "country_code": "GB",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Matilda Wormwood",
+      "image_url": null,
+      "description": "A brilliant little girl with magical telekinetic powers who loves books and stands up for what is right."
+    },
+    {
+      "name": "Miss Honey",
+      "image_url": null,
+      "description": "Matilda's kind and gentle teacher who recognizes how special and gifted Matilda truly is."
+    },
+    {
+      "name": "Miss Trunchbull",
+      "image_url": null,
+      "description": "The terrifying headmistress of Matilda's school who is mean to children but gets outsmarted by Matilda."
+    },
+    {
+      "name": "Lavender",
+      "image_url": null,
+      "description": "Matilda's cheerful best friend at school who loves playing pranks and going on adventures together."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Matilda poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Matilda (1996)",
+      "description": "Matilda is a super-smart girl with magical powers who loves reading books, and she uses her gifts to stand up to the horrible adults in her life.",
+      "history": "Matilda is based on the beloved book by Roald Dahl, a famous Welsh author who grew up near Cardiff and wrote many wonderful stories for children!"
+    },
+    {
+      "lang": "vi",
+      "title": "Cô Bé Tài Năng Matilda (1996)",
+      "description": "Matilda là một cô bé rất thông minh có phép màu, cô yêu đọc sách và dùng sức mạnh của mình để chống lại những người lớn ác ý trong cuộc sống.",
+      "history": "Matilda dựa trên cuốn sách nổi tiếng của Roald Dahl, một nhà văn xứ Wales nổi tiếng lớn lên gần Cardiff và viết nhiều câu chuyện tuyệt vời cho trẻ em!"
+    }
+  ],
+  "start_year": 1996,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What special power does Matilda have in the movie?",
+      "question_type": "single",
+      "options": ["She can fly", "She can move objects with her mind", "She can become invisible", "She can talk to animals"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Matilda có siêu năng lực đặc biệt gì trong phim?",
+      "question_type": "single",
+      "options": ["Cô có thể bay", "Cô có thể di chuyển đồ vật bằng suy nghĩ", "Cô có thể tàng hình", "Cô có thể nói chuyện với động vật"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Who wrote the original book that Matilda is based on?",
+      "question_type": "single",
+      "options": ["J.K. Rowling", "Roald Dahl", "Enid Blyton", "C.S. Lewis"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Ai đã viết cuốn sách gốc mà Matilda dựa vào?",
+      "question_type": "single",
+      "options": ["J.K. Rowling", "Roald Dahl", "Enid Blyton", "C.S. Lewis"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

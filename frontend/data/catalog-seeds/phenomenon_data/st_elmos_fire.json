@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 38.7169,
+  "longitude": -9.1395,
+  "country_code": "PT",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "St. Elmo's Fire glows blue or violet and looks like magical flames — but it is not actually fire at all! It is electricity in the air shaped like a glowing light.",
+    "Portuguese sailors during the Age of Discovery saw St. Elmo's Fire on their ship masts and believed it was a sign from their patron saint that they would survive the storm!",
+    "St. Elmo's Fire has also been seen on the wings of aeroplanes, the horns of cattle, and even on people's hair during thunderstorms — it causes a tingling feeling!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "St. Elmo's Fire",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "St. Elmo's Fire",
+      "description": "St. Elmo's Fire is a glowing blue or violet light that appears on tall pointed objects — like ship masts or aeroplane wings — during thunderstorms. It is caused by electricity in the air creating a continuous spark, making objects look like they are tipped with magical flames.",
+      "history": "Portuguese sailors exploring the world's oceans in the 1400s and 1500s frequently saw St. Elmo's Fire on their ship masts during storms at sea. They named it after St. Erasmus (St. Elmo), the patron saint of sailors, believing the eerie glow was his protection watching over them."
+    },
+    {
+      "lang": "vi",
+      "title": "Lửa Thánh Elmo (Lửa Điện Khí Quyển)",
+      "description": "Lửa Thánh Elmo là ánh sáng phát sáng màu xanh dương hoặc tím xuất hiện trên các vật nhọn cao — như cột buồm tàu hoặc cánh máy bay — trong cơn bão. Nó được tạo ra bởi điện trong không khí tạo ra tia lửa liên tục, khiến các vật trông giống như đang được thắp sáng bằng ngọn lửa kỳ diệu.",
+      "history": "Những thủy thủ Bồ Đào Nha khám phá các đại dương thế giới vào những năm 1400 và 1500 thường xuyên nhìn thấy Lửa Thánh Elmo trên cột buồm tàu trong những cơn bão ngoài khơi. Họ đặt tên theo Thánh Erasmus (Thánh Elmo), vị thánh bảo hộ của các thủy thủ, tin rằng ánh sáng kỳ bí này là sự bảo vệ của ngài đang dõi theo họ."
+    }
+  ],
+  "start_year": -600,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What colour is St. Elmo's Fire?",
+      "question_type": "single",
+      "options": ["Red and orange", "Blue or violet", "Yellow and white", "Green"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Lửa Thánh Elmo có màu gì?",
+      "question_type": "single",
+      "options": ["Đỏ và cam", "Xanh dương hoặc tím", "Vàng và trắng", "Xanh lá"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What causes St. Elmo's Fire?",
+      "question_type": "single",
+      "options": ["Actual fire burning on the mast", "Electricity in the air creating a continuous spark", "Sunlight reflecting off wet sails", "Bioluminescent sea creatures"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điều gì tạo ra Lửa Thánh Elmo?",
+      "question_type": "single",
+      "options": ["Lửa thực sự cháy trên cột buồm", "Điện trong không khí tạo ra tia lửa liên tục", "Ánh sáng mặt trời phản chiếu trên buồm ướt", "Sinh vật biển phát quang"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

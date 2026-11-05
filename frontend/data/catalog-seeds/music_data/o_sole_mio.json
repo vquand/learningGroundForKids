@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 40.8518,
+  "longitude": 14.2681,
+  "country_code": "IT",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Eduardo di Capua",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "O Sole Mio — Eduardo di Capua",
+      "description": "A warm and beautiful Italian song about the sunshine, where the singer says the most beautiful sun of all is the face of the person they love!",
+      "history": "Eduardo di Capua composed this beloved Neapolitan song in 1898 while he was traveling in Ukraine — it is now one of the most recognized Italian songs in the entire world!"
+    },
+    {
+      "lang": "vi",
+      "title": "O Sole Mio — Eduardo di Capua",
+      "description": "Một bài hát Ý ấm áp và đẹp về ánh nắng mặt trời, nơi người hát rằng mặt trời đẹp nhất chính là khuôn mặt của người mà họ yêu thương!",
+      "history": "Eduardo di Capua sáng tác bài hát Naples được yêu mến này vào năm 1898 khi ông đang du lịch ở Ukraine — bây giờ nó là một trong những bài hát Ý được nhận ra nhiều nhất trên toàn thế giới!"
+    }
+  ],
+  "start_year": 1898,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "'O Sole Mio' is a famous song from which country?", "question_type": "single", "options": ["Spain", "Greece", "Italy", "Portugal"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "'O Sole Mio' là bài hát nổi tiếng từ nước nào?", "question_type": "single", "options": ["Tây Ban Nha", "Hy Lạp", "Ý", "Bồ Đào Nha"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Who composed 'O Sole Mio'?", "question_type": "single", "options": ["Verdi", "Puccini", "Eduardo di Capua", "Bellini"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Ai đã sáng tác bài 'O Sole Mio'?", "question_type": "single", "options": ["Verdi", "Puccini", "Eduardo di Capua", "Bellini"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

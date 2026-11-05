@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 16.4637,
+  "longitude": 107.5909,
+  "country_code": "VN",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Make a spicy broth by boiling beef bones with lemongrass and shrimp paste. Add thick round rice noodles and slices of beef and pork to the bowl. Top with fresh herbs, banana blossom, and a squeeze of lime for extra flavor!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Bun Bo Hue",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Bun Bo Hue",
+      "description": "Bun Bo Hue is a spicy and flavorful Vietnamese noodle soup from the royal city of Hue. It has thick round rice noodles swimming in a bold broth made with lemongrass, chili, and shrimp paste.",
+      "history": "Bun Bo Hue comes from Hue, the ancient imperial capital of Vietnam, where royal chefs created very refined and bold-flavored dishes. This soup has been enjoyed for hundreds of years and is famous for its deep, spicy taste."
+    },
+    {
+      "lang": "vi",
+      "title": "Bún Bò Huế",
+      "description": "Bún bò Huế là món bún cay thơm ngon đến từ thành phố Huế cổ kính. Món ăn có bún tươi sợi to trong nước dùng đậm đà từ sả, ớt và mắm ruốc rất đặc trưng.",
+      "history": "Bún bò Huế xuất phát từ Huế, kinh đô cổ của Việt Nam, nơi các đầu bếp hoàng gia sáng tạo những món ăn tinh tế và đậm vị. Món súp này đã được ăn qua hàng trăm năm và nổi tiếng với hương vị cay nồng sâu sắc."
+    }
+  ],
+  "start_year": 1700,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which Vietnamese city is Bun Bo Hue from?",
+      "question_type": "single",
+      "options": ["Hanoi", "Ho Chi Minh City", "Hue", "Da Nang"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Bún Bò Huế đến từ thành phố nào của Việt Nam?",
+      "question_type": "single",
+      "options": ["Hà Nội", "Hồ Chí Minh", "Huế", "Đà Nẵng"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What makes Bun Bo Hue broth special?",
+      "question_type": "single",
+      "options": ["Coconut milk", "Lemongrass and shrimp paste", "Soy sauce", "Tomatoes"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điều gì làm nước dùng Bún Bò Huế đặc biệt?",
+      "question_type": "single",
+      "options": ["Nước cốt dừa", "Sả và mắm ruốc", "Nước tương", "Cà chua"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

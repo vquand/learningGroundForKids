@@ -1,0 +1,67 @@
+{
+  "category": "animal",
+  "latitude": 30.7,
+  "longitude": 102.7,
+  "country_code": "CN",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Giant Pandas live in the cool, misty mountain forests of Sichuan, Shaanxi, and Gansu provinces in southwestern China. They need dense bamboo forests to survive and live at altitudes of 1,200 to 3,100 metres.",
+  "fun_facts": [
+    "Giant Pandas eat bamboo for up to 16 hours a day and must consume 12 to 38 kg of bamboo daily to get enough nutrition!",
+    "Baby pandas are incredibly tiny — they are born pink, hairless, and weigh only about 100 grams, around the size of a stick of butter.",
+    "Giant Pandas have a special 'false thumb' — an enlarged wrist bone that helps them grip bamboo stalks.",
+    "In the wild, Giant Pandas are solitary animals and spend most of their time eating or sleeping.",
+    "Thanks to conservation efforts, the Giant Panda was downlisted from 'Endangered' to 'Vulnerable' in 2016 — a conservation success story!"
+  ],
+  "media": [{"media_type": "image", "label": "Giant Panda", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Giant Panda",
+      "description": "The Giant Panda is one of the world's most beloved animals, famous for its striking black-and-white fur and love of bamboo. Found only in the mountain forests of China, these gentle bears spend most of their day eating and sleeping. Thanks to conservation work, their numbers are slowly growing!"
+    },
+    {
+      "lang": "vi",
+      "title": "Gấu Trúc Khổng Lồ",
+      "description": "Gấu Trúc Khổng Lồ là một trong những loài động vật được yêu thích nhất trên thế giới, nổi tiếng với bộ lông đen trắng ấn tượng và tình yêu với tre trúc. Chỉ được tìm thấy ở các khu rừng núi Trung Quốc, những chú gấu hiền lành này dành phần lớn thời gian trong ngày để ăn và ngủ. Nhờ công tác bảo tồn, số lượng của chúng đang dần tăng lên!"
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is the Giant Panda native to?",
+      "question_type": "single",
+      "options": ["Japan", "India", "China", "Australia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Gấu Trúc Khổng Lồ có nguồn gốc từ nước nào?",
+      "question_type": "single",
+      "options": ["Nhật Bản", "Ấn Độ", "Trung Quốc", "Úc"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What does a Giant Panda mostly eat?",
+      "question_type": "single",
+      "options": ["Fish", "Bamboo", "Fruits", "Insects"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Gấu Trúc Khổng Lồ chủ yếu ăn gì?",
+      "question_type": "single",
+      "options": ["Cá", "Tre trúc", "Hoa quả", "Côn trùng"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 38.6431,
+  "longitude": 34.8289,
+  "country_code": "TR",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Cappadocia is a surreal volcanic landscape in the Nevsehir Province of central Turkey, famous for its towering rock spires, underground cities, and hot-air balloon flights.",
+  "fun_facts": [
+    "People carved entire underground cities into the soft rock here — some tunnels go down 18 floors deep, like a giant ant farm for humans!",
+    "Hot-air balloons float over the fairy chimneys every morning, and on a busy day over 150 balloons fill the sky at once.",
+    "The strange mushroom-shaped rocks are called fairy chimneys and formed when soft ash eroded away, leaving harder caps sitting on top like stone hats."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Cappadocia",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Cappadocia",
+      "description": "Cappadocia is a dreamlike region in Turkey where ancient volcanoes left behind a landscape full of tall, twisting rock towers called fairy chimneys. People carved homes, churches, and even entire underground cities right into the soft stone thousands of years ago. Every sunrise, colorful hot-air balloons drift silently above the rocky valleys, making it one of the most magical sights on Earth.",
+      "history": "Millions of years ago, powerful volcanic eruptions blanketed the region in thick ash and lava that hardened into soft rock called tuff. Wind and rain slowly sculpted this rock into the iconic spires and valleys seen today. Early Christians fleeing persecution settled here around the 4th century, hollowing out cave churches decorated with vivid frescoes and digging vast underground cities for shelter."
+    },
+    {
+      "lang": "vi",
+      "title": "Cappadocia",
+      "description": "Cappadocia là một vùng đất như trong mơ ở Thổ Nhĩ Kỳ, nơi các núi lửa cổ xưa để lại những ngọn tháp đá cao vút xoắn tròn gọi là 'ống tiên'. Người xưa đã đục nhà ở, nhà thờ và cả thành phố ngầm dưới lòng đất từ hàng nghìn năm trước. Mỗi buổi sáng, những khinh khí cầu sắc màu nhẹ nhàng bay lướt trên các thung lũng đá, tạo nên một cảnh tượng kỳ diệu nhất trên Trái Đất.",
+      "history": "Hàng triệu năm trước, các núi lửa mạnh mẽ phun ra lớp tro và dung nham dày đặc phủ kín cả vùng, sau đó cứng lại thành loại đá mềm gọi là tuff. Gió và mưa dần dần tạc phong thành những tháp đá và thung lũng độc đáo như ngày nay. Các tín đồ Thiên Chúa giáo chạy trốn sự đàn áp đã đến đây vào khoảng thế kỷ thứ 4, đục hang nhà thờ trang trí tranh bích họa rực rỡ và đào cả thành phố ngầm lớn để ẩn náu."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Cappadocia located?",
+      "question_type": "single",
+      "options": ["Greece", "Turkey", "Iran", "Egypt"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Cappadocia nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Hy Lạp", "Thổ Nhĩ Kỳ", "Iran", "Ai Cập"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What are the tall mushroom-shaped rock towers in Cappadocia called?",
+      "question_type": "single",
+      "options": ["Lava tubes", "Fairy chimneys", "Stone pillars", "Rock spiders"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Những tháp đá hình nấm cao ở Cappadocia được gọi là gì?",
+      "question_type": "single",
+      "options": ["Ống dung nham", "Ống tiên", "Cột đá", "Nhện đá"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -9000000,
+  "time_precision": "mya"
+}

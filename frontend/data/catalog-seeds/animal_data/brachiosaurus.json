@@ -1,0 +1,70 @@
+{
+  "category": "animal",
+  "latitude": -8.0,
+  "longitude": 34.0,
+  "country_code": "TZ",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Brachiosaurus fossils have been found in North America and Africa (Tanzania). It lived in warm, lush landscapes with plenty of tall trees, like modern-day forests, during the Late Jurassic period.",
+  "fun_facts": [
+    "Brachiosaurus was one of the tallest dinosaurs — it could reach leaves over 9 metres off the ground, higher than a two-story building!",
+    "It had nostrils on top of its head, which scientists think may have helped it breathe while eating.",
+    "Brachiosaurus ate huge amounts of plants every day — possibly over 200 kilograms of leaves!",
+    "Unlike most dinosaurs, its front legs were longer than its back legs, giving it a giraffe-like posture.",
+    "A Brachiosaurus weighed about as much as 10 African elephants put together."
+  ],
+  "start_year": -155000000,
+  "end_year": -150000000,
+  "time_precision": "mya",
+  "media": [{"media_type": "image", "label": "Brachiosaurus", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Brachiosaurus",
+      "description": "Brachiosaurus was a giant long-necked dinosaur that stretched its neck way up high to eat leaves from the tallest trees. It was one of the largest animals to ever walk the Earth, as tall as a four-story building! This gentle giant lived about 150 million years ago."
+    },
+    {
+      "lang": "vi",
+      "title": "Khủng Long Cổ Dài",
+      "description": "Brachiosaurus là loài khủng long cổ dài khổng lồ vươn cổ lên cao để ăn lá từ những cây cao nhất. Nó là một trong những động vật lớn nhất từng đi trên Trái Đất, cao bằng một tòa nhà bốn tầng! Người khổng lồ hiền lành này sống vào khoảng 150 triệu năm trước."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which body part was unusually long on a Brachiosaurus?",
+      "question_type": "single",
+      "options": ["Its tail", "Its neck", "Its arms", "Its tongue"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Bộ phận cơ thể nào của Brachiosaurus đặc biệt dài?",
+      "question_type": "single",
+      "options": ["Đuôi", "Cổ", "Tay trước", "Lưỡi"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Compared to most dinosaurs, which legs were longer on Brachiosaurus?",
+      "question_type": "single",
+      "options": ["Back legs", "Front legs", "All four legs were equal", "It had no back legs"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "So với hầu hết khủng long, đôi chân nào của Brachiosaurus dài hơn?",
+      "question_type": "single",
+      "options": ["Chân sau", "Chân trước", "Cả bốn chân bằng nhau", "Nó không có chân sau"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

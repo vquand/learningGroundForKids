@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 55.2408,
+  "longitude": -6.5116,
+  "country_code": "GB",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "The Giant's Causeway is a coastal basalt column formation on the northeastern shore of County Antrim, Northern Ireland, along the North Atlantic coast.",
+  "fun_facts": [
+    "The Giant's Causeway is made up of about 40,000 interlocking hexagonal basalt columns — almost all of them have exactly six sides, like perfect natural lego bricks!",
+    "The columns formed when a massive lava flow cooled and cracked into perfect shapes, the same way mud cracks when it dries but on a spectacular scale.",
+    "The tallest columns in the causeway reach up to 12 meters high — that is taller than a two-story house!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Giant's Causeway",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Giant's Causeway",
+      "description": "The Giant's Causeway is a jaw-dropping coastline in Northern Ireland covered with tens of thousands of perfectly shaped hexagonal stone columns stepping down into the crashing Atlantic waves. The columns fit together so precisely it looks like an enormous giant built a stone road straight into the sea. In Irish legend, this really was built by a giant named Finn McCool who wanted to walk across the ocean to Scotland without getting his feet wet!",
+      "history": "About 60 million years ago, during a period of intense volcanic activity, a massive outpouring of lava covered this part of Ireland. As the lava cooled slowly and evenly, it contracted and cracked into the remarkable hexagonal columns we see today — the same geometric pattern that forms in drying mud but magnified to an epic scale. The Giant's Causeway was declared a UNESCO World Heritage Site in 1986 and is the most visited tourist attraction in all of Northern Ireland."
+    },
+    {
+      "lang": "vi",
+      "title": "Con Đường Khổng Lồ",
+      "description": "Con đường Khổng Lồ là một bờ biển ấn tượng ở Bắc Ireland được phủ bởi hàng chục nghìn cột đá lục giác hình dạng hoàn hảo bước xuống những con sóng Đại Tây Dương. Các cột đặt khớp với nhau chính xác đến mức trông như một gã khổng lồ đã xây một con đường đá thẳng ra biển. Trong truyền thuyết Ireland, đây thực sự được xây bởi một gã khổng lồ tên Finn McCool muốn đi bộ qua đại dương sang Scotland mà không bị ướt chân!",
+      "history": "Khoảng 60 triệu năm trước, trong thời kỳ hoạt động núi lửa dữ dội, một lượng dung nham khổng lồ đã bao phủ khu vực này của Ireland. Khi dung nham nguội lại chậm và đều, nó co lại và nứt thành những cột lục giác phi thường mà chúng ta thấy ngày nay — cùng kiểu hình học hình thành trong bùn khô nhưng ở quy mô hùng vĩ. Con đường Khổng Lồ được công nhận là Di sản Thế giới UNESCO năm 1986 và là điểm du lịch được tham quan nhiều nhất trên toàn Bắc Ireland."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is the Giant's Causeway located?",
+      "question_type": "single",
+      "options": ["Scotland", "Wales", "England", "Northern Ireland"],
+      "correct_answers": [3],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Con Đường Khổng Lồ nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Scotland", "Wales", "Anh", "Bắc Ireland"],
+      "correct_answers": [3],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What shape are most of the stone columns at the Giant's Causeway?",
+      "question_type": "single",
+      "options": ["Square", "Round", "Hexagonal (6 sides)", "Triangular"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hình dạng của hầu hết các cột đá ở Con Đường Khổng Lồ là gì?",
+      "question_type": "single",
+      "options": ["Vuông", "Tròn", "Lục giác (6 cạnh)", "Tam giác"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -60000000,
+  "time_precision": "mya"
+}

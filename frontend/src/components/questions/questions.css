@@ -1,0 +1,49 @@
+.question-view {
+  --question-font-size: clamp(1.45rem, 3vh, 2rem);
+  --question-ink: #263e70;
+  --question-muted-ink: #574435;
+  --question-answer-ink: #f0a52f;
+  --question-answer-border: #4674bd;
+  --question-rule: #704b36;
+  --question-row-gap: .6ch;
+  --question-line-height: 1.05;
+}
+
+.question-equation-column {
+  width: max-content;
+  min-width: 5ch;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: var(--question-font-size, clamp(1.45rem, 3vh, 2rem));
+  font-variant-numeric: tabular-nums;
+  line-height: var(--question-line-height, 1.05);
+}
+
+.question-math-row {
+  display: grid;
+  grid-template-columns: 1.2ch minmax(3ch, auto);
+  gap: var(--question-row-gap, .6ch);
+  min-height: 1.2em;
+  align-items: center;
+}
+
+.question-math-operator { text-align: center; }
+.question-math-number { text-align: right; letter-spacing: 0; }
+.question-math-number.is-missing { color: var(--question-missing-ink, var(--question-answer-ink, #f0a52f)); }
+.question-result-row { margin-top: .18em; padding-top: .16em; border-top: 3px solid var(--question-rule, #704b36); }
+.question-view.is-compact .question-result-row::before { content: '='; }
+.question-answer-line { display: inline-block; min-width: 1.2em; border-bottom: 5px solid var(--question-answer-border, #4674bd); color: var(--question-answer-ink, #f0a52f); text-align: center; }
+.question-equation-column .question-answer-line { min-width: 0; border-bottom: 0; padding: 0; }
+.question-equation-inline { display: inline-block; font: inherit; font-variant-numeric: tabular-nums; }
+
+.question-compare-signs { display: flex; align-items: center; justify-content: center; gap: 20px; font-size: clamp(2.2rem, 6vh, 3rem); font-weight: 900; font-variant-numeric: tabular-nums; }
+.question-empty-square { display: inline-block; width: 1em; height: 1em; border: 3px solid var(--question-answer-border, #4674bd); border-radius: 9px; background: #fbf3df; }
+.question-animal-picture { display: flex; align-items: center; justify-content: center; width: min(100%, 220px); height: min(22vh, 150px); }
+.question-animal-picture > img, .question-animal-picture > svg { display: block; width: 100%; height: 100%; object-fit: contain; }
+.question-picture-placeholder { color: var(--question-answer-ink, #f0a52f); font-size: 4rem; }
+
+.question-venn { width: 100%; max-width: 520px; color: var(--question-ink, #263e70); font-size: 1rem; }
+.question-venn-prompt { margin: 0 0 5px; font-size: clamp(.85rem, 1.7vh, 1rem); font-weight: 800; line-height: 1.3; }
+.question-venn-svg { display: block; width: 100%; max-height: clamp(150px, 24vh, 208px); }
+.question-venn-svg text { fill: var(--question-muted-ink, #574435); font: 700 17px Nunito, system-ui; text-transform: capitalize; }
+.question-venn-answer { display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 4px; }
+.question-venn-answer .question-answer-line { min-width: 3ch; font-size: 1.5rem; }

@@ -1,0 +1,46 @@
+{
+  "accessed_at": "2026-10-02",
+  "source": "Wikimedia MediaWiki Action API, Wikidata, and optional YouTube Data API",
+  "targets": {
+    "food": 1000,
+    "monument": 500,
+    "landmark": 500,
+    "phenomenon": 100,
+    "animal": 2000
+  },
+  "vietnam_minimums": {
+    "food": 100,
+    "monument": 50,
+    "landmark": 50,
+    "phenomenon": 10,
+    "animal": 200
+  },
+  "categories": {
+    "food": {
+      "accepted": 1000,
+      "vietnam": 129
+    },
+    "monument": {
+      "accepted": 500,
+      "vietnam": 153
+    },
+    "landmark": {
+      "accepted": 500,
+      "vietnam": 226
+    },
+    "phenomenon": {
+      "accepted": 100,
+      "vietnam": 11
+    },
+    "animal": {
+      "accepted": 2000,
+      "vietnam": 214
+    }
+  },
+  "total": 4100,
+  "content_review": {
+    "reviewed": 493,
+    "unresolved": 493,
+    "maximum_summary_words": 150
+  }
+}

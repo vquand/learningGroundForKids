@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 53.4084,
+  "longitude": -2.9916,
+  "country_code": "GB",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "The Beatles",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Yellow Submarine — The Beatles",
+      "description": "A silly, singalong song about living in a bright yellow submarine under the sea — full of funny sounds and a chorus everyone can join in!",
+      "history": "The Beatles from Liverpool wrote this cheerful song in 1966, and it even became an animated movie where cartoon versions of the band go on underwater adventures!"
+    },
+    {
+      "lang": "vi",
+      "title": "Tàu Ngầm Màu Vàng — The Beatles",
+      "description": "Một bài hát vui nhộn về cuộc sống trong một chiếc tàu ngầm màu vàng dưới đáy biển — nghe rất buồn cười và bạn có thể hát theo dễ dàng!",
+      "history": "Nhóm nhạc The Beatles từ Liverpool viết bài hát này vào năm 1966, và nó còn trở thành một bộ phim hoạt hình với những nhân vật phiêu lưu dưới nước!"
+    }
+  ],
+  "start_year": 1966,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Which band performed 'Yellow Submarine'?", "question_type": "single", "options": ["The Rolling Stones", "The Who", "The Beatles", "Led Zeppelin"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ban nhạc nào biểu diễn bài 'Tàu Ngầm Màu Vàng'?", "question_type": "single", "options": ["The Rolling Stones", "The Who", "The Beatles", "Led Zeppelin"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "The Beatles were from which English city?", "question_type": "single", "options": ["London", "Manchester", "Birmingham", "Liverpool"], "correct_answers": [3], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "The Beatles đến từ thành phố nào của Anh?", "question_type": "single", "options": ["London", "Manchester", "Birmingham", "Liverpool"], "correct_answers": [3], "sort_order": 1}
+  ]
+}

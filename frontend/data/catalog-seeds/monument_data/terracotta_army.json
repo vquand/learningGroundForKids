@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 34.3845,
+  "longitude": 109.2736,
+  "country_code": "CN",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Museum of the Terracotta Warriors, Lintong District, Xi'an, Shaanxi, China",
+  "fun_facts": [
+    "There are more than 8,000 clay soldiers in the Terracotta Army, and every single one has a different face — no two are exactly alike!",
+    "The army was buried underground for over 2,000 years and was only accidentally discovered in 1974 by farmers digging a well.",
+    "When the soldiers were first made, they were painted in bright colours — but the paint faded away over thousands of years underground."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Terracotta Army",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Terracotta Army",
+      "description": "The Terracotta Army is a collection of thousands of life-sized clay soldiers, horses, and chariots buried underground near Xi'an, China. They were made to guard China's first emperor in the afterlife.",
+      "history": "Emperor Qin Shi Huang ordered the army to be built around 210 BCE to protect him after death. Over 700,000 workers spent years crafting each unique soldier. The site was discovered in 1974 and is now a UNESCO World Heritage Site."
+    },
+    {
+      "lang": "vi",
+      "title": "Đội quân Binh mã tông",
+      "description": "Đội quân Binh mã tông là một tập hợp hàng nghìn tượng lính đất nung, ngựa và xe ngựa được chôn dưới lòng đất gần Tây An, Trung Quốc. Chúng được tạo ra để bảo vệ hoàng đế đầu tiên của Trung Quốc ở thế giới bên kia.",
+      "history": "Hoàng đế Tần Thủy Hoàng ra lệnh xây dựng đội quân này vào khoảng năm 210 TCN để bảo vệ ông sau khi qua đời. Hơn 700.000 công nhân mất nhiều năm để tạo ra từng tượng lính độc đáo. Khu di tích được phát hiện năm 1974 và hiện là Di sản Thế giới UNESCO."
+    }
+  ],
+  "start_year": -210,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is the Terracotta Army located?",
+      "question_type": "single",
+      "options": ["Japan", "Korea", "China", "Mongolia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Đội quân Binh mã tông nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Nhật Bản", "Hàn Quốc", "Trung Quốc", "Mông Cổ"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Who ordered the Terracotta Army to be built?",
+      "question_type": "single",
+      "options": ["Emperor Han Wu", "Emperor Tang Taizong", "Emperor Qin Shi Huang", "Emperor Ming Yongle"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Ai đã ra lệnh xây dựng Đội quân Binh mã tông?",
+      "question_type": "single",
+      "options": ["Hoàng đế Hán Vũ", "Hoàng đế Đường Thái Tông", "Hoàng đế Tần Thủy Hoàng", "Hoàng đế Minh Vĩnh Lạc"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

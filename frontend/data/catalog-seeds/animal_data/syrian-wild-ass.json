@@ -1,0 +1,69 @@
+{
+  "category": "animal",
+  "latitude": 35.0,
+  "longitude": 38.0,
+  "country_code": "SY",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "The Syrian Wild Ass roamed the arid steppe grasslands and semi-desert plains of Syria, Iraq, Jordan, Israel, and surrounding areas of the Middle East. It lived in open, dry landscapes far from dense human settlements.",
+  "fun_facts": [
+    "The Syrian Wild Ass was a subspecies of onager — a type of wild donkey native to Asia.",
+    "It was incredibly fast, reportedly able to run at 70 km/h — faster than most horses!",
+    "Ancient Sumerians and Egyptians sometimes kept them as working animals, though they were hard to tame.",
+    "World War I was devastating for the Syrian Wild Ass — soldiers with rifles and horses hunted them for sport and food across their whole range.",
+    "The last known Syrian Wild Ass was captured and taken to Vienna Zoo, where it died in 1928."
+  ],
+  "end_year": 1928,
+  "time_precision": "year",
+  "media": [{"media_type": "image", "label": "Syrian Wild Ass", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Syrian Wild Ass (Extinct 1928)",
+      "description": "The Syrian Wild Ass was a swift wild donkey that galloped across the deserts and grasslands of the Middle East. It could run faster than a horse! Hunted heavily during World War I by soldiers, and its habitat destroyed, it was gone by the late 1920s. The very last one died in a Vienna zoo in 1928."
+    },
+    {
+      "lang": "vi",
+      "title": "Lừa Hoang Syria (Tuyệt chủng 1928)",
+      "description": "Lừa Hoang Syria là loài lừa hoang dã nhanh nhẹn phi nước đại qua các sa mạc và đồng cỏ Trung Đông. Nó có thể chạy nhanh hơn ngựa! Bị săn bắn nhiều trong Thế chiến thứ nhất bởi các binh lính, và môi trường sống bị phá hủy, nó đã biến mất vào cuối những năm 1920. Con cuối cùng chết trong sở thú Vienna năm 1928."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What type of animal was the Syrian Wild Ass?",
+      "question_type": "single",
+      "options": ["A wild horse", "A wild donkey (onager)", "A wild goat", "A wild camel"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Lừa Hoang Syria là loài động vật gì?",
+      "question_type": "single",
+      "options": ["Ngựa hoang", "Lừa hoang (onager)", "Dê hoang", "Lạc đà hoang"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which major event caused the Syrian Wild Ass to nearly disappear?",
+      "question_type": "single",
+      "options": ["A terrible flood", "World War I", "A massive drought", "A volcanic eruption"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Sự kiện lớn nào khiến Lừa Hoang Syria gần như biến mất?",
+      "question_type": "single",
+      "options": ["Lũ lụt khủng khiếp", "Thế chiến thứ nhất", "Hạn hán khổng lồ", "Núi lửa phun trào"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

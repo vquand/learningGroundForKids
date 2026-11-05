@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 41.0082,
+  "longitude": 28.9784,
+  "country_code": "TR",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "The ground under your feet is made of giant rock pieces called tectonic plates that are always slowly moving — earthquakes happen when two plates push or slide against each other!",
+    "Animals like dogs, cats, and even fish sometimes behave strangely hours before an earthquake — scientists think they can feel tiny vibrations we cannot.",
+    "Istanbul has been shaken by earthquakes for thousands of years, and ancient builders there used special clay layers under buildings to help absorb the shaking — a trick engineers still use today!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Earthquake",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Earthquake",
+      "description": "An earthquake is when the ground suddenly shakes and rumbles because giant pieces of rock deep underground slip and release huge amounts of energy.",
+      "history": "Istanbul in Turkey sits directly on the North Anatolian Fault, one of the world's most active earthquake zones, and the city has been shaken by powerful earthquakes throughout its thousands of years of history."
+    },
+    {
+      "lang": "vi",
+      "title": "Động Đất",
+      "description": "Động đất xảy ra khi mặt đất đột ngột rung chuyển vì những khối đá khổng lồ sâu dưới lòng đất trượt và phóng ra năng lượng khổng lồ.",
+      "history": "Istanbul ở Thổ Nhĩ Kỳ nằm ngay trên Đứt gãy Bắc Anatolia, một trong những vùng động đất tích cực nhất thế giới, và thành phố này đã chịu nhiều trận động đất mạnh suốt hàng nghìn năm lịch sử."
+    }
+  ],
+  "start_year": -350,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What causes an earthquake?",
+      "question_type": "single",
+      "options": ["Heavy rain", "Giant rock pieces underground slipping and releasing energy", "Strong winds", "Very hot weather"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Điều gì gây ra động đất?",
+      "question_type": "single",
+      "options": ["Mưa to", "Những khối đá khổng lồ dưới lòng đất trượt và phóng ra năng lượng", "Gió mạnh", "Thời tiết rất nóng"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What are the giant rock pieces that make up Earth's surface called?",
+      "question_type": "single",
+      "options": ["Meteor rocks", "Tectonic plates", "Sand dunes", "Icebergs"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Những mảng đá khổng lồ tạo nên bề mặt Trái Đất được gọi là gì?",
+      "question_type": "single",
+      "options": ["Đá thiên thạch", "Mảng kiến tạo", "Cồn cát", "Tảng băng trôi"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

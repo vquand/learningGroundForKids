@@ -1,0 +1,69 @@
+{
+  "category": "animal",
+  "latitude": 37.0,
+  "longitude": 53.0,
+  "country_code": "IR",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "The Caspian Tiger roamed a vast range from eastern Turkey through Iran, Central Asia, and into western China and Siberia. It lived along river corridors, reed beds, and forests near the Caspian Sea and Central Asian rivers.",
+  "fun_facts": [
+    "The Caspian Tiger was one of the largest tiger subspecies, rivalling the Siberian Tiger in size.",
+    "It lived in areas very different from the jungles we usually associate with tigers — including cold Central Asian steppes and river valleys.",
+    "The last confirmed Caspian Tiger was shot in 1970 in the Amu Darya river delta in Uzbekistan.",
+    "Genetic studies show the Caspian Tiger was the closest living relative of the Amur (Siberian) Tiger.",
+    "There are now plans to reintroduce the Amur Tiger into parts of Kazakhstan to fill the ecological role the Caspian Tiger once played."
+  ],
+  "end_year": 1970,
+  "time_precision": "year",
+  "media": [{"media_type": "image", "label": "Caspian Tiger", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Caspian Tiger (Extinct ~1970)",
+      "description": "The Caspian Tiger was a magnificent large tiger that roamed the river valleys and forests around the Caspian Sea from Iran to Central Asia. It was hunted to extinction and lost its habitat to farming. The last one was shot in 1970. Closely related to the Siberian Tiger, it may one day be brought back through a reintroduction programme."
+    },
+    {
+      "lang": "vi",
+      "title": "Hổ Caspi (Tuyệt chủng ~1970)",
+      "description": "Hổ Caspi là loài hổ lớn hùng vĩ từng lang thang qua các thung lũng sông và rừng quanh biển Caspi từ Iran đến Trung Á. Nó bị săn bắn đến tuyệt chủng và mất môi trường sống do nông nghiệp. Con cuối cùng bị bắn vào năm 1970. Có họ hàng gần với Hổ Siberia, nó có thể một ngày nào đó được tái thả vào thiên nhiên thông qua chương trình phục hồi."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which region did the Caspian Tiger live?",
+      "question_type": "single",
+      "options": ["Southeast Asia and Indonesia", "Around the Caspian Sea from Iran to Central Asia", "The jungles of India", "The forests of Eastern Europe"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hổ Caspi sống ở khu vực nào?",
+      "question_type": "single",
+      "options": ["Đông Nam Á và Indonesia", "Quanh biển Caspi từ Iran đến Trung Á", "Rừng nhiệt đới Ấn Độ", "Rừng Đông Âu"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which living tiger is the Caspian Tiger's closest relative?",
+      "question_type": "single",
+      "options": ["Bengal Tiger", "Sumatran Tiger", "Amur (Siberian) Tiger", "Indochinese Tiger"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Loài hổ còn sống nào là họ hàng gần nhất của Hổ Caspi?",
+      "question_type": "single",
+      "options": ["Hổ Bengal", "Hổ Sumatra", "Hổ Amur (Siberia)", "Hổ Đông Dương"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

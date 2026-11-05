@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 39.9163,
+  "longitude": 116.3972,
+  "country_code": "CN",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Forbidden City (Palace Museum), Dongcheng District, Beijing, China",
+  "fun_facts": [
+    "The Forbidden City has 9,999 rooms — builders stopped at 9,999 because they believed only heaven could have 10,000 rooms!",
+    "It took one million workers just one year to build the Forbidden City, and ordinary people were forbidden from entering — that's how it got its name!",
+    "The palace was home to 24 different Chinese emperors over nearly 500 years."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Forbidden City",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Forbidden City",
+      "description": "The Forbidden City is a magnificent palace complex in the heart of Beijing that was once home to China's emperors. With nearly 10,000 rooms and bright red walls, it is the world's largest ancient palace.",
+      "history": "Built between 1406 and 1420 during the Ming Dynasty, the Forbidden City served as the imperial palace of China for almost 500 years. Today it is a museum visited by millions of people each year and is a UNESCO World Heritage Site."
+    },
+    {
+      "lang": "vi",
+      "title": "Tử Cấm Thành",
+      "description": "Tử Cấm Thành là một khu cung điện tráng lệ ở trung tâm Bắc Kinh, từng là nơi ở của các hoàng đế Trung Quốc. Với gần 10.000 phòng và những bức tường đỏ tươi, đây là cung điện cổ đại lớn nhất thế giới.",
+      "history": "Được xây dựng từ năm 1406 đến 1420 dưới thời nhà Minh, Tử Cấm Thành là cung điện hoàng gia của Trung Quốc trong gần 500 năm. Ngày nay, đây là bảo tàng được hàng triệu du khách tham quan mỗi năm và là Di sản Thế giới UNESCO."
+    }
+  ],
+  "start_year": 1420,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which city is the Forbidden City located?",
+      "question_type": "single",
+      "options": ["Shanghai", "Hong Kong", "Beijing", "Guangzhou"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tử Cấm Thành nằm ở thành phố nào?",
+      "question_type": "single",
+      "options": ["Thượng Hải", "Hồng Kông", "Bắc Kinh", "Quảng Châu"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Approximately how many rooms does the Forbidden City have?",
+      "question_type": "single",
+      "options": ["999", "5,000", "9,999", "20,000"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Tử Cấm Thành có khoảng bao nhiêu phòng?",
+      "question_type": "single",
+      "options": ["999", "5.000", "9.999", "20.000"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

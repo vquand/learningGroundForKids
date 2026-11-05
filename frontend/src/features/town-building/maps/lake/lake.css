@@ -1,0 +1,41 @@
+/* Lake artwork and behavior only. Page geometry, type and controls belong to TownMapHost. */
+.lake-art,.lake-stage{display:block;width:100%;height:100%}
+.town-blueprint>.lake-art{width:100%;height:100%}
+.lake-scene{position:absolute;inset:0;display:grid;place-items:center;overflow:hidden}
+.lake-scene canvas{display:block;touch-action:none;border-radius:13px;max-width:100%;max-height:100%}
+.lake-building-actions{position:absolute;display:flex;gap:6px;z-index:2;max-width:calc(100% - 14px);width:max-content;flex-wrap:wrap;justify-content:center;height:auto}
+.lake-building-actions[hidden]{display:none}
+.lake-building-actions .lake-object-action{flex:0 0 50px;width:50px;min-width:50px;height:50px;min-height:50px;padding:6px}
+.lake-building-actions svg{width:34px;height:34px;display:block}
+.lake-object-action{width:44px;min-width:44px;height:44px;min-height:44px;padding:6px;display:inline-flex;align-items:center;justify-content:center}
+.lake-object-action>svg,.lake-object-action>.town-sprite,.lake-object-action>.lake-art{width:30px;height:30px}
+.lake-fish-add{position:relative;display:block;width:30px;height:30px}
+.lake-fish-add>svg:last-child:not(:first-child){position:absolute;right:-3px;bottom:-4px;width:17px;height:17px;background:#eff3db;border-radius:50%}
+.town-page .lake-river-return{position:absolute;z-index:3;width:64px;height:64px;min-height:64px;border:0;padding:0;background:transparent;filter:drop-shadow(0 3px 1px #62443133);animation:town-map-exit-jump 5s ease-in-out infinite}
+.lake-river-return>span{display:block;width:100%;height:100%;transform:scaleX(-1)}
+.lake-river-return[hidden]{display:none}
+.lake-preview-art{width:100px;height:64px;align-self:center;flex-shrink:0}
+.lake-preview-art .town-sprite{width:100%;height:100%}
+.lake-population{text-align:center;font-weight:800}
+.lake-selection-heading h2{font-size:15px;margin:0}
+.lake-habitat-note,.lake-reserve{font-size:11px}
+.lake-cost{display:flex;flex-wrap:wrap;gap:6px;font-size:11px}
+.lake-cost>span{display:flex;align-items:center;gap:3px}
+.lake-cost .town-material-icon{width:26px;height:26px}
+.lake-short,.lake-error{color:#a14d3b}
+.lake-error{display:flex;align-items:center;gap:6px}
+.lake-error span{flex:1}
+.lake-bonus,.lake-harvest-count{padding:5px;border-radius:8px;background:#e8eed8}
+.lake-fishing-link{font-weight:700}
+.lake-destination-map{width:100%;height:auto;max-height:55dvh;border-radius:12px}
+.lake-inhabitant-choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:12px}
+.lake-inhabitant-choices button{display:flex;flex-direction:column;align-items:center;gap:4px;min-width:0}
+.lake-inhabitant-choices .lake-art{height:62px;width:92px}
+.lake-inhabitant-choices strong{font-size:15px}
+.lake-inhabitant-choices small{font-size:12px}
+.lake-inhabitant-choices button:disabled,.lake-inhabitant-choices button[aria-disabled=true]{opacity:.58;filter:saturate(.65);cursor:not-allowed}
+.lake-inhabitant-choices button[aria-pressed=true]{border-color:#6d994d;background:#e7f0d6;box-shadow:0 0 0 2px #6d994d66}
+.lake-inhabitant-choices .lake-choice-error{color:#a14d3b;font-weight:700;text-align:center}
+.lake-harvest-choice .town-map-dialog-body{text-align:center}
+.lake-harvest-choice .lake-art{width:144px;height:96px;margin:0 auto 12px}
+@media(prefers-reduced-motion:reduce){.town-page .lake-river-return{animation:none}}

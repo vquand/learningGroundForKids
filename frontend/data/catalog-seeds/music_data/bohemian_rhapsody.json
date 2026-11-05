@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 51.5074,
+  "longitude": -0.1278,
+  "country_code": "GB",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Queen",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Bohemian Rhapsody — Queen",
+      "description": "A magical rock song that changes from soft and gentle to loud and powerful, almost like a mini adventure story told through music!",
+      "history": "Queen's singer Freddie Mercury wrote this amazing song in 1975 and mixed opera, rock, and ballad all into one — nobody had ever done anything like it before!"
+    },
+    {
+      "lang": "vi",
+      "title": "Bohemian Rhapsody — Queen",
+      "description": "Một bài nhạc rock kỳ diệu thay đổi từ nhẹ nhàng, tha thiết đến mạnh mẽ, sôi động — giống như một cuộc phiêu lưu nhỏ được kể qua âm nhạc!",
+      "history": "Ca sĩ Freddie Mercury của ban nhạc Queen viết bài hát tuyệt vời này năm 1975, kết hợp opera, rock và ballad vào một — chưa ai từng làm điều đó trước đây!"
+    }
+  ],
+  "start_year": 1975,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Which band performed 'Bohemian Rhapsody'?", "question_type": "single", "options": ["The Beatles", "Queen", "ABBA", "Led Zeppelin"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ban nhạc nào biểu diễn bài 'Bohemian Rhapsody'?", "question_type": "single", "options": ["The Beatles", "Queen", "ABBA", "Led Zeppelin"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Who was the lead singer of Queen who wrote 'Bohemian Rhapsody'?", "question_type": "single", "options": ["David Bowie", "Freddie Mercury", "Mick Jagger", "Roger Daltrey"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Ca sĩ chính của Queen đã viết bài 'Bohemian Rhapsody' là ai?", "question_type": "single", "options": ["David Bowie", "Freddie Mercury", "Mick Jagger", "Roger Daltrey"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

@@ -1,0 +1,97 @@
+/* Side panel: blueprints take the space left above a detail card that stays
+   pinned to the bottom and never takes more than 60% of the panel. */
+.town-map-screen .town-palette{overflow:hidden}
+.town-building-panel{--town-blueprint-size:54px;display:flex;flex-direction:column;gap:8px;flex:1;min-height:0;height:100%}
+.town-map-screen .town-building-panel .town-map-catalog{display:flex;flex-direction:column;gap:6px;flex:1 1 0;min-height:96px}
+.town-building-panel>.town-build-detail{flex:0 1 auto;max-height:60%;min-height:0;overflow-x:hidden;overflow-y:auto;border-top:1px solid #e3d8c4;padding-top:8px;overscroll-behavior:contain}
+.town-group-tabs{display:grid;grid-template-columns:repeat(auto-fill,minmax(44px,1fr));gap:4px}
+.town-group-tab{height:44px;min-height:44px;padding:4px!important;border-radius:12px!important;border:2px solid #e9dec9!important;background:#fffcf6!important;display:grid;place-items:center}
+.town-group-tab>*{width:100%;height:100%;max-height:34px;object-fit:contain}
+/* The open group takes the list's own tint, so it reads as a folder tab and not as a chosen building. */
+.town-group-tab[aria-pressed=true]{border-color:#d9c7a6!important;background:#f3e9d4!important}
+.town-book-tab{background:#f3edfa!important;border-color:#5b3f8c!important}
+.town-book-tab:hover:not(:disabled){background:#e8ddf5!important}
+.town-group-name{margin:0;font-size:13px;font-weight:800;color:#6f553f}
+.town-catalog-area{flex:1;min-height:0;display:flex;flex-direction:column;gap:6px;background:#f3e9d4;border:2px solid #d9c7a6;border-radius:14px;padding:8px}
+.town-map-screen .town-building-panel .town-blueprints{display:grid;grid-template-columns:repeat(auto-fill,var(--town-blueprint-size));gap:6px;justify-content:start;align-content:start;min-height:0;flex:1}
+.town-map-screen .town-building-panel .town-blueprint{width:var(--town-blueprint-size);height:var(--town-blueprint-size)!important;min-height:var(--town-blueprint-size)!important;padding:4px!important;aspect-ratio:auto}
+.town-map-screen .town-building-panel .town-blueprint>*:not(.town-blueprint-lock){width:100%;height:100%;max-height:none}
+.town-building-panel .town-pagination{flex:none;min-height:38px;align-items:center}
+.town-group-empty{font-size:12px;color:#8c7862;margin:0}
+
+/* The shared detail card (panel bottom and building book). */
+.building-card{display:flex;flex-direction:column;gap:8px;min-width:0}
+.building-card-head{display:flex;align-items:center;gap:10px}
+.building-card-art{width:72px;height:60px;flex:none;display:grid;place-items:center;background:#fdf6e8;border:2px solid #eadfcb;border-radius:16px;padding:4px}
+.building-card-art>*{width:100%;height:100%;object-fit:contain}
+.building-card-name{margin:0;font-size:20px;line-height:1.15;font-weight:850;color:#5d4330}
+.building-card-description{margin:0;font-size:14px;line-height:1.4;color:#6f5a46}
+.building-card-speak{float:right;width:40px;height:40px;min-height:40px!important;margin:0 0 4px 8px;padding:5px!important;border-radius:50%!important;border:2px solid #e2c8a2!important;background:#fdf0dc!important}
+.building-card-speak svg{width:100%;height:100%}
+.building-card-speak[data-speaking=true]{background:#e4edcf!important;border-color:#9fbf86!important}
+.building-card-cost h4{margin:0 0 4px;font-size:14px;color:#5d4330;display:flex;flex-direction:column}
+.building-card-cost h4 small{font-size:11px;font-weight:600;color:#9c856e}
+.building-card-cost>p{margin:0;font-size:12px}
+.building-card-extra{display:flex;flex-direction:column;gap:4px}
+.building-card-extra p{margin:0;font-size:12px;line-height:1.35;color:#7d6852}
+.building-card.is-empty .building-card-description{font-size:13px}
+
+/* Chubby progress bar: flat pastel colours and a thick soft outline, in the Town palette. */
+.building-progress{display:flex;align-items:center;gap:8px}
+.building-progress-icon{position:relative;width:44px;height:44px;flex:none;display:grid;place-items:center;background:#fffaf0;border:4px solid #e3d3b4;border-radius:16px}
+.building-progress-icon>:first-child{width:30px;height:30px;object-fit:contain}
+.building-progress-icon>b{position:absolute;right:-9px;bottom:-9px;min-width:24px;height:24px;padding:0 5px;border-radius:12px;background:#f2d9a8;border:3px solid #fffaf0;color:#6a4c37;font-size:12px;line-height:18px;text-align:center}
+.building-progress-track{position:relative;flex:1;height:28px;border-radius:16px;background:#f3ead7;border:4px solid #d9c6a2;overflow:hidden;animation:building-progress-jiggle 3.2s ease-in-out infinite;transform-origin:center}
+.building-progress-fill{position:absolute;inset:0 auto 0 0;border-radius:12px;background:#b9dba3;transition:width .6s cubic-bezier(.34,1.56,.64,1)}
+.building-progress-label{position:absolute;inset:0;display:grid;place-items:center;font-size:11px;font-weight:800;color:#6a4c37}
+/* Squash and stretch vertically only: growing wider would overrun the card and flash a scrollbar. */
+@keyframes building-progress-jiggle{0%,82%,100%{transform:none}86%{transform:scaleY(.9)}90%{transform:scaleY(1.08)}94%{transform:scaleY(.97)}}
+@media(prefers-reduced-motion:reduce){.building-progress-track{animation:none}.building-progress-fill{transition:none}}
+
+/* Building book dialog. */
+.town-building-book{width:min(940px,94vw);max-height:min(90dvh,760px);flex-direction:column;border:5px solid #5b3f8c;box-shadow:0 0 0 3px #d9cdee,0 16px 45px #2e1f4d44}
+.town-building-book[open]{display:flex}
+.town-building-book .town-map-dialog-body{flex:1;min-height:0;display:flex}
+.town-book-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(240px,320px);gap:16px;flex:1;min-height:0}
+.town-book-sections{overflow:auto;min-height:0;padding-right:4px;display:flex;flex-direction:column;gap:14px;overscroll-behavior:contain}
+.town-book-sections h3{display:flex;align-items:center;gap:8px;margin:0 0 6px;font-size:16px;color:#5d4330}
+.town-book-section-icon{width:32px;height:32px;display:grid;place-items:center}
+.town-book-section-icon>*{width:100%;height:100%}
+.town-book-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:8px}
+.town-book-item{display:flex;flex-direction:column;align-items:center;gap:4px;padding:6px!important;min-height:96px;border:2px solid #e9dec9!important;background:#fffcf6!important;border-radius:14px!important;font-size:12px;line-height:1.2;text-align:center}
+.town-book-item.is-selected{border-color:#749b78!important;background:#edf2df!important}
+.town-book-item-art{position:relative;width:60px;height:52px;display:grid;place-items:center}
+.town-book-item-art>:first-child{width:100%;height:100%}
+.town-building-book .building-card{overflow-x:hidden;overflow-y:auto;min-height:0;background:#fffaf1;border:1px solid #e3d8c4;border-radius:16px;padding:12px}
+.town-book-build{background:#e4edcf!important;border-color:#9fbf86!important;font-weight:800}
+@media(orientation:portrait){
+  .town-book-layout{grid-template-columns:1fr;grid-template-rows:minmax(0,1fr) auto}
+  .town-building-book .building-card{max-height:42dvh}
+  /* Portrait: one bottom panel, building list on the left and the selected building's details on the right. */
+  .town-map-screen .town-palette{height:clamp(240px,36dvh,400px)}
+  .town-building-panel{flex-direction:row}
+  .town-building-panel>.town-build-detail{flex:0 0 50%;max-height:none;border-top:none;border-left:1px solid #e3d8c4;padding:0 0 0 10px}
+}
+.lake-from-town-icon{position:relative;display:block}
+.lake-from-town-icon>svg:last-child{position:absolute;right:-4px;bottom:-4px;width:55%;height:55%;background:#fffaf0;border-radius:50%}
+/* An empty status line takes no room; it stays in the DOM as the live region. */
+.town-build-detail .town-placement-status:empty{min-height:0;flex:0 0 0;padding:0}
+.town-lock-footer p{margin:0}
+@media(orientation:landscape){
+  .town-building-panel{--town-blueprint-size:clamp(44px,6.5dvh,54px);gap:6px}
+  .town-map-screen .town-building-panel .town-map-catalog{flex-shrink:0;min-height:min-content}
+  /* Keep a complete tile row plus a glimpse of the next above the detail card. */
+  .town-catalog-area{min-height:calc(1.3 * var(--town-blueprint-size) + 26px);padding:6px}
+  .town-catalog-area:has(.town-pagination){min-height:calc(1.3 * var(--town-blueprint-size) + 70px)}
+  .town-building-panel>.town-build-detail{max-height:50%;padding-top:6px}
+  .town-building-panel .building-card{gap:6px}
+  .town-building-panel .building-card-art{width:54px;height:48px}
+  .town-building-panel .building-card-name{font-size:18px}
+  .town-building-panel .building-card-description{font-size:13px;line-height:1.35}
+}
+@media(orientation:landscape) and (max-height:680px){
+  .town-map-screen .town-building-panel .building-card{gap:4px}
+  .town-building-panel .building-card-art{width:44px;height:36px;border-radius:12px}
+  .town-map-screen .town-building-panel .building-card p{margin:0}
+  .town-building-panel .building-card-cost h4{margin-bottom:2px}
+}

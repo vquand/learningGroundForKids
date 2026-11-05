@@ -1,0 +1,1780 @@
+[
+  {
+    "key": "math",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Math",
+    "vi": "Toán"
+  },
+  {
+    "key": "vietnamese",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Vietnamese",
+    "vi": "Tiếng Việt"
+  },
+  {
+    "key": "english",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "English",
+    "vi": "Tiếng Anh"
+  },
+  {
+    "key": "science",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Science",
+    "vi": "Khoa học"
+  },
+  {
+    "key": "history_geography",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "History and Geography",
+    "vi": "Lịch sử và Địa lí"
+  },
+  {
+    "key": "nature_society",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Nature and Society",
+    "vi": "Tự nhiên và Xã hội"
+  },
+  {
+    "key": "art",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Art",
+    "vi": "Mĩ thuật"
+  },
+  {
+    "key": "music",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Music",
+    "vi": "Âm nhạc"
+  },
+  {
+    "key": "computer",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Computer Studies",
+    "vi": "Tin học"
+  },
+  {
+    "key": "technology",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Technology",
+    "vi": "Công nghệ"
+  },
+  {
+    "key": "ethics",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Ethics",
+    "vi": "Đạo đức"
+  },
+  {
+    "key": "handwriting_dictation",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Handwriting and Dictation",
+    "vi": "Tập viết và Chính tả"
+  },
+  {
+    "key": "reading",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Reading",
+    "vi": "Đọc sách"
+  },
+  {
+    "key": "life_skills",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Life Skills",
+    "vi": "Kĩ năng sống"
+  },
+  {
+    "key": "experiential_activities",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Experiential Activities",
+    "vi": "Hoạt động trải nghiệm"
+  },
+  {
+    "key": "homeroom",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Homeroom",
+    "vi": "Sinh hoạt lớp"
+  },
+  {
+    "key": "flag_salutation",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Flag Salutation",
+    "vi": "Chào cờ"
+  },
+  {
+    "key": "stem",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "STEM",
+    "vi": "STEM"
+  },
+  {
+    "key": "coding",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Coding",
+    "vi": "Lập trình"
+  },
+  {
+    "key": "second_language",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Second Language",
+    "vi": "Ngoại ngữ 2"
+  },
+  {
+    "key": "craft",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Craft",
+    "vi": "Thủ công"
+  },
+  {
+    "key": "library",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Library",
+    "vi": "Thư viện"
+  },
+  {
+    "key": "self_study",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Self-study",
+    "vi": "Tự học"
+  },
+  {
+    "key": "extra_tutoring",
+    "group": "study",
+    "subgroup": "subject",
+    "en": "Extra Tutoring",
+    "vi": "Học thêm"
+  },
+  {
+    "key": "pe_swimming",
+    "group": "study",
+    "subgroup": "pe",
+    "en": "Swimming",
+    "vi": "Bơi lội"
+  },
+  {
+    "key": "pe_football",
+    "group": "study",
+    "subgroup": "pe",
+    "en": "Football",
+    "vi": "Bóng đá"
+  },
+  {
+    "key": "pe_basketball",
+    "group": "study",
+    "subgroup": "pe",
+    "en": "Basketball",
+    "vi": "Bóng rổ"
+  },
+  {
+    "key": "pe_badminton",
+    "group": "study",
+    "subgroup": "pe",
+    "en": "Badminton",
+    "vi": "Cầu lông"
+  },
+  {
+    "key": "pe_table_tennis",
+    "group": "study",
+    "subgroup": "pe",
+    "en": "Table Tennis",
+    "vi": "Bóng bàn"
+  },
+  {
+    "key": "pe_volleyball",
+    "group": "study",
+    "subgroup": "pe",
+    "en": "Volleyball",
+    "vi": "Bóng chuyền"
+  },
+  {
+    "key": "pe_gymnastics",
+    "group": "study",
+    "subgroup": "pe",
+    "en": "Gymnastics",
+    "vi": "Thể dục dụng cụ"
+  },
+  {
+    "key": "pe_athletics",
+    "group": "study",
+    "subgroup": "pe",
+    "en": "Athletics",
+    "vi": "Điền kinh"
+  },
+  {
+    "key": "pe_martial_arts",
+    "group": "study",
+    "subgroup": "pe",
+    "en": "Martial Arts",
+    "vi": "Võ thuật"
+  },
+  {
+    "key": "pe_dance",
+    "group": "study",
+    "subgroup": "pe",
+    "en": "Dance",
+    "vi": "Múa"
+  },
+  {
+    "key": "pe_cycling",
+    "group": "study",
+    "subgroup": "pe",
+    "en": "Cycling",
+    "vi": "Đạp xe"
+  },
+  {
+    "key": "pe_skating",
+    "group": "study",
+    "subgroup": "pe",
+    "en": "Inline Skating",
+    "vi": "Trượt patin"
+  },
+  {
+    "key": "club_flower_decoration",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Flower Arranging Club",
+    "vi": "CLB Cắm hoa"
+  },
+  {
+    "key": "club_chess",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Chess Club",
+    "vi": "CLB Cờ vua"
+  },
+  {
+    "key": "club_football",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Football Club",
+    "vi": "CLB Bóng đá"
+  },
+  {
+    "key": "club_drawing",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Drawing Club",
+    "vi": "CLB Vẽ"
+  },
+  {
+    "key": "club_piano",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Piano Club",
+    "vi": "CLB Piano"
+  },
+  {
+    "key": "club_guitar",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Guitar Club",
+    "vi": "CLB Guitar"
+  },
+  {
+    "key": "club_singing",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Singing Club",
+    "vi": "CLB Hát"
+  },
+  {
+    "key": "club_coding",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Coding Club",
+    "vi": "CLB Lập trình"
+  },
+  {
+    "key": "club_science",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Science Club",
+    "vi": "CLB Khoa học"
+  },
+  {
+    "key": "club_debate",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Debate Club",
+    "vi": "CLB Tranh biện"
+  },
+  {
+    "key": "club_reading",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Reading Club",
+    "vi": "CLB Đọc sách"
+  },
+  {
+    "key": "club_english",
+    "group": "study",
+    "subgroup": "club",
+    "en": "English Club",
+    "vi": "CLB Tiếng Anh"
+  },
+  {
+    "key": "club_robotics",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Robotics Club",
+    "vi": "CLB Robot"
+  },
+  {
+    "key": "club_cooking",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Cooking Club",
+    "vi": "CLB Nấu ăn"
+  },
+  {
+    "key": "club_calligraphy",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Calligraphy Club",
+    "vi": "CLB Thư pháp"
+  },
+  {
+    "key": "club_drama",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Drama Club",
+    "vi": "CLB Kịch"
+  },
+  {
+    "key": "club_photography",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Photography Club",
+    "vi": "CLB Nhiếp ảnh"
+  },
+  {
+    "key": "club_scouts",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Scouts Club",
+    "vi": "CLB Hướng đạo"
+  },
+  {
+    "key": "club_origami",
+    "group": "study",
+    "subgroup": "club",
+    "en": "Origami Club",
+    "vi": "CLB Gấp giấy"
+  },
+  {
+    "key": "sunrise",
+    "group": "time",
+    "subgroup": null,
+    "en": "Sunrise",
+    "vi": "Bình minh"
+  },
+  {
+    "key": "sunset",
+    "group": "time",
+    "subgroup": null,
+    "en": "Sunset",
+    "vi": "Hoàng hôn"
+  },
+  {
+    "key": "sunny",
+    "group": "weather",
+    "subgroup": null,
+    "en": "Sunny",
+    "vi": "Nắng"
+  },
+  {
+    "key": "partly_cloudy",
+    "group": "weather",
+    "subgroup": null,
+    "en": "Partly cloudy",
+    "vi": "Ít mây"
+  },
+  {
+    "key": "cloudy",
+    "group": "weather",
+    "subgroup": null,
+    "en": "Cloudy",
+    "vi": "Nhiều mây"
+  },
+  {
+    "key": "fog",
+    "group": "weather",
+    "subgroup": null,
+    "en": "Fog",
+    "vi": "Sương mù"
+  },
+  {
+    "key": "drizzle",
+    "group": "weather",
+    "subgroup": null,
+    "en": "Drizzle",
+    "vi": "Mưa phùn"
+  },
+  {
+    "key": "rain",
+    "group": "weather",
+    "subgroup": null,
+    "en": "Rain",
+    "vi": "Mưa"
+  },
+  {
+    "key": "heavy_rain",
+    "group": "weather",
+    "subgroup": null,
+    "en": "Heavy rain",
+    "vi": "Mưa to"
+  },
+  {
+    "key": "thunderstorm",
+    "group": "weather",
+    "subgroup": null,
+    "en": "Thunderstorm",
+    "vi": "Dông"
+  },
+  {
+    "key": "clear_night",
+    "group": "weather",
+    "subgroup": null,
+    "en": "Clear night",
+    "vi": "Trời quang (đêm)"
+  },
+  {
+    "key": "hot",
+    "group": "weather",
+    "subgroup": null,
+    "en": "Hot",
+    "vi": "Nắng nóng"
+  },
+  {
+    "key": "windy",
+    "group": "weather",
+    "subgroup": null,
+    "en": "Windy",
+    "vi": "Gió"
+  },
+  {
+    "key": "cloudy_night",
+    "group": "weather",
+    "subgroup": null,
+    "en": "Cloudy night",
+    "vi": "Nhiều mây (đêm)"
+  },
+  {
+    "key": "rice",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Rice",
+    "vi": "Cơm"
+  },
+  {
+    "key": "sticky_rice",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Sticky rice",
+    "vi": "Xôi"
+  },
+  {
+    "key": "porridge",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Porridge",
+    "vi": "Cháo"
+  },
+  {
+    "key": "pho",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Pho",
+    "vi": "Phở"
+  },
+  {
+    "key": "noodles",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Noodles",
+    "vi": "Mì"
+  },
+  {
+    "key": "fried_rice",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Fried rice",
+    "vi": "Cơm rang"
+  },
+  {
+    "key": "banh_mi",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Vietnamese baguette sandwich",
+    "vi": "Bánh mì"
+  },
+  {
+    "key": "sandwich",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Sandwich",
+    "vi": "Bánh sandwich"
+  },
+  {
+    "key": "eggs",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Eggs",
+    "vi": "Trứng"
+  },
+  {
+    "key": "grilled_chicken",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Grilled chicken",
+    "vi": "Gà nướng"
+  },
+  {
+    "key": "fried_chicken",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Fried chicken",
+    "vi": "Gà rán"
+  },
+  {
+    "key": "pork",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Pork",
+    "vi": "Thịt lợn"
+  },
+  {
+    "key": "beef",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Beef",
+    "vi": "Thịt bò"
+  },
+  {
+    "key": "fish",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Fish",
+    "vi": "Cá"
+  },
+  {
+    "key": "shrimp",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Shrimp",
+    "vi": "Tôm"
+  },
+  {
+    "key": "tofu",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Tofu",
+    "vi": "Đậu phụ"
+  },
+  {
+    "key": "vegetables",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Vegetables",
+    "vi": "Rau"
+  },
+  {
+    "key": "salad",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Salad",
+    "vi": "Salad"
+  },
+  {
+    "key": "soup",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Clear soup",
+    "vi": "Canh"
+  },
+  {
+    "key": "spring_rolls",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Fried spring rolls",
+    "vi": "Nem rán"
+  },
+  {
+    "key": "dumplings",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Dumplings",
+    "vi": "Há cảo"
+  },
+  {
+    "key": "pizza",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Pizza",
+    "vi": "Pizza"
+  },
+  {
+    "key": "pasta",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Pasta",
+    "vi": "Mì Ý"
+  },
+  {
+    "key": "burger",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Burger",
+    "vi": "Bánh mì kẹp thịt"
+  },
+  {
+    "key": "fruit",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Mixed fruit",
+    "vi": "Hoa quả"
+  },
+  {
+    "key": "banana",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Banana",
+    "vi": "Chuối"
+  },
+  {
+    "key": "apple",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Apple",
+    "vi": "Táo"
+  },
+  {
+    "key": "orange",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Orange",
+    "vi": "Cam"
+  },
+  {
+    "key": "watermelon",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Watermelon",
+    "vi": "Dưa hấu"
+  },
+  {
+    "key": "yogurt",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Yogurt",
+    "vi": "Sữa chua"
+  },
+  {
+    "key": "cheese",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Cheese",
+    "vi": "Phô mai"
+  },
+  {
+    "key": "bread",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Sliced bread",
+    "vi": "Bánh mì sandwich"
+  },
+  {
+    "key": "cake",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Cake",
+    "vi": "Bánh ngọt"
+  },
+  {
+    "key": "cookies",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Cookies",
+    "vi": "Bánh quy"
+  },
+  {
+    "key": "ice_cream",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Ice cream",
+    "vi": "Kem"
+  },
+  {
+    "key": "chocolate",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Chocolate",
+    "vi": "Sô cô la"
+  },
+  {
+    "key": "milk_box",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Milk carton with straw",
+    "vi": "Sữa hộp có ống hút"
+  },
+  {
+    "key": "canned_milk",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Canned milk",
+    "vi": "Sữa lon"
+  },
+  {
+    "key": "soy_milk",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Soy milk",
+    "vi": "Sữa đậu nành"
+  },
+  {
+    "key": "juice",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Juice",
+    "vi": "Nước ép"
+  },
+  {
+    "key": "water",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Water",
+    "vi": "Nước lọc"
+  },
+  {
+    "key": "tea",
+    "group": "meal",
+    "subgroup": null,
+    "en": "Tea",
+    "vi": "Trà"
+  },
+  {
+    "key": "tablet",
+    "group": "medicine",
+    "subgroup": null,
+    "en": "Tablet",
+    "vi": "Viên nén"
+  },
+  {
+    "key": "capsule",
+    "group": "medicine",
+    "subgroup": null,
+    "en": "Capsule",
+    "vi": "Viên nang"
+  },
+  {
+    "key": "syrup",
+    "group": "medicine",
+    "subgroup": null,
+    "en": "Syrup",
+    "vi": "Siro"
+  },
+  {
+    "key": "drops",
+    "group": "medicine",
+    "subgroup": null,
+    "en": "Drops",
+    "vi": "Thuốc nhỏ giọt"
+  },
+  {
+    "key": "cream_tube",
+    "group": "medicine",
+    "subgroup": null,
+    "en": "Ointment",
+    "vi": "Thuốc bôi"
+  },
+  {
+    "key": "powder_in_water",
+    "group": "medicine",
+    "subgroup": null,
+    "en": "Powder dissolved in water",
+    "vi": "Thuốc bột pha nước"
+  },
+  {
+    "key": "inhaler",
+    "group": "medicine",
+    "subgroup": null,
+    "en": "Inhaler",
+    "vi": "Thuốc xịt hít"
+  },
+  {
+    "key": "patch",
+    "group": "medicine",
+    "subgroup": null,
+    "en": "Adhesive patch",
+    "vi": "Miếng dán"
+  },
+  {
+    "key": "eye_nose_drops",
+    "group": "medicine",
+    "subgroup": null,
+    "en": "Eye / nose drops",
+    "vi": "Thuốc nhỏ mắt / mũi"
+  },
+  {
+    "key": "tet",
+    "group": "system_event",
+    "subgroup": null,
+    "en": "Tết",
+    "vi": "Tết"
+  },
+  {
+    "key": "mid_autumn",
+    "group": "system_event",
+    "subgroup": null,
+    "en": "Mid-Autumn Festival",
+    "vi": "Trung thu"
+  },
+  {
+    "key": "halloween",
+    "group": "system_event",
+    "subgroup": null,
+    "en": "Halloween",
+    "vi": "Halloween"
+  },
+  {
+    "key": "christmas",
+    "group": "system_event",
+    "subgroup": null,
+    "en": "Christmas",
+    "vi": "Giáng sinh"
+  },
+  {
+    "key": "national_day",
+    "group": "system_event",
+    "subgroup": null,
+    "en": "Vietnam National Day",
+    "vi": "Quốc khánh 2/9"
+  },
+  {
+    "key": "womens_day_oct20",
+    "group": "system_event",
+    "subgroup": null,
+    "en": "Vietnamese Women’s Day",
+    "vi": "Ngày Phụ nữ Việt Nam 20/10"
+  },
+  {
+    "key": "womens_day_mar8",
+    "group": "system_event",
+    "subgroup": null,
+    "en": "International Women’s Day",
+    "vi": "Ngày Quốc tế Phụ nữ 8/3"
+  },
+  {
+    "key": "teachers_day",
+    "group": "system_event",
+    "subgroup": null,
+    "en": "Vietnamese Teachers’ Day",
+    "vi": "Ngày Nhà giáo Việt Nam 20/11"
+  },
+  {
+    "key": "childrens_day",
+    "group": "system_event",
+    "subgroup": null,
+    "en": "International Children’s Day",
+    "vi": "Ngày Quốc tế Thiếu nhi 1/6"
+  },
+  {
+    "key": "fireworks",
+    "group": "event",
+    "subgroup": "celebrations",
+    "en": "Fireworks",
+    "vi": "Pháo hoa"
+  },
+  {
+    "key": "new_year",
+    "group": "event",
+    "subgroup": "celebrations",
+    "en": "New Year",
+    "vi": "Năm mới"
+  },
+  {
+    "key": "lantern",
+    "group": "event",
+    "subgroup": "celebrations",
+    "en": "Lantern",
+    "vi": "Đèn lồng"
+  },
+  {
+    "key": "gift",
+    "group": "event",
+    "subgroup": "celebrations",
+    "en": "Gift",
+    "vi": "Quà"
+  },
+  {
+    "key": "flowers",
+    "group": "event",
+    "subgroup": "celebrations",
+    "en": "Flowers",
+    "vi": "Hoa"
+  },
+  {
+    "key": "flag",
+    "group": "event",
+    "subgroup": "celebrations",
+    "en": "Flag",
+    "vi": "Lá cờ"
+  },
+  {
+    "key": "trophy",
+    "group": "event",
+    "subgroup": "celebrations",
+    "en": "Trophy",
+    "vi": "Cúp"
+  },
+  {
+    "key": "medal",
+    "group": "event",
+    "subgroup": "celebrations",
+    "en": "Medal",
+    "vi": "Huy chương"
+  },
+  {
+    "key": "balloon",
+    "group": "event",
+    "subgroup": "celebrations",
+    "en": "Balloon",
+    "vi": "Bóng bay"
+  },
+  {
+    "key": "confetti",
+    "group": "event",
+    "subgroup": "celebrations",
+    "en": "Confetti",
+    "vi": "Giấy kim tuyến"
+  },
+  {
+    "key": "star",
+    "group": "event",
+    "subgroup": "celebrations",
+    "en": "Star",
+    "vi": "Ngôi sao"
+  },
+  {
+    "key": "heart",
+    "group": "event",
+    "subgroup": "celebrations",
+    "en": "Heart",
+    "vi": "Trái tim"
+  },
+  {
+    "key": "gardening",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Gardening",
+    "vi": "Làm vườn"
+  },
+  {
+    "key": "hiking",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Hiking",
+    "vi": "Đi bộ đường dài"
+  },
+  {
+    "key": "camping",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Camping",
+    "vi": "Cắm trại"
+  },
+  {
+    "key": "beach",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Beach day",
+    "vi": "Đi biển"
+  },
+  {
+    "key": "fishing",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Fishing",
+    "vi": "Câu cá"
+  },
+  {
+    "key": "picnic",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Picnic",
+    "vi": "Dã ngoại"
+  },
+  {
+    "key": "skiing",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Skiing",
+    "vi": "Trượt tuyết"
+  },
+  {
+    "key": "cycling_trip",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Bike ride",
+    "vi": "Đạp xe chơi"
+  },
+  {
+    "key": "kayaking",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Kayaking",
+    "vi": "Chèo kayak"
+  },
+  {
+    "key": "sightseeing",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Sightseeing",
+    "vi": "Tham quan"
+  },
+  {
+    "key": "road_trip",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Road trip",
+    "vi": "Đi xa bằng ô tô"
+  },
+  {
+    "key": "train_trip",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Train trip",
+    "vi": "Đi tàu hỏa"
+  },
+  {
+    "key": "airplane_trip",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Plane trip",
+    "vi": "Đi máy bay"
+  },
+  {
+    "key": "boat_trip",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Boat trip",
+    "vi": "Đi thuyền"
+  },
+  {
+    "key": "zoo",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Zoo",
+    "vi": "Sở thú"
+  },
+  {
+    "key": "aquarium",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Aquarium",
+    "vi": "Thủy cung"
+  },
+  {
+    "key": "museum",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Museum",
+    "vi": "Bảo tàng"
+  },
+  {
+    "key": "amusement_park",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Amusement park",
+    "vi": "Công viên giải trí"
+  },
+  {
+    "key": "playground",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Playground",
+    "vi": "Sân chơi"
+  },
+  {
+    "key": "kite_flying",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Kite flying",
+    "vi": "Thả diều"
+  },
+  {
+    "key": "bird_watching",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Bird watching",
+    "vi": "Ngắm chim"
+  },
+  {
+    "key": "stargazing",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Stargazing",
+    "vi": "Ngắm sao"
+  },
+  {
+    "key": "swimming_pool",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Swimming pool",
+    "vi": "Bể bơi"
+  },
+  {
+    "key": "snow_play",
+    "group": "event",
+    "subgroup": "outdoors",
+    "en": "Snow play",
+    "vi": "Chơi tuyết"
+  },
+  {
+    "key": "cleaning",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Cleaning",
+    "vi": "Dọn dẹp"
+  },
+  {
+    "key": "cooking_together",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Cooking together",
+    "vi": "Cùng nấu ăn"
+  },
+  {
+    "key": "baking",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Baking",
+    "vi": "Làm bánh"
+  },
+  {
+    "key": "shopping",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Shopping",
+    "vi": "Đi chợ"
+  },
+  {
+    "key": "movie_night",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Movie night",
+    "vi": "Xem phim tối"
+  },
+  {
+    "key": "game_night",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Game night",
+    "vi": "Chơi game tối"
+  },
+  {
+    "key": "painting",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Painting",
+    "vi": "Vẽ tranh"
+  },
+  {
+    "key": "crafts",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Crafts",
+    "vi": "Làm thủ công"
+  },
+  {
+    "key": "reading_time",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Reading time",
+    "vi": "Giờ đọc sách"
+  },
+  {
+    "key": "music_lesson",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Music lesson",
+    "vi": "Học nhạc"
+  },
+  {
+    "key": "dance_lesson",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Dance lesson",
+    "vi": "Học nhảy"
+  },
+  {
+    "key": "swimming_lesson",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Swimming lesson",
+    "vi": "Học bơi"
+  },
+  {
+    "key": "drawing_class",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Drawing class",
+    "vi": "Lớp vẽ"
+  },
+  {
+    "key": "coding_class",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Coding class",
+    "vi": "Lớp lập trình"
+  },
+  {
+    "key": "tutoring",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Tutoring",
+    "vi": "Học thêm"
+  },
+  {
+    "key": "building_blocks",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Building blocks",
+    "vi": "Xếp khối"
+  },
+  {
+    "key": "board_game",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Board game",
+    "vi": "Cờ bàn"
+  },
+  {
+    "key": "karaoke",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Karaoke",
+    "vi": "Hát karaoke"
+  },
+  {
+    "key": "photography_walk",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Photo walk",
+    "vi": "Đi chụp ảnh"
+  },
+  {
+    "key": "puzzle",
+    "group": "event",
+    "subgroup": "home",
+    "en": "Puzzle",
+    "vi": "Xếp hình"
+  },
+  {
+    "key": "birthday",
+    "group": "event",
+    "subgroup": "family",
+    "en": "Birthday",
+    "vi": "Sinh nhật"
+  },
+  {
+    "key": "party",
+    "group": "event",
+    "subgroup": "family",
+    "en": "Party",
+    "vi": "Bữa tiệc"
+  },
+  {
+    "key": "sleepover",
+    "group": "event",
+    "subgroup": "family",
+    "en": "Sleepover",
+    "vi": "Ngủ lại nhà bạn"
+  },
+  {
+    "key": "playdate",
+    "group": "event",
+    "subgroup": "family",
+    "en": "Playdate",
+    "vi": "Hẹn chơi với bạn"
+  },
+  {
+    "key": "visit_grandparents",
+    "group": "event",
+    "subgroup": "family",
+    "en": "Visit grandparents",
+    "vi": "Thăm ông bà"
+  },
+  {
+    "key": "family_dinner",
+    "group": "event",
+    "subgroup": "family",
+    "en": "Family dinner",
+    "vi": "Bữa cơm gia đình"
+  },
+  {
+    "key": "wedding",
+    "group": "event",
+    "subgroup": "family",
+    "en": "Wedding",
+    "vi": "Đám cưới"
+  },
+  {
+    "key": "new_baby",
+    "group": "event",
+    "subgroup": "family",
+    "en": "New baby",
+    "vi": "Em bé mới"
+  },
+  {
+    "key": "pet_care",
+    "group": "event",
+    "subgroup": "family",
+    "en": "Pet care",
+    "vi": "Chăm thú cưng"
+  },
+  {
+    "key": "family_photo",
+    "group": "event",
+    "subgroup": "family",
+    "en": "Family photo",
+    "vi": "Chụp ảnh gia đình"
+  },
+  {
+    "key": "video_call",
+    "group": "event",
+    "subgroup": "family",
+    "en": "Video call",
+    "vi": "Gọi video"
+  },
+  {
+    "key": "volunteering",
+    "group": "event",
+    "subgroup": "family",
+    "en": "Volunteering",
+    "vi": "Làm tình nguyện"
+  },
+  {
+    "key": "school_trip",
+    "group": "event",
+    "subgroup": "school",
+    "en": "School trip",
+    "vi": "Đi học ngoại khóa"
+  },
+  {
+    "key": "exam",
+    "group": "event",
+    "subgroup": "school",
+    "en": "Test",
+    "vi": "Bài kiểm tra"
+  },
+  {
+    "key": "homework_due",
+    "group": "event",
+    "subgroup": "school",
+    "en": "Homework due",
+    "vi": "Nộp bài tập"
+  },
+  {
+    "key": "library_visit",
+    "group": "event",
+    "subgroup": "school",
+    "en": "Library visit",
+    "vi": "Đi thư viện"
+  },
+  {
+    "key": "science_fair",
+    "group": "event",
+    "subgroup": "school",
+    "en": "Science fair",
+    "vi": "Hội khoa học"
+  },
+  {
+    "key": "sports_day",
+    "group": "event",
+    "subgroup": "school",
+    "en": "Sports day",
+    "vi": "Ngày hội thể thao"
+  },
+  {
+    "key": "school_play",
+    "group": "event",
+    "subgroup": "school",
+    "en": "School play",
+    "vi": "Vở kịch ở trường"
+  },
+  {
+    "key": "concert",
+    "group": "event",
+    "subgroup": "school",
+    "en": "Concert",
+    "vi": "Buổi hòa nhạc"
+  },
+  {
+    "key": "recital",
+    "group": "event",
+    "subgroup": "school",
+    "en": "Recital",
+    "vi": "Buổi biểu diễn"
+  },
+  {
+    "key": "competition",
+    "group": "event",
+    "subgroup": "school",
+    "en": "Competition",
+    "vi": "Cuộc thi"
+  },
+  {
+    "key": "graduation",
+    "group": "event",
+    "subgroup": "school",
+    "en": "Graduation",
+    "vi": "Lễ tốt nghiệp"
+  },
+  {
+    "key": "parent_meeting",
+    "group": "event",
+    "subgroup": "school",
+    "en": "Parent meeting",
+    "vi": "Họp phụ huynh"
+  },
+  {
+    "key": "doctor",
+    "group": "event",
+    "subgroup": "health",
+    "en": "Doctor visit",
+    "vi": "Đi khám bác sĩ"
+  },
+  {
+    "key": "dentist",
+    "group": "event",
+    "subgroup": "health",
+    "en": "Dentist",
+    "vi": "Khám răng"
+  },
+  {
+    "key": "haircut",
+    "group": "event",
+    "subgroup": "health",
+    "en": "Haircut",
+    "vi": "Cắt tóc"
+  },
+  {
+    "key": "vaccination",
+    "group": "event",
+    "subgroup": "health",
+    "en": "Vaccination",
+    "vi": "Tiêm chủng"
+  },
+  {
+    "key": "eye_check",
+    "group": "event",
+    "subgroup": "health",
+    "en": "Eye check",
+    "vi": "Khám mắt"
+  },
+  {
+    "key": "medicine_time",
+    "group": "event",
+    "subgroup": "health",
+    "en": "Medicine time",
+    "vi": "Giờ uống thuốc"
+  },
+  {
+    "key": "fish_fillet",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Fish fillet on a plate",
+    "vi": "Phi lê cá trên đĩa"
+  },
+  {
+    "key": "grilled_fish",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Grilled fish",
+    "vi": "Cá nướng"
+  },
+  {
+    "key": "canned_fish",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Canned fish",
+    "vi": "Cá hộp"
+  },
+  {
+    "key": "fish_soup",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Fish soup",
+    "vi": "Canh cá"
+  },
+  {
+    "key": "tomato",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Tomato",
+    "vi": "Cà chua"
+  },
+  {
+    "key": "potato",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Potato",
+    "vi": "Khoai tây"
+  },
+  {
+    "key": "cabbage",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Cabbage",
+    "vi": "Bắp cải"
+  },
+  {
+    "key": "carrot",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Carrot",
+    "vi": "Cà rốt"
+  },
+  {
+    "key": "radish",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Radish",
+    "vi": "Củ cải"
+  },
+  {
+    "key": "water_spinach",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Water spinach",
+    "vi": "Rau muống"
+  },
+  {
+    "key": "malabar_spinach",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Malabar spinach",
+    "vi": "Rau mồng tơi"
+  },
+  {
+    "key": "mustard_greens",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Mustard greens",
+    "vi": "Rau cải"
+  },
+  {
+    "key": "bok_choy",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Bok choy",
+    "vi": "Cải thìa"
+  },
+  {
+    "key": "napa_cabbage",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Napa cabbage",
+    "vi": "Cải thảo"
+  },
+  {
+    "key": "raw_beef",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Raw beef",
+    "vi": "Thịt bò sống"
+  },
+  {
+    "key": "beef_plate",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Cooked beef on a plate",
+    "vi": "Thịt bò chín trên đĩa"
+  },
+  {
+    "key": "beef_stew",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Beef stew in a pot",
+    "vi": "Bò hầm trong nồi"
+  },
+  {
+    "key": "grilled_beef",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Grilled beef",
+    "vi": "Bò nướng"
+  },
+  {
+    "key": "raw_pork",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Raw pork",
+    "vi": "Thịt lợn sống"
+  },
+  {
+    "key": "pork_plate",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Cooked pork on a plate",
+    "vi": "Thịt lợn chín trên đĩa"
+  },
+  {
+    "key": "braised_pork",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Braised pork in a pot",
+    "vi": "Thịt kho trong nồi"
+  },
+  {
+    "key": "grilled_pork",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Grilled pork skewers",
+    "vi": "Thịt lợn xiên nướng"
+  },
+  {
+    "key": "rotisserie_pork",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Rotisserie pork",
+    "vi": "Lợn quay"
+  },
+  {
+    "key": "raw_poultry",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Raw poultry",
+    "vi": "Thịt gia cầm sống"
+  },
+  {
+    "key": "poultry_plate",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Cooked poultry on plate",
+    "vi": "Gia cầm chín trên đĩa"
+  },
+  {
+    "key": "poultry_soup",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Poultry soup in a pot",
+    "vi": "Canh gia cầm trong nồi"
+  },
+  {
+    "key": "rotisserie_poultry",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Rotisserie poultry",
+    "vi": "Gia cầm quay"
+  },
+  {
+    "key": "shrimp_plate",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Cooked shrimp",
+    "vi": "Tôm chín"
+  },
+  {
+    "key": "steamed_fish",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Steamed fish",
+    "vi": "Cá hấp"
+  },
+  {
+    "key": "fried_fish",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Fried fish fillet",
+    "vi": "Phi lê cá rán"
+  },
+  {
+    "key": "raw_fish_fillet",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Raw fish fillet",
+    "vi": "Phi lê cá sống"
+  },
+  {
+    "key": "steamed_carrot",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Steamed carrots",
+    "vi": "Cà rốt hấp"
+  },
+  {
+    "key": "stir_fried_water_spinach",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Stir-fried water spinach",
+    "vi": "Rau muống xào"
+  },
+  {
+    "key": "malabar_spinach_soup",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Malabar spinach soup",
+    "vi": "Canh mồng tơi"
+  },
+  {
+    "key": "boiled_cabbage",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Boiled cabbage",
+    "vi": "Bắp cải luộc"
+  },
+  {
+    "key": "grilled_pork_ribs",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Grilled pork ribs",
+    "vi": "Sườn lợn nướng"
+  },
+  {
+    "key": "sausage",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Sausage",
+    "vi": "Xúc xích"
+  },
+  {
+    "key": "fast_food",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Fast food",
+    "vi": "Đồ ăn nhanh"
+  },
+  {
+    "key": "vegetable_soup",
+    "group": "meal",
+    "subgroup": "food",
+    "en": "Vegetable soup",
+    "vi": "Canh rau củ"
+  }
+]

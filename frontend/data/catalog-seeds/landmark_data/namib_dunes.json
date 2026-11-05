@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": -24.7283,
+  "longitude": 15.344,
+  "country_code": "NA",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "The Namib Desert dunes near Sossusvlei in Namibia are among the tallest sand dunes on Earth, glowing vivid red and orange in a landscape shaped by 55 million years of desert winds.",
+  "fun_facts": [
+    "The famous dune called Big Daddy near Sossusvlei is about 325 meters tall — that is almost as tall as the Eiffel Tower — made entirely of sand!",
+    "The sand dunes are bright orange-red because the grains are coated in iron oxide — which is exactly the same stuff that makes rust red.",
+    "The Namib is the oldest desert on Earth, over 55 million years old, which means it was already a desert when there were still dinosaurs alive in other parts of the world."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Namib Desert Dunes",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Namib Desert Dunes",
+      "description": "The Namib Desert dunes near Sossusvlei are among the most spectacular on Earth — giant waves of fire-orange sand rising hundreds of meters high against an impossibly blue sky. At sunrise and sunset the dunes glow like hot coals, casting long purple shadows across the white clay pans below. Despite looking completely lifeless, clever desert animals like beetles, sidewinder snakes, and oryx survive here by harvesting fog and shade.",
+      "history": "The Namib is considered the world's oldest desert, having been arid for at least 55 million years and possibly much longer. The orange color of the dunes deepens over thousands of years as iron in the sand oxidizes, meaning the reddest dunes are actually the oldest. The name Namib comes from the Nama language and means 'vast place', and the wider Namib-Naukluft National Park — the largest in Africa — was established in 1907 to protect this extraordinary landscape."
+    },
+    {
+      "lang": "vi",
+      "title": "Các Cồn Cát Sa Mạc Namib",
+      "description": "Những cồn cát sa mạc Namib gần Sossusvlei là một trong những cồn cát ngoài mức nhất Trái Đất — những làn sóng khổng lồ màu cam lửa cao hàng trăm mét trước bầu trời xanh không tưởng tượng nổi. Vào lúc bình minh và hoàng hôn, những cồn cát cháy sáng như than hồng, đổ những cái bóng tím dài xuống các luống đất sét trắng bạc bên dưới. Dù trông như hoàn toàn không có sự sống, những động vật sa mạc khéo léo như bọ cánh cứng, rắn leo thường và bò rừng tồn tại ở đây bằng cách thu gom sương mù và bóng mát.",
+      "history": "Namib được coi là sa mạc cổ xưa nhất thế giới, đã khô cạn ít nhất 55 triệu năm và có thể lâu hơn nhiều. Màu cam của những cồn cát sâu đậm theo thời gian hàng nghìn năm khi sắt trong cát bị oxy hóa, có nghĩa là những cồn cát đỏ nhất thực chất là những cồn cát già nhất. Tên Namib đến từ tiếng Nama và có nghĩa là 'vùng đất rộng lớn', và Công viên Quốc gia Namib-Naukluft rộng lớn hơn — lớn nhất châu Phi — được thành lập năm 1907 để bảo vệ cảnh quan phi thường này."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country are the Namib Desert Dunes located?",
+      "question_type": "single",
+      "options": ["South Africa", "Botswana", "Namibia", "Angola"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Các Cồn Cát Sa Mạc Namib nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Nam Phi", "Botswana", "Namibia", "Angola"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Why are the Namib dunes bright orange-red?",
+      "question_type": "single",
+      "options": ["They are covered in red clay", "The sand contains iron oxide", "The sun reflects off water", "They are made of coral"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Tại sao các cồn cát Namib có màu cam đỏ rực rỡ?",
+      "question_type": "single",
+      "options": ["Chúng được phủ đất sét đỏ", "Cát chứa sắt oxit", "Mặt trời phản chiếu trên nước", "Chúng được làm từ san hô"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -55000000,
+  "time_precision": "mya"
+}

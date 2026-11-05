@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 34.0522,
+  "longitude": -118.2437,
+  "country_code": "US",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "John Williams",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Star Wars Main Theme — John Williams",
+      "description": "This epic, bold fanfare makes you feel like a space hero about to fly through the galaxy on an incredible adventure — it is impossible not to hum along!",
+      "history": "Composer John Williams wrote this legendary theme in 1977, and it became one of the most recognized pieces of music on Earth — even people who have never seen Star Wars know it!"
+    },
+    {
+      "lang": "vi",
+      "title": "Chủ Đề Chính Star Wars — John Williams",
+      "description": "Giai điệu hùng tráng này sẽ khiến bạn cảm thấy như một anh hùng vũ trụ đang bay xuyên qua thiên hà trong một cuộc phiêu lưu kỳ thú!",
+      "history": "Nhạc sĩ John Williams sáng tác chủ đề huyền thoại này vào năm 1977, và nó trở thành một trong những bản nhạc được nhận ra nhiều nhất trên Trái Đất!"
+    }
+  ],
+  "start_year": 1977,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed the Star Wars Main Theme?", "question_type": "single", "options": ["Hans Zimmer", "Howard Shore", "John Williams", "Jerry Goldsmith"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác Chủ Đề Chính Star Wars?", "question_type": "single", "options": ["Hans Zimmer", "Howard Shore", "John Williams", "Jerry Goldsmith"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "In which year was the Star Wars theme first heard in cinemas?", "question_type": "single", "options": ["1967", "1972", "1977", "1983"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Chủ đề Star Wars lần đầu vang lên trong rạp chiếu phim vào năm nào?", "question_type": "single", "options": ["1967", "1972", "1977", "1983"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

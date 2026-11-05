@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 47.4979,
+  "longitude": 19.0402,
+  "country_code": "HU",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Cut beef into chunks and cook with chopped onions in a big pot until everything is soft. Stir in a big spoonful of sweet paprika powder and pour in enough water to cover everything. Let it all simmer slowly for a long time until the meat is tender and the sauce turns deep red. Serve with bread or noodles!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Goulash",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Goulash",
+      "description": "Goulash is a hearty Hungarian stew made with tender beef and plenty of paprika, giving it a rich, deep red color and a warm, smoky flavor.",
+      "history": "Goulash was first made by Hungarian cattle herders called 'gulyas' who cooked beef with spices over campfires while driving their cattle across the plains."
+    },
+    {
+      "lang": "vi",
+      "title": "Món Hầm Goulash",
+      "description": "Goulash là một món hầm đặc trưng của Hungary làm từ thịt bò mềm và nhiều bột ớt paprika, tạo nên màu đỏ đậm và hương vị ấm áp, hơi khói.",
+      "history": "Goulash lần đầu được làm bởi những người chăn gia súc Hungary gọi là 'gulyas', họ nấu thịt bò với gia vị trên lửa trại trong khi lái đàn gia súc qua các đồng bằng."
+    }
+  ],
+  "start_year": 1400,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Goulash from?",
+      "question_type": "single",
+      "options": ["Austria", "Hungary", "Poland", "Czech Republic"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Goulash đến từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Áo", "Hungary", "Ba Lan", "Cộng hòa Séc"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What spice gives Goulash its deep red color?",
+      "question_type": "single",
+      "options": ["Turmeric", "Saffron", "Paprika", "Chili powder"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Gia vị nào tạo cho Goulash màu đỏ đậm?",
+      "question_type": "single",
+      "options": ["Nghệ", "Nhụy hoa nghệ tây", "Paprika", "Bột ớt"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

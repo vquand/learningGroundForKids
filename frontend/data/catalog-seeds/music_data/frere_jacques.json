@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "country_code": "FR",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Traditional French",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Frère Jacques — Traditional French",
+      "description": "A gentle, looping French song about waking up a sleepy monk named Brother Jacques to ring the morning bells!",
+      "history": "This French nursery rhyme has been sung for hundreds of years and is famous for being sung as a round, where groups of singers take turns starting the melody."
+    },
+    {
+      "lang": "vi",
+      "title": "Frère Jacques — Dân ca Pháp",
+      "description": "Đây là bài dân ca vui vẻ của Pháp, kể về việc đánh thức một vị tu sĩ đang ngủ quên để lên đánh chuông buổi sáng!",
+      "history": "Bài hát này đã được hát ở Pháp hàng trăm năm nay và rất nổi tiếng vì có thể hát theo lối vòng tròn, mỗi nhóm hát bắt đầu từ đoạn khác nhau."
+    }
+  ],
+  "start_year": 1780,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "'Frère Jacques' is a traditional song from which country?", "question_type": "single", "options": ["Belgium", "Germany", "France", "Italy"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Bài 'Frère Jacques' là bài hát truyền thống của nước nào?", "question_type": "single", "options": ["Bỉ", "Đức", "Pháp", "Ý"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "'Frère Jacques' is famous for being sung as what?", "question_type": "single", "options": ["A lullaby", "A round", "A march", "A waltz"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Bài 'Frère Jacques' nổi tiếng vì được hát theo kiểu gì?", "question_type": "single", "options": ["Hát ru", "Hát vòng tròn", "Hành khúc", "Waltz"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

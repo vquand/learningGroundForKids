@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": -26.2041,
+  "longitude": 28.0473,
+  "country_code": "ZA",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Miriam Makeba",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Pata Pata — Miriam Makeba",
+      "description": "A joyful, rhythmic South African song where 'pata pata' means touch or pat in Zulu — it has a bouncy beat that makes everyone clap and move their feet!",
+      "history": "Miriam Makeba from Johannesburg first recorded this song in 1956, and after it became a worldwide hit in 1967, she became known as 'Mama Africa' — the voice of an entire continent!"
+    },
+    {
+      "lang": "vi",
+      "title": "Pata Pata — Miriam Makeba",
+      "description": "Một bài hát vui nhộn theo nhịp điệu Nam Phi, 'pata pata' có nghĩa là chạm vào hoặc vỗ về trong tiếng Zulu — âm nhạc này khiến bạn muốn vỗ tay và đập chân theo!",
+      "history": "Miriam Makeba từ Johannesburg lần đầu thu âm bài hát này năm 1956, và sau khi nó trở thành hit toàn cầu năm 1967, bà được gọi là 'Mama Africa' — giọng hát của cả một lục địa!"
+    }
+  ],
+  "start_year": 1967,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "'Pata Pata' was performed by which artist?", "question_type": "single", "options": ["Fela Kuti", "Miriam Makeba", "Youssou N'Dour", "Hugh Masekela"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Bài 'Pata Pata' được biểu diễn bởi nghệ sĩ nào?", "question_type": "single", "options": ["Fela Kuti", "Miriam Makeba", "Youssou N'Dour", "Hugh Masekela"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Miriam Makeba was from which African country?", "question_type": "single", "options": ["Nigeria", "Kenya", "South Africa", "Ghana"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Miriam Makeba đến từ quốc gia châu Phi nào?", "question_type": "single", "options": ["Nigeria", "Kenya", "Nam Phi", "Ghana"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

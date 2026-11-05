@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": -45.0312,
+  "longitude": 168.6626,
+  "country_code": "NZ",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "The Southern Lights are the twin sister of the Northern Lights — both happen at the same time on opposite ends of the Earth!",
+    "From Queenstown, New Zealand, you can sometimes see the Southern Lights shimmering above snowy mountains reflected in a lake — double the magic!",
+    "Scientists can actually predict when the lights will appear by watching solar flares on the Sun — they are like weather forecasters for sky fireworks!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Aurora Australis (Southern Lights)",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Aurora Australis (Southern Lights)",
+      "description": "The Aurora Australis is the Southern Hemisphere's version of the Northern Lights — a dazzling display of colours dancing across the night sky near the South Pole. It is just as magical, but seen from the bottom of the world!",
+      "history": "New Zealand, especially the South Island town of Queenstown, offers some of the most spectacular views of the Southern Lights. The colourful aurora dances above snow-capped mountains and crystal-clear lakes, making it one of the most beautiful natural sights on Earth."
+    },
+    {
+      "lang": "vi",
+      "title": "Cực Quang Nam (Ánh Sáng Phương Nam)",
+      "description": "Cực quang Nam là phiên bản Nam Bán Cầu của Ánh Sáng Phương Bắc — một màn trình diễn màu sắc tuyệt đẹp nhảy múa trên bầu trời đêm gần Nam Cực. Nó đẹp không kém, nhưng được nhìn từ đầu kia của thế giới!",
+      "history": "New Zealand, đặc biệt là thị trấn Queenstown ở đảo Nam, có những khung cảnh ngoạn mục nhất của Ánh Sáng Phương Nam. Cực quang màu sắc nhảy múa trên những ngọn núi phủ tuyết và những hồ nước trong vắt, tạo nên một trong những cảnh đẹp thiên nhiên tuyệt vời nhất trên Trái Đất."
+    }
+  ],
+  "start_year": 1773,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Where can you see the Aurora Australis?",
+      "question_type": "single",
+      "options": ["Near the North Pole", "Near the South Pole", "In the middle of the ocean", "On the equator"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Cực quang Nam xuất hiện ở đâu?",
+      "question_type": "single",
+      "options": ["Gần Bắc Cực", "Gần Nam Cực", "Giữa đại dương", "Trên đường xích đạo"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What causes the Southern Lights to appear?",
+      "question_type": "single",
+      "options": ["Strong winds", "Particles from the Sun hitting Earth's atmosphere", "Volcanoes erupting", "Moonlight reflecting off ice"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điều gì tạo ra Ánh Sáng Phương Nam?",
+      "question_type": "single",
+      "options": ["Gió mạnh", "Hạt từ Mặt Trời va vào khí quyển Trái Đất", "Núi lửa phun trào", "Ánh trăng phản chiếu từ băng"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

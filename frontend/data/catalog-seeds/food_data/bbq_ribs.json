@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 39.0997,
+  "longitude": -94.5786,
+  "country_code": "US",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Ask a grown-up to rub the ribs with a mix of brown sugar, paprika, and spices. Cook them slowly in the oven for a few hours until they are super tender. Brush on lots of smoky BBQ sauce and enjoy the sticky, finger-licking goodness!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "BBQ Ribs",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "BBQ Ribs",
+      "description": "BBQ ribs are tender pork or beef ribs slow-cooked until they fall off the bone, then slathered in sweet and smoky barbecue sauce. They are perfectly sticky, saucy, and fun to eat with your hands!",
+      "history": "Barbecue ribs have deep roots in the American South, where people slow-cooked tough cuts of meat over wood and charcoal for hours. Kansas City became world-famous for its own style of thick, sweet BBQ sauce that makes the ribs irresistible."
+    },
+    {
+      "lang": "vi",
+      "title": "Sườn Nướng BBQ",
+      "description": "Sườn nướng BBQ là sườn heo hoặc bò được nướng chậm tới khi mềm tan, sau đó phủ đầy sốt nướng ngọt và thơm khói. Ăn bằng tay rất vui và ngon không thể cưỡng được!",
+      "history": "Món sườn nướng có nguồn gốc sâu xa ở miền Nam nước Mỹ, nơi người ta nướng thịt chậm trên gỗ và than trong nhiều giờ. Thành phố Kansas City nổi tiếng thế giới với loại sốt BBQ dày, ngọt riêng của mình."
+    }
+  ],
+  "start_year": 1700,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is BBQ Ribs most famous from?",
+      "question_type": "single",
+      "options": ["Australia", "Canada", "United States", "Argentina"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Sườn Nướng BBQ nổi tiếng nhất từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Úc", "Canada", "Hoa Kỳ", "Argentina"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which American city is world-famous for its BBQ sauce style?",
+      "question_type": "single",
+      "options": ["New York", "Chicago", "Kansas City", "Los Angeles"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Thành phố Mỹ nào nổi tiếng thế giới với phong cách sốt BBQ?",
+      "question_type": "single",
+      "options": ["New York", "Chicago", "Kansas City", "Los Angeles"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

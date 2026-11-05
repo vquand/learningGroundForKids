@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 40.6892,
+  "longitude": -74.0445,
+  "country_code": "US",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Liberty Island, New York Harbor, New York, USA",
+  "fun_facts": [
+    "The Statue of Liberty was a gift from France to the United States — it was shipped across the ocean in 350 pieces packed into 214 crates!",
+    "Lady Liberty's torch is covered in gold leaf that shines in the sunlight. You can visit the crown but the torch has been closed to visitors since 1916.",
+    "The statue is so tall that you have to climb 354 steps — like climbing a 22-story building — just to reach the crown!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Statue of Liberty",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Statue of Liberty",
+      "description": "The Statue of Liberty is a giant copper statue of a woman holding a torch high in the air, standing on a small island in New York Harbor. She is a symbol of freedom and welcome for people coming to America.",
+      "history": "France gave this statue to the United States as a gift of friendship in 1886. It was designed by French sculptor Frederic Auguste Bartholdi and took years to build before being shipped across the Atlantic Ocean."
+    },
+    {
+      "lang": "vi",
+      "title": "Tượng Nữ Thần Tự Do",
+      "description": "Tượng Nữ Thần Tự Do là một bức tượng đồng khổng lồ hình một người phụ nữ cầm ngọn đuốc cao lên trên không, đứng trên một hòn đảo nhỏ ở Cảng New York. Bà ấy là biểu tượng của tự do và sự chào đón dành cho những người đến Mỹ.",
+      "history": "Pháp đã tặng bức tượng này cho Hoa Kỳ như một món quà hữu nghị vào năm 1886. Nó được thiết kế bởi nhà điêu khắc người Pháp Frederic Auguste Bartholdi và mất nhiều năm để xây dựng trước khi được vận chuyển qua Đại Tây Dương."
+    }
+  ],
+  "start_year": 1886,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country gave the Statue of Liberty as a gift to the United States?",
+      "question_type": "single",
+      "options": ["England", "France", "Italy", "Germany"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Quốc gia nào đã tặng Tượng Nữ Thần Tự Do cho Hoa Kỳ?",
+      "question_type": "single",
+      "options": ["Anh", "Pháp", "Ý", "Đức"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is the Statue of Liberty made of?",
+      "question_type": "single",
+      "options": ["Iron", "Bronze", "Copper", "Steel"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Tượng Nữ Thần Tự Do được làm bằng gì?",
+      "question_type": "single",
+      "options": ["Sắt", "Đồng thau", "Đồng đỏ", "Thép"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

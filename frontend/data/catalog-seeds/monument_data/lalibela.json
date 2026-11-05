@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 12.0317,
+  "longitude": 39.0473,
+  "country_code": "ET",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Lalibela, Amhara Region, Ethiopia",
+  "fun_facts": [
+    "These churches were carved downward into solid rock — builders dug from the top down, like carving a sculpture out of a mountain!",
+    "There are 11 churches connected by tunnels and passageways, all cut from the same red volcanic rock.",
+    "Legend says King Lalibela built these churches after he was visited by angels who helped him finish the work overnight."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Rock-Hewn Churches of Lalibela",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Rock-Hewn Churches of Lalibela",
+      "description": "A group of 11 remarkable Christian churches in Ethiopia that were carved entirely out of solid rock over 800 years ago.",
+      "history": "Built in the 12th and 13th centuries by King Lalibela, who wanted to create a 'New Jerusalem' in Africa for pilgrims who could not travel to the Holy Land."
+    },
+    {
+      "lang": "vi",
+      "title": "Nhà thờ đá Lalibela",
+      "description": "Một cụm 11 nhà thờ Thiên Chúa giáo tuyệt vời ở Ethiopia, được tạc hoàn toàn từ đá nguyên khối hơn 800 năm trước.",
+      "history": "Được xây dựng vào thế kỷ 12 và 13 bởi Vua Lalibela, người muốn tạo ra một 'Jerusalem mới' ở châu Phi cho những người hành hương không thể đến được Thánh Địa."
+    }
+  ],
+  "start_year": 1200,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country are the Rock-Hewn Churches of Lalibela located?",
+      "question_type": "single",
+      "options": ["Kenya", "Sudan", "Ethiopia", "Eritrea"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Nhà thờ đá Lalibela nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Kenya", "Sudan", "Ethiopia", "Eritrea"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How many rock-hewn churches are there at Lalibela?",
+      "question_type": "single",
+      "options": ["5", "7", "9", "11"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Có bao nhiêu nhà thờ đá ở Lalibela?",
+      "question_type": "single",
+      "options": ["5", "7", "9", "11"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

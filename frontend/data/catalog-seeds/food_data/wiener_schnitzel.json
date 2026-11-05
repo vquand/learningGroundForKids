@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 48.2082,
+  "longitude": 16.3738,
+  "country_code": "AT",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Pound a thin slice of veal until it is very flat, then coat it in flour, dip it in egg, and press it into breadcrumbs all over. Fry it in hot butter until both sides are golden and crispy. Serve with a slice of lemon and some potato salad on the side!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Wiener Schnitzel",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Wiener Schnitzel",
+      "description": "Wiener Schnitzel is a thin, crispy breaded and fried veal cutlet that is one of Austria's most famous and beloved dishes.",
+      "history": "Wiener Schnitzel comes from Vienna, Austria, and has been enjoyed there since at least the 1800s — the name even means 'Viennese cutlet' in German!"
+    },
+    {
+      "lang": "vi",
+      "title": "Thịt Chiên Wiener Schnitzel",
+      "description": "Wiener Schnitzel là một miếng thịt bê mỏng, xù giòn được tẩm vụn bánh mì và chiên vàng, là một trong những món ăn nổi tiếng nhất của nước Áo.",
+      "history": "Wiener Schnitzel có nguồn gốc từ Vienna, nước Áo, và đã được thưởng thức ở đó ít nhất từ thế kỷ 19 — tên gọi của nó thậm chí có nghĩa là 'miếng thịt kiểu Viên' trong tiếng Đức!"
+    }
+  ],
+  "start_year": 1850,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Wiener Schnitzel from?",
+      "question_type": "single",
+      "options": ["Germany", "Switzerland", "Austria", "Hungary"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Wiener Schnitzel đến từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Đức", "Thụy Sĩ", "Áo", "Hungary"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What does 'Wiener Schnitzel' mean in German?",
+      "question_type": "single",
+      "options": ["Crispy beef steak", "Viennese cutlet", "Fried chicken", "Breaded pork"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "'Wiener Schnitzel' có nghĩa là gì trong tiếng Đức?",
+      "question_type": "single",
+      "options": ["Bít tết bò giòn", "Miếng thịt kiểu Viên", "Gà chiên", "Thịt heo tẩm bột"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

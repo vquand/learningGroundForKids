@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 14.5995,
+  "longitude": 120.9842,
+  "country_code": "PH",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "The Philippines gets hit by about 20 typhoons every single year — that is more than almost any other country on Earth!",
+    "A typhoon, a hurricane, and a cyclone are actually the same kind of storm — they just have different names depending on where in the world they happen.",
+    "Super Typhoon Haiyan in 2013 had winds so strong they could lift a car off the ground and toss it through the air."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Typhoon",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Typhoon",
+      "description": "A typhoon is a powerful tropical storm with swirling winds and heavy rain that forms over the Pacific Ocean and spins like a giant top.",
+      "history": "The Philippines, near the city of Manila, experiences more typhoons than almost any other country — these storms bring strong winds and lots of rain but also important water for crops and rivers."
+    },
+    {
+      "lang": "vi",
+      "title": "Bão (Typhoon)",
+      "description": "Bão là cơn bão nhiệt đới mạnh mẽ với gió xoáy và mưa lớn hình thành trên Biển Thái Bình Dương, quay tròn như một con cù khổng lồ.",
+      "history": "Philippines, gần thành phố Manila, là một trong những quốc gia hứng chịu nhiều bão nhất trên thế giới. Những cơn bão này mang theo gió lớn và mưa nhiều nhưng cũng đem lại nước quan trọng cho đồng ruộng và sông suối."
+    }
+  ],
+  "start_year": -200,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "A typhoon, a hurricane, and a cyclone are actually the same thing — what makes them different?",
+      "question_type": "single",
+      "options": ["Their speed", "Their size", "Where in the world they happen", "Their colour"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Bão (typhoon), hurricane và cyclone thực ra là cùng loại — điều gì làm chúng khác nhau?",
+      "question_type": "single",
+      "options": ["Tốc độ của chúng", "Kích thước của chúng", "Nơi chúng xảy ra trên thế giới", "Màu sắc của chúng"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "About how many typhoons hit the Philippines each year?",
+      "question_type": "single",
+      "options": ["2", "5", "10", "About 20"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Mỗi năm Philippines hứng chịu khoảng bao nhiêu cơn bão?",
+      "question_type": "single",
+      "options": ["2", "5", "10", "Khoảng 20"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

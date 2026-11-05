@@ -1,0 +1,33 @@
+# Local-only fallback for kernels that cannot create Docker bridge interfaces.
+# Keep the same project and pgdata volume; expose services only on loopback.
+services:
+  postgres:
+    network_mode: host
+    command: [postgres, -c, port=55433, -c, listen_addresses=127.0.0.1]
+    environment:
+      PGPORT: "55433"
+  init:
+    build:
+      network: host
+    network_mode: host
+    environment: &host_api
+      PLG_DEV_NETWORK: host
+      SERVER_HOST: 127.0.0.1
+      DATABASE_URL: postgresql://plg_dev:plg_dev_local_only@127.0.0.1:55433/plg_dev
+      DATABASE_URL_UNPOOLED: postgresql://plg_dev:plg_dev_local_only@127.0.0.1:55433/plg_dev
+      TEST_DATABASE_URL: postgresql://plg_dev:plg_dev_local_only@127.0.0.1:55433/plg_test
+  api:
+    build:
+      network: host
+    network_mode: host
+    ports: !reset []
+    environment: *host_api
+  frontend:
+    build:
+      network: host
+    network_mode: host
+    ports: !reset []
+    environment:
+      LOCAL_API_ORIGIN: http://127.0.0.1:10000
+      VITE_DEV_MODE: ${VITE_DEV_MODE:-false}
+    command: [npm, run, dev, --, --host, 127.0.0.1]

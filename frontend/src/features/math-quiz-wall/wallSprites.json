@@ -1,0 +1,26 @@
+{
+  "brick": {
+    "src": "/minigames/math-quiz-wall/wall-openings-brick-v1.webp",
+    "width": 900,
+    "height": 1200,
+    "contentTop": 0.2633333333333333
+  },
+  "stone": {
+    "src": "/minigames/math-quiz-wall/wall-openings-stone-v1.webp",
+    "width": 900,
+    "height": 1200,
+    "contentTop": 0.23666666666666666
+  },
+  "garden": {
+    "src": "/minigames/math-quiz-wall/wall-openings-garden-v1.webp",
+    "width": 900,
+    "height": 1200,
+    "contentTop": 0.24333333333333335
+  },
+  "blocks": {
+    "src": "/minigames/math-quiz-wall/wall-openings-blocks-v1.webp",
+    "width": 900,
+    "height": 1200,
+    "contentTop": 0.19
+  }
+}

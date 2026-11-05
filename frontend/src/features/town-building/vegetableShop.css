@@ -1,0 +1,98 @@
+.vegetable-shop-pane{min-width:0;min-height:0;display:flex;flex-direction:column;gap:8px;padding:10px;border:2px solid #dbc99d;border-radius:18px;background:#fff8e6;overflow:hidden}
+.vegetable-shop-pane-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:48px}
+.vegetable-shop-pane-heading h3{margin:0;color:#5c713c;font-size:clamp(18px,2vw,24px)}
+.vegetable-shop-pane-heading p{margin:2px 0 0;font-size:12px;line-height:1.25}
+.vegetable-shop-rack{position:relative;flex:1 1 auto;min-height:0;width:100%;aspect-ratio:1024/775;overflow:visible}
+.vegetable-shop-rack-art{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.vegetable-shop-rack-slots{position:absolute;inset:0}
+.vegetable-shop-rack-slot{position:absolute;transform:translate(-50%,-50%);width:clamp(52px,14%,78px);min-width:48px;min-height:48px;aspect-ratio:1;padding:2px;border:2px solid transparent;border-radius:13px;background:transparent;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.vegetable-shop-rack-slot:hover,.vegetable-shop-rack-slot:focus-visible,.vegetable-shop-rack-slot[aria-pressed=true]{border-color:#6b9565;background:#fff8dccc;box-shadow:0 0 0 3px #d7e9b4}
+.vegetable-shop-rack-slot>.town-icon{--town-icon-size:clamp(44px,80%,64px);width:var(--town-icon-size);height:var(--town-icon-size);filter:drop-shadow(0 2px 1px #62443144)}
+.vegetable-shop-season{position:absolute;left:50%;bottom:-18px;transform:translateX(-50%);display:flex;align-items:center;justify-content:center;gap:1px;min-height:18px;padding:1px 3px;border-radius:7px;background:#fff8e8dd;color:#624431;font-size:10px;font-weight:800;line-height:1;white-space:nowrap}
+.vegetable-shop-season .town-icon{--town-icon-size:16px;width:16px;height:16px}
+.vegetable-shop-season--out{color:#a44232}
+.vegetable-shop-season--out .vegetable-shop-out-season-arrow{--town-icon-size:16px;width:16px;height:16px}
+.vegetable-shop-buy-panel,.vegetable-shop-result{display:flex;flex-direction:column;gap:8px;min-height:0;overflow:auto}
+.vegetable-shop-selected-crop{display:flex;align-items:center;justify-content:center;gap:10px;min-height:112px;padding:6px 10px;border-radius:14px;background:#f0e8c9}
+.vegetable-shop-selected-crop>.town-icon{--town-icon-size:clamp(64px,12dvh,96px);width:var(--town-icon-size);height:var(--town-icon-size)}
+.vegetable-shop-selected-crop strong{display:block;font-size:20px;color:#5c713c}
+.vegetable-shop-selected-crop .vegetable-shop-season{position:static;transform:none;margin-top:5px;width:max-content}
+.vegetable-shop-controls{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:5px 0;font-weight:800}
+.vegetable-shop-stepper{display:flex;align-items:center;gap:6px}
+.vegetable-shop-stepper button{width:48px;height:48px;min-width:48px;min-height:48px;padding:0;font-size:24px}
+.vegetable-shop-stepper output{width:48px;min-height:48px;display:inline-flex;align-items:center;justify-content:center;font-size:20px}
+.vegetable-shop-quote{margin:0;padding:8px 10px;border:1px solid #dfd0aa;border-radius:12px;background:#fffdf5}
+.vegetable-shop-quote-heading{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+.vegetable-shop-quote h4,.vegetable-shop-result h4{margin:0;font-size:16px;color:#5c713c}
+.vegetable-shop-out-season-note{color:#a44232;font-size:11px;font-weight:800}
+.vegetable-shop-product-rows{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px;margin:6px 0 0;padding:0;list-style:none}
+.vegetable-shop-product-rows li{display:grid;grid-template-columns:32px minmax(0,1fr) auto;align-items:center;gap:5px;min-height:38px}
+.vegetable-shop-product-art{width:30px;height:30px;display:inline-flex;align-items:center;justify-content:center}
+.vegetable-shop-product-art>.town-icon{--town-icon-size:28px;width:28px;height:28px}
+.vegetable-shop-product-rows strong{font-size:17px;color:#526f54}
+.vegetable-shop-muted,.vegetable-shop-error,.vegetable-shop-notice{margin:5px 0 0;font-size:12px;line-height:1.3}
+.vegetable-shop-muted{color:#8c6e54}
+.vegetable-shop-error{color:#963f31}
+.vegetable-shop-notice{padding:7px 9px;border-radius:10px;background:#e8eed8;color:#526f54}
+.vegetable-shop-loading{min-height:44px;display:flex;align-items:center;justify-content:center;color:#8c6e54;font-weight:800}
+.vegetable-shop-buy,.vegetable-shop-back-rack{min-height:48px;padding:8px 14px;border-radius:12px;font-weight:900}
+.vegetable-shop-buy{border:2px solid #4f8d4e;background:#75b968;color:#fff;box-shadow:0 3px 0 #3f7540}
+.vegetable-shop-buy:disabled{opacity:.55;box-shadow:none}
+.vegetable-shop-back-rack{border:2px solid #b99b68;background:#fffaf0;color:#624431;white-space:nowrap}
+.vegetable-shop-result{justify-content:flex-start;padding:8px 4px}
+.vegetable-shop-result>p{margin:0;font-weight:900;color:#5c713c}
+.vegetable-shop-result-back{margin-top:auto}
+@media (max-width:760px),(orientation:portrait){
+    .vegetable-shop-pane{overflow:visible}
+    .vegetable-shop-rack{flex:none;width:100%;height:auto}
+    .vegetable-shop-product-rows{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){.vegetable-shop-rack-slot{transition:none}}
+/* `.town-page button` sets a smaller minimum height with higher specificity than a single class; keep every shop control at 44px or more. */
+.town-page .vegetable-shop-buy,.town-page .vegetable-shop-back-rack{min-height:48px}
+.town-page .vegetable-shop-stepper button{min-width:44px;min-height:44px}
+/* Same specificity reason: keep the green Buy button and leave room for its 3px bottom edge inside the scrolling panel. */
+.town-page .vegetable-shop-buy{border:2px solid #4f8d4e;background:#75b968;color:#fff;box-shadow:0 3px 0 #3f7540}
+.town-page .vegetable-shop-buy:disabled{opacity:.55;box-shadow:none}
+.vegetable-shop-buy-panel,.vegetable-shop-result{padding-bottom:5px}
+
+/* Crate buttons sit directly on the rack art: `.town-page button` would otherwise paint a white card behind each vegetable. */
+.town-page .vegetable-shop-rack-slot{background:transparent;border-color:transparent;box-shadow:none}
+.town-page .vegetable-shop-rack-slot:hover,.town-page .vegetable-shop-rack-slot:focus-visible,.town-page .vegetable-shop-rack-slot[aria-pressed=true]{border-color:#6b9565;background:#fff8dc99;box-shadow:0 0 0 3px #d7e9b4}
+/* Season is shown by icon only (name stays in aria-label/title). */
+.vegetable-shop-season{bottom:-16px;gap:0;padding:1px 3px 1px 2px}
+.vegetable-shop-season .town-icon{--town-icon-size:20px;width:20px;height:20px}
+.vegetable-shop-season--out .vegetable-shop-out-season-arrow{--town-icon-size:18px;width:18px;height:18px}
+/* Informational wooden sign beside the selected vegetable. */
+.vegetable-shop-selected-crop{gap:14px}
+.vegetable-shop-selected-crop strong{flex:1;min-width:0}
+.vegetable-shop-season-sign{position:relative;display:inline-flex;flex:none;padding-top:10px}
+.vegetable-shop-season-sign::before,.vegetable-shop-season-sign::after{content:"";position:absolute;top:0;width:3px;height:14px;background:#8a6a45;border-radius:2px}
+.vegetable-shop-season-sign::before{left:20%}.vegetable-shop-season-sign::after{right:20%}
+.vegetable-shop-season-sign-board{display:inline-flex;align-items:center;justify-content:center;gap:4px;min-width:72px;min-height:56px;padding:6px 12px;border:3px solid #8a6a45;border-radius:12px;background:#f5d9a0;box-shadow:0 3px 0 #b99265,inset 0 0 0 2px #fbe9c0}
+.vegetable-shop-season-sign--out .vegetable-shop-season-sign-board{background:#ffe3c2;border-color:#b0583a;box-shadow:0 3px 0 #cf8a63,inset 0 0 0 2px #fff0dc}
+.vegetable-shop-season-sign .town-icon{--town-icon-size:40px;width:40px;height:40px}
+.vegetable-shop-season-sign .vegetable-shop-out-season-arrow{--town-icon-size:34px;width:34px;height:34px;filter:drop-shadow(0 1px 0 #fff4)}
+/* Let vegetables fill their crates as the (now wider) rack grows. */
+.vegetable-shop-rack-slot{width:clamp(52px,17%,124px);min-width:48px}
+.vegetable-shop-rack-slot>.town-icon{--town-icon-size:clamp(44px,90%,112px)}
+.vegetable-shop-season .town-icon{--town-icon-size:22px;width:22px;height:22px}
+.vegetable-shop-selected-crop>.town-icon{flex:none}
+.town-page .vegetable-shop-rack-slot>.town-icon{width:90%;height:auto;aspect-ratio:1;max-width:112px;min-width:44px}
+/* The crate's front lip hides the lower half of each vegetable: the icon is centred on the lip's top edge and its bottom half is clipped. */
+.vegetable-shop-rack-slot>.town-icon{filter:none}
+
+/* Front lips of the crates are redrawn above the vegetables so the plants stand inside the boxes and rise over the back rim. */
+.vegetable-shop-rack-front{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none}
+.vegetable-shop-rack-front--top{clip-path:inset(51.2% 0 41% 0)}
+.vegetable-shop-rack-front--bottom{clip-path:inset(79.5% 0 12.8% 0)}
+/* Season tags ride above the redrawn crate lips, on the shelf bars. */
+.vegetable-shop-rack-tags{position:absolute;inset:0;pointer-events:none}
+.vegetable-shop-rack-tag{position:absolute;transform:translate(-50%,-50%)}
+.vegetable-shop-rack-tag .vegetable-shop-season{position:static;transform:none}
+/* Sticker-style season tag stuck on the right of each crate's front board (2x the old size). */
+.vegetable-shop-rack-tag{transform:translate(-50%,-50%) rotate(4deg)}
+.vegetable-shop-rack-tag .vegetable-shop-season{min-height:44px;min-width:60px;padding:2px 7px;gap:2px;border:4px solid #fff;border-radius:14px;background:#fff8e8;box-shadow:0 0 0 2px #8a6a45,0 3px 4px #4a2f1a55}
+.vegetable-shop-rack-tag .vegetable-shop-season .town-icon{--town-icon-size:40px;width:40px;height:40px}
+.vegetable-shop-rack-tag .vegetable-shop-season--out .vegetable-shop-out-season-arrow{--town-icon-size:36px;width:36px;height:36px}
+.vegetable-shop-rack-floors{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}

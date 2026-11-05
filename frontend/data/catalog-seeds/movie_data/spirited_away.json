@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 35.6762,
+  "longitude": 139.6503,
+  "country_code": "JP",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Chihiro",
+      "image_url": null,
+      "description": "A brave ten-year-old girl who must work in a magical bathhouse to save her parents after they are turned into pigs."
+    },
+    {
+      "name": "Haku",
+      "image_url": null,
+      "description": "A mysterious boy who secretly helps Chihiro and is revealed to be a river spirit in the form of a dragon."
+    },
+    {
+      "name": "Yubaba",
+      "image_url": null,
+      "description": "The powerful and greedy witch who runs the spirit bathhouse and takes away Chihiro's name to control her."
+    },
+    {
+      "name": "No-Face",
+      "image_url": null,
+      "description": "A lonely, faceless spirit who follows Chihiro and desperately wants to make friends but gets lost without guidance."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Spirited Away poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Spirited Away (2001)",
+      "description": "A ten-year-old girl named Chihiro gets trapped in a magical spirit world and must work hard to rescue her parents and find her way home.",
+      "history": "Spirited Away won the Academy Award for Best Animated Feature in 2003 and remains the highest-grossing film in Japanese history."
+    },
+    {
+      "lang": "vi",
+      "title": "Hành Trình Của Chihiro (2001)",
+      "description": "Một cô bé mười tuổi tên Chihiro bị mắc kẹt trong thế giới thần linh và phải làm việc chăm chỉ để cứu cha mẹ và tìm đường trở về nhà.",
+      "history": "Hành Trình Của Chihiro đã giành giải Oscar cho Phim Hoạt Hình Xuất Sắc Nhất năm 2003 và là bộ phim có doanh thu cao nhất lịch sử điện ảnh Nhật Bản."
+    }
+  ],
+  "start_year": 2001,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What happens to Chihiro's parents at the start of Spirited Away?",
+      "question_type": "single",
+      "options": ["They disappear into the forest", "They are turned into pigs", "They fall asleep forever", "They are captured by a witch"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Điều gì xảy ra với cha mẹ của Chihiro ở đầu phim Hành Trình Của Chihiro?",
+      "question_type": "single",
+      "options": ["Họ biến mất vào rừng", "Họ bị biến thành lợn", "Họ ngủ mãi mãi", "Họ bị phù thủy bắt"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which studio made Spirited Away?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Studio Ghibli"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hãng phim nào sản xuất Hành Trình Của Chihiro?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Studio Ghibli"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

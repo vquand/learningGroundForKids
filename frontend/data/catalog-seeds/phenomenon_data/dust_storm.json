@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 30.0444,
+  "longitude": 31.2357,
+  "country_code": "EG",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "A Sahara sandstorm called a haboob can be 1 km tall — that is taller than three Eiffel Towers stacked on top of each other!",
+    "Sand from the Sahara Desert in Africa blows all the way across the Atlantic Ocean and lands in the Amazon rainforest in South America — feeding the trees with minerals!",
+    "During a haboob, the sky turns completely orange and daytime looks like night — Cairo can go from bright sunshine to total darkness in just minutes!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Sandstorm (Haboob)",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Sandstorm (Haboob)",
+      "description": "A sandstorm, also called a haboob, is a massive wall of dust and sand driven by strong winds that can block out the sun and turn the sky a deep orange color.",
+      "history": "Cairo, Egypt sits at the edge of the Sahara Desert — the world's largest hot desert — and experiences powerful sandstorms that roll in from the desert, sometimes reaching 1 km in height and covering the entire city in a thick layer of sand."
+    },
+    {
+      "lang": "vi",
+      "title": "Bão Cát (Haboob)",
+      "description": "Bão cát, còn gọi là haboob, là một bức tường cát và bụi khổng lồ được gió mạnh cuốn đi, có thể che kín mặt trời và biến bầu trời thành màu cam đậm.",
+      "history": "Cairo, Ai Cập nằm ở rìa sa mạc Sahara, sa mạc nóng lớn nhất thế giới, và thường xuyên chịu các trận bão cát mạnh từ sa mạc tràn vào, đôi khi cao tới 1 km và phủ một lớp cát dày lên cả thành phố."
+    }
+  ],
+  "start_year": -1000,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is another name for a sandstorm?",
+      "question_type": "single",
+      "options": ["Blizzard", "Haboob", "Tornado", "Cyclone"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tên gọi khác của bão cát là gì?",
+      "question_type": "single",
+      "options": ["Bão tuyết", "Haboob", "Lốc xoáy", "Xoáy nhiệt đới"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How tall can a haboob sandstorm be?",
+      "question_type": "single",
+      "options": ["10 metres", "100 metres", "1 kilometre", "10 kilometres"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Bão cát haboob có thể cao bao nhiêu?",
+      "question_type": "single",
+      "options": ["10 mét", "100 mét", "1 kilômét", "10 kilômét"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

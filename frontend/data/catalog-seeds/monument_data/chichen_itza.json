@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 20.6843,
+  "longitude": -88.5678,
+  "country_code": "MX",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Yucatan State, Mexico",
+  "fun_facts": [
+    "Twice a year, during spring and autumn equinoxes, the setting sun creates a shadow that looks exactly like a giant serpent slithering down the pyramid's staircase!",
+    "The main pyramid at Chichen Itza has 365 steps in total — one for each day of the year — showing how brilliant the ancient Maya were at astronomy.",
+    "If you stand at the bottom of the pyramid and clap your hands, the echo that bounces back sounds just like the chirp of the sacred quetzal bird!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Chichen Itza",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Chichen Itza",
+      "description": "Chichen Itza is an ancient Maya city in Mexico featuring a stunning stepped pyramid called El Castillo, or the Temple of Kukulcan. It is one of the New Seven Wonders of the World and was a major center of Maya civilization.",
+      "history": "Chichen Itza was built by the Maya people between roughly 600 and 1200 AD and became one of the largest and most powerful cities in ancient Mesoamerica. It was eventually abandoned, but its magnificent stone temples still stand today."
+    },
+    {
+      "lang": "vi",
+      "title": "Chichen Itza",
+      "description": "Chichen Itza là một thành phố Maya cổ đại ở Mexico với kim tự tháp bậc thang tuyệt đẹp được gọi là El Castillo, hay Đền Kukulcan. Đây là một trong Bảy Kỳ quan Thế giới Mới và là trung tâm chính của nền văn minh Maya.",
+      "history": "Chichen Itza được xây dựng bởi người Maya vào khoảng từ năm 600 đến 1200 sau Công nguyên và trở thành một trong những thành phố lớn nhất và mạnh nhất ở châu Mỹ cổ đại. Nó cuối cùng bị bỏ hoang, nhưng những ngôi đền đá huy hoàng vẫn còn đứng đến ngày nay."
+    }
+  ],
+  "start_year": 600,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Chichen Itza located?",
+      "question_type": "single",
+      "options": ["Peru", "Brazil", "Guatemala", "Mexico"],
+      "correct_answers": [3],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Chichen Itza nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Peru", "Brazil", "Guatemala", "Mexico"],
+      "correct_answers": [3],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which ancient people built Chichen Itza?",
+      "question_type": "single",
+      "options": ["Aztec", "Inca", "Maya", "Olmec"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Người cổ đại nào đã xây dựng Chichen Itza?",
+      "question_type": "single",
+      "options": ["Aztec", "Inca", "Maya", "Olmec"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

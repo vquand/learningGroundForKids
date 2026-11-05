@@ -1,0 +1,5 @@
+.garden-status-layer{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:3}
+.garden-status-faces{position:absolute;display:flex;gap:3px;transform:translateX(-50%);pointer-events:none}
+.garden-status-faces[hidden]{display:none}
+.garden-status-faces>span{display:block;width:var(--garden-face-size,24px);height:var(--garden-face-size,24px);flex:none}
+.garden-status-faces svg{display:block;width:100%;height:100%}

@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": -33.8568,
+  "longitude": 151.2153,
+  "country_code": "AU",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Bennelong Point, Sydney, New South Wales, Australia",
+  "fun_facts": [
+    "The Sydney Opera House's roof is made of over one million ceramic tiles that were specially made in Sweden — and they are self-cleaning because rain washes them naturally!",
+    "The building was designed by a Danish architect named Jorn Utzon who got the inspiration for the curved roof shapes from peeling an orange!",
+    "The Sydney Opera House has over 1,000 rooms inside, including concert halls, theatres, restaurants, and even a library — it is like a whole city under those famous sail-shaped roofs!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Sydney Opera House",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Sydney Opera House",
+      "description": "The Sydney Opera House is a stunning building on the edge of Sydney Harbour in Australia, famous for its unique roof that looks like a series of white sails billowing in the wind. It is one of the most recognizable buildings in the world and a UNESCO World Heritage Site.",
+      "history": "Designed by Danish architect Jorn Utzon, the Sydney Opera House took 14 years to build and was officially opened by Queen Elizabeth II in 1973. It hosts over 1,500 performances each year and welcomes millions of visitors."
+    },
+    {
+      "lang": "vi",
+      "title": "Nhà Hát Opera Sydney",
+      "description": "Nhà Hát Opera Sydney là một tòa nhà tuyệt đẹp bên bờ Cảng Sydney ở Australia, nổi tiếng với mái nhà độc đáo trông giống như một loạt cánh buồm trắng phất trong gió. Đây là một trong những tòa nhà được nhận biết nhiều nhất trên thế giới và là Di sản Thế giới UNESCO.",
+      "history": "Được thiết kế bởi kiến trúc sư người Đan Mạch Jorn Utzon, Nhà Hát Opera Sydney mất 14 năm để xây dựng và chính thức được Nữ hoàng Elizabeth II khai trương vào năm 1973. Nó tổ chức hơn 1.500 buổi biểu diễn mỗi năm và đón tiếp hàng triệu du khách."
+    }
+  ],
+  "start_year": 1973,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which city is the Sydney Opera House located?",
+      "question_type": "single",
+      "options": ["Melbourne", "Brisbane", "Sydney", "Perth"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Nhà Hát Opera Sydney nằm ở thành phố nào?",
+      "question_type": "single",
+      "options": ["Melbourne", "Brisbane", "Sydney", "Perth"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What does the roof of the Sydney Opera House look like?",
+      "question_type": "single",
+      "options": ["Waves", "Shells", "White sails", "Clouds"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Mái nhà của Nhà Hát Opera Sydney trông giống cái gì?",
+      "question_type": "single",
+      "options": ["Sóng biển", "Vỏ sò", "Cánh buồm trắng", "Đám mây"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 21.0285,
+  "longitude": 105.8542,
+  "country_code": "VN",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Giap Van Thach / Do Truong Linh",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Que Huong — Giap Van Thach / Do Truong Linh",
+      "description": "A beautiful song about the love for one's homeland, with images of green rice fields, rivers, and peaceful villages. It makes your heart feel proud of where you come from!",
+      "history": "This song was written to capture the feeling of missing and loving your home country. It is one of the most cherished patriotic songs sung by Vietnamese people of all ages."
+    },
+    {
+      "lang": "vi",
+      "title": "Quê Hương — Giáp Văn Thạch / Đỗ Trường Linh",
+      "description": "Đây là một bài hát đẹp về tình yêu quê hương, về những cánh đồng lúa xanh và những dòng sông hiền hòa. Nghe bài hát này sẽ thấy tự hào về quê hương mình!",
+      "history": "Bài hát được sáng tác để thể hiện tình yêu quê hương đất nước. Đây là một trong những bài hát yêu nước được yêu thích nhất của người Việt Nam ở mọi lứa tuổi."
+    }
+  ],
+  "start_year": 1947,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "The Vietnamese song 'Que Huong' is about love for what?", "question_type": "single", "options": ["The ocean", "One's homeland", "A loved one", "The mountains"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Bài hát 'Quê Hương' là về tình yêu đối với điều gì?", "question_type": "single", "options": ["Biển cả", "Quê hương", "Người thân", "Núi rừng"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "'Que Huong' is a beloved patriotic song from which country?", "question_type": "single", "options": ["China", "Thailand", "Vietnam", "Cambodia"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "'Quê Hương' là bài hát yêu nước được yêu thích của quốc gia nào?", "question_type": "single", "options": ["Trung Quốc", "Thái Lan", "Việt Nam", "Campuchia"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

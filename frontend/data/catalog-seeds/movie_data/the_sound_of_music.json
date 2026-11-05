@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 47.8095,
+  "longitude": 13.055,
+  "country_code": "AT",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Maria",
+      "image_url": null,
+      "description": "A joyful young woman who becomes a governess for seven children and teaches them to love music."
+    },
+    {
+      "name": "Captain von Trapp",
+      "image_url": null,
+      "description": "A strict but kind-hearted father of seven children who learns to enjoy life again through music."
+    },
+    {
+      "name": "Liesl",
+      "image_url": null,
+      "description": "The oldest of the seven von Trapp children who loves to sing and dance."
+    },
+    {
+      "name": "Friedrich",
+      "image_url": null,
+      "description": "The second oldest von Trapp child who enjoys outdoor adventures in the beautiful Austrian hills."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "The Sound of Music poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "The Sound of Music (1965)",
+      "description": "Maria, a young governess in Austria, fills the von Trapp family home with music and song, bringing joy to seven children and their father.",
+      "history": "The movie was filmed in the real city of Salzburg, Austria, and the songs are so famous that people still take tours to visit the filming locations today!"
+    },
+    {
+      "lang": "vi",
+      "title": "Âm Thanh Của Âm Nhạc (1965)",
+      "description": "Cô gia sư Maria ở nước Áo đem âm nhạc và tiếng hát vào ngôi nhà của gia đình von Trapp, mang lại niềm vui cho bảy đứa trẻ và người cha.",
+      "history": "Bộ phim được quay tại thành phố Salzburg thật sự ở nước Áo, và các bài hát nổi tiếng đến mức ngày nay người ta vẫn đi tham quan những nơi quay phim đó!"
+    }
+  ],
+  "start_year": 1965,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is The Sound of Music set?",
+      "question_type": "single",
+      "options": ["Switzerland", "Germany", "Austria", "Hungary"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Phim Âm Thanh Của Âm Nhạc được đặt ở nước nào?",
+      "question_type": "single",
+      "options": ["Thụy Sĩ", "Đức", "Áo", "Hungary"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How many children does Maria look after in The Sound of Music?",
+      "question_type": "single",
+      "options": ["Five", "Six", "Seven", "Eight"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Maria trông nom bao nhiêu đứa trẻ trong phim Âm Thanh Của Âm Nhạc?",
+      "question_type": "single",
+      "options": ["Năm", "Sáu", "Bảy", "Tám"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

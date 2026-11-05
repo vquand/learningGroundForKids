@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 38.1157,
+  "longitude": 13.3615,
+  "country_code": "IT",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "The Sirocco wind travels all the way from the Sahara Desert across the entire Mediterranean Sea before reaching Italy — that is a journey of over 2,000 kilometres!",
+    "The Sirocco can carry fine red sand from the Sahara that mixes with rain and falls as 'blood rain' — leaving red dusty spots on everything it touches!",
+    "The Sirocco is so hot and dry that it can wilt flowers, make people feel sleepy, and even cause headaches — ancient Romans thought it made people irritable!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Sirocco (Desert Wind)",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Sirocco (Desert Wind)",
+      "description": "The Sirocco is a powerful, hot, and dusty wind that blows all the way from the Sahara Desert across the Mediterranean Sea to southern Europe. It carries desert heat and fine red sand, making the air feel thick, warm, and hazy.",
+      "history": "Palermo, Sicily in Italy is one of the places most affected by the Sirocco wind. The wind has shaped Mediterranean culture for thousands of years — sometimes carrying enough Saharan dust to turn the sky orange and leaving a red sandy residue on buildings, cars, and streets."
+    },
+    {
+      "lang": "vi",
+      "title": "Gió Sirocco (Gió Sa Mạc)",
+      "description": "Sirocco là một cơn gió mạnh, nóng và nhiều bụi thổi từ Sa mạc Sahara xuyên qua biển Địa Trung Hải đến Nam Âu. Nó mang theo hơi nóng sa mạc và cát đỏ mịn, khiến không khí cảm thấy đặc, ấm áp và mờ mịt.",
+      "history": "Palermo, Sicily ở Ý là một trong những nơi chịu ảnh hưởng nặng nề nhất của gió Sirocco. Cơn gió này đã ảnh hưởng đến văn hóa Địa Trung Hải trong hàng nghìn năm — đôi khi mang đủ bụi Sahara để biến bầu trời thành màu cam và để lại cặn cát đỏ trên các tòa nhà, xe cộ và đường phố."
+    }
+  ],
+  "start_year": -100,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Where does the Sirocco wind blow from?",
+      "question_type": "single",
+      "options": ["The Arctic", "The Sahara Desert", "The Amazon rainforest", "The Pacific Ocean"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Gió Sirocco thổi đến từ đâu?",
+      "question_type": "single",
+      "options": ["Bắc Cực", "Sa mạc Sahara", "Rừng nhiệt đới Amazon", "Thái Bình Dương"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What can happen when the Sirocco wind carries sand that mixes with rain?",
+      "question_type": "single",
+      "options": ["It creates snowflakes", "It falls as 'blood rain' leaving red spots", "It makes a rainbow", "It creates fog"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điều gì có thể xảy ra khi gió Sirocco mang cát trộn với mưa?",
+      "question_type": "single",
+      "options": ["Nó tạo ra bông tuyết", "Nó rơi xuống như 'mưa máu' để lại đốm đỏ", "Nó tạo ra cầu vồng", "Nó tạo ra sương mù"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

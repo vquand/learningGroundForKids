@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 27.9881,
+  "longitude": 86.925,
+  "country_code": "NP",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Mount Everest is the world's highest peak, straddling the border of Nepal and Tibet in the Himalayan mountain range, within the Solukhumbu District of northeastern Nepal.",
+  "fun_facts": [
+    "Everest is 8,848 meters tall — that is like stacking about 8,848 elephants on top of each other, all the way into the sky!",
+    "At the very top, the air has only one-third of the oxygen you breathe right now, so climbers carry oxygen tanks like astronauts.",
+    "Everest grows about 4 millimeters taller every single year because the tectonic plates underneath are still slowly pushing it up."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Mount Everest",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Mount Everest",
+      "description": "Mount Everest is the highest point on Earth, reaching 8,848 meters above sea level — so tall that even airplanes fly below its peak! The mountain is covered in glaciers, howling winds, and deep snow almost all year long. It sits on the border between Nepal and Tibet and is called Sagarmatha in Nepali, meaning 'Goddess of the Sky'.",
+      "history": "Everest was first measured as the world's tallest mountain by a British survey team in 1852. It was named after Sir George Everest, the British surveyor who helped map the Himalayas. On May 29, 1953, New Zealander Edmund Hillary and Sherpa Tenzing Norgay became the first people ever to stand on the summit."
+    },
+    {
+      "lang": "vi",
+      "title": "Núi Everest",
+      "description": "Núi Everest là điểm cao nhất trên Trái Đất, vươn tới 8.848 mét trên mực nước biển — cao đến nỗi cả máy bay cũng phải bay phía dưới đỉnh núi! Ngọn núi được phủ đầy băng tuyết, gió hú và tuyết rơi suốt gần cả năm. Nó nằm trên biên giới giữa Nepal và Tây Tạng và được gọi là Sagarmatha theo tiếng Nepal, có nghĩa là 'Nữ thần bầu trời'.",
+      "history": "Everest được một nhóm khảo sát của Anh đo đạc và công nhận là ngọn núi cao nhất thế giới vào năm 1852. Nó được đặt tên theo Sir George Everest, nhà thám hiểm người Anh đã giúp lập bản đồ dãy Himalaya. Ngày 29 tháng 5 năm 1953, người New Zealand Edmund Hillary và người Sherpa Tenzing Norgay trở thành những người đầu tiên trong lịch sử đặt chân lên đỉnh núi."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Mount Everest is the highest mountain in the world. Which country does it border?",
+      "question_type": "single",
+      "options": ["India and China", "Nepal and Tibet", "Pakistan and Afghanistan", "Bhutan and Bangladesh"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Núi Everest là ngọn núi cao nhất thế giới. Nó nằm trên biên giới giữa những nước nào?",
+      "question_type": "single",
+      "options": ["Ấn Độ và Trung Quốc", "Nepal và Tây Tạng", "Pakistan và Afghanistan", "Bhutan và Bangladesh"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How tall is Mount Everest?",
+      "question_type": "single",
+      "options": ["6,961 meters", "7,500 meters", "8,848 meters", "9,100 meters"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Núi Everest cao bao nhiêu mét?",
+      "question_type": "single",
+      "options": ["6.961 mét", "7.500 mét", "8.848 mét", "9.100 mét"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -50000000,
+  "time_precision": "mya"
+}

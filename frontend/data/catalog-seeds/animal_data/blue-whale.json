@@ -1,0 +1,67 @@
+{
+  "category": "animal",
+  "latitude": 0.0,
+  "longitude": -140.0,
+  "country_code": "US",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Blue Whales are found in all the world's major oceans. They migrate between cold polar feeding grounds in summer — where there is abundant krill — and warmer tropical and subtropical waters in winter for breeding.",
+  "fun_facts": [
+    "The Blue Whale is the largest animal ever known to have existed on Earth — up to 30 metres long and weighing 200 tonnes!",
+    "A Blue Whale's heart is as big as a small car, and its heartbeat can be heard from up to 3 kilometres away.",
+    "Despite being so massive, Blue Whales eat almost nothing but tiny shrimp-like creatures called krill — they can eat 4 tonnes of krill in a single day!",
+    "Blue Whale calls are the loudest sounds made by any animal — they can be heard across entire ocean basins.",
+    "Baby Blue Whales drink about 400 litres of their mother's milk every day and gain around 90 kg per day — the fastest growth rate of any animal!"
+  ],
+  "media": [{"media_type": "image", "label": "Blue Whale", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Blue Whale",
+      "description": "The Blue Whale is the largest creature to ever live on Earth — even bigger than any dinosaur! This gentle giant can grow up to 30 metres long and produces the loudest calls of any animal, heard across entire oceans. Despite its enormous size, it eats only tiny shrimp-like creatures called krill."
+    },
+    {
+      "lang": "vi",
+      "title": "Cá Voi Xanh",
+      "description": "Cá Voi Xanh là sinh vật lớn nhất từng sống trên Trái Đất — thậm chí còn to hơn bất kỳ loài khủng long nào! Người khổng lồ hiền lành này có thể dài tới 30 mét và tạo ra những âm thanh to nhất của bất kỳ loài động vật nào, nghe được từ khắp các đại dương. Mặc dù có kích thước khổng lồ, nó chỉ ăn những sinh vật nhỏ như tôm gọi là nhuyễn thể nhỏ (krill)."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "How long can a Blue Whale grow?",
+      "question_type": "single",
+      "options": ["Up to 10 metres", "Up to 20 metres", "Up to 30 metres", "Up to 50 metres"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Cá Voi Xanh có thể dài đến bao nhiêu?",
+      "question_type": "single",
+      "options": ["Tới 10 mét", "Tới 20 mét", "Tới 30 mét", "Tới 50 mét"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What tiny creature does the Blue Whale mainly eat?",
+      "question_type": "single",
+      "options": ["Small fish", "Squid", "Krill", "Jellyfish"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Sinh vật nhỏ bé nào là thức ăn chính của Cá Voi Xanh?",
+      "question_type": "single",
+      "options": ["Cá nhỏ", "Mực", "Nhuyễn thể nhỏ (krill)", "Sứa"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

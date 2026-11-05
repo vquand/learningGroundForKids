@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 16.4698,
+  "longitude": 107.5796,
+  "country_code": "VN",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Hue Imperial City, Hue, Vietnam",
+  "fun_facts": [
+    "The Imperial City has 10 kilometres of walls surrounding it — that's longer than 100 football fields laid end to end!",
+    "It took 80,000 workers to build the Imperial City, and they finished it in just five years.",
+    "The city is surrounded by a wide moat full of water, just like a real fairy-tale castle."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Hue Imperial City",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Hue Imperial City",
+      "description": "The Hue Imperial City is a massive walled palace complex that was once home to Vietnam's royal Nguyen dynasty. It is full of beautiful temples, pavilions, and gardens that feel like stepping into an ancient fairy tale.",
+      "history": "Built in the early 1800s under Emperor Gia Long, the Imperial City served as the political and cultural centre of Vietnam for over 140 years. It is now a UNESCO World Heritage Site and one of Vietnam's most treasured landmarks."
+    },
+    {
+      "lang": "vi",
+      "title": "Kinh thành Huế",
+      "description": "Kinh thành Huế là một khu cung điện rộng lớn được bao bọc bằng tường thành, từng là nơi sinh sống của các vua triều Nguyễn. Bên trong có nhiều đền đài, lâu các và vườn hoa đẹp như trong truyện cổ tích.",
+      "history": "Kinh thành được xây dựng vào đầu thế kỷ 19 dưới thời vua Gia Long và là trung tâm chính trị, văn hóa của Việt Nam trong hơn 140 năm. Ngày nay, đây là Di sản Thế giới UNESCO và là một trong những di tích quý giá nhất của Việt Nam."
+    }
+  ],
+  "start_year": 1804,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which Vietnamese city is the Imperial City located?",
+      "question_type": "single",
+      "options": ["Hanoi", "Hoi An", "Hue", "Da Nang"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Kinh thành Huế nằm ở thành phố nào của Việt Nam?",
+      "question_type": "single",
+      "options": ["Hà Nội", "Hội An", "Huế", "Đà Nẵng"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which Vietnamese royal dynasty lived in the Hue Imperial City?",
+      "question_type": "single",
+      "options": ["Ly Dynasty", "Tran Dynasty", "Nguyen Dynasty", "Le Dynasty"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Triều đại hoàng gia Việt Nam nào đã sống trong Kinh thành Huế?",
+      "question_type": "single",
+      "options": ["Nhà Lý", "Nhà Trần", "Nhà Nguyễn", "Nhà Lê"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

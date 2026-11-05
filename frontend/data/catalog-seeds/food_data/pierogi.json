@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 52.2297,
+  "longitude": 21.0122,
+  "country_code": "PL",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Make a soft dough and roll it flat, then cut out circles with a glass. Fill each circle with mashed potato and cheese, fold it over like a half-moon, and press the edges tight. Boil them in water until they float up, then fry in butter until the outside is golden. Top with sour cream and enjoy!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Pierogi",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Pierogi",
+      "description": "Pierogi are soft dough dumplings filled with yummy things like mashed potato and cheese, boiled and then pan-fried until golden.",
+      "history": "Pierogi have been made in Poland for hundreds of years and are so loved that Poland even has a special holiday to celebrate them called Pierogi Day!"
+    },
+    {
+      "lang": "vi",
+      "title": "Bánh Bao Nhân Pierogi",
+      "description": "Pierogi là những chiếc bánh bao bột mềm nhân đầy những thứ ngon như khoai tây nghiền và phô mai, được luộc chín rồi áp chảo vàng giòn.",
+      "history": "Pierogi đã được làm ở Ba Lan hàng trăm năm và được yêu thích đến mức Ba Lan có hẳn một ngày lễ đặc biệt để tôn vinh chúng gọi là Ngày Pierogi!"
+    }
+  ],
+  "start_year": 1300,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Pierogi from?",
+      "question_type": "single",
+      "options": ["Russia", "Ukraine", "Poland", "Czech Republic"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Pierogi đến từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Nga", "Ukraine", "Ba Lan", "Cộng hòa Séc"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is the most common filling in Pierogi?",
+      "question_type": "single",
+      "options": ["Meat and onion", "Mashed potato and cheese", "Mushroom and sauerkraut", "Fruit jam"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Nhân phổ biến nhất của Pierogi là gì?",
+      "question_type": "single",
+      "options": ["Thịt và hành", "Khoai tây nghiền và phô mai", "Nấm và bắp cải muối", "Mứt trái cây"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

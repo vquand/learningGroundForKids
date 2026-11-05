@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 47.5576,
+  "longitude": 10.7498,
+  "country_code": "DE",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Neuschwansteinstraße 20, 87645 Schwangau, Bavaria, Germany",
+  "fun_facts": [
+    "Neuschwanstein Castle inspired the design of the Sleeping Beauty Castle at Disneyland — so it is the real-life fairy tale castle!",
+    "King Ludwig II, who built the castle, was so shy he sometimes had his meals served to an empty table so he could pretend guests were there.",
+    "Although the castle looks ancient, it was actually built in the 1800s and had modern features for its time including running water and a telephone."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Neuschwanstein Castle",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Neuschwanstein Castle",
+      "description": "Neuschwanstein Castle is a fairy tale-like palace perched high in the Bavarian Alps of Germany, built by the eccentric King Ludwig II as his dream home. With its white towers soaring above the forest and mountains, it is one of the most photographed buildings on Earth.",
+      "history": "Construction began in 1869 under the orders of King Ludwig II of Bavaria, who wanted a private retreat inspired by the operas of composer Richard Wagner. The king died in 1886 before it was ever finished, and it was opened to the public just weeks after his mysterious death."
+    },
+    {
+      "lang": "vi",
+      "title": "Lâu Đài Neuschwanstein",
+      "description": "Lâu đài Neuschwanstein là một cung điện trong truyện cổ tích trên cao ở vùng núi Alps của Bavaria, Đức, được xây dựng bởi Vua Ludwig II kỳ lạ như là ngôi nhà mơ ước của ông. Với những tháp trắng cao vươn trên rừng và núi, đây là một trong những tòa nhà được chụp ảnh nhiều nhất trên Trái Đất.",
+      "history": "Việc xây dựng bắt đầu vào năm 1869 theo lệnh của Vua Ludwig II xứ Bavaria, người muốn có một nơi nghỉ ngơi riêng tư lấy cảm hứng từ các vở kịch của nhạc sĩ Richard Wagner. Nhà vua mất vào năm 1886 trước khi nó được hoàn thành, và lâu đài mở cửa cho công chúng chỉ vài tuần sau cái chết bí ẩn của ông."
+    }
+  ],
+  "start_year": 1869,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Neuschwanstein Castle located?",
+      "question_type": "single",
+      "options": ["Austria", "Switzerland", "Germany", "France"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Lâu Đài Neuschwanstein nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Áo", "Thụy Sĩ", "Đức", "Pháp"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which famous theme park castle was inspired by Neuschwanstein?",
+      "question_type": "single",
+      "options": ["Cinderella Castle", "Beast's Castle", "Sleeping Beauty Castle at Disneyland", "Aurora's Palace"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Lâu đài công viên chủ đề nổi tiếng nào được lấy cảm hứng từ Neuschwanstein?",
+      "question_type": "single",
+      "options": ["Lâu đài Cinderella", "Lâu đài Người Đẹp và Quái Vật", "Lâu đài Người Đẹp Ngủ Trong Rừng tại Disneyland", "Cung điện Aurora"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 25.2048,
+  "longitude": 55.2708,
+  "country_code": "AE",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Aladdin",
+      "image_url": null,
+      "description": "A kind and clever young man from the streets who dreams of a better life and always tries to do the right thing."
+    },
+    {
+      "name": "Genie",
+      "image_url": null,
+      "description": "A magical and very funny blue Genie who lives in a lamp and can grant wishes with a snap of his fingers."
+    },
+    {
+      "name": "Princess Jasmine",
+      "image_url": null,
+      "description": "A brave and spirited princess who loves adventure and wants to see the world beyond the palace walls."
+    },
+    {
+      "name": "Abu",
+      "image_url": null,
+      "description": "Aladdin's loyal and mischievous pet monkey who is always by his side on every adventure."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Aladdin poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Aladdin (1992)",
+      "description": "A young man named Aladdin finds a magic lamp with a Genie who grants wishes, and goes on an exciting adventure to win the heart of a princess.",
+      "history": "Aladdin is set in the fictional city of Agrabah, inspired by the ancient Middle Eastern stories from One Thousand and One Nights."
+    },
+    {
+      "lang": "vi",
+      "title": "Aladdin (1992)",
+      "description": "Một chàng trai tên Aladdin tìm thấy một cây đèn thần có Thần Đèn có thể thực hiện ước nguyện, và trải qua nhiều cuộc phiêu lưu để giành trái tim của một cô công chúa.",
+      "history": "Aladdin lấy bối cảnh là thành phố tưởng tượng Agrabah, được lấy cảm hứng từ những câu chuyện Trung Đông cổ xưa trong Nghìn Lẻ Một Đêm."
+    }
+  ],
+  "start_year": 1992,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What magical object does Aladdin find that grants wishes?",
+      "question_type": "single",
+      "options": ["A magic carpet", "A golden ring", "A magic lamp", "A crystal ball"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Vật thần kỳ nào Aladdin tìm thấy có thể thực hiện ước nguyện?",
+      "question_type": "single",
+      "options": ["Một tấm thảm bay", "Một chiếc nhẫn vàng", "Một cây đèn thần", "Một quả cầu pha lê"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which studio made the movie Aladdin (1992)?",
+      "question_type": "single",
+      "options": ["Pixar", "DreamWorks", "Studio Ghibli", "Disney"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hãng phim nào sản xuất bộ phim Aladdin (1992)?",
+      "question_type": "single",
+      "options": ["Pixar", "DreamWorks", "Studio Ghibli", "Disney"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

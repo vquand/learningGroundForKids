@@ -1,0 +1,691 @@
+@import "tailwindcss";
+
+@theme {
+--font-sans: 'Nunito', system-ui, sans-serif;
+}
+
+@layer base {
+  /* Match links by default while allowing component and utility cursor overrides. */
+  :where(button, input[type="button"], input[type="reset"], input[type="submit"], [role="button"]):not(:disabled):not([aria-disabled="true"]) {
+    cursor: pointer;
+  }
+}
+
+.seasonal-screen {
+  position: relative;
+  isolation: isolate;
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: clip;
+  background-color: #f4f8f7;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seasonal-screen__content {
+  position: relative;
+  z-index: 1;
+}
+
+.seasonal-screen[data-seasonal-theme="spring"] {
+  background-color: #fff8ed;
+  background-image:
+    linear-gradient(rgba(255, 248, 237, 0.06), rgba(255, 248, 237, 0.06)),
+    url("/illustrations/seasonal/spring-pastel-chubby.png");
+}
+
+.seasonal-screen[data-seasonal-theme="summer"] {
+  background-color: #f4f8ef;
+  background-image:
+    linear-gradient(rgba(244, 248, 239, 0.06), rgba(244, 248, 239, 0.06)),
+    url("/illustrations/seasonal/summer-pastel-chubby.png");
+}
+
+.seasonal-screen[data-seasonal-theme="fall"] {
+  background-color: #fff6e9;
+  background-image:
+    linear-gradient(rgba(255, 246, 233, 0.06), rgba(255, 246, 233, 0.06)),
+    url("/illustrations/seasonal/fall-pastel-chubby.png");
+}
+
+.seasonal-screen[data-seasonal-theme="winter"] {
+  background-color: #f1f5f5;
+  background-image:
+    linear-gradient(rgba(241, 245, 245, 0.06), rgba(241, 245, 245, 0.06)),
+    url("/illustrations/seasonal/winter-pastel-chubby.png");
+}
+
+.seasonal-screen[data-seasonal-theme="halloween"] {
+  background-color: #fff4e6;
+  background-image:
+    linear-gradient(rgba(255, 246, 232, 0.08), rgba(255, 246, 232, 0.08)),
+    url("/illustrations/seasonal/halloween-pastel-chubby.png");
+}
+
+.seasonal-screen[data-seasonal-theme="christmas"] {
+  background-color: #f2f7f7;
+  background-image:
+    linear-gradient(rgba(237, 247, 250, 0.08), rgba(237, 247, 250, 0.08)),
+    url("/illustrations/seasonal/christmas-pastel-chubby.png");
+}
+
+.seasonal-screen[data-seasonal-theme="vietnam-national-day"] {
+  background-color: #fff4ef;
+  background-image:
+    linear-gradient(rgba(255, 244, 239, 0.08), rgba(255, 244, 239, 0.08)),
+    url("/illustrations/seasonal/vietnam-national-day-pastel-chubby.png");
+}
+
+.seasonal-screen[data-seasonal-theme="tet"] {
+  background-color: #fff8df;
+  background-image:
+    linear-gradient(rgba(255, 248, 223, 0.08), rgba(255, 248, 223, 0.08)),
+    url("/illustrations/seasonal/tet-pastel-chubby.png");
+}
+
+* {
+  touch-action: manipulation;
+}
+
+/*
+ * Keep the app inside the visible device viewport while allowing taller
+ * recipes and minigame controls to continue below the fold on iPad and other
+ * touch devices. The dynamic viewport unit follows Safari's browser chrome as
+ * it expands and collapses, unlike a fixed 100vh shell.
+ */
+.app-shell {
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.leaflet-container {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: none;
+  cursor: grab;
+  background:
+    radial-gradient(circle at 16% 12%, rgba(255, 252, 235, 0.58), transparent 27%),
+    radial-gradient(circle at 86% 82%, rgba(255, 250, 224, 0.34), transparent 32%),
+    repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.14) 0 2px, transparent 2px 11px),
+    linear-gradient(180deg, #dbe5df 0%, #c7d8d3 100%);
+}
+
+/* Leaflet's own stylesheet is injected by the map bundle, so keep this
+   surface-specific background at a higher specificity than its #ddd default. */
+.leaflet-container.illustrated-world-map {
+  background:
+    radial-gradient(circle at 16% 12%, rgba(255, 252, 235, 0.58), transparent 27%),
+    radial-gradient(circle at 86% 82%, rgba(255, 250, 224, 0.34), transparent 32%),
+    repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.14) 0 2px, transparent 2px 11px),
+    linear-gradient(180deg, #dbe5df 0%, #c7d8d3 100%) !important;
+}
+
+/* A very light paper grain keeps the local vector layer feeling hand-painted
+   without adding another image or making a network request. */
+.leaflet-container::after {
+  position: absolute;
+  z-index: 450;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  opacity: 0.1;
+  background:
+    repeating-linear-gradient(32deg, rgba(255, 255, 255, 0.18) 0 1px, transparent 1px 6px),
+    repeating-linear-gradient(148deg, rgba(120, 151, 167, 0.08) 0 1px, transparent 1px 8px);
+  mix-blend-mode: soft-light;
+}
+
+.leaflet-container:active {
+  cursor: grabbing;
+}
+
+.leaflet-tile {
+  transition: opacity 180ms linear, filter 220ms ease-out;
+}
+
+.leaflet-zoom-anim .leaflet-zoom-animated {
+  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.leaflet-overlay-pane .illustrated-earth {
+  overflow: visible;
+}
+
+.leaflet-overlay-pane .illustrated-earth__countries path,
+.leaflet-overlay-pane .illustrated-earth__coast-ink {
+  paint-order: stroke fill;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.leaflet-overlay-pane .illustrated-earth__forests,
+.leaflet-overlay-pane .illustrated-earth__deserts,
+.leaflet-overlay-pane .illustrated-earth__ice {
+  transition: opacity 180ms ease-out;
+}
+
+.leaflet-overlay-pane .illustrated-earth__mountains use,
+.leaflet-overlay-pane .illustrated-earth__settlements use {
+  filter: drop-shadow(0.8px 1.4px 0 rgba(56, 51, 43, 0.3));
+}
+
+.leaflet-overlay-pane .illustrated-earth__rivers path,
+.leaflet-overlay-pane .illustrated-earth__mountains path,
+.leaflet-overlay-pane .illustrated-earth__biome-border {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.leaflet-illustrated-earth-pane-pane .illustrated-earth__frame {
+  fill: none;
+  pointer-events: none;
+  stroke-linejoin: round;
+}
+
+.leaflet-illustrated-earth-pane-pane .illustrated-earth__frame--outer {
+  stroke: #765747;
+  stroke-width: 7;
+  stroke-opacity: 0.9;
+}
+
+.leaflet-illustrated-earth-pane-pane .illustrated-earth__frame--inner {
+  stroke: #f2d69c;
+  stroke-width: 2.5;
+  stroke-opacity: 0.95;
+}
+
+.leaflet-control-attribution {
+  border-radius: 0.5rem 0 0 0;
+  background: rgba(255, 252, 244, 0.78);
+  color: #7c655c;
+  font-size: 0.65rem;
+}
+
+.map-zoom-controls {
+  position: absolute;
+  left: 5.5rem;
+  bottom: 1.25rem;
+  z-index: 1000;
+  display: grid;
+  gap: 0.45rem;
+  margin: 0;
+  pointer-events: auto;
+}
+
+.map-zoom-controls__button {
+  display: grid;
+  width: 3.5rem;
+  height: 3.5rem;
+  place-items: center;
+  border: 2px solid #d7c7b8;
+  border-radius: 1rem;
+  background: rgba(255, 253, 248, 0.96);
+  box-shadow: 0 0.3rem 0.7rem rgba(80, 65, 53, 0.16);
+  color: #6f5144;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1;
+  cursor: pointer;
+  transition: transform 140ms ease, background 140ms ease, opacity 140ms ease;
+}
+
+.map-zoom-controls__button:hover:not(:disabled),
+.map-zoom-controls__button:focus-visible {
+  border-color: #9caf86;
+  background: #f0f5e9;
+  transform: translateY(-1px);
+}
+
+.map-zoom-controls__button:focus-visible {
+  outline: 3px solid #70816a;
+  outline-offset: 3px;
+}
+
+.map-zoom-controls__button:active:not(:disabled) {
+  transform: scale(0.94);
+}
+
+.map-zoom-controls__button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+@media (max-width: 640px) {
+  .map-zoom-controls {
+    left: 5rem;
+    bottom: 1rem;
+  }
+
+  .map-zoom-controls__button {
+    width: 3.25rem;
+    height: 3.25rem;
+  }
+}
+
+.map-item-marker,
+.map-cluster-marker {
+  will-change: transform;
+}
+
+.map-item-marker > .map-marker-hit-target,
+.map-cluster-marker > .map-marker-hit-target {
+  transition: transform 160ms ease, filter 160ms ease, opacity 160ms ease;
+  transform-origin: center center;
+}
+
+.map-marker-hit-target {
+  box-sizing: border-box;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.map-item-marker:focus-visible,
+.map-cluster-marker:focus-visible {
+  outline: 4px solid #0f172a;
+  outline-offset: 3px;
+}
+
+.map-marker-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.map-item-marker:hover > .map-marker-hit-target,
+.map-cluster-marker:hover > .map-marker-hit-target {
+  transform: scale(1.06);
+  filter: brightness(1.03);
+}
+
+/* Phase 5: Shared animations */
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes done-pop-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes marker-tap-bounce {
+  0% { transform: scale(1); }
+  30% { transform: scale(0.85); }
+  60% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.detail-page-enter {
+  animation: page-enter 0.3s ease-out;
+}
+
+.done-badge-pop-in {
+  animation: done-pop-in 0.4s ease-out;
+}
+
+.leaflet-marker-icon:active {
+  animation: marker-tap-bounce 0.25s ease-out;
+}
+
+.map-item-preview-popup .leaflet-popup-content-wrapper {
+  border-radius: 1rem;
+}
+
+.map-item-preview-popup .leaflet-popup-content {
+  margin: 1.25rem;
+}
+
+.map-item-preview-popup--touch .leaflet-popup-content {
+  margin: 1.5rem;
+}
+
+.leaflet-container .map-item-preview-popup .leaflet-popup-close-button {
+  display: flex;
+  width: 2.75rem;
+  height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.leaflet-container .map-item-preview-popup--touch .leaflet-popup-close-button {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.75rem;
+}
+
+.journey-waypoint-popup .leaflet-popup-content-wrapper {
+  border: 2px solid rgba(15, 23, 42, 0.08);
+  border-radius: 1rem;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.2);
+}
+
+.journey-waypoint-popup .leaflet-popup-content {
+  margin: 0.75rem 1rem;
+}
+
+.journey-waypoint-popup-content {
+  display: flex;
+  min-width: 12rem;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.journey-waypoint-popup-avatar {
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid white;
+  border-radius: 9999px;
+  box-shadow: 0 3px 8px rgba(15, 23, 42, 0.2);
+  font-size: 1.5rem;
+}
+
+.journey-waypoint-popup-copy {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.journey-waypoint-popup-title {
+  overflow: hidden;
+  color: #0f172a;
+  font-size: 0.95rem;
+  line-height: 1.25;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.journey-waypoint-popup-category {
+  color: #64748b;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-transform: capitalize;
+}
+
+.journey-biome-legend {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 5;
+  max-width: min(24rem, calc(100% - 2rem));
+  padding: 0.75rem 0.875rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.875rem;
+  background: rgba(15, 23, 42, 0.8);
+  color: white;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.25);
+  backdrop-filter: blur(8px);
+  pointer-events: none;
+}
+
+.journey-biome-legend-title {
+  margin: 0 0 0.45rem;
+  color: #fde68a;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.journey-biome-legend-items {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.3rem 0.75rem;
+}
+
+.journey-biome-legend-item {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 0.35rem;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 0.65rem;
+  line-height: 1rem;
+  white-space: nowrap;
+}
+
+.journey-biome-legend-swatch {
+  display: inline-block;
+  height: 0.65rem;
+  width: 0.65rem;
+  flex: 0 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 0.15rem;
+  box-shadow: 1px 1px 0 rgba(15, 23, 42, 0.35);
+}
+
+@media (max-width: 640px) {
+  .journey-biome-legend {
+    right: 0.5rem;
+    bottom: 0.5rem;
+    max-width: calc(100% - 1rem);
+  }
+
+  .journey-biome-legend-items {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Phase 7: Timeline animations */
+@keyframes sidebar-slide-in {
+  from { transform: translateX(-72px); }
+  to { transform: translateX(0); }
+}
+
+@keyframes scrubber-slide-down {
+  from { transform: translateY(-72px); }
+  to { transform: translateY(0); }
+}
+
+/* Era expand: panel pops open from the left */
+@keyframes era-expand {
+  from { transform: scaleX(0.7); opacity: 0; }
+  to   { transform: scaleX(1);   opacity: 1; }
+}
+
+/* Era bar glow: active era pulses amber */
+@keyframes era-bar-glow {
+  0%, 100% { box-shadow: 0 0 4px rgba(251, 191, 36, 0.5); }
+  50%       { box-shadow: 0 0 12px rgba(251, 191, 36, 0.8); }
+}
+
+.sidebar-slide-in {
+  animation: sidebar-slide-in 80ms ease-out;
+}
+
+.scrubber-slide-down {
+  animation: scrubber-slide-down 80ms ease-out;
+  animation-fill-mode: backwards;
+}
+
+.era-expand {
+  animation: era-expand 180ms ease-out;
+  transform-origin: left center;
+}
+
+.era-bar-glow {
+  animation: era-bar-glow 2000ms ease-in-out infinite;
+}
+
+/* Phase 9: Journey Replay animations */
+@keyframes journey-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes journey-fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes waypoint-arrive {
+  0% { transform: translateY(8px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes waypoint-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.6); }
+  100% { box-shadow: 0 0 0 16px rgba(251, 191, 36, 0); }
+}
+
+@keyframes completion-bounce {
+  0% { transform: scale(0.8); opacity: 0; }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.journey-overlay-enter {
+  animation: journey-fade-in 300ms ease-out;
+}
+
+.journey-overlay-exit {
+  animation: journey-fade-out 200ms ease-in;
+}
+
+.waypoint-label-enter {
+  animation: waypoint-arrive 200ms ease-out;
+}
+
+.waypoint-pulse {
+  animation: waypoint-pulse 600ms ease-out;
+}
+
+.journey-complete-enter {
+  animation: completion-bounce 400ms ease-out;
+}
+
+.journey-route-preview {
+  animation: journey-fade-in 320ms ease-out;
+  filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.45));
+}
+
+.journey-route-traveled {
+  animation: journey-fade-in 220ms ease-out;
+  filter: drop-shadow(0 0 10px rgba(253, 230, 138, 0.5));
+}
+
+.journey-home-marker,
+.journey-waypoint-marker {
+  animation: waypoint-arrive 220ms ease-out;
+}
+
+/* Phase 10: Quiz — WIP marker pulse */
+@keyframes wip-pulse {
+  0%, 100% { box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 0 0 0 rgba(245,158,11,0.5); }
+  50%       { box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 0 0 8px rgba(245,158,11,0); }
+}
+.wip-pulse { animation: wip-pulse 1.8s ease-in-out infinite; }
+
+/* Explore uses labels on selected filters, including touch-only devices. */
+.explore-header .explore-timeline { flex:1; min-width:0; height:48px; display:flex; align-items:center; gap:4px; }
+.explore-timeline__eras { flex:1; min-width:0; display:flex; align-items:center; gap:4px; height:100%; overflow-x:auto; scrollbar-width:none; }
+.explore-timeline__eras::-webkit-scrollbar { display:none; }
+.explore-era { min-height:44px; min-width:44px; overflow:hidden; }
+.explore-era__label { max-width:100%; overflow:hidden; text-overflow:ellipsis; }
+.explore-timeline__clear { flex-shrink:0; }
+.explore-categories { position:absolute; top:144px; bottom:12px; left:0; z-index:1000; display:flex; flex-direction:column; align-items:flex-start; gap:8px; padding:8px 4px; pointer-events:none; }
+.explore-category { pointer-events:auto; flex-shrink:0; display:flex; align-items:center; gap:8px; min-width:64px; min-height:64px; padding:8px 12px; border-radius:16px; font-size:26px; transition:background .15s; }
+.explore-category-icon { width:32px; flex-shrink:0; display:grid; place-items:center; }
+.explore-category-label { max-width:160px; font-size:16px; line-height:1.2; font-weight:900; overflow-wrap:anywhere; }
+.explore-category:focus-visible { outline:3px solid #4f7357; outline-offset:2px; }
+.explore-actions { position:absolute; bottom:max(24px,env(safe-area-inset-bottom)); left:50%; transform:translateX(-50%); z-index:1000; display:flex; align-items:center; gap:12px; }
+@media (max-width:600px) {
+  .explore-categories { top:144px; bottom:126px; gap:4px; padding:4px; }
+  .explore-category { min-width:44px; min-height:44px; padding:4px 6px; border-radius:12px; font-size:22px; }
+  .explore-category-icon { width:26px; }.explore-category-icon img { width:26px; height:26px; }
+  .explore-category-label { max-width:115px; font-size:13px; }
+  .explore-timeline__eras { gap:2px; }
+  .explore-timeline button { min-height:44px; }
+  .explore-actions { left:54px; right:8px; bottom:max(8px,env(safe-area-inset-bottom)); transform:none; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:6px; }
+  .explore-actions > button { min-width:0; min-height:48px; padding:6px 8px; border-radius:16px; font-size:12px; line-height:1.15; justify-content:center; gap:4px; }
+  .explore-actions > button > span:last-child { overflow-wrap:anywhere; }
+  .explore-actions .explore-profile-avatar { width:28px; height:28px; font-size:24px; }
+}
+@media (max-height:600px) and (orientation:landscape) {
+  .explore-categories { top:144px; bottom:8px; flex-wrap:wrap; gap:4px; }
+  .explore-category { min-width:44px; min-height:44px; padding:4px 6px; font-size:22px; }
+  .explore-category-icon { width:26px; }.explore-category-label { font-size:13px; max-width:110px; }
+  .explore-actions > button { min-height:48px; padding:4px 8px; font-size:12px; }
+}
+
+@media (max-width:600px) {
+  .activity-hub-page > main > header { padding:16px; border-radius:20px; }
+  .activity-hub-page > main > header h1 { font-size:24px; }
+  .activity-hub-page .activity-hub-card { display:grid; grid-template-columns:48px minmax(0,1fr); column-gap:12px; min-height:0; padding:14px; border-radius:20px; }
+  .activity-hub-card > span:first-child { grid-row:1 / 4; width:48px; height:48px; align-self:center; }
+  .activity-hub-card > span:nth-child(2) { margin-top:0; font-size:18px; }
+  .activity-hub-card > span:nth-child(3) { grid-column:2; margin-top:4px; font-size:13px; line-height:1.3; }
+  .activity-hub-card > span:nth-child(4) { grid-column:2; margin-top:6px; font-size:12px; }
+  .activity-hub-card .kid-age-badge { min-width:30px; height:24px; padding-inline:5px; font-size:12px; }
+}
+
+@media (max-width:600px), (max-height:600px) and (orientation:landscape) {
+  .explore-page .map-zoom-controls { left:auto; right:12px; top:144px; bottom:auto; }
+  .explore-page .map-zoom-controls__button { width:44px; height:44px; }
+}
+
+@media (max-width:600px) {
+  .profile-picker-page { padding-top:max(64px,calc(env(safe-area-inset-top) + 56px)); }
+  .profile-picker-page > header h1 { font-size:22px; }.profile-picker-page > header > img { width:60px; height:60px; }
+}
+
+.activity-hub-page > .kid-nav { position:sticky; top:env(safe-area-inset-top,0px); z-index:40; }
+
+.explore-map-status {
+  position: absolute; left: 96px; top: 148px; z-index: 1000;
+  max-width: calc(100% - 128px); padding: 8px 12px; border-radius: 12px;
+  background: #fffdf8; box-shadow: 0 2px 8px #1d24421a; color: #4b465a;
+}
+.explore-map-status button, .explore-cluster-pages button {
+  min-height: 44px; min-width: 44px; padding: 8px 12px; border-radius: 10px;
+  background: #f4efff; color: #514179; font-weight: 700;
+}
+.explore-cluster-pages {
+  position: absolute; left: 50%; bottom: calc(112px + env(safe-area-inset-bottom, 0px));
+  transform: translateX(-50%); z-index: 1000; display: flex; align-items: center;
+  gap: 8px; max-width: calc(100% - 120px); padding: 8px; border-radius: 14px;
+  background: #fffdf8; box-shadow: 0 2px 8px #1d24421a;
+}
+.explore-cluster-pages button:disabled { opacity: .45; }
+.explore-cluster-pages span { white-space: nowrap; }
+
+.explore-progress-filter { position:absolute; left:84px; bottom:max(24px,env(safe-area-inset-bottom)); z-index:1000; display:flex; padding:4px; border-radius:14px; background:#fffdf8; box-shadow:0 2px 8px #1d24422a; }
+.explore-progress-filter button { min-height:44px; min-width:44px; padding:8px; border-radius:10px; font-size:14px; font-weight:800; color:#514179; }
+.explore-progress-filter button[aria-pressed="true"] { background:#e9ddff; }
+.explore-progress-filter button:focus-visible { outline:3px solid #4f7357; outline-offset:1px; }
+@media (max-width:1280px) { .explore-page .explore-actions { left:auto; right:20px; transform:none; } }
+@media (max-width:600px) { .explore-progress-filter { bottom:132px; left:56px; } }
+
+.explore-page .map-zoom-controls { left:auto; right:12px; top:148px; bottom:auto; }

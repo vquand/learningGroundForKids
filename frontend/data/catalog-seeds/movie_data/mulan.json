@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 39.9042,
+  "longitude": 116.4074,
+  "country_code": "CN",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Mulan",
+      "image_url": null,
+      "description": "A brave and determined young woman who disguises herself as a soldier to protect her family and her country."
+    },
+    {
+      "name": "Mushu",
+      "image_url": null,
+      "description": "A tiny but very energetic and funny red dragon who becomes Mulan's loyal helper and best friend."
+    },
+    {
+      "name": "Li Shang",
+      "image_url": null,
+      "description": "A strong and honorable captain who trains the soldiers and learns to respect Mulan's bravery."
+    },
+    {
+      "name": "Grandmother Fa",
+      "image_url": null,
+      "description": "Mulan's funny and wise grandmother who loves her granddaughter and always makes everyone smile."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Mulan poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Mulan (1998)",
+      "description": "A young Chinese woman named Mulan bravely takes her father's place in the army and proves that courage and kindness can save an entire kingdom.",
+      "history": "Mulan is based on an ancient Chinese legend called the Ballad of Hua Mulan, which has been told and retold in China for over 1,500 years."
+    },
+    {
+      "lang": "vi",
+      "title": "Hoa Mộc Lan (1998)",
+      "description": "Một cô gái Trung Quốc dũng cảm tên Mộc Lan thay cha tham gia quân đội và chứng minh rằng lòng dũng cảm và sự tốt bụng có thể cứu cả một vương quốc.",
+      "history": "Mộc Lan dựa trên một truyền thuyết Trung Quốc cổ xưa gọi là Thơ Mộc Lan, đã được kể lại ở Trung Quốc hơn 1.500 năm qua."
+    }
+  ],
+  "start_year": 1998,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Why does Mulan disguise herself as a soldier in the movie?",
+      "question_type": "single",
+      "options": ["To explore the world", "To find treasure", "To take her father's place in the army", "To become a general"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tại sao Mộc Lan giả làm lính trong phim?",
+      "question_type": "single",
+      "options": ["Để khám phá thế giới", "Để tìm kho báu", "Để thay cha tham gia quân đội", "Để trở thành tướng quân"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which country is the movie Mulan set in?",
+      "question_type": "single",
+      "options": ["Japan", "Korea", "Mongolia", "China"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Bộ phim Hoa Mộc Lan được đặt ở nước nào?",
+      "question_type": "single",
+      "options": ["Nhật Bản", "Hàn Quốc", "Mông Cổ", "Trung Quốc"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

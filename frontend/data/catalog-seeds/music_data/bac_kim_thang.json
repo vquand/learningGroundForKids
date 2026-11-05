@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 21.0285,
+  "longitude": 105.8542,
+  "country_code": "VN",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Traditional Vietnamese",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Bac Kim Thang — Traditional Vietnamese",
+      "description": "A fun and playful children's folk song that Vietnamese kids have been singing for hundreds of years. Its bouncy rhythm makes everyone want to clap and dance along!",
+      "history": "No one knows exactly who wrote this song because it was passed down through generations by word of mouth. It is one of the oldest and most beloved nursery rhymes in Vietnam."
+    },
+    {
+      "lang": "vi",
+      "title": "Bắc Kim Thang — Dân ca Việt Nam",
+      "description": "Đây là một bài đồng dao vui tươi mà các bạn nhỏ Việt Nam đã hát trong hàng trăm năm. Nhịp điệu vui vẻ khiến ai cũng muốn vỗ tay và nhảy múa theo!",
+      "history": "Không ai biết chính xác ai đã sáng tác bài hát này vì nó được truyền miệng qua nhiều thế hệ. Đây là một trong những bài hát thiếu nhi cổ nhất và được yêu thích nhất ở Việt Nam."
+    }
+  ],
+  "start_year": 1900,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Where does the folk song 'Bac Kim Thang' come from?", "question_type": "single", "options": ["China", "Vietnam", "Japan", "Korea"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Bài đồng dao 'Bắc Kim Thang' đến từ quốc gia nào?", "question_type": "single", "options": ["Trung Quốc", "Việt Nam", "Nhật Bản", "Hàn Quốc"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "How was 'Bac Kim Thang' passed down through generations?", "question_type": "single", "options": ["Through books", "By word of mouth", "On television", "Through radio"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Bài 'Bắc Kim Thang' được truyền lại qua các thế hệ bằng cách nào?", "question_type": "single", "options": ["Qua sách vở", "Truyền miệng", "Qua truyền hình", "Qua radio"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

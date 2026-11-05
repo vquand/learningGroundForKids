@@ -1,0 +1,22 @@
+.town-relaxing-shell{min-height:100dvh}
+.town-relax-enter,.town-relax-exit{position:fixed;top:max(8px,env(safe-area-inset-top));z-index:1100;display:grid;place-items:center;width:48px;height:48px;min-height:48px;padding:10px;border:2px solid #d9c4ac;border-radius:14px;background:#fffaf0;color:#574435;cursor:pointer;box-sizing:border-box}
+.town-relax-enter{right:calc(max(12px,env(safe-area-inset-right)) + 112px)}
+.town-relax-enter svg,.town-relax-exit svg{width:100%;height:100%}
+.town-relax-enter:focus-visible,.town-relax-exit:focus-visible{outline:3px solid #4f7357;outline-offset:3px}
+body:has(.town-relax-enter) .town-header.kid-nav{padding-right:max(188px,calc(env(safe-area-inset-right) + 176px))}
+.town-relaxing-shell .town-map-screen .town-header-brand{max-width:calc(100% - 596px)}
+@media(orientation:portrait),(max-width:900px){.town-relaxing-shell .town-map-screen .town-header-brand{max-width:none}}
+.town-relaxing-shell[data-relaxing=true]{position:fixed;inset:0;z-index:1200;width:100%;height:100dvh;background:#e8e5cb;overflow:hidden}
+.town-relaxing-shell[data-relaxing=true] .town-page.town-page{height:100%;padding:0;gap:0;--kid-page-inset:0}
+.town-relaxing-shell[data-relaxing=true] :is(.town-header,.town-status-row,.town-sidebar,.town-map-controls,.town-map-notices,.town-test-appearance,.town-visit-note,.town-weather-note,.town-reward-bar,.town-map-overlays,.town-dev-info-layer,.town-flower-wish){display:none!important}
+.town-relaxing-shell[data-relaxing=true] .town-layout{display:flex;flex:1;width:100%;height:100%;gap:0}
+.town-relaxing-shell[data-relaxing=true] .town-play{position:relative;flex:1;width:100%;height:100%;padding:0;gap:0;border:0;border-radius:0}
+.town-relaxing-shell[data-relaxing=true] .town-scene{border-radius:0}
+.town-relaxing-shell[data-relaxing=true] :is(.town-blob-heart,.town-raft-lock,.town-river-world-button>b){display:none!important}
+.town-relaxing-shell[data-relaxing=true] :is(.town-flower-friend,.town-river-world-button){pointer-events:none;cursor:default}
+.town-relaxing-shell[data-relaxing=true] button:not(.town-relax-exit):not([data-map-exit]){display:none!important}
+.town-relax-exit{right:max(12px,env(safe-area-inset-right));z-index:1300}
+.town-relax-error{flex:none;padding:6px 12px;background:#fffaf0;color:#8a342e}
+.town-relax-error .town-view-tip{margin:0;height:auto;white-space:normal;overflow:visible;overflow-wrap:anywhere}
+body.town-is-relaxing{overflow:hidden}
+body.town-is-relaxing :is(.ui-language,.minigame-badges-button,.town-reward-flight-layer){display:none!important}

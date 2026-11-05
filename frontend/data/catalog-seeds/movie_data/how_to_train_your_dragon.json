@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 60.3913,
+  "longitude": 5.3221,
+  "country_code": "NO",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Hiccup",
+      "image_url": null,
+      "description": "A young Viking boy who dreams of becoming a dragon hunter but instead befriends a dragon."
+    },
+    {
+      "name": "Toothless",
+      "image_url": null,
+      "description": "A rare and powerful Night Fury dragon who becomes Hiccup's loyal best friend."
+    },
+    {
+      "name": "Astrid",
+      "image_url": null,
+      "description": "A brave and skilled Viking girl who trains alongside Hiccup and becomes his closest ally."
+    },
+    {
+      "name": "Stoick",
+      "image_url": null,
+      "description": "Hiccup's strong and proud father who is the chief of the Viking village of Berk."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "How to Train Your Dragon poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "How to Train Your Dragon (2010)",
+      "description": "A young Viking named Hiccup secretly befriends a dragon called Toothless, changing everything his village believes about dragons.",
+      "history": "The movie is inspired by Viking culture from Scandinavia, and the island of Berk is based on the rugged landscapes of Norway."
+    },
+    {
+      "lang": "vi",
+      "title": "Huyền Thoại Kỵ Sĩ Rồng (2010)",
+      "description": "Một cậu bé Viking tên Hiccup kết bạn với một con rồng tên Toothless, thay đổi tất cả những gì làng của cậu tin về rồng.",
+      "history": "Bộ phim được lấy cảm hứng từ văn hóa Viking ở Scandinavia, và hòn đảo Berk được xây dựng dựa trên phong cảnh hiểm trở của Na Uy."
+    }
+  ],
+  "start_year": 2010,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is the name of Hiccup's dragon in How to Train Your Dragon?",
+      "question_type": "single",
+      "options": ["Smaug", "Toothless", "Spyro", "Draco"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tên con rồng của Hiccup trong phim Huyền Thoại Kỵ Sĩ Rồng là gì?",
+      "question_type": "single",
+      "options": ["Smaug", "Toothless", "Spyro", "Draco"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which studio made How to Train Your Dragon?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Blue Sky"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hãng phim nào sản xuất Huyền Thoại Kỵ Sĩ Rồng?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Blue Sky"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

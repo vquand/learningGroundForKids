@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "country_code": "FR",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Ernest",
+      "image_url": null,
+      "description": "A big, scruffy bear with a love of music who lives alone in the forest and discovers that mice can make wonderful friends."
+    },
+    {
+      "name": "Celestine",
+      "image_url": null,
+      "description": "A small, imaginative mouse who loves to draw and dares to befriend a bear, even though the two worlds say they should be enemies."
+    },
+    {
+      "name": "The Judge",
+      "image_url": null,
+      "description": "A stern bear judge who tries to keep the worlds of bears and mice completely separate."
+    },
+    {
+      "name": "The Gray One",
+      "image_url": null,
+      "description": "The strict leader of the mouse world underground who believes all bears are dangerous and must never be trusted."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Ernest & Celestine poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Ernest & Celestine (2012)",
+      "description": "An unlikely friendship blossoms between Ernest, a cheerful bear, and Celestine, a little mouse, as they discover that the rules keeping their two worlds apart make no sense.",
+      "history": "The film is based on a beloved Belgian children's book series by Gabrielle Vincent, and its charming watercolor art style was carefully recreated for the animation."
+    },
+    {
+      "lang": "vi",
+      "title": "Ernest Và Celestine (2012)",
+      "description": "Một tình bạn bất ngờ nở rộ giữa Ernest, một chú gấu vui vẻ, và Celestine, một cô chuột nhỏ, khi họ nhận ra rằng những quy tắc ngăn cách hai thế giới của họ là vô nghĩa.",
+      "history": "Phim được chuyển thể từ bộ truyện thiếu nhi nổi tiếng của Bỉ do Gabrielle Vincent sáng tác, và phong cách nghệ thuật màu nước đẹp được tái hiện cẩn thận trong hoạt hình."
+    }
+  ],
+  "start_year": 2012,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What two animals are the main characters in Ernest & Celestine?",
+      "question_type": "single",
+      "options": ["A fox and a rabbit", "A bear and a mouse", "A wolf and a deer", "A cat and a bird"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hai nhân vật chính trong Ernest & Celestine là loài động vật nào?",
+      "question_type": "single",
+      "options": ["Một con cáo và một con thỏ", "Một con gấu và một con chuột", "Một con sói và một con nai", "Một con mèo và một con chim"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which country's book series inspired the film Ernest & Celestine?",
+      "question_type": "single",
+      "options": ["France", "Netherlands", "Belgium", "Luxembourg"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Bộ truyện của nước nào đã truyền cảm hứng cho phim Ernest & Celestine?",
+      "question_type": "single",
+      "options": ["Pháp", "Hà Lan", "Bỉ", "Luxembourg"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

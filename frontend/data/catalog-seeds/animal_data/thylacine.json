@@ -1,0 +1,69 @@
+{
+  "category": "animal",
+  "latitude": -42.0,
+  "longitude": 147.0,
+  "country_code": "AU",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "The Thylacine once lived across mainland Australia and New Guinea, but by European settlement times it survived only on the island of Tasmania. It roamed open grasslands, wetlands, and eucalyptus forests.",
+  "fun_facts": [
+    "The Thylacine looked like a dog with tiger stripes, but it was actually more closely related to a kangaroo — it was a marsupial!",
+    "Female Thylacines had a backwards-opening pouch to carry their young, just like kangaroos.",
+    "It could open its jaws wider than almost any other mammal — nearly 90 degrees!",
+    "The last known Thylacine, named Benjamin, died at Hobart Zoo on 7 September 1936.",
+    "Scientists today are working on projects to bring the Thylacine back using ancient DNA!"
+  ],
+  "end_year": 1936,
+  "time_precision": "year",
+  "media": [{"media_type": "image", "label": "Thylacine", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Thylacine — Tasmanian Tiger (Extinct 1936)",
+      "description": "The Thylacine, or Tasmanian Tiger, was a striped marsupial that looked like a cross between a dog and a tiger. It was once found across all of Australia, but hunting drove it to extinction in Tasmania. The last one died in a zoo in 1936. Scientists are now trying to bring it back using ancient DNA!"
+    },
+    {
+      "lang": "vi",
+      "title": "Thylacine — Hổ Tasmania (Tuyệt chủng 1936)",
+      "description": "Thylacine, hay còn gọi là Hổ Tasmania, là loài thú có túi có sọc trông giống như con lai giữa chó và hổ. Nó từng được tìm thấy khắp nước Úc, nhưng việc săn bắn đã khiến nó tuyệt chủng ở Tasmania. Con cuối cùng chết trong sở thú năm 1936. Các nhà khoa học hiện đang cố gắng tái tạo nó bằng DNA cổ đại!"
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "The Thylacine looked like a dog, but what type of animal was it really?",
+      "question_type": "single",
+      "options": ["A large cat", "A marsupial like a kangaroo", "A wolf", "A hyena"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Thylacine trông giống chó, nhưng thực ra nó là loài động vật gì?",
+      "question_type": "single",
+      "options": ["Một loài mèo lớn", "Thú có túi như chuột túi", "Một con sói", "Một con linh cẩu"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "On which island did the last Thylacines survive before going extinct?",
+      "question_type": "single",
+      "options": ["New Zealand", "Papua New Guinea", "Tasmania", "Borneo"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Những con Thylacine cuối cùng sống sót trên đảo nào trước khi tuyệt chủng?",
+      "question_type": "single",
+      "options": ["New Zealand", "Papua New Guinea", "Tasmania", "Borneo"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

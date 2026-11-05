@@ -1,0 +1,71 @@
+{
+  "category": "music",
+  "latitude": 51.3397,
+  "longitude": 12.3731,
+  "country_code": "DE",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Johann Sebastian Bach",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Air on the G String — Bach",
+      "description": "A slow, smooth, and deeply beautiful melody played by string instruments. It feels like floating gently on a cloud on a peaceful sunny day.",
+      "history": "Bach originally wrote this as part of a longer orchestral suite. A musician later rearranged it so it could be played on just one string of the violin — the G string — and that version became world-famous!"
+    },
+    {
+      "lang": "vi",
+      "title": "Air on the G String — Bach",
+      "description": "Một giai điệu chậm, mượt mà và đẹp sâu sắc được chơi bởi các nhạc cụ dây. Nó cảm giác như đang nhẹ nhàng bay trên đám mây vào một ngày nắng bình yên.",
+      "history": "Bach ban đầu viết tác phẩm này như một phần của một bộ nhạc giao hưởng dài hơn. Sau đó một nhạc sĩ chuyển soạn lại để chỉ cần một dây đàn violin duy nhất — dây G — và phiên bản đó đã trở nên nổi tiếng toàn thế giới!"
+    }
+  ],
+  "start_year": 1717,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Who composed 'Air on the G String'?",
+      "question_type": "single",
+      "options": ["Mozart", "Bach", "Beethoven", "Vivaldi"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Ai đã sáng tác bài 'Air on the G String'?",
+      "question_type": "single",
+      "options": ["Mozart", "Bach", "Beethoven", "Vivaldi"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which instrument family plays 'Air on the G String'?",
+      "question_type": "single",
+      "options": ["Brass", "Woodwind", "String", "Percussion"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Bộ nhạc cụ nào chơi bài 'Air on the G String'?",
+      "question_type": "single",
+      "options": ["Kèn đồng", "Kèn gỗ", "Nhạc cụ dây", "Bộ gõ"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

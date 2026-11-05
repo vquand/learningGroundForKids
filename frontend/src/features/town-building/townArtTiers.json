@@ -1,0 +1,6 @@
+{
+  "order": ["s", "m", "l"],
+  "maxDevicePxPerTile": {"s": 48, "m": 96},
+  "targetPxPerTile": {"s": 56, "m": 112, "l": 180},
+  "webp": {"quality": 86, "alphaQuality": 92, "effort": 5}
+}

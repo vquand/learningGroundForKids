@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 33.5904,
+  "longitude": 130.4017,
+  "country_code": "JP",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Cook wavy ramen noodles in boiling water, then drain them. Pour hot chicken or pork broth into a bowl and add the noodles. Top with a soft boiled egg, sliced pork, corn, and green onions for a super yummy meal!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Ramen",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Ramen",
+      "description": "Ramen is a hearty Japanese noodle soup with springy wheat noodles in a rich, savory broth. It is loaded with toppings like soft boiled eggs, sliced pork, seaweed, and corn.",
+      "history": "Ramen came to Japan from China in the late 1800s and was made popular by street food stalls after World War II. The city of Fukuoka is famous for its creamy Tonkotsu ramen made from slow-cooked pork bones."
+    },
+    {
+      "lang": "vi",
+      "title": "Ramen",
+      "description": "Ramen là món bún mì Nhật Bản đậm đà với sợi bún mì dai giòn trong nước dùng phong phú. Món ăn này có nhiều topping ngon như trứng lòng đào, thịt heo thái lát, rong biển và ngô.",
+      "history": "Ramen du nhập vào Nhật Bản từ Trung Quốc vào cuối thế kỷ 19 và trở nên phổ biến qua các quán ăn vỉa hè sau Chiến tranh thế giới thứ hai. Thành phố Fukuoka nổi tiếng với món ramen Tonkotsu kem béo nấu từ xương heo lâu giờ."
+    }
+  ],
+  "start_year": 1900,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Ramen most associated with?",
+      "question_type": "single",
+      "options": ["China", "Korea", "Japan", "Vietnam"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Ramen gắn liền với quốc gia nào nhất?",
+      "question_type": "single",
+      "options": ["Trung Quốc", "Hàn Quốc", "Nhật Bản", "Việt Nam"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which Japanese city is famous for its creamy Tonkotsu Ramen?",
+      "question_type": "single",
+      "options": ["Tokyo", "Osaka", "Fukuoka", "Sapporo"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Thành phố Nhật Bản nào nổi tiếng với món Ramen Tonkotsu kem béo?",
+      "question_type": "single",
+      "options": ["Tokyo", "Osaka", "Fukuoka", "Sapporo"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

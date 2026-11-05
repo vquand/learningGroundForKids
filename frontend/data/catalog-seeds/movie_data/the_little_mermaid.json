@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 55.6761,
+  "longitude": 12.5683,
+  "country_code": "DK",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Ariel",
+      "image_url": null,
+      "description": "A curious and adventurous mermaid princess who loves collecting human treasures from the ocean floor."
+    },
+    {
+      "name": "Sebastian",
+      "image_url": null,
+      "description": "A funny red crab who is Ariel's musical friend and tries his best to keep her out of trouble."
+    },
+    {
+      "name": "Flounder",
+      "image_url": null,
+      "description": "Ariel's best fish friend who is shy but always brave enough to help her on her adventures."
+    },
+    {
+      "name": "King Triton",
+      "image_url": null,
+      "description": "Ariel's powerful and loving father who is the great king of the underwater ocean kingdom."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "The Little Mermaid poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "The Little Mermaid (1989)",
+      "description": "A young mermaid named Ariel dreams of living on land and exploring the human world, going on an amazing adventure to make her dream come true.",
+      "history": "The story is based on a fairy tale written by Danish author Hans Christian Andersen, who was born in Denmark more than 200 years ago."
+    },
+    {
+      "lang": "vi",
+      "title": "Nàng Tiên Cá (1989)",
+      "description": "Một nàng tiên cá trẻ tên Ariel mơ ước được sống trên mặt đất và khám phá thế giới con người, trải qua nhiều cuộc phiêu lưu kỳ thú để thực hiện ước mơ của mình.",
+      "history": "Câu chuyện được dựa trên một truyện cổ tích của nhà văn Đan Mạch Hans Christian Andersen, người sinh ra ở Đan Mạch hơn 200 năm trước."
+    }
+  ],
+  "start_year": 1989,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is the name of the mermaid princess in The Little Mermaid?",
+      "question_type": "single",
+      "options": ["Marina", "Pearl", "Ariel", "Coral"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tên công chúa tiên cá trong phim Nàng Tiên Cá là gì?",
+      "question_type": "single",
+      "options": ["Marina", "Pearl", "Ariel", "Coral"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "The fairy tale The Little Mermaid was written by an author from which country?",
+      "question_type": "single",
+      "options": ["Norway", "Sweden", "Denmark", "Finland"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Truyện cổ tích Nàng Tiên Cá được viết bởi tác giả từ nước nào?",
+      "question_type": "single",
+      "options": ["Na Uy", "Thụy Điển", "Đan Mạch", "Phần Lan"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

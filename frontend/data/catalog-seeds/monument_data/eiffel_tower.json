@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 48.8584,
+  "longitude": 2.2945,
+  "country_code": "FR",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France",
+  "fun_facts": [
+    "The Eiffel Tower grows taller in summer! Heat makes the iron expand, so it can grow up to 15 centimeters taller on a hot day.",
+    "It was built in just over 2 years using 18,038 pieces of iron held together by 2.5 million rivets.",
+    "When it was first built, many Parisians hated it and called it an 'iron monster' — now it is the most visited paid monument in the world!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Eiffel Tower",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Eiffel Tower",
+      "description": "A towering iron lattice structure standing 330 meters tall in the heart of Paris, France, recognized worldwide as a symbol of romance and engineering brilliance.",
+      "history": "Designed by engineer Gustave Eiffel, it was built in 1889 as the entrance arch for the World's Fair celebrating the 100th anniversary of the French Revolution."
+    },
+    {
+      "lang": "vi",
+      "title": "Tháp Eiffel",
+      "description": "Một công trình khung sắt cao 330 mét ở trung tâm Paris, Pháp, được thế giới công nhận là biểu tượng của sự lãng mạn và tài năng kỹ thuật.",
+      "history": "Được thiết kế bởi kỹ sư Gustave Eiffel, tháp được xây dựng năm 1889 làm cổng chào mừng cho Hội chợ Thế giới kỷ niệm 100 năm Cách mạng Pháp."
+    }
+  ],
+  "start_year": 1889,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is the Eiffel Tower located?",
+      "question_type": "single",
+      "options": ["Germany", "France", "Italy", "Spain"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tháp Eiffel nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Đức", "Pháp", "Ý", "Tây Ban Nha"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What material is the Eiffel Tower made of?",
+      "question_type": "single",
+      "options": ["Concrete", "Marble", "Iron", "Wood"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Tháp Eiffel được làm bằng vật liệu gì?",
+      "question_type": "single",
+      "options": ["Bê tông", "Đá cẩm thạch", "Sắt", "Gỗ"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

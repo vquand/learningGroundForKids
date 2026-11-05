@@ -1,0 +1,67 @@
+{
+  "category": "animal",
+  "latitude": 45.0,
+  "longitude": 135.0,
+  "country_code": "RU",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Amur Tigers live in the Sikhote-Alin mountain range in the Russian Far East (Primorsky Krai), with a small population in northeastern China. They inhabit temperate forests of Korean pine, oak, and birch trees, and experience extreme temperatures from −40°C in winter to +35°C in summer.",
+  "fun_facts": [
+    "The Amur Tiger (also called the Siberian Tiger) is the largest wild cat on Earth — males can reach 3.3 metres long and weigh over 300 kg!",
+    "They have a thick layer of fat and very dense fur to survive temperatures that drop to −40°C in winter.",
+    "In the early 1940s, fewer than 40 Amur Tigers were left. Thanks to decades of protection, there are now around 500 in the wild.",
+    "Amur Tigers have pale stripes compared to other tiger subspecies, which help them blend into the snow and birch forests.",
+    "A single Amur Tiger needs a home range of up to 1,000 square kilometres to find enough prey."
+  ],
+  "media": [{"media_type": "image", "label": "Amur Tiger", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Amur Tiger",
+      "description": "The Amur Tiger, also called the Siberian Tiger, is the largest wild cat on Earth. Built to survive brutal Russian winters, it has thick fur and a heavy body to stay warm in -40°C cold. Once nearly extinct with fewer than 40 left, dedicated conservation has brought their numbers back to around 500 today."
+    },
+    {
+      "lang": "vi",
+      "title": "Hổ Amur — Hổ Siberia",
+      "description": "Hổ Amur, còn được gọi là Hổ Siberia, là loài mèo hoang lớn nhất trên Trái Đất. Được tạo ra để sống sót qua mùa đông khắc nghiệt của Nga, nó có bộ lông dày và thân hình nặng nề để giữ ấm trong cái lạnh -40°C. Từng gần tuyệt chủng với chưa đến 40 con, công tác bảo tồn tận tụy đã đưa số lượng của chúng trở lại khoảng 500 con ngày nay."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "The Amur Tiger is also known by what other name?",
+      "question_type": "single",
+      "options": ["Bengal Tiger", "Siberian Tiger", "Caspian Tiger", "Sumatran Tiger"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hổ Amur còn được biết đến với tên gọi nào khác?",
+      "question_type": "single",
+      "options": ["Hổ Bengal", "Hổ Siberia", "Hổ Caspi", "Hổ Sumatra"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "In the early 1940s, how many Amur Tigers were left in the wild?",
+      "question_type": "single",
+      "options": ["Fewer than 40", "About 200", "About 500", "About 1,000"],
+      "correct_answers": [0],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Vào đầu những năm 1940, còn bao nhiêu con Hổ Amur sống trong tự nhiên?",
+      "question_type": "single",
+      "options": ["Ít hơn 40 con", "Khoảng 200 con", "Khoảng 500 con", "Khoảng 1.000 con"],
+      "correct_answers": [0],
+      "sort_order": 1
+    }
+  ]
+}

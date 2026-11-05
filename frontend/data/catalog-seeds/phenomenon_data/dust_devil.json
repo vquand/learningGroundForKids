@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 33.4484,
+  "longitude": -112.074,
+  "country_code": "US",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "Dust devils are like mini tornadoes made of sand — they can spin faster than a bicycle wheel and reach up to 1,000 metres tall!",
+    "Dust devils have even been spotted on Mars! NASA rovers have photographed them swirling across the red Martian desert.",
+    "A dust devil forms when the ground heats the air above it so much that the hot air shoots straight up and starts spinning — like a natural spinning top!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Dust Devil",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Dust Devil",
+      "description": "A dust devil is a small, spinning whirlwind of dust and sand that forms on hot sunny days when the ground heats the air above it very quickly. It looks like a tiny tornado made of dirt — twisting and dancing across the desert floor.",
+      "history": "Phoenix, Arizona in the United States is famous for dust devils because of its vast, flat desert and extreme summer heat. On very hot days, dozens of dust devils can be spotted spinning across the landscape at the same time."
+    },
+    {
+      "lang": "vi",
+      "title": "Quỷ Bụi (Xoáy Bụi Nhỏ)",
+      "description": "Quỷ bụi là một cơn lốc xoáy nhỏ của bụi và cát hình thành vào những ngày nắng nóng khi mặt đất làm nóng không khí phía trên rất nhanh. Nó trông giống như một cơn lốc nhỏ làm bằng bụi — xoắn và nhảy múa trên nền sa mạc.",
+      "history": "Phoenix, Arizona ở Mỹ nổi tiếng với quỷ bụi nhờ sa mạc rộng phẳng và nóng bức cực đoan vào mùa hè. Vào những ngày rất nóng, có thể nhìn thấy hàng chục quỷ bụi đang xoáy qua phong cảnh cùng một lúc."
+    }
+  ],
+  "start_year": -2000,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is a dust devil made of?",
+      "question_type": "single",
+      "options": ["Water and ice", "Dust and sand spinning in the air", "Smoke and fire", "Leaves and sticks"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Quỷ bụi được tạo ra từ gì?",
+      "question_type": "single",
+      "options": ["Nước và băng", "Bụi và cát xoáy trong không khí", "Khói và lửa", "Lá và cành cây"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Where else have dust devils been spotted besides Earth?",
+      "question_type": "single",
+      "options": ["The Moon", "Mars", "Venus", "Jupiter"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Ngoài Trái Đất, quỷ bụi còn được phát hiện ở đâu?",
+      "question_type": "single",
+      "options": ["Mặt Trăng", "Sao Hỏa", "Sao Kim", "Sao Mộc"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

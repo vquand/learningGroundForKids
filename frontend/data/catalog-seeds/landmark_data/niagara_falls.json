@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 43.0896,
+  "longitude": -79.0849,
+  "country_code": "CA",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Niagara Falls sits on the border between Ontario, Canada and New York, USA, where the Niagara River drops over a limestone escarpment between Lake Erie and Lake Ontario.",
+  "fun_facts": [
+    "More than six million bathtubs of water flow over Niagara Falls every single minute — that is an unbelievable amount of water!",
+    "Niagara Falls is slowly moving backwards — the falling water eats away the rock and the falls move about 30 centimetres upstream every year.",
+    "In 1901, a 63-year-old woman named Annie Edson Taylor became the first person to go over Niagara Falls in a wooden barrel and survive!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Niagara Falls",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Niagara Falls",
+      "description": "Niagara Falls is one of the most famous waterfalls in the world, sitting right on the border between Canada and the United States. It is actually three waterfalls together — Horseshoe Falls, American Falls, and Bridal Veil Falls — and together they carry more water than almost any other waterfall on Earth! The mist rises so high you can see the rainbow from far away.",
+      "history": "Indigenous peoples including the Haudenosaunee and Anishinaabe have lived near Niagara Falls for thousands of years. French missionary Louis Hennepin became the first European to write about the falls in 1678, describing it with amazement. Today, Niagara Falls generates so much electricity that it powers millions of homes in both Canada and the United States."
+    },
+    {
+      "lang": "vi",
+      "title": "Thác Niagara",
+      "description": "Thác Niagara là một trong những thác nước nổi tiếng nhất thế giới, nằm ngay trên biên giới giữa Canada và Hoa Kỳ. Nó thực ra là ba thác nước hợp lại — Thác Móng Ngựa, Thác Mỹ và Thác Màn Cưới — và cùng nhau chúng mang nhiều nước hơn hầu hết bất kỳ thác nước nào khác trên Trái Đất! Sương mù bay cao đến mức bạn có thể thấy cầu vồng từ xa.",
+      "history": "Các dân tộc bản địa bao gồm Haudenosaunee và Anishinaabe đã sống gần Thác Niagara từ hàng nghìn năm trước. Nhà truyền giáo người Pháp Louis Hennepin trở thành người châu Âu đầu tiên viết về thác vào năm 1678, mô tả nó với sự kinh ngạc. Ngày nay, Thác Niagara tạo ra nhiều điện đến mức có thể cấp điện cho hàng triệu ngôi nhà ở cả Canada và Hoa Kỳ."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Niagara Falls is on the border between Canada and which other country?",
+      "question_type": "single",
+      "options": ["Mexico", "USA", "UK", "France"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Thác Niagara nằm trên biên giới giữa Canada và nước nào khác?",
+      "question_type": "single",
+      "options": ["Mexico", "Mỹ", "Anh", "Pháp"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How many waterfalls make up Niagara Falls?",
+      "question_type": "single",
+      "options": ["1", "2", "3", "5"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Thác Niagara gồm bao nhiêu thác nước?",
+      "question_type": "single",
+      "options": ["1", "2", "3", "5"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -12000,
+  "time_precision": "kya"
+}

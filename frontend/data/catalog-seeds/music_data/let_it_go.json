@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 40.7128,
+  "longitude": -74.006,
+  "country_code": "US",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Kristen Anderson-Lopez & Robert Lopez",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Let It Go (Frozen) — Kristen Anderson-Lopez & Robert Lopez",
+      "description": "A powerful and soaring song about being brave enough to be yourself — when Queen Elsa sings it, you can almost feel the icy magic swirling all around you!",
+      "history": "Kristen Anderson-Lopez and Robert Lopez wrote Let It Go for the movie Frozen in 2013, and it won the Academy Award for Best Original Song — children and grown-ups all over the world sang it for years!"
+    },
+    {
+      "lang": "vi",
+      "title": "Buông Bỏ (Frozen) — Kristen Anderson-Lopez & Robert Lopez",
+      "description": "Đây là bài hát mạnh mẽ và cao vút về sự dũng cảm để sống thật với chính mình — khi Nữ Hoàng Elsa hát, bạn có thể cảm nhận phép màu băng giá đang xoáy quanh bạn!",
+      "history": "Kristen Anderson-Lopez và Robert Lopez sáng tác bài hát này cho phim Frozen năm 2013, và nó đã giành giải Oscar cho Bài Hát Gốc Hay Nhất — trẻ em và người lớn trên khắp thế giới đã hát nó trong nhiều năm!"
+    }
+  ],
+  "start_year": 2013,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "'Let It Go' is from which Disney movie?", "question_type": "single", "options": ["Tangled", "Brave", "Frozen", "Moana"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Bài 'Buông Bỏ' (Let It Go) đến từ bộ phim Disney nào?", "question_type": "single", "options": ["Nàng tóc mây", "Brave", "Frozen", "Moana"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "'Let It Go' won which award?", "question_type": "single", "options": ["Grammy Award", "Golden Globe", "Academy Award", "BAFTA Award"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Bài 'Buông Bỏ' đã giành giải thưởng nào?", "question_type": "single", "options": ["Grammy", "Quả Cầu Vàng", "Oscar", "BAFTA"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

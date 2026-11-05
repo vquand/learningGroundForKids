@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "country_code": "FR",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Camille Saint-Saëns",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Carnival of the Animals — Camille Saint-Saëns",
+      "description": "This fun suite of music paints pictures of 14 different animals — you can hear lions roaring, elephants stomping, and even a graceful swan gliding on water!",
+      "history": "Camille Saint-Saëns wrote this playful piece in 1886 as a musical joke — he kept it secret while he was alive because he thought it was too silly, but it became his most loved work!"
+    },
+    {
+      "lang": "vi",
+      "title": "Lễ Hội Các Loài Vật — Camille Saint-Saëns",
+      "description": "Bộ nhạc vui nhộn này vẽ hình ảnh của 14 loài động vật khác nhau — bạn có thể nghe thấy sư tử gầm, voi giẫm chân, và cả một chiếc thiên nga uyển chuyển lướt trên mặt nước!",
+      "history": "Camille Saint-Saëns viết tác phẩm vui tươi này vào năm 1886 như một trò đùa âm nhạc — ông giữ bí mật nó khi còn sống vì nghĩ nó quá buồn cười, nhưng nó trở thành tác phẩm được yêu thích nhất của ông!"
+    }
+  ],
+  "start_year": 1886,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed 'Carnival of the Animals'?", "question_type": "single", "options": ["Debussy", "Saint-Saëns", "Ravel", "Berlioz"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác 'Lễ Hội Các Loài Vật'?", "question_type": "single", "options": ["Debussy", "Saint-Saëns", "Ravel", "Berlioz"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "How many animals are described in 'Carnival of the Animals'?", "question_type": "single", "options": ["7", "10", "14", "20"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Có bao nhiêu loài vật được miêu tả trong 'Lễ Hội Các Loài Vật'?", "question_type": "single", "options": ["7", "10", "14", "20"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

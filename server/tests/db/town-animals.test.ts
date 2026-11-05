@@ -1,0 +1,40 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { randomUUID } from 'node:crypto';
+import { Pool } from 'pg';
+import { drizzle } from 'drizzle-orm/node-postgres';
+import { migrate } from 'drizzle-orm/node-postgres/migrator';
+import { fileURLToPath } from 'node:url';
+import { assertSafeTestDatabaseUrl } from '../../src/db/test-database.js';
+import { createTownRepository } from '../../src/town-building/repository.js';
+import { animalSpecies } from '../../src/town-building/game.js';
+const configured=process.env.TEST_DATABASE_URL;
+test('town name and animal choices persist with free switching and stale-write protection',{skip:configured?false:'TEST_DATABASE_URL is not configured'},async()=>{
+ const pool=new Pool({connectionString:assertSafeTestDatabaseUrl(configured!)});const family=randomUUID(),profile=randomUUID();
+ try{
+  await migrate(drizzle(pool),{migrationsFolder:fileURLToPath(new URL('../../drizzle',import.meta.url))});
+  await pool.query('INSERT INTO families(id,email,display_name,password_hash) VALUES($1,$2,$3,$4)',[family,`${family}@test.local`,'Town test','unused']);
+  await pool.query('INSERT INTO profiles(id,family_id,name,public_id,emoji,color) VALUES($1,$2,$3,$1,$4,$5)',[profile,family,'Test','🌟','blue']);
+  const town=createTownRepository(pool);let state=await town.get(profile);
+  state=await town.mutate(profile,state.revision,{type:'rename',adjective:'Happy',noun:'Grove'});
+  assert.deepEqual((await town.get(profile)).townName,{adjective:'Happy',noun:'Grove'});
+  await pool.query("UPDATE town_state SET state=jsonb_set(state,'{materials}','{\"wood\":100,\"rock\":100,\"stamina\":100,\"wool\":0,\"metal\":0,\"sand\":0}'::jsonb) WHERE profile_id=$1",[profile]);
+  state=await town.get(profile);state=await town.mutate(profile,state.revision,{type:'build',blueprintId:'farmhouse',x:7,y:12});
+  const host=state.entities.find(e=>e.blueprintId==='farmhouse')!;assert.equal(animalSpecies(host),'dairy-cow');const materials=structuredClone(state.materials);
+  const switched=await town.mutate(profile,state.revision,{type:'set-animal',entityId:host.id,animal:'highland-cow'});
+  assert.deepEqual(switched.materials,materials);assert.equal(animalSpecies((await town.get(profile)).entities.find(e=>e.id===host.id)!),'highland-cow');
+  await assert.rejects(()=>town.mutate(profile,state.revision,{type:'set-animal',entityId:host.id,animal:'sheep'}),/changed/);
+  await assert.rejects(()=>town.mutate(profile,switched.revision,{type:'set-animal',entityId:host.id,animal:'duck'}),/cannot live/);
+  assert.deepEqual((await town.get(profile)).materials,materials);
+  const home=switched.entities.find(e=>e.id==='starter-home')!;
+  const pets=await town.mutate(profile,switched.revision,{type:'set-pets',entityId:home.id,pets:['munchkin']});
+  assert.deepEqual((await town.get(profile)).entities.find(e=>e.id===home.id)!.pets,['munchkin']);
+  await assert.rejects(()=>town.mutate(profile,switched.revision,{type:'set-pets',entityId:home.id,pets:[]}),/changed/);
+  await assert.rejects(()=>town.mutate(profile,pets.revision,{type:'set-pets',entityId:home.id,pets:['munchkin','parrot']}),/pet/);
+  const moved=await town.mutate(profile,pets.revision,{type:'move',entityId:home.id,x:10,y:20});
+  assert.deepEqual(moved.entities.find(e=>e.id===home.id)!.pets,['munchkin']);assert.deepEqual(moved.materials,materials);
+  const removed=await town.mutate(profile,moved.revision,{type:'remove',entityId:home.id});
+  assert.equal((await town.get(profile)).entities.some(e=>e.id===home.id),false);
+  assert.ok(removed.starterHomeGranted);
+ }finally{await pool.query('DELETE FROM families WHERE id=$1',[family]);await pool.end();}
+});

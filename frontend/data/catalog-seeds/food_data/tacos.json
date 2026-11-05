@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 19.4326,
+  "longitude": -99.1332,
+  "country_code": "MX",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Warm small corn tortillas on a pan until they are soft and a little spotty. Spoon on some cooked seasoned meat or beans, then add toppings like chopped onion, fresh cilantro, and a squeeze of lime. Fold it up and eat it with your hands — that is the right way to do it!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Tacos",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Tacos",
+      "description": "Tacos are small folded corn tortillas filled with seasoned meat or beans and topped with fresh ingredients like salsa, onion, and lime juice.",
+      "history": "Tacos have been eaten in Mexico for thousands of years — even before the Spanish arrived, the Aztec people filled corn tortillas with fish, insects, and wild game!"
+    },
+    {
+      "lang": "vi",
+      "title": "Bánh Tacos",
+      "description": "Tacos là những chiếc bánh tortilla ngô nhỏ gấp đôi nhân thịt hoặc đậu đã ướp gia vị và phủ thêm rau tươi, sốt salsa, hành và nước chanh.",
+      "history": "Tacos đã được ăn ở Mexico hàng nghìn năm trước, ngay cả trước khi người Tây Ban Nha đến, người Aztec đã kẹp cá, côn trùng và thú săn trong bánh tortilla ngô rồi!"
+    }
+  ],
+  "start_year": -1000,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country are Tacos originally from?",
+      "question_type": "single",
+      "options": ["United States", "Mexico", "Colombia", "Peru"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tacos có nguồn gốc từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Hoa Kỳ", "Mexico", "Colombia", "Peru"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What type of bread is used to make traditional Tacos?",
+      "question_type": "single",
+      "options": ["Flour tortilla", "Corn tortilla", "Pita bread", "Flatbread"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Loại bánh nào được dùng để làm Tacos truyền thống?",
+      "question_type": "single",
+      "options": ["Bánh tortilla mì", "Bánh tortilla ngô", "Bánh pita", "Bánh phẳng"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

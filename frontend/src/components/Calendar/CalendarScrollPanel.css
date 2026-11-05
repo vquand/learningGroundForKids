@@ -1,0 +1,30 @@
+/* The page/actions stay fixed; only this bounded list scrolls. Native scrollbars
+   provide proportional thumbs and platform-correct touch/keyboard direction. */
+.calendar-scroll-frame { display: flex; min-width: 0; min-height: 0; flex: 1 1 0; overflow: hidden; }
+.calendar-scroll-panel {
+  min-width: 0;
+  min-height: 0;
+  flex: 1 1 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  scrollbar-width: auto;
+  scrollbar-color: #708f80 #e7efe6;
+  padding: 3px;
+  -webkit-overflow-scrolling: touch;
+}
+.calendar-scroll-panel::-webkit-scrollbar { width: 18px; }
+.calendar-scroll-panel::-webkit-scrollbar-track { background: #e7efe6; border-radius: 8px; }
+.calendar-scroll-panel::-webkit-scrollbar-thumb { background: #708f80; border: 3px solid #e7efe6; border-radius: 8px; min-height: 44px; }
+.calendar-scroll-panel:focus-visible { outline: 3px solid #397367; outline-offset: -3px; }
+.calendar-scroll-content > .calendar-palette-grid,
+.calendar-scroll-content > .meal-food-grid,
+.calendar-scroll-content > .meal-library-grid,
+.calendar-scroll-content > .events-icon-grid {
+  grid-template-rows: none;
+  grid-auto-rows: minmax(76px, auto);
+  align-content: start;
+}
+/* Saved names can wrap in Vietnamese; their rows grow rather than clipping. */
+.calendar-scroll-content > .meal-saved-list { grid-auto-rows: minmax(48px, auto); align-content: start; }

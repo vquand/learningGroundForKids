@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 43.6532,
+  "longitude": -79.3832,
+  "country_code": "CA",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Meilin Lee",
+      "image_url": null,
+      "description": "A confident and hard-working 13-year-old girl in Toronto who suddenly turns into a giant red panda when she gets too excited."
+    },
+    {
+      "name": "Ming Lee",
+      "image_url": null,
+      "description": "Meilin's loving but overprotective mom who is always nearby and has her own red panda secret."
+    },
+    {
+      "name": "Miriam",
+      "image_url": null,
+      "description": "Meilin's cheerful and supportive best friend who thinks the red panda transformation is totally awesome."
+    },
+    {
+      "name": "Abby",
+      "image_url": null,
+      "description": "A wild and energetic friend of Meilin who loves to cheer her on no matter what happens."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Turning Red poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Turning Red (2022)",
+      "description": "A 13-year-old girl in Toronto discovers that whenever she gets too excited or emotional, she transforms into a giant fluffy red panda.",
+      "history": "Turning Red is set in Toronto, Canada in 2002, and the movie celebrates Chinese-Canadian culture and the fun pop music of that era!"
+    },
+    {
+      "lang": "vi",
+      "title": "Chuyển Biến Đỏ (2022)",
+      "description": "Một cô bé 13 tuổi ở Toronto phát hiện ra rằng mỗi khi cô quá kích động hoặc cảm xúc quá mạnh, cô sẽ biến thành một chú gấu trúc đỏ khổng lồ.",
+      "history": "Turning Red được đặt ở Toronto, Canada năm 2002, và bộ phim tôn vinh văn hóa Canada gốc Trung Hoa và âm nhạc pop vui tươi của thời đó!"
+    }
+  ],
+  "start_year": 2022,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What does Meilin turn into in Turning Red?",
+      "question_type": "single",
+      "options": ["A giant cat", "A red panda", "A red wolf", "A giant fox"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Meilin biến thành gì trong phim Chuyển Biến Đỏ?",
+      "question_type": "single",
+      "options": ["Một con mèo khổng lồ", "Một con gấu trúc đỏ", "Một con sói đỏ", "Một con cáo khổng lồ"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "In which city is Turning Red set?",
+      "question_type": "single",
+      "options": ["Vancouver", "Montreal", "Toronto", "Ottawa"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Phim Chuyển Biến Đỏ được đặt ở thành phố nào?",
+      "question_type": "single",
+      "options": ["Vancouver", "Montreal", "Toronto", "Ottawa"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

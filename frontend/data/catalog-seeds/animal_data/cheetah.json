@@ -1,0 +1,67 @@
+{
+  "category": "animal",
+  "latitude": -2.0,
+  "longitude": 34.5,
+  "country_code": "TZ",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Cheetahs live mainly in the open grasslands and savannah of sub-Saharan Africa, especially in countries like Tanzania, Kenya, Namibia, and Botswana. They need large, open spaces where they can sprint at full speed to catch prey.",
+  "fun_facts": [
+    "The Cheetah is the fastest land animal on Earth — it can accelerate from 0 to 100 km/h in just 3 seconds, faster than most sports cars!",
+    "Cheetahs have special non-retractable claws — like the cleats on football boots — which give them extra grip when sprinting.",
+    "Unlike other big cats, Cheetahs cannot roar. Instead, they purr, chirp, and make high-pitched yelps.",
+    "A Cheetah's black 'tear marks' running from its eyes to its mouth help reduce sun glare while hunting.",
+    "Cheetah cubs have a silver mane along their backs when young, which may make them look like the fearless honey badger to deter predators."
+  ],
+  "media": [{"media_type": "image", "label": "Cheetah", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Cheetah",
+      "description": "The Cheetah is the fastest land animal on Earth, able to sprint at over 100 km/h! This sleek, spotted cat of the African savannah is built for speed — with a flexible spine, long legs, and semi-retractable claws. Despite its speed, the Cheetah is actually one of the more gentle big cats and rarely threatens humans."
+    },
+    {
+      "lang": "vi",
+      "title": "Báo Gêpa",
+      "description": "Báo Gêpa là loài động vật sống trên cạn nhanh nhất trên Trái Đất, có thể chạy nước rút với tốc độ trên 100 km/h! Loài mèo thon gọn, có đốm của đồng cỏ châu Phi này được tạo ra để tốc độ — với cột sống linh hoạt, chân dài và móng vuốt bán co rút. Mặc dù nhanh nhẹn, Báo Gêpa thực sự là một trong những loài mèo lớn hiền lành hơn và hiếm khi đe dọa con người."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "How fast can a Cheetah run?",
+      "question_type": "single",
+      "options": ["Up to 60 km/h", "Up to 80 km/h", "Over 100 km/h", "Over 150 km/h"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Báo Gêpa có thể chạy nhanh bao nhiêu?",
+      "question_type": "single",
+      "options": ["Tới 60 km/h", "Tới 80 km/h", "Trên 100 km/h", "Trên 150 km/h"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What do the black marks on a Cheetah's face do?",
+      "question_type": "single",
+      "options": ["Help it camouflage in tall grass", "Help reduce sun glare while hunting", "Attract a mate", "Scare away enemies"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Những vạch đen trên mặt Báo Gêpa có tác dụng gì?",
+      "question_type": "single",
+      "options": ["Giúp ngụy trang trong bãi cỏ cao", "Giúp giảm chói nắng khi săn mồi", "Thu hút bạn đời", "Xua đuổi kẻ thù"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

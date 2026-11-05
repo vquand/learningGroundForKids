@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 41.4036,
+  "longitude": 2.1744,
+  "country_code": "ES",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Carrer de Mallorca, 401, 08013 Barcelona, Spain",
+  "fun_facts": [
+    "The Sagrada Familia has been under construction since 1882 — that is over 140 years — and is still not finished yet!",
+    "Architect Antoni Gaudi was inspired by nature, so the inside of the church looks like a forest of stone trees with branches spreading across the ceiling.",
+    "When completed, its tallest tower will reach 172.5 meters, making it the tallest church in the world."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Sagrada Familia",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Sagrada Familia",
+      "description": "A breathtaking Catholic basilica in Barcelona, Spain, famous for its extraordinary organic architecture with towering spires that look like they grew naturally from the earth.",
+      "history": "Designed by architect Antoni Gaudi, construction began in 1882 and continues to this day. Gaudi devoted the last 43 years of his life to the project and is buried in its crypt."
+    },
+    {
+      "lang": "vi",
+      "title": "Nhà thờ Sagrada Familia",
+      "description": "Một vương cung thánh đường Công giáo tuyệt đẹp ở Barcelona, Tây Ban Nha, nổi tiếng với kiến trúc hữu cơ phi thường cùng những tháp cao trông giống như mọc ra từ lòng đất.",
+      "history": "Được thiết kế bởi kiến trúc sư Antoni Gaudi, việc xây dựng bắt đầu từ năm 1882 và vẫn đang tiếp tục. Gaudi đã dành 43 năm cuối đời cho dự án này và được chôn cất trong hầm mộ của nhà thờ."
+    }
+  ],
+  "start_year": 1882,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which city is the Sagrada Familia located?",
+      "question_type": "single",
+      "options": ["Madrid", "Seville", "Barcelona", "Valencia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Nhà thờ Sagrada Familia nằm ở thành phố nào?",
+      "question_type": "single",
+      "options": ["Madrid", "Seville", "Barcelona", "Valencia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Who designed the Sagrada Familia?",
+      "question_type": "single",
+      "options": ["Pablo Picasso", "Salvador Dali", "Antoni Gaudi", "Francisco Goya"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Ai đã thiết kế nhà thờ Sagrada Familia?",
+      "question_type": "single",
+      "options": ["Pablo Picasso", "Salvador Dali", "Antoni Gaudi", "Francisco Goya"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

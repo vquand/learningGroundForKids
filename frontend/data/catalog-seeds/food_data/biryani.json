@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 17.385,
+  "longitude": 78.4867,
+  "country_code": "IN",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Marinate chicken in yogurt and spices like turmeric, cumin, and garam masala. Cook the chicken, then layer it with half-cooked rice in a big pot. Seal the pot with a lid, cook on low heat for 20 minutes, and open to find fluffy, spiced rice with tender chicken inside!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Biryani",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Biryani",
+      "description": "Biryani is a magnificent Indian rice dish cooked with tender meat, fragrant spices, and sometimes colorful dried fruits and nuts. It smells amazing and has layers of flavors that make every bite a surprise!",
+      "history": "Biryani came to India over 500 years ago, brought by Persian traders and royals who loved rich, spiced rice dishes. The city of Hyderabad became famous for its very own style of biryani, which is now enjoyed across the whole world."
+    },
+    {
+      "lang": "vi",
+      "title": "Biryani",
+      "description": "Biryani là một món cơm Ấn Độ tuyệt vời được nấu cùng thịt mềm, gia vị thơm ngon và đôi khi có cả hoa quả khô và hạt các loại. Nó có mùi rất hấp dẫn và nhiều tầng vị làm cho mỗi miếng ăn đều bất ngờ!",
+      "history": "Biryani đến Ấn Độ hơn 500 năm trước, được các thương nhân và quý tộc Ba Tư mang đến. Thành phố Hyderabad trở nên nổi tiếng với phong cách biryani riêng của mình, hiện được yêu thích khắp thế giới."
+    }
+  ],
+  "start_year": 1550,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Biryani famous from?",
+      "question_type": "single",
+      "options": ["Pakistan", "India", "Bangladesh", "Sri Lanka"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Biryani nổi tiếng từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Pakistan", "Ấn Độ", "Bangladesh", "Sri Lanka"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which Indian city is especially famous for its own Biryani style?",
+      "question_type": "single",
+      "options": ["Mumbai", "Delhi", "Hyderabad", "Chennai"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Thành phố Ấn Độ nào đặc biệt nổi tiếng với phong cách Biryani riêng?",
+      "question_type": "single",
+      "options": ["Mumbai", "Delhi", "Hyderabad", "Chennai"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

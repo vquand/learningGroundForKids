@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 37.5665,
+  "longitude": 126.978,
+  "country_code": "KR",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "BTS",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Dynamite — BTS",
+      "description": "A funky, feel-good pop song by Korea's most famous band BTS — it explodes with energy and makes you want to jump up and shine like a star!",
+      "history": "BTS from Seoul released Dynamite in 2020 as their first song entirely in English, and it shot straight to number one on the Billboard Hot 100 chart in America!"
+    },
+    {
+      "lang": "vi",
+      "title": "Dynamite — BTS",
+      "description": "Một bài hát pop sôi động của nhóm nhạc nổi tiếng nhất Hàn Quốc BTS — tràn đầy năng lượng và khiến bạn muốn bùng lên như một ngôi sao!",
+      "history": "BTS từ Seoul phát hành Dynamite năm 2020, đây là bài hát đầu tiên của họ được hát hoàn toàn bằng tiếng Anh và leo thẳng lên vị trí số 1 tại Mỹ!"
+    }
+  ],
+  "start_year": 2020,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Which group performed 'Dynamite' in 2020?", "question_type": "single", "options": ["Blackpink", "BTS", "EXO", "TWICE"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Nhóm nhạc nào biểu diễn bài 'Dynamite' năm 2020?", "question_type": "single", "options": ["Blackpink", "BTS", "EXO", "TWICE"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Which country is BTS from?", "question_type": "single", "options": ["Japan", "China", "Vietnam", "South Korea"], "correct_answers": [3], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "BTS đến từ quốc gia nào?", "question_type": "single", "options": ["Nhật Bản", "Trung Quốc", "Việt Nam", "Hàn Quốc"], "correct_answers": [3], "sort_order": 1}
+  ]
+}

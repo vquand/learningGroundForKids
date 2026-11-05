@@ -1,0 +1,11 @@
+.child-friend-code { margin-top:12px; color:#5d4939; font-size:14px; text-align:left; }
+.child-friend-code-actions { display:flex; align-items:center; flex-wrap:wrap; gap:8px 12px; }
+.child-friend-code-value { display:flex; flex-wrap:wrap; align-items:center; gap:4px 8px; font-weight:700; }
+.child-friend-code code { font-size:1.1em; font-weight:800; user-select:all; overflow-wrap:anywhere; }
+.child-friend-code button { display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:44px; padding:8px 12px; border:1px solid #d4b99a; border-radius:10px; background:#fff9ee; color:inherit; font:inherit; font-weight:800; cursor:pointer; touch-action:manipulation; }
+.child-friend-code button:hover { background:#fff1dc; }
+.child-friend-code button:focus-visible { outline:3px solid #8b6848; outline-offset:3px; }
+.child-friend-code button:disabled { cursor:wait; opacity:.65; }
+.child-friend-code button svg { width:20px; height:20px; flex-shrink:0; }
+.child-friend-code-status { margin:4px 0 0; min-height:1.5em; font-size:13px; line-height:1.5; }
+.parent-space .child-friend-code { color:var(--parent-ink); }

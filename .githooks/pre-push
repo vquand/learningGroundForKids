@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+# Refuse to push generated evidence/artifacts. Checks every commit this push adds
+# (so a file added and deleted later in the same push is still caught), plus the
+# final tree difference (merge conflict resolutions). If Git cannot work out what
+# the push adds, the push is rejected rather than silently allowed.
+root="$(git rev-parse --show-toplevel)"
+check="$root/scripts/check-generated-artifacts.sh"
+zero="0000000000000000000000000000000000000000"
+status=0
+
+reject() { echo "pre-push: $1" >&2; status=1; }
+
+while read -r _local_ref local_sha _remote_ref remote_sha; do
+  [[ "$local_sha" == "$zero" ]] && continue
+
+  base=""
+  if [[ "$remote_sha" != "$zero" ]] && git cat-file -e "${remote_sha}^{commit}" 2>/dev/null; then
+    base="$remote_sha"
+  else
+    base="$(git merge-base "$local_sha" origin/main 2>/dev/null || git merge-base "$local_sha" main 2>/dev/null || true)"
+  fi
+  if [[ -z "$base" ]]; then
+    reject "cannot determine what this push adds (remote commit unknown locally and no origin/main or main to compare); run 'git fetch origin' and retry."
+    continue
+  fi
+
+  if ! commit_files="$(git log --format= --name-only --diff-filter=ACR "$base..$local_sha")"; then
+    reject "could not list the files of the commits being pushed; refusing."
+    continue
+  fi
+  if ! tree_files="$(git diff --name-only --diff-filter=ACR "$base" "$local_sha")"; then
+    reject "could not diff the pushed tree; refusing."
+    continue
+  fi
+  printf '%s\n%s\n' "$commit_files" "$tree_files" | sort -u | "$check" || status=1
+done
+exit "$status"

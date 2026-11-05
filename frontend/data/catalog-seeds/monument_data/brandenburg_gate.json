@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 52.5163,
+  "longitude": 13.3777,
+  "country_code": "DE",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Pariser Platz, 10117 Berlin, Germany",
+  "fun_facts": [
+    "On top of the Brandenburg Gate stands a statue of a goddess riding a chariot pulled by four horses — and Napoleon once stole those horses and took them to Paris!",
+    "The gate was once trapped in the middle of the Berlin Wall, and no one could walk through it for 28 years.",
+    "The Brandenburg Gate is made from sandstone and has 12 massive columns — six on each side — holding up the enormous roof."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Brandenburg Gate",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Brandenburg Gate",
+      "description": "The Brandenburg Gate is a grand neoclassical triumphal arch standing at the heart of Berlin, Germany, and is one of the most powerful symbols of both German history and European unity. Its famous quadriga — a chariot pulled by four horses — sits proudly on top.",
+      "history": "The gate was built between 1788 and 1791 by King Frederick William II of Prussia, inspired by the ancient Propylaea gateway in Athens, Greece. For nearly three decades it stood within the restricted zone of the Berlin Wall, and when the Wall fell in 1989, the gate became a global symbol of peace and freedom."
+    },
+    {
+      "lang": "vi",
+      "title": "Cổng Brandenburg",
+      "description": "Cổng Brandenburg là một cổng khải hoàn vĩ đại theo phong cách cổ điển đứng ở trung tâm Berlin, Đức, là một trong những biểu tượng mạnh mẽ nhất lịch sử Đức và sự thống nhất châu Âu. Tượng tứ mã kéo bốn ngựa nổi tiếng được đặt trang trọng trên đỉnh.",
+      "history": "Cổng được xây dựng từ năm 1788 đến 1791 bởi Vua Frederick William II xứ Phổ, lấy cảm hứng từ cổng Propylaea cổ đại ở Athens, Hy Lạp. Trong gần ba thập kỷ, nó đứng trong vùng cấm của Bức tường Berlin, và khi Bức tường sụp đổ vào năm 1989, cổng trở thành biểu tượng toàn cầu của hòa bình và tự do."
+    }
+  ],
+  "start_year": 1791,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which city is the Brandenburg Gate located?",
+      "question_type": "single",
+      "options": ["Munich", "Hamburg", "Berlin", "Vienna"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Cổng Brandenburg nằm ở thành phố nào?",
+      "question_type": "single",
+      "options": ["Munich", "Hamburg", "Berlin", "Vienna"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What famous structure once blocked access to the Brandenburg Gate?",
+      "question_type": "single",
+      "options": ["The Great Wall", "The Berlin Wall", "The Iron Curtain Fence", "A moat"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Công trình nổi tiếng nào từng chặn lối vào Cổng Brandenburg?",
+      "question_type": "single",
+      "options": ["Vạn Lý Trường Thành", "Bức tường Berlin", "Hàng rào Màn Sắt", "Một con hào"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

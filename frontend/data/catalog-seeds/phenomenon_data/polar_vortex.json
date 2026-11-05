@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 62.0355,
+  "longitude": 129.6755,
+  "country_code": "RU",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "Yakutsk in Russia is so cold that if you throw a cup of boiling water into the air, it instantly turns into a cloud of ice crystals before it hits the ground!",
+    "The polar vortex is like a giant spinning top of freezing air sitting over the North Pole — when it wobbles, cold air escapes south.",
+    "Yakutsk is sometimes colder than the surface of Mars — temperatures can drop to minus 60 degrees Celsius!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Polar Vortex",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Polar Vortex",
+      "description": "A polar vortex is a gigantic spinning mass of extremely cold Arctic air that sometimes breaks apart and sends blasts of freezing weather far south.",
+      "history": "Yakutsk, Russia, is the coldest inhabited city on Earth and sits right in the grip of polar vortex winters — temperatures there can drop so low they are sometimes colder than Mars."
+    },
+    {
+      "lang": "vi",
+      "title": "Xoáy Cực",
+      "description": "Xoáy cực là một khối khí Bắc Cực lạnh giá khổng lồ đang quay tròn, đôi khi vỡ ra và đẩy những luồng gió băng giá xuống miền nam.",
+      "history": "Yakutsk ở Nga là thành phố có người sinh sống lạnh nhất Trái Đất, nằm ngay trong vòng tay của các mùa đông xoáy cực — nhiệt độ nơi đây có thể xuống thấp hơn cả bề mặt sao Hỏa."
+    }
+  ],
+  "start_year": 1853,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is a polar vortex?",
+      "question_type": "single",
+      "options": ["A warm tropical wind", "A giant spinning mass of extremely cold Arctic air", "A type of snow blizzard", "A cold ocean current"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Xoáy cực là gì?",
+      "question_type": "single",
+      "options": ["Một cơn gió nhiệt đới ấm áp", "Một khối khí Bắc Cực lạnh giá khổng lồ đang xoay", "Một loại bão tuyết", "Một dòng hải lưu lạnh"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How cold can it get in Yakutsk, Russia?",
+      "question_type": "single",
+      "options": ["Minus 10 degrees", "Minus 25 degrees", "Minus 60 degrees Celsius", "Minus 5 degrees"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Ở Yakutsk, Nga, nhiệt độ có thể xuống thấp bao nhiêu?",
+      "question_type": "single",
+      "options": ["Âm 10 độ", "Âm 25 độ", "Âm 60 độ C", "Âm 5 độ"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 52.6541,
+  "longitude": -7.2448,
+  "country_code": "IE",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Robyn",
+      "image_url": null,
+      "description": "A spirited English girl who comes to Ireland with her father and discovers a magical world of wolves and ancient forest magic."
+    },
+    {
+      "name": "Mebh",
+      "image_url": null,
+      "description": "A wild and fearless Irish girl who can transform into a wolf when she sleeps and runs freely with her wolf pack."
+    },
+    {
+      "name": "Bill Goodfellowe",
+      "image_url": null,
+      "description": "Robyn's devoted father who is sent to hunt the wolves of the forest but struggles between his duty and his love for his daughter."
+    },
+    {
+      "name": "Lord Protector",
+      "image_url": null,
+      "description": "The stern and powerful ruler who orders the ancient forest to be destroyed and wants all wolves hunted down."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Wolfwalkers poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Wolfwalkers (2020)",
+      "description": "Set in 17th-century Kilkenny, Ireland, a young English girl befriends a wild Irish girl who can transform into a wolf, and together they fight to protect the enchanted forest.",
+      "history": "The film was made by Cartoon Saloon, an Irish animation studio in Kilkenny, and its stunning art style was inspired by ancient Celtic illuminated manuscripts like the Book of Kells."
+    },
+    {
+      "lang": "vi",
+      "title": "Người Sống Với Sói (2020)",
+      "description": "Đặt ở Kilkenny, Ireland thế kỷ 17, một cô bé Anh kết bạn với một cô bé Ireland có thể biến thành sói, và hai bạn cùng nhau chiến đấu để bảo vệ khu rừng ma thuật.",
+      "history": "Phim được làm bởi Cartoon Saloon, xưởng phim hoạt hình Ireland ở Kilkenny, và phong cách nghệ thuật ấn tượng được lấy cảm hứng từ các bản tay cổ đại của người Celtic như Sách Kells."
+    }
+  ],
+  "start_year": 2020,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is the movie Wolfwalkers set?",
+      "question_type": "single",
+      "options": ["Scotland", "Wales", "Ireland", "England"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Bộ phim Người Sống Với Sói được đặt ở nước nào?",
+      "question_type": "single",
+      "options": ["Scotland", "Wales", "Ireland", "Anh"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What can Mebh do in Wolfwalkers?",
+      "question_type": "single",
+      "options": ["She can fly", "She can breathe fire", "She can transform into a wolf", "She can become invisible"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Mebh có thể làm gì trong phim Người Sống Với Sói?",
+      "question_type": "single",
+      "options": ["Cô có thể bay", "Cô có thể phun lửa", "Cô có thể biến thành sói", "Cô có thể tàng hình"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

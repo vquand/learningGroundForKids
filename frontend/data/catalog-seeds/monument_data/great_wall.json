@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 40.4319,
+  "longitude": 116.5704,
+  "country_code": "CN",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Badaling Section, Great Wall of China, Beijing, China",
+  "fun_facts": [
+    "The Great Wall of China is over 21,000 kilometres long — if you could lay it straight, it would stretch halfway around the entire Earth!",
+    "Millions of workers helped build it over many centuries, and sticky rice soup was used as part of the mortar to hold the bricks together.",
+    "Despite what many people say, the Great Wall cannot actually be seen from space with the naked eye — it's far too thin!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Great Wall of China",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Great Wall of China",
+      "description": "The Great Wall of China is one of the most amazing structures ever built — a gigantic wall that winds across mountains and valleys across northern China. It was built to protect ancient China from enemies in the north.",
+      "history": "Construction began over 2,000 years ago during the Qin Dynasty and continued for centuries under different emperors. The most famous sections we see today were mostly built during the Ming Dynasty, around 600 years ago."
+    },
+    {
+      "lang": "vi",
+      "title": "Vạn Lý Trường Thành",
+      "description": "Vạn Lý Trường Thành là một trong những công trình vĩ đại nhất từng được xây dựng - một bức tường khổng lồ uốn lượn qua núi và thung lũng ở miền Bắc Trung Quốc. Nó được xây để bảo vệ Trung Quốc cổ đại khỏi kẻ thù phương Bắc.",
+      "history": "Việc xây dựng bắt đầu cách đây hơn 2.000 năm vào thời nhà Tần và tiếp tục qua nhiều thế kỷ dưới các triều đại khác nhau. Phần lớn những đoạn tường nổi tiếng mà chúng ta thấy ngày nay được xây dưới thời nhà Minh, khoảng 600 năm trước."
+    }
+  ],
+  "start_year": -221,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is the Great Wall located?",
+      "question_type": "single",
+      "options": ["Japan", "Mongolia", "China", "Korea"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Vạn Lý Trường Thành nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Nhật Bản", "Mông Cổ", "Trung Quốc", "Hàn Quốc"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Why was the Great Wall of China built?",
+      "question_type": "single",
+      "options": ["To collect taxes", "To protect against northern enemies", "As a road for trade", "To mark the border with the sea"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Vạn Lý Trường Thành được xây dựng để làm gì?",
+      "question_type": "single",
+      "options": ["Để thu thuế", "Để bảo vệ khỏi kẻ thù phương Bắc", "Làm đường thương mại", "Đánh dấu ranh giới với biển"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

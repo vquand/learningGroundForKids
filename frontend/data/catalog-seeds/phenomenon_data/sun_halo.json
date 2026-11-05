@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 60.1699,
+  "longitude": 24.9384,
+  "country_code": "FI",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "A sun halo is a perfect glowing ring around the sun — it is made by millions of six-sided ice crystals floating high in the sky, each acting like a tiny mirror!",
+    "Finland sees sun halos very often in winter because the cold air is full of tiny ice crystals — sometimes you can see one almost every week!",
+    "The ring of a sun halo is always exactly 22 degrees away from the sun — you can predict exactly how big the ring will be using just a little bit of maths!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Sun Halo",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Sun Halo",
+      "description": "A sun halo is a perfect glowing ring of light that appears around the sun in the sky. It is created when sunlight passes through millions of tiny, flat ice crystals floating high up in thin clouds, bending the light into a beautiful circular rainbow-like halo.",
+      "history": "Finland experiences sun halos regularly during its long, cold winters when the sky is full of ice crystals. Helsinki and other Finnish cities often see these glowing rings hovering in the winter sky, making even an ordinary cold day feel a little bit magical."
+    },
+    {
+      "lang": "vi",
+      "title": "Vòng Tròn Quanh Mặt Trời (Hào Quang Mặt Trời)",
+      "description": "Hào quang mặt trời là vòng tròn phát sáng hoàn hảo xuất hiện quanh mặt trời trên bầu trời. Nó được tạo ra khi ánh sáng mặt trời đi qua hàng triệu tinh thể băng nhỏ, phẳng trôi cao trong những đám mây mỏng, làm cong ánh sáng thành một vòng hào quang đẹp như cầu vồng hình tròn.",
+      "history": "Phần Lan thường xuyên trải nghiệm hào quang mặt trời trong suốt mùa đông dài và lạnh giá khi bầu trời đầy tinh thể băng. Helsinki và các thành phố Phần Lan khác thường nhìn thấy những vòng tròn phát sáng này lơ lửng trên bầu trời mùa đông, khiến cả một ngày lạnh bình thường cũng cảm thấy có chút kỳ diệu."
+    }
+  ],
+  "start_year": -200,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What creates a sun halo?",
+      "question_type": "single",
+      "options": ["Dust particles in the air", "Millions of tiny ice crystals in thin clouds", "Water droplets on your glasses", "The moon's shadow"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Điều gì tạo ra hào quang mặt trời?",
+      "question_type": "single",
+      "options": ["Các hạt bụi trong không khí", "Hàng triệu tinh thể băng nhỏ trong đám mây mỏng", "Những giọt nước trên kính của bạn", "Bóng của Mặt Trăng"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How many degrees away from the sun is a sun halo ring?",
+      "question_type": "single",
+      "options": ["5 degrees", "10 degrees", "22 degrees", "45 degrees"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Vòng hào quang mặt trời cách mặt trời bao nhiêu độ?",
+      "question_type": "single",
+      "options": ["5 độ", "10 độ", "22 độ", "45 độ"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+import {FamilyGate} from '../../src/components/FamilyGate';
+import {useFamilyStore} from '../../src/stores/familyStore';
+import {createRoot} from 'react-dom/client';
+import {QueryClient,QueryClientProvider} from '@tanstack/react-query';
+import {MemoryRouter,Routes,Route} from 'react-router-dom';
+import {FamilyLoginPage} from '../../src/pages/FamilyLoginPage';
+import {RegisterPage} from '../../src/pages/RegisterPage';
+import {LanguageSwitcher} from '../../src/components/LanguageSwitcher/LanguageSwitcher';
+import '../../src/app.css';
+const setup=new URLSearchParams(location.search).has('setup');
+if(setup)useFamilyStore.setState({session:{user:{id:'google-family',email:'parent@test.local',name:'Test'},parentPasswordRequired:true},familyId:'google-family',familyName:'Test',isInitializing:false});
+createRoot(document.getElementById('root')!).render(<QueryClientProvider client={new QueryClient({defaultOptions:{queries:{retry:false}}})}><MemoryRouter initialEntries={[setup?'/setup':'/']}><LanguageSwitcher/><Routes><Route path="/setup" element={<FamilyGate><h1>Child play allowed</h1></FamilyGate>}/><Route path="/" element={<FamilyLoginPage/>}/><Route path="/register" element={<RegisterPage/>}/></Routes></MemoryRouter></QueryClientProvider>);

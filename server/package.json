@@ -1,0 +1,48 @@
+{
+  "name": "personal-learning-ground-server",
+  "private": true,
+  "version": "0.1.0",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "dev:local": "node --env-file=.env_dev --import ./scripts/local-db-guard.mjs --import tsx --watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node --network-family-autoselection-attempt-timeout=1000 dist/src/index.js",
+    "test": "node --import tsx --test --test-concurrency=1 tests/*.test.ts tests/db/*.test.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "bench:explore-cache": "node --import tsx scripts/bench-explore-cache.mjs",
+    "bench:explore-clusters": "node --import tsx scripts/bench-explore-clusters.mjs",
+    "db:migrate": "drizzle-kit migrate --config drizzle.config.ts",
+    "db:migrate:local": "node --env-file=.env_dev --import ./scripts/local-db-guard.mjs ./node_modules/drizzle-kit/bin.cjs migrate --config drizzle.config.ts",
+    "db:seed": "node --import tsx scripts/db-seed-catalog.mjs",
+    "db:refresh-catalog": "node --import tsx scripts/refresh-catalog-content.mjs",
+    "db:seed:local": "node --env-file=.env_dev --import ./scripts/local-db-guard.mjs --import tsx scripts/db-seed-catalog.mjs",
+    "db:bootstrap:local": "node --env-file=.env_dev --import ./scripts/local-db-guard.mjs --import tsx scripts/bootstrap-family.ts",
+    "test:local": "node --env-file=.env_dev --import ./scripts/local-db-guard.mjs --import tsx --test --test-concurrency=1 tests/*.test.ts tests/db/*.test.ts",
+    "db:bootstrap": "node --import tsx scripts/bootstrap-family.ts",
+    "db:init-root": "node --import tsx scripts/migrate-root-account.ts",
+    "db:init-root:local": "node --env-file=.env_dev --import ./scripts/local-db-guard.mjs --import tsx scripts/migrate-root-account.ts",
+    "db:uat-fixture:local": "node --env-file=.env_dev --import ./scripts/local-db-guard.mjs --import tsx scripts/create-uat-fixture.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.864.0",
+    "@hono/node-server": "^1.19.0",
+    "@simplewebauthn/server": "^14.0.3",
+    "argon2": "^0.44.0",
+    "drizzle-orm": "^0.45.2",
+    "hono": "^4.9.7",
+    "pg": "^8.16.3",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.6",
+    "@types/pg": "^8.15.5",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

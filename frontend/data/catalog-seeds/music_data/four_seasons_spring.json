@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 45.4408,
+  "longitude": 12.3155,
+  "country_code": "IT",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Antonio Vivaldi",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "The Four Seasons: Spring — Vivaldi",
+      "description": "A bright and energetic violin piece that paints a picture of spring arriving — with chirping birds, babbling brooks, and warm sunshine. You can almost feel the flowers blooming when you listen!",
+      "history": "Vivaldi wrote four concertos, one for each season of the year. He even wrote poems to go along with the music to help listeners imagine the scenes he was describing. How creative!"
+    },
+    {
+      "lang": "vi",
+      "title": "Bốn Mùa: Mùa Xuân — Vivaldi",
+      "description": "Một bản nhạc violin tươi sáng và năng động về cảnh mùa xuân đến, với tiếng chim hót, suối chảy và nắng ấm. Khi nghe, bạn gần như cảm nhận được hoa nở rộ!",
+      "history": "Vivaldi viết bốn bản nhạc giao hưởng, mỗi bản cho một mùa trong năm. Ông còn viết cả thơ để kèm theo nhạc giúp người nghe tưởng tượng cảnh đẹp trong bản nhạc. Thật sáng tạo!"
+    }
+  ],
+  "start_year": 1725,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed 'The Four Seasons'?", "question_type": "single", "options": ["Bach", "Handel", "Vivaldi", "Corelli"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác 'Bốn Mùa'?", "question_type": "single", "options": ["Bach", "Handel", "Vivaldi", "Corelli"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Which instrument is featured most in 'The Four Seasons: Spring'?", "question_type": "single", "options": ["Cello", "Flute", "Violin", "Piano"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Nhạc cụ nào nổi bật nhất trong 'Bốn Mùa: Mùa Xuân'?", "question_type": "single", "options": ["Đàn cello", "Sáo", "Đàn violin", "Đàn piano"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

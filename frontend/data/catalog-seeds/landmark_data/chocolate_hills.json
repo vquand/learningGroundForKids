@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 9.9,
+  "longitude": 124.1667,
+  "country_code": "PH",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "The Chocolate Hills are a geological formation of over 1,200 almost perfectly cone-shaped hills spread across Bohol Island in the central Philippines.",
+  "fun_facts": [
+    "There are at least 1,268 of these almost perfectly shaped cone hills covering 50 square kilometers — it is like someone left a giant chocolate box behind!",
+    "In the dry season the grass on the hills turns chocolate brown — that is exactly how they got their delicious-sounding name.",
+    "Scientists are still not completely sure how so many nearly identical cone-shaped hills formed in the same area — it is one of geology's fun mysteries!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Chocolate Hills",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Chocolate Hills",
+      "description": "The Chocolate Hills of Bohol in the Philippines are one of nature's most wonderfully strange sights — more than 1,200 nearly perfect cone-shaped hills stretching as far as the eye can see. When the dry season arrives, the green grass covering every hill turns a rich brown color, making the whole landscape look exactly like a giant box of chocolate kisses. Climbing to a viewing platform and seeing all those identical lumps rolling to the horizon is jaw-dropping.",
+      "history": "The hills are made of marine limestone laid down millions of years ago when the area was under the sea, then pushed upward and shaped by rainwater slowly dissolving the rock in a process called karstification. Filipino folklore offers a more romantic explanation — a giant named Arogo cried tears of grief after the death of his mortal love, and his teardrops hardened into the hills. The Chocolate Hills were declared a National Geological Monument of the Philippines in 1988."
+    },
+    {
+      "lang": "vi",
+      "title": "Những Ngọn Đồi Sôcôla",
+      "description": "Những Ngọn Đồi Sôcôla ở Bohol tại Philippines là một trong những cảnh tượng kỳ lạ tuyệt vời nhất của thiên nhiên — hơn 1.200 ngọn đồi hình nón gần hoàn hảo trải dài tận mắt không thấy hết. Khi mùa khô đến, cỏ xanh phủ trên mỗi ngọn đồi chuyển sang màu nâu đậm, khiến toàn bộ phong cảnh trông y chang như một hộp kẹo sôcôla không lồ. Leo lên đài quan sát và nhìn thấy tất cả những khối đồi giống hệt nhau lăn ra đến đường chân trời là một cảnh đẹp khiến người xem phải ngỡ ngàng.",
+      "history": "Những ngọn đồi được làm từ đá vôi biển được hình thành hàng triệu năm trước khi vùng này còn ở dưới biển, sau đó bị nâng lên và được mưa bào mòn qua quá trình gọi là karst hóa. Văn hóa dân gian Philippines có một giải thích lãng mạn hơn — một gã khổng lồ tên Arogo khóc vì đau lòng khi người tình trần thế của anh mất đi, và những giọt nước mắt của anh cứng lại thành những ngọn đồi. Những Ngọn Đồi Sôcôla được công nhận là Di Tích Địa Chất Quốc Gia của Philippines năm 1988."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country are the Chocolate Hills located?",
+      "question_type": "single",
+      "options": ["Indonesia", "Philippines", "Malaysia", "Thailand"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Những Ngọn Đồi Sôcôla nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Indonesia", "Philippines", "Malaysia", "Thái Lan"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Why do the Chocolate Hills turn brown in the dry season?",
+      "question_type": "single",
+      "options": ["They are covered in mud", "The grass dries and turns brown", "Chocolate is poured on them", "They are made of brown rock"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Tại sao Những Ngọn Đồi Sôcôla chuyển sang màu nâu vào mùa khô?",
+      "question_type": "single",
+      "options": ["Chúng bị phủ bùn", "Cỏ khô và chuyển màu nâu", "Sôcôla được đổ lên chúng", "Chúng được làm từ đá màu nâu"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -2000000,
+  "time_precision": "mya"
+}

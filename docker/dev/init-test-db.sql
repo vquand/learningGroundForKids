@@ -1,0 +1,1 @@
+CREATE DATABASE plg_test;

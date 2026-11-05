@@ -1,0 +1,32 @@
+/* Share Town Building's cream paper, sage greens and warm brown outlines. */
+.math-page { --math-ink: #574435; --math-muted: #786956; background: #f6f1e4; }
+.math-setup, .math-question, .math-results { background: #fffaf1; }
+.math-setup, .math-preview, .math-stage { border-color: #d3c4a6; }
+.math-eyebrow { color: #60775a; }
+.math-setup fieldset button { border-color: #e2d5bd; background: #fffaf1; }
+.math-setup fieldset button[aria-pressed=true] { border-color: #718b63; background: #e5edda; box-shadow: 0 0 0 2px #d6e2c9; }
+.math-preview, .math-preview > p, .math-arena, .math-stage { background: #c8d7af; }
+.math-selected-path { background: #829f6b20; border-color: #74865c88; }
+.math-question { border-color: #8ba473; }
+.math-question.medium { border-color: #d4b15d; }
+.math-question.hard { border-color: #c98d58; }
+.math-wall-clock { background: #e6dfcc; }
+.math-wall-clock span { background: #8ca478; }
+.math-wall-clock[data-urgency=yellow] span { background: #ddb343; }
+.math-wall-clock[data-urgency=red] span { background: #cf6559; }
+.math-moving-wall:not(.is-minecraft) .math-wall-art { filter: saturate(.72); }
+.math-wall-answer { border-color: #79563c; color: #4c3c2d; }
+.math-lane-buttons button { border-color: #cfaf69; background: #fff5d8; box-shadow: 0 3px 0 #967450; }
+.math-lane-buttons button[aria-pressed=true] { border-color: #688455; background: #c6dca9; box-shadow: 0 3px 0 #526a43; }
+.math-lane-buttons kbd { color: #4c3c2d; }
+
+/* The generated gait supplies the leg motion; the complete body stays level. */
+.math-animal-sprite[data-walking=true] .math-animal-piece img {
+  animation: math-walk-frames .42s steps(6, end) infinite;
+  will-change: transform;
+}
+.math-animal-sprite[data-paused=true] .math-animal-piece img { animation-play-state: paused; }
+@keyframes math-walk-frames { to { transform: translateX(calc(-1 * var(--math-walk-distance))); } }
+@media (prefers-reduced-motion: reduce) {
+  .math-animal-sprite[data-walking=true] .math-animal-piece img { animation: none; will-change: auto; }
+}

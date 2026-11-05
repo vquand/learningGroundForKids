@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 53.5587,
+  "longitude": 108.165,
+  "country_code": "RU",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Located in the Irkutsk region of southern Siberia, Russia, Lake Baikal is the world's deepest and oldest freshwater lake, and holds the largest volume of liquid fresh water on Earth.",
+  "fun_facts": [
+    "Lake Baikal holds so much water that if all the rivers in the world poured into it, it would take almost a whole year just to fill it up — it contains about one fifth of all the fresh water on the surface of Earth!",
+    "Baikal is so deep that you could stack more than five Empire State Buildings on top of each other and they still would not reach the surface.",
+    "The lake is home to the only freshwater seal in the world — the adorable Baikal seal, called nerpa, and nobody knows exactly how it got there millions of years ago."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Lake Baikal",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Lake Baikal",
+      "description": "Lake Baikal in Siberia, Russia, is the deepest lake on Earth at over 1,600 metres and also the world's oldest lake at around 25 million years old. It holds an astonishing one fifth of all the unfrozen fresh water on the planet's surface — more than all of North America's Great Lakes combined. The lake's extraordinary age and isolation have created a unique underwater world where more than 1,700 species of plants and animals are found nowhere else on Earth.",
+      "history": "Lake Baikal formed around 25 to 30 million years ago as part of a continental rift zone where two tectonic plates are slowly pulling apart, and it continues to widen by about two centimetres every year. The indigenous Buryat people have lived around the lake for thousands of years, revering it as a sacred and living entity they call the 'Holy Sea.' Russian explorers reached the lake in the 1640s, and it was designated a UNESCO World Heritage Site in 1996 for its exceptional biodiversity and geological importance."
+    },
+    {
+      "lang": "vi",
+      "title": "Hồ Baikal",
+      "description": "Hồ Baikal ở Siberia, Nga, là hồ sâu nhất trên Trái Đất với hơn 1.600 mét và cũng là hồ cổ nhất thế giới vào khoảng 25 triệu năm tuổi. Nó chứa đựng một phần năm đáng kinh ngạc toàn bộ nước ngọt chưa đóng giá trên bề mặt hành tinh — nhiều hơn toàn bộ các Hồ Lớn của Bắc Mỹ cộng lại. Lịch sử lâu đời và sự cô lập phi thường của hồ đã tạo ra một thế giới dưới nước độc đáo nơi hơn 1.700 loài thực vật và động vật chỉ tìm thấy ở đây mà không ở đâu khác trên Trái Đất.",
+      "history": "Hồ Baikal hình thành khoảng 25 đến 30 triệu năm trước như là một phần của vùng nứt giãn lục địa nơi hai mảng kiến tạo đang từ từ tách ra, và nó tiếp tục mở rộng thêm khoảng hai xentimét mỗi năm. Người Buryat bản địa đã sống quanh hồ hàng nghìn năm, tôn kính nó như một thực thể linh thiêng và sống động mà họ gọi là 'Biển Thánh'. Các nhà thám hiểm Nga tới hồ vào những năm 1640, và nó được công nhận là Di sản Thế giới UNESCO vào năm 1996 vì sự đa dạng sinh học và tầm quan trọng địa chất xuất sắc của nó."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Lake Baikal located?",
+      "question_type": "single",
+      "options": ["China", "Mongolia", "Russia", "Kazakhstan"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hồ Baikal nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Trung Quốc", "Mông Cổ", "Nga", "Kazakhstan"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What record does Lake Baikal hold?",
+      "question_type": "single",
+      "options": ["Largest lake by area", "Deepest lake in the world", "Saltiest lake in the world", "Highest lake in the world"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hồ Baikal giữ kỷ lục gì?",
+      "question_type": "single",
+      "options": ["Hồ lớn nhất theo diện tích", "Hồ sâu nhất thế giới", "Hồ mặn nhất thế giới", "Hồ cao nhất thế giới"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -25000000,
+  "time_precision": "mya"
+}

@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 10.8231,
+  "longitude": 106.6297,
+  "country_code": "VN",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "During a flash flood, a river can rise by several metres in just a few hours — that is taller than a house filling up with water super fast!",
+    "Vietnam receives so much rain during monsoon season that some years entire streets turn into rivers you could kayak through.",
+    "Flash floods can move rocks and boulders as big as cars — the power of rushing water is truly incredible!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Flash Flood",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Flash Flood",
+      "description": "A flash flood happens when very heavy rain falls so fast that rivers and streets overflow with water in just a few hours. It is one of nature's speediest water events — the water comes rushing in before you even expect it.",
+      "history": "Vietnam and Southeast Asia experience powerful flash floods every year during monsoon season. Ho Chi Minh City, with its low-lying streets and heavy tropical rains, often sees water levels rise dramatically in a matter of hours."
+    },
+    {
+      "lang": "vi",
+      "title": "Lũ Quét (Lũ Nhanh)",
+      "description": "Lũ quét xảy ra khi mưa lớn đổ xuất khiến sông và đường phố tràn ngập nước chỉ trong vài giờ. Đây là một trong những hiện tượng nước nhanh nhất của thiên nhiên — nước tràn đến trước khi bạn kịp nhận ra.",
+      "history": "Việt Nam và Đông Nam Á hàng năm đều chịu lũ quét mạnh trong mùa mưa. Thành phố Hồ Chí Minh, với nhiều tuyến đường thấp và mưa nhiệt đới nặng, thường xuyên thấy nước dâng cao nhanh chóng chỉ trong vài giờ."
+    }
+  ],
+  "start_year": -3000,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What causes a flash flood?",
+      "question_type": "single",
+      "options": ["Very strong winds", "Very heavy rain that falls very fast", "A big earthquake", "Melting snow only"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Điều gì gây ra lũ quét?",
+      "question_type": "single",
+      "options": ["Gió rất mạnh", "Mưa rất to đổ xuống rất nhanh", "Trận động đất lớn", "Chỉ do tuyết tan"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which country in Southeast Asia is mentioned as experiencing flash floods during monsoon season?",
+      "question_type": "single",
+      "options": ["Japan", "Australia", "Vietnam", "Canada"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Quốc gia nào ở Đông Nam Á được nhắc đến là hay bị lũ quét trong mùa mưa?",
+      "question_type": "single",
+      "options": ["Nhật Bản", "Úc", "Việt Nam", "Canada"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

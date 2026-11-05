@@ -1,0 +1,2 @@
+.burger-sprite { display: block; width: 100%; background-repeat: no-repeat; pointer-events: none; }
+.cooking-meal-card__art > .burger-sprite { width: 180px; max-width: 72%; height: 170px; }

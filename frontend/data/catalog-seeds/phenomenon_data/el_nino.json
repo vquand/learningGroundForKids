@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": -12.0464,
+  "longitude": -77.0428,
+  "country_code": "PE",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "El Nino was named by Peruvian fishermen who noticed warm ocean water appearing near the coast around Christmas time — so they called it 'El Nino', which means 'The Child' in Spanish, like the baby Jesus!",
+    "When El Nino happens, it can change weather on the ENTIRE planet at the same time — making some places very rainy and others very dry!",
+    "Scientists can predict El Nino months in advance by watching tiny changes in ocean temperature from satellites high up in space."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "El Niño",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "El Niño",
+      "description": "El Niño is a weather pattern caused by unusually warm ocean water in the Pacific Ocean near Peru, which changes rainfall and temperature across the whole planet.",
+      "history": "El Niño was named by Peruvian fishermen who noticed warm currents arriving near Christmas each year — 'El Niño' means 'The Child' in Spanish — and this powerful ocean event now helps scientists predict global weather months in advance."
+    },
+    {
+      "lang": "vi",
+      "title": "El Niño",
+      "description": "El Niño là một hiện tượng thời tiết gây ra bởi nước biển ấm bất thường ở Thái Bình Dương gần Peru, làm thay đổi lượng mưa và nhiệt độ trên toàn thế giới.",
+      "history": "El Niño được đặt tên bởi những ngư dân Peru, những người nhận ra dòng nước ấm xuất hiện gần bờ biển mỗi dịp Giáng sinh hàng năm, họ gọi nó là 'El Niño' nghĩa là 'Đứa trẻ' trong tiếng Tây Ban Nha, và hiện tượng biển mạnh mẽ này giờ đây giúp các nhà khoa học dự báo thời tiết toàn cầu trước nhiều tháng."
+    }
+  ],
+  "start_year": 1600,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What does 'El Niño' mean in Spanish?",
+      "question_type": "single",
+      "options": ["The Rain", "The Child", "The Sun", "The Wind"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "'El Niño' có nghĩa là gì trong tiếng Tây Ban Nha?",
+      "question_type": "single",
+      "options": ["Cơn mưa", "Đứa trẻ", "Mặt trời", "Ngọn gió"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What causes El Niño?",
+      "question_type": "single",
+      "options": ["Unusually cold ocean water", "Unusually warm ocean water in the Pacific", "Strong winds from the north", "Heavy snowfall"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điều gì gây ra El Niño?",
+      "question_type": "single",
+      "options": ["Nước biển lạnh bất thường", "Nước biển ấm bất thường ở Thái Bình Dương", "Gió mạnh từ phía bắc", "Tuyết rơi dày"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

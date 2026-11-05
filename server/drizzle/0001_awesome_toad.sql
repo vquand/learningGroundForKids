@@ -1,0 +1,3 @@
+ALTER TABLE "quiz_attempts" ADD CONSTRAINT "quiz_attempts_score_nonnegative" CHECK ("quiz_attempts"."score" >= 0);--> statement-breakpoint
+ALTER TABLE "quiz_attempts" ADD CONSTRAINT "quiz_attempts_total_nonnegative" CHECK ("quiz_attempts"."total" >= 0);--> statement-breakpoint
+ALTER TABLE "quiz_attempts" ADD CONSTRAINT "quiz_attempts_score_not_over_total" CHECK ("quiz_attempts"."score" <= "quiz_attempts"."total");

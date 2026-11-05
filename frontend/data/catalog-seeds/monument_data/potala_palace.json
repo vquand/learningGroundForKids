@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 29.6576,
+  "longitude": 91.1175,
+  "country_code": "CN",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Potala Palace, Chengguan District, Lhasa, Tibet, China",
+  "fun_facts": [
+    "The Potala Palace sits 3,700 metres above sea level — that's so high up that the air is much thinner and you might feel out of breath just walking around!",
+    "The palace has 13 storeys and over 1,000 rooms, 10,000 shrines, and 200,000 statues inside.",
+    "The walls at the base of the palace are up to 5 metres thick to help the building survive earthquakes!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Potala Palace",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Potala Palace",
+      "description": "The Potala Palace is a stunning white-and-red palace perched high on a hill in Lhasa, Tibet. It was once the winter home of the Dalai Lama and is one of the highest palaces in the world.",
+      "history": "The original palace was built in the 7th century, but the grand structure seen today was mostly built in the 17th century by the Fifth Dalai Lama. It served as the religious and political centre of Tibet for centuries and became a UNESCO World Heritage Site in 1994."
+    },
+    {
+      "lang": "vi",
+      "title": "Cung điện Potala",
+      "description": "Cung điện Potala là một tòa cung điện tráng lệ màu trắng và đỏ tọa lạc trên một ngọn đồi cao ở Lhasa, Tây Tạng. Đây từng là nơi ở mùa đông của Đạt Lai Lạt Ma và là một trong những cung điện cao nhất thế giới.",
+      "history": "Cung điện ban đầu được xây dựng vào thế kỷ thứ 7, nhưng công trình hoàng tráng mà chúng ta thấy ngày nay chủ yếu được xây vào thế kỷ 17 bởi Đạt Lai Lạt Ma thứ Năm. Nó là trung tâm tôn giáo và chính trị của Tây Tạng trong nhiều thế kỷ và trở thành Di sản Thế giới UNESCO năm 1994."
+    }
+  ],
+  "start_year": 637,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which region is the Potala Palace located?",
+      "question_type": "single",
+      "options": ["Nepal", "Bhutan", "Tibet", "Xinjiang"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Cung điện Potala nằm ở vùng nào?",
+      "question_type": "single",
+      "options": ["Nepal", "Bhutan", "Tây Tạng", "Tân Cương"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "The Potala Palace was once the home of which spiritual leader?",
+      "question_type": "single",
+      "options": ["The Pope", "The Dalai Lama", "The Panchen Lama", "The Guru"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Cung điện Potala từng là ngôi nhà của nhà lãnh đạo tâm linh nào?",
+      "question_type": "single",
+      "options": ["Giáo hoàng", "Đạt Lai Lạt Ma", "Ban Thiền Lạt Ma", "Guru"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

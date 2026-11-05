@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 35.6762,
+  "longitude": 139.6503,
+  "country_code": "JP",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Kiki",
+      "image_url": null,
+      "description": "A thirteen-year-old witch who moves to a new city alone to complete her training and starts a flying delivery service."
+    },
+    {
+      "name": "Jiji",
+      "image_url": null,
+      "description": "Kiki's witty black cat and constant companion who always has something funny to say about every situation."
+    },
+    {
+      "name": "Tombo",
+      "image_url": null,
+      "description": "An enthusiastic boy who loves flying machines and becomes one of Kiki's first friends in the city."
+    },
+    {
+      "name": "Osono",
+      "image_url": null,
+      "description": "A kind and warm-hearted bakery owner who gives Kiki a place to live and helps her get her delivery business started."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Kiki's Delivery Service poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Kiki's Delivery Service (1989)",
+      "description": "A young witch named Kiki moves to a seaside city on her own and uses her flying broomstick to start a delivery service while learning to believe in herself.",
+      "history": "The film's beautiful seaside city was inspired by European cities like Stockholm in Sweden and Lisbon in Portugal, blended together by director Hayao Miyazaki."
+    },
+    {
+      "lang": "vi",
+      "title": "Dịch Vụ Giao Hàng Của Kiki (1989)",
+      "description": "Một cô phù thủy nhỏ tên Kiki chuyển đến một thành phố ven biển và sử dụng cây chổi bay của mình để mở dịch vụ giao hàng trong khi học tin vào bản thân.",
+      "history": "Thành phố ven biển đẹp trong phim được lấy cảm hứng từ các thành phố châu Âu như Stockholm ở Thụy Điển và Lisbon ở Bồ Đào Nha, kết hợp bởi đạo diễn Hayao Miyazaki."
+    }
+  ],
+  "start_year": 1989,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "How does Kiki fly in Kiki's Delivery Service?",
+      "question_type": "single",
+      "options": ["On a magic carpet", "On a broomstick", "On a giant bird", "With fairy wings"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Kiki bay bằng gì trong phim Dịch Vụ Giao Hàng Của Kiki?",
+      "question_type": "single",
+      "options": ["Trên thảm bay thần kỳ", "Trên cây chổi bay", "Trên một con chim khổng lồ", "Với đôi cánh tiên"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which studio made Kiki's Delivery Service?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Studio Ghibli"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hãng phim nào sản xuất Dịch Vụ Giao Hàng Của Kiki?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Studio Ghibli"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

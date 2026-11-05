@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 23.1291,
+  "longitude": 113.2644,
+  "country_code": "CN",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Make small dough wrappers and fill them with a mix of minced shrimp, pork, and ginger. Fold and pinch the edges to close them up. Steam them in a bamboo basket for about 10 minutes and serve hot with soy sauce!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Dim Sum",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Dim Sum",
+      "description": "Dim Sum is a wonderful collection of small Chinese dumplings, buns, and snacks served in little steamer baskets. Each piece is a tiny surprise filled with shrimp, pork, vegetables, or sweet custard.",
+      "history": "Dim Sum started over a thousand years ago along the ancient Silk Road in China, where travelers would stop at teahouses for a snack and some tea. This tradition, called Yum Cha, became especially popular in the city of Guangzhou."
+    },
+    {
+      "lang": "vi",
+      "title": "Dim Sum",
+      "description": "Dim Sum là một tập hợp nhiều loại bánh bao nhỏ, siu mai và đồ ăn vặt Trung Quốc được phục vụ trong các rổ hấp xinh xắn. Mỗi chiếc là một bất ngờ nhỏ nhân tôm, thịt heo, rau hoặc kem trứng ngọt.",
+      "history": "Dim Sum xuất hiện cả hơn nghìn năm trước dọc Con Đường Tơ Lụa ở Trung Quốc, nơi khách bộ hành dừng chân tại các quán trà để ăn vặt. Truyền thống này, gọi là Yum Cha, trở nên rất phổ biến ở thành phố Quảng Châu."
+    }
+  ],
+  "start_year": 1000,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Dim Sum from?",
+      "question_type": "single",
+      "options": ["Japan", "China", "Vietnam", "Korea"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Dim Sum đến từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Nhật Bản", "Trung Quốc", "Việt Nam", "Hàn Quốc"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What are Dim Sum baskets traditionally made of?",
+      "question_type": "single",
+      "options": ["Metal", "Plastic", "Bamboo", "Wood"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Rổ hấp Dim Sum truyền thống được làm từ gì?",
+      "question_type": "single",
+      "options": ["Kim loại", "Nhựa", "Tre", "Gỗ"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

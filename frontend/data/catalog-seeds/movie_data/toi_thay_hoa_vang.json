@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 13.0882,
+  "longitude": 109.0929,
+  "country_code": "VN",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Thieu",
+      "image_url": null,
+      "description": "The older brother who is kind and hardworking, always looking out for his younger brother."
+    },
+    {
+      "name": "Tuong",
+      "image_url": null,
+      "description": "The younger brother who loves playing and exploring the beautiful countryside around their village."
+    },
+    {
+      "name": "Muoi",
+      "image_url": null,
+      "description": "A sweet girl who is friends with both brothers and loves the golden flowers that grow in the fields."
+    },
+    {
+      "name": "Ba",
+      "image_url": null,
+      "description": "The loving father of the two brothers who works hard to take care of his family."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Yellow Flowers on the Green Grass poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Yellow Flowers on the Green Grass (2015)",
+      "description": "Two brothers grow up together in a beautiful Vietnamese village surrounded by yellow flowers and green fields, sharing adventures and a deep bond of friendship.",
+      "history": "This movie was filmed in Phu Yen province in Vietnam, one of the most scenic coastal regions in the country, and became one of the most beloved Vietnamese films ever made."
+    },
+    {
+      "lang": "vi",
+      "title": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh (2015)",
+      "description": "Hai anh em cùng lớn lên trong một làng quê Việt Nam đẹp, nơi có những cánh đồng hoa vàng rực rỡ và tình bạn thân thiết.",
+      "history": "Phim được quay tại tỉnh Phú Yên, một trong những vùng biển đẹp nhất Việt Nam, và trở thành một trong những bộ phim Việt Nam được yêu thích nhất từ trước đến nay."
+    }
+  ],
+  "start_year": 2015,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which province was the movie Yellow Flowers on the Green Grass filmed?",
+      "question_type": "single",
+      "options": ["Hoi An", "Da Lat", "Phu Yen", "Hue"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Bộ phim Tôi Thấy Hoa Vàng Trên Cỏ Xanh được quay ở tỉnh nào?",
+      "question_type": "single",
+      "options": ["Hội An", "Đà Lạt", "Phú Yên", "Huế"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is the main theme of Yellow Flowers on the Green Grass?",
+      "question_type": "single",
+      "options": ["Going on a space adventure", "Brotherhood and childhood in a Vietnamese village", "Fighting monsters in the city", "Finding treasure on an island"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Chủ đề chính của phim Tôi Thấy Hoa Vàng Trên Cỏ Xanh là gì?",
+      "question_type": "single",
+      "options": ["Phiêu lưu ngoài vũ trụ", "Tình anh em và tuổi thơ ở làng quê Việt Nam", "Chiến đấu với quái vật trong thành phố", "Tìm kho báu trên đảo"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

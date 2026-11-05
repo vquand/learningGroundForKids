@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 35.6762,
+  "longitude": 139.6503,
+  "country_code": "JP",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Traditional Japanese",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Sakura Sakura — Traditional Japanese",
+      "description": "A peaceful and beautiful Japanese song about cherry blossoms falling like pink snowflakes — it sounds like a gentle spring breeze through the trees.",
+      "history": "Sakura Sakura has been sung in Japan for over 150 years and celebrates the cherry blossom season, which is one of the most magical times of year in Japan!"
+    },
+    {
+      "lang": "vi",
+      "title": "Hoa Anh Đào — Dân ca Nhật Bản",
+      "description": "Đây là bài hát nhẹ nhàng và đẹp đẽ của Nhật Bản về những cánh hoa anh đào rơi xuống như tuyết hồng, nghe như gió mùa xuân thoảng qua!",
+      "history": "Sakura Sakura đã được hát ở Nhật Bản hơn 150 năm và thể hiện sự trân trọng mùa hoa anh đào nở rộ, một trong những thời điểm kỳ diệu nhất trong năm tại Nhật Bản!"
+    }
+  ],
+  "start_year": 1888,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "'Sakura Sakura' is a traditional song from which country?", "question_type": "single", "options": ["China", "Korea", "Japan", "Thailand"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Bài 'Sakura Sakura' là bài hát truyền thống của nước nào?", "question_type": "single", "options": ["Trung Quốc", "Hàn Quốc", "Nhật Bản", "Thái Lan"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "'Sakura' is the Japanese word for which flower?", "question_type": "single", "options": ["Rose", "Cherry blossom", "Lotus", "Chrysanthemum"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "'Sakura' là từ tiếng Nhật chỉ loài hoa nào?", "question_type": "single", "options": ["Hoa hồng", "Hoa anh đào", "Hoa sen", "Hoa cúc"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

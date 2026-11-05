@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 34.0522,
+  "longitude": -118.2437,
+  "country_code": "US",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Shrek",
+      "image_url": null,
+      "description": "A big green ogre who loves living alone in his swamp but turns out to have a very kind heart."
+    },
+    {
+      "name": "Donkey",
+      "image_url": null,
+      "description": "A talkative and funny donkey who becomes Shrek's best friend even though Shrek tries to push him away."
+    },
+    {
+      "name": "Princess Fiona",
+      "image_url": null,
+      "description": "A princess with a surprising secret who is brave, funny, and much stronger than a typical fairy tale princess."
+    },
+    {
+      "name": "Lord Farquaad",
+      "image_url": null,
+      "description": "A tiny but bossy ruler who wants to banish all fairy tale creatures and marry a princess to become king."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Shrek poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Shrek (2001)",
+      "description": "A grumpy green ogre named Shrek goes on a quest to rescue Princess Fiona in exchange for getting his swamp back, but ends up finding friendship and love along the way.",
+      "history": "Shrek won the very first Academy Award for Best Animated Feature ever given out, and it became one of the most beloved animated movies of all time!"
+    },
+    {
+      "lang": "vi",
+      "title": "Chú Yêu Tinh Shrek (2001)",
+      "description": "Một chú yêu tinh xanh khó tính tên Shrek đi giải cứu Công chúa Fiona để đổi lấy việc lấy lại đầm lầy của mình, nhưng lại tìm được tình bạn và tình yêu trên đường đi.",
+      "history": "Shrek đã giành được giải Oscar đầu tiên cho Phim Hoạt Hình Xuất Sắc Nhất từng được trao, và nó trở thành một trong những bộ phim hoạt hình được yêu thích nhất mọi thời đại!"
+    }
+  ],
+  "start_year": 2001,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What color is Shrek the ogre?",
+      "question_type": "single",
+      "options": ["Blue", "Purple", "Green", "Yellow"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Yêu tinh Shrek có màu gì?",
+      "question_type": "single",
+      "options": ["Xanh dương", "Tím", "Xanh lá", "Vàng"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which studio made the movie Shrek?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Blue Sky"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hãng phim nào sản xuất bộ phim Shrek?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Blue Sky"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

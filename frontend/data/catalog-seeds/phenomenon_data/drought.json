@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": -1.2921,
+  "longitude": 36.8219,
+  "country_code": "KE",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "During a long drought, animals in the African savannah travel hundreds of kilometres together in search of water — it is one of the greatest animal journeys on Earth!",
+    "Baobab trees in East Africa can store thousands of litres of water inside their giant trunks to survive droughts that last for years.",
+    "Some desert beetles in Africa collect tiny water droplets from morning fog on their backs to drink during a drought — they are amazing little survivors!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Drought",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Drought",
+      "description": "A drought is a long period of very little or no rain that dries out rivers, lakes, and soil, making it very hard for plants, animals, and people to find enough water.",
+      "history": "East Africa, including Kenya, experiences devastating droughts that can last for years, affecting millions of people and animals across the savannah, but communities here have long learned remarkable ways to survive and share precious water."
+    },
+    {
+      "lang": "vi",
+      "title": "Hạn Hán",
+      "description": "Hạn hán là một thời gian dài khi không có mưa hoặc mưa rất ít, làm cạn kiệt sông, hồ và đất, khiến cây cỏ, động vật và con người rất khó tìm đủ nước.",
+      "history": "Đông Phi, bao gồm Kenya, thường xuyên chịu hạn hán tàn khốc có thể kéo dài nhiều năm, ảnh hưởng đến hàng triệu người và động vật trên đồng cỏ, nhưng các cộng đồng nơi đây đã lâu đời học được những cách tuyệt vời để sống sót và chia sẻ nguồn nước quý giá."
+    }
+  ],
+  "start_year": -3000,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is a drought?",
+      "question_type": "single",
+      "options": ["Too much rain", "A long period with very little or no rain", "A very cold winter", "A big flood"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hạn hán là gì?",
+      "question_type": "single",
+      "options": ["Mưa quá nhiều", "Thời gian dài không có mưa hoặc mưa rất ít", "Mùa đông rất lạnh", "Một trận lũ lớn"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which tree in Africa stores thousands of litres of water in its trunk?",
+      "question_type": "single",
+      "options": ["Palm tree", "Baobab tree", "Oak tree", "Cactus"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Loài cây nào ở châu Phi tích trữ hàng nghìn lít nước trong thân?",
+      "question_type": "single",
+      "options": ["Cây cọ", "Cây Baobab", "Cây sồi", "Cây xương rồng"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 32.0835,
+  "longitude": -81.0998,
+  "country_code": "US",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "James Lord Pierpont",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Jingle Bells — James Lord Pierpont",
+      "description": "A jolly, bouncy song about dashing through the snow in a one-horse open sleigh — it makes you want to jump up and sing along!",
+      "history": "James Lord Pierpont wrote Jingle Bells in 1857, and it became so popular that it was the first song ever broadcast from space by astronauts!"
+    },
+    {
+      "lang": "vi",
+      "title": "Tiếng Chuông Náo Nức — James Lord Pierpont",
+      "description": "Đây là bài hát vui tươi về chiếc xe trượt tuyết chạy nhanh trên tuyết trắng, với tiếng chuông lanh lảnh reo vang khắp nơi!",
+      "history": "James Lord Pierpont sáng tác bài hát này năm 1857, và nó trở nên nổi tiếng đến mức được hát trên vũ trụ bởi các phi hành gia!"
+    }
+  ],
+  "start_year": 1857,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who wrote 'Jingle Bells'?", "question_type": "single", "options": ["Bing Crosby", "James Lord Pierpont", "Irving Berlin", "Frank Sinatra"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã viết bài 'Tiếng Chuông Náo Nức' (Jingle Bells)?", "question_type": "single", "options": ["Bing Crosby", "James Lord Pierpont", "Irving Berlin", "Frank Sinatra"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "'Jingle Bells' was the first song broadcast from where by astronauts?", "question_type": "single", "options": ["The Moon", "Space", "Mars", "Antarctica"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "'Jingle Bells' là bài hát đầu tiên được phát từ đâu bởi các phi hành gia?", "question_type": "single", "options": ["Mặt Trăng", "Vũ trụ", "Sao Hỏa", "Nam Cực"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 3.139,
+  "longitude": 101.6869,
+  "country_code": "MY",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Cut chicken into small cubes and mix with turmeric, cumin, and a little sugar. Thread the pieces onto wooden skewers. Grill them over medium heat, turning often, until golden and slightly charred. Serve the skewers with a warm, creamy peanut dipping sauce on the side — yum!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Satay",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Satay",
+      "description": "Satay is a popular Malaysian street food of small, juicy pieces of grilled meat on wooden skewers, served with a delicious peanut sauce for dipping. It is fun to eat because you hold the little stick and dip it yourself!",
+      "history": "Satay is believed to have originated in Java, Indonesia, and spread throughout Southeast Asia, becoming especially popular in Malaysia. Street vendors have been grilling satay over glowing charcoal for hundreds of years."
+    },
+    {
+      "lang": "vi",
+      "title": "Satay",
+      "description": "Satay là món ăn đường phố phổ biến ở Malaysia, gồm những miếng thịt nướng nhỏ trên que gỗ, ăn kèm với sốt lạc ngon tuyệt vời. Ăn rất vui vì bạn tự cầm que nhỏ và chấm sốt cho mình!",
+      "history": "Satay được cho là bắt nguồn từ Java, Indonesia, và lan rộng khắp Đông Nam Á, đặc biệt phổ biến ở Malaysia. Các hàng rong đã nướng satay trên than hoa hồng từ hàng trăm năm nay."
+    }
+  ],
+  "start_year": 1800,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Satay especially popular in?",
+      "question_type": "single",
+      "options": ["Thailand", "Vietnam", "Malaysia", "Philippines"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Satay đặc biệt phổ biến ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Thái Lan", "Việt Nam", "Malaysia", "Philippines"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What sauce is Satay traditionally served with?",
+      "question_type": "single",
+      "options": ["Chili sauce", "Peanut sauce", "Soy sauce", "Fish sauce"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Satay truyền thống được ăn kèm với sốt gì?",
+      "question_type": "single",
+      "options": ["Sốt ớt", "Sốt lạc", "Nước tương", "Nước mắm"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

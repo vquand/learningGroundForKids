@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 51.5074,
+  "longitude": -0.1278,
+  "country_code": "GB",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Traditional English",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Greensleeves — Traditional English",
+      "description": "A beautiful, dreamy melody from England that flows like a gentle river — it has a slightly mysterious and magical sound that captures your heart.",
+      "history": "Greensleeves is one of England's oldest and most beloved songs, dating back to the 1500s, and some people believe it was written by King Henry VIII himself!"
+    },
+    {
+      "lang": "vi",
+      "title": "Áo Xanh Lá — Dân ca Anh",
+      "description": "Đây là một giai điệu đẹp như giấc mơ từ nước Anh, nghe như dòng nước chảy nhẹ nhàng với âm thanh huyền bí và kỳ diệu!",
+      "history": "Greensleeves là một trong những bài hát cổ nhất và được yêu thích nhất của nước Anh, có từ thế kỷ 16, và có người cho rằng chính Vua Henry VIII đã sáng tác nó!"
+    }
+  ],
+  "start_year": 1580,
+  "time_precision": "century",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "'Greensleeves' is a traditional song from which country?", "question_type": "single", "options": ["Ireland", "Scotland", "England", "Wales"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Bài 'Áo Xanh Lá' (Greensleeves) là bài hát truyền thống của nước nào?", "question_type": "single", "options": ["Ireland", "Scotland", "Anh", "Wales"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Which English king is sometimes said to have written 'Greensleeves'?", "question_type": "single", "options": ["King Henry VIII", "King Richard III", "King Edward VI", "King Charles I"], "correct_answers": [0], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Vị vua Anh nào được cho là đã viết bài 'Greensleeves'?", "question_type": "single", "options": ["Vua Henry VIII", "Vua Richard III", "Vua Edward VI", "Vua Charles I"], "correct_answers": [0], "sort_order": 1}
+  ]
+}

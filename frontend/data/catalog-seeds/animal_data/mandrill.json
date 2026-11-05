@@ -1,0 +1,67 @@
+{
+  "category": "animal",
+  "latitude": 4.0,
+  "longitude": 12.0,
+  "country_code": "CM",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Mandrills live in the tropical rainforests of west-central Africa, mainly in Cameroon, Gabon, Equatorial Guinea, and Republic of Congo. They spend time both in trees and on the forest floor, preferring dense primary rainforest.",
+  "fun_facts": [
+    "The Mandrill is the world's largest monkey — males can weigh up to 37 kg and are as big as a medium-sized dog!",
+    "Male Mandrills have the most colourful faces of any mammal — vivid red and blue skin on the nose and cheeks, which becomes even brighter when they are excited.",
+    "Their rainbow-coloured bottoms also help other Mandrills follow them through dark forest.",
+    "Mandrills live in groups called 'hordes' which can have hundreds — sometimes even a thousand — members.",
+    "Despite their scary-looking teeth, Mandrills are mainly fruit-eaters and use their long canine teeth for display and defence, not just for biting."
+  ],
+  "media": [{"media_type": "image", "label": "Mandrill", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Mandrill",
+      "description": "The Mandrill is the world's largest monkey and probably its most colourful mammal! The male's face is painted with vivid red and blue — the brighter the colours, the more dominant and healthy he is. These fascinating primates live in large groups in the rainforests of Central Africa."
+    },
+    {
+      "lang": "vi",
+      "title": "Khỉ Đầu Chó Mandrill",
+      "description": "Mandrill là loài khỉ lớn nhất thế giới và có lẽ là loài động vật có vú nhiều màu sắc nhất! Mặt của con đực được tô với màu đỏ và xanh rực rỡ — màu sắc càng tươi sáng thì nó càng chiếm ưu thế và khỏe mạnh. Những loài linh trưởng hấp dẫn này sống trong các nhóm lớn ở rừng mưa Trung Phi."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What colours are on a male Mandrill's face?",
+      "question_type": "single",
+      "options": ["Yellow and green", "Orange and purple", "Red and blue", "White and black"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Mặt của Mandrill đực có những màu sắc gì?",
+      "question_type": "single",
+      "options": ["Vàng và xanh lá", "Cam và tím", "Đỏ và xanh dương", "Trắng và đen"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "In which continent do Mandrills live?",
+      "question_type": "single",
+      "options": ["Asia", "South America", "Africa", "Australia"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Mandrill sống ở châu lục nào?",
+      "question_type": "single",
+      "options": ["Châu Á", "Nam Mỹ", "Châu Phi", "Úc"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

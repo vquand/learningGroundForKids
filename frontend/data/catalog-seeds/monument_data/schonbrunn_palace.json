@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 48.1845,
+  "longitude": 16.3122,
+  "country_code": "AT",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Schönbrunner Schloßstraße 47, 1130 Vienna, Austria",
+  "fun_facts": [
+    "Schonbrunn Palace has 1,441 rooms — you could sleep in a different room every night for almost 4 years and still not use them all!",
+    "The young Mozart performed his very first concert here at age 6 for Empress Maria Theresa, and she was so delighted she gave him a big hug.",
+    "The palace gardens have one of the oldest zoos in the world, opened in 1752 — animals have lived there for over 270 years!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Schonbrunn Palace",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Schonbrunn Palace",
+      "description": "Schonbrunn Palace is a magnificent yellow palace in Vienna, Austria, that served as the summer home of the powerful Habsburg royal family for centuries. It has over 1,400 rooms and is surrounded by gorgeous formal gardens.",
+      "history": "The palace was built in its current form between 1696 and 1712 for Emperor Leopold I, though the site had been a royal hunting ground since the 16th century. It became the beloved residence of Empress Maria Theresa, who renovated and expanded it into the grand palace seen today."
+    },
+    {
+      "lang": "vi",
+      "title": "Cung Điện Schonbrunn",
+      "description": "Cung điện Schonbrunn là một cung điện màu vàng tuyệt đẹp ở Vienna, Áo, đã từng là nơi ở mùa hè của vương triều Habsburg quyền lực qua nhiều thế kỷ. Nó có hơn 1.400 phòng và được bao quanh bởi những khu vườn đẹp.",
+      "history": "Cung điện được xây dựng theo hình dạng hiện tại từ năm 1696 đến 1712 cho Hoàng đế Leopold I, mặc dù khu vực này đã là khu săn bắn hoàng gia từ thế kỷ 16. Nó trở thành nơi ở yêu thích của Nữ hoàng Maria Theresa, người đã cải tạo và mở rộng nó thành cung điện hoành tráng như ngày nay."
+    }
+  ],
+  "start_year": 1699,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Schonbrunn Palace located?",
+      "question_type": "single",
+      "options": ["Germany", "Switzerland", "Austria", "Hungary"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Cung Điện Schonbrunn nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Đức", "Thụy Sĩ", "Áo", "Hungary"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which royal family used Schonbrunn Palace as their summer home?",
+      "question_type": "single",
+      "options": ["Romanov", "Windsor", "Habsburg", "Bourbon"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Gia tộc hoàng gia nào đã dùng Cung Điện Schonbrunn làm nơi ở mùa hè?",
+      "question_type": "single",
+      "options": ["Romanov", "Windsor", "Habsburg", "Bourbon"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

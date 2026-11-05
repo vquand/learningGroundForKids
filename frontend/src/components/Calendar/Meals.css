@@ -1,0 +1,124 @@
+/* Meals grid and meal/medicine editor. Shared study geometry (day heading, drawer shell, palette, scope bar)
+   comes from Calendar.css. Row caps come from the shared --calendar-meal-row-max and --calendar-meal-medicine-row-max
+   variables; tile size is mirrored in MealsView and calendarMealHelpers. */
+.meal-grid { display: grid; align-content: center; height: 100%; gap: var(--calendar-grid-gap, 6px); grid-template-columns: var(--calendar-grid-columns); grid-template-rows: var(--calendar-day-heading-height, 38px) repeat(4, minmax(0, var(--calendar-meal-row-max, 160px))) minmax(0, var(--calendar-meal-medicine-row-max, 96px)); }
+.meal-row { display: contents; }
+.meal-row-label { display: flex; min-width: 0; align-items: center; justify-content: center; padding: 4px; border: 1px solid #d7e1d7; border-radius: 14px 0 0 14px; background: #e7f0e7; text-align: center; font-size: clamp(13px, 1.3vw, 16px); font-weight: 900; overflow: hidden; }
+.meal-row-label span { min-width: 0; overflow-wrap: anywhere; }
+.meal-row-label--medicine { font-size: 14px; }
+
+.meal-cell { position: relative; display: flex; min-width: 0; min-height: 0; flex-direction: column; align-items: stretch; overflow: hidden; margin: 0; padding: 5px 4px; border: 2px solid #d3dfd4; border-radius: 13px; background: #fffdf8; color: #17324d; font: inherit; text-align: left; cursor: pointer; touch-action: manipulation; }
+button.meal-cell { appearance: none; }
+.meal-row--medicine .meal-cell { padding: 3px; }
+.meal-cell:not(.is-past):not(.is-readonly):hover { border-color: #76a294; background: #f6fbf4; }
+.meal-cell.is-weekend { border-color: #efd3b5; background: #fff7ee; }
+.meal-cell.is-weekend:not(.is-past):not(.is-readonly):hover { border-color: #e2b389; background: #fff2e3; }
+.meal-cell.is-today { border-color: #397367; box-shadow: inset 0 0 0 2px #e2f1e8; }
+.meal-cell.is-past { border-style: dashed; background: #eef1ec; color: #6b7b83; cursor: default; opacity: .72; }
+.meal-cell.is-weekend.is-past { border-color: #dcc3a8; background: #f6ebdf; color: #7a6a5a; }
+.meal-cell.is-readonly { cursor: default; pointer-events: none; }
+.meal-cell:focus-visible, .meal-add-button:focus-visible, .calendar-library-button:focus-visible, .meal-method-choice:focus-visible, .meal-swatch:focus-visible, .meal-stepper button:focus-visible, .calendar-field input:focus-visible { outline: 3px solid #397367; outline-offset: 2px; }
+
+/* Tiles wrap inside the stack; the JS counts how many fit (see visibleTileCount) so the grid never grows. */
+.meal-tile-stack { display: flex; min-width: 0; min-height: 0; flex: 1 1 0; flex-wrap: wrap; align-content: flex-start; align-items: flex-start; gap: 2px; overflow: hidden; }
+.meal-tile { position: relative; display: inline-flex; flex: 0 0 var(--meal-tile-size, 32px); width: var(--meal-tile-size, 32px); height: var(--meal-tile-size, 32px); align-items: center; justify-content: center; overflow: hidden; border-radius: 9px; background: #f8fbf6; box-shadow: inset 0 0 0 1px #d9e2d7; }
+.meal-tile img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.meal-cell.is-weekend .meal-tile { background: #fffdf9; box-shadow: inset 0 0 0 1px #ecd6bf; }
+.meal-tile--medicine { background: color-mix(in srgb, var(--meal-medicine-color, #ffffff) 24%, #fffdf8); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--meal-medicine-color, #ffffff) 60%, #17324d); }
+.meal-tile-dot { position: absolute; top: 2px; left: 2px; width: 8px; height: 8px; border-radius: 50%; background: var(--meal-medicine-color, #ffffff); box-shadow: 0 0 0 1px #17324d80; }
+.meal-tile-qty { position: absolute; right: 0; bottom: 0; padding: 0 3px; border-radius: 5px 0 9px 0; background: #fffdf8ee; color: #17324d; font-size: 12px; font-weight: 900; line-height: 1.2; }
+.meal-tile--more { color: #397367; background: #e5f1e9; font-size: 12px; font-weight: 900; box-shadow: inset 0 0 0 1px #c5dccd; }
+.meal-cell.is-weekend .meal-tile--more { background: #fbe7d2; color: #7a4b1f; box-shadow: inset 0 0 0 1px #e8c39c; }
+.meal-empty-cell { position: absolute; inset: 0; display: grid; place-items: center; pointer-events: none; margin: 0; color: #5f6f77; font-size: 12px; font-weight: 700; text-align: center; }
+/* Shaded (desaturated, faded) empty dish; the "Nothing planned" text is for screen readers, and shown only if the art is missing. */
+.meal-empty-dish { width: 44px; height: 44px; object-fit: contain; filter: grayscale(1) opacity(.38); pointer-events: none; user-select: none; }
+.meal-cell.is-past .meal-empty-dish { filter: grayscale(1) opacity(.24); }
+.meal-empty-label { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.meal-empty-cell.is-missing-art .meal-empty-label { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto; white-space: normal; }
+.meal-cell.is-weekend .meal-empty-cell { color: #6e5d4c; }
+
+/* Editor: palette and list reuse the study drawer classes; these add the meal-specific pieces. */
+.meal-section-heading { min-height: 44px; align-items: center; }
+.meal-section-heading h3 { font-size: 15px; }
+.meal-entry-heading { flex-wrap: nowrap; justify-content: space-between; gap: 6px; }
+.meal-entry-heading > span { flex: 0 0 auto; color: #6b7b83; font-size: 13px; font-weight: 900; }
+.meal-add-button { flex: 0 0 auto; min-height: 44px; padding: 0 12px; border: 2px solid #315f52; border-radius: 12px; background: #e5f1e9; color: #17324d; font: 900 14px/1.2 Nunito, system-ui, sans-serif; white-space: nowrap; cursor: pointer; touch-action: manipulation; }
+.meal-add-button--wide { width: 100%; }
+.meal-add-button:disabled, .calendar-library-button:disabled, .meal-stepper button:disabled { opacity: .5; cursor: default; }
+.meal-library-grid { grid-template-rows: repeat(4, minmax(56px, 1fr)); }
+.meal-empty-library { display: grid; min-height: 0; flex: 1; align-content: center; gap: 4px; padding: 10px; border: 1px dashed #d2ded2; border-radius: 12px; text-align: center; }
+.meal-empty-library strong { font-size: 15px; }
+.meal-empty-library p, .meal-dialog-intro { margin: 0; color: #587187; font-size: 13px; font-weight: 700; line-height: 1.35; }
+.meal-entry-list { display: grid; flex: 0 0 auto; grid-auto-rows: 46px; gap: 2px; margin: 4px 0 0; padding: 0; list-style: none; overflow: hidden; }
+/* Override the study list's four columns and padding without growing the 46px meal track. */
+.calendar-ordered-list .meal-entry { display: grid; box-sizing: border-box; min-width: 0; height: 46px; min-height: 46px; grid-template-columns: minmax(0, 1fr) 44px; align-items: center; gap: 3px; padding: 0 3px 0 5px; border: 1px solid #d9e2d7; border-radius: 9px; background: #fff; }
+.meal-entry--medicine { border-color: color-mix(in srgb, var(--meal-medicine-color, #d9e2d7) 55%, #d9e2d7); }
+.meal-entry-main { display: flex; min-width: 0; align-items: center; gap: 6px; }
+.meal-entry-icon { width: 32px; height: 32px; flex: 0 0 32px; object-fit: contain; }
+.meal-entry .meal-tile-dot { position: static; flex: 0 0 auto; width: 12px; height: 12px; }
+.meal-entry-text { display: flex; min-width: 0; flex-direction: column; line-height: 1.15; }
+.meal-entry-text strong { overflow: hidden; color: #17324d; font-size: 13px; font-weight: 900; text-overflow: ellipsis; white-space: nowrap; }
+.meal-entry-text small { overflow: hidden; color: #587187; font-size: 12px; font-weight: 800; text-overflow: ellipsis; white-space: nowrap; }
+.meal-entry-empty { margin: 6px 0 0; padding: 10px; border: 1px dashed #d2ded2; border-radius: 12px; color: #5f6f77; font-size: 13px; font-weight: 800; text-align: center; }
+.meal-cap-note { margin: 4px 0 0; color: #8b4238; font-size: 12px; font-weight: 800; }
+.meal-medicine-panel { display: flex; min-width: 0; flex-direction: column; gap: 10px; }
+.meal-notice { margin: 0; padding: 10px 12px; border: 1px solid #ecd9a8; border-radius: 12px; background: #fff8e6; color: #5b4a22; font-size: 14px; font-weight: 800; line-height: 1.35; }
+
+.calendar-field-group { display: grid; gap: 6px; }
+.calendar-field-label { color: #397367; font-size: 13px; font-weight: 900; }
+
+/* Dialogs sit above the drawer and never scroll at 768px tall; overflow is only a fallback. */
+.meal-dialog-backdrop { position: fixed; top: var(--calendar-vv-top, 0px); right: 0; bottom: var(--calendar-vv-inset, 0px); left: 0; z-index: 1100; display: grid; place-items: center; padding: 12px; background: #17324d59; }
+.meal-dialog { display: flex; min-height: 0; width: min(760px, 100%); max-height: calc(var(--calendar-vv-height, 100dvh) - 24px); flex-direction: column; overflow: hidden; border: 2px solid #b8c9bb; border-radius: 20px; background: #fffdf7; color: #17324d; box-shadow: 0 18px 40px #17324d40; }
+.meal-medicine-dialog { width: min(720px, 100%); }
+.meal-medicine-dialog .meal-method-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.meal-dialog-header { display: flex; flex: 0 0 auto; align-items: center; justify-content: space-between; gap: 10px; padding: 8px 14px 6px 18px; border-bottom: 1px solid #d9e2d7; }
+.meal-dialog-header h2 { margin: 2px 0 0; font-size: 20px; line-height: 1.1; }
+.meal-dialog-header .calendar-eyebrow { font-size: 12px; }
+.meal-dialog > .meal-dialog-intro { flex: 0 0 auto; margin: 8px 14px 0; }
+.meal-dialog-body { display: grid; min-height: 0; flex: 1 1 auto; gap: 10px; padding: 8px 14px; overflow: auto; }
+.meal-library-body { grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); }
+.meal-medicine-body { grid-template-columns: minmax(0, 1fr); align-content: start; }
+.meal-library-column { display: flex; min-width: 0; min-height: 0; flex-direction: column; gap: 6px; }
+.meal-library-column .meal-dialog-intro { margin: 0; }
+.meal-food-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: repeat(4, 68px); gap: 4px; }
+.meal-food-grid .calendar-palette-choice { min-height: 68px; }
+.meal-saved-list { display: grid; grid-auto-rows: 44px; gap: 2px; margin: 0; padding: 0; list-style: none; }
+.meal-saved-row { display: grid; min-width: 0; grid-template-columns: 32px minmax(0, 1fr) 44px; align-items: center; gap: 6px; padding: 0 2px 0 6px; border: 1px solid #d9e2d7; border-radius: 9px; background: #fff; }
+.meal-saved-row img { width: 32px; height: 32px; object-fit: contain; }
+.meal-dialog-footer { display: flex; flex: 0 0 auto; align-items: center; justify-content: flex-end; gap: 8px; min-height: 60px; padding: 8px 14px; border-top: 1px solid #d9e2d7; }
+.meal-dialog-footer .calendar-editor-error { flex: 1 1 auto; }
+.meal-library-status { flex: 1 1 auto; margin: 0; color: #397367; font-size: 14px; font-weight: 800; }
+.calendar-field-group .meal-stepper { display: inline-flex; align-items: center; gap: 10px; }
+.meal-method-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+.meal-method-choice { display: flex; min-height: 84px; min-width: 0; flex-direction: column; align-items: center; justify-content: center; gap: 2px; padding: 4px; border: 2px solid #d9e2d7; border-radius: 12px; background: #f7fbf5; color: #17324d; font: 800 13px/1.15 Nunito, system-ui, sans-serif; cursor: pointer; touch-action: manipulation; }
+.meal-method-choice img { width: 40px; height: 40px; object-fit: contain; }
+.meal-method-choice span { overflow-wrap: anywhere; text-align: center; }
+.meal-method-choice.is-selected { border-color: #397367; background: #e2f1e8; box-shadow: inset 0 0 0 1px #397367; }
+.meal-swatch-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.meal-swatch { width: 44px; height: 44px; padding: 0; border: 2px solid #c7d7c8; border-radius: 50%; cursor: pointer; touch-action: manipulation; }
+.meal-swatch.is-selected { box-shadow: 0 0 0 3px #fffdf7, 0 0 0 5px #397367; }
+.meal-stepper { display: inline-flex; align-items: center; gap: 10px; }
+.meal-stepper button { width: 44px; height: 44px; padding: 0; border: 2px solid #c7d7c8; border-radius: 12px; background: #f4f9f1; color: #17324d; font: 900 22px/1 Nunito, system-ui, sans-serif; cursor: pointer; touch-action: manipulation; }
+.meal-stepper output { min-width: 48px; color: #17324d; font-size: 22px; font-weight: 900; text-align: center; }
+
+@media (max-width: 900px) and (orientation: portrait) {
+  .meal-grid-wrap { overflow-x: auto; padding-bottom: 8px; }
+  .meal-grid { min-width: 760px; min-height: 620px; }
+  .meal-dialog { width: 100%; }
+}
+.calendar-food-filters { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 6px; }
+.calendar-food-warning { flex: 1 1 0; margin: 4px 0; padding: 7px 10px; border: 1px solid #dca64a; border-left: 4px solid #bc7b13; border-radius: 9px; background: #fff2c9; color: #60430b; font: 700 13px/1.3 Nunito, system-ui, sans-serif; }
+.calendar-food-warning strong { font-weight: 900; }
+.meal-library-panel > .calendar-food-warning { flex: 0 0 auto; }
+
+.meal-tile-stack--large { display: grid; grid-template-columns: repeat(2, var(--meal-tile-size)); grid-auto-rows: var(--meal-tile-size); align-content: start; justify-content: start; }
+
+/* Keep library actions outside the independently scrollable columns. */
+.meal-library-dialog { height: min(640px, calc(var(--calendar-vv-height, 100dvh) - 24px)); }
+.meal-library-body { overflow: hidden; }
+.meal-library-column > :not(.calendar-scroll-frame) { flex-shrink: 0; }
+
+/* Keep localized refresh feedback beside reachable 48px actions. */
+.meal-library-feedback { min-width: 0; flex: 1 1 auto; }
+.meal-library-feedback p { margin: 0; overflow-wrap: anywhere; }

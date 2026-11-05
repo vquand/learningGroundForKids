@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 34.0522,
+  "longitude": -118.2437,
+  "country_code": "US",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "WALL-E",
+      "image_url": null,
+      "description": "A small, curious trash-compacting robot who has been alone on Earth for hundreds of years and loves collecting interesting objects."
+    },
+    {
+      "name": "EVE",
+      "image_url": null,
+      "description": "A sleek white robot sent to Earth to search for signs of plant life, who becomes WALL-E's best friend."
+    },
+    {
+      "name": "M-O",
+      "image_url": null,
+      "description": "A tiny cleaning robot on the spaceship who is determined to keep everything spotlessly clean."
+    },
+    {
+      "name": "The Captain",
+      "image_url": null,
+      "description": "The friendly captain of the giant spaceship Axiom who dreams of returning humans back to planet Earth."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "WALL-E poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "WALL-E (2008)",
+      "description": "A lonely little robot named WALL-E has been cleaning up a trashed Earth for 700 years until he meets a robot named EVE and falls in love, leading to a space adventure.",
+      "history": "WALL-E barely has any dialogue for the first half of the movie — instead it tells its story through music, sound effects, and the robots' expressions, just like silent films of the past!"
+    },
+    {
+      "lang": "vi",
+      "title": "Chú Robot WALL-E (2008)",
+      "description": "Một chú robot nhỏ tên WALL-E đã dọn dẹp Trái Đất suốt 700 năm cho đến khi gặp một robot tên EVE và yêu, dẫn đến một cuộc phiêu lưu ngoài vũ trụ.",
+      "history": "WALL-E hầu như không có lời thoại trong nửa đầu của phim — thay vào đó nó kể chuyện qua âm nhạc, hiệu ứng âm thanh và biểu cảm của robot, giống như phim câm ngày xưa!"
+    }
+  ],
+  "start_year": 2008,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is WALL-E's job on Earth?",
+      "question_type": "single",
+      "options": ["Planting trees", "Compacting trash", "Building houses", "Delivering mail"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Công việc của WALL-E trên Trái Đất là gì?",
+      "question_type": "single",
+      "options": ["Trồng cây", "Nén rác", "Xây nhà", "Giao thư"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is the name of the white robot that WALL-E falls in love with?",
+      "question_type": "single",
+      "options": ["ARIA", "EVE", "NOVA", "LUNA"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Tên của chú robot trắng mà WALL-E yêu là gì?",
+      "question_type": "single",
+      "options": ["ARIA", "EVE", "NOVA", "LUNA"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

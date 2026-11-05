@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 37.5999,
+  "longitude": 14.0153,
+  "country_code": "IT",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "A waterspout is like a tornado that dances on the surface of the sea — it sucks up water and can be taller than a 30-story building!",
+    "Sailors long ago thought waterspouts were sea monsters rising from the deep — now we know they are just spinning columns of air and water.",
+    "Waterspouts near Sicily in Italy can appear in groups — sometimes you can see 5 or more spinning columns of water at the same time!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Waterspout",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Waterspout",
+      "description": "A waterspout is a spinning column of air and water that stretches from a cloud down to the surface of the sea, looking like a giant twisting straw.",
+      "history": "The Mediterranean Sea near Sicily, Italy is famous for waterspouts — the warm sea and special wind patterns create perfect conditions for these spectacular spinning columns of water to form."
+    },
+    {
+      "lang": "vi",
+      "title": "Vòi Nước (Waterspout)",
+      "description": "Vòi nước là một cột không khí và nước xoáy tròn nối từ đám mây xuống mặt biển, trông như một cái ống hút khổng lồ đang vặn.",
+      "history": "Biển Địa Trung Hải gần đảo Sicily của Ý nổi tiếng với các vòi nước đẹp mắt. Biển ấm và gió đặc biệt ở đây tạo ra điều kiện lý tưởng để những cột nước xoáy tròn kỳ thú này hình thành."
+    }
+  ],
+  "start_year": 1500,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is a waterspout?",
+      "question_type": "single",
+      "options": ["A garden water feature", "A spinning column of air and water over the sea", "A type of underwater volcano", "A large ocean wave"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Vòi nước (waterspout) là gì?",
+      "question_type": "single",
+      "options": ["Một đài phun nước trong vườn", "Một cột không khí và nước xoáy trên mặt biển", "Một loại núi lửa dưới nước", "Một con sóng đại dương lớn"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What did sailors long ago think waterspouts were?",
+      "question_type": "single",
+      "options": ["Giant fish jumping", "Sea monsters rising from the deep", "Waterfalls in reverse", "God's fingers"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Các thủy thủ ngày xưa nghĩ vòi nước là gì?",
+      "question_type": "single",
+      "options": ["Cá khổng lồ nhảy lên", "Quái vật biển nổi lên từ đáy sâu", "Thác nước ngược", "Ngón tay của thần linh"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

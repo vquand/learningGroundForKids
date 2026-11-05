@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 51.5074,
+  "longitude": -0.1278,
+  "country_code": "GB",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "George Frideric Handel",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Hallelujah Chorus — Handel",
+      "description": "A thunderously joyful choral piece where hundreds of singers shout 'Hallelujah!' together. It is so powerful that audiences traditionally stand up when they hear it!",
+      "history": "Handel composed the entire Messiah oratorio, including this famous chorus, in just 24 days! He said he felt so inspired that he barely slept or ate the whole time. His servant even found him in tears when he finished."
+    },
+    {
+      "lang": "vi",
+      "title": "Hợp Xướng Hallelujah — Handel",
+      "description": "Một bản hợp xướng vui mừng rộn ràng mà hàng trăm người hát cùng nhau hét lên 'Hallelujah!'. Nó mạnh mẽ đến mức khán giả truyền thống đứng dậy khi nghe tác phẩm này!",
+      "history": "Handel sáng tác toàn bộ tác phẩm Messiah, bao gồm cả bản hợp xướng nổi tiếng này, chỉ trong 24 ngày! Ông nói cảm thấy cảm hứng đến nỗi gần như không ngủ và ăn trong suốt thời gian đó. Người giúp việc của ông thậm chí thấy ông đang khóc khi hoàn thành."
+    }
+  ],
+  "start_year": 1741,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed the 'Hallelujah Chorus'?", "question_type": "single", "options": ["Bach", "Handel", "Haydn", "Vivaldi"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác bài 'Hợp Xướng Hallelujah'?", "question_type": "single", "options": ["Bach", "Handel", "Haydn", "Vivaldi"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "What do audiences traditionally do when the Hallelujah Chorus is played?", "question_type": "single", "options": ["Clap their hands", "Sit on the floor", "Stand up", "Leave the room"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Khán giả truyền thống làm gì khi bài Hợp Xướng Hallelujah được chơi?", "question_type": "single", "options": ["Vỗ tay", "Ngồi xuống sàn", "Đứng dậy", "Rời khỏi phòng"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

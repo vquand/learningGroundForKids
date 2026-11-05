@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 45.6669,
+  "longitude": 12.2422,
+  "country_code": "IT",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Dip ladyfinger biscuits quickly into cold coffee so they soak up the flavor. Layer them in a dish, then spread a fluffy cream made from mascarpone cheese, eggs, and sugar on top. Repeat the layers, then dust cocoa powder on top and chill in the fridge — it gets better the longer it sits!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Tiramisu",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Tiramisu",
+      "description": "Tiramisu is a dreamy Italian dessert with layers of coffee-soaked biscuits and fluffy mascarpone cream, dusted with cocoa powder. Its name means 'pick me up' in Italian because of the coffee inside!",
+      "history": "Tiramisu was invented in the 1960s in the city of Treviso in northern Italy. It quickly became one of Italy's most beloved desserts and is now enjoyed all over the world."
+    },
+    {
+      "lang": "vi",
+      "title": "Tiramisu",
+      "description": "Tiramisu là một loại bánh tráng miệng Ý tuyệt vời với nhiều lớp bánh quy ngâm cà phê và kem mascarpone bông xốp, phủ thêm bột cacao. Tên của nó trong tiếng Ý có nghĩa là 'tiếp thêm năng lượng' vì có cà phê bên trong!",
+      "history": "Tiramisu được sáng chế vào những năm 1960 tại thành phố Treviso ở miền Bắc Ý. Nó nhanh chóng trở thành một trong những món tráng miệng được yêu thích nhất của Ý và ngày nay được thưởng thức khắp thế giới."
+    }
+  ],
+  "start_year": 1960,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What does the name 'Tiramisu' mean in Italian?",
+      "question_type": "single",
+      "options": ["Sweet dream", "Pick me up", "Coffee cake", "Good morning"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tên 'Tiramisu' có nghĩa là gì trong tiếng Ý?",
+      "question_type": "single",
+      "options": ["Giấc mơ ngọt", "Tiếp thêm năng lượng", "Bánh cà phê", "Chào buổi sáng"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "In which Italian city was Tiramisu invented?",
+      "question_type": "single",
+      "options": ["Milan", "Venice", "Treviso", "Bologna"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Tiramisu được phát minh ở thành phố Ý nào?",
+      "question_type": "single",
+      "options": ["Milan", "Venice", "Treviso", "Bologna"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

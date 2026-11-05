@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 45.8326,
+  "longitude": 6.8652,
+  "country_code": "FR",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Mont Blanc is the highest peak in the Alps and in all of Western Europe, straddling the border between France and Italy near the town of Chamonix in the Haute-Savoie department of southeastern France.",
+  "fun_facts": [
+    "Mont Blanc means 'White Mountain' in French, and it is covered in permanent glaciers and snow — it looks like a giant scoop of vanilla ice cream from below!",
+    "The mountain is 4,808 meters tall and has the largest glacier in the Alps called the Mer de Glace, which means 'Sea of Ice' — it is 7 kilometers long!",
+    "The Mont Blanc Tunnel underneath the mountain is 11.6 kilometers long — you can drive from France to Italy straight through the heart of the mountain!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Mont Blanc",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Mont Blanc",
+      "description": "Mont Blanc is the highest mountain in the Alps and in Western Europe, standing 4,808 meters tall on the border between France and Italy. Its summit glistens with permanent snow and glaciers, towering above the charming ski town of Chamonix far below. On clear days the white peak can be seen from as far away as the Mediterranean coast.",
+      "history": "Mont Blanc was first climbed on August 8, 1786, by two local men — Dr. Michel-Gabriel Paccard and crystal hunter Jacques Balmat — making it one of the earliest major alpine summit achievements in history. Their climb is considered the birth of modern mountaineering. The Chamonix valley has since become one of the most famous mountain sports destinations in the world."
+    },
+    {
+      "lang": "vi",
+      "title": "Núi Mont Blanc",
+      "description": "Mont Blanc là ngọn núi cao nhất dãy Alps và ở Tây Âu, đứng cao 4.808 mét trên biên giới giữa Pháp và Ý. Đỉnh núi sáng long lanh với tuyết băng thường xuyên, soi cao lên trên thị trấn trượt tuyết duyên dáng Chamonix phía xa bên dưới. Vào những ngày trong xanh, đỉnh núi trắng có thể nhìn thấy từ tận bờ biển Địa Trung Hải.",
+      "history": "Mont Blanc lần đầu được leo lên vào ngày 8 tháng 8 năm 1786 bởi hai người dân địa phương — Bác sĩ Michel-Gabriel Paccard và người săn pha lê Jacques Balmat — khiến đây trở thành một trong những thành tích leo đỉnh núi lớn đầu tiên trong lịch sử. Chuyến leo núi của họ được coi là sự ra đời của thể thao leo núi hiện đại. Thung lũng Chamonix kể từ đó đã trở thành một trong những điểm đến thể thao núi nổi tiếng nhất thế giới."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Mont Blanc is the highest mountain in which region?",
+      "question_type": "single",
+      "options": ["Eastern Europe", "Northern Europe", "Western Europe", "Southern Europe"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Mont Blanc là ngọn núi cao nhất ở khu vực nào?",
+      "question_type": "single",
+      "options": ["Đông Âu", "Bắc Âu", "Tây Âu", "Nam Âu"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What does 'Mont Blanc' mean in French?",
+      "question_type": "single",
+      "options": ["Black mountain", "White mountain", "High mountain", "Old mountain"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "'Mont Blanc' có nghĩa là gì trong tiếng Pháp?",
+      "question_type": "single",
+      "options": ["Núi đen", "Núi trắng", "Núi cao", "Núi cổ"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -5000000,
+  "time_precision": "mya"
+}

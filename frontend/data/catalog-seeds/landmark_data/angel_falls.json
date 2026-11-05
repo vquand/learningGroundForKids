@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 5.9698,
+  "longitude": -62.5353,
+  "country_code": "VE",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Angel Falls is located in Canaima National Park in the Gran Sabana region of southeastern Venezuela, plunging off the Auyantepui tabletop mountain.",
+  "fun_facts": [
+    "Angel Falls is the tallest waterfall on Earth — the water falls so far that most of it turns into mist before hitting the ground!",
+    "The waterfall is so high that it is taller than the Empire State Building in New York by more than twice!",
+    "It is named after Jimmie Angel, a pilot who landed his plane on top of the mountain in 1937 and got stuck there for 11 days."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Angel Falls",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Angel Falls",
+      "description": "Angel Falls is the tallest waterfall in the entire world, dropping an incredible 979 metres straight down from the top of a giant flat-topped mountain in Venezuela. The water falls so far that much of it turns into a misty cloud before it even reaches the bottom! It feels like watching water fall from the sky itself.",
+      "history": "The indigenous Pemon people have known about Angel Falls for thousands of years and call the mountain Auyantepui, meaning 'Devil's Mountain.' American aviator Jimmie Angel became the first outsider to see the falls from the air in 1933, and the waterfall was named in his honour. Today it is one of Venezuela's most treasured national landmarks and a UNESCO World Heritage Site."
+    },
+    {
+      "lang": "vi",
+      "title": "Thác Angel",
+      "description": "Thác Angel là thác nước cao nhất trên toàn thế giới, đổ thẳng xuống một khoảng cách khổng lồ 979 mét từ đỉnh một ngọn núi phẳng lớn ở Venezuela. Nước rơi xuống xa đến mức phần lớn biến thành sương mù trước khi chạm tới đáy! Nó giống như đang nhìn nước rơi xuống từ chính bầu trời.",
+      "history": "Người Pemon bản địa đã biết đến Thác Angel từ hàng nghìn năm trước và gọi ngọn núi là Auyantepui, có nghĩa là 'Núi Quỷ'. Phi công người Mỹ Jimmie Angel trở thành người ngoài đầu tiên nhìn thấy thác từ trên không năm 1933, và thác nước được đặt tên để vinh danh ông. Ngày nay nó là một trong những điểm mốc quốc gia được trân trọng nhất của Venezuela và là Di sản Thế giới UNESCO."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Angel Falls located?",
+      "question_type": "single",
+      "options": ["Brazil", "Colombia", "Venezuela", "Peru"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Thác Angel nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Brazil", "Colombia", "Venezuela", "Peru"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How tall is Angel Falls?",
+      "question_type": "single",
+      "options": ["226 metres", "450 metres", "979 metres", "1,200 metres"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Thác Angel cao bao nhiêu mét?",
+      "question_type": "single",
+      "options": ["226 mét", "450 mét", "979 mét", "1.200 mét"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -65000000,
+  "time_precision": "mya"
+}

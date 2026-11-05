@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 43.723,
+  "longitude": 10.3966,
+  "country_code": "IT",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Piazza dei Miracoli, Pisa, Tuscany, Italy",
+  "fun_facts": [
+    "The tower started leaning while it was still being built — and engineers kept on building it anyway for nearly 200 years!",
+    "The tower leans about 4 degrees to one side, and engineers worked hard to make sure it doesn't fall over completely.",
+    "The famous scientist Galileo was born in Pisa, and legend says he dropped cannonballs from the top of this tower to study gravity!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Leaning Tower of Pisa",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Leaning Tower of Pisa",
+      "description": "The Leaning Tower of Pisa is a famous bell tower in Italy that famously tilts to one side instead of standing straight up. It has eight beautiful white marble stories and took nearly 200 years to build.",
+      "history": "Construction of the tower began in 1173, but the soft ground underneath caused it to start leaning before it was even finished. Despite the tilt, builders continued, and the tower was finally completed in the 14th century."
+    },
+    {
+      "lang": "vi",
+      "title": "Tháp Nghiêng Pisa",
+      "description": "Tháp Nghiêng Pisa là một tháp chuông nổi tiếng ở Ý bị nghiêng sang một bên thay vì đứng thẳng. Nó có tám tầng đẹp bằng đá hoa cương trắng và mất gần 200 năm để xây dựng.",
+      "history": "Việc xây dựng tháp bắt đầu vào năm 1173, nhưng nền đất mềm phía dưới khiến nó bắt đầu nghiêng trước khi hoàn thành. Dù bị nghiêng, các thợ xây vẫn tiếp tục, và tháp cuối cùng được hoàn thành vào thế kỷ 14."
+    }
+  ],
+  "start_year": 1173,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is the Leaning Tower of Pisa located?",
+      "question_type": "single",
+      "options": ["France", "Spain", "Italy", "Greece"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tháp Nghiêng Pisa nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Pháp", "Tây Ban Nha", "Ý", "Hy Lạp"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Why does the Tower of Pisa lean?",
+      "question_type": "single",
+      "options": ["It was designed to lean", "The soft ground caused it to tilt", "An earthquake pushed it", "Strong winds bent it"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Tại sao Tháp Pisa bị nghiêng?",
+      "question_type": "single",
+      "options": ["Nó được thiết kế để nghiêng", "Nền đất mềm khiến nó nghiêng", "Một trận động đất đẩy nó", "Gió mạnh làm cong nó"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

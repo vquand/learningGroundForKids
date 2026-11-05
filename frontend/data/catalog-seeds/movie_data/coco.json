@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 17.0732,
+  "longitude": -96.7266,
+  "country_code": "MX",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Miguel",
+      "image_url": null,
+      "description": "A young boy who loves music more than anything and goes on a magical journey to the Land of the Dead to follow his dream."
+    },
+    {
+      "name": "Hector",
+      "image_url": null,
+      "description": "A funny and charming skeleton who helps Miguel on his adventure and has a big secret about his family."
+    },
+    {
+      "name": "Mama Coco",
+      "image_url": null,
+      "description": "Miguel's very old and beloved great-great-grandmother who holds a special place in the family's heart."
+    },
+    {
+      "name": "Dante",
+      "image_url": null,
+      "description": "Miguel's goofy and lovable dog who follows his owner on the magical journey and never leaves his side."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Coco poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Coco (2017)",
+      "description": "A music-loving boy named Miguel accidentally travels to the magical Land of the Dead, where he discovers the true meaning of family and the power of love.",
+      "history": "Coco is inspired by the Mexican holiday Dia de los Muertos, the Day of the Dead, a colorful celebration where families remember and honor their loved ones who have passed away."
+    },
+    {
+      "lang": "vi",
+      "title": "Coco (2017)",
+      "description": "Một cậu bé yêu âm nhạc tên Miguel vô tình đi đến vùng đất huyền bí của người chết, nơi cậu khám phá ra ý nghĩa thật sự của gia đình và sức mạnh của tình yêu thương.",
+      "history": "Coco lấy cảm hứng từ ngày lễ Dia de los Muertos của Mexico, lễ Ngày của Người Chết, một lễ hội đầy màu sắc nơi các gia đình tưởng nhớ và tôn vinh những người thân đã mất."
+    }
+  ],
+  "start_year": 2017,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What does Miguel love more than anything in the movie Coco?",
+      "question_type": "single",
+      "options": ["Dancing", "Painting", "Music", "Cooking"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Miguel trong phim Coco yêu thích nhất điều gì?",
+      "question_type": "single",
+      "options": ["Nhảy múa", "Vẽ tranh", "Âm nhạc", "Nấu ăn"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which country's holiday inspired the movie Coco?",
+      "question_type": "single",
+      "options": ["Brazil", "Spain", "Mexico", "Colombia"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Ngày lễ của nước nào đã truyền cảm hứng cho bộ phim Coco?",
+      "question_type": "single",
+      "options": ["Brazil", "Tây Ban Nha", "Mexico", "Colombia"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

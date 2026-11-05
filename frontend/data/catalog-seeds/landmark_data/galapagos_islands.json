@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": -0.9538,
+  "longitude": -90.9656,
+  "country_code": "EC",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "The Galapagos Islands are a volcanic archipelago of 18 major islands in the Pacific Ocean, about 1,000 kilometers west of mainland Ecuador.",
+  "fun_facts": [
+    "Animals on the Galapagos Islands have almost no fear of humans — you can sit right next to a giant tortoise or a sea lion and they will just ignore you!",
+    "Galapagos tortoises are the largest tortoises in the world and can live for over 150 years — some alive today were born before your great-great-great-grandparents!",
+    "Marine iguanas are the only lizards in the world that swim in the ocean and sneeze out salt through their noses like a superpower."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Galapagos Islands",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Galapagos Islands",
+      "description": "The Galapagos Islands are a magical group of volcanic islands in the Pacific Ocean where animals evolved in complete isolation for millions of years, becoming unlike anything else on Earth. Here you can walk among giant tortoises as old as 150 years, swim alongside penguins and sea lions, and watch bright blue-footed boobies do their silly dance. Because the animals have never been hunted by humans, they are completely tame and will come right up to you with curiosity.",
+      "history": "The Galapagos Islands rose from the ocean floor through volcanic eruptions about 3 to 5 million years ago, and animals that arrived by chance — carried by ocean currents, winds, or floating vegetation — slowly evolved into entirely new species over millions of years. The islands became forever famous in 1835 when a young scientist named Charles Darwin visited and observed the unique wildlife, inspiring his revolutionary theory of evolution by natural selection. Ecuador claimed the islands in 1832 and today protects them as a strict national park and UNESCO World Heritage Site."
+    },
+    {
+      "lang": "vi",
+      "title": "Quần Đảo Galapagos",
+      "description": "Quần đảo Galapagos là một nhóm đảo lửa thần kỳ ở Thái Bình Dương nơi động vật đã tiến hóa trong sự cô lập hoàn toàn qua hàng triệu năm, trở nên khác biệt với mọi thứ trên Trái Đất. Ở đây bạn có thể đi bộ giữa những con rùa khổng lồ sống đến 150 tuổi, bơi cùng chim cánh cụt và hải cẩu, và xem những con chim booby chân xanh múa những điệu vũ ngộ nghĩnh. Vì động vật ở đây chưa bao giờ bị săn bắt bởi con người, chúng hoàn toàn hiền lành và sẽ lại gần bạn với sự tò mò.",
+      "history": "Quần đảo Galapagos nổi lên từ đáy đại dương qua những vụ phun trào núi lửa khoảng 3 đến 5 triệu năm trước, và những động vật đến đây tình cờ — được dòng chảy đại dương, gió, hoặc thực vật trôi mang — dần tiến hóa thành những loài hoàn toàn mới qua hàng triệu năm. Các đảo này trở nên nổi tiếng mãi mãi vào năm 1835 khi nhà khoa học trẻ Charles Darwin đến thăm và quan sát động vật hoang dã độc đáo, truyền cảm hứng cho lý thuyết tiến hóa cách mạng của ông. Ecuador chiếm quyền sở hữu các đảo vào năm 1832 và ngày nay bảo vệ chúng như vườn quốc gia nghiêm ngặt và Di sản Thế giới UNESCO."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country does the Galapagos Islands belong to?",
+      "question_type": "single",
+      "options": ["Peru", "Ecuador", "Colombia", "Chile"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Quần đảo Galapagos thuộc nước nào?",
+      "question_type": "single",
+      "options": ["Peru", "Ecuador", "Colombia", "Chile"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which famous scientist visited the Galapagos Islands in 1835?",
+      "question_type": "single",
+      "options": ["Isaac Newton", "Albert Einstein", "Charles Darwin", "Galileo Galilei"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Nhà khoa học nổi tiếng nào đã đến thăm quần đảo Galapagos vào năm 1835?",
+      "question_type": "single",
+      "options": ["Isaac Newton", "Albert Einstein", "Charles Darwin", "Galileo Galilei"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -4000000,
+  "time_precision": "mya"
+}

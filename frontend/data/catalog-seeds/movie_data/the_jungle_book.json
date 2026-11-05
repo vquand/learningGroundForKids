@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 19.076,
+  "longitude": 72.8777,
+  "country_code": "IN",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Mowgli",
+      "image_url": null,
+      "description": "A young boy raised by wolves in the Indian jungle who must choose between life in the wild and the human village."
+    },
+    {
+      "name": "Baloo",
+      "image_url": null,
+      "description": "A laid-back and lovable bear who becomes Mowgli's best friend and teaches him the bare necessities of life."
+    },
+    {
+      "name": "Bagheera",
+      "image_url": null,
+      "description": "A wise and protective black panther who has watched over Mowgli since he was a baby and guides him to safety."
+    },
+    {
+      "name": "Shere Khan",
+      "image_url": null,
+      "description": "A powerful and fearsome tiger who is the main threat in the jungle and wants to drive Mowgli away from his home."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "The Jungle Book poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "The Jungle Book (2016)",
+      "description": "Young Mowgli, raised by wolves in the Indian jungle, must go on a dangerous journey after the fearsome tiger Shere Khan threatens his life.",
+      "history": "The Jungle Book is based on stories by British author Rudyard Kipling, who was born in Mumbai, India, and the tale is set in the lush forests of central India."
+    },
+    {
+      "lang": "vi",
+      "title": "Cậu Bé Rừng Xanh (2016)",
+      "description": "Cậu bé Mowgli, được đàn sói nuôi dưỡng trong rừng Ấn Độ, phải lên đường trong nguy hiểm sau khi con hổ hung Shere Khan đe dọa tính mạng cậu.",
+      "history": "The Jungle Book dựa trên những câu chuyện của tác giả người Anh Rudyard Kipling, sinh ra tại Mumbai, Ấn Độ, và câu chuyện được đặt trong các khu rừng xanh tốt ở trung Ấn Độ."
+    }
+  ],
+  "start_year": 1967,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Who raises Mowgli in The Jungle Book?",
+      "question_type": "single",
+      "options": ["Bears", "Wolves", "Elephants", "Monkeys"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Ai nuôi dưỡng Mowgli trong Cậu Bé Rừng Xanh?",
+      "question_type": "single",
+      "options": ["Gấu", "Sói", "Voi", "Khỉ"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "In which country is The Jungle Book set?",
+      "question_type": "single",
+      "options": ["Africa", "Brazil", "India", "Thailand"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Cậu Bé Rừng Xanh được đặt ở nước nào?",
+      "question_type": "single",
+      "options": ["Châu Phi", "Brazil", "Ấn Độ", "Thái Lan"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

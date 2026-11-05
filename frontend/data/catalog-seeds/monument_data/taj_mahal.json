@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 27.1751,
+  "longitude": 78.0421,
+  "country_code": "IN",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh, India",
+  "fun_facts": [
+    "It took over 20,000 workers and 1,000 elephants to build the Taj Mahal!",
+    "The white marble changes color during the day — it looks pink in the morning, white at noon, and golden at night.",
+    "The four tall towers around the Taj Mahal are tilted slightly outward so they would fall away from the main building in an earthquake."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Taj Mahal",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Taj Mahal",
+      "description": "The Taj Mahal is a stunning white marble palace in Agra, India, built by an emperor as a symbol of his love for his wife.",
+      "history": "Emperor Shah Jahan built the Taj Mahal between 1632 and 1653 in memory of his beloved wife Mumtaz Mahal, who passed away. It is now one of the Seven Wonders of the World."
+    },
+    {
+      "lang": "vi",
+      "title": "Taj Mahal",
+      "description": "Taj Mahal là một cung điện tráng lệ làm bằng đá hoa cương trắng ở Agra, Ấn Độ, được xây để biểu hiện tình yêu của một hoàng đế dành cho vợ mình.",
+      "history": "Hoàng đế Shah Jahan đã xây dựng Taj Mahal từ năm 1632 đến 1653 để tưởng nhớ người vợ yêu quý Mumtaz Mahal. Đây là một trong Bảy Kỳ quan của Thế giới."
+    }
+  ],
+  "start_year": 1632,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is the Taj Mahal located?",
+      "question_type": "single",
+      "options": ["Pakistan", "Bangladesh", "India", "Nepal"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Taj Mahal nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Pakistan", "Bangladesh", "Ấn Độ", "Nepal"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Who built the Taj Mahal?",
+      "question_type": "single",
+      "options": ["Emperor Akbar", "Emperor Aurangzeb", "Emperor Shah Jahan", "Emperor Babur"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Ai đã xây dựng Taj Mahal?",
+      "question_type": "single",
+      "options": ["Hoàng đế Akbar", "Hoàng đế Aurangzeb", "Hoàng đế Shah Jahan", "Hoàng đế Babur"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

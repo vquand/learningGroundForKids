@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": -6.2088,
+  "longitude": 106.8456,
+  "country_code": "ID",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Heat oil in a pan and fry garlic and shallots until golden. Add cold leftover rice and stir it around quickly. Pour in a splash of sweet soy sauce called kecap manis and mix well. Push the rice to the side, crack an egg into the pan, fry it, then serve the rice with the egg on top!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Nasi Goreng",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Nasi Goreng",
+      "description": "Nasi Goreng is Indonesia's famous fried rice, cooked with sweet soy sauce, garlic, and spices, and usually topped with a fried egg. The name simply means 'fried rice' in Indonesian, and it is enjoyed for breakfast, lunch, or dinner!",
+      "history": "Nasi Goreng has been made in Indonesia for centuries as a clever way to use leftover rice from the day before. It is now considered Indonesia's national dish and is loved by people all over Southeast Asia and beyond."
+    },
+    {
+      "lang": "vi",
+      "title": "Nasi Goreng",
+      "description": "Nasi Goreng là cơm chiên nổi tiếng của Indonesia, được nấu với nước tương ngọt, tỏi và gia vị, thường có thêm một quả trứng chiên ở trên. Tên của nó có nghĩa là 'cơm chiên' trong tiếng Indonesia, và người ta ăn nó cả buổi sáng, trưa và tối!",
+      "history": "Nasi Goreng đã được làm ở Indonesia từ hàng trăm năm trước như một cách thông minh để dùng cơm thừa còn lại. Hiện nó được coi là món ăn quốc gia của Indonesia và được yêu thích khắp Đông Nam Á."
+    }
+  ],
+  "start_year": 1000,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What does 'Nasi Goreng' mean in Indonesian?",
+      "question_type": "single",
+      "options": ["Spicy noodles", "Fried rice", "Sweet porridge", "Grilled chicken"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "'Nasi Goreng' có nghĩa là gì trong tiếng Indonesia?",
+      "question_type": "single",
+      "options": ["Mì cay", "Cơm chiên", "Cháo ngọt", "Gà nướng"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which country is Nasi Goreng the national dish of?",
+      "question_type": "single",
+      "options": ["Malaysia", "Philippines", "Indonesia", "Thailand"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Nasi Goreng là món ăn quốc gia của quốc gia nào?",
+      "question_type": "single",
+      "options": ["Malaysia", "Philippines", "Indonesia", "Thái Lan"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

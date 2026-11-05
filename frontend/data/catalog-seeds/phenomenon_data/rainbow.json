@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 53.2707,
+  "longitude": -9.0568,
+  "country_code": "IE",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "A rainbow is actually a full circle — you can only see the top half from the ground, but from an aeroplane you can sometimes see the whole ring!",
+    "Ireland is called 'The Emerald Isle' partly because it rains so often that rainbows appear almost every single day!",
+    "Every person sees their own slightly different rainbow — because you need to be in exactly the right spot for sunlight to bounce into your eyes from a raindrop!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Rainbow",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Rainbow",
+      "description": "A rainbow is a beautiful arc of colours — red, orange, yellow, green, blue, and violet — that appears in the sky when sunlight shines through raindrops. Each tiny raindrop acts like a tiny prism, splitting sunlight into all its colours.",
+      "history": "Ireland is one of the best places in the world to spot rainbows, earning it the nickname 'The Emerald Isle.' The country's frequent showers and sunny breaks create near-daily rainbow displays over its rolling green fields."
+    },
+    {
+      "lang": "vi",
+      "title": "Cầu Vồng",
+      "description": "Cầu vồng là một cung màu đẹp — đỏ, cam, vàng, xanh lá, xanh dương và tím — xuất hiện trên bầu trời khi ánh sáng mặt trời chiếu xuyên qua các giọt mưa. Mỗi giọt mưa nhỏ hoạt động như một lăng kính thu nhỏ, tách ánh sáng mặt trời thành tất cả các màu sắc.",
+      "history": "Ireland là một trong những nơi tốt nhất trên thế giới để nhìn thấy cầu vồng, mang cho nó biệt danh 'Đảo Ngọc Lục Bảo'. Những cơn mưa thường xuyên và ánh nắng xen kẽ của đất nước này tạo ra cầu vồng gần như hàng ngày trên những đồng ruộng xanh tươi."
+    }
+  ],
+  "start_year": -350,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What causes a rainbow?",
+      "question_type": "single",
+      "options": ["Wind and clouds", "Sunlight shining through raindrops", "Lightning in the sky", "Cold air meeting warm air"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Điều gì tạo ra cầu vồng?",
+      "question_type": "single",
+      "options": ["Gió và mây", "Ánh sáng mặt trời chiếu qua giọt mưa", "Tia sét trên bầu trời", "Không khí lạnh gặp không khí ấm"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How many colours does a rainbow have?",
+      "question_type": "single",
+      "options": ["4", "5", "6", "7"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Cầu vồng có bao nhiêu màu?",
+      "question_type": "single",
+      "options": ["4", "5", "6", "7"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

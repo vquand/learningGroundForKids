@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 55.752,
+  "longitude": 37.6175,
+  "country_code": "RU",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Kremlin, Moscow, Russia",
+  "fun_facts": [
+    "The word 'kremlin' actually means 'fortress inside a city' in Russian — and there are kremlins in many Russian cities, not just Moscow!",
+    "The Moscow Kremlin's walls are over 2 kilometers long and have 20 different towers, each one with its own unique design.",
+    "Inside the Kremlin there is a giant bell called the Tsar Bell that is so enormous it has never actually been rung — it cracked before it could ever be hung up!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Moscow Kremlin",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Moscow Kremlin",
+      "description": "The Moscow Kremlin is a massive fortified complex at the very heart of Moscow, Russia, featuring palaces, cathedrals, museums, and iconic red-brick walls topped with distinctive towers. It has been the center of Russian power for centuries and is one of the most recognized landmarks in the world.",
+      "history": "A wooden fortress was first built on this site in 1156, and the current red-brick walls were constructed in the late 15th century under Ivan the Great. The Kremlin has served as the seat of Russian tsars, Soviet leaders, and the Russian government to this day."
+    },
+    {
+      "lang": "vi",
+      "title": "Điện Kremlin Moskva",
+      "description": "Điện Kremlin Moskva là một khu phức hợp phòng thủ khổng lồ ở trung tâm Moskva, Nga, gồm cung điện, nhà thờ, bảo tàng và những bức tường gạch đỏ biểu tượng với nhiều tháp đặc trưng. Đây là trung tâm quyền lực của nước Nga qua nhiều thế kỷ và là một trong những điểm du lịch nổi tiếng nhất thế giới.",
+      "history": "Một pháo đài bằng gỗ lần đầu tiên được xây dựng tại đây vào năm 1156, và những bức tường gạch đỏ hiện tại được xây dựng vào cuối thế kỷ 15 dưới thời Ivan Đại đế. Kremlin đã là trụ sở của các Sa hoàng Nga, lãnh tụ Liên Xô và chính phủ Nga cho đến ngày nay."
+    }
+  ],
+  "start_year": 1156,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which city is the Moscow Kremlin located?",
+      "question_type": "single",
+      "options": ["Saint Petersburg", "Moscow", "Volgograd", "Kazan"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Điện Kremlin Moskva nằm ở thành phố nào?",
+      "question_type": "single",
+      "options": ["Saint Petersburg", "Moskva", "Volgograd", "Kazan"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What colour are the Kremlin's famous walls?",
+      "question_type": "single",
+      "options": ["White", "Yellow", "Red", "Grey"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Những bức tường nổi tiếng của Kremlin có màu gì?",
+      "question_type": "single",
+      "options": ["Trắng", "Vàng", "Đỏ", "Xám"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

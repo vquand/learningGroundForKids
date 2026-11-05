@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 41.9009,
+  "longitude": 12.4833,
+  "country_code": "IT",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Piazza di Trevi, Rome, Lazio, Italy",
+  "fun_facts": [
+    "People throw about 1 million euros worth of coins into the Trevi Fountain every single year — and all that money goes to charity!",
+    "Legend says if you throw one coin into the fountain with your right hand over your left shoulder, you will return to Rome someday.",
+    "The Trevi Fountain is the largest Baroque fountain in Rome, standing nearly 26 meters tall — that's about as tall as an 8-story building!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Trevi Fountain",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Trevi Fountain",
+      "description": "The Trevi Fountain is the most famous fountain in the world, a grand masterpiece of sculptures and rushing water tucked into a tiny square in the heart of Rome, Italy. The centerpiece shows the Roman god Neptune riding across the sea on a chariot pulled by horses.",
+      "history": "The fountain marks the end of an ancient Roman aqueduct built in 19 BC. The spectacular fountain we see today was designed by architect Nicola Salvi and completed in 1762 after 30 years of construction."
+    },
+    {
+      "lang": "vi",
+      "title": "Đài Phun Nước Trevi",
+      "description": "Đài phun nước Trevi là đài phun nước nổi tiếng nhất thế giới, một kiệt tác vĩ đại với nhiều tượng điêu khắc và nước chảy ở giữa thành phố Rome, Ý. Hình trung tâm mô tả vị thần biển Neptune của người La Mã đang cưỡi xe ngựa vượt đại dương.",
+      "history": "Đài phun nước đánh dấu điểm cuối của một kênh dẫn nước La Mã cổ được xây dựng vào năm 19 trước Công nguyên. Đài phun nước ngoạn mục mà chúng ta thấy ngày nay được thiết kế bởi kiến trúc sư Nicola Salvi và hoàn thành vào năm 1762 sau 30 năm xây dựng."
+    }
+  ],
+  "start_year": 1762,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which city is the Trevi Fountain located?",
+      "question_type": "single",
+      "options": ["Venice", "Florence", "Rome", "Naples"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Đài Phun Nước Trevi nằm ở thành phố nào?",
+      "question_type": "single",
+      "options": ["Venice", "Florence", "Rome", "Naples"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "According to legend, what happens if you throw a coin into the Trevi Fountain?",
+      "question_type": "single",
+      "options": ["You will find treasure", "You will return to Rome", "You will have good luck forever", "You will meet a new friend"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Theo truyền thuyết, điều gì xảy ra nếu bạn ném một đồng xu vào Đài Phun Nước Trevi?",
+      "question_type": "single",
+      "options": ["Bạn sẽ tìm thấy kho báu", "Bạn sẽ quay lại Rome", "Bạn sẽ có may mắn mãi mãi", "Bạn sẽ gặp một người bạn mới"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

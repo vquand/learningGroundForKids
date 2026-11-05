@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 50.7374,
+  "longitude": 7.0982,
+  "country_code": "DE",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Ludwig van Beethoven",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Ode to Joy — Beethoven",
+      "description": "A powerful and uplifting melody that sounds like a celebration for the whole world! It was written as the grand finale of Beethoven's Ninth Symphony and has become a symbol of peace and friendship.",
+      "history": "Amazingly, Beethoven was completely deaf when he composed this masterpiece! He could not hear a single note, yet he created one of the most famous pieces of music ever written."
+    },
+    {
+      "lang": "vi",
+      "title": "Ode to Joy — Beethoven",
+      "description": "Một giai điệu mạnh mẽ và phấn khích nghe như một lễ hội lớn cho cả thế giới! Đây là bản nhạc kết thúc vĩ đại của Giao Hưởng Số 9 và trở thành biểu tượng của hòa bình và thân ái.",
+      "history": "Điều kỳ diệu là Beethoven hoàn toàn bị điếc khi ông sáng tác kiệt tác này! Ông không nghe được một nốt nhạc nào, nhưng vẫn tạo ra một trong những bản nhạc nổi tiếng nhất lịch sử."
+    }
+  ],
+  "start_year": 1824,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed 'Ode to Joy'?", "question_type": "single", "options": ["Mozart", "Bach", "Beethoven", "Handel"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác bài 'Ode to Joy' (Tụng Ca Niềm Vui)?", "question_type": "single", "options": ["Mozart", "Bach", "Beethoven", "Handel"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Beethoven composed 'Ode to Joy' even though he was completely what?", "question_type": "single", "options": ["Blind", "Deaf", "Unable to walk", "Mute"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Beethoven sáng tác 'Ode to Joy' dù ông hoàn toàn bị điều gì?", "question_type": "single", "options": ["Mù", "Điếc", "Không đi được", "Câm"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

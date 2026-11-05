@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 52.2297,
+  "longitude": 21.0122,
+  "country_code": "PL",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Frederic Chopin",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Nocturne Op. 9 No. 2 — Chopin",
+      "description": "A dreamy and gentle piano piece that feels like a lullaby for the night sky. Its soft, singing melody is one of the most beautiful things ever written for the piano.",
+      "history": "Chopin was born in Poland and became one of the greatest piano composers who ever lived. He wrote this nocturne when he was a young man, and pianists all around the world still love to play it today."
+    },
+    {
+      "lang": "vi",
+      "title": "Nocturne Op. 9 No. 2 — Chopin",
+      "description": "Một bản nhạc dương cầm nhẹ nhàng và mơ mộng nghe như một bài hát ru cho bầu trời đêm. Giai điệu mềm mại, thanh thoát của nó là một trong những điều đẹp nhất từng được viết cho đàn piano.",
+      "history": "Chopin sinh ra ở Ba Lan và trở thành một trong những nhà sáng tác piano vĩ đại nhất lịch sử. Ông viết bài nocturne này khi còn là một thanh niên, và đến nay các nghệ sĩ piano trên khắp thế giới vẫn yêu thích nó."
+    }
+  ],
+  "start_year": 1831,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed 'Nocturne Op. 9 No. 2'?", "question_type": "single", "options": ["Liszt", "Schumann", "Chopin", "Schubert"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác 'Nocturne Op. 9 No. 2'?", "question_type": "single", "options": ["Liszt", "Schumann", "Chopin", "Schubert"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Which country was Chopin from?", "question_type": "single", "options": ["Hungary", "Russia", "Poland", "Austria"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Chopin đến từ quốc gia nào?", "question_type": "single", "options": ["Hungary", "Nga", "Ba Lan", "Áo"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

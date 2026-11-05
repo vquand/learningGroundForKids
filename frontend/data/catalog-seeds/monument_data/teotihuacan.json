@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 19.6925,
+  "longitude": -98.8438,
+  "country_code": "MX",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "San Juan Teotihuacan, State of Mexico, Mexico",
+  "fun_facts": [
+    "Teotihuacan was once one of the largest cities in the ancient world, with over 100,000 people living there — bigger than most cities in Europe at the same time!",
+    "Nobody knows who built Teotihuacan — even the Aztecs, who came later and named it, had no idea who created this amazing city.",
+    "The Pyramid of the Sun at Teotihuacan is the third-largest pyramid in the world, and its base is almost exactly the same size as the Great Pyramid of Giza in Egypt!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Teotihuacan",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Teotihuacan",
+      "description": "Teotihuacan is a magnificent ancient city near Mexico City, famous for its enormous pyramids including the Pyramid of the Sun and the Pyramid of the Moon, connected by a grand road called the Avenue of the Dead.",
+      "history": "Teotihuacan flourished between about 100 BC and 550 AD, making it one of the earliest great cities in the Americas. Its builders remain a mystery, as the city was already ancient and abandoned by the time the Aztecs discovered it centuries later."
+    },
+    {
+      "lang": "vi",
+      "title": "Teotihuacan",
+      "description": "Teotihuacan là một thành phố cổ đại huy hoàng gần thành phố Mexico, nổi tiếng với những kim tự tháp khổng lồ bao gồm Kim Tự Tháp Mặt Trời và Kim Tự Tháp Mặt Trăng, được nối với nhau bằng một con đường lớn gọi là Đại Lộ Người Chết.",
+      "history": "Teotihuacan phát triển vào khoảng từ năm 100 trước Công nguyên đến năm 550 sau Công nguyên, làm cho nó trở thành một trong những thành phố vĩ đại đầu tiên ở châu Mỹ. Những người xây dựng nó vẫn còn là bí ẩn, vì thành phố đã bị bỏ hoang từ lâu khi người Aztec tìm thấy nó nhiều thế kỷ sau."
+    }
+  ],
+  "start_year": -100,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Teotihuacan located?",
+      "question_type": "single",
+      "options": ["Guatemala", "Peru", "Mexico", "Colombia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Teotihuacan nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Guatemala", "Peru", "Mexico", "Colombia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is the grand road connecting the pyramids at Teotihuacan called?",
+      "question_type": "single",
+      "options": ["Avenue of the Gods", "Road of the Sun", "Avenue of the Dead", "Path of the Ancients"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Con đường lớn nối các kim tự tháp tại Teotihuacan được gọi là gì?",
+      "question_type": "single",
+      "options": ["Đại Lộ của Thần Linh", "Con Đường Mặt Trời", "Đại Lộ Người Chết", "Con Đường Người Xưa"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+.kid-tour-backdrop { position: fixed; inset: 0; z-index: 100; background: rgba(35, 41, 37, .68); pointer-events: auto; }
+.kid-tour-popover { position: fixed; z-index: 103; box-sizing: border-box; width: min(430px, calc(100vw - 32px)); padding: 18px; border: 3px solid #d9c4ac; border-radius: 22px; background: #fffaf0; color: #574435; box-shadow: 0 16px 36px rgba(55, 42, 31, .25); font-family: ui-rounded, Nunito, system-ui, sans-serif; transition: left 160ms ease, top 160ms ease; }
+.kid-tour-popover:focus-visible { outline: 4px solid #759878; outline-offset: 4px; }
+.kid-tour-progress { margin: 0; color: #4f7357; font-size: 12px; font-weight: 950; letter-spacing: .08em; text-transform: uppercase; }
+.kid-tour-message { margin: 8px 0 18px; color: #4e3a2d; font-size: clamp(18px, 2vw, 23px); font-weight: 900; line-height: 1.25; }
+.kid-tour-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
+.kid-tour-actions button { min-height: 46px; min-width: 78px; padding: 8px 14px; border-radius: 13px; cursor: pointer; font: 850 16px/1.15 ui-rounded, Nunito, system-ui, sans-serif; touch-action: manipulation; }
+.kid-tour-actions button:focus-visible { outline: 3px solid #759878; outline-offset: 3px; }
+.kid-tour-secondary { border: 2px solid #d9c4ac; background: #fffdf5; color: #574435; }
+.kid-tour-primary { border: 2px solid #3e6146; background: #4f7357; color: #fffdf5; }
+.kid-tour-actions button:disabled { cursor: not-allowed; opacity: .42; }
+.activity-hub-page [data-tour].kid-tour-target { position: relative; z-index: 102; pointer-events: none; box-shadow: 0 0 0 4px #fffaf0, 0 0 0 9999px rgba(35, 41, 37, .68); }
+.activity-hub-page .kid-tour-replay { min-width: 48px; padding-inline: 0; border-radius: 50%; font-size: 23px; }
+@media (max-width: 600px) { .kid-tour-popover { padding: 14px; }.kid-tour-message { margin-bottom: 12px; font-size: 18px; }.kid-tour-actions button { min-height: 44px; min-width: 70px; padding-inline: 11px; font-size: 15px; } }
+@media (prefers-reduced-motion: reduce) { .kid-tour-popover { transition: none; } }

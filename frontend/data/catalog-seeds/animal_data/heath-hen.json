@@ -1,0 +1,69 @@
+{
+  "category": "animal",
+  "latitude": 41.4,
+  "longitude": -70.6,
+  "country_code": "US",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "The Heath Hen lived on coastal scrublands and heathlands of the eastern United States. By the 20th century, the last population survived only on Martha's Vineyard island off the coast of Massachusetts.",
+  "fun_facts": [
+    "The Heath Hen was a subspecies of prairie chicken, famous for the males' spectacular booming mating dances in spring.",
+    "By 1890, hunting had reduced the population to just 70 birds, all on Martha's Vineyard island.",
+    "Despite conservation efforts — including one of the first wildlife reserves in the USA created specifically for the Heath Hen — the population never recovered.",
+    "The very last Heath Hen, named Booming Ben, was seen for the final time on 11 March 1932.",
+    "The Heath Hen became a symbol of conservation failure that helped inspire the US Endangered Species Act."
+  ],
+  "end_year": 1932,
+  "time_precision": "year",
+  "media": [{"media_type": "image", "label": "Heath Hen", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Heath Hen (Extinct 1932)",
+      "description": "The Heath Hen was a ground bird famous for the males' spectacular booming dances. Once common across the eastern USA, hunting reduced it to a tiny island population. Even with a special wildlife reserve created just for them, they could not survive. The last one, nicknamed Booming Ben, was seen in 1932."
+    },
+    {
+      "lang": "vi",
+      "title": "Gà Đồng Hoang (Tuyệt chủng 1932)",
+      "description": "Gà Đồng Hoang là loài chim sống trên mặt đất nổi tiếng với điệu nhảy tạo tiếng vang của con đực. Từng phổ biến khắp miền đông nước Mỹ, việc săn bắn đã thu hẹp chúng xuống còn một quần thể nhỏ trên đảo. Dù có khu bảo tồn động vật hoang dã đặc biệt được tạo ra chỉ riêng cho chúng, chúng vẫn không thể sống sót. Con cuối cùng, được đặt biệt danh là Booming Ben, được nhìn thấy lần cuối vào năm 1932."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What was the nickname of the last Heath Hen?",
+      "question_type": "single",
+      "options": ["Silent Sam", "Booming Ben", "Lonely Lou", "Final Frank"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Con Gà Đồng Hoang cuối cùng có biệt danh là gì?",
+      "question_type": "single",
+      "options": ["Silent Sam", "Booming Ben", "Lonely Lou", "Final Frank"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "On which island did the last Heath Hens survive?",
+      "question_type": "single",
+      "options": ["Long Island", "Cape Cod", "Martha's Vineyard", "Nantucket"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Những con Gà Đồng Hoang cuối cùng sống sót trên đảo nào?",
+      "question_type": "single",
+      "options": ["Long Island", "Cape Cod", "Martha's Vineyard", "Nantucket"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

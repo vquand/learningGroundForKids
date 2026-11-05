@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 60.3913,
+  "longitude": 5.3221,
+  "country_code": "NO",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Elsa",
+      "image_url": null,
+      "description": "A young queen with the magical power to create ice and snow who learns to embrace her gift instead of hiding it."
+    },
+    {
+      "name": "Anna",
+      "image_url": null,
+      "description": "Elsa's adventurous and warm-hearted younger sister who goes on a brave journey to save her sibling and her kingdom."
+    },
+    {
+      "name": "Olaf",
+      "image_url": null,
+      "description": "A cheerful and funny snowman brought to life by Elsa's magic who loves warm hugs and dreams of summer."
+    },
+    {
+      "name": "Kristoff",
+      "image_url": null,
+      "description": "A rugged ice harvester who becomes Anna's guide and friend on her quest through the frozen mountains."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Frozen poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Frozen (2013)",
+      "description": "Princess Anna teams up with a mountain man, his reindeer, and a snowman to find her estranged sister Elsa, whose icy powers have trapped their kingdom in eternal winter.",
+      "history": "Frozen is inspired by the Norwegian fairy tale The Snow Queen by Hans Christian Andersen, and the kingdom of Arendelle is based on the beautiful fjord landscapes of Norway."
+    },
+    {
+      "lang": "vi",
+      "title": "Nữ Hoàng Băng Giá (2013)",
+      "description": "Công chúa Anna cùng một người đàn ông trên núi, con tuần lộc và một người tuyết đi tìm chị gái Elsa, người có phép màu băng giá đã đóng băng cả vương quốc.",
+      "history": "Frozen được lấy cảm hứng từ truyện cổ tích Na Uy 'Nữ hoàng tuyết' của Hans Christian Andersen, và vương quốc Arendelle được xây dựng dựa trên cảnh đẹp của các vịnh hẹp Na Uy."
+    }
+  ],
+  "start_year": 2013,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is the name of Elsa's sister in Frozen?",
+      "question_type": "single",
+      "options": ["Belle", "Anna", "Ariel", "Rapunzel"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tên em gái của Elsa trong phim Frozen là gì?",
+      "question_type": "single",
+      "options": ["Belle", "Anna", "Ariel", "Rapunzel"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which studio made the movie Frozen?",
+      "question_type": "single",
+      "options": ["Pixar", "DreamWorks", "Disney", "Studio Ghibli"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hãng phim nào sản xuất bộ phim Frozen?",
+      "question_type": "single",
+      "options": ["Pixar", "DreamWorks", "Disney", "Studio Ghibli"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

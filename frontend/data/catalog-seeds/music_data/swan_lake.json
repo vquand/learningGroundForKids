@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 55.7558,
+  "longitude": 37.6173,
+  "country_code": "RU",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Pyotr Ilyich Tchaikovsky",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Swan Lake — Tchaikovsky",
+      "description": "A magical ballet music telling the story of a princess turned into a swan by an evil spell. The music flows gracefully like swans gliding across a moonlit lake.",
+      "history": "When Swan Lake was first performed in 1877, audiences did not like it very much! But over time it became one of the most beloved ballets in the world. Sometimes great things just need a little time to be appreciated."
+    },
+    {
+      "lang": "vi",
+      "title": "Hồ Thiên Nga — Tchaikovsky",
+      "description": "Bản nhạc ballet huyền ảo kể câu chuyện về một công chúa bị biến thành thiên nga bởi một phép thuật xấu xa. Giai điệu tuôn chảy uyển chuyển như những chiếc thiên nga lướt trên mặt hồ dưới ánh trăng.",
+      "history": "Khi Hồ Thiên Nga được biểu diễn lần đầu vào năm 1877, khán giả không thích lắm! Nhưng theo thời gian, nó trở thành một trong những vở ballet được yêu thích nhất trên thế giới. Đôi khi những thứ tuyệt vời cần một chút thời gian để được trân trọng."
+    }
+  ],
+  "start_year": 1877,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed 'Swan Lake'?", "question_type": "single", "options": ["Prokofiev", "Stravinsky", "Tchaikovsky", "Rimsky-Korsakov"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác 'Hồ Thiên Nga'?", "question_type": "single", "options": ["Prokofiev", "Stravinsky", "Tchaikovsky", "Rimsky-Korsakov"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "In 'Swan Lake', a princess is turned into which animal?", "question_type": "single", "options": ["A dove", "A peacock", "A swan", "A crane"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Trong 'Hồ Thiên Nga', công chúa bị biến thành loài vật nào?", "question_type": "single", "options": ["Chim bồ câu", "Công", "Thiên nga", "Hạc"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

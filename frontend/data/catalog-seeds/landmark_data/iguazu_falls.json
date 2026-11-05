@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": -25.6953,
+  "longitude": -54.4367,
+  "country_code": "BR",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Iguazu Falls straddles the border of Brazil and Argentina in South America, where the Iguazu River plunges over a massive basalt cliff into a horseshoe-shaped gorge.",
+  "fun_facts": [
+    "Iguazu Falls is made up of 275 separate waterfalls all next to each other — that is like having 275 water slides side by side!",
+    "When Eleanor Roosevelt first saw Iguazu Falls, she said 'Poor Niagara!' because Iguazu is so much bigger.",
+    "During the biggest floods, enough water rushes over Iguazu Falls every second to fill 40 Olympic swimming pools!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Iguazu Falls",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Iguazu Falls",
+      "description": "Iguazu Falls is actually made up of 275 separate waterfalls all thundering down together in a giant horseshoe shape on the border between Brazil and Argentina. The biggest section is called 'The Devil's Throat' and it is so powerful and loud it feels like the whole world is shaking! Colourful butterflies and toucans live in the jungle all around the falls.",
+      "history": "The Guarani indigenous people have lived near the falls for thousands of years and their legends say the falls were created by a god who was angry at a young couple who tried to escape him by canoe. Spanish conquistador Alvar Nunez Cabeza de Vaca became the first European to record the falls in 1541. Both the Brazilian and Argentinian sides of Iguazu Falls are UNESCO World Heritage Sites."
+    },
+    {
+      "lang": "vi",
+      "title": "Thác Iguazu",
+      "description": "Thác Iguazu thực ra được tạo thành bởi 275 thác nước riêng biệt cùng đổ xuống theo hình móng ngựa khổng lồ trên biên giới giữa Brazil và Argentina. Phần lớn nhất được gọi là 'Hố Hồng Quỷ' và nó mạnh mẽ và ồn ào đến mức cảm giác như cả thế giới đang rung chuyển! Bướm màu sắc và chim toucan sống trong rừng xung quanh thác.",
+      "history": "Người Guarani bản địa đã sống gần thác nước này từ hàng nghìn năm trước và huyền thoại của họ kể rằng thác được tạo ra bởi một vị thần tức giận với một đôi trẻ đã cố gắng trốn thoát trên thuyền. Nhà thám hiểm người Tây Ban Nha Alvar Nunez Cabeza de Vaca trở thành người châu Âu đầu tiên ghi chép về thác vào năm 1541. Cả hai phía Brazil và Argentina của Thác Iguazu đều là Di sản Thế giới UNESCO."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Iguazu Falls sits on the border between which two countries?",
+      "question_type": "single",
+      "options": ["Brazil and Peru", "Brazil and Argentina", "Chile and Bolivia", "Colombia and Venezuela"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Thác Iguazu nằm trên biên giới giữa hai nước nào?",
+      "question_type": "single",
+      "options": ["Brazil và Peru", "Brazil và Argentina", "Chile và Bolivia", "Colombia và Venezuela"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How many separate waterfalls make up Iguazu Falls?",
+      "question_type": "single",
+      "options": ["3", "50", "275", "1000"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Thác Iguazu gồm bao nhiêu thác nước riêng biệt?",
+      "question_type": "single",
+      "options": ["3", "50", "275", "1000"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -2000000,
+  "time_precision": "mya"
+}

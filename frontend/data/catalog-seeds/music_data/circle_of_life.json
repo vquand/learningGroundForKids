@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 51.5074,
+  "longitude": -0.1278,
+  "country_code": "GB",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Elton John & Hans Zimmer",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Circle of Life (The Lion King) — Elton John & Hans Zimmer",
+      "description": "A grand and uplifting song that opens with African chants and soaring voices — it makes you feel like the whole world is stretching out before you!",
+      "history": "Elton John wrote the melody and Hans Zimmer created the powerful orchestral score for The Lion King in 1994, inspired by the rhythms and sounds of Africa."
+    },
+    {
+      "lang": "vi",
+      "title": "Vòng Tròn Cuộc Sống (Vua Sư Tử) — Elton John & Hans Zimmer",
+      "description": "Đây là bài hát huy hoàng mở đầu bằng những lời ca châu Phi và giọng hát cao vút, khiến bạn cảm thấy như cả thế giới đang mở ra trước mắt!",
+      "history": "Elton John sáng tác giai điệu và Hans Zimmer tạo ra phần nhạc giao hưởng mạnh mẽ cho phim Vua Sư Tử năm 1994, được cảm hứng từ âm nhạc châu Phi."
+    }
+  ],
+  "start_year": 1994,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Which movie is 'Circle of Life' from?", "question_type": "single", "options": ["Jungle Book", "The Lion King", "Tarzan", "Bambi"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Bài 'Vòng Tròn Cuộc Sống' đến từ bộ phim nào?", "question_type": "single", "options": ["Cậu Bé Rừng Xanh", "Vua Sư Tử", "Tarzan", "Bambi"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Which musician composed the orchestral score for The Lion King in 1994?", "question_type": "single", "options": ["John Williams", "Alan Menken", "Hans Zimmer", "Howard Shore"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Nhạc sĩ nào đã sáng tác phần nhạc giao hưởng cho phim Vua Sư Tử năm 1994?", "question_type": "single", "options": ["John Williams", "Alan Menken", "Hans Zimmer", "Howard Shore"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

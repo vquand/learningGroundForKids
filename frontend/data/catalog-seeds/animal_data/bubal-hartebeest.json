@@ -1,0 +1,69 @@
+{
+  "category": "animal",
+  "latitude": 34.0,
+  "longitude": 9.0,
+  "country_code": "TN",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "The Bubal Hartebeest once roamed across North Africa from Morocco to Egypt, and into parts of the Middle East. It lived on open grasslands, scrublands, and arid plains — similar habitats to modern antelopes.",
+  "fun_facts": [
+    "The Bubal Hartebeest was the animal the ancient Egyptians used most commonly as a sacrificial animal — it appears in ancient Egyptian art and hieroglyphs.",
+    "It had distinctive curved horns that bent backwards and then upwards, forming a shape like the letter 'S'.",
+    "Ancient Romans kept them in their zoos and arenas.",
+    "The last known wild populations were wiped out by trophy hunting in the early 20th century.",
+    "The last captive Bubal Hartebeest died in a Paris zoo in 1923, making it the first large African mammal to go extinct in modern times."
+  ],
+  "end_year": 1923,
+  "time_precision": "year",
+  "media": [{"media_type": "image", "label": "Bubal Hartebeest", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Bubal Hartebeest (Extinct 1923)",
+      "description": "The Bubal Hartebeest was a large antelope that once lived across North Africa and was sacred to the ancient Egyptians. It appears in Egyptian art that is thousands of years old! Sadly, trophy hunting in the early 1900s wiped it out completely. The last one died in a Paris zoo in 1923."
+    },
+    {
+      "lang": "vi",
+      "title": "Linh Dương Bubal (Tuyệt chủng 1923)",
+      "description": "Linh Dương Bubal là loài linh dương lớn từng sống khắp Bắc Phi và được coi là linh thiêng đối với người Ai Cập cổ đại. Nó xuất hiện trong nghệ thuật Ai Cập có từ hàng nghìn năm trước! Đáng buồn thay, việc săn bắn thể thao vào đầu những năm 1900 đã xóa sổ nó hoàn toàn. Con cuối cùng chết trong sở thú Paris năm 1923."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which ancient civilisation's art does the Bubal Hartebeest appear?",
+      "question_type": "single",
+      "options": ["Ancient Greek", "Ancient Roman", "Ancient Egyptian", "Ancient Chinese"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Linh Dương Bubal xuất hiện trong nghệ thuật của nền văn minh cổ đại nào?",
+      "question_type": "single",
+      "options": ["Hy Lạp cổ đại", "La Mã cổ đại", "Ai Cập cổ đại", "Trung Quốc cổ đại"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Where did the last Bubal Hartebeest die?",
+      "question_type": "single",
+      "options": ["London Zoo", "Berlin Zoo", "Cairo Zoo", "Paris Zoo"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Con Linh Dương Bubal cuối cùng chết ở đâu?",
+      "question_type": "single",
+      "options": ["Sở thú London", "Sở thú Berlin", "Sở thú Cairo", "Sở thú Paris"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

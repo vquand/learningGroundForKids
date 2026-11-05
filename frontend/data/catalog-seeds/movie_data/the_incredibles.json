@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 34.0522,
+  "longitude": -118.2437,
+  "country_code": "US",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Mr. Incredible",
+      "image_url": null,
+      "description": "A super-strong superhero dad who misses his glory days and secretly longs to be a hero again."
+    },
+    {
+      "name": "Elastigirl",
+      "image_url": null,
+      "description": "A super-stretchy mom who can bend and stretch her body in any direction to protect her family."
+    },
+    {
+      "name": "Dash",
+      "image_url": null,
+      "description": "A super-fast boy who loves to run but has to keep his powers hidden at school."
+    },
+    {
+      "name": "Violet",
+      "image_url": null,
+      "description": "A shy teenage girl who can turn invisible and create force field bubbles to protect others."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "The Incredibles poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "The Incredibles (2004)",
+      "description": "A family of superheroes who are forced to hide their powers must come together again when a dangerous villain threatens the world.",
+      "history": "The Incredibles was the first Pixar film to feature an entirely human cast and it won two Academy Awards including Best Animated Feature!"
+    },
+    {
+      "lang": "vi",
+      "title": "Gia Đình Siêu Nhân (2004)",
+      "description": "Một gia đình siêu anh hùng bị buộc phải giấu đi siêu năng lực của mình phải đoàn kết trở lại khi một kẻ phản diện nguy hiểm đe dọa thế giới.",
+      "history": "The Incredibles là bộ phim Pixar đầu tiên có toàn bộ nhân vật là con người và đã giành được hai giải Oscar bao gồm giải Phim Hoạt Hình Xuất Sắc Nhất!"
+    }
+  ],
+  "start_year": 2004,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is the name of the superhero family in The Incredibles?",
+      "question_type": "single",
+      "options": ["The Parr family", "The Super family", "The Hero family", "The Power family"],
+      "correct_answers": [0],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tên của gia đình siêu anh hùng trong The Incredibles là gì?",
+      "question_type": "single",
+      "options": ["Gia đình Parr", "Gia đình Super", "Gia đình Hero", "Gia đình Power"],
+      "correct_answers": [0],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which studio made The Incredibles?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Blue Sky"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hãng phim nào sản xuất Gia Đình Siêu Nhân?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Blue Sky"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

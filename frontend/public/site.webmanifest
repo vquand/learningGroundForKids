@@ -1,0 +1,14 @@
+{
+  "id": "/",
+  "name": "Personal Learning Ground",
+  "short_name": "Learning Ground",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f8ee",
+  "theme_color": "#f6f8ee",
+  "icons": [
+    { "src": "/app-icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/app-icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

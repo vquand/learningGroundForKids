@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 19.1738,
+  "longitude": -96.1342,
+  "country_code": "MX",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Traditional / Ritchie Valens",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "La Bamba — Traditional / Ritchie Valens",
+      "description": "A lively and joyful Mexican folk song full of fast guitar strumming and happy singing that makes everyone want to dance the salsa!",
+      "history": "La Bamba started as a traditional wedding song from Veracruz, Mexico, and young rock star Ritchie Valens made it world-famous in 1958 when he was just 17 years old!"
+    },
+    {
+      "lang": "vi",
+      "title": "La Bamba — Truyền thống / Ritchie Valens",
+      "description": "Một bài dân ca Mexico sôi động và vui tươi với tiếng guitar nhanh nhẹn và giọng hát hạnh phúc khiến mọi người muốn nhảy salsa!",
+      "history": "La Bamba bắt đầu là một bài hát đám cưới truyền thống từ Veracruz, Mexico, và ngôi sao rock trẻ Ritchie Valens đã làm nó nổi tiếng khắp thế giới vào năm 1958 khi anh mới 17 tuổi!"
+    }
+  ],
+  "start_year": 1958,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "'La Bamba' is a traditional folk song from which country?", "question_type": "single", "options": ["Brazil", "Spain", "Mexico", "Argentina"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "'La Bamba' là bài dân ca truyền thống của nước nào?", "question_type": "single", "options": ["Brazil", "Tây Ban Nha", "Mexico", "Argentina"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "How old was Ritchie Valens when he made 'La Bamba' world-famous?", "question_type": "single", "options": ["12", "17", "21", "25"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Ritchie Valens bao nhiêu tuổi khi làm bài 'La Bamba' nổi tiếng thế giới?", "question_type": "single", "options": ["12", "17", "21", "25"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

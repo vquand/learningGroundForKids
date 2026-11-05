@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 13.7563,
+  "longitude": 100.5018,
+  "country_code": "TH",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Soak flat rice noodles in water until soft. Stir-fry them in a hot pan with shrimp, egg, bean sprouts, and a yummy sauce made from tamarind, fish sauce, and a pinch of sugar. Top with crushed peanuts and a squeeze of lime!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Pad Thai",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Pad Thai",
+      "description": "Pad Thai is Thailand's most famous street food — a delicious stir-fried noodle dish with flat rice noodles, shrimp or chicken, egg, and crunchy bean sprouts, all tossed in a tangy tamarind sauce. It is finished with crushed peanuts and lime.",
+      "history": "Pad Thai was created in Thailand in the 1930s when the government encouraged people to eat more rice noodles to help the economy. It quickly became the nation's favorite dish and is now famous in Thai restaurants all over the world."
+    },
+    {
+      "lang": "vi",
+      "title": "Pad Thai",
+      "description": "Pad Thai là món ăn đường phố nổi tiếng nhất của Thái Lan, gồm bún phở xào cùng tôm hoặc gà, trứng và giá đỗ, tất cả được trộn trong sốt me chua ngọt. Món ăn được trang trí bằng lạc rang và chanh.",
+      "history": "Pad Thai ra đời ở Thái Lan vào những năm 1930 khi chính phủ khuyến khích người dân ăn nhiều bún gạo hơn để phát triển kinh tế. Món ăn nhanh chóng trở thành đặc sản quốc gia và hiện được biết đến rộng rãi trong các nhà hàng Thái trên toàn thế giới."
+    }
+  ],
+  "start_year": 1940,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Pad Thai from?",
+      "question_type": "single",
+      "options": ["Vietnam", "Cambodia", "Thailand", "Laos"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Pad Thai đến từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Việt Nam", "Campuchia", "Thái Lan", "Lào"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What tangy ingredient gives Pad Thai its special flavor?",
+      "question_type": "single",
+      "options": ["Lemon juice", "Vinegar", "Tamarind sauce", "Soy sauce"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Nguyên liệu chua nào tạo nên hương vị đặc biệt cho Pad Thai?",
+      "question_type": "single",
+      "options": ["Nước chanh", "Dấm", "Sốt me", "Nước tương"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

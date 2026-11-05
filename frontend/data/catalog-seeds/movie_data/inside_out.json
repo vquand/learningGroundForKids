@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 37.7749,
+  "longitude": -122.4194,
+  "country_code": "US",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Joy",
+      "image_url": null,
+      "description": "A bright yellow emotion who lives inside Riley's head and tries to keep everything happy and positive."
+    },
+    {
+      "name": "Sadness",
+      "image_url": null,
+      "description": "A blue emotion who teaches that it is okay to feel sad sometimes and that sadness helps us heal."
+    },
+    {
+      "name": "Fear",
+      "image_url": null,
+      "description": "A purple emotion who works hard to keep Riley safe from anything that might be dangerous."
+    },
+    {
+      "name": "Riley",
+      "image_url": null,
+      "description": "An 11-year-old girl who moves to San Francisco and has to deal with big changes in her life."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Inside Out poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Inside Out (2015)",
+      "description": "When an 11-year-old girl named Riley moves to San Francisco, her emotions — Joy, Sadness, Fear, Anger, and Disgust — must work together to help her through the big change.",
+      "history": "Inside Out was inspired by how the human brain actually works, and scientists said the movie did a really great job explaining emotions to kids!"
+    },
+    {
+      "lang": "vi",
+      "title": "Những Mảnh Cảm Xúc (2015)",
+      "description": "Khi một cô bé 11 tuổi tên Riley chuyển đến San Francisco, các cảm xúc của cô bé — Vui, Buồn, Sợ, Giận và Ghét — phải hợp tác để giúp cô vượt qua sự thay đổi lớn.",
+      "history": "Inside Out được lấy cảm hứng từ cách mà não người thật sự hoạt động, và các nhà khoa học nói rằng bộ phim đã giải thích cảm xúc cho trẻ em rất hay!"
+    }
+  ],
+  "start_year": 2015,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which emotion is the main character in Inside Out?",
+      "question_type": "single",
+      "options": ["Sadness", "Anger", "Joy", "Fear"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Cảm xúc nào là nhân vật chính trong phim Những Mảnh Cảm Xúc?",
+      "question_type": "single",
+      "options": ["Buồn", "Giận", "Vui", "Sợ"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "To which city does Riley move in the movie Inside Out?",
+      "question_type": "single",
+      "options": ["Los Angeles", "New York", "Chicago", "San Francisco"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Riley chuyển đến thành phố nào trong phim Những Mảnh Cảm Xúc?",
+      "question_type": "single",
+      "options": ["Los Angeles", "New York", "Chicago", "San Francisco"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

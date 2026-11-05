@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 53.3498,
+  "longitude": -6.2603,
+  "country_code": "IE",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "U2",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Beautiful Day — U2",
+      "description": "An uplifting rock song from Ireland that makes you feel like running outside and celebrating everything wonderful about being alive!",
+      "history": "The Irish band U2 released this energetic anthem in 2000, and it won three Grammy Awards — it reminds us to be grateful even when things are tough!"
+    },
+    {
+      "lang": "vi",
+      "title": "Beautiful Day — U2",
+      "description": "Một bài nhạc rock phấn chấn từ Ireland khiến bạn muốn chạy ra ngoài và ăn mừng tất cả những điều tuyệt vời của cuộc sống!",
+      "history": "Ban nhạc Ireland U2 phát hành bài hát năng lượng này vào năm 2000, và nó đã giành được ba giải Grammy — nó nhắc nhở chúng ta biết ơn ngay cả khi mọi thứ khó khăn!"
+    }
+  ],
+  "start_year": 2000,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Which band performed 'Beautiful Day'?", "question_type": "single", "options": ["Coldplay", "U2", "The Beatles", "Oasis"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ban nhạc nào biểu diễn bài 'Beautiful Day'?", "question_type": "single", "options": ["Coldplay", "U2", "The Beatles", "Oasis"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Which country is the band U2 from?", "question_type": "single", "options": ["England", "Scotland", "Ireland", "Australia"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Ban nhạc U2 đến từ quốc gia nào?", "question_type": "single", "options": ["Anh", "Scotland", "Ireland", "Úc"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

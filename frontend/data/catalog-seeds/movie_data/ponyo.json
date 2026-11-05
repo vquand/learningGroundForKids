@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 34.3622,
+  "longitude": 133.3893,
+  "country_code": "JP",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Ponyo",
+      "image_url": null,
+      "description": "A magical goldfish princess who falls in love with the human world and wishes with all her heart to become a little girl."
+    },
+    {
+      "name": "Sosuke",
+      "image_url": null,
+      "description": "A five-year-old boy who finds Ponyo trapped in a jar on the beach and promises to always take care of her."
+    },
+    {
+      "name": "Fujimoto",
+      "image_url": null,
+      "description": "Ponyo's overprotective father, a former human who lives under the sea and uses powerful magic to keep Ponyo safe."
+    },
+    {
+      "name": "Granmamare",
+      "image_url": null,
+      "description": "Ponyo's beautiful and wise mother, a goddess of the sea who understands her daughter's wish to become human."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Ponyo poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Ponyo (2008)",
+      "description": "A little goldfish princess named Ponyo escapes from the ocean and befriends a five-year-old boy, sparking a magical adventure that could change the whole world.",
+      "history": "Director Miyazaki set the film in the real seaside town of Tomonoura in Hiroshima, Japan, where he stayed and was inspired by the beautiful fishing harbor and gentle sea."
+    },
+    {
+      "lang": "vi",
+      "title": "Ponyo - Cô Bé Cá Vàng (2008)",
+      "description": "Một cô công chúa cá vàng nhỏ tên Ponyo trốn khỏi đại dương và kết bạn với một cậu bé năm tuổi, khởi đầu một cuộc phiêu lưu kỳ diệu có thể thay đổi cả thế giới.",
+      "history": "Đạo diễn Miyazaki đặt phim ở thị trấn ven biển thật sự Tomonoura ở Hiroshima, Nhật Bản, nơi ông lưu trú và được cảm hứng bởi cảng cá đẹp và biển lặng."
+    }
+  ],
+  "start_year": 2008,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What kind of creature is Ponyo at the start of the movie?",
+      "question_type": "single",
+      "options": ["A mermaid", "A goldfish", "A seahorse", "A jellyfish"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Ponyo là sinh vật gì ở đầu bộ phim?",
+      "question_type": "single",
+      "options": ["Một nàng tiên cá", "Một con cá vàng", "Một con cá ngựa", "Một con sứa"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "In which country is the movie Ponyo set?",
+      "question_type": "single",
+      "options": ["China", "Korea", "Japan", "Thailand"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Bộ phim Ponyo được đặt ở nước nào?",
+      "question_type": "single",
+      "options": ["Trung Quốc", "Hàn Quốc", "Nhật Bản", "Thái Lan"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 29.9792,
+  "longitude": 31.1342,
+  "country_code": "EG",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Al Haram, Giza Governorate, Egypt",
+  "fun_facts": [
+    "The Great Pyramid of Giza was built using over 2 million stone blocks, and some blocks weigh as much as 80 tons — heavier than a space shuttle!",
+    "The pyramids were the tallest structures in the world for over 3,800 years — nothing was taller until the Eiffel Tower was built!",
+    "Workers did not use wheels or cranes — scientists believe they used ramps and thousands of workers to move the enormous stones."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Pyramids of Giza",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Pyramids of Giza",
+      "description": "The Pyramids of Giza are three massive ancient Egyptian tombs built for pharaohs over 4,500 years ago, and the Great Pyramid is the only one of the original Seven Wonders of the Ancient World still standing.",
+      "history": "The Great Pyramid was built around 2560 BC for Pharaoh Khufu. The three main pyramids were built during the Old Kingdom period of ancient Egypt when pharaohs were considered gods and were buried with great treasures for the afterlife."
+    },
+    {
+      "lang": "vi",
+      "title": "Kim Tự Tháp Giza",
+      "description": "Kim Tự Tháp Giza là ba lăng mộ Ai Cập cổ khổng lồ được xây cho các Pharaoh hơn 4.500 năm trước, và Kim Tự Tháp Lớn là kỳ quan duy nhất trong Bảy Kỳ quan Thế giới Cổ đại còn đứng đến ngày nay.",
+      "history": "Kim Tự Tháp Lớn được xây dựng vào khoảng năm 2560 trước Công nguyên cho Pharaoh Khufu. Ba kim tự tháp chính được xây dựng trong thời kỳ Vương quốc Cổ của Ai Cập cổ đại khi các Pharaoh được coi là thần linh và được chôn cất cùng nhiều bảo vật cho cuộc sống sau khi chết."
+    }
+  ],
+  "start_year": -2560,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country are the Pyramids of Giza located?",
+      "question_type": "single",
+      "options": ["Sudan", "Egypt", "Libya", "Morocco"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Kim Tự Tháp Giza nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Sudan", "Ai Cập", "Libya", "Morocco"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "For which Egyptian ruler was the Great Pyramid of Giza built?",
+      "question_type": "single",
+      "options": ["Ramesses II", "Tutankhamun", "Khufu", "Cleopatra"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Kim Tự Tháp Lớn Giza được xây cho nhà cai trị Ai Cập nào?",
+      "question_type": "single",
+      "options": ["Ramesses II", "Tutankhamun", "Khufu", "Cleopatra"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

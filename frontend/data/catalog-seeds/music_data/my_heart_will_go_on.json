@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 45.5017,
+  "longitude": -73.5673,
+  "country_code": "CA",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Céline Dion",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "My Heart Will Go On — Céline Dion",
+      "description": "A powerful, soaring love song from the famous Titanic movie — Céline Dion's voice rises like a wave and makes your heart feel full of big emotions!",
+      "history": "Céline Dion from Montreal, Canada recorded this song for the 1997 blockbuster movie Titanic, and it became the best-selling single of all time in many countries!"
+    },
+    {
+      "lang": "vi",
+      "title": "Trái Tim Sẽ Mãi Đập — Céline Dion",
+      "description": "Một bài hát tình yêu mạnh mẽ từ bộ phim Titanic nổi tiếng — giọng hát của Céline Dion vươn cao như sóng biển và làm tim bạn đầy cảm xúc!",
+      "history": "Céline Dion từ Montreal, Canada thu âm bài hát này cho bộ phim bom tấn Titanic năm 1997, và nó trở thành đĩa đơn bán chạy nhất mọi thời đại ở nhiều quốc gia!"
+    }
+  ],
+  "start_year": 1997,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Which movie featured 'My Heart Will Go On'?", "question_type": "single", "options": ["Pearl Harbor", "The Notebook", "Titanic", "Ghost"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Bộ phim nào có bài hát 'Trái Tim Sẽ Mãi Đập'?", "question_type": "single", "options": ["Trân Châu Cảng", "The Notebook", "Titanic", "Ghost"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Which singer performed 'My Heart Will Go On'?", "question_type": "single", "options": ["Whitney Houston", "Mariah Carey", "Celine Dion", "Barbra Streisand"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Ca sĩ nào biểu diễn bài 'Trái Tim Sẽ Mãi Đập'?", "question_type": "single", "options": ["Whitney Houston", "Mariah Carey", "Celine Dion", "Barbra Streisand"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

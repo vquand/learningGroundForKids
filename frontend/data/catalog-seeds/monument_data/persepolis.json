@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 29.935,
+  "longitude": 52.8911,
+  "country_code": "IR",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "70 km northeast of Shiraz, Fars Province, Iran",
+  "fun_facts": [
+    "The great staircase of Persepolis was designed so that even horses could walk up it comfortably — the steps are very wide and shallow!",
+    "Carvings on the walls show people from 23 different nations bringing gifts to the Persian king, like a giant stone picture book of the ancient world.",
+    "Alexander the Great burned Persepolis down in 330 BC — some say it took 20,000 mules and 5,000 camels to carry away all the gold and treasure."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Persepolis",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Persepolis",
+      "description": "The magnificent ceremonial capital of the ancient Persian Empire, featuring grand palaces, towering columns, and detailed stone carvings built over 2,500 years ago.",
+      "history": "Construction began around 515 BC under King Darius the Great and continued for over 150 years. It served as the showpiece capital where kings received ambassadors from across the known world."
+    },
+    {
+      "lang": "vi",
+      "title": "Persepolis",
+      "description": "Kinh đô lễ hội huy hoàng của Đế chế Ba Tư cổ đại, với những cung điện tráng lệ, những cột cao lớn và những hình khắc đá tinh xảo được xây dựng hơn 2.500 năm trước.",
+      "history": "Việc xây dựng bắt đầu khoảng năm 515 trước Công nguyên dưới thời Vua Darius vĩ đại và kéo dài hơn 150 năm. Đây là thủ đô nơi các vua tiếp đón đại sứ từ khắp thế giới cổ đại."
+    }
+  ],
+  "start_year": -515,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Persepolis located?",
+      "question_type": "single",
+      "options": ["Iraq", "Turkey", "Iran", "Syria"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Persepolis nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Iraq", "Thổ Nhĩ Kỳ", "Iran", "Syria"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Persepolis was the capital of which ancient empire?",
+      "question_type": "single",
+      "options": ["Roman Empire", "Greek Empire", "Persian Empire", "Ottoman Empire"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Persepolis là thủ đô của đế chế cổ đại nào?",
+      "question_type": "single",
+      "options": ["Đế chế La Mã", "Đế chế Hy Lạp", "Đế chế Ba Tư", "Đế chế Ottoman"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

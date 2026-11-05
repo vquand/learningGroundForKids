@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 15.8801,
+  "longitude": 108.338,
+  "country_code": "VN",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Nguyen Van Ngan",
+      "image_url": null,
+      "description": "A gentle and artistic boy who loves drawing and grows up in a peaceful Vietnamese countryside village."
+    },
+    {
+      "name": "Ha Lan",
+      "image_url": null,
+      "description": "A kind-hearted girl with dreamy eyes who is Ngan's dearest childhood friend."
+    },
+    {
+      "name": "Duong",
+      "image_url": null,
+      "description": "A lively and spirited friend who brings energy and fun to the lives of those around him."
+    },
+    {
+      "name": "Ha Lan's Grandmother",
+      "image_url": null,
+      "description": "A warm and wise old woman who cares deeply for her granddaughter and the children in the village."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Mat Biec poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Mat Biec - Dreamy Eyes (2019)",
+      "description": "A young boy grows up in a beautiful Vietnamese countryside village, forming lasting friendships and experiencing the joys of childhood.",
+      "history": "The movie was filmed in the ancient town of Hoi An, a UNESCO World Heritage Site famous for its lanterns and charming old streets."
+    },
+    {
+      "lang": "vi",
+      "title": "Mắt Biếc (2019)",
+      "description": "Một cậu bé lớn lên trong một làng quê Việt Nam tươi đẹp, xây dựng những tình bạn bền vững và trải nghiệm những niềm vui thời thơ ấu.",
+      "history": "Phim được quay tại phố cổ Hội An, một Di sản Thế giới UNESCO nổi tiếng với những chiếc đèn lồng và những con đường cổ kính."
+    }
+  ],
+  "start_year": 2019,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which Vietnamese city was the movie Mat Biec filmed?",
+      "question_type": "single",
+      "options": ["Hanoi", "Ho Chi Minh City", "Hoi An", "Da Nang"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Bộ phim Mắt Biếc được quay tại thành phố nào của Việt Nam?",
+      "question_type": "single",
+      "options": ["Hà Nội", "Thành phố Hồ Chí Minh", "Hội An", "Đà Nẵng"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which country is the movie Mat Biec from?",
+      "question_type": "single",
+      "options": ["Thailand", "Cambodia", "Vietnam", "Laos"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Bộ phim Mắt Biếc đến từ nước nào?",
+      "question_type": "single",
+      "options": ["Thái Lan", "Campuchia", "Việt Nam", "Lào"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

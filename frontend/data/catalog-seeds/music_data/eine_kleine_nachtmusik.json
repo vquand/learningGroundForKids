@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 47.8095,
+  "longitude": 13.055,
+  "country_code": "AT",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Wolfgang Amadeus Mozart",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Eine kleine Nachtmusik — Mozart",
+      "description": "A sparkling and lively piece of music whose name means 'A Little Night Music' in German. It sounds like a happy dance at a fancy party under the stars!",
+      "history": "Mozart wrote this cheerful piece when he was just 31 years old. He was a child prodigy who started composing music at age 5 — younger than many kids who are reading this right now!"
+    },
+    {
+      "lang": "vi",
+      "title": "Eine kleine Nachtmusik — Mozart",
+      "description": "Một bản nhạc lung linh và sôi động có tên tiếng Đức là 'Một chút âm nhạc đêm'. Nó nghe như một điệu nhảy vui vẻ tại một bữa tiệc sang trọng dưới bầu trời đầy sao!",
+      "history": "Mozart viết bản nhạc vui tươi này khi ông chỉ mới 31 tuổi. Ông là thần đồng âm nhạc bắt đầu sáng tác từ khi lên 5 tuổi, trẻ hơn nhiều bạn đang đọc dòng này!"
+    }
+  ],
+  "start_year": 1787,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed 'Eine kleine Nachtmusik'?", "question_type": "single", "options": ["Haydn", "Schubert", "Mozart", "Bach"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác 'Eine kleine Nachtmusik'?", "question_type": "single", "options": ["Haydn", "Schubert", "Mozart", "Bach"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "What does 'Eine kleine Nachtmusik' mean?", "question_type": "single", "options": ["A Big Symphony", "A Little Night Music", "A Spring Dance", "A Winter Song"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "'Eine kleine Nachtmusik' có nghĩa là gì?", "question_type": "single", "options": ["Một bản giao hưởng lớn", "Một chút âm nhạc đêm", "Điệu nhảy mùa xuân", "Bài hát mùa đông"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

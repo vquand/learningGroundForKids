@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 5.1427,
+  "longitude": -60.7625,
+  "country_code": "VE",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Mount Roraima is a towering tabletop mountain called a tepui on the triple border of Venezuela, Brazil, and Guyana in the Gran Sabana highlands of the Guiana Highlands.",
+  "fun_facts": [
+    "The flat summit of Mount Roraima is almost always wrapped in clouds and fog, making it look like a mysterious floating island in the sky.",
+    "The top of Roraima is so isolated that it has its own unique species of plants and animals found nowhere else on Earth — like a lost world!",
+    "Mount Roraima is believed to have inspired Sir Arthur Conan Doyle's famous adventure novel 'The Lost World', about a plateau where dinosaurs still roamed."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Mount Roraima",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Mount Roraima",
+      "description": "Mount Roraima is a giant flat-topped mountain in South America that looks like a massive stone table rising nearly 2,810 meters above the surrounding savanna. Its sheer vertical cliffs drop hundreds of meters on all sides, and its cloud-wrapped summit is so cut off from the world below that entirely unique species of frogs, plants, and insects evolved there in isolation. It truly feels like stepping onto another planet.",
+      "history": "Roraima is one of the oldest geological formations on Earth, formed from Precambrian sandstone over 1.7 billion years ago when the area was a vast sandy plain. The Pemon indigenous people have revered the mountain as the stump of a mighty tree that once held all the world's fruits, and its name means 'Great Blue-Green Mountain' in their language. European explorers reached the summit for the first time in 1884, finding a landscape so alien and wondrous it inspired generations of writers and explorers."
+    },
+    {
+      "lang": "vi",
+      "title": "Núi Roraima",
+      "description": "Núi Roraima là một ngọn núi khổng lồ có đỉnh bằng phẳng ở Nam Mỹ, trông như một cái bàn đá khổng lồ cao gần 2.810 mét so với đồng bằng xung quanh. Những vách đá thẳng đứng của nó trượt xuống hàng trăm mét trên mọi phía, và đỉnh núi bị mây bao quanh nên bị cắt biệt đến nỗi những loài ếch, cây cỏ và côn trùng hoàn toàn mới đã tiến hóa ở đây trong sự cô lập. Đặt chân lên đó thực sự có cảm giác như đang đặt lên một hành tinh khác.",
+      "history": "Roraima là một trong những cấu trúc địa chất cổ xưa nhất Trái Đất, được hình thành từ đá cát kết tiền Cambrian hơn 1,7 tỷ năm trước khi khu vực này còn là một đồng bằng cát rộng lớn. Người bản địa Pemon tôn kính ngọn núi như là gốc cây vĩ đại từng giữ tất cả những quả trên thế giới, và tên của nó có nghĩa là 'Núi Xanh Vĩ Đại' trong ngôn ngữ của họ. Các nhà thám hiểm châu Âu lần đầu leo đến đỉnh vào năm 1884, khám phá ra một cảnh quan kỳ lạ và kỳ diệu đến mức truyền cảm hứng cho nhiều thế hệ nhà văn và nhà thám hiểm."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Mount Roraima sits on the borders of three countries. Which of these is NOT one of them?",
+      "question_type": "single",
+      "options": ["Venezuela", "Brazil", "Colombia", "Guyana"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Núi Roraima nằm trên biên giới của ba quốc gia. Quốc gia nào sau đây KHÔNG phải là một trong số đó?",
+      "question_type": "single",
+      "options": ["Venezuela", "Brazil", "Colombia", "Guyana"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is special about the top of Mount Roraima?",
+      "question_type": "single",
+      "options": ["It has a lake on top", "It has unique species found nowhere else on Earth", "It has the world's tallest waterfall", "It is always covered in snow"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điều gì đặc biệt về đỉnh Núi Roraima?",
+      "question_type": "single",
+      "options": ["Có hồ trên đỉnh", "Có những loài độc đáo không tìm thấy ở nơi nào khác trên Trái Đất", "Có thác nước cao nhất thế giới", "Luôn luôn phủ tuyết"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -500000000,
+  "time_precision": "mya"
+}

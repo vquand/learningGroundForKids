@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 10.8231,
+  "longitude": 106.6297,
+  "country_code": "VN",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Pham The My",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Bong Hong Cai Ao — Pham The My",
+      "description": "A warm and tender song about the love between mothers and children, often sung on Mother's Day in Vietnam. Its gentle melody feels like a big warm hug!",
+      "history": "Composer Pham The My wrote this beloved song to honor mothers everywhere. It became one of the most popular songs played during Mother's Day celebrations across Vietnam."
+    },
+    {
+      "lang": "vi",
+      "title": "Bông Hồng Cài Áo — Phạm Thế Mỹ",
+      "description": "Đây là một bài hát ấm áp về tình yêu thương của mẹ dành cho con. Giai điệu nhẹ nhàng như một vòng tay ôm của mẹ!",
+      "history": "Nhạc sĩ Phạm Thế Mỹ đã sáng tác bài hát nổi tiếng này để tưởng nhớ công ơn của mẹ. Nó trở thành bài hát được yêu thích nhất trong ngày Lễ Mẹ tại Việt Nam."
+    }
+  ],
+  "start_year": 1970,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed 'Bong Hong Cai Ao'?", "question_type": "single", "options": ["Trinh Cong Son", "Pham The My", "Van Cao", "Hoang Viet"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác bài 'Bông Hồng Cài Áo'?", "question_type": "single", "options": ["Trịnh Công Sơn", "Phạm Thế Mỹ", "Văn Cao", "Hoàng Việt"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "'Bong Hong Cai Ao' is a song about love for whom?", "question_type": "single", "options": ["Friends", "Mothers", "Teachers", "The homeland"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Bài 'Bông Hồng Cài Áo' là bài hát về tình yêu dành cho ai?", "question_type": "single", "options": ["Bạn bè", "Mẹ", "Thầy cô", "Quê hương"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

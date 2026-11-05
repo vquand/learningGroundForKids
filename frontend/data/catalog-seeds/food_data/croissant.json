@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "country_code": "FR",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Fold cold butter into soft dough many times to create hundreds of thin layers. Shape the dough into a crescent and brush the top with egg. Bake in a hot oven until golden brown and wonderfully flaky — the layers puff up like magic!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Croissant",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Croissant",
+      "description": "A croissant is a buttery, flaky pastry shaped like a crescent moon. When you bite into one, it makes a wonderful crunchy sound and melts in your mouth!",
+      "history": "The croissant was inspired by a crescent-shaped pastry from Austria called the kipferl, and French bakers in Paris made it famous with their buttery, flaky version. Today it is a symbol of French breakfast culture around the world."
+    },
+    {
+      "lang": "vi",
+      "title": "Croissant",
+      "description": "Croissant là một loại bánh ngọt béo ngậy và giòn, có hình dạng như trăng lưỡi liềm. Khi cắn vào bánh, bạn sẽ nghe thấy tiếng giòn rất vui tai và bánh tan trong miệng!",
+      "history": "Croissant được cảm hứng từ một loại bánh hình trăng lưỡi liềm của Áo gọi là kipferl, và những thợ làm bánh người Pháp ở Paris đã làm nó trở nên nổi tiếng với phiên bản béo và giòn của họ. Ngày nay nó là biểu tượng của văn hóa bữa sáng Pháp trên toàn thế giới."
+    }
+  ],
+  "start_year": 1683,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What shape is a Croissant?",
+      "question_type": "single",
+      "options": ["Circle", "Star", "Crescent moon", "Heart"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Croissant có hình dạng gì?",
+      "question_type": "single",
+      "options": ["Hình tròn", "Hình ngôi sao", "Trăng lưỡi liềm", "Hình trái tim"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which country made the Croissant world-famous?",
+      "question_type": "single",
+      "options": ["Austria", "Belgium", "Germany", "France"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Quốc gia nào đã làm cho Croissant nổi tiếng khắp thế giới?",
+      "question_type": "single",
+      "options": ["Áo", "Bỉ", "Đức", "Pháp"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

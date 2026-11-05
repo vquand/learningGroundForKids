@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": -15.65,
+  "longitude": -71.9667,
+  "country_code": "PE",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Colca Canyon is carved by the Colca River in the Andes mountains of southern Peru near Arequipa, and is one of the deepest canyons on Earth.",
+  "fun_facts": [
+    "Colca Canyon is more than twice as deep as the Grand Canyon in the USA — at its deepest point it plunges over 3,270 metres into the Earth!",
+    "The giant Andean condor, one of the largest flying birds in the world with wings up to 3 metres wide, glides on the warm air currents rising from Colca Canyon every morning.",
+    "People have been farming the terraced hillsides of Colca Canyon for over 2,000 years — the ancient farm steps cut into the mountains are still used today!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Colca Canyon",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Colca Canyon",
+      "description": "Colca Canyon is one of the deepest canyons in the entire world, plunging over 3,270 metres into the Andes mountains of Peru — more than twice as deep as the Grand Canyon! Every morning, giant Andean condors with enormous wings soar up from the bottom of the canyon on warm air currents, circling overhead like living aeroplanes. The ancient terraced farms built on the canyon walls thousands of years ago still grow crops of potatoes and corn today.",
+      "history": "The Collagua and Cabana peoples built intricate terraced farms, called andenes, on the canyon walls over 2,000 years ago to grow food in the steep mountain environment. The Inca Empire later incorporated the region and expanded the terracing even further. Spanish conquistadors arrived in the 1500s but the canyon was not well known to the outside world until Polish explorer Andrzej Pietowski led an expedition in 1981 and confirmed it as one of the world's deepest canyons."
+    },
+    {
+      "lang": "vi",
+      "title": "Hẻm Núi Colca",
+      "description": "Hẻm Núi Colca là một trong những hẻm núi sâu nhất trên toàn thế giới, đổ xuống hơn 3.270 mét vào dãy núi Andes của Peru — sâu hơn gấp đôi so với Grand Canyon! Mỗi sáng, những con condor Andes khổng lồ với đôi cánh to lớn bay lên từ đáy hẻm núi trên các dòng khí ấm, lượn vòng trên đầu như những chiếc máy bay sống. Các trang trại bậc thang cổ xưa được xây dựng trên vách hẻm núi hàng nghìn năm trước vẫn trồng khoai tây và ngô ngày hôm nay.",
+      "history": "Người Collagua và Cabana đã xây dựng các trang trại bậc thang phức tạp, gọi là andenes, trên vách hẻm núi hơn 2.000 năm trước để trồng thực phẩm trong môi trường núi dốc. Đế chế Inca sau đó sáp nhập khu vực này và mở rộng việc bậc thang hơn nữa. Những người chinh phục Tây Ban Nha đến vào những năm 1500 nhưng hẻm núi không được thế giới biết đến nhiều cho đến khi nhà thám hiểm người Ba Lan Andrzej Pietowski dẫn đầu một chuyến thám hiểm vào năm 1981 và xác nhận đây là một trong những hẻm núi sâu nhất thế giới."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Colca Canyon located?",
+      "question_type": "single",
+      "options": ["Chile", "Bolivia", "Peru", "Argentina"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hẻm Núi Colca nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Chile", "Bolivia", "Peru", "Argentina"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which giant bird can be seen soaring above Colca Canyon every morning?",
+      "question_type": "single",
+      "options": ["Bald eagle", "Andean condor", "Albatross", "Harpy eagle"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Loài chim khổng lồ nào có thể nhìn thấy bay trên Hẻm Núi Colca mỗi sáng?",
+      "question_type": "single",
+      "options": ["Đại bàng đầu trắng", "Condor Andes", "Hải âu", "Đại bàng Harpy"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -3000000,
+  "time_precision": "mya"
+}

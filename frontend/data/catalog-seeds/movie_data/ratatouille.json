@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "country_code": "FR",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Remy",
+      "image_url": null,
+      "description": "A talented rat who dreams of becoming a great chef in Paris and has an amazing sense of taste and smell."
+    },
+    {
+      "name": "Linguini",
+      "image_url": null,
+      "description": "A clumsy young kitchen worker who teams up with Remy to create delicious food at a famous restaurant."
+    },
+    {
+      "name": "Gusteau",
+      "image_url": null,
+      "description": "A famous chef whose spirit inspires Remy and whose motto is that anyone can cook."
+    },
+    {
+      "name": "Colette",
+      "image_url": null,
+      "description": "A skilled and determined chef at Gusteau's restaurant who becomes Linguini's cooking teacher."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Ratatouille poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Ratatouille (2007)",
+      "description": "A rat named Remy with a gift for cooking secretly helps a young kitchen worker create amazing dishes at one of Paris's most famous restaurants.",
+      "history": "The movie is set in Paris, France, which is famous around the world for its incredible food and some of the best restaurants on Earth!"
+    },
+    {
+      "lang": "vi",
+      "title": "Chú Chuột Đầu Bếp Tài Ba (2007)",
+      "description": "Một chú chuột tên Remy có tài nấu ăn bí mật giúp một người làm bếp trẻ tạo ra những món ăn tuyệt vời tại một trong những nhà hàng nổi tiếng nhất Paris.",
+      "history": "Phim được đặt ở Paris, Pháp, thành phố nổi tiếng khắp thế giới với ẩm thực tuyệt vời và một số nhà hàng ngon nhất trên Trái Đất!"
+    }
+  ],
+  "start_year": 2007,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What animal is Remy in the movie Ratatouille?",
+      "question_type": "single",
+      "options": ["A mouse", "A rat", "A squirrel", "A hamster"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Remy là loài động vật gì trong phim Chú Chuột Đầu Bếp Tài Ba?",
+      "question_type": "single",
+      "options": ["Một con chuột nhắt", "Một con chuột cống", "Một con sóc", "Một con chuột hamster"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "In which city is the movie Ratatouille set?",
+      "question_type": "single",
+      "options": ["Rome", "London", "Paris", "Barcelona"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Bộ phim Ratatouille được đặt ở thành phố nào?",
+      "question_type": "single",
+      "options": ["Rome", "London", "Paris", "Barcelona"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

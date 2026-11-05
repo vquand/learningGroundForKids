@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 34.0522,
+  "longitude": -118.2437,
+  "country_code": "US",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Simba",
+      "image_url": null,
+      "description": "A young lion cub who grows up to become the brave king of the Pride Lands."
+    },
+    {
+      "name": "Mufasa",
+      "image_url": null,
+      "description": "Simba's wise and loving father who is the great king of the Pride Lands and teaches Simba about life."
+    },
+    {
+      "name": "Timon and Pumbaa",
+      "image_url": null,
+      "description": "A funny meerkat and warthog duo who are Simba's best friends and love to sing and have fun."
+    },
+    {
+      "name": "Nala",
+      "image_url": null,
+      "description": "Simba's brave and loyal childhood friend who grows up to be a strong lioness."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "The Lion King poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "The Lion King (1994)",
+      "description": "A young lion named Simba must find his courage and return to his home to become the king his father always knew he could be.",
+      "history": "The Lion King was inspired by the African savanna and became one of the most successful animated films ever made, with a famous soundtrack by Elton John."
+    },
+    {
+      "lang": "vi",
+      "title": "Vua Sư Tử (1994)",
+      "description": "Một chú sư tử con tên Simba phải tìm lại dũng cảm để trở về nhà và trở thành vị vua mà cha cậu luôn tin tưởng.",
+      "history": "Phim được lấy cảm hứng từ đồng cỏ châu Phi và trở thành một trong những bộ phim hoạt hình thành công nhất mọi thời đại, với nhạc phim nổi tiếng của Elton John."
+    }
+  ],
+  "start_year": 1994,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is the name of Simba's father in The Lion King?",
+      "question_type": "single",
+      "options": ["Scar", "Mufasa", "Rafiki", "Zazu"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tên cha của Simba trong phim Vua Sư Tử là gì?",
+      "question_type": "single",
+      "options": ["Scar", "Mufasa", "Rafiki", "Zazu"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which continent does The Lion King take place on?",
+      "question_type": "single",
+      "options": ["South America", "Australia", "Asia", "Africa"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Phim Vua Sư Tử diễn ra ở châu lục nào?",
+      "question_type": "single",
+      "options": ["Nam Mỹ", "Úc", "Châu Á", "Châu Phi"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

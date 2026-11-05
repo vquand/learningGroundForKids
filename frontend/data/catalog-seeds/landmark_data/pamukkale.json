@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 37.92,
+  "longitude": 29.12,
+  "country_code": "TR",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Pamukkale is a natural hot spring and travertine terrace formation in the Denizli Province of southwestern Turkey in the Aegean region.",
+  "fun_facts": [
+    "Pamukkale means 'Cotton Castle' in Turkish because from a distance the gleaming white terraces look exactly like fluffy cotton piled on a hillside!",
+    "The warm turquoise pools are formed by hot spring water packed with calcium that hardens into bright white rock as it flows down the hillside — like nature's own bathtub.",
+    "People have been bathing in Pamukkale's warm healing waters for over 2,000 years — ancient Roman emperors soaked in these very same pools!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Pamukkale",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Pamukkale",
+      "description": "Pamukkale is a fairytale landscape in Turkey where gleaming white terraces of mineral-rich hot spring water cascade down a hillside like a frozen waterfall made of cotton. The terraces are filled with warm, crystal-clear turquoise pools where you can actually wade in and float, surrounded by dazzling white calcium rock that sparkles in the sunlight. Right at the top of the terraces sit the ancient ruins of a Roman city called Hierapolis, making it a place where nature and history blend perfectly together.",
+      "history": "Hot spring water rich in calcium carbonate has been flowing down this hillside for hundreds of thousands of years, slowly depositing layer upon layer of brilliant white travertine rock to build the spectacular terraces. The ancient Greeks and Romans knew this magical place well — they built the grand city of Hierapolis here around 190 BC and used the warm mineral waters for healing and relaxation. Today Pamukkale is a UNESCO World Heritage Site, and the ancient ruins of Hierapolis, including its vast Roman theater, sit side by side with the natural wonder."
+    },
+    {
+      "lang": "vi",
+      "title": "Pamukkale",
+      "description": "Pamukkale là một cảnh quan như truyện cổ tích ở Thổ Nhĩ Kỳ nơi những ruộng bậc thang trắng sáng long lanh của nước suối nóng giàu khoáng chất đổ xuống sườn đồi như một thác nước đông băng làm bằng bông. Các ruộng bậc thang được lấp đầy những hồ nước ấm trong suốt màu ngọc lam nơi bạn có thể thật sự lội và nổi, bao quanh bởi đá vôi trắng chói mắt lấp lánh trong ánh mặt trời. Ngay trên đỉnh các ruộng bậc thang là phế tích của một thành phố La Mã cổ đại tên Hierapolis, tạo ra một nơi thiên nhiên và lịch sử hòa quyện vào nhau.",
+      "history": "Nước suối nóng giàu canxi cacbonat đã chảy xuống sườn đồi này trong hàng trăm nghìn năm, từ từ để lại từng lớp từng lớp đá travertine trắng sực tạo nên những ruộng bậc thang ngoài mức tưởng tượng. Người Hy Lạp và La Mã cổ đại rất biết nơi kỳ diệu này — họ xây thành phố lớn Hierapolis ở đây vào khoảng năm 190 TCN và sử dụng nước khoáng ấm để chữa bệnh và thư giãn. Ngày nay Pamukkale là Di sản Thế giới UNESCO, và những phế tích cổ đại của Hierapolis, kể cả nhà hát La Mã rộng lớn của nó, đứng cạnh nhau với kỳ quan thiên nhiên."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What does 'Pamukkale' mean in Turkish?",
+      "question_type": "single",
+      "options": ["Salt mountain", "Cotton Castle", "White river", "Warm spring"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "'Pamukkale' có nghĩa là gì trong tiếng Thổ Nhĩ Kỳ?",
+      "question_type": "single",
+      "options": ["Núi muối", "Lâu đài bông", "Sông trắng", "Suối ấm"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Pamukkale is located in which country?",
+      "question_type": "single",
+      "options": ["Greece", "Iran", "Turkey", "Syria"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Pamukkale nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Hy Lạp", "Iran", "Thổ Nhĩ Kỳ", "Syria"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -30000,
+  "time_precision": "kya"
+}

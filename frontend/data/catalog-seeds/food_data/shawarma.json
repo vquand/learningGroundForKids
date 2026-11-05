@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 41.0082,
+  "longitude": 28.9784,
+  "country_code": "TR",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Marinate thin slices of chicken in lemon juice, cumin, paprika, and garlic overnight. Stack the chicken pieces and roast them in the oven at high heat for 25 minutes. Slice off the cooked meat, tuck it into a warm flatbread wrap, and add tomatoes, cucumbers, and a drizzle of garlic sauce — delicious!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Shawarma",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Shawarma",
+      "description": "Shawarma is a Middle Eastern wrap filled with juicy spiced meat — usually chicken or lamb — shaved from a big rotating skewer and tucked into soft flatbread with veggies and creamy sauce. It is one of the most popular street foods in the world!",
+      "history": "Shawarma originated in the Ottoman Empire, which is now Turkey, where spiced meat was cooked on a vertical rotating spit. It spread across the Middle East and is now a popular street food enjoyed from Istanbul to London."
+    },
+    {
+      "lang": "vi",
+      "title": "Shawarma",
+      "description": "Shawarma là một loại bánh cuốn Trung Đông đầy thịt gia vị ngon ngọt, thường là gà hoặc cừu, được cắt ra từ một xiên quay lớn và gói trong bánh mì mềm với rau củ và sốt kem. Đây là một trong những món ăn đường phố phổ biến nhất thế giới!",
+      "history": "Shawarma xuất phát từ Đế chế Ottoman, nay là Thổ Nhĩ Kỳ, nơi thịt ướp gia vị được nướng trên một xiên quay đứng. Nó lan rộng khắp Trung Đông và hiện là món ăn đường phố phổ biến từ Istanbul đến London."
+    }
+  ],
+  "start_year": 1800,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Shawarma originated in the Ottoman Empire, which is now which country?",
+      "question_type": "single",
+      "options": ["Iran", "Egypt", "Turkey", "Saudi Arabia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Shawarma bắt nguồn từ Đế chế Ottoman, nay là quốc gia nào?",
+      "question_type": "single",
+      "options": ["Iran", "Ai Cập", "Thổ Nhĩ Kỳ", "Ả Rập Xê Út"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How is Shawarma meat traditionally cooked?",
+      "question_type": "single",
+      "options": ["Fried in oil", "Baked in a clay oven", "On a vertical rotating spit", "Steamed"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Thịt Shawarma truyền thống được nướng như thế nào?",
+      "question_type": "single",
+      "options": ["Chiên trong dầu", "Nướng trong lò đất", "Trên xiên quay đứng", "Hấp"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

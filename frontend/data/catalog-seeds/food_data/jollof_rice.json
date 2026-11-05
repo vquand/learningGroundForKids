@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 6.5244,
+  "longitude": 3.3792,
+  "country_code": "NG",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Ask a grown-up to blend tomatoes, red peppers, and onions into a smooth sauce. Fry the sauce in a pot with oil and spices until it smells amazing. Add rice and chicken broth, cover the pot, and let it cook until the rice soaks up all the delicious red sauce!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Jollof Rice",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Jollof Rice",
+      "description": "Jollof rice is a famous West African dish of fluffy rice cooked in a rich tomato and pepper sauce until it turns a beautiful orange-red color. It smells incredible and is often served at parties and celebrations!",
+      "history": "Jollof rice originated with the Wolof people of Senegal and Gambia centuries ago and spread across West Africa. Today Nigeria and Ghana both claim to make the best Jollof rice — a friendly rivalry that makes the dish even more fun!"
+    },
+    {
+      "lang": "vi",
+      "title": "Cơm Đỏ Jollof",
+      "description": "Cơm Jollof là món cơm nổi tiếng Tây Phi, được nấu trong sốt cà chua và ớt đậm đà cho đến khi có màu đỏ cam tuyệt đẹp. Mùi thơm của nó rất hấp dẫn và thường được phục vụ trong các lễ tiệc!",
+      "history": "Cơm Jollof bắt nguồn từ người Wolof ở Senegal và Gambia từ nhiều thế kỷ trước và lan rộng khắp Tây Phi. Ngày nay Nigeria và Ghana đều tự nhận mình làm cơm Jollof ngon nhất — một cuộc tranh đua thân thiện làm cho món ăn càng thêm thú vị!"
+    }
+  ],
+  "start_year": 1350,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which region of Africa is Jollof Rice from?",
+      "question_type": "single",
+      "options": ["East Africa", "Southern Africa", "North Africa", "West Africa"],
+      "correct_answers": [3],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Cơm Jollof đến từ vùng nào của châu Phi?",
+      "question_type": "single",
+      "options": ["Đông Phi", "Nam Phi", "Bắc Phi", "Tây Phi"],
+      "correct_answers": [3],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which two countries famously compete over who makes the best Jollof Rice?",
+      "question_type": "single",
+      "options": ["Senegal and Gambia", "Nigeria and Ghana", "Ivory Coast and Togo", "Mali and Guinea"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hai quốc gia nào nổi tiếng tranh nhau làm cơm Jollof ngon nhất?",
+      "question_type": "single",
+      "options": ["Senegal và Gambia", "Nigeria và Ghana", "Bờ Biển Ngà và Togo", "Mali và Guinea"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

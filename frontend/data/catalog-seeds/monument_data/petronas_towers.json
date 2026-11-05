@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 3.1579,
+  "longitude": 101.7116,
+  "country_code": "MY",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Kuala Lumpur City Centre, 50088 Kuala Lumpur, Malaysia",
+  "fun_facts": [
+    "The Petronas Twin Towers were the tallest buildings in the world from 1998 to 2004!",
+    "There is a sky bridge connecting the two towers on the 41st and 42nd floors — you can walk between the buildings high in the clouds!",
+    "Each tower has 88 floors and the shape of each floor is based on an eight-pointed Islamic star."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Petronas Twin Towers",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Petronas Twin Towers",
+      "description": "The Petronas Twin Towers are two identical skyscrapers in Kuala Lumpur, Malaysia, connected by a sky bridge high above the ground and famous for their beautiful Islamic-inspired design.",
+      "history": "Built between 1992 and 1998 for the Malaysian oil company Petronas, the towers were the world's tallest buildings for six years. Architect Cesar Pelli designed them to reflect Malaysia's Islamic heritage."
+    },
+    {
+      "lang": "vi",
+      "title": "Tháp Đôi Petronas",
+      "description": "Tháp Đôi Petronas là hai tòa nhà chọc trời giống hệt nhau ở Kuala Lumpur, Malaysia, được nối với nhau bằng một cầu đi bộ trên cao và nổi tiếng với thiết kế đẹp mang phong cách Hồi Giáo.",
+      "history": "Được xây dựng từ năm 1992 đến 1998 cho công ty dầu mỏ Malaysia Petronas, các tháp này là tòa nhà cao nhất thế giới trong sáu năm. Kiến trúc sư Cesar Pelli đã thiết kế chúng để phản ánh di sản Hồi Giáo của Malaysia."
+    }
+  ],
+  "start_year": 1998,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country are the Petronas Twin Towers located?",
+      "question_type": "single",
+      "options": ["Singapore", "Indonesia", "Malaysia", "Thailand"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tháp Đôi Petronas nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Singapore", "Indonesia", "Malaysia", "Thái Lan"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What connects the two Petronas Towers?",
+      "question_type": "single",
+      "options": ["An underground tunnel", "A sky bridge", "A walkway at ground level", "A glass dome"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điều gì kết nối hai Tháp Petronas?",
+      "question_type": "single",
+      "options": ["Một đường hầm ngầm", "Một cầu trên bầu trời", "Một lối đi ở mặt đất", "Một mái vòm kính"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

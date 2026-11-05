@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 25.2369,
+  "longitude": 110.2664,
+  "country_code": "CN",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Situated on the outskirts of Guilin city in Guangxi, southern China, Reed Flute Cave is a spectacular natural limestone cavern renowned for its colourful stalactites and stalagmites.",
+  "fun_facts": [
+    "Some of the stone formations inside Reed Flute Cave are over 180,000 years old — they were growing before the very first humans walked on Earth!",
+    "The cave gets its name from the reeds that grow outside its entrance, which local people have long used to make musical flutes.",
+    "The largest chamber inside the cave is so big it can hold up to 1,000 people standing inside all at once."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Reed Flute Cave",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Reed Flute Cave",
+      "description": "Reed Flute Cave in Guilin, China, is a wonderland of colourful stone sculptures formed over hundreds of thousands of years. Lit up with multicoloured lights, the cave's stalactites and stalagmites resemble dragons, lions, and enchanted forests, earning it the nickname 'Palace of Natural Arts.' The cave stretches about 240 metres deep into the hillside, leading visitors through a series of breathtaking chambers.",
+      "history": "Inscriptions on the cave walls show that visitors have been coming to Reed Flute Cave for at least 1,200 years, with the oldest writings dating back to the Tang Dynasty around 792 AD. The cave takes its name from the lush reeds growing at its entrance, which local artisans traditionally harvested to craft flutes and musical instruments. After being rediscovered in the 1940s, the cave was opened to tourists in 1959 and has since become one of China's most visited natural attractions."
+    },
+    {
+      "lang": "vi",
+      "title": "Hang Động Sáo Trúc",
+      "description": "Hang động Sáo Trúc ở Guilin, Trung Quốc, là xứ sở thần tiên của những bức tượng đá đầy màu sắc được hình thành qua hàng trăm nghìn năm. Được chiếu sáng bằng ánh đèn nhiều màu, những mãng thạch nhũ và thạch sún trong hang trông giống như rồng, sư tử và những khu rừng huyền bí, mang lại cho nó biệt danh 'Cung Điện Nghệ Thuật Tự Nhiên'. Hang kéo dài khoảng 240 mét sâu vào lòng núi, dẫn du khách qua nhiều căn phòng nguy nga.",
+      "history": "Các dòng chữ khắc trên vách hang cho thấy du khách đã đến Hang Sáo Trúc ít nhất 1.200 năm trước, với những bản khắc cổ nhất có từ thời Nhà Đường vào khoảng năm 792 sau Công nguyên. Hang lấy tên từ những ruộng sậy tốt tươi mọc ở cửa vào, mà các nghệ nhân địa phương truyền thống thường thu hoạch để làm sáo và nhạc cụ. Sau khi được tái phát hiện vào những năm 1940, hang được mở cửa đón khách tham quan vào năm 1959 và từ đó trở thành một trong những điểm tham quan thiên nhiên được nhiều người đến nhất Trung Quốc."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Reed Flute Cave is located in which country?",
+      "question_type": "single",
+      "options": ["Vietnam", "Thailand", "China", "Japan"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hang Động Sáo Trúc nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Việt Nam", "Thái Lan", "Trung Quốc", "Nhật Bản"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How did Reed Flute Cave get its name?",
+      "question_type": "single",
+      "options": ["From its flute-shaped rock formations", "From the reeds growing at its entrance used to make flutes", "From a musician who lived inside it", "From the sounds the wind makes inside it"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hang Động Sáo Trúc có được tên như thế nào?",
+      "question_type": "single",
+      "options": ["Từ những khối đá hình sáo bên trong", "Từ những cây sậy mọc ở cửa hang được dùng làm sáo", "Từ một nhạc sĩ sống bên trong", "Từ âm thanh gió tạo ra bên trong"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -100000,
+  "time_precision": "kya"
+}

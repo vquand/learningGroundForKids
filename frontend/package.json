@@ -1,0 +1,99 @@
+{
+  "name": "personal-learning-ground",
+  "private": true,
+  "version": "0.1.0",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "vite --mode vercel --host 127.0.0.1 --port 5173 --strictPort",
+    "dev:uat": "vite --mode vercel --host 127.0.0.1 --port 5173 --strictPort",
+    "build": "node scripts/clean-dist.mjs && vite build",
+    "content:generate": "node scripts/generate-catalog.mjs",
+    "content:refresh": "node scripts/refresh-item-content.mjs --write",
+    "content:sanitize": "node scripts/refresh-item-content.mjs --sanitize --write",
+    "content:review-publication": "node scripts/review-catalog-publication.mjs",
+    "content:crawl": "node scripts/crawl-expanded-catalog.mjs",
+    "content:merge": "node scripts/merge-expanded-catalog.mjs",
+    "content:merge-animals": "node scripts/merge-expanded-animal-catalog.mjs",
+    "content:combine-animal": "node scripts/combine-animal-batch.mjs",
+    "content:repair-vietnam": "node scripts/repair-vietnam-attribution.mjs",
+    "content:images": "node scripts/enrich-images.mjs",
+    "db:seed:local": "node scripts/seed-d1.mjs",
+    "preview": "vite preview",
+    "db:generate": "drizzle-kit generate",
+    "test": "node --test tests/*.test.ts",
+    "test:browser:review": "node tests/review-flows.browser.mjs",
+    "test:browser:completion": "node --test tests/browser/completion-tracking.test.ts",
+    "test:browser:root-password": "node --test tests/browser/root-password.test.ts",
+    "test:browser:admin": "node --test tests/browser/admin-restoration.test.ts",
+    "test:browser:fishing": "node --import ../server/node_modules/tsx/dist/loader.mjs --test tests/browser/fishing.test.ts",
+    "test:browser:parent-space": "node --import ../server/node_modules/tsx/dist/loader.mjs --test tests/browser/parent-space.test.ts",
+    "test:browser:map": "node --test tests/browser/map-cluster-scaling.test.ts",
+    "bench:explore": "node tests/browser/explore-performance.mjs",
+    "typecheck": "tsc -p tsconfig.app.json",
+    "typecheck:hosting": "tsc -p tsconfig.node.json",
+    "test:browser:passkey:local": "node scripts/run-passkey-local-uat.mjs",
+    "artwork:catalog": "node scripts/artwork-catalog.mjs",
+    "artwork:plan": "node scripts/artwork-blobs.mjs --plan",
+    "artwork:upload": "node scripts/artwork-blobs.mjs --upload",
+    "artwork:verify": "node scripts/artwork-blobs.mjs --verify"
+  },
+  "dependencies": {
+    "@simplewebauthn/browser": "^14.0.0",
+    "@tanstack/react-query": "^5.0.0",
+    "@turf/along": "^7.3.4",
+    "@turf/bearing": "^7.3.4",
+    "@turf/distance": "^7.3.4",
+    "@turf/great-circle": "^7.3.4",
+    "@turf/helpers": "^7.3.4",
+    "@turf/midpoint": "^7.3.4",
+    "@types/topojson-client": "^3.1.5",
+    "@vercel/blob": "^2.8.2",
+    "cesium": "^1.140.0",
+    "drizzle-orm": "^0.45.2",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "lite-youtube-embed": "^0.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-leaflet": "^5.0.0",
+    "react-leaflet-cluster": "^4.0.0",
+    "react-router-dom": "^7.0.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.54.2",
+    "@openai/sites-vite-plugin": "^0.2.0",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/leaflet": "^1.9.0",
+    "@types/leaflet.markercluster": "^1.5.6",
+    "@types/node": "22.19.19",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "6.0.2",
+    "drizzle-kit": "^0.31.10",
+    "playwright": "^1.63.0",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^8.2.2",
+    "wrangler": "^4.127.1"
+  },
+  "overrides": {
+    "dompurify": "^3.4.17",
+    "@vercel/blob": {
+      "undici": "^6.29.1"
+    },
+    "miniflare": {
+      "undici": "^7.30.1"
+    },
+    "@vercel/cli-config": {
+      "zod": "^4.6.7"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "category": "animal",
+  "latitude": -8.5,
+  "longitude": 119.5,
+  "country_code": "ID",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Komodo Dragons live only on a few small islands in Indonesia — mainly Komodo, Rinca, Flores, and Gili Motang. They inhabit tropical dry forests, savannahs, and beaches on these volcanic islands.",
+  "fun_facts": [
+    "The Komodo Dragon is the world's largest living lizard — males can reach 3 metres long and weigh over 70 kilograms!",
+    "Its saliva contains over 50 different types of bacteria, and recent research also shows it has venom glands that prevent prey's blood from clotting.",
+    "Komodo Dragons can eat up to 80% of their own body weight in one meal, and after a big meal they need to rest for hours to digest.",
+    "Female Komodo Dragons can reproduce without a male through a process called parthenogenesis — making them excellent survivors!",
+    "Baby Komodo Dragons live up in trees when young to avoid being eaten by adults, including their own mothers."
+  ],
+  "media": [{"media_type": "image", "label": "Komodo Dragon", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Komodo Dragon",
+      "description": "The Komodo Dragon is the world's largest lizard, looking like a real-life dragon! Found only on a few islands in Indonesia, this powerful predator can take down prey much larger than itself using its sharp claws, strong tail, and venomous bite. They have even been known to attack humans!"
+    },
+    {
+      "lang": "vi",
+      "title": "Rồng Komodo",
+      "description": "Rồng Komodo là loài thằn lằn lớn nhất thế giới, trông giống như một con rồng thực sự! Chỉ được tìm thấy trên một vài hòn đảo ở Indonesia, kẻ săn mồi mạnh mẽ này có thể hạ gục con mồi lớn hơn nhiều so với bản thân bằng móng vuốt sắc, đuôi khỏe và cú cắn có độc. Chúng thậm chí còn được biết đến là tấn công cả con người!"
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "On which islands do Komodo Dragons live?",
+      "question_type": "single",
+      "options": ["The Galapagos Islands", "A few islands in Indonesia", "The islands of Japan", "The islands of the Philippines"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Rồng Komodo sống trên những đảo nào?",
+      "question_type": "single",
+      "options": ["Quần đảo Galápagos", "Một vài hòn đảo ở Indonesia", "Các đảo của Nhật Bản", "Các đảo của Philippines"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How long can a male Komodo Dragon grow?",
+      "question_type": "single",
+      "options": ["Up to 1 metre", "Up to 2 metres", "Up to 3 metres", "Up to 5 metres"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Rồng Komodo đực có thể dài đến bao nhiêu?",
+      "question_type": "single",
+      "options": ["Tới 1 mét", "Tới 2 mét", "Tới 3 mét", "Tới 5 mét"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

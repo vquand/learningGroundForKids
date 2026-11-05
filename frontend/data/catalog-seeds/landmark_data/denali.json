@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 63.0692,
+  "longitude": -151.007,
+  "country_code": "US",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Denali is the highest peak in North America, standing in the Alaska Range within Denali National Park and Preserve in the interior of the state of Alaska, United States.",
+  "fun_facts": [
+    "Denali is 6,190 meters above sea level, but measured from its base it is actually taller than Mount Everest — making it the biggest mountain on Earth by base-to-peak height!",
+    "Temperatures on Denali can drop to minus 73 degrees Celsius — colder than anywhere else on Earth outside of Antarctica!",
+    "Denali is so massive that it creates its own weather, with blizzards so fierce they can trap climbers in tents for days."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Denali",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Denali",
+      "description": "Denali is the highest mountain in North America, rising 6,190 meters into the frozen Alaskan sky. Its immense bulk dominates the vast wilderness of Alaska, surrounded by glaciers, bears, wolves, and moose roaming below. The name Denali means 'The High One' in the Athabascan language of the native peoples who have revered this mountain for thousands of years.",
+      "history": "Denali was known and deeply respected by the indigenous Athabascan peoples of Alaska long before European explorers arrived. The first confirmed summit was reached by Hudson Stuck, Harry Karstens, and two companions on June 7, 1913. The mountain was officially renamed from Mount McKinley to Denali in 2015, restoring the name the indigenous people had always used."
+    },
+    {
+      "lang": "vi",
+      "title": "Núi Denali",
+      "description": "Denali là ngọn núi cao nhất Bắc Mỹ, vươn lên 6.190 mét vào bầu trời lạnh giá của Alaska. Khối núi khổng lồ này chi phối vùng hoang dã rộng lớn của Alaska, với gấu, sói và nai lang thang bên dưới giữa các dòng băng. Tên Denali có nghĩa là 'Ngọn Cao' trong tiếng Athabascan của các dân tộc bản địa đã tôn thờ ngọn núi này hàng nghìn năm qua.",
+      "history": "Denali đã được các người dân bản địa Athabascan ở Alaska biết đến và kính trọng sâu sắc trước khi các nhà thám hiểm châu Âu đến. Đỉnh núi được xác nhận chinh phục lần đầu bởi Hudson Stuck, Harry Karstens và hai người bạn đồng hành vào ngày 7 tháng 6 năm 1913. Ngọn núi chính thức được đổi tên từ Mount McKinley sang Denali vào năm 2015, khôi phục lại tên mà người bản địa đã luôn dùng."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Denali is the highest mountain in which continent?",
+      "question_type": "single",
+      "options": ["South America", "Europe", "North America", "Asia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Denali là ngọn núi cao nhất ở châu lục nào?",
+      "question_type": "single",
+      "options": ["Nam Mỹ", "Châu Âu", "Bắc Mỹ", "Châu Á"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "In which US state is Denali located?",
+      "question_type": "single",
+      "options": ["Montana", "Colorado", "Alaska", "Wyoming"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Núi Denali nằm ở tiểu bang nào của Mỹ?",
+      "question_type": "single",
+      "options": ["Montana", "Colorado", "Alaska", "Wyoming"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -60000000,
+  "time_precision": "mya"
+}

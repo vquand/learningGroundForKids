@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 34.0522,
+  "longitude": -118.2437,
+  "country_code": "US",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Woody",
+      "image_url": null,
+      "description": "A loyal cowboy doll who is Andy's favorite toy and the leader of the toy room."
+    },
+    {
+      "name": "Buzz Lightyear",
+      "image_url": null,
+      "description": "A space ranger action figure who believes he is a real astronaut on a mission."
+    },
+    {
+      "name": "Rex",
+      "image_url": null,
+      "description": "A friendly but anxious green dinosaur toy who wants to be scary but is too nice."
+    },
+    {
+      "name": "Mr. Potato Head",
+      "image_url": null,
+      "description": "A grumpy but funny potato toy whose body parts can be popped on and off."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Toy Story poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Toy Story (1995)",
+      "description": "When a new space ranger toy named Buzz Lightyear arrives, cowboy Woody feels jealous and the two end up on a wild adventure to get back to their owner Andy.",
+      "history": "Toy Story was the world's first fully computer-animated feature film, made by Pixar, and it changed movies forever!"
+    },
+    {
+      "lang": "vi",
+      "title": "Câu Chuyện Đồ Chơi (1995)",
+      "description": "Khi một chú lính mục không gian tên Buzz Lightyear xuất hiện, chú cao bồi Woody cảm thấy ghen tị và cả hai phải cùng nhau phiêu lưu để trở về với chủ nhỏ Andy.",
+      "history": "Toy Story là bộ phim hoàn toàn làm bằng máy tính đầu tiên trên thế giới, được tạo ra bởi Pixar, và nó đã thay đổi lịch sử điện ảnh mãi mãi!"
+    }
+  ],
+  "start_year": 1995,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What kind of toy is Woody in Toy Story?",
+      "question_type": "single",
+      "options": ["A robot", "A dinosaur", "A cowboy doll", "A space ranger"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Woody là loại đồ chơi gì trong Câu Chuyện Đồ Chơi?",
+      "question_type": "single",
+      "options": ["Một con robot", "Một con khủng long", "Một búp bê cao bồi", "Một lính mục không gian"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Toy Story was the world's first fully computer-animated movie — which studio made it?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Blue Sky"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Toy Story là bộ phim hoạt hình máy tính đầu tiên trên thế giới — hãng phim nào đã tạo ra nó?",
+      "question_type": "single",
+      "options": ["Disney", "Pixar", "DreamWorks", "Blue Sky"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

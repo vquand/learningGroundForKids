@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 22.0964,
+  "longitude": -159.5261,
+  "country_code": "US",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Lilo",
+      "image_url": null,
+      "description": "A quirky and imaginative Hawaiian girl who loves Elvis Presley and adopts a strange alien she thinks is a dog."
+    },
+    {
+      "name": "Stitch",
+      "image_url": null,
+      "description": "A mischievous blue alien experiment who escapes to Hawaii and slowly learns what it means to have a family."
+    },
+    {
+      "name": "Nani",
+      "image_url": null,
+      "description": "Lilo's caring older sister who works hard to take care of Lilo and keep their little family together."
+    },
+    {
+      "name": "Jumba",
+      "image_url": null,
+      "description": "The mad scientist who created Stitch and is sent to Earth to bring him back, but ends up surprised by the power of ohana."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Lilo & Stitch poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Lilo & Stitch (2002)",
+      "description": "On the beautiful Hawaiian island of Kauai, a lonely girl named Lilo adopts a strange creature called Stitch who is actually a runaway alien experiment.",
+      "history": "Lilo and Stitch was one of the first Disney films set in Hawaii, and it introduced the Hawaiian word 'ohana' — meaning family — to children all over the world!"
+    },
+    {
+      "lang": "vi",
+      "title": "Lilo Và Stitch (2002)",
+      "description": "Trên hòn đảo Hawaii tuyệt đẹp Kauai, cô bé cô đơn tên Lilo nhận nuôi một sinh vật kỳ lạ tên Stitch, thực ra là một sinh vật ngoài hành tinh chạy trốn.",
+      "history": "Lilo và Stitch là một trong những phim Disney đầu tiên đặt tại Hawaii, và nó giới thiệu từ 'ohana' trong tiếng Hawaii — có nghĩa là gia đình — đến trẻ em toàn thế giới!"
+    }
+  ],
+  "start_year": 2002,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "On which island does the movie Lilo & Stitch take place?",
+      "question_type": "single",
+      "options": ["Maui", "Oahu", "Kauai", "Hawaii (Big Island)"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Phim Lilo & Stitch diễn ra trên hòn đảo nào?",
+      "question_type": "single",
+      "options": ["Maui", "Oahu", "Kauai", "Hawaii (Đảo lớn)"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What Hawaiian word meaning 'family' is introduced in Lilo & Stitch?",
+      "question_type": "single",
+      "options": ["Aloha", "Ohana", "Mahalo", "Hula"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Từ tiếng Hawaii có nghĩa là 'gia đình' được giới thiệu trong Lilo & Stitch là từ gì?",
+      "question_type": "single",
+      "options": ["Aloha", "Ohana", "Mahalo", "Hula"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

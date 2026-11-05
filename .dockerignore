@@ -1,0 +1,22 @@
+# Allow only application inputs; private files never enter the build context.
+**
+!Dockerfile
+!server/
+!server/**
+!frontend/
+!frontend/**
+!docker/
+!docker/**
+**/node_modules
+**/dist
+**/.env*
+**/.git
+**/.openai
+**/.wrangler
+**/coverage
+**/test-results
+**/playwright-report
+**/*.log
+**/*.pem
+**/*.key
+**/*client_secret*.json

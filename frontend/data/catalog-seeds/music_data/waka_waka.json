@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 10.9639,
+  "longitude": -74.7964,
+  "country_code": "CO",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Shakira",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Waka Waka — Shakira",
+      "description": "An energetic African-Latin pop song full of drums, dancing, and team spirit — Shakira's hips never lie and neither does this super fun anthem!",
+      "history": "Shakira from Barranquilla, Colombia performed this song as the official anthem of the 2010 FIFA World Cup in South Africa, and it became one of the most-watched music videos ever!"
+    },
+    {
+      "lang": "vi",
+      "title": "Waka Waka — Shakira",
+      "description": "Một bài hát Latin-châu Phi đầy năng lượng với trống trận và vũ điệu sôi động — bài hát chính thức của giải bóng đá World Cup 2010 khiến bạn muốn nhảy!",
+      "history": "Shakira từ Barranquilla, Colombia biểu diễn bài hát này là ca khúc chính thức của FIFA World Cup 2010 tại Nam Phi, và nó trở thành một trong những MV được xem nhiều nhất lịch sử!"
+    }
+  ],
+  "start_year": 2010,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "'Waka Waka' was the official song for which sporting event?", "question_type": "single", "options": ["Olympics 2012", "FIFA World Cup 2010", "UEFA Euro 2008", "Copa America 2011"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "'Waka Waka' là bài hát chính thức của sự kiện thể thao nào?", "question_type": "single", "options": ["Olympics 2012", "FIFA World Cup 2010", "UEFA Euro 2008", "Copa America 2011"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Shakira, who performed 'Waka Waka', is from which country?", "question_type": "single", "options": ["Mexico", "Brazil", "Colombia", "Venezuela"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Shakira, người biểu diễn 'Waka Waka', đến từ nước nào?", "question_type": "single", "options": ["Mexico", "Brazil", "Colombia", "Venezuela"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

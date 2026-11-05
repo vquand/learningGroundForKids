@@ -1,0 +1,70 @@
+{
+  "category": "animal",
+  "latitude": 31.0,
+  "longitude": -4.0,
+  "country_code": "MA",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Spinosaurus fossils were found in the Kem Kem fossil beds of Morocco and Egypt in North Africa. It lived along large river systems in a hot, swampy environment during the Middle Cretaceous period.",
+  "fun_facts": [
+    "Spinosaurus may have been the largest meat-eating dinosaur that ever lived — even bigger than T-Rex!",
+    "It had a tall sail or hump on its back made of long spines, possibly to help control its body temperature.",
+    "Spinosaurus spent a lot of time in water and was an expert fish-catcher — its nostrils were high up on its skull so it could breathe while half-submerged.",
+    "Its teeth were straight and cone-shaped, perfect for gripping slippery fish.",
+    "Scientists only discovered in 2020 that Spinosaurus had dense bones like a penguin, helping it dive underwater."
+  ],
+  "start_year": -100000000,
+  "end_year": -93000000,
+  "time_precision": "mya",
+  "media": [{"media_type": "image", "label": "Spinosaurus", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Spinosaurus",
+      "description": "Spinosaurus was a massive fish-eating dinosaur with a dramatic sail on its back, and it may have been even bigger than T-Rex! Unlike most dinosaurs, it loved the water and was an expert swimmer, hunting giant fish in the rivers of ancient North Africa about 95 million years ago."
+    },
+    {
+      "lang": "vi",
+      "title": "Khủng Long Cánh Buồm",
+      "description": "Spinosaurus là loài khủng long khổng lồ ăn cá với cái buồm ấn tượng trên lưng, và nó có thể còn to hơn cả T-Rex! Khác với hầu hết các loài khủng long, nó thích nước và bơi rất giỏi, săn những con cá khổng lồ ở các con sông Bắc Phi cổ đại vào khoảng 95 triệu năm trước."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What did Spinosaurus mainly eat?",
+      "question_type": "single",
+      "options": ["Plants and leaves", "Other large dinosaurs", "Fish", "Insects"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Spinosaurus chủ yếu ăn gì?",
+      "question_type": "single",
+      "options": ["Cây cỏ và lá cây", "Khủng long lớn khác", "Cá", "Côn trùng"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Where were Spinosaurus fossils found?",
+      "question_type": "single",
+      "options": ["South America", "North Africa (Morocco and Egypt)", "Australia", "Europe"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hóa thạch Spinosaurus được tìm thấy ở đâu?",
+      "question_type": "single",
+      "options": ["Nam Mỹ", "Bắc Phi (Ma-rốc và Ai Cập)", "Úc", "Châu Âu"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

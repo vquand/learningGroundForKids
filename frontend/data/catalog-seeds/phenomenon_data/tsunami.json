@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 35.6762,
+  "longitude": 139.6503,
+  "country_code": "JP",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "A tsunami wave in the deep ocean can travel as fast as a jet airplane — around 800 kilometres per hour — but it is so flat you might not even notice it passing under your boat!",
+    "Japan has special tall stone warning markers hundreds of years old that say 'Do not build houses below this line' to keep villages safe from tsunamis.",
+    "Before a tsunami arrives, the ocean sometimes pulls way back from the beach like a giant is taking a big breath — that is the time to run to high ground!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Tsunami",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Tsunami",
+      "description": "A tsunami is a series of enormous ocean waves caused by an underwater earthquake or volcanic eruption, which can travel across entire oceans and surge far onto land.",
+      "history": "Japan sits on the Pacific Ring of Fire and has experienced more tsunamis than any other country, leading the Japanese people to develop the world's most advanced early-warning and evacuation systems."
+    },
+    {
+      "lang": "vi",
+      "title": "Sóng Thần",
+      "description": "Sóng thần là một loạt sóng biển khổng lồ gây ra bởi động đất hoặc núi lửa dưới nước, có thể du hành qua cả đại dương và tràn sâu vào đất liền.",
+      "history": "Nhật Bản nằm trên Vành Đai Lửa Thái Bình Dương và đã trải qua nhiều sóng thần hơn bất kỳ quốc gia nào khác, khiến người Nhật xây dựng hệ thống cảnh báo sớm và sơ tán tiên tiến nhất thế giới."
+    }
+  ],
+  "start_year": 684,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What causes a tsunami?",
+      "question_type": "single",
+      "options": ["Very strong ocean winds", "An underwater earthquake or volcanic eruption", "Heavy rainfall at sea", "A very large whale"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Điều gì gây ra sóng thần?",
+      "question_type": "single",
+      "options": ["Gió biển rất mạnh", "Động đất hoặc núi lửa phun trào dưới nước", "Mưa lớn trên biển", "Một con cá voi rất lớn"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How fast can a tsunami travel across the deep ocean?",
+      "question_type": "single",
+      "options": ["10 km/h", "100 km/h", "400 km/h", "Around 800 km/h"],
+      "correct_answers": [3],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Sóng thần có thể di chuyển nhanh bao nhiêu qua đại dương sâu?",
+      "question_type": "single",
+      "options": ["10 km/h", "100 km/h", "400 km/h", "Khoảng 800 km/h"],
+      "correct_answers": [3],
+      "sort_order": 1
+    }
+  ]
+}

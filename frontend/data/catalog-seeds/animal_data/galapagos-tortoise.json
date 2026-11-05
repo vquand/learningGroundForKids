@@ -1,0 +1,67 @@
+{
+  "category": "animal",
+  "latitude": -0.5,
+  "longitude": -90.5,
+  "country_code": "EC",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Galápagos Tortoises live only on the Galápagos Islands, a remote archipelago in the Pacific Ocean belonging to Ecuador. Different species live on different islands, adapted to each island's unique environment — from lush highland forests to dry volcanic lowlands.",
+  "fun_facts": [
+    "Galápagos Tortoises are the world's largest tortoises — they can weigh over 400 kg and live for more than 170 years!",
+    "Charles Darwin's observations of the different tortoise shapes on different islands helped inspire his theory of evolution.",
+    "The famous tortoise 'Lonesome George' was the last of his subspecies and died in 2012, making his subspecies extinct.",
+    "Galápagos Tortoises can go for up to a year without eating or drinking by slowly using stored fat and water.",
+    "When tortoises on flat islands stretch their necks to reach cacti, over time this led some populations to evolve longer necks and saddle-shaped shells."
+  ],
+  "media": [{"media_type": "image", "label": "Galápagos Tortoise", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Galápagos Tortoise",
+      "description": "The Galápagos Tortoise is the world's largest tortoise and can live to be over 170 years old — some alive today may have been born before your great-great-great-grandparents! These slow, gentle giants live on the remote Galápagos Islands and helped inspire Charles Darwin's famous theory of evolution."
+    },
+    {
+      "lang": "vi",
+      "title": "Rùa Galápagos",
+      "description": "Rùa Galápagos là loài rùa cạn lớn nhất thế giới và có thể sống hơn 170 tuổi — một số con vẫn còn sống hôm nay có thể đã được sinh ra trước cả cụ cố của bạn! Những người khổng lồ chậm chạp và hiền lành này sống trên các đảo Galápagos xa xôi và đã giúp truyền cảm hứng cho lý thuyết tiến hóa nổi tiếng của Charles Darwin."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "How long can a Galápagos Tortoise live?",
+      "question_type": "single",
+      "options": ["Up to 50 years", "Up to 80 years", "Up to 120 years", "Over 170 years"],
+      "correct_answers": [3],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Rùa Galápagos có thể sống bao lâu?",
+      "question_type": "single",
+      "options": ["Tới 50 tuổi", "Tới 80 tuổi", "Tới 120 tuổi", "Trên 170 tuổi"],
+      "correct_answers": [3],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which scientist was inspired by the Galápagos Tortoises when forming his theory of evolution?",
+      "question_type": "single",
+      "options": ["Isaac Newton", "Albert Einstein", "Charles Darwin", "Louis Pasteur"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Nhà khoa học nào đã được Rùa Galápagos truyền cảm hứng khi xây dựng lý thuyết tiến hóa?",
+      "question_type": "single",
+      "options": ["Isaac Newton", "Albert Einstein", "Charles Darwin", "Louis Pasteur"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

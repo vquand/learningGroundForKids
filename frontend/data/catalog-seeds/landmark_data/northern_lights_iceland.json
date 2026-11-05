@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 64.9631,
+  "longitude": -19.0208,
+  "country_code": "IS",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "The Northern Lights (Aurora Borealis) are a natural light display visible across Iceland, especially away from the capital Reykjavik, caused by solar particles colliding with Earth's atmosphere.",
+  "fun_facts": [
+    "The Northern Lights are actually caused by tiny particles from the Sun crashing into Earth's air at over 700 kilometers per second — the air glows like a neon sign!",
+    "Green is the most common color, but the lights can also be purple, pink, red, and blue depending on which gas the particles hit and how high up they are.",
+    "In Norse mythology, the Northern Lights were thought to be the light reflected off the shields of the Valkyries — warrior women riding horses across the sky."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Northern Lights Iceland",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Northern Lights",
+      "description": "The Northern Lights, or Aurora Borealis, are one of the most breathtaking natural shows on Earth — curtains and ribbons of glowing green, purple, and pink light that dance silently across the night sky. Iceland is one of the very best places in the world to see them because it sits directly under the auroral oval, a ring around the North Pole where the lights appear most often. Watching them ripple and shift overhead in the dark, frozen Icelandic night is pure magic.",
+      "history": "The aurora is created when charged particles blasted from the Sun travel 150 million kilometers through space and are funneled toward Earth's poles by its magnetic field, where they collide with gas molecules and release light. Ancient peoples around the Arctic gave the lights rich mythological meanings — Norse sagas linked them to the gods, and Inuit stories described them as spirits playing games. The scientific explanation was not worked out until the early 20th century by Norwegian physicist Kristian Birkeland, who demonstrated that solar particles caused the display."
+    },
+    {
+      "lang": "vi",
+      "title": "Cực Quang Bắc",
+      "description": "Cực Quang Bắc, hay Con Đường Bắc Cực, là một trong những màn trình diễn thiên nhiên ngoạn mục nhất Trái Đất — những tấm màn và dải lụa xanh lá, tím và hồng phát sáng nhảy múa im lặng trên bầu trời đêm. Iceland là một trong những nơi tốt nhất thế giới để ngắm chúng vì nó nằm ngay dưới vòng cung cực quang, một vòng quanh Bắc Cực nơi ánh sáng xuất hiện thường xuyên nhất. Nhìn chúng gợn sóng và biến đổi trên đầu trong đêm lạnh tối ở Iceland là một cảm giác thần tiên thuần túy.",
+      "history": "Hiện tượng cực quang xảy ra khi các hạt mang điện từ Mặt Trời phóng ra đi qua 150 triệu kilômét trong vũ trụ và được dẫn vào các cực của Trái Đất bởi từ trường của nó, nơi chúng va chạm vào phân tử khí và phát ra ánh sáng. Các dân tộc cổ xưa ở Bắc Cực gán cho những ánh sáng này nhiều ý nghĩa thần thoại phong phú — các truyền thuyết Bắc Âu liên kết chúng với các vị thần, và câu chuyện Inuit mô tả chúng là các linh hồn đang chơi trò. Giải thích khoa học chính xác không được giải quyết cho đến đầu thế kỷ 20 bởi nhà vật lý Na Uy Kristian Birkeland, người chứng minh rằng các hạt từ Mặt Trời gây ra hiện tượng này."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "The Northern Lights are best seen from which country in this entry?",
+      "question_type": "single",
+      "options": ["Norway", "Finland", "Iceland", "Sweden"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Cực Quang Bắc được nhìn thấy tốt nhất ở nước nào theo bài này?",
+      "question_type": "single",
+      "options": ["Na Uy", "Phần Lan", "Iceland", "Thụy Điển"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What causes the Northern Lights?",
+      "question_type": "single",
+      "options": ["Moonlight bouncing off clouds", "Charged particles from the Sun hitting Earth's atmosphere", "Lightning storms in the Arctic", "Reflections from polar ice caps"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điều gì tạo ra Cực Quang Bắc?",
+      "question_type": "single",
+      "options": ["Ánh trăng phản chiếu từ mây", "Các hạt mang điện từ Mặt Trời va vào khí quyển Trái Đất", "Bão sét ở Bắc Cực", "Phản chiếu từ các chỏm băng cực"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -16000000,
+  "time_precision": "mya"
+}

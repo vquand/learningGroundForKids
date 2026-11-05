@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 5.1742,
+  "longitude": -59.4803,
+  "country_code": "GY",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Kaieteur Falls is set deep within Kaieteur National Park in the Potaro-Siparuni region of central Guyana, where the Potaro River plunges off the Pakaraima Plateau.",
+  "fun_facts": [
+    "Kaieteur Falls is about five times taller than Niagara Falls and carries a huge amount of water — making it the most powerful waterfall in the whole world by some measurements!",
+    "Tiny golden frogs called 'golden rocket frogs' live only in the plants at the top of Kaieteur Falls and nowhere else on Earth.",
+    "Because it is so remote and deep in the jungle, Kaieteur Falls was only seen by someone outside the local area for the first time in 1870 — just over 150 years ago!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Kaieteur Falls",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Kaieteur Falls",
+      "description": "Kaieteur Falls is one of the most powerful and dramatic waterfalls on Earth, hidden deep inside the Amazon jungle of Guyana, South America. The Potaro River suddenly drops 226 metres straight down over the edge of an ancient plateau, sending up clouds of mist so thick they feed the plants growing on the cliff face. Very few people ever get to see it because it is so far from any city.",
+      "history": "The Patamona indigenous people have lived near Kaieteur Falls for thousands of years and their legend says the falls were created when a great chief named Kai paddled his canoe over the edge as a sacrifice to the great spirit Makonaima. British geologist Charles Barrington Brown became the first outsider to document the falls in 1870. The falls remain one of Guyana's most pristine and unspoiled natural wonders today."
+    },
+    {
+      "lang": "vi",
+      "title": "Thác Kaieteur",
+      "description": "Thác Kaieteur là một trong những thác nước mạnh mẽ và ấn tượng nhất trên Trái Đất, ẩn sâu bên trong rừng Amazon của Guyana, Nam Mỹ. Sông Potaro đột ngột đổ xuống 226 mét thẳng đứng qua rìa một cao nguyên cổ xưa, tạo ra những đám sương mù dày đặc đến mức nuôi dưỡng cả cây trong mọc trên mặt vách đá. Rất ít người được nhìn thấy nó vì nó quá xa so với bất kỳ thành phố nào.",
+      "history": "Người bản địa Patamona đã sống gần Thác Kaieteur từ hàng nghìn năm trước và huyền thoại của họ kể rằng thác được tạo ra khi một tù trưởng vĩ đại tên Kai chèo thuyền độc của mình qua rìa bờ như một vật hiến tế cho thần linh vĩ đại Makonaima. Nhà địa chất người Anh Charles Barrington Brown trở thành người ngoài đầu tiên ghi chép về thác vào năm 1870. Thác nước vẫn là một trong những kỳ quan thiên nhiên nguyên sơ và chưa bị xâm phạm nhất của Guyana ngày nay."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Kaieteur Falls located?",
+      "question_type": "single",
+      "options": ["Venezuela", "Suriname", "Guyana", "Brazil"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Thác Kaieteur nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Venezuela", "Suriname", "Guyana", "Brazil"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How tall is Kaieteur Falls?",
+      "question_type": "single",
+      "options": ["57 metres", "108 metres", "226 metres", "979 metres"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Thác Kaieteur cao bao nhiêu mét?",
+      "question_type": "single",
+      "options": ["57 mét", "108 mét", "226 mét", "979 mét"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -100000000,
+  "time_precision": "mya"
+}

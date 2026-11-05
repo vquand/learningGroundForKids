@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 41.8781,
+  "longitude": -87.6298,
+  "country_code": "US",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "A derecho can race across the land at over 100 km/h and travel more than 1,000 km in a single day — that is like driving from Hanoi to Ho Chi Minh City without stopping!",
+    "Unlike a tornado that spins in circles, a derecho charges straight ahead like a bulldozer — its name even means 'straight' in Spanish!",
+    "A single derecho storm system can be as wide as 400 km and bring damaging winds to an enormous stretch of land all at once."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Derecho",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Derecho",
+      "description": "A derecho is a long, fast-moving band of violent thunderstorms that travels in a straight line, bringing strong straight-line winds and heavy rain across huge distances.",
+      "history": "The American Midwest, near Chicago, is a common path for derechos — these powerful storm systems race across the flat plains, covering over 1,000 km in a single day and affecting millions of people at once."
+    },
+    {
+      "lang": "vi",
+      "title": "Bão Thẳng (Derecho)",
+      "description": "Bão thẳng là một dải bão dữ dội di chuyển nhanh theo đường thẳng, mang theo gió mạnh thẳng hàng và mưa lớn trên một quãng đường rất dài.",
+      "history": "Vùng Trung Tây nước Mỹ, gần Chicago, là con đường thường xuyên của các trận bão thẳng. Những hệ thống bão mạnh này lao nhanh qua đồng bằng phẳng rộng lớn, vượt hơn 1.000 km trong một ngày và ảnh hưởng đến hàng triệu người cùng lúc."
+    }
+  ],
+  "start_year": 1888,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What does 'derecho' mean in Spanish?",
+      "question_type": "single",
+      "options": ["Spiral", "Straight", "Thunder", "Fast"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "'Derecho' có nghĩa là gì trong tiếng Tây Ban Nha?",
+      "question_type": "single",
+      "options": ["Xoắn ốc", "Thẳng", "Sấm sét", "Nhanh"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How far can a derecho travel in a single day?",
+      "question_type": "single",
+      "options": ["100 km", "500 km", "Over 1,000 km", "50 km"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Bão thẳng có thể di chuyển bao xa trong một ngày?",
+      "question_type": "single",
+      "options": ["100 km", "500 km", "Hơn 1.000 km", "50 km"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

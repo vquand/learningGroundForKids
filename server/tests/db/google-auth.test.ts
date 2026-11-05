@@ -1,0 +1,43 @@
+import { LEGAL_VERSION } from '../../src/legal.js';
+import assert from 'node:assert/strict';
+import {test} from 'node:test';
+import {randomUUID} from 'node:crypto';
+import {drizzle} from 'drizzle-orm/node-postgres';
+import {migrate} from 'drizzle-orm/node-postgres/migrator';
+import {Pool} from 'pg';
+import {fileURLToPath} from 'node:url';
+import {assertSafeTestDatabaseUrl} from '../../src/db/test-database.js';
+import {createGoogleAuthRepository,GOOGLE_ONLY_PASSWORD} from '../../src/google-auth/repository.js';
+const url=process.env.TEST_DATABASE_URL;
+test('verified-email linking preserves family/password; concurrent first sign-in creates one family',{skip:url?false:'TEST_DATABASE_URL not configured'},async()=>{
+ const pool=new Pool({connectionString:assertSafeTestDatabaseUrl(url!)}),orm=drizzle(pool),repo=createGoogleAuthRepository(orm);
+ const prefix=randomUUID(),existing=randomUUID(),email=`${prefix}@test.local`,subject=`${prefix}-existing`,fresh={sub:prefix+'-new',email:`${prefix}-new@test.local`,name:'New family'};
+ try{
+  await migrate(orm,{migrationsFolder:fileURLToPath(new URL('../../drizzle',import.meta.url))});
+  await pool.query('INSERT INTO families(id,email,display_name,password_hash) VALUES($1,$2,$3,$4)',[existing,email,'Existing name','original-hash']);
+  const owner=await repo.resolveIdentity({sub:subject,email,name:'Google name'},false);assert.equal(owner.id,existing);assert.equal(owner.passwordHash,'original-hash');assert.equal(owner.displayName,'Existing name');
+  assert.equal((await repo.resolveIdentity({sub:subject,email:'changed-email@test.local',name:'Other'},false)).id,existing);
+  await assert.rejects(()=>repo.resolveIdentity({...fresh,sub:prefix+'-other',email},true),/different Google account/);
+  await assert.rejects(()=>repo.resolveIdentity(fresh,false,LEGAL_VERSION),/registration.*closed/);
+  await assert.rejects(()=>repo.resolveIdentity(fresh,false), /Accept the legal text/);
+  await assert.rejects(()=>repo.resolveIdentity(fresh,true), /Accept the legal text/);
+  await assert.rejects(()=>repo.resolveIdentity(fresh,true,'stale'), /legal text has changed/);
+  assert.equal((await pool.query('SELECT id FROM families WHERE email=$1',[fresh.email])).rows.length,0);
+  await repo.resolveIdentity({sub:subject,email,name:'Existing signup'},true,LEGAL_VERSION);
+  const copies=await Promise.all(Array.from({length:5},()=>repo.resolveIdentity(fresh,true,LEGAL_VERSION)));assert.ok(copies.every(row=>row.id===copies[0]!.id));assert.equal(copies[0]!.passwordHash,GOOGLE_ONLY_PASSWORD);
+  const consent=await pool.query('SELECT id, legal_accepted_at, legal_accepted_version FROM families WHERE id=ANY($1)',[[existing,copies[0]!.id]]);
+  assert.equal(consent.rows.find(row=>row.id===existing).legal_accepted_at,null);
+  assert.equal(consent.rows.find(row=>row.id===existing).legal_accepted_version,null);
+  assert.ok(consent.rows.find(row=>row.id===copies[0]!.id).legal_accepted_at instanceof Date);
+  assert.equal(consent.rows.find(row=>row.id===copies[0]!.id).legal_accepted_version,LEGAL_VERSION);
+  const saved=consent.rows.find(row=>row.id===copies[0]!.id).legal_accepted_at;
+  await repo.resolveIdentity(fresh,false);
+  assert.deepEqual((await pool.query('SELECT legal_accepted_at FROM families WHERE id=$1',[copies[0]!.id])).rows[0].legal_accepted_at,saved);
+  const onboarding=await pool.query('SELECT onboarding_dismissed FROM families WHERE id=ANY($1)',[[existing,copies[0]!.id]]);assert.equal(onboarding.rows.filter(row=>row.onboarding_dismissed===false).length,1);
+  await pool.query('UPDATE families SET is_active=false WHERE id=$1',[existing]);await assert.rejects(()=>repo.resolveIdentity({sub:subject,email,name:'Blocked'},true),/cannot use/);
+  await pool.query("UPDATE families SET role='admin',is_active=true WHERE id=$1",[existing]);await assert.rejects(()=>repo.resolveIdentity({sub:subject,email,name:'Admin'},true),/cannot use/);
+  await repo.createTransaction({tokenHash:prefix,verifier:'verifier',purpose:'signup',legalVersion:LEGAL_VERSION,familyId:null,sessionHash:null,expiresAt:new Date(Date.now()+60_000)});
+  const consumed=(await Promise.all([repo.consumeTransaction(prefix,new Date()),repo.consumeTransaction(prefix,new Date())])).filter(Boolean);
+  assert.equal(consumed.length,1);assert.equal(consumed[0]?.purpose,'signup');assert.equal(consumed[0]?.legalVersion,LEGAL_VERSION);
+ }finally{await pool.query('DELETE FROM families WHERE id=$1 OR email=$2',[existing,fresh.email]);await pool.query('DELETE FROM google_auth_transactions WHERE token_hash=$1',[prefix]);await pool.end();}
+});

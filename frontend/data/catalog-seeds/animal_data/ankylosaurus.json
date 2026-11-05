@@ -1,0 +1,70 @@
+{
+  "category": "animal",
+  "latitude": 47.5,
+  "longitude": -106.5,
+  "country_code": "US",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Ankylosaurus fossils were found in Montana, Wyoming, and Alberta (Canada). It lived in forests and floodplains of western North America during the very end of the Cretaceous period.",
+  "fun_facts": [
+    "Ankylosaurus was like a living tank — its whole body was covered in thick bony armour plates called osteoderms.",
+    "The club at the end of its tail was made of solid bone and could deliver a powerful blow to break a predator's leg!",
+    "Even its eyelids had bony armour to protect its eyes.",
+    "Ankylosaurus was a plant eater, cropping low-growing vegetation with its wide, flat beak.",
+    "It was one of the heaviest dinosaurs around during the Late Cretaceous — weighing up to 8 tonnes."
+  ],
+  "start_year": -68000000,
+  "end_year": -66000000,
+  "time_precision": "mya",
+  "media": [{"media_type": "image", "label": "Ankylosaurus", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Ankylosaurus",
+      "description": "Ankylosaurus was the ultimate armoured dinosaur! Covered from head to tail in thick bony plates and spikes, it also had a huge solid-bone club at the end of its tail to smash predators. This plant-eating tank lived in North America 66 to 68 million years ago."
+    },
+    {
+      "lang": "vi",
+      "title": "Khủng Long Bọc Giáp",
+      "description": "Ankylosaurus là loài khủng long bọc giáp tối thượng! Được bao phủ từ đầu đến đuôi bằng các tấm xương dày và gai nhọn, nó còn có một cái dùi cui bằng xương đặc ở cuối đuôi để đập kẻ săn mồi. Chiếc xe tăng ăn cỏ này sống ở Bắc Mỹ từ 66 đến 68 triệu năm trước."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What weapon did Ankylosaurus have at the end of its tail?",
+      "question_type": "single",
+      "options": ["Sharp spikes", "A solid-bone club", "Long whip-like tail", "Venomous barbs"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Ankylosaurus có vũ khí gì ở cuối đuôi?",
+      "question_type": "single",
+      "options": ["Gai nhọn", "Dùi cui bằng xương đặc", "Đuôi dài như roi", "Ngạnh có độc"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Ankylosaurus was covered in bony armour. What were these plates called?",
+      "question_type": "single",
+      "options": ["Scutes", "Osteoderms", "Carapace", "Scales"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Ankylosaurus được bao phủ bởi giáp xương. Những tấm này được gọi là gì?",
+      "question_type": "single",
+      "options": ["Scutes", "Osteoderms", "Carapace", "Vảy"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

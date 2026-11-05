@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 17.3159,
+  "longitude": -87.5347,
+  "country_code": "BZ",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Located off the coast of Belize in the Caribbean Sea at Lighthouse Reef Atoll, the Great Blue Hole is a massive marine sinkhole and UNESCO World Heritage Site.",
+  "fun_facts": [
+    "The Great Blue Hole is perfectly circular and so large that you could fit four Eiffel Towers standing end-to-end inside it from top to bottom!",
+    "From an airplane or satellite, the hole glows a deep, electric blue surrounded by the bright turquoise of the shallow reef — it looks like a giant eye looking back at you from the ocean.",
+    "Giant stalactites up to 12 metres long hang from the underwater walls of the hole, proving it was once a dry cave that flooded when sea levels rose after the last Ice Age."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Great Blue Hole",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Great Blue Hole",
+      "description": "The Great Blue Hole off the coast of Belize is one of the most spectacular natural wonders visible from space, appearing as a perfect dark blue circle more than 300 metres wide in the middle of a brilliant turquoise reef. It plunges over 125 metres straight down into the ocean floor, creating a dramatic drop-off that draws divers from around the world. The vivid colour contrast between the deep hole and the surrounding shallow reef makes it look like a giant dark eye gazing up from the sea.",
+      "history": "The Great Blue Hole began forming over 150,000 years ago as a limestone cave system on dry land, shaped by rainwater dissolving the rock over millennia. When the last Ice Age ended around 10,000 years ago, sea levels rose dramatically and flooded the cave, collapsing its roof to create the circular sinkhole visible today. The site was made world famous by ocean explorer Jacques Cousteau, who visited in 1971 and declared it one of the top five scuba diving sites on the planet."
+    },
+    {
+      "lang": "vi",
+      "title": "Hố Xanh Vĩ Đại",
+      "description": "Hố Xanh Vĩ Đại ngoài khơi Belize là một trong những kỳ quan thiên nhiên đẹp mắt nhất có thể nhìn thấy từ vũ trụ, hiện ra như một vòng tròn xanh thẳm rộng hơn 300 mét giữa một rạn san hô xanh ngọc bích rực rỡ. Nó lún sâu hơn 125 mét thẳng đứng xuống đáy đại dương, tạo ra một vách dốc ấn tượng thu hút thợ lặn từ khắp nơi trên thế giới. Sự tương phản màu sắc tươi tối giữa cái hố sâu và rạn san hô nông xung quanh khiến nó trông giống như một đôi mắt đen khổng lồ đang nhìn lên từ biển cả.",
+      "history": "Hố Xanh Vĩ Đại bắt đầu hình thành cả 150.000 năm trước khi là một hệ thống hang động đá vôi trên mặt đất khô, được tạo ra bởi nước mưa hòa tan đá qua nhiều thế kỷ. Khi Kỳ băng hà kết thúc khoảng 10.000 năm trước, mực nước biển tăng mạnh và nhấn chìm hang động, làm sụp mái của nó tạo ra cái hố tròn hiện thấy ngày nay. Địa danh này được nhà thám hiểm đại dương Jacques Cousteau làm cho nổi tiếng trên toàn thế giới khi ông đến thăm vào năm 1971 và tuyên bố đây là một trong năm điểm lặn biển tuyệt vời nhất hành tinh."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is the Great Blue Hole located?",
+      "question_type": "single",
+      "options": ["Mexico", "Cuba", "Belize", "Honduras"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hố Xanh Vĩ Đại nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Mexico", "Cuba", "Belize", "Honduras"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "The Great Blue Hole was once which type of geological feature?",
+      "question_type": "single",
+      "options": ["A volcano crater", "A dry cave on land", "A river delta", "A mountain top"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hố Xanh Vĩ Đại trước đây từng là loại địa hình nào?",
+      "question_type": "single",
+      "options": ["Miệng núi lửa", "Hang động khô trên đất liền", "Châu thổ sông", "Đỉnh núi"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -15000,
+  "time_precision": "kya"
+}

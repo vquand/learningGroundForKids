@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 21.3069,
+  "longitude": -157.8583,
+  "country_code": "US",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Start with a bowl of fluffy white rice. Add cubes of fresh tuna or salmon that have been mixed with soy sauce and sesame oil. Top with avocado slices, edamame, cucumber, and a sprinkle of sesame seeds for a colorful, healthy meal!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Poke Bowl",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Poke Bowl",
+      "description": "A poke bowl is a colorful bowl filled with fresh raw fish, rice, and lots of tasty toppings like avocado, cucumber, and seaweed. It comes from the beautiful islands of Hawaii and is as fun to look at as it is to eat!",
+      "history": "Poke (say it like 'poh-kay') is a traditional Hawaiian dish where fishermen would season leftover fish scraps with sea salt and seaweed. Over time it grew into the beautiful, rainbow-colored bowl we know and love today."
+    },
+    {
+      "lang": "vi",
+      "title": "Cơm Trộn Poke",
+      "description": "Poke bowl là một tô cơm đầy màu sắc với cá tươi sống, cơm và nhiều nguyên liệu ngon như bơ, dưa leo và rong biển. Món ăn này đến từ những hòn đảo tuyệt đẹp của Hawaii!",
+      "history": "Poke là món ăn truyền thống của Hawaii, nơi những người đánh cá ướp cá tươi với muối biển và rong biển. Theo thời gian, nó phát triển thành chiếc tô cơm nhiều màu sắc đẹp mắt mà chúng ta biết đến ngày nay."
+    }
+  ],
+  "start_year": 1970,
+  "time_precision": "decade",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Poke Bowl is a traditional dish from which US island?",
+      "question_type": "single",
+      "options": ["Puerto Rico", "Guam", "Hawaii", "Alaska"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Poke Bowl là món ăn truyền thống từ đảo Mỹ nào?",
+      "question_type": "single",
+      "options": ["Puerto Rico", "Guam", "Hawaii", "Alaska"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What type of fish is most commonly used in Poke Bowls?",
+      "question_type": "single",
+      "options": ["Cod", "Tuna or Salmon", "Tilapia", "Catfish"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Loại cá nào thường được dùng nhất trong Poke Bowl?",
+      "question_type": "single",
+      "options": ["Cá tuyết", "Cá ngừ hoặc cá hồi", "Cá rô phi", "Cá da trơn"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

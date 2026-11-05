@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 35.1495,
+  "longitude": -90.049,
+  "country_code": "US",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Justin Timberlake",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Can't Stop the Feeling! — Justin Timberlake",
+      "description": "A super bouncy, happy pop song from the Trolls movie that makes it impossible to sit still — your feet will just start dancing on their own!",
+      "history": "Justin Timberlake, who grew up in Memphis, Tennessee, wrote this song for the 2016 Trolls movie and it won a Grammy Award for Best Original Song!"
+    },
+    {
+      "lang": "vi",
+      "title": "Can't Stop the Feeling! — Justin Timberlake",
+      "description": "Một bài hát pop sôi động và vui nhộn từ phim Trolls — bạn sẽ không thể đứng yên được, đôi chân của bạn sẽ tự nhảy thôi!",
+      "history": "Justin Timberlake, lớn lên ở Memphis, Tennessee, viết bài hát này cho phim Trolls năm 2016 và nó đã giành được giải Grammy cho Bài Hát Gốc Hay Nhất!"
+    }
+  ],
+  "start_year": 2016,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Which movie featured 'Can't Stop the Feeling'?", "question_type": "single", "options": ["Shrek", "Trolls", "Moana", "Frozen"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Bộ phim nào có bài hát 'Can't Stop the Feeling'?", "question_type": "single", "options": ["Shrek", "Trolls", "Moana", "Frozen"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "Who sang 'Can't Stop the Feeling'?", "question_type": "single", "options": ["Bruno Mars", "Justin Bieber", "Justin Timberlake", "Ed Sheeran"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Ai hát bài 'Can't Stop the Feeling'?", "question_type": "single", "options": ["Bruno Mars", "Justin Bieber", "Justin Timberlake", "Ed Sheeran"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

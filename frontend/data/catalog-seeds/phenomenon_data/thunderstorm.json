@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 10.666,
+  "longitude": -71.641,
+  "country_code": "VE",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "Lake Maracaibo in Venezuela has up to 1 million lightning strikes every year — that is the most lightning of any place on Earth!",
+    "Lightning is five times hotter than the surface of the Sun — in just one second, it heats the air around it to 30,000 degrees!",
+    "The thunderstorm at Lake Maracaibo lights up the sky so brightly that sailors used it as a lighthouse to navigate at sea for hundreds of years!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Thunderstorm & Lightning",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Thunderstorm & Lightning",
+      "description": "A thunderstorm is a powerful weather event with dark clouds, heavy rain, bright flashes of lightning, and booming thunder that rumbles across the sky.",
+      "history": "Lake Maracaibo in Venezuela is the lightning capital of the world — a special meeting of warm lake air and cool mountain winds creates almost nonstop thunderstorms here, producing up to 1 million lightning strikes every year."
+    },
+    {
+      "lang": "vi",
+      "title": "Bão Sấm Sét (Thunderstorm)",
+      "description": "Bão sấm sét là hiện tượng thời tiết mạnh mẽ với mây đen, mưa lớn, tia sét sáng chói và tiếng sấm ran vang khắp bầu trời.",
+      "history": "Hồ Maracaibo ở Venezuela là thủ đô sét của thế giới. Sự gặp gỡ đặc biệt của không khí ấm từ hồ và gió lạnh từ núi tạo ra bão sấm sét gần như không ngừng nghỉ, với đến 1 triệu tia sét mỗi năm."
+    }
+  ],
+  "start_year": -3000,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What makes up a thunderstorm?",
+      "question_type": "single",
+      "options": ["Only heavy snow", "Dark clouds, heavy rain, lightning, and thunder", "Only strong winds", "Fog and drizzle"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Bão sấm sét bao gồm những gì?",
+      "question_type": "single",
+      "options": ["Chỉ có tuyết dày", "Mây đen, mưa lớn, sét và sấm", "Chỉ có gió mạnh", "Sương mù và mưa phùn"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Which lake in Venezuela has the most lightning strikes on Earth?",
+      "question_type": "single",
+      "options": ["Lake Titicaca", "Lake Maracaibo", "Lake Victoria", "Lake Baikal"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Hồ nào ở Venezuela có nhiều tia sét nhất trên Trái Đất?",
+      "question_type": "single",
+      "options": ["Hồ Titicaca", "Hồ Maracaibo", "Hồ Victoria", "Hồ Baikal"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

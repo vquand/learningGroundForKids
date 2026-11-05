@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 50.0917,
+  "longitude": 14.4016,
+  "country_code": "CZ",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Hradcany, 119 08 Prague 1, Czech Republic",
+  "fun_facts": [
+    "Prague Castle is the largest ancient castle in the world — it is so big it could fit about 70 football fields inside it!",
+    "The castle has been the home of Czech kings, emperors, and presidents for over 1,100 years without stopping.",
+    "Inside the castle there is a tiny street called Golden Lane where tiny colorful houses were once home to castle guards and alchemists trying to turn metals into gold."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Prague Castle",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Prague Castle",
+      "description": "Prague Castle is a vast complex of palaces, churches, and gardens perched on a hill above the city of Prague, Czech Republic, and is recognized as the largest ancient castle complex in the world. Its skyline of spires and towers is one of the most iconic views in all of Europe.",
+      "history": "The castle was founded around 880 AD by Prince Borivoj and has served as the seat of Bohemian kings, Holy Roman Emperors, and Czech presidents ever since. Over more than 1,100 years it has been rebuilt and expanded many times, resulting in a fascinating mix of architectural styles."
+    },
+    {
+      "lang": "vi",
+      "title": "Lâu Đài Prague",
+      "description": "Lâu đài Prague là một khu phức hợp rộng lớn gồm cung điện, nhà thờ và vườn hoa trên một ngọn đồi nhìn xuống thành phố Prague, Cộng hòa Séc, và được công nhận là khu lâu đài cổ lớn nhất thế giới. Đường chân trời với nhiều ngọn tháp là một trong những cảnh đẹp biểu tượng nhất châu Âu.",
+      "history": "Lâu đài được thành lập vào khoảng năm 880 sau Công nguyên bởi Hoàng tử Borivoj và đã là trụ sở của các vua Bohemia, Hoàng đế La Mã và Tổng thống Séc kể từ đó. Qua hơn 1.100 năm, nó đã được xây dựng lại và mở rộng nhiều lần, tạo nên sự kết hợp thú vị của các phong cách kiến trúc."
+    }
+  ],
+  "start_year": 870,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Prague Castle located?",
+      "question_type": "single",
+      "options": ["Slovakia", "Hungary", "Czech Republic", "Poland"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Lâu Đài Prague nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Slovakia", "Hungary", "Cộng hòa Séc", "Ba Lan"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Prague Castle is recognized as the largest what in the world?",
+      "question_type": "single",
+      "options": ["Medieval fortress", "Ancient castle complex", "Royal palace", "Gothic cathedral"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Lâu Đài Prague được công nhận là gì lớn nhất thế giới?",
+      "question_type": "single",
+      "options": ["Pháo đài thời trung cổ", "Khu lâu đài cổ", "Cung điện hoàng gia", "Nhà thờ Gothic"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

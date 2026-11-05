@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 7.957,
+  "longitude": 80.7603,
+  "country_code": "LK",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Sigiriya, Matale District, Central Province, Sri Lanka",
+  "fun_facts": [
+    "Sigiriya is a giant rock that rises 200 meters straight up into the sky — as tall as a 60-story building!",
+    "A king built an entire palace on top of the rock over 1,500 years ago, with gardens and pools around it.",
+    "There are ancient paintings of beautiful ladies on the side of the rock that have survived for more than 1,500 years."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Sigiriya",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Sigiriya",
+      "description": "Sigiriya, also called Lion Rock, is a massive ancient rock fortress in Sri Lanka with a ruined palace on top and stunning views of the jungle below.",
+      "history": "King Kashyapa built his palace on top of Sigiriya around 477 AD, using the enormous rock as a natural fortress. After the king died, it became a Buddhist monastery for many centuries."
+    },
+    {
+      "lang": "vi",
+      "title": "Sigiriya",
+      "description": "Sigiriya, còn gọi là Núi Sư Tử, là một pháo đài đá khổng lồ ở Sri Lanka với tích dư một cung điện cổ xưa trên đỉnh và cảnh nhìn đẹp mê hồn xuống rừng bên dưới.",
+      "history": "Vua Kashyapa đã xây dựng cung điện trên đỉnh Sigiriya vào khoảng năm 477 sau Công nguyên, dùng hòn đá khổng lồ như một pháo đài tự nhiên. Sau khi vua mất, nơi đây trở thành một tu viện Phật Giáo trong nhiều thế kỷ."
+    }
+  ],
+  "start_year": 477,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Sigiriya located?",
+      "question_type": "single",
+      "options": ["India", "Maldives", "Sri Lanka", "Nepal"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Sigiriya nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Ấn Độ", "Maldives", "Sri Lanka", "Nepal"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is the other name for Sigiriya?",
+      "question_type": "single",
+      "options": ["Tiger Rock", "Eagle Rock", "Lion Rock", "Bear Rock"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Tên gọi khác của Sigiriya là gì?",
+      "question_type": "single",
+      "options": ["Núi Hổ", "Núi Đại Bàng", "Núi Sư Tử", "Núi Gấu"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 51.5074,
+  "longitude": -0.1278,
+  "country_code": "GB",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Mary Poppins",
+      "image_url": null,
+      "description": "A magical nanny who arrives by umbrella and makes every chore feel like an adventure."
+    },
+    {
+      "name": "Jane Banks",
+      "image_url": null,
+      "description": "A curious and spirited young girl who loves going on magical adventures with Mary Poppins."
+    },
+    {
+      "name": "Michael Banks",
+      "image_url": null,
+      "description": "Jane's playful younger brother who discovers that a spoonful of sugar really does help the medicine go down."
+    },
+    {
+      "name": "Bert",
+      "image_url": null,
+      "description": "A cheerful chimney sweep and street artist who is one of Mary Poppins's oldest friends."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Mary Poppins poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Mary Poppins (1964)",
+      "description": "A magical nanny named Mary Poppins arrives at the Banks family home in London and takes the children on wonderful adventures using her special powers.",
+      "history": "Mary Poppins was the first film to mix live-action actors with cartoon animation, and Julie Andrews won an Academy Award for playing the title role!"
+    },
+    {
+      "lang": "vi",
+      "title": "Cô Bảo Mẫu Thần Kỳ (1964)",
+      "description": "Một cô bảo mẫu tên Mary Poppins có phép thuật đến nhà gia đình Banks ở London và đưa bọn trẻ đi phiêu lưu theo những cách rất kỳ diệu.",
+      "history": "Mary Poppins là bộ phim đầu tiên kết hợp diễn viên người thật với hoạt hình vẽ tay, và nữ diễn viên chính đã đoạt giải Oscar cho vai diễn này!"
+    }
+  ],
+  "start_year": 1964,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which city does Mary Poppins take place?",
+      "question_type": "single",
+      "options": ["Paris", "New York", "London", "Edinburgh"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Bộ phim Mary Poppins diễn ra ở thành phố nào?",
+      "question_type": "single",
+      "options": ["Paris", "New York", "London", "Edinburgh"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How does Mary Poppins arrive at the Banks family's house?",
+      "question_type": "single",
+      "options": ["On a broomstick", "On a flying carpet", "By umbrella", "On a magic bicycle"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Mary Poppins đến nhà gia đình Banks bằng cách nào?",
+      "question_type": "single",
+      "options": ["Trên cây chổi bay", "Trên thảm bay thần kỳ", "Bằng cây dù bay", "Trên xe đạp ma thuật"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

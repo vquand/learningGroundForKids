@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 45.5017,
+  "longitude": -73.5673,
+  "country_code": "CA",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Ask a grown-up to fry or bake potato fries until they are crispy and golden. Pile the hot fries into a bowl and scatter fresh cheese curds on top. Pour warm brown gravy all over so the cheese starts to melt — then eat it right away while it is hot!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Poutine",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Poutine",
+      "description": "Poutine is a Canadian comfort food made of crispy french fries topped with squeaky cheese curds and rich, warm gravy. The hot gravy melts the cheese just a little, making every bite gooey and delicious!",
+      "history": "Poutine was invented in the province of Quebec, Canada, in the 1950s. Legend says a diner owner tossed cheese curds onto fries and poured gravy over them when a hungry customer asked for something warm and filling — and a classic was born!"
+    },
+    {
+      "lang": "vi",
+      "title": "Khoai Tây Chiên Poutine",
+      "description": "Poutine là món ăn khoai chiên giòn phía trên đổ phô mai dạng hạt và nước sốt nâu ấm. Nước sốt nóng làm tan chút phô mai, tạo nên từng miếng dẻo dai rất ngon!",
+      "history": "Poutine được sáng tạo ở tỉnh Quebec, Canada vào những năm 1950. Truyền thuyết rằng một chủ quán ăn đã rắc phô mai lên khoai chiên rồi đổ nước sốt lên khi một vị khách đói bụng yêu cầu món gì đó ấm bụng — và thế là một món kinh điển ra đời!"
+    }
+  ],
+  "start_year": 1957,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Poutine was invented in which Canadian province?",
+      "question_type": "single",
+      "options": ["Ontario", "British Columbia", "Quebec", "Alberta"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Poutine được phát minh ở tỉnh Canada nào?",
+      "question_type": "single",
+      "options": ["Ontario", "British Columbia", "Quebec", "Alberta"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What are the three main ingredients of Poutine?",
+      "question_type": "single",
+      "options": ["Fries, bacon, and beans", "Fries, cheese curds, and gravy", "Rice, cheese, and sauce", "Noodles, eggs, and butter"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Ba nguyên liệu chính của Poutine là gì?",
+      "question_type": "single",
+      "options": ["Khoai chiên, thịt xông khói và đậu", "Khoai chiên, phô mai hạt và nước sốt", "Cơm, phô mai và sốt", "Mì, trứng và bơ"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

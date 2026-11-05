@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": -38.2581,
+  "longitude": 175.1052,
+  "country_code": "NZ",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Located in the Waikato region of New Zealand's North Island, the Waitomo Caves are a network of limestone caverns famous for their glowworm colonies.",
+  "fun_facts": [
+    "The ceiling of the caves glows blue because thousands of tiny glowworms — each one about the size of a matchstick — hang glowing threads to catch bugs for dinner!",
+    "The glowworms found here are a special species called Arachnocampa luminosa that exists nowhere else on Earth.",
+    "Visitors ride silent boats through the cave in total darkness, looking up at a ceiling that looks exactly like a starry night sky."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Waitomo Glowworm Caves",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Waitomo Glowworm Caves",
+      "description": "Deep underground in New Zealand, the Waitomo Caves hide one of nature's most magical light shows. Thousands of tiny glowworms cover the cave ceilings, creating a brilliant blue glow that looks just like a galaxy of stars. Visitors float silently through the darkness on small boats, completely surrounded by twinkling light.",
+      "history": "The caves were formed over 30 million years ago as ancient seabeds were pushed upward and slowly dissolved by rainwater to create winding limestone tunnels. The local Maori people knew of the caves for centuries, calling the area Waitomo, which means 'water passing through a hole.' In 1887, local Maori chief Tane Tinorau and English surveyor Fred Mace became the first to explore the caves by candlelight on a raft."
+    },
+    {
+      "lang": "vi",
+      "title": "Hang Động Đom Đóm Waitomo",
+      "description": "Sâu lòng đất ở New Zealand, hang động Waitomo ẩn giấu một trong những show ánh sáng kỳ diệu nhất của thiên nhiên. Hàng nghìn con đom đóm nhỏ xíu bám đầy trần hang, tỏa ra ánh sáng xanh lan lạnh trong giống như một dải ngân hà đầy sao. Du khách ngồi trên những chiếc thuyền nhỏ trôi lặng lẽ trong bóng tối, xung quanh là ánh sáng lung linh khắp nơi.",
+      "history": "Những hang động này được hình thành cả 30 triệu năm trước khi đáy biển cổ xưa bị đẩy lên cao và bị nước mưa hòa tan dần, tạo ra những đường hầm đá vôi quanh co. Người Maori bản địa đã biết đến hang động này từ nhiều thế kỷ trước, gọi nơi đây là Waitomo có nghĩa là 'nước chảy qua lỗ hổng'. Năm 1887, thủ lĩnh Maori Tane Tinorau và nhà khảo sát người Anh Fred Mace là những người đầu tiên khám phá hang động này trên chiếc bè tre bằng ánh nến."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "The Waitomo Glowworm Caves are located in which country?",
+      "question_type": "single",
+      "options": ["Australia", "New Zealand", "Papua New Guinea", "Fiji"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hang Động Đom Đóm Waitomo nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Úc", "New Zealand", "Papua New Guinea", "Fiji"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What makes the Waitomo Caves famous?",
+      "question_type": "single",
+      "options": ["Giant crystals", "Thousands of glowworms on the ceiling", "Underground waterfalls", "Dinosaur fossils"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điều gì làm cho Hang Động Waitomo nổi tiếng?",
+      "question_type": "single",
+      "options": ["Tinh thể khổng lồ", "Hàng nghìn con đom đóm trên trần", "Thác nước ngầm", "Hóa thạch khủng long"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -100000,
+  "time_precision": "kya"
+}

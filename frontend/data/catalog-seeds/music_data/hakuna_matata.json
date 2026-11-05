@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 51.5074,
+  "longitude": -0.1278,
+  "country_code": "GB",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Elton John & Tim Rice",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Hakuna Matata — Elton John & Tim Rice",
+      "description": "A joyful, carefree song from The Lion King that means 'no worries' in Swahili — it makes you want to dance and forget all your troubles!",
+      "history": "Elton John and Tim Rice wrote this fun song for the 1994 Disney movie The Lion King, and it became one of the most famous movie songs ever made!"
+    },
+    {
+      "lang": "vi",
+      "title": "Hakuna Matata — Elton John & Tim Rice",
+      "description": "Đây là một bài hát vui nhộn từ bộ phim Vua Sư Tử, có nghĩa là 'không có gì phải lo' trong tiếng Swahili — nghe là bạn muốn nhảy ngay!",
+      "history": "Elton John và Tim Rice viết bài hát này cho phim hoạt hình Disney năm 1994 The Lion King, và nó trở thành một trong những bài hát phim nổi tiếng nhất thế giới!"
+    }
+  ],
+  "start_year": 1994,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "'Hakuna Matata' is from which Disney movie?", "question_type": "single", "options": ["Aladdin", "Mulan", "The Lion King", "Tarzan"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Bài 'Hakuna Matata' đến từ bộ phim Disney nào?", "question_type": "single", "options": ["Aladdin", "Mulan", "Vua Sư Tử", "Tarzan"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "What does 'Hakuna Matata' mean in Swahili?", "question_type": "single", "options": ["Good morning", "No worries", "Hello friend", "Thank you"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "'Hakuna Matata' có nghĩa gì trong tiếng Swahili?", "question_type": "single", "options": ["Chào buổi sáng", "Không có gì phải lo", "Xin chào bạn", "Cảm ơn"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

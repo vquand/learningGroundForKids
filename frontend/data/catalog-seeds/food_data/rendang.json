@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": -0.9492,
+  "longitude": 100.3543,
+  "country_code": "ID",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Cut beef into big chunks and put them in a pot with coconut milk, lemongrass, galangal, and lots of spices like chili and turmeric. Cook everything on low heat for a very long time — about 3 to 4 hours — stirring often until the sauce dries up and the beef becomes dark, rich, and super tender!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Rendang",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Rendang",
+      "description": "Rendang is a rich, slow-cooked beef dish from Indonesia, packed with coconut milk and wonderful spices until the meat becomes wonderfully tender and deep brown. It is so full of flavor that it has been called one of the most delicious foods in the world!",
+      "history": "Rendang comes from the Minangkabau people of West Sumatra, Indonesia, where it was traditionally cooked for big celebrations and ceremonies. Because it is cooked for so long, rendang can last for days without a refrigerator, which made it perfect for long journeys."
+    },
+    {
+      "lang": "vi",
+      "title": "Rendang",
+      "description": "Rendang là món thịt bò hầm chậm, giàu vị từ Indonesia, nấu với nước cốt dừa và nhiều gia vị tuyệt vời cho đến khi thịt mềm tan và có màu nâu đậm. Nó có hương vị phong phú đến nỗi được gọi là một trong những món ăn ngon nhất thế giới!",
+      "history": "Rendang xuất phát từ người Minangkabau ở Tây Sumatra, Indonesia, nơi truyền thống nó được nấu cho các lễ hội lớn. Vì được nấu rất lâu, rendang có thể giữ được nhiều ngày mà không cần tủ lạnh, rất tiện cho những chuyến đi xa."
+    }
+  ],
+  "start_year": 1400,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Rendang from?",
+      "question_type": "single",
+      "options": ["Malaysia", "Indonesia", "Philippines", "Thailand"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Rendang đến từ quốc gia nào?",
+      "question_type": "single",
+      "options": ["Malaysia", "Indonesia", "Philippines", "Thái Lan"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What liquid makes Rendang rich and creamy?",
+      "question_type": "single",
+      "options": ["Milk", "Cream", "Coconut milk", "Stock"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Chất lỏng nào làm cho Rendang béo ngậy?",
+      "question_type": "single",
+      "options": ["Sữa", "Kem tươi", "Nước cốt dừa", "Nước hầm"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

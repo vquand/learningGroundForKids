@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 23.8103,
+  "longitude": 90.4125,
+  "country_code": "BD",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "Tropical cyclones carry so much water that a single one can drop enough rain to fill 40 million swimming pools!",
+    "Bangladesh sits in a special bay shaped like a funnel — the Bay of Bengal — which makes cyclones grow even bigger before they reach land.",
+    "The word 'cyclone' comes from a Greek word meaning 'coil of a snake' because of the way the storm spirals around and around."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Tropical Cyclone",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Tropical Cyclone",
+      "description": "A tropical cyclone is a huge rotating storm that forms over warm tropical seas, bringing powerful winds, heavy rain, and large waves to coastlines.",
+      "history": "Bangladesh, in the Bay of Bengal, is one of the most cyclone-affected regions on Earth — the funnel shape of the bay concentrates storms and makes them especially powerful when they reach the coast."
+    },
+    {
+      "lang": "vi",
+      "title": "Xoáy Nhiệt Đới (Cyclone)",
+      "description": "Xoáy nhiệt đới là cơn bão khổng lồ quay tròn hình thành trên biển nhiệt đới ấm áp, mang theo gió mạnh, mưa lớn và sóng cao tới bờ biển.",
+      "history": "Bangladesh ở Vịnh Bengal là một trong những khu vực bị xoáy nhiệt đới tàn phá nhiều nhất trên Trái Đất. Hình dạng phễu của vịnh làm cho các cơn bão trở nên mạnh hơn khi tiến vào bờ."
+    }
+  ],
+  "start_year": -500,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Where do tropical cyclones form?",
+      "question_type": "single",
+      "options": ["Over cold polar seas", "Over warm tropical seas", "In the desert", "On top of mountains"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Xoáy nhiệt đới hình thành ở đâu?",
+      "question_type": "single",
+      "options": ["Trên biển cực lạnh", "Trên biển nhiệt đới ấm áp", "Trong sa mạc", "Trên đỉnh núi"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What does the word 'cyclone' mean in Greek?",
+      "question_type": "single",
+      "options": ["Big wave", "Coil of a snake", "Loud thunder", "Heavy rain"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Từ 'cyclone' có nghĩa là gì trong tiếng Hy Lạp?",
+      "question_type": "single",
+      "options": ["Sóng lớn", "Cuộn rắn", "Sấm to", "Mưa nặng"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

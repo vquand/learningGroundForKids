@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 51.5007,
+  "longitude": -0.1246,
+  "country_code": "GB",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Westminster Bridge Road, Westminster, London SW1A 0AA, United Kingdom",
+  "fun_facts": [
+    "'Big Ben' is actually the nickname of the giant bell inside the clock tower — the tower itself is officially called the Elizabeth Tower!",
+    "The Great Bell weighs about 13.7 tonnes — that is heavier than two adult African elephants!",
+    "The clock's minute hands are as long as a double-decker bus — about 4.3 meters each."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Big Ben",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Big Ben",
+      "description": "A world-famous clock tower at the north end of the Palace of Westminster in London, England, whose deep bell chime is recognized by people across the entire world.",
+      "history": "The tower was completed in 1859 and its great bell first rang on 11 July that same year. It was renamed the Elizabeth Tower in 2012 to honor Queen Elizabeth II's Diamond Jubilee."
+    },
+    {
+      "lang": "vi",
+      "title": "Tháp đồng hồ Big Ben",
+      "description": "Một tháp đồng hồ nổi tiếng thế giới ở phía bắc của Cung điện Westminster tại London, Anh, với tiếng chuông đồng hồ trầm ấm được người dân khắp thế giới nhận ra.",
+      "history": "Tháp được hoàn thành vào năm 1859 và chiếc chuông lớn lần đầu tiên kêu vang vào ngày 11 tháng 7 cùng năm đó. Nó được đổi tên thành Tháp Elizabeth vào năm 2012 để vinh danh Lễ Kim cương của Nữ hoàng Elizabeth II."
+    }
+  ],
+  "start_year": 1859,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which city is Big Ben located?",
+      "question_type": "single",
+      "options": ["Paris", "Berlin", "London", "Rome"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Big Ben nằm ở thành phố nào?",
+      "question_type": "single",
+      "options": ["Paris", "Berlin", "London", "Rome"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What is the official name of the tower that contains Big Ben?",
+      "question_type": "single",
+      "options": ["Victoria Tower", "Elizabeth Tower", "Westminster Tower", "Royal Tower"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Tên chính thức của tháp chứa Big Ben là gì?",
+      "question_type": "single",
+      "options": ["Tháp Victoria", "Tháp Elizabeth", "Tháp Westminster", "Tháp Hoàng gia"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

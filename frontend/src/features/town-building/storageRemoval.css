@@ -1,0 +1,8 @@
+.storage-loss-dialog {width:min(900px,94vw);max-height:calc(100dvh - 32px)}
+.storage-loss-dialog p {margin:6px 0}
+.storage-loss-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px 12px;list-style:none;padding:0;margin:8px 0}
+.storage-loss-grid li {display:flex;align-items:center;gap:6px;min-width:0;font-size:14px;line-height:1.15}
+.storage-loss-art {display:inline-flex;flex:0 0 28px;width:28px;height:28px}
+.storage-loss-art>* {width:28px!important;height:28px!important}
+.storage-loss-grid strong {margin-left:auto;white-space:nowrap}
+.storage-loss-dialog .town-map-dialog-footer button {min-height:48px;min-width:96px}

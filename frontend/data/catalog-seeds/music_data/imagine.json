@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 40.7128,
+  "longitude": -74.006,
+  "country_code": "US",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "John Lennon",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Imagine — John Lennon",
+      "description": "A gentle and peaceful piano song that asks everyone to imagine a world where all people live together in harmony and friendship!",
+      "history": "John Lennon of The Beatles wrote this hopeful song in 1971 in New York City, and it became one of the most beloved peace songs in the whole world!"
+    },
+    {
+      "lang": "vi",
+      "title": "Imagine — John Lennon",
+      "description": "Một bài hát piano nhẹ nhàng và bình yên, mời mọi người tưởng tượng về một thế giới nơi tất cả mọi người sống bên nhau trong hòa bình và tình bạn!",
+      "history": "John Lennon của ban nhạc The Beatles viết bài hát hy vọng này năm 1971 tại thành phố New York, và nó trở thành một trong những bài hát hòa bình được yêu thích nhất thế giới!"
+    }
+  ],
+  "start_year": 1971,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who wrote and recorded the song 'Imagine'?", "question_type": "single", "options": ["Paul McCartney", "John Lennon", "George Harrison", "Ringo Starr"], "correct_answers": [1], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã viết và thu âm bài hát 'Imagine'?", "question_type": "single", "options": ["Paul McCartney", "John Lennon", "George Harrison", "Ringo Starr"], "correct_answers": [1], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "John Lennon was a member of which famous band?", "question_type": "single", "options": ["The Rolling Stones", "The Who", "The Beatles", "Led Zeppelin"], "correct_answers": [2], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "John Lennon là thành viên của ban nhạc nổi tiếng nào?", "question_type": "single", "options": ["The Rolling Stones", "The Who", "The Beatles", "Led Zeppelin"], "correct_answers": [2], "sort_order": 1}
+  ]
+}

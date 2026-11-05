@@ -1,0 +1,70 @@
+{
+  "category": "animal",
+  "latitude": 47.7,
+  "longitude": -107.0,
+  "country_code": "US",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "Fossil remains found mainly in western North America, including Montana, South Dakota, and Wyoming. T-Rex lived in forests, river valleys, and swampy areas during the Late Cretaceous period.",
+  "fun_facts": [
+    "T-Rex had the strongest bite of any land animal that ever lived — powerful enough to crush bone!",
+    "Its tiny arms were actually very strong and could lift up to 200 kilograms.",
+    "T-Rex could smell prey from very far away — it had one of the best noses of any dinosaur.",
+    "Scientists think T-Rex may have had feathers on parts of its body, just like modern birds.",
+    "A single T-Rex tooth could be as long as a banana — about 30 centimetres!"
+  ],
+  "start_year": -68000000,
+  "end_year": -66000000,
+  "time_precision": "mya",
+  "media": [{"media_type": "image", "label": "Tyrannosaurus Rex", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Tyrannosaurus Rex",
+      "description": "Tyrannosaurus Rex — or T-Rex — was one of the biggest and scariest meat-eating dinosaurs that ever lived. It walked on two powerful back legs, had a massive head full of sharp teeth, and ruled the land about 66 million years ago. Its name means 'tyrant lizard king'!"
+    },
+    {
+      "lang": "vi",
+      "title": "Khủng Long T-Rex",
+      "description": "Tyrannosaurus Rex — hay còn gọi là T-Rex — là một trong những loài khủng long ăn thịt to lớn và đáng sợ nhất từng tồn tại. Nó đi bằng hai chân sau mạnh mẽ, có cái đầu khổng lồ với hàm răng sắc bén, và thống trị mặt đất vào khoảng 66 triệu năm trước. Tên của nó có nghĩa là 'vua thằn lằn bạo chúa'!"
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What does the name 'Tyrannosaurus Rex' mean?",
+      "question_type": "single",
+      "options": ["Giant lizard king", "Tyrant lizard king", "Swift lizard ruler", "Fierce dragon king"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Tên 'Tyrannosaurus Rex' có nghĩa là gì?",
+      "question_type": "single",
+      "options": ["Vua thằn lằn khổng lồ", "Vua thằn lằn bạo chúa", "Kẻ cai trị thằn lằn nhanh nhẹn", "Vua rồng hung dữ"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How many legs did T-Rex walk on?",
+      "question_type": "single",
+      "options": ["Four legs", "Six legs", "Two legs", "Three legs"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "T-Rex đi bằng bao nhiêu chân?",
+      "question_type": "single",
+      "options": ["Bốn chân", "Sáu chân", "Hai chân", "Ba chân"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

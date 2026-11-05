@@ -1,0 +1,69 @@
+{
+  "category": "animal",
+  "latitude": 20.0,
+  "longitude": -75.0,
+  "country_code": "JM",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "The Caribbean Monk Seal lived throughout the Caribbean Sea, the Gulf of Mexico, and the Bahamas. It rested on sandy beaches and shallow reefs, and fed on fish and eels in warm tropical waters.",
+  "fun_facts": [
+    "The Caribbean Monk Seal was the only seal species native to the Caribbean Sea and the Gulf of Mexico.",
+    "Christopher Columbus and his crew reported seeing these seals on his second voyage in 1494 — and promptly hunted eight of them for food.",
+    "They were very trusting of humans because they had no natural predators on land, which made them easy to hunt.",
+    "The last confirmed sighting was in 1952 near Jamaica and Honduras.",
+    "In 2008, the US government officially declared the Caribbean Monk Seal extinct — the first seal extinction in modern times."
+  ],
+  "end_year": 1952,
+  "time_precision": "year",
+  "media": [{"media_type": "image", "label": "Caribbean Monk Seal", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Caribbean Monk Seal (Extinct 1952)",
+      "description": "The Caribbean Monk Seal was the only seal to ever live in the warm waters of the Caribbean Sea. Gentle and trusting, it was easy to hunt, and people pushed it to extinction by overhunting and destroying its habitat. The last confirmed sighting was in 1952, making it the first seal to go extinct in modern times."
+    },
+    {
+      "lang": "vi",
+      "title": "Hải Cẩu Caribbean (Tuyệt chủng 1952)",
+      "description": "Hải Cẩu Caribbean là loài hải cẩu duy nhất từng sống trong vùng nước ấm của biển Caribbean. Hiền lành và tin tưởng vào con người, nó dễ bị săn bắt, và con người đã đẩy nó đến tuyệt chủng do săn bắn quá mức và phá hủy môi trường sống. Lần nhìn thấy được xác nhận cuối cùng là vào năm 1952, khiến nó trở thành loài hải cẩu đầu tiên tuyệt chủng trong thời hiện đại."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Where did the Caribbean Monk Seal live?",
+      "question_type": "single",
+      "options": ["The Arctic Ocean", "The Caribbean Sea and Gulf of Mexico", "The Mediterranean Sea", "The Pacific Ocean"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hải Cẩu Caribbean sống ở đâu?",
+      "question_type": "single",
+      "options": ["Bắc Băng Dương", "Biển Caribbean và Vịnh Mexico", "Biển Địa Trung Hải", "Thái Bình Dương"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Why was the Caribbean Monk Seal easy to hunt?",
+      "question_type": "single",
+      "options": ["It was very slow in water", "It was trusting of humans and had no land predators", "It lived in shallow water", "It was very small"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Tại sao Hải Cẩu Caribbean dễ bị săn bắt?",
+      "question_type": "single",
+      "options": ["Nó bơi rất chậm", "Nó tin tưởng con người và không có kẻ thù trên đất liền", "Nó sống ở vùng nước nông", "Nó rất nhỏ bé"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

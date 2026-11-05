@@ -1,0 +1,11 @@
+.calendar-notifications{display:flex;flex-direction:column;gap:8px;margin:12px 0 0}
+.calendar-notifications-heading{margin:0;font-size:14px;font-weight:800;color:#0f766e}
+.calendar-notifications-feed{display:flex;flex-direction:column;gap:6px;list-style:none;margin:0;padding:0}
+.calendar-notification-row{display:flex;align-items:center;gap:8px;min-height:44px;padding:4px 9px;border:1px solid #d7ece8;border-radius:18px;background:#f0faf8;min-width:0;white-space:nowrap}
+.calendar-notification-icon{width:28px;height:28px;flex-shrink:0;object-fit:contain}
+.calendar-notification-title{flex:1 1 0;min-width:0;overflow:hidden;text-overflow:ellipsis;font-size:14px;font-weight:800;color:#273448}
+.calendar-notification-kid{flex-shrink:1;min-width:0;max-width:8rem;overflow:hidden;text-overflow:ellipsis;font-size:13px;color:#475569}
+.calendar-notification-day{flex-shrink:0;padding:2px 9px;border-radius:999px;background:#ffffff;color:#0f766e;font-size:12px;font-weight:800}
+.calendar-notifications-more{display:block;margin:0 0 0 auto;min-height:44px;padding:7px 12px;border:1px solid #9bd5cb;border-radius:12px;background:#fff;color:#0f766e;font-size:13px;font-weight:700;cursor:pointer}
+.calendar-notifications :focus-visible{outline:3px solid #87a9d2;outline-offset:2px}
+@media(max-width:600px){.calendar-notification-title{font-size:12px}.calendar-notification-kid{font-size:11px}.calendar-notification-day{font-size:11px}}

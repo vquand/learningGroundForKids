@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": -32.6532,
+  "longitude": -70.0109,
+  "country_code": "AR",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Aconcagua is the highest peak in both the Western and Southern Hemispheres, located in the Andes mountain range in Mendoza Province, western Argentina, near the border with Chile.",
+  "fun_facts": [
+    "Aconcagua is 6,961 meters tall — the highest mountain outside of Asia, taller than any peak in Europe, Africa, North America, Australia, or Antarctica!",
+    "The name Aconcagua may come from a word meaning 'Stone Sentinel' in the indigenous Quechua language — it really does look like a giant guard standing watch.",
+    "A frozen Inca mummy of a young child was discovered near the summit in 1985, showing that people climbed this enormous mountain over 500 years ago!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Aconcagua",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Aconcagua",
+      "description": "Aconcagua is the tallest mountain in all of the Americas and the highest peak outside of Asia, soaring 6,961 meters into the thin Andean sky. It sits in Argentina right next to the Chilean border, surrounded by a vast desert landscape of rock and ice. Unlike Everest, no oxygen tanks are needed to climb it, but the freezing winds and altitude still make it an incredible challenge.",
+      "history": "Indigenous Inca people climbed Aconcagua more than 500 years ago for sacred ceremonies — an astonishing achievement. The first recorded modern ascent was completed by Swiss climber Matthias Zurbriggen in 1897. In 1985, archaeologists discovered the frozen mummy of an Inca boy near the summit at nearly 5,300 meters, perfectly preserved by the cold for over five centuries."
+    },
+    {
+      "lang": "vi",
+      "title": "Núi Aconcagua",
+      "description": "Aconcagua là ngọn núi cao nhất châu Mỹ và là đỉnh cao nhất ngoài châu Á, vươn lên 6.961 mét vào bầu trời mỏng manh của dãy Andes. Nó nằm ở Argentina ngay sát biên giới Chile, bao quanh bởi cảnh quan sa mạc rộng lớn với đá và băng. Khác với Everest, leo núi này không cần bình oxy, nhưng gió lạnh và độ cao vẫn khiến nó là một thử thách phi thường.",
+      "history": "Người Inca bản địa đã leo Aconcagua hơn 500 năm trước để thực hiện các lễ nghi thiêng liêng — một thành tựu kinh ngạc. Chuyến leo núi hiện đại được ghi chép đầu tiên được hoàn thành bởi leo núi người Thụy Sĩ Matthias Zurbriggen vào năm 1897. Năm 1985, các nhà khảo cổ học phát hiện xác ướp đông lạnh của một bé trai người Inca gần đỉnh núi ở gần 5.300 mét, được bảo quản hoàn hảo bởi khí lạnh trong hơn năm thế kỷ."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "On which continent is Aconcagua located?",
+      "question_type": "single",
+      "options": ["Asia", "South America", "Africa", "Europe"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Núi Aconcagua nằm ở châu lục nào?",
+      "question_type": "single",
+      "options": ["Châu Á", "Nam Mỹ", "Châu Phi", "Châu Âu"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How tall is Aconcagua?",
+      "question_type": "single",
+      "options": ["5,895 meters", "6,961 meters", "8,848 meters", "4,808 meters"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Núi Aconcagua cao bao nhiêu mét?",
+      "question_type": "single",
+      "options": ["5.895 mét", "6.961 mét", "8.848 mét", "4.808 mét"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -9000000,
+  "time_precision": "mya"
+}

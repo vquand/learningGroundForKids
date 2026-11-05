@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 41.0082,
+  "longitude": 28.9784,
+  "country_code": "TR",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Layer thin sheets of pastry dough with crushed walnuts or pistachios. Brush each layer with melted butter. Bake until golden, then pour sweet honey syrup all over — yum!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Baklava",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Baklava",
+      "description": "Baklava is a super sweet and flaky pastry filled with crushed nuts and soaked in honey syrup. Every bite is crispy, sticky, and delicious!",
+      "history": "Baklava was made famous in the grand kitchens of the Ottoman Empire in Turkey hundreds of years ago. Today it is enjoyed all over the Middle East, Greece, and beyond as a special treat."
+    },
+    {
+      "lang": "vi",
+      "title": "Baklava",
+      "description": "Baklava là một loại bánh ngọt rất giòn và ngấm đường mật ong, bên trong có nhân hạt nghiền. Mỗi miếng ăn đều giòn, dẻo và ngon tuyệt vời!",
+      "history": "Baklava trở nên nổi tiếng trong những căn bếp lớn của Đế chế Ottoman ở Thổ Nhĩ Kỳ từ hàng trăm năm trước. Ngày nay nó được yêu thích khắp Trung Đông và nhiều nơi khác trên thế giới."
+    }
+  ],
+  "start_year": -800,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which empire made Baklava famous?",
+      "question_type": "single",
+      "options": ["Roman Empire", "Ottoman Empire", "Persian Empire", "British Empire"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Đế chế nào đã làm cho Baklava trở nên nổi tiếng?",
+      "question_type": "single",
+      "options": ["Đế chế La Mã", "Đế chế Ottoman", "Đế chế Ba Tư", "Đế chế Anh"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What sweet liquid is poured over Baklava?",
+      "question_type": "single",
+      "options": ["Chocolate sauce", "Honey syrup", "Maple syrup", "Caramel sauce"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Chất ngọt nào được rưới lên bánh Baklava?",
+      "question_type": "single",
+      "options": ["Sốt sô cô la", "Xi rô mật ong", "Xi rô phong", "Sốt caramel"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "category": "movie",
+  "latitude": 51.4816,
+  "longitude": -3.1791,
+  "country_code": "GB",
+  "icon_slug": "movie",
+  "is_published": true,
+  "trailer_url": null,
+  "characters": [
+    {
+      "name": "Charlie Bucket",
+      "image_url": null,
+      "description": "A sweet and honest boy from a poor family who wins a golden ticket to visit the most magical chocolate factory in the world."
+    },
+    {
+      "name": "Willy Wonka",
+      "image_url": null,
+      "description": "The eccentric and mysterious owner of the chocolate factory who invites five lucky children to tour his incredible factory."
+    },
+    {
+      "name": "Augustus Gloop",
+      "image_url": null,
+      "description": "A boy who loves eating so much that he cannot resist drinking from Willy Wonka's chocolate river."
+    },
+    {
+      "name": "Grandpa Joe",
+      "image_url": null,
+      "description": "Charlie's beloved grandfather who is so excited about the golden ticket that he jumps out of bed to go with Charlie on the tour."
+    }
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Charlie and the Chocolate Factory poster",
+      "filename": "placeholder-movie.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Charlie and the Chocolate Factory (2005)",
+      "description": "Young Charlie Bucket finds a golden ticket inside a chocolate bar and wins a tour of the amazing factory owned by the mysterious chocolatier Willy Wonka.",
+      "history": "The story was written by Welsh author Roald Dahl, who grew up near Cardiff and was inspired by his own childhood memories of being a taste-tester for a chocolate company!"
+    },
+    {
+      "lang": "vi",
+      "title": "Charlie Và Nhà Máy Socola (2005)",
+      "description": "Cậu bé Charlie Bucket tìm thấy một tấm vé vàng trong thanh socola và giành được cơ hội tham quan nhà máy kỳ diệu của nhà sản xuất socola bí ẩn Willy Wonka.",
+      "history": "Câu chuyện do nhà văn xứ Wales Roald Dahl viết, ông lớn lên gần Cardiff và lấy cảm hứng từ ký ức thuở nhỏ khi làm người thử socola cho một công ty!"
+    }
+  ],
+  "start_year": 2005,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What does Charlie Bucket find inside a chocolate bar in the movie?",
+      "question_type": "single",
+      "options": ["A silver coin", "A secret map", "A golden ticket", "A magic bean"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Charlie Bucket tìm thấy gì bên trong thanh socola trong phim?",
+      "question_type": "single",
+      "options": ["Một đồng xu bạc", "Một tấm bản đồ bí mật", "Một tấm vé vàng", "Một hạt đậu thần"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Who wrote the story of Charlie and the Chocolate Factory?",
+      "question_type": "single",
+      "options": ["J.K. Rowling", "Roald Dahl", "C.S. Lewis", "Lewis Carroll"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Ai đã viết câu chuyện Charlie và Nhà Máy Socola?",
+      "question_type": "single",
+      "options": ["J.K. Rowling", "Roald Dahl", "C.S. Lewis", "Lewis Carroll"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

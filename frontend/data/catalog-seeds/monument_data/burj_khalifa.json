@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 25.1972,
+  "longitude": 55.2744,
+  "country_code": "AE",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "1 Sheikh Mohammed bin Rashid Blvd, Downtown Dubai, Dubai, United Arab Emirates",
+  "fun_facts": [
+    "The Burj Khalifa is the tallest building in the world at 828 meters — that is almost as tall as three Eiffel Towers stacked on top of each other!",
+    "You can see the Burj Khalifa from 95 kilometers away on a clear day — that is like seeing it from the next city over!",
+    "The building has 163 floors and its own special elevator that travels at 10 meters per second — it can reach the top in about a minute!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Burj Khalifa",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Burj Khalifa",
+      "description": "The Burj Khalifa in Dubai is the tallest building ever built by humans, soaring 828 meters into the sky with observation decks where you can see for miles in every direction.",
+      "history": "Construction began in 2004 and the Burj Khalifa opened in January 2010, named after Sheikh Khalifa bin Zayed Al Nahyan, the ruler of Abu Dhabi. It was designed by the American architecture firm Skidmore, Owings and Merrill."
+    },
+    {
+      "lang": "vi",
+      "title": "Burj Khalifa",
+      "description": "Burj Khalifa ở Dubai là tòa nhà cao nhất từng được con người xây dựng, vút cao 828 mét lên bầu trời với các sàn quan sát nơi bạn có thể nhìn xa hàng dặm.",
+      "history": "Xây dựng bắt đầu vào năm 2004 và Burj Khalifa khai trương vào tháng 1 năm 2010, được đặt tên theo Sheikh Khalifa bin Zayed Al Nahyan, người cầm quyền của Abu Dhabi. Nó được thiết kế bởi công ty kiến trúc Mỹ Skidmore, Owings và Merrill."
+    }
+  ],
+  "start_year": 2010,
+  "time_precision": "year",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which city is the Burj Khalifa located?",
+      "question_type": "single",
+      "options": ["Abu Dhabi", "Riyadh", "Dubai", "Doha"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Burj Khalifa nằm ở thành phố nào?",
+      "question_type": "single",
+      "options": ["Abu Dhabi", "Riyadh", "Dubai", "Doha"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How tall is the Burj Khalifa?",
+      "question_type": "single",
+      "options": ["550 meters", "700 meters", "828 meters", "1000 meters"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Burj Khalifa cao bao nhiêu mét?",
+      "question_type": "single",
+      "options": ["550 mét", "700 mét", "828 mét", "1000 mét"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

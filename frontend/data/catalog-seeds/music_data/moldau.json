@@ -1,0 +1,39 @@
+{
+  "category": "music",
+  "latitude": 50.0755,
+  "longitude": 14.4378,
+  "country_code": "CZ",
+  "icon_slug": "music",
+  "is_published": true,
+  "youtube_url": null,
+  "audio_urls": [],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Bedřich Smetana",
+      "filename": "placeholder-music.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "The Moldau (Vltava) — Bedřich Smetana",
+      "description": "This beautiful piece tells the story of a river — you can hear it start as a tiny trickle, grow bigger and bigger, rush past castles and forests, and flow majestically to the sea!",
+      "history": "Bedřich Smetana wrote this in 1874 to celebrate the Vltava River that flows through Prague, his beloved home city — amazingly, he was completely deaf when he composed it!"
+    },
+    {
+      "lang": "vi",
+      "title": "Sông Moldau (Vltava) — Bedřich Smetana",
+      "description": "Bản nhạc tuyệt đẹp này kể câu chuyện của một dòng sông — bạn có thể nghe nó bắt đầu như một dòng nước nhỏ, ngày càng lớn hơn, chảy qua các tòa lâu đài và rừng cây, rồi chảy hùng vĩ ra biển!",
+      "history": "Bedřich Smetana viết bản nhạc này vào năm 1874 để tôn vinh sông Vltava chảy qua Praha, thành phố quê hương yêu dấu của ông — điều kỳ lạ là ông bị điếc hoàn toàn khi sáng tác nó!"
+    }
+  ],
+  "start_year": 1874,
+  "time_precision": "year",
+  "quiz_questions": [
+    {"group": 0, "lang": "en", "question": "Who composed 'The Moldau'?", "question_type": "single", "options": ["Dvorak", "Janacek", "Smetana", "Martinu"], "correct_answers": [2], "sort_order": 0},
+    {"group": 0, "lang": "vi", "question": "Ai đã sáng tác bài 'Sông Moldau'?", "question_type": "single", "options": ["Dvorak", "Janacek", "Smetana", "Martinu"], "correct_answers": [2], "sort_order": 0},
+    {"group": 1, "lang": "en", "question": "'The Moldau' describes the journey of what?", "question_type": "single", "options": ["A mountain", "A river", "A forest", "A city"], "correct_answers": [1], "sort_order": 1},
+    {"group": 1, "lang": "vi", "question": "Bài 'Sông Moldau' mô tả hành trình của điều gì?", "question_type": "single", "options": ["Một ngọn núi", "Một dòng sông", "Một khu rừng", "Một thành phố"], "correct_answers": [1], "sort_order": 1}
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "category": "phenomenon",
+  "latitude": 59.9139,
+  "longitude": 10.7522,
+  "country_code": "NO",
+  "icon_slug": "phenomenon",
+  "is_published": true,
+  "fun_facts": [
+    "In some Norwegian towns that get huge snowstorms, people walk along the rooftops of houses because the snow fills the streets all the way to the top!",
+    "A single snowflake is made of up to 200 tiny ice crystals, and no two snowflakes in the world are exactly the same shape.",
+    "Norway gets so much snowstorm snow that some mountain villages are completely cut off from the world for weeks — they plan ahead by storing lots of food!"
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Snowstorm",
+      "filename": "placeholder-phenomenon.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Snowstorm",
+      "description": "A snowstorm is a heavy fall of snow accompanied by strong winds that blankets the land in thick white snow, sometimes piling so high it covers cars and buries doorways.",
+      "history": "Norway regularly receives massive snowstorms each winter, and some Norwegian towns collect so much snow that residents use rooftops as walkways while the streets below lie buried."
+    },
+    {
+      "lang": "vi",
+      "title": "Bão Tuyết Lớn",
+      "description": "Bão tuyết là lượng tuyết rơi dày kèm theo gió mạnh, phủ khắp mặt đất một lớp tuyết trắng dày, đôi khi chồng cao đến mức vùi lấp xe hơi và cửa nhà.",
+      "history": "Na Uy thường xuyên hứng chịu những cơn bão tuyết khổng lồ mỗi mùa đông, và một số thị trấn Na Uy tích tụ nhiều tuyết đến mức người dân phải đi bộ trên mái nhà trong khi các con đường phía dưới bị vùi lấp."
+    }
+  ],
+  "start_year": -2000,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "What is a snowstorm?",
+      "question_type": "single",
+      "options": ["A light dusting of snow", "Heavy snow with strong winds that piles up very deep", "Rain that turns to ice", "A cold, dry wind with no snow"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Bão tuyết là gì?",
+      "question_type": "single",
+      "options": ["Một lớp tuyết mỏng", "Tuyết dày kèm gió mạnh tích tụ rất sâu", "Mưa đóng thành băng", "Gió lạnh khô không có tuyết"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Are any two snowflakes exactly the same?",
+      "question_type": "single",
+      "options": ["Yes, all snowflakes look the same", "No, no two snowflakes are exactly the same shape", "Only snowflakes from the same storm are the same", "Scientists have found two identical snowflakes"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Có hai bông tuyết nào giống hệt nhau không?",
+      "question_type": "single",
+      "options": ["Có, tất cả bông tuyết đều giống nhau", "Không, không có hai bông tuyết nào có hình dạng giống hệt nhau", "Chỉ các bông tuyết từ cùng một cơn bão mới giống nhau", "Các nhà khoa học đã tìm thấy hai bông tuyết giống hệt nhau"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "category": "animal",
+  "latitude": -7.5,
+  "longitude": 112.0,
+  "country_code": "ID",
+  "icon_slug": "animal",
+  "is_published": true,
+  "location_desc": "The Javan Tiger lived only on the Indonesian island of Java. It inhabited the dense tropical rainforests and mountainous jungle regions of the island, particularly in remote areas away from human settlements.",
+  "fun_facts": [
+    "The Javan Tiger was one of three tiger subspecies that lived in Indonesia — the other two were the Bali Tiger (extinct 1940s) and the Sumatran Tiger (still alive but endangered).",
+    "It was the smallest of all tiger subspecies, adapted to the dense forests of Java.",
+    "As the human population on Java grew, the tiger's jungle habitat was cut down for farming, leaving the tigers with nowhere to live.",
+    "The last confirmed sightings were in the Meru Betiri forest area of East Java in the 1970s.",
+    "The Javan Tiger's disappearance is a warning about what could happen to the remaining Sumatran Tigers if we don't protect their forests."
+  ],
+  "end_year": 1976,
+  "time_precision": "year",
+  "media": [{"media_type": "image", "label": "Javan Tiger", "filename": "placeholder-animal.jpg"}],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Javan Tiger (Extinct ~1976)",
+      "description": "The Javan Tiger was a small, beautiful tiger that lived only on the Indonesian island of Java. As Java became one of the most densely populated islands on Earth, its forests were cleared for farms, leaving the tiger with nowhere to go. The last confirmed sightings were in the 1970s, and it is now gone forever."
+    },
+    {
+      "lang": "vi",
+      "title": "Hổ Java (Tuyệt chủng ~1976)",
+      "description": "Hổ Java là loài hổ nhỏ xinh đẹp chỉ sống trên đảo Java của Indonesia. Khi Java trở thành một trong những hòn đảo đông dân nhất thế giới, rừng của nó bị phá để làm nông trại, khiến hổ không còn chỗ để sống. Những lần nhìn thấy được xác nhận cuối cùng là vào những năm 1970, và nó nay đã biến mất mãi mãi."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "On which island did the Javan Tiger live?",
+      "question_type": "single",
+      "options": ["Borneo", "Sumatra", "Java", "Bali"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Hổ Java sống trên đảo nào?",
+      "question_type": "single",
+      "options": ["Borneo", "Sumatra", "Java", "Bali"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Why did the Javan Tiger go extinct?",
+      "question_type": "single",
+      "options": ["It could not find enough food in the ocean", "Its forest habitat was cleared for farming", "A disease wiped them out", "It was hunted for its beautiful feathers"],
+      "correct_answers": [1],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Tại sao Hổ Java tuyệt chủng?",
+      "question_type": "single",
+      "options": ["Nó không tìm được đủ thức ăn trên biển", "Rừng môi trường sống của nó bị phá để làm nông nghiệp", "Dịch bệnh xóa sổ chúng", "Nó bị săn vì bộ lông đẹp"],
+      "correct_answers": [1],
+      "sort_order": 1
+    }
+  ]
+}

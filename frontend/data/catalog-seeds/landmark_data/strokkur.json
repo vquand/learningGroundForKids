@@ -1,0 +1,75 @@
+{
+  "category": "landmark",
+  "latitude": 64.3132,
+  "longitude": -20.302,
+  "country_code": "IS",
+  "icon_slug": "landmark",
+  "is_published": true,
+  "location_desc": "Strokkur is Iceland's most active geyser, located in the Haukadalur geothermal valley in southwestern Iceland, erupting every 5 to 10 minutes year-round.",
+  "fun_facts": [
+    "Strokkur erupts every 5 to 10 minutes all day and all night, every single day of the year — it never takes a day off!",
+    "Just before Strokkur erupts, you can see a giant blue bubble of water swell up in the vent — then BOOM, it explodes into a plume up to 40 meters high.",
+    "The word 'geyser' itself comes from Iceland — it comes from the Old Norse word 'gjosa' meaning 'to gush', named after the nearby Great Geysir."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Strokkur Geyser",
+      "filename": "placeholder-landmark.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Strokkur Geyser",
+      "description": "Strokkur is Iceland's most reliable geyser, putting on a spectacular show every few minutes as a blue dome of bubbling water swells up before exploding into a tall jet of steam and scalding water. It erupts around 140 times every single day, making it one of the most active geysers on Earth. Standing at the edge in the icy Icelandic air while boiling water shoots skyward is a thrill like no other.",
+      "history": "Strokkur sits in the Haukadalur valley, a hotbed of geothermal activity powered by Iceland's location directly on the Mid-Atlantic Ridge, where two tectonic plates are slowly pulling apart. The geyser was first documented erupting in the 18th century, though it fell quiet after an earthquake in 1896. Local people drilled into the vent to unblock it in 1963, and it has been erupting faithfully ever since, drawing visitors from all over the world to the famous Golden Circle route."
+    },
+    {
+      "lang": "vi",
+      "title": "Mạch Nước Phun Strokkur",
+      "description": "Strokkur là mạch nước phun đáng tin cậy nhất Iceland, biểu diễn ngoạn mục mỗi vài phút khi một mái nước xanh bong bóng trài lên trước khi nổ tung ra một tia hơi nước và nước bỏng cao. Nó phun khoảng 140 lần mỗi ngày, khiến nó là một trong những mạch nước phun hoạt động mạnh nhất Trái Đất. Đứng bên mép trong không khí lạnh giá của Iceland trong khi nước sôi phun lên trời là một trải nghiệm không gì sánh bằng.",
+      "history": "Strokkur nằm trong thung lũng Haukadalur, một vùng nhiệt địa sôi động được tiếp sức bởi vị trí của Iceland trên Sống Ngăn Cản Đại Tây Dương, nơi hai mảng kiến tạo đang dần dần tách rời nhau. Mạch nước phun này lần đầu được ghi nhận phun vào thế kỷ 18, dù nó im lặng sau một trận động đất năm 1896. Người địa phương đã khoan xuống ống phun để thông tắc vào năm 1963 và từ đó nó phun đều đặn, thu hút du khách từ khắp thế giới đến tuyến Golden Circle nổi tiếng."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Strokkur Geyser is located in which country?",
+      "question_type": "single",
+      "options": ["Norway", "Iceland", "Greenland", "Finland"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Mạch Nước Phun Strokkur nằm ở nước nào?",
+      "question_type": "single",
+      "options": ["Na Uy", "Iceland", "Greenland", "Phần Lan"],
+      "correct_answers": [1],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "How often does Strokkur geyser erupt?",
+      "question_type": "single",
+      "options": ["Once a day", "Every hour", "Every 5 to 10 minutes", "Once a week"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Mạch nước phun Strokkur phun bao lâu một lần?",
+      "question_type": "single",
+      "options": ["Mỗi ngày một lần", "Mỗi giờ", "Cứ 5 đến 10 phút", "Mỗi tuần một lần"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ],
+  "start_year": -10000,
+  "time_precision": "kya"
+}

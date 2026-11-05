@@ -1,0 +1,75 @@
+{
+  "category": "monument",
+  "latitude": 51.1789,
+  "longitude": -1.8262,
+  "country_code": "GB",
+  "icon_slug": "monument",
+  "is_published": true,
+  "location_desc": "Amesbury, Wiltshire SP4 7DE, United Kingdom",
+  "fun_facts": [
+    "Some of the giant stones at Stonehenge were dragged all the way from Wales — about 250 kilometers away — with no wheels or machinery, only human strength!",
+    "The stones are perfectly aligned so that on the longest day of the year, the sun rises exactly through the middle of the monument.",
+    "Nobody knows for certain why Stonehenge was built — it remains one of the world's greatest mysteries even for scientists today."
+  ],
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Stonehenge",
+      "filename": "placeholder-monument.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Stonehenge",
+      "description": "A prehistoric circle of enormous standing stones on Salisbury Plain in England, built over 4,500 years ago and still one of the world's greatest unsolved mysteries.",
+      "history": "Construction of Stonehenge happened in several stages between around 3000 and 1500 BC. Archaeologists believe it was used as a burial site, a place of healing, and a solar calendar."
+    },
+    {
+      "lang": "vi",
+      "title": "Stonehenge",
+      "description": "Một vòng tròn đá khổng lồ thời tiền sử trên đồng bằng Salisbury ở Anh, được xây dựng hơn 4.500 năm trước và vẫn là một trong những bí ẩn vĩ đại chưa được giải đáp của thế giới.",
+      "history": "Việc xây dựng Stonehenge diễn ra qua nhiều giai đoạn từ khoảng năm 3000 đến 1500 trước Công nguyên. Các nhà khảo cổ học tin rằng nó được dùng làm nơi chôn cất, nơi chữa bệnh và lịch dương lịch."
+    }
+  ],
+  "start_year": -3000,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "In which country is Stonehenge located?",
+      "question_type": "single",
+      "options": ["Scotland", "Ireland", "England", "Wales"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Stonehenge nằm ở quốc gia nào?",
+      "question_type": "single",
+      "options": ["Scotland", "Ireland", "Anh", "Wales"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "Approximately how old is Stonehenge?",
+      "question_type": "single",
+      "options": ["1,000 years", "2,000 years", "4,500 years", "10,000 years"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Stonehenge có tuổi đời khoảng bao nhiêu năm?",
+      "question_type": "single",
+      "options": ["1.000 năm", "2.000 năm", "4.500 năm", "10.000 năm"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

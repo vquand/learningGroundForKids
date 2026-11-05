@@ -1,0 +1,59 @@
+{
+ "tile": 72,
+ "frame": {
+  "x0": -3,
+  "y0": -3,
+  "x1": 43,
+  "y1": 23.2
+ },
+ "layers": {
+  "spring-back": {
+   "x": -3,
+   "y": -3,
+   "width": 46,
+   "height": 26.1944
+  },
+  "spring-front": {
+   "x": -3,
+   "y": 19.8194,
+   "width": 46,
+   "height": 3.375
+  },
+  "summer-back": {
+   "x": -3,
+   "y": -3,
+   "width": 46,
+   "height": 26.1944
+  },
+  "summer-front": {
+   "x": -3,
+   "y": 19.7917,
+   "width": 46,
+   "height": 3.4028
+  },
+  "autumn-back": {
+   "x": -3,
+   "y": -3,
+   "width": 46,
+   "height": 26.1944
+  },
+  "autumn-front": {
+   "x": -3,
+   "y": 19.7917,
+   "width": 46,
+   "height": 3.4028
+  },
+  "winter-back": {
+   "x": -3,
+   "y": -3,
+   "width": 46,
+   "height": 26.1944
+  },
+  "winter-front": {
+   "x": -3,
+   "y": 19.8333,
+   "width": 46,
+   "height": 3.3611
+  }
+ }
+}

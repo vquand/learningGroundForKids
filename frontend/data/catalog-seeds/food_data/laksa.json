@@ -1,0 +1,70 @@
+{
+  "category": "food",
+  "latitude": 1.3521,
+  "longitude": 103.8198,
+  "country_code": "SG",
+  "icon_slug": "food",
+  "is_published": true,
+  "recipe": "Blend together shallots, garlic, lemongrass, and chili into a spice paste. Fry the paste in a pot with oil, then pour in coconut milk and chicken broth. Add cooked rice noodles, prawns, and tofu puffs. Simmer for 5 minutes and serve in a big bowl with a sprinkle of fresh herbs on top!",
+  "media": [
+    {
+      "media_type": "image",
+      "label": "Laksa",
+      "filename": "placeholder-food.jpg"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "title": "Laksa",
+      "description": "Laksa is a rich and spicy noodle soup from Singapore, made with creamy coconut milk broth, rice noodles, and toppings like prawns and tofu. It has a warm, tingly flavour that makes it one of Singapore's most beloved comfort foods!",
+      "history": "Laksa was created when Chinese immigrants settled in Southeast Asia and blended their noodle-cooking traditions with local Malay spices and coconut milk. Singapore's version, called Katong Laksa, is now famous all over the world."
+    },
+    {
+      "lang": "vi",
+      "title": "Laksa",
+      "description": "Laksa là một món bún nước cốt dừa đậm vị cay từ Singapore, làm với nước dùng kem, bún gạo và các topping như tôm và đậu hũ. Nó có vị ấm áp, tê tê làm cho nó trở thành món ăn yêu thích của người Singapore!",
+      "history": "Laksa ra đời khi người Hoa nhập cư vào Đông Nam Á và kết hợp truyền thống nấu bún của họ với gia vị Mã Lai và nước cốt dừa địa phương. Phiên bản của Singapore, gọi là Katong Laksa, hiện nổi tiếng khắp thế giới."
+    }
+  ],
+  "start_year": 1500,
+  "time_precision": "century",
+  "quiz_questions": [
+    {
+      "group": 0,
+      "lang": "en",
+      "question": "Which country is Laksa most associated with?",
+      "question_type": "single",
+      "options": ["Malaysia", "Thailand", "Singapore", "Indonesia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 0,
+      "lang": "vi",
+      "question": "Laksa gắn liền với quốc gia nào nhất?",
+      "question_type": "single",
+      "options": ["Malaysia", "Thái Lan", "Singapore", "Indonesia"],
+      "correct_answers": [2],
+      "sort_order": 0
+    },
+    {
+      "group": 1,
+      "lang": "en",
+      "question": "What gives Laksa its rich, creamy broth?",
+      "question_type": "single",
+      "options": ["Milk", "Cream", "Coconut milk", "Yogurt"],
+      "correct_answers": [2],
+      "sort_order": 1
+    },
+    {
+      "group": 1,
+      "lang": "vi",
+      "question": "Điều gì tạo nên nước dùng kem béo của Laksa?",
+      "question_type": "single",
+      "options": ["Sữa", "Kem tươi", "Nước cốt dừa", "Sữa chua"],
+      "correct_answers": [2],
+      "sort_order": 1
+    }
+  ]
+}

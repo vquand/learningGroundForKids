@@ -1,0 +1,13 @@
+.item-detail-backbar.kid-nav { position: sticky; top: 0; z-index: 40; display: flex; background: #fffdf8; }
+.item-detail-titlebar { position: sticky; top: 64px; z-index: 30; }
+.item-detail-heading { display: flex; align-items: center; gap: 12px; }
+.item-detail-heading h1 { display: flex; flex: 1; align-items: center; gap: 8px; min-width: 0; margin: 0; font-size: clamp(22px, 3vw, 30px); }
+.item-detail-heading h1 > span:last-child { min-width: 0; overflow-wrap: anywhere; }
+.item-detail-titlebar { background-color: #fffdf8; }
+.item-completion-medal { display: inline-flex; width: 32px; height: 40px; flex: none; }
+.item-completion-medal svg { width: 100%; height: 100%; }
+@media (max-width: 480px) {
+  .item-detail-heading { gap: 8px; }
+  .item-detail-titlebar { padding: 10px 12px; }
+  .item-completion-medal { width: 28px; height: 34px; }
+}
