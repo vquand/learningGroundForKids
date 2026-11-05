@@ -1,321 +1,174 @@
-# PersonalLearningGround
+# Playing Ground
 
-An interactive world-map app for kids to explore Monuments, Landmarks, Food, Music, and Movies — in Vietnamese and English.
+A bilingual (Vietnamese and English) learning playground for kids. Children explore
+a world map of monuments, food, music, animals and more, then play educational
+minigames that practice math, spelling, logic and everyday skills. Parents manage
+the family, set lessons and schedules, and follow each child's progress.
 
-Designed as a production web application with a separately deployable frontend,
-API, and database.
+> **License:** free for personal, non-commercial use. See [License](#license).
 
-## What it does
+## What is inside
 
-- **World map** with illustration-style tiles, touch-friendly gestures (pinch-zoom, finger scroll)
-- **Category filters**: Monuments, Landmarks, Food, Music/Composer, Movies, Phenomena, Animals
-- **Zoom clustering**: count bubbles at low zoom → individual icons at high zoom → tap to open detail
-- **Detail pages** per category with photos, descriptions, recipes, fun facts, audio clips, YouTube embeds, character cards
-- **Bilingual content**: items support Vietnamese and/or English with a language toggle
-- **Era timeline**: scrubber bar groups items by historical era; tap to filter by year
-- **Done tracking**: compound gate (15s on page + scroll coverage + media interaction)
-- **Child profiles** with independent progress tracking and badge milestones
-- **Quizzes**: per-item quizzes and a daily mixed quiz across completed items
-- **Journey replay**: animated great-circle path over completed items
-- **Telegram bot** for content management with AI-assisted research
+### Explore the world
+- **World map** with illustration-style tiles, touch gestures and zoom clustering.
+- **Categories:** monuments, landmarks, food, music, movies, phenomena and animals.
+- **Detail pages** with photos, descriptions, fun facts, audio and video, in Vietnamese
+  and English.
+- **Era timeline** to filter items by period, and a **journey replay** that animates a
+  path over what a child has learned.
+- **Done tracking** (time on page, scroll coverage and media use) so progress means
+  something, plus **item quizzes**, a **daily quiz** and **flashcards**.
 
-## Stack
+### Playground minigames
+| Minigame | What it practices |
+|---|---|
+| Town Building | Build a town, garden, keep animals, use the lake and trade with friends |
+| InfiniDrill | Mine down through the earth while solving visual math |
+| Waddle Wall | Fast calculation with animal hurdles |
+| Shoo Shoo UFO | Bilingual spelling and word defense |
+| Miniku | Kid-friendly 4x4 and 6x6 Sudoku |
+| Fishing Friends | Pond and river animals and ecology |
+| Road Racing | Answer questions to clear obstacles and earn speed boosts |
+| Kitchen and Cooking | Recipes, drinks, burgers and cabbage rolls |
+
+Every minigame has its own **achievement badges**. Scores, answers and completion are
+verified on the server, never trusted from the browser.
+
+### Families and parents
+- **Family accounts** with password, passkey or Google sign-in, and several **child
+  profiles** with avatars and independent progress.
+- **Parent Space:** child reports and badge progress, custom lessons, a family
+  calendar, and a weekly **adventure schedule** that limits when kids can play.
+- **Friends** between families and profiles using friend codes and requests.
+- **Admin tools** for catalog review, achievement migration and family overviews.
+- **Privacy by design:** no real names, phone numbers or addresses are required.
+
+## Tech stack
 
 | Layer | Tech |
-|-------|------|
-| Frontend | React 19 + Vite + TypeScript + Tailwind CSS v4 on Vercel |
-| Backend | Node.js 22 + Hono API on Render |
-| Database | Neon PostgreSQL via Drizzle ORM |
-| Auth / User data | Backend-owned, secure cookie sessions |
-| Map | Leaflet 1.9 + react-leaflet 5 + react-leaflet-cluster |
-| Media | Private S3-compatible object storage behind the API |
+|---|---|
+| Frontend | React 19, Vite, TypeScript, Tailwind CSS v4, Zustand |
+| Maps and globe | Leaflet with clustering, CesiumJS |
+| API | Node.js 22, Hono, TypeScript (strict) |
+| Database | PostgreSQL (Neon in production) with Drizzle ORM |
+| Auth | Server-owned secure cookie sessions, WebAuthn passkeys, optional Google |
+| Media | Private S3-compatible object storage, served through the API |
+| Hosting | Vercel (frontend), Render (API), Neon (database) |
 
-## Getting started
+Browser requests stay same-origin: Vercel rewrites `/api/*` and `/media/*` to the
+API, which owns authentication and data access. The browser never talks to the
+database directly.
 
-**Requirements:** Node.js 22+.
+## Quick start
 
-1. Install the frontend and server dependencies:
+**Requirements:** Docker with Compose (easiest) or Node.js 22 and PostgreSQL.
 
-```bash
-npm ci --prefix frontend
-npm ci --prefix server
-```
-
-2. Copy the example environment files and supply local PostgreSQL and object
-   storage credentials. Then start the API and the Vercel-mode frontend in
-   separate terminals.
-
-```bash
-npm run dev --prefix server
-npm run dev --prefix frontend -- --mode vercel
-```
-
-The Vite development server proxies `/api/*` and `/media/*` to
-`LOCAL_API_ORIGIN` (default `http://127.0.0.1:10000`).
-
-Set `APP_NAME` in `frontend/.env.local` or the frontend build environment to
-customize the browser-tab title. Unset or blank values use `Playing Ground`.
-Restart the development server or rebuild the frontend after changing it.
-
-### No-login local UAT
-
-For a fast review of the map and journey replay, start the frontend in its
-Vercel-compatible local mode:
-
-```bash
-npm run dev:uat --prefix frontend -- --host 127.0.0.1 --port 5173
-```
-
-Open <http://127.0.0.1:5173/uat/map>. This development-only route uses the
-checked-in catalog and a deterministic replay fixture, so it does not require
-an account, API, database, or writes. Production builds redirect `/uat` back
-to the normal app entry point.
-
-### One-command Docker development
-
-With Docker and Docker Compose installed, start the active frontend, Node API,
-and isolated PostgreSQL database from the repository root:
+### Docker (recommended)
 
 ```bash
 scripts/start-uat.sh
 ```
 
-The launcher always uses frontend port **5173** and API port **10000**. It reuses
-a healthy running stack or starts Docker, waits for database/API readiness, and
-checks Vite compilation of the activity/game modules, the frontend proxy and a
-login POST. The frontend image and its read-only development mounts include
-`server/src`, because games import shared pure logic/types from that tree.
-If an unrelated service occupies a
-required port, it reports the conflict without killing the service. It keeps
-existing data and accounts. To replace a partial native stack, it stops only
-recognizable Node/Vite listeners from this checkout. Docker uses its own
-database volume and adopts existing native accounts only when that volume has no user records.
-Docker services remain running after the command exits.
+This starts the frontend on <http://localhost:5173>, the API on port 10000 and an
+isolated local PostgreSQL, applies migrations, seeds the catalog and runs health
+checks. Source edits in `frontend/src` and `server/src` reload automatically. Stop it
+with `docker compose -f compose.dev.yml down` (your local data is kept).
 
-On startup, if the original running `plg-dev-postgres` local container is
-present and Compose has no user records, the launcher imports that local
-database before starting the API. Accounts, password hashes, passkeys, profiles,
-towns and progress are preserved; credentials are not reset. Import uses local
-PostgreSQL sockets and one atomic restore. It never replaces a Compose database
-with existing user records or accesses a hosted database. This also repairs
-an already-running empty stack. The import helper can be run directly as
-`scripts/import-native-dev-db.sh`, followed by `scripts/start-uat.sh`.
-If the original container is stopped, start it first.
-
-For Codex, approve the scoped `scripts/start-uat.sh` command and save the approval
-when offered. The launcher's startup, health checks, and failure logs then use
-one invocation. Managed policies can still require approval; repository guides
-cannot grant sandbox permissions. See the [OpenAI command rules documentation](https://learn.chatgpt.com/docs/agent-configuration/rules).
-
-The underlying Docker command remains
-`docker compose -f compose.dev.yml up --build -d --wait`.
-
-Open <http://localhost:5173>. The API is available on
-<http://localhost:10000/api/v1/health/ready>. Source edits in `frontend/src` and
-`server/src` reload automatically. Rebuild after changing dependencies or other
-unmounted configuration files. No host Node installation or environment file is
-required.
-
-Startup waits for PostgreSQL, applies migrations, seeds the checked-in catalog,
-then waits for API readiness before starting Vite, using Compose's
-[dependency conditions](https://docs.docker.com/compose/how-tos/startup-order/).
-The guard refuses hosted database URLs. This stack uses its own `plg-dev_pgdata`
-volume; it does not access the native `plg-dev-postgres` database or Neon. The
-development database credentials are local-only. PostgreSQL has no published
-host port, and the frontend and API ports bind to loopback.
-
-Create a local admin once with a password of at least 12 characters. In Bash,
-read the password without displaying it or saving it in shell history:
+Self-registration is off by default. Create a local admin with a password of at
+least 12 characters:
 
 ```bash
-read -r -s -p 'Local admin password: ' PLG_DEV_PASSWORD
-printf '\n'
+read -r -s -p 'Local admin password: ' PLG_DEV_PASSWORD; printf '\n'
 printf '%s' "$PLG_DEV_PASSWORD" | docker compose -f compose.dev.yml run --rm -T --no-deps \
   -e BOOTSTRAP_EMAIL=dev@example.test -e 'BOOTSTRAP_NAME=Local Dev Admin' \
   api node --import /app/docker/dev/local-db-guard.mjs --import tsx scripts/bootstrap-family.ts
 unset PLG_DEV_PASSWORD
 ```
 
-Private upload storage and external AI/Google providers require separate runtime
-configuration; they are not provisioned by this local stack. Registration remains
-disabled. For a review without an account, use <http://localhost:5173/uat/map>.
+### No-login map preview
 
 ```bash
-docker compose -f compose.dev.yml logs -f api frontend
-docker compose -f compose.dev.yml down  # retains the local database
-node --test docker/dev/local-db-guard.test.mjs
+npm ci --prefix frontend
+npm run dev:uat --prefix frontend -- --host 127.0.0.1 --port 5173
 ```
 
-If native servers already occupy the default ports, set `PLG_DEV_FRONTEND_PORT`
-and `PLG_DEV_API_PORT` for every Compose command, for example
-`PLG_DEV_FRONTEND_PORT=15173 PLG_DEV_API_PORT=11000 docker compose -f compose.dev.yml up --build -d --wait`.
-The frontend origin allowlist and passkey origin follow the chosen frontend port.
-Passkey UAT should use `localhost`.
+Open <http://127.0.0.1:5173/uat/map>. It uses the checked-in catalog, so no account,
+API or database is needed.
 
-### Native local PostgreSQL setup
-
-The local API uses an ignored `server/.env_dev` file. Start a dedicated
-PostgreSQL container bound to loopback, then copy
-[`server/.env_dev.example`](server/.env_dev.example) to `server/.env_dev`.
-The example credentials are for local development only; never reuse them on a
-shared or hosted database.
+### Native development
 
 ```bash
-docker run -d --name plg-dev-postgres -p 127.0.0.1:55432:5432 \
-  --mount type=volume,source=plg-dev-pgdata,target=/var/lib/postgresql/data \
-  -e POSTGRES_USER=plg_dev -e POSTGRES_PASSWORD=plg_dev_local_only \
-  -e POSTGRES_DB=plg_dev postgres:17-alpine
-docker exec plg-dev-postgres createdb -U plg_dev plg_test
-cp server/.env_dev.example server/.env_dev
+npm ci --prefix frontend && npm ci --prefix server
+cp server/.env_dev.example server/.env_dev     # local-only credentials
 npm run db:migrate:local --prefix server
 npm run db:seed:local --prefix server
+npm run dev:local --prefix server              # API on 127.0.0.1:10000
+npm run dev --prefix frontend -- --mode vercel # site on 127.0.0.1:5173
 ```
 
-To create an admin for local login, set `BOOTSTRAP_EMAIL`, `BOOTSTRAP_NAME`,
-and a unique `BOOTSTRAP_PASSWORD` in the ignored `server/.env_dev`, then run
-`npm run db:bootstrap:local --prefix server` once. Start the API with
-`npm run dev:local --prefix server` and the site with
-`npm run dev --prefix frontend -- --mode vercel --host 127.0.0.1`.
-Open `http://127.0.0.1:5173/`. The API is on `127.0.0.1:10000`.
+Local scripts refuse non-local database URLs. See `server/.env_dev.example` for a
+dedicated PostgreSQL container command.
 
-`npm run test:local --prefix server` runs the full server suite against the
-separate `plg_test` database. The integration test resets that test database;
-it does not reset `plg_dev`. Local scripts refuse nonlocal database URLs.
-
-To add content through the backend rather than writing directly to Neon, use
-the admin-only [catalog ingestion API](docs/api/catalog-ingestion.md). It is
-usable by a human or an AI agent through the existing secure admin session
-cookie flow.
-
-For a dedicated root account with a generated initial password, independent
-Render recovery password, and root-only password dialog, follow the
-[root initialization and recovery guide](docs/api/root-account.md). The
-`db:init-root` data migration is explicit and idempotent; it is not run on deploy.
-
-## Production hosting
-
-The frontend deploys to Vercel as a static Vite SPA. Same-origin `/api/*` and
-`/media/*` requests are rewritten to the Render service, so the core browser
-path never connects directly to Neon or object storage. Render owns core
-authentication, authorization, data validation, database access, and media
-access. Quiz, flashcard, and friend-request traffic now uses the Render API.
-Profile extras, the recent-activity feed, parent, and admin clients also use
-same-origin API routes. Production readiness still requires migration UAT.
-
-Family-level lesson shares are enforced by the Render API. Profile-only shares
-currently fail closed on family-scoped routes; enabling them requires a later
-API slice that verifies the active profile belongs to the signed-in family.
-Do not treat this branch as ready for production cutover.
-
-Build each deployable independently:
+## Testing
 
 ```bash
+npm test --prefix frontend
+npm run typecheck:hosting --prefix frontend
 npm run build --prefix frontend
+npm test --prefix server
+npm run typecheck --prefix server
 npm run build --prefix server
 ```
 
-Apply database migrations from a trusted release environment using Neon's
-direct connection string, then run the catalog seed utility. Runtime traffic
-uses Neon's pooled connection string.
+Some art-source tests are skipped when the local-only `art/` folder is absent.
 
-```bash
-npm run db:migrate --prefix server
-npm run db:seed --prefix server
-npm run db:bootstrap --prefix server
-```
+## Deploying your own copy
 
-The bootstrap command requires `BOOTSTRAP_EMAIL`, `BOOTSTRAP_NAME`, and a
-password supplied through `BOOTSTRAP_PASSWORD` or standard input. It refuses
-duplicate accounts and does not accept credentials as command-line arguments.
+1. **Database:** create a PostgreSQL database. Run `npm run db:migrate --prefix server`
+   with the direct connection string, then `npm run db:seed --prefix server`. Runtime
+   traffic uses the pooled connection string.
+2. **API:** deploy `server/` (see [`render.yaml`](render.yaml)). Set `DATABASE_URL`,
+   `DATABASE_URL_UNPOOLED`, `ALLOWED_ORIGINS`, `ALLOWED_FORWARDED_HOSTS` and your
+   object-storage variables. See [`server/.env.example`](server/.env.example) and
+   `server/.env.staging.example`. Registration stays off until `ALLOW_REGISTRATION=true`.
+3. **Frontend:** deploy `frontend/` and set `RENDER_API_ORIGIN` to your API URL.
+4. **Make it yours:** replace the placeholder contact address in
+   `frontend/src/components/Landing/legalContent.ts` (and the Vietnamese entries in
+   `frontend/src/i18n/vi.json`), set `MET_USER_AGENT` for weather requests, and have
+   the privacy policy and terms reviewed for your country.
 
-Family self-registration is controlled by the API's `ALLOW_REGISTRATION`
-setting and remains disabled by default. When enabled in the server runtime,
-the sign-in page offers **Create a family account** at `/register`. The form
-requires a family name, email, and a password of at least 12 characters.
-`GET /api/v1/auth/registration` supplies the public availability flag; the
-server still enforces the setting on every registration POST.
+Never put database, session or storage credentials in `VITE_*` variables or in
+source control.
 
-Authentication quotas use the Node socket peer. For a deployment behind verified
-ingress proxies, configure `AUTH_TRUSTED_PROXY_CIDRS` with their exact IPs/CIDRs
-alongside `TRUST_PROXY_HEADERS=true`. The API walks the forwarded chain from
-the socket toward the client and stops at the first untrusted address. Empty
-proxy ranges ignore forwarded IPs; confirm the ingress chain before changing
-this runtime setting. Do not copy broad private-network or catch-all ranges.
-
-The previous Sites Worker/D1 implementation and the former Python and Go
-backends remain as migration references only; they are not production runtimes.
-
-## Environment variables
-
-For a staging setup, use the checked-in
-[`server/.env.staging.example`](server/.env.staging.example) and
-[`frontend/.env.staging.example`](frontend/.env.staging.example) as worksheets.
-The corresponding `.env.staging` files are Git-ignored private copies. Render
-and Vercel do not automatically read those local copies: enter the filled
-values in each platform's environment settings. Never put production secrets
-or production database URLs in these staging files.
-
-**`server/.env`:**
-
-```bash
-DATABASE_URL=postgresql://...-pooler.../neondb?sslmode=require
-DATABASE_URL_UNPOOLED=postgresql://.../neondb?sslmode=require
-ALLOWED_ORIGINS=http://localhost:5173
-ALLOWED_FORWARDED_HOSTS=localhost
-TRUST_PROXY_HEADERS=false
-ALLOW_REGISTRATION=false
-# S3-compatible private object storage variables are documented in server/.env.example.
-```
-
-**Vercel project environment:**
-
-```bash
-RENDER_API_ORIGIN=https://your-api.onrender.com
-```
-
-Do not expose database, session, or object-storage credentials through
-`VITE_*` variables. Only browser-safe values belong in frontend environment
-variables.
-
-## Project structure
+## Repository layout
 
 ```
-frontend/         React/Vite SPA and Vercel routing configuration
-  data/            Catalog fixtures and public-image provenance mappings
-    catalog-seeds/  Authored JSON seeds for all seven categories
-  scripts/         Content generation and transitional D1 tooling
-  src/
-    api/          same-origin `/api/v1` clients
-    components/   Map, ItemDetail, Quiz, Journey, DoneTracking, ...
-server/           Render-compatible Node/Hono API
-  src/db/         Neon/Drizzle schema and repositories
-  drizzle/        PostgreSQL migrations
-  scripts/         Neon catalog seed and one-shot account bootstrap commands
-compose.dev.yml   Active local PostgreSQL, API, and frontend stack
+frontend/         React/Vite app and Vercel routing
+  src/features/   Minigames, parent space, achievements
+  src/components/ Map, item detail, quizzes, journey, calendar, landing
+  data/           Catalog seeds and image provenance
+server/           Hono API
+  src/            Auth, catalog, quizzes, achievements, minigame rules
+  drizzle/        Database migrations
+docs/             Plans, decisions and API guides
+wikis/            Architecture, requirements, database and minigame notes
+scripts/          Local launch and repository checks
+compose.dev.yml   Local PostgreSQL, API and frontend stack
 ```
 
-## Development status
-
-| Phase | Description | Status |
-|-------|-------------|--------|
-| 1 | Foundation — Docker, map, clustering, filters | ✅ Complete |
-| 2 | Content Layer — detail pages, bilingual, done tracking | ✅ Complete |
-| 3 | Profiles, badges, quiz, journey | ✅ Complete |
-| Vercel/Render/Neon production architecture | Frontend, API, PostgreSQL, auth, and media boundaries | 🚧 In progress |
+Start with [`wikis/index.md`](wikis/index.md) for architecture and minigame notes,
+[`docs/plans/`](docs/plans/) for design history, and the `AGENTS.md` files for
+contributor conventions. Original art sources and generation prompts are not part of
+this repository, so a few notes point to files you will not find here.
 
 ## License
 
 Free to use, copy, modify and fork for **personal, non-commercial use** under the
-[PolyForm Noncommercial License 1.0.0](LICENSE). Commercial use (selling it, offering
-it as a paid or ad-supported service, or using it inside a business) is not permitted
-without separate permission. This is a source-available license, not an OSI-approved
-open-source license. Bundled third-party libraries and data keep their own terms; see
-`frontend/public/legal/third-party-notices.txt`.
-
-Before running your own copy, replace the placeholder contact address in
-`frontend/src/components/Landing/legalContent.ts` (and its Vietnamese entries in
-`frontend/src/i18n/vi.json`), set `MET_USER_AGENT` for weather requests, and have the
-privacy policy and terms reviewed for your country.
+[PolyForm Noncommercial License 1.0.0](LICENSE). Commercial use, such as selling it,
+running it as a paid or ad-supported service, or using it inside a business, is not
+permitted without separate permission. This is a source-available license, not an
+OSI-approved open-source license. Bundled third-party libraries and data keep their
+own terms; see `frontend/public/legal/third-party-notices.txt`.
 
 ## Support
 
